@@ -14,3 +14,11 @@
 }
 @media(max-width:520px) and (max-height:700px){.kalah-board{grid-template-rows:28px 52px 52px 28px}.seeds{gap:2px}.seeds i{width:5px;height:7px}.stage-foot{font-size:8px}.morris-board{width:min(100%,calc(100dvh - 350px))}}
 @media(min-width:521px) and (max-width:900px) and (max-height:550px){.shell{padding:10px}.header{margin-bottom:8px}.back{margin-bottom:3px}.heading .emblem,.subtitle,footer,.journal,.guide{display:none}h1{font-size:22px}.layout{grid-template-columns:minmax(0,1fr) 245px;gap:10px}.side{display:block}.stage{padding:10px}.scores{padding:2px 0}.score{padding:4px}.playfield{min-height:0}.kalah-board{grid-template-columns:30px repeat(6,minmax(0,1fr)) 30px;grid-template-rows:68px 68px;gap:9px 5px;padding:12px 8px}.kalah-direction{margin:3px 0 7px}.store strong{font-size:22px}.morris-board{width:min(100%,calc(100dvh - 205px))}.point{width:30px;height:30px}.point.empty:before{inset:11px}.point.destination:before{inset:9px}.status-row{min-height:28px}.panel{padding:12px}.phase{margin-bottom:10px}}
+
+/* Short desktop windows: reserve a 25px margin against font/line rounding.
+   Keep board size and controls unchanged; tighten only outer whitespace. */
+@media(min-width:801px) and (min-height:551px) and (max-height:780px){
+ .shell{padding-top:12px;padding-bottom:12px}
+ .header{margin-bottom:12px}
+ footer{margin-top:12px}
+}
