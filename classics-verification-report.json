@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "build": "20261002-classics-500",
+  "build": "20261002-classics-501",
   "registryCount": 47,
   "newGames": 10,
   "levelsPerGame": 50,
@@ -57,13 +57,13 @@
       ],
       "files": {
         "README.md": "7291463d47e2b90db998d6109db51480ee8bf87c88cdf44993b02ca781634b8c",
-        "app.js": "29d0628de72e7c18cec0d3b99266eb7fd18630c72a047c12438917a0695178cc",
+        "app.js": "febc31fe2e2637d0370dfd0c9fc011d033bf86c5f53919823c23d818cd4579c4",
         "engine.js": "74542de741a895f8592c2f704afac987471043bea7d1118e46bb757cf3470788",
         "generate.py": "fa3ff64384589b1abf52ea2c5142e5b93e328b08ac5a597c20cb4a3becf9880a",
         "levels.js": "45071d70abb532e80458611d2aba6ef710626c0f08f4fa7157d5f8ebf4abd989",
         "levels.json": "c53064150c3a514ea0d2863869b7448b82dce7f4637b009b80699957a9aed5b0",
         "style.css": "413c188a8bafc298a3ce482abd049bcf8dff263a101f234a3e9ca53d46bc0e7a",
-        "test-ui.cjs": "0b01fd74752f9621ee25b44c171278909d75aca28d7184f30d27b3fe85d68f5d",
+        "test-ui.cjs": "05fd674a400bc8dd2ce7c2cd894bc9b4b399088d5d82d38157c775b173500323",
         "test.cjs": "6e798ace7956adf3c1970a5f01e8737282f4cf2d1743bef358f6d41d4f5e6ddc",
         "verification.json": "8044cb8dff526095c6f5d9737cc487de174c241fb441e6f12abe6015984ea4e9",
         "verify.py": "468df386483928976bead0ca370869156a145984ef33c92cc02662a9731aeaba"
@@ -571,7 +571,7 @@
           "logicalSteps": 56
         }
       ],
-      "entrySHA256": "6f97d1efba04d4c6b5b6880e6ea761fdd2ce4e09acf1720b9fb3048fe0d1bf1e",
+      "entrySHA256": "c8965ca7cc87e8a584948e0d1b1bc32fe3894270bd0bc43fc2ea32ea54ab5002",
       "finalVerification": "Independent verifier rerun after its final documented-source edit; all 50 unique counts passed."
     },
     {
@@ -4491,9 +4491,9 @@
         }
       ],
       "files": {
-        "README.md": "99524af8c7dc97de435146bcc2ab6cd32f7b1382c21b8cb8af7b0cf734370721",
+        "README.md": "8f637a7221fe28bd2415357043e7bbbacbe13e36b3cf035abfddfe6b823478ec",
         "app.js": "aa3ea059b00a8a3337e0db1fc903d430b5b5eac9c7de6e0c2213bb5e1acaed1a",
-        "asset-manifest.json": "6ea066761b11e125c7a684e7a5c4ffd4c266afeeecc5e4e8f042c93cfc1c9b1a",
+        "asset-manifest.json": "dc2a694e9e78fa7b2cd979e2e91dc8505aaac8ee41558cb8e2fac414127a18c9",
         "dom-harness.cjs": "3060000f6aedac398fce7db2d6509740906e32835e2f0e7843d047f0a3171344",
         "engine.js": "78d90dea6215a79a9d1b20feb8af73ebe42abbade251bcea8d31e0dad77e4d6d",
         "generate.py": "cdb4e3399bf227233a4219f993d5aa0dd0f6c9ac780135c5a26e85cfbb697d80",
@@ -4501,9 +4501,9 @@
         "generation.log": "9f486a32ee0a64ac871cf90942f83b34167649ba81ea6d561e7b5cc9235c1e0d",
         "levels.js": "4eee85d39da9c631010f411442912a25f300681a92f46686c4009d57e420e608",
         "levels.json": "820fd8c6a42f9d60b8adf14c8f028236131a2da3c1bd053ab288b7e198ed805f",
-        "style.css": "d901f90450d04e952d5436006e00b42a6ab883738ab6817fcb77f5919f33fa41",
-        "test-report.json": "af8adb4c5bbe798cf64b583720164d14af50fd10270c3070da0b504f9c91d06a",
-        "test.cjs": "9f8f42dd36e473dba1a7bbd38b352b1031bd06e95d956a7f44702cf99432fdb6",
+        "style.css": "9ba0f7bbd8b55e70c69a5b33e8d02e4139c7bc0b43814014632c2ca896b67e9a",
+        "test-report.json": "2e957c004784450f698e543b51b68b9bbba65c01e0b069020e3f7d54c6c49ba2",
+        "test.cjs": "5947e67eb1e538dcc849c8e0a1dcee419067605386173e91921693963281e835",
         "verification-report.json": "45f73d46fba1e326458c898707ca0e1f886be7e3632ffdad3788f45147d8f53b",
         "verification.log": "e781da2fee675e1c7baaf8606eff40b8a6766762242a46f6f552ed2ab1ee7387",
         "verify.py": "b7f252bef729da2a113caac0cccaffc55dbc70496de50b21bc39d039ac3aa34f"
@@ -4861,7 +4861,7 @@
           "nodes": 53
         }
       ],
-      "entrySHA256": "8616d56c132156d2414895b0102bedf8beec34c1405f3002c7aa96d78f032bdf"
+      "entrySHA256": "5304bb40b7ce8cfe67e200857ee61d14ac45b1903282fff4c6804ee0b0b5597c"
     },
     {
       "game": "star-battle",
@@ -4883,9 +4883,9 @@
         }
       ],
       "files": {
-        "README.md": "dc723db2204c3d6d8a3f3ed126fb27045664549a86a8ca84cc1f50242759b8ae",
+        "README.md": "0fe95832003ee72552ea6820ab34b1db8556e6a195a02f67d59098110ce3cc2c",
         "app.js": "d30dd872551d776e9872d2e647123660ae5db34753912ad99ee730163d2dec34",
-        "asset-manifest.json": "009cd1f6b8a4a0642392d04df4d187a9aaf64a64c0a30dddc6a952b835a82c9d",
+        "asset-manifest.json": "50e24d6f75be86aa5d52efbb01eab8fb58520fe8d42577e68b02b92bc290c963",
         "dom-harness.cjs": "3060000f6aedac398fce7db2d6509740906e32835e2f0e7843d047f0a3171344",
         "engine.js": "1831b071e6c6b7925766b6988213c99a5eb87a280968e781f5ff020f37901b46",
         "generate.py": "5be049e770048554bc32b46bbba950aff8888f48173f8b9934ed589cca4a3c10",
@@ -4893,9 +4893,9 @@
         "generation.log": "f4a25d9e82176b3beb94d897cb1cd95ae52a746dd245963b12c1100d72daaaed",
         "levels.js": "1187cac185c8cb49c396e9b58eefdca1b9ad12796596296c0ec919035248ffd9",
         "levels.json": "36a0a2f8ee7e0e34388abfd45467c075ef5eaf019f1481aa366abf375b4ddb0f",
-        "style.css": "1ac0ca5dbcb86b1b54c5a8a5089292a95c9d17ee70702ae9f7359a18a26fe1a2",
-        "test-report.json": "7d86741a997f952b2d17c082c1f84b438b4c1a8b1eeb30fff47e0f9dfceedd15",
-        "test.cjs": "363c3bcdc208d1f8ab5929e5b6ab3753af68a8093b44f628cd56b4a2a3303983",
+        "style.css": "add320ff2bee4a6aeb43a2bd856e1a38fcac8cea0d7c3904f5e6ebd6d9c621d4",
+        "test-report.json": "94ff545dcf2bf977e59083b4e6cafeb2301844c3659239d5e744e538f9d8239d",
+        "test.cjs": "3e90f9928de6589109e3963d753154ef3401994803aed71ced31e6ed253fb006",
         "verification-report.json": "dd59da319b30dc9433cbdb7fb0cf1fddcfdfa737dd1acb12e70132eed71f8173",
         "verification.log": "b508a4eb9fe022c3f6a6f97434a98e009d5c65a8b1208bc398ea797a329c7723",
         "verify.py": "cdfbc16dbf583712c4811d4a9f12975b8cab8b8846e0859731729e13c1f0b98b"
@@ -5253,7 +5253,19 @@
           "nodes": 246
         }
       ],
-      "entrySHA256": "32d9ac8dab5f4748811b75cb9c539b6c85e1fa83ecc31bf25e4b5a48706dd8af"
+      "entrySHA256": "8b89faff553ae64f746495f59e917e1237cdab89831a012afdfd3477bd5617b9"
     }
-  ]
+  ],
+  "postDeploymentPolish": {
+    "changes": [
+      "Sudoku stale conflict helper refresh regression",
+      "Numberlink and Star Battle desktop vertical spacing and stylesheet cache keys"
+    ],
+    "focusedControllerSuites": [
+      "sudoku",
+      "numberlink",
+      "star-battle"
+    ],
+    "levelDataUnchanged": true
+  }
 }
