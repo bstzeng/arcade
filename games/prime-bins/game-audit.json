@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "prime-bins",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "prime-bins",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "assignment"
+  ],
+  "sources": [
+    {
+      "path": "games/prime-bins.html",
+      "sha256": "7c79ab90f3adeace25aa0c8e011a782f8c6bfb1e65d85f6cf940fa37149cd6be"
+    },
+    {
+      "path": "games/prime-bins/README.md",
+      "sha256": "6760772fecc81aa80b6288c0dfa3462a85d50dc7be06c8988cfd57f8050218aa"
+    },
+    {
+      "path": "games/prime-bins/app.js",
+      "sha256": "aa424ebeefcb7671a2116b40ef43075a2afe653ec1b044454bd5f94c2d25ffc7"
+    },
+    {
+      "path": "games/prime-bins/boundary-tests.cjs",
+      "sha256": "d51969e32fd6be845c6177d9c668f91024b3068b7c292b3daf5bc690e3cb546f"
+    },
+    {
+      "path": "games/prime-bins/controller-tests.cjs",
+      "sha256": "ec87533d64e5193ede61cb3664c33b06fdb505904a4b8f49fb420fecbac52006"
+    },
+    {
+      "path": "games/prime-bins/engine.js",
+      "sha256": "54210a3d3ce6137e052b77100f3f226628cb8c122e8c1fb4f3d8599daf03bf2b"
+    },
+    {
+      "path": "games/prime-bins/generate.cjs",
+      "sha256": "d3e24eac23e4dfa986e60736c1551dcf4b8c00260857ee0aac9471037cdcdbb1"
+    },
+    {
+      "path": "games/prime-bins/levels.js",
+      "sha256": "d227aac950e271707012bde4193e8ebfcc447d46f01cd47ac3d95ea388d65236"
+    },
+    {
+      "path": "games/prime-bins/levels.json",
+      "sha256": "befa81b12c25885719ec522f1ca0ccc7add361c80708bca2ad2ac893fa2365a8"
+    },
+    {
+      "path": "games/prime-bins/proof-claims.json",
+      "sha256": "9d4a13249c1c711bd99c4f634ecb49e6d437af4a69dbd9d4b81e7e7101b6faf8"
+    },
+    {
+      "path": "games/prime-bins/proofs.json",
+      "sha256": "f893d4f3a2de6b241f771a17b2e3f5299115ab58b6fd08e1139e9b6e399e5d87"
+    },
+    {
+      "path": "games/prime-bins/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/prime-bins/test.cjs",
+      "sha256": "d6f4b3817d3cb88e542bf4610d22992ec7c59d30a020bd744873502173119915"
+    },
+    {
+      "path": "games/prime-bins/ui-test.cjs",
+      "sha256": "e772da4de81a6ec49871c97cbfa8932ed101a5436218e2f5fa209ecb2380931e"
+    },
+    {
+      "path": "games/prime-bins/verify.cjs",
+      "sha256": "616c2eeba89ae9f4fc6f7d7d5e743e4c892fc02dbee7099709c5471b43555654"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release.",
+    "No uniqueness claim; alternative valid solutions are accepted."
+  ]
+}
