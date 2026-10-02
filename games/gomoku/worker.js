@@ -1,0 +1,1 @@
+'use strict';importScripts('./engine.js');self.onmessage=function(event){const{id,state,difficulty}=event.data;try{self.postMessage({id,result:BoardEngine.chooseMove(state,difficulty)});}catch(error){self.postMessage({id,error:String(error.message||error)});}};
