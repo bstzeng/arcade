@@ -1,0 +1,716 @@
+{
+  "game": "mastermind",
+  "levels": 50,
+  "independentFeedbackComparisons": 243476,
+  "allUnique": true,
+  "distinctUnderColorAndPositionPermutations": true,
+  "method": "Exhaustive candidate enumeration with independent unmatched-color feedback; canonical hashes from exhaustive positional symmetry search and color normalization.",
+  "results": [
+    {
+      "id": 1,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        6,
+        2
+      ],
+      "canonicalHash": "9f85782cc4d7831df7dbf9ab1c4df496a501fc7a4985047fb5ff7ab9bb90132a"
+    },
+    {
+      "id": 2,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        2,
+        2
+      ],
+      "canonicalHash": "5e5706c9c07c52f03db05eda54d0718a95c4da6541e3e6e456dc07bd7514bd0e"
+    },
+    {
+      "id": 3,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        3,
+        2
+      ],
+      "canonicalHash": "0ed9d11e055d7da0de5f023f1e5250c22e9efc62c3b017b05c10b012129f3ee6"
+    },
+    {
+      "id": 4,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        9,
+        2
+      ],
+      "canonicalHash": "cf83439751e6b01a886e9811a815ed0be8201a93ea39e11ab86f429edfab6df8"
+    },
+    {
+      "id": 5,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        9,
+        2
+      ],
+      "canonicalHash": "967ddc8661c5eb0025fa53341df53b53a9237dd6ee64764477ef4b9db94ef3cb"
+    },
+    {
+      "id": 6,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        6,
+        3
+      ],
+      "canonicalHash": "74c6bd0c60e6c5b6c8070ad764bce0e874f08f3d35fc18d135fde747050c6466"
+    },
+    {
+      "id": 7,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        3,
+        3
+      ],
+      "canonicalHash": "c9ef2c7fa42c6afb03909b9130a1d9805e118f1dbd1eeae9c245ecc49d387aac"
+    },
+    {
+      "id": 8,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        9,
+        3
+      ],
+      "canonicalHash": "bf84e3e2fca70d90ed57601366985988dd71d141b4dada51422f6191a653e767"
+    },
+    {
+      "id": 9,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        3,
+        3
+      ],
+      "canonicalHash": "689ffd1cfdde92ff37c41fcb26d2d1252e4b5fafd749173af868b676a507ebcb"
+    },
+    {
+      "id": 10,
+      "length": 3,
+      "colors": 4,
+      "repeat": false,
+      "searchSpace": 24,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        9,
+        3
+      ],
+      "canonicalHash": "053001d0a9cab942c3e7f27449f82cf380da53fec5489f73bee4038ab4b41d91"
+    },
+    {
+      "id": 11,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        9,
+        4
+      ],
+      "canonicalHash": "3db52a86f6a34c4d156babf56e2c4a126d83c485bade55ca217b0ea9e6e29557"
+    },
+    {
+      "id": 12,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        36,
+        4
+      ],
+      "canonicalHash": "84c0a0579d62c773d3f05caefb793109ef2d749fd71d1973cce2a27cf20da132"
+    },
+    {
+      "id": 13,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        8,
+        4
+      ],
+      "canonicalHash": "31a0de18544d5b640c40766f8584cc94b1ede9a87c028f14eaa6892262adf06a"
+    },
+    {
+      "id": 14,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        12,
+        4
+      ],
+      "canonicalHash": "8298047d60c709a7a3aa1ba9675a29ed49a610fb1a81fdc212350251a6d9b7ac"
+    },
+    {
+      "id": 15,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        4,
+        4
+      ],
+      "canonicalHash": "86dfde99f497b97c277023ac15d31102eee4fabd02354e944538b6a49e1103a4"
+    },
+    {
+      "id": 16,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        6,
+        4
+      ],
+      "canonicalHash": "5e676375cf35fe3f33112c593438f72bf2fd194f9401bf5a4ec5b9866dab7a18"
+    },
+    {
+      "id": 17,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        9,
+        4
+      ],
+      "canonicalHash": "27a0a7ece0ed7840276a22ea4e6e243ad28eadbe5d0aa0f4f353221d4daf53e6"
+    },
+    {
+      "id": 18,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        44,
+        4
+      ],
+      "canonicalHash": "8f3bdd5eb13ace1a15d81e193bb2dc09b602f25fa55fec8489d4f0e9cf797353"
+    },
+    {
+      "id": 19,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        36,
+        4
+      ],
+      "canonicalHash": "13416e0a667b5434637b434f8ab9ef15adf1fbfbe556b8dc8caeaa9bbc7cd3a4"
+    },
+    {
+      "id": 20,
+      "length": 4,
+      "colors": 5,
+      "repeat": false,
+      "searchSpace": 120,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        44,
+        4
+      ],
+      "canonicalHash": "5d61fc21f0c4ee0035dd6ab9e89059b7544d5ed4adb6ba9ded8fd6233c01fc63"
+    },
+    {
+      "id": 21,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        145,
+        5
+      ],
+      "canonicalHash": "041eb4b886728b7d7d693885222f9f624d6b9a424b7899f08095b58c2e9e2a9c"
+    },
+    {
+      "id": 22,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        61,
+        5
+      ],
+      "canonicalHash": "1f98e1941f3062c28f6c8afa68ebbc84eb7cf4b44ae17a8cd1576bebf0393fc6"
+    },
+    {
+      "id": 23,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        138,
+        16
+      ],
+      "canonicalHash": "9b9190175992a947afb55878a96a4de7dff623b52dbe9226bc7e7edc02b3a4ea"
+    },
+    {
+      "id": 24,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        16,
+        12
+      ],
+      "canonicalHash": "f4c532c0064241b41bfe315cc73eb3a3c0147d5c80e4d031629cfcb191b2e420"
+    },
+    {
+      "id": 25,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        61,
+        3
+      ],
+      "canonicalHash": "d34a33699bf122690b0d6aa37f461d69d3e12238d076c84a0c21e4455be738fa"
+    },
+    {
+      "id": 26,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        16,
+        4
+      ],
+      "canonicalHash": "640e218a3b37da08e4a8f9553d968b7a758e6d17c3346aa111eff0b5f3471c3f"
+    },
+    {
+      "id": 27,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        30,
+        4
+      ],
+      "canonicalHash": "4fb42c90e50c246e33f58755992d5506b5fd0ff57b2b21a2e02feed875b7254c"
+    },
+    {
+      "id": 28,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        114,
+        16
+      ],
+      "canonicalHash": "976a4f9de89efb0ec9ae8ee3df42b93b019e56a5a82ae5bdaab864573842bb62"
+    },
+    {
+      "id": 29,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        16,
+        4
+      ],
+      "canonicalHash": "4949b18b5cec0511d63ac0c24f88d7ea0890056f695e22098ca1094c3d2cb663"
+    },
+    {
+      "id": 30,
+      "length": 4,
+      "colors": 5,
+      "repeat": true,
+      "searchSpace": 625,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        120,
+        16
+      ],
+      "canonicalHash": "5d3c9942b46b4a4efe289f7ed34a265279613b147c4327e8e078356d812d7600"
+    },
+    {
+      "id": 31,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        222,
+        16
+      ],
+      "canonicalHash": "e834673e2422044227c868432d7ef2376192f6df144809bb263b6d3ece267eef"
+    },
+    {
+      "id": 32,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        44,
+        16
+      ],
+      "canonicalHash": "ce05e797e445180deb2bb280249aeb7e36d8e1120f21b94db2c7d0910f676a51"
+    },
+    {
+      "id": 33,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        182,
+        20
+      ],
+      "canonicalHash": "23227977827318c7d592a8d6ada365a3593ef34137ab7d9cc731d9edb7c5478c"
+    },
+    {
+      "id": 34,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        40,
+        16
+      ],
+      "canonicalHash": "6643522c5d1147e44bd06646ac2d8df9b4f88409c85a52448f765ab7be4533c1"
+    },
+    {
+      "id": 35,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        2,
+        20
+      ],
+      "canonicalHash": "870d54e179c346f6f914c3cfd11bb9b8febed50e7931812aeba901b7ed6159aa"
+    },
+    {
+      "id": 36,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        40,
+        20
+      ],
+      "canonicalHash": "4cfa58875e06956f684b4e0ef90f239c32d6c267e9d19f9c24ad818d4b6dd383"
+    },
+    {
+      "id": 37,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        84,
+        4
+      ],
+      "canonicalHash": "5535a00b1138c91feecba40f79f54cb52c98b94c77c074b87409a3b969b67d81"
+    },
+    {
+      "id": 38,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        40,
+        5
+      ],
+      "canonicalHash": "e0f42c122765012957b0168be2d665d1ea619b0221acbc3128839cba28e35fb4"
+    },
+    {
+      "id": 39,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        105,
+        20
+      ],
+      "canonicalHash": "a77c8d41940bf588528341da5eea4f719406d5d974969b905a520bffc64e51ac"
+    },
+    {
+      "id": 40,
+      "length": 4,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 1296,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        222,
+        4
+      ],
+      "canonicalHash": "398e44de29c32c5c5e8639141073877696c83f5d1a308f3a54ca4181e9cea34c"
+    },
+    {
+      "id": 41,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        9,
+        25
+      ],
+      "canonicalHash": "965b9d2ad8f3ee2dcb21f24018abd3036e66e2d638e42bdc9460d0a515160472"
+    },
+    {
+      "id": 42,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        755,
+        25
+      ],
+      "canonicalHash": "624ad7c4addffecce869911492adde2603fb65a9e10c184d011ac68f1fd23d3c"
+    },
+    {
+      "id": 43,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 3,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        67,
+        5,
+        2
+      ],
+      "canonicalHash": "6ffe25edb7a880cc617f2f8f4e9e6fa8293985e2050d245f1cee273caabc8eab"
+    },
+    {
+      "id": 44,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 3,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        18,
+        6,
+        2
+      ],
+      "canonicalHash": "1588ac16cada3fece53b73b285677ce2ca3d0c8e3709856b7933942fff9fa791"
+    },
+    {
+      "id": 45,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 3,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        7,
+        16,
+        4
+      ],
+      "canonicalHash": "7adc92653c080971d8a8e249f912eb1ac18c58efe06db162f55ce3df1f4409c7"
+    },
+    {
+      "id": 46,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        80,
+        24
+      ],
+      "canonicalHash": "c5287d05be069b3f5a53a3d1d1d19ce7792ac914bbedb907f39093eeec5df2aa"
+    },
+    {
+      "id": 47,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 2,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        169,
+        8
+      ],
+      "canonicalHash": "832f886ac210454ca36acffe3394e80667cd8660594880ea8be2cda2873f6c3e"
+    },
+    {
+      "id": 48,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 3,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        17,
+        4,
+        3
+      ],
+      "canonicalHash": "31c18b2aaf7933b590dc850195396a08a42509fd77547e3a158007a199528dde"
+    },
+    {
+      "id": 49,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 3,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        24,
+        22,
+        3
+      ],
+      "canonicalHash": "77d49bb8bfa46f70d7e059b6b0545c7b8d5c0a55ee4fde91852644143a01bd93"
+    },
+    {
+      "id": 50,
+      "length": 5,
+      "colors": 6,
+      "repeat": true,
+      "searchSpace": 7776,
+      "clueCount": 3,
+      "solutionCount": 1,
+      "removingEachClueLeaves": [
+        3,
+        9,
+        2
+      ],
+      "canonicalHash": "d974c3dc3f5782c8edf124fc4e1a43b4fcce764dc77e308d3c4943e3dd6b4346"
+    }
+  ]
+}
