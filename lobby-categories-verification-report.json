@@ -25,7 +25,7 @@
     "NFKC/case/whitespace normalization and all-game search from other categories",
     "Empty/reset, clear-search, Escape, Enter and repeated-interaction flows",
     "Category/query deep links, refresh, Back/Forward and unrelated URL preservation",
-    "Semantic buttons/select, focus return, polite status and responsive/reduced-motion source checks"
+    "Semantic buttons/select, explicit responsive-safe selector name, focus return, polite status and responsive/reduced-motion source checks"
   ],
   "claims": {
     "offlineRulesAndSimulatedDOM": true,
@@ -34,9 +34,9 @@
   },
   "sourceFiles": {
     "app.js": "c3fd7dafbfe01a6ab82b44e39fc926fccee99822061f44978ed0431326ca70a8",
-    "index.html": "2b91887c17645013f1c7d65fab47014ccc28054fe324ec231feb4521a63b35ae",
+    "index.html": "393ab095568870405b69b00a04db7d2de3c88dc772faae98ad415d3010565770",
     "styles.css": "7862c8b0c38ea4321dec9fee227b6167a0d7a112451309d5799ab7c35bfa7870",
-    "verify-lobby.cjs": "28e8bfe8e7b86435ba79af68dadc9ccd416f3e41d27c1a2b9974d43455f87737",
+    "verify-lobby.cjs": "8754971ebdea29a658a7e03c58086ecd0d080e999cdec22b6897c6b2cdbcdb37",
     "lobby-categories-preservation.json": "76f042a1be2d6b940ef0d0d493be0a7b26620befb6e6bf43ceeacc762e5cb87d"
   }
 }
