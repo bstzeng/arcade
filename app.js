@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261002-compact-campaign';
+const GAME_BUILD = '20261002-certified-cards';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -13,16 +13,26 @@ const games = [
   {"id": "space-rescue", "title": "太空救援任務", "category": "strategy", "description": "規劃航線與補給，救援失聯太空站，帶著夥伴安全返航。", "note": "航線 × 救援", "art": "planet", "color": "#c5b3f5", "background": "#302b48", "word": "SPACE RESCUE", "status": "ready", "url": "./games/space-rescue.html"},
   {"id": "backpack-dungeon", "title": "地城背包探險", "category": "strategy", "description": "把戰利品塞進有限背包，搭配裝備效果，挑戰地城首領。", "note": "裝備 × 探險", "art": "blocks", "color": "#e6a396", "background": "#49322f", "word": "PACK & EXPLORE", "status": "ready", "url": "./games/backpack-dungeon.html"},
   {"id": "logic-lab", "title": "邏輯機關實驗室", "category": "puzzle", "description": "配置鏡子與光路，用有限零件解開層層機關。", "note": "光路 × 機關", "art": "target", "color": "#e2a8c5", "background": "#402c40", "word": "LOGIC LAB", "status": "ready", "url": "./games/logic-lab.html"},
-  {"id": "island-colony", "title": "荒島聚落", "category": "strategy", "description": "安排居民採集與建設，度過季節變化，把營地發展成村莊。", "note": "生存 × 建設", "art": "memory", "color": "#95d7ba", "background": "#263d38", "word": "ISLAND COLONY", "status": "ready", "url": "./games/island-colony.html"}
+  {"id": "island-colony", "title": "荒島聚落", "category": "strategy", "description": "安排居民採集與建設，度過季節變化，把營地發展成村莊。", "note": "生存 × 建設", "art": "memory", "color": "#95d7ba", "background": "#263d38", "word": "ISLAND COLONY", "status": "ready", "url": "./games/island-colony.html"},
+  {"id": "klondike", "title": "經典接龍", "category": "cards", "description": "每次翻一張，整理紅黑交錯的牌列，挑戰 50 副驗證可解的牌局。", "note": "經典 × 翻一張", "art": "card-klondike", "color": "#9cddc2", "background": "#234138", "word": "KLONDIKE", "status": "ready", "url": "./games/klondike.html"},
+  {"id": "freecell", "title": "新接龍", "category": "cards", "description": "善用四個暫存格，規劃每一步，把 52 張牌送回花色收牌區。", "note": "規劃 × 暫存格", "art": "card-freecell", "color": "#a9c9f7", "background": "#263a52", "word": "FREECELL", "status": "ready", "url": "./games/freecell.html"},
+  {"id": "spider", "title": "蜘蛛接龍", "category": "cards", "description": "單一花色，十列牌陣，組成 K 到 A 的完整序列逐組收回。", "note": "一色 × 序列", "art": "card-spider", "color": "#cab1f5", "background": "#392c50", "word": "SPIDER", "status": "ready", "url": "./games/spider.html"},
+  {"id": "pyramid", "title": "金字塔接龍", "category": "cards", "description": "配對點數合計 13 的牌，層層揭開金字塔，找到清空的路。", "note": "配對 × 合計 13", "art": "card-pyramid", "color": "#edc27d", "background": "#493924", "word": "PYRAMID", "status": "ready", "url": "./games/pyramid.html"},
+  {"id": "tripeaks", "title": "三峰接龍", "category": "cards", "description": "接上高一點或低一點的牌，一步步翻開三座高峰，清空牌陣。", "note": "連接 × 三座山峰", "art": "card-tripeaks", "color": "#eab0bd", "background": "#482f3b", "word": "TRIPEAKS", "status": "ready", "url": "./games/tripeaks.html"}
 ];
-const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒' };
+const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌' };
 const artMarkup = {
   tiles: '<div class="tiles"><b data-number="2"></b><b data-number="4"></b><b data-number="8"></b><b data-number="16"></b></div>',
   maze: '<div class="maze"></div>',
   blocks: '<div class="blocks"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>',
   memory: '<div class="memory"><i>✦</i><i>✦</i></div>',
   planet: '<div class="planet"></div>',
-  target: '<div class="target"></div>'
+  target: '<div class="target"></div>',
+  'card-klondike': '<div class="playing-art fan-cards"><i><b>K</b><span>♠</span></i><i><b>Q</b><span>♥</span></i><i><b>J</b><span>♣</span></i></div>',
+  'card-freecell': '<div class="playing-art free-cards"><em></em><em></em><i><b>A</b><span>♠</span></i><i><b>2</b><span>♦</span></i></div>',
+  'card-spider': '<div class="playing-art spider-cards"><i><b>K</b><span>♠</span></i><i><b>Q</b><span>♠</span></i><i><b>J</b><span>♠</span></i><small>8 × K → A</small></div>',
+  'card-pyramid': '<div class="playing-art pyramid-cards"><i><b>K</b><span>♦</span></i><i><b>6</b><span>♠</span></i><i><b>7</b><span>♥</span></i></div>',
+  'card-tripeaks': '<div class="playing-art peaks-cards"><i><b>4</b><span>♠</span></i><i><b>5</b><span>♥</span></i><i><b>6</b><span>♣</span></i><em>↗</em></div>'
 };
 let activeCategory = 'all';
 const grid = document.querySelector('#game-grid');
