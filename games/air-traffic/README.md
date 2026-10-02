@@ -6,7 +6,7 @@ Dependency-free Traditional Chinese canvas air-traffic game. Open `../air-traffi
 
 - Hold an aircraft and draw its future route with a mouse, pen, or one finger. Release to commit. Time pauses while drawing; cancelling a gesture preserves the old route. A tap selects without replacing a route.
 - Aircraft always move, turn with a finite radius, and keep their current heading when the route ends. The selected aircraft's route can be cleared.
-- Arrivals must reach the airport bearing the same color AND letter. Planes cross the marked approach threshold in the arrow direction and continue along the runway. A gentle approach drawn into the matching corridor snaps to a long straight final approach. Reverse approaches do not land.
+- Arrivals must reach the airport bearing the same color AND letter. Planes cross the marked approach threshold in the arrow direction and continue along the runway. A gentle approach drawn into the matching corridor may append a short forward-aligned final segment. Every player-drawn waypoint remains unchanged, including curved routes; unsafe or too-close joins receive no assistance. Reverse approaches do not land.
 - Helicopters are slower and land on their matching airport's H pad from any heading.
 - Departures appear at an airport, show a north/east/south/west arrow, and must leave through that assigned boundary. Departures are counted separately from challenge landing targets.
 - All flights have a four-second advance preview. Unsafe releases wait at “待” until space is available. Aircraft separation warnings include forecast conflicts. An actual collision ends either mode.
