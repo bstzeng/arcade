@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "build": "20261002-tabletop-ai",
+  "build": "20261002-tabletop-polish",
   "registryCount": 67,
   "tabletopGames": 10,
   "difficultyLevels": [
@@ -34,14 +34,14 @@
         {
           "command": "node games/reversi/rules-tests.cjs",
           "passed": true,
-          "seconds": 2.709,
+          "seconds": 2.69,
           "output": "Reversi rules/AI: 36800 assertions, 9 seeded complete games, 540 legal moves, 8 passes",
           "stderr": ""
         },
         {
           "command": "node games/reversi/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.13,
+          "seconds": 0.109,
           "output": "reversi controller: 91 assertions passed",
           "stderr": ""
         }
@@ -143,14 +143,14 @@
         {
           "command": "node games/gomoku/rules-tests.cjs",
           "passed": true,
-          "seconds": 2.666,
+          "seconds": 2.918,
           "output": "Gomoku rules/AI: 92046 assertions, 9 seeded complete games, 396 legal moves",
           "stderr": ""
         },
         {
           "command": "node games/gomoku/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.127,
+          "seconds": 0.119,
           "output": "gomoku controller: 91 assertions passed",
           "stderr": ""
         }
@@ -251,7 +251,7 @@
         {
           "command": "node games/connect-four/test.cjs",
           "passed": true,
-          "seconds": 0.755,
+          "seconds": 0.985,
           "output": "{\"game\":\"connect-four\",\"passed\":true,\"rules\":5,\"seededMatches\":6,\"controllerGroups\":9}",
           "stderr": ""
         }
@@ -270,7 +270,7 @@
         "verification.json": "cf7859d26288a0be8d1b3b7349a0f07c6e6ac0a1d77e1cdf0c776eb7c5afd050",
         "worker.js": "56dacdb57033299bf931b53b8e615721317a03fc3045a9c803da81dc0d72a128"
       },
-      "entrySHA256": "c9c7f2c036c7e0f2324638e8980326b65552600af0cf9f6e20f3fad7c38a2223",
+      "entrySHA256": "a86b6e204b3de80559c3a6894db4c380f0e4ae49ab887c0a1cf5e9597cc86c93",
       "evidence": {
         "game": "connect-four",
         "passed": true,
@@ -311,7 +311,7 @@
             "immediateWin": true,
             "immediateBlock": true,
             "openingDepth": 7,
-            "openingNodes": 54656,
+            "openingNodes": 37504,
             "maxDepth": 9
           }
         },
@@ -431,7 +431,7 @@
         {
           "command": "node games/checkers/test.cjs",
           "passed": true,
-          "seconds": 2.944,
+          "seconds": 3.01,
           "output": "{\"game\":\"checkers\",\"passed\":true,\"rules\":11,\"seededMatches\":6,\"controllerGroups\":10}",
           "stderr": ""
         }
@@ -450,7 +450,7 @@
         "verification.json": "4745a4c8f261548bc7f982d8b0b50dc18cc1fe656efd79671efe8acca2dcd59e",
         "worker.js": "f92cf98369a5724669cab2a7aa53114ddc93b8b427cf69b7b1c9112f790f644f"
       },
-      "entrySHA256": "c154293e10585434193f43c15cf540688c0f84fcb5bd86e0412597429b0c19b1",
+      "entrySHA256": "c3943dc526dc7382e1ff9e2dcacea4e8504a59959859ed88834997808c64e6e7",
       "evidence": {
         "game": "checkers",
         "passed": true,
@@ -496,15 +496,24 @@
             "legal": true,
             "immediateWin": true,
             "forcedCapture": true,
-            "openingDepth": 6,
-            "openingNodes": 17088,
+            "openingDepth": 5,
+            "openingNodes": 10944,
             "maxDepth": 9
           }
         },
         "selfPlay": [
           {
             "seed": 1,
-            "plies": 99,
+            "plies": 101,
+            "result": {
+              "winner": 1,
+              "reason": "pieces"
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 2,
+            "plies": 104,
             "result": {
               "winner": 0,
               "reason": "repetition"
@@ -512,17 +521,8 @@
             "legalEveryTurn": true
           },
           {
-            "seed": 2,
-            "plies": 134,
-            "result": {
-              "winner": -1,
-              "reason": "pieces"
-            },
-            "legalEveryTurn": true
-          },
-          {
             "seed": 3,
-            "plies": 185,
+            "plies": 125,
             "result": {
               "winner": 1,
               "reason": "pieces"
@@ -531,28 +531,28 @@
           },
           {
             "seed": 4,
-            "plies": 107,
+            "plies": 61,
             "result": {
-              "winner": 1,
-              "reason": "pieces"
+              "winner": 0,
+              "reason": "repetition"
             },
             "legalEveryTurn": true
           },
           {
             "seed": 5,
-            "plies": 74,
+            "plies": 122,
             "result": {
-              "winner": -1,
-              "reason": "pieces"
+              "winner": 0,
+              "reason": "repetition"
             },
             "legalEveryTurn": true
           },
           {
             "seed": 6,
-            "plies": 168,
+            "plies": 112,
             "result": {
-              "winner": 0,
-              "reason": "quiet"
+              "winner": -1,
+              "reason": "pieces"
             },
             "legalEveryTurn": true
           }
@@ -582,14 +582,14 @@
         {
           "command": "node games/chinese-checkers/rules-tests.cjs",
           "passed": true,
-          "seconds": 1.175,
+          "seconds": 1.526,
           "output": "PASS 121-hole star, six ten-hole arms, all seats\nPASS Adjacent step, jump and multihop legal without capture\nPASS Target lock and illegal opponent move\nPASS Fair blockade win and forced pass draw\nPASS AI legality and invariant preservation all levels and seat counts",
           "stderr": ""
         },
         {
           "command": "node games/chinese-checkers/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.142,
+          "seconds": 0.114,
           "output": "PASS Round undo returns human turn and cancels epoch\nPASS Save restore and reject malformed storage\nPASS Restart retains config and clears history\nPASS Guard rejects stale worker after cancel/reset\nPASS UI boot, setup, pause, restart, storage fallback\nPASS UI stale worker response cannot alter restarted game\nController tests: 6",
           "stderr": ""
         }
@@ -638,14 +638,14 @@
         {
           "command": "node games/aeroplane-chess/rules-tests.cjs",
           "passed": true,
-          "seconds": 0.247,
+          "seconds": 0.237,
           "output": "PASS 52 unique track spaces and seat layouts\nPASS Six launches without moving and grants extra roll\nPASS Same color jump and ordered shortcut\nPASS Capture all stacked opponents and cross-lane shortcut\nPASS Exact finish, no overshoot, rankings continue\nPASS AI legal all difficulties and player counts",
           "stderr": ""
         },
         {
           "command": "node games/aeroplane-chess/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.096,
+          "seconds": 0.1,
           "output": "PASS Round undo returns human turn and cancels epoch\nPASS Save restore and reject malformed storage\nPASS Restart retains config and clears history\nPASS Undo preserves dice tape and pending-roll save\nPASS Guard rejects stale worker after cancel/reset\nPASS UI boot, setup, pause, restart, storage fallback\nPASS UI stale worker response cannot alter restarted game\nController tests: 7",
           "stderr": ""
         }
@@ -661,7 +661,7 @@
         "verification.json": "e06008faa588ba53858c613a20660d2719f7ebc5dc4203ce6b94158eb216bd1f",
         "worker.js": "8b429b5a441c9f44511998bf8f503437813064230d9cd1912d3cabec16ec0552"
       },
-      "entrySHA256": "d19ac4731ff2b221ad9d601360ba6575e0a31ee078b9a370e1122afe9f44ac65",
+      "entrySHA256": "9385502dec0ed32d76a551c3e1e494fd39c1b8cf3bf21fd6ae417b9f75c8b7e4",
       "evidence": {
         "game": "aeroplane-chess",
         "rulesTests": 6,
@@ -693,14 +693,14 @@
         {
           "command": "node games/kalah/rules-tests.cjs",
           "passed": true,
-          "seconds": 0.208,
+          "seconds": 0.178,
           "output": "PASS standard 48 seeds and 6 legal opening pits\nPASS landing in own store keeps the same player\nPASS multiple laps skip opponent store\nPASS own empty pit captures opposite stones and landing seed\nPASS empty opposite pit does not capture own landing seed\nPASS end sweep overrides bonus turn and counts winner\nPASS tied final stores are a draw\nPASS enemy pits, stores and empty pits are rejected without mutation\nPASS easy chooses a six-stone tactical capture\nPASS normal chooses a six-stone tactical capture\nPASS hard chooses a six-stone tactical capture\nPASS seeded legal playout 0\nPASS seeded legal playout 1\nPASS seeded legal playout 2\nPASS seeded legal playout 3\nPASS seeded legal playout 4\nPASS seeded legal playout 5\nPASS seeded legal playout 6\nPASS seeded legal playout 7\nPASS seeded legal playout 8\nPASS seeded legal playout 9\nPASS seeded legal playout 10\nPASS seeded legal playout 11\nPASS full bounded easy AI self-play with legality and terminal checks\nPASS full bounded normal AI self-play with legality and terminal checks\nPASS full bounded hard AI self-play with legality and terminal checks\nPASS save boundary replays moves, discards forged board, rejects invalid transcripts\n{\"passed\":true,\"game\":\"kalah\",\"checks\":27}",
           "stderr": ""
         },
         {
           "command": "node games/kalah/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.512,
+          "seconds": 0.359,
           "output": "PASS local mode enables alternating legal actions and disables AI settings\nPASS local undo restores initial state and can be repeated safely\nPASS restart cancellation preserves all actions\nPASS restart approval resets state and stored transcript\nPASS setting cancellation restores displayed and active config\nPASS confirmed settings reset once and use requested difficulty\nPASS save and reload replay the identical local state\nPASS malformed and illegal saves recover to a fresh game\nPASS disabled storage never blocks legal gameplay\nPASS computer first locks board and disallows opening undo\nPASS duplicate worker replies cannot apply the same search twice\nPASS help pauses AI; obsolete worker reply is ignored; closing resumes\nPASS background visibility cancels AI and foreground resumes\nPASS pagehide cancels and pageshow resumes a pending computer turn\nPASS restart prevents obsolete search from mutating the new game\nPASS illegal worker result falls back to a legal move\nPASS worker error falls back to bounded synchronous search\nPASS unsupported worker uses a bounded compatibility search\nPASS wrong worker generation is ignored\nPASS AI undo retracts human turn and pending response\nPASS session save snapshots cannot mutate the live transcript\nPASS local undo retracts an entire bonus-turn chain\nPASS easy worker script returns a legal opening with matching token\nPASS normal worker script returns a legal opening with matching token\nPASS hard worker script returns a legal opening with matching token\n{\"passed\":true,\"game\":\"kalah\",\"controllerChecks\":25}",
           "stderr": ""
         }
@@ -718,7 +718,7 @@
         "style.css": "99e41e43387211c36ca2a9eff1c2101a417af5020554048b762012d559fe5e99",
         "verification.json": "09773cc5defac4f5b523b300dd813cc236b13ee1c79491ac3827e9b09b18efab"
       },
-      "entrySHA256": "d07f03c2c8635b2994bfb1da2c9c7162071a8ab994cca80f1a7ce2a18b61bf3e",
+      "entrySHA256": "12dae71727bbbe1e1bb50a47bd8a4e1517e723e4c18b5089bebe2af979241609",
       "evidence": {
         "game": "kalah",
         "passed": true,
@@ -896,14 +896,14 @@
         {
           "command": "node games/nine-mens-morris/rules-tests.cjs",
           "passed": true,
-          "seconds": 2.54,
+          "seconds": 2.56,
           "output": "PASS board has 24 intersections, 16 mills and symmetric adjacency\nPASS nine reserves each; placement decrements one and alternates\nPASS a mill keeps the turn for capture and protects enemy mills\nPASS when all enemies are in mills any one can be captured\nPASS mill without enemy pieces does not leave a stuck capture phase\nPASS four pieces move adjacent only; three pieces can fly\nPASS under three loses after capture, but not during placement\nPASS blocked player loses after the opponent ends its move\nPASS third identical board plus turn draws in movement phase\nPASS 100 movement actions without capture draw; captures reset clock\nPASS invalid actions do not mutate state\nPASS easy completes a mill and evaluates its capture continuation\nPASS normal completes a mill and evaluates its capture continuation\nPASS hard completes a mill and evaluates its capture continuation\nPASS seeded legal playout 0\nPASS seeded legal playout 1\nPASS seeded legal playout 2\nPASS seeded legal playout 3\nPASS seeded legal playout 4\nPASS seeded legal playout 5\nPASS seeded legal playout 6\nPASS seeded legal playout 7\nPASS seeded legal playout 8\nPASS seeded legal playout 9\nPASS seeded legal playout 10\nPASS seeded legal playout 11\nPASS full bounded easy AI self-play with legality and terminal checks\nPASS full bounded normal AI self-play with legality and terminal checks\nPASS full bounded hard AI self-play with legality and terminal checks\nPASS save boundary replays moves, discards forged board, rejects invalid transcripts\n{\"passed\":true,\"game\":\"nine-mens-morris\",\"checks\":30}",
           "stderr": ""
         },
         {
           "command": "node games/nine-mens-morris/controller-tests.cjs",
           "passed": true,
-          "seconds": 2.241,
+          "seconds": 2.219,
           "output": "PASS local mode enables alternating legal actions and disables AI settings\nPASS local undo restores initial state and can be repeated safely\nPASS restart cancellation preserves all actions\nPASS restart approval resets state and stored transcript\nPASS setting cancellation restores displayed and active config\nPASS confirmed settings reset once and use requested difficulty\nPASS save and reload replay the identical local state\nPASS malformed and illegal saves recover to a fresh game\nPASS disabled storage never blocks legal gameplay\nPASS computer first locks board and disallows opening undo\nPASS duplicate worker replies cannot apply the same search twice\nPASS help pauses AI; obsolete worker reply is ignored; closing resumes\nPASS background visibility cancels AI and foreground resumes\nPASS pagehide cancels and pageshow resumes a pending computer turn\nPASS restart prevents obsolete search from mutating the new game\nPASS illegal worker result falls back to a legal move\nPASS worker error falls back to bounded synchronous search\nPASS unsupported worker uses a bounded compatibility search\nPASS wrong worker generation is ignored\nPASS AI undo retracts human turn and pending response\nPASS session save snapshots cannot mutate the live transcript\nPASS mill placement and capture form one local undo unit\nPASS easy worker script returns a legal opening with matching token\nPASS normal worker script returns a legal opening with matching token\nPASS hard worker script returns a legal opening with matching token\n{\"passed\":true,\"game\":\"nine-mens-morris\",\"controllerChecks\":25}",
           "stderr": ""
         }
@@ -921,7 +921,7 @@
         "style.css": "99e41e43387211c36ca2a9eff1c2101a417af5020554048b762012d559fe5e99",
         "verification.json": "b6076734ccc14ee6004d978fa7c7534f9275e2a21c56478a0d6a6b41040a34d9"
       },
-      "entrySHA256": "cfa56aeaf6cd3c41205707bdd25fd49bbe3fe897326a591901cb211807a4611c",
+      "entrySHA256": "2a64119efc3fe83daf9af6188a2c657eb4731af7fc181420914376b7d96e4639",
       "evidence": {
         "game": "nine-mens-morris",
         "passed": true,
@@ -1105,14 +1105,14 @@
         {
           "command": "node games/quoridor/rules-tests.cjs",
           "passed": true,
-          "seconds": 4.552,
+          "seconds": 4.575,
           "output": "PASS initial state, legal movement and immutable apply\nPASS straight jump, blocked diagonal and edge diagonal\nPASS overlap, crossing, endpoint and path preservation\nPASS goal ends play for both players\nPASS all AI difficulties legal and immediate win\nPASS save, corrupted imports, local and AI undo\nPASS late worker results ignored after undo/restart/load\n{\"game\":\"quoridor\",\"checks\":7,\"passed\":true}",
           "stderr": ""
         },
         {
           "command": "node games/quoridor/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.119,
+          "seconds": 0.112,
           "output": "{\"passed\":true,\"count\":6,\"names\":[\"worker constructor, transport, runtime and invalid replies recover\",\"actual UI local play, reload, replay and undo\",\"actual UI reset confirmation and cancellation; settings cancellation\",\"actual UI AI turn locking, stale results after reset and undo\",\"actual UI worker results, save and interrupted page lifecycle\",\"actual UI malformed storage, unavailable storage and worker retry\"],\"coverage\":\"Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support\"}",
           "stderr": ""
         }
@@ -1170,14 +1170,14 @@
         {
           "command": "node games/quarto/rules-tests.cjs",
           "passed": true,
-          "seconds": 14.999,
+          "seconds": 14.72,
           "output": "PASS 16 unique pieces and give/place turn ownership\nPASS all ten lines and all eight shared trait polarities\nPASS automatic win, full-board draw and terminal guards\nPASS AI legal all difficulties throughout full matches\nPASS AI wins now and never gives an immediate winning piece when safe exists\nPASS round undo, validated save and stale worker safety\n{\"game\":\"quarto\",\"checks\":6,\"passed\":true}",
           "stderr": ""
         },
         {
           "command": "node games/quarto/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.116,
+          "seconds": 0.107,
           "output": "{\"passed\":true,\"count\":7,\"names\":[\"worker constructor, transport, runtime and invalid replies recover\",\"actual UI local play, reload, replay and undo\",\"actual UI reset confirmation and cancellation; settings cancellation\",\"actual UI AI turn locking, stale results after reset and undo\",\"actual UI worker results, save and interrupted page lifecycle\",\"actual UI malformed storage, unavailable storage and worker retry\",\"actual pool ArrowUp/Down follows computed four/eight columns, wraps and skips used pieces\"],\"coverage\":\"Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support\"}",
           "stderr": ""
         }
@@ -1196,7 +1196,7 @@
         "verification.json": "7123ba85675033da53b352d6d7d551a3529394e41ac1c3d54c60d971f834f077",
         "worker.js": "251e29ae6265f671fb490a561040ac7d12d00113b8bf8de772cb827f1280939a"
       },
-      "entrySHA256": "c1c5c37b89cf466edc25341e931c069a6e8639d7df320e24c0d4ef3eba18cb33",
+      "entrySHA256": "8929c98b6f7112dcd1d0301fc761df6fdc50aacfb04935bdcd2b02228c36d77e",
       "evidence": {
         "game": "quarto",
         "passed": true,

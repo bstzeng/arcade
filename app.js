@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261002-tabletop-ai';
+const GAME_BUILD = '20261002-tabletop-polish';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -68,7 +68,7 @@ const games = [
   {"id": "kalah", "title": "播棋", "category": "tabletop", "description": "將棋子逐穴播下，爭取再走一步與巧妙捕獲。", "note": "播種 × 收集", "art": "tabletop-kalah", "color": "#e6c68c", "background": "#453b29", "word": "KALAH", "status": "ready", "url": "./games/kalah.html", "badge": "多人 · AI 三種難度"},
   {"id": "nine-mens-morris", "title": "九子棋", "category": "tabletop", "description": "布子、移子並連成三子直線，逐步削弱對手。", "note": "成磨 × 移子", "art": "tabletop-nine-mens-morris", "color": "#c1c9eb", "background": "#30394c", "word": "NINE MEN’S MORRIS", "status": "ready", "url": "./games/nine-mens-morris.html", "badge": "多人 · AI 三種難度"},
   {"id": "quoridor", "title": "步步為營", "category": "tabletop", "description": "前進與築牆交替，保留通路，率先走到對岸。", "note": "築牆 × 路徑", "art": "tabletop-quoridor", "color": "#a9d6a7", "background": "#2e402f", "word": "QUORIDOR", "status": "ready", "url": "./games/quoridor.html", "badge": "多人 · AI 三種難度"},
-  {"id": "quarto", "title": "四連異形棋", "category": "tabletop", "description": "由你挑子交給對手，四枚棋子的共同特徵就是勝機。", "note": "選子 × 特徵", "art": "tabletop-quarto", "color": "#dfb2de", "background": "#442f46", "word": "QUARTO", "status": "ready", "url": "./games/quarto.html", "badge": "多人 · AI 三種難度"}
+  {"id": "quarto", "title": "四連特徵棋", "category": "tabletop", "description": "由你挑子交給對手，四枚棋子的共同特徵就是勝機。", "note": "選子 × 特徵", "art": "tabletop-quarto", "color": "#dfb2de", "background": "#442f46", "word": "QUARTO", "status": "ready", "url": "./games/quarto.html", "badge": "多人 · AI 三種難度"}
 ];
 const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤', logic: '邏輯推理', classic: '經典益智', collection: '經典新挑戰', tabletop: '多人棋桌' };
 const artMarkup = {
