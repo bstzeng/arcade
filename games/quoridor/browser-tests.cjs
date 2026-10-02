@@ -1,0 +1,21 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),http=require('node:http');
+const {chromium}=require('playwright');
+const game=path.basename(__dirname),E=require('./engine'),{Session}=require('./session');
+async function main(){
+for(const failure of ['constructor','postMessage','onerror','invalid']){
+class Worker{constructor(){if(failure==='constructor')throw Error('start');Worker.last=this;}postMessage(){if(failure==='postMessage')throw Error('post');}terminate(){this.terminated=true;}}
+const s=new Session(E,game,{mode:'ai',level:'normal',human:1});let error=null;s.request(Worker,'worker.js',r=>error=r.error);if(failure==='onerror')Worker.last.onerror();if(failure==='invalid')Worker.last.onmessage({data:{action:{type:'invalid'}}});assert(error);assert(!s.busy);assert.equal(s.actions.length,0);
+}
+const root=path.dirname(__dirname);const server=http.createServer((req,res)=>{const p=path.join(root,decodeURIComponent(req.url.split('?')[0]));if(!p.startsWith(root+path.sep)){res.writeHead(403).end();return;}fs.readFile(p,(err,data)=>{if(err){res.writeHead(404).end();return;}res.setHeader('Content-Type',p.endsWith('.js')?'application/javascript':p.endsWith('.css')?'text/css':'text/html');res.end(data);});});await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']}).catch(error=>{server.close();throw error;});let checks=0;
+try{const page=await browser.newPage({viewport:{width:1440,height:900}});const errors=[];page.on('pageerror',e=>errors.push(e.message));const url=`http://127.0.0.1:${server.address().port}/${game}.html`;await page.goto(url);await page.selectOption('#mode','local');
+const act=async()=>{if(game==='quoridor')await page.locator('.q-cell.legal').first().click();else if((await page.evaluate(()=>arcadeSnapshot().state.phase))==='give')await page.locator('#pool button:not(:disabled)').first().click();else await page.locator('.quarto-cell.available').first().click();};
+await act();assert.equal((await page.evaluate(()=>arcadeSnapshot())).actions,1);await page.reload();assert.equal((await page.evaluate(()=>arcadeSnapshot())).actions,1);checks++;
+await page.click('#replay');assert((await page.evaluate(()=>arcadeSnapshot())).reviewing);await page.click('#leaveReplay');await page.click('#undo');assert.equal((await page.evaluate(()=>arcadeSnapshot())).actions,0);checks++;
+await act();await page.click('#reset');await page.click('#cancel');assert.equal((await page.evaluate(()=>arcadeSnapshot())).actions,1);await page.click('#reset');await page.click('#confirm');assert.equal((await page.evaluate(()=>arcadeSnapshot())).actions,0);checks++;
+if(game==='quoridor'){await page.click('#horizontal');await page.locator('.wall-anchor').first().click();assert(!(await page.locator('#placeWall').isDisabled()));await page.click('#placeWall');assert.equal((await page.evaluate(()=>arcadeSnapshot())).state.walls.length,1);}else{await page.locator('[data-piece="0"]').focus();await page.keyboard.press('ArrowDown');assert.equal(await page.evaluate(()=>document.activeElement.dataset.piece),'8');}checks++;
+await page.click('#reset');await page.click('#confirm');for(const level of ['easy','normal','hard']){await page.selectOption('#mode','ai');await page.selectOption('#level',level);if((await page.evaluate(()=>arcadeSnapshot())).actions) {await page.click('#confirm');}await act();await page.waitForFunction(()=>!arcadeSnapshot().busy&&arcadeSnapshot().state.turn===0,{},{timeout:15000});assert((await page.evaluate(()=>arcadeSnapshot())).actions>=2);await page.click('#reset');await page.click('#confirm');await page.selectOption('#mode','local');checks++;}
+for(const width of [1440,768,390,320]){await page.setViewportSize({width,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`horizontal overflow at ${width}`);const board=await page.locator('#board').boundingBox();assert(board&&board.width>200);checks++;}
+assert.deepEqual(errors,[]);console.log(JSON.stringify({game,passed:true,browserChecks:checks,workerErrorChecks:4,viewports:[1440,768,390,320]}));
+}finally{await browser.close();await new Promise(r=>server.close(r));}}
+main().catch(e=>{console.error(e);process.exitCode=1;});
