@@ -16,3 +16,7 @@
  .tools{order:5;margin:0}.tools button{min-height:38px}.save-note{order:6;margin:0;font-size:9px}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* Let longer status messages grow the panel instead of crossing the footer. */
+@media(min-width:761px){.play{height:auto;min-height:520px}}
+@media(min-width:761px) and (max-height:710px){.play{min-height:475px}}
