@@ -1,0 +1,41 @@
+{
+  "seed": 93817031,
+  "algorithm": "Random maximal independent connected black sets on permuted Latin boards; replace black digits with maximal row/column conflicts; exact CSP count; D4 and digit-renaming canonical deduplication",
+  "generation": [
+    {
+      "size": 4,
+      "attempts": 27,
+      "accepted": 24,
+      "minNodes": 5,
+      "maxNodes": 11
+    },
+    {
+      "size": 5,
+      "attempts": 26,
+      "accepted": 24,
+      "minNodes": 3,
+      "maxNodes": 17
+    },
+    {
+      "size": 6,
+      "attempts": 25,
+      "accepted": 24,
+      "minNodes": 5,
+      "maxNodes": 21
+    },
+    {
+      "size": 7,
+      "attempts": 27,
+      "accepted": 24,
+      "minNodes": 3,
+      "maxNodes": 27
+    },
+    {
+      "size": 8,
+      "attempts": 25,
+      "accepted": 24,
+      "minNodes": 9,
+      "maxNodes": 29
+    }
+  ]
+}

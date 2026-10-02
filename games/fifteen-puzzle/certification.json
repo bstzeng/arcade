@@ -1,0 +1,414 @@
+{
+  "game": "fifteen-puzzle",
+  "status": "passed",
+  "levels": 50,
+  "uniqueStartingStates": 50,
+  "independentWitnessesReplayed": 50,
+  "allCorrectParity": true,
+  "threeByThreeStatesEnumerated": 181440,
+  "exactOptimaCertified": 20,
+  "fourByFourReferenceOnly": 30,
+  "sourceSha256": "b0e061f0e1a522da2c640925c2c20341446d49673dc6d8cc7dd09cf8db6fbf7e",
+  "results": [
+    {
+      "id": 1,
+      "size": 3,
+      "legalWitnessMoves": 6,
+      "certifiedMinimum": 6,
+      "manhattanLowerBound": 6,
+      "passed": true
+    },
+    {
+      "id": 2,
+      "size": 3,
+      "legalWitnessMoves": 7,
+      "certifiedMinimum": 7,
+      "manhattanLowerBound": 7,
+      "passed": true
+    },
+    {
+      "id": 3,
+      "size": 3,
+      "legalWitnessMoves": 8,
+      "certifiedMinimum": 8,
+      "manhattanLowerBound": 8,
+      "passed": true
+    },
+    {
+      "id": 4,
+      "size": 3,
+      "legalWitnessMoves": 9,
+      "certifiedMinimum": 9,
+      "manhattanLowerBound": 7,
+      "passed": true
+    },
+    {
+      "id": 5,
+      "size": 3,
+      "legalWitnessMoves": 10,
+      "certifiedMinimum": 10,
+      "manhattanLowerBound": 10,
+      "passed": true
+    },
+    {
+      "id": 6,
+      "size": 3,
+      "legalWitnessMoves": 11,
+      "certifiedMinimum": 11,
+      "manhattanLowerBound": 7,
+      "passed": true
+    },
+    {
+      "id": 7,
+      "size": 3,
+      "legalWitnessMoves": 12,
+      "certifiedMinimum": 12,
+      "manhattanLowerBound": 10,
+      "passed": true
+    },
+    {
+      "id": 8,
+      "size": 3,
+      "legalWitnessMoves": 13,
+      "certifiedMinimum": 13,
+      "manhattanLowerBound": 9,
+      "passed": true
+    },
+    {
+      "id": 9,
+      "size": 3,
+      "legalWitnessMoves": 14,
+      "certifiedMinimum": 14,
+      "manhattanLowerBound": 8,
+      "passed": true
+    },
+    {
+      "id": 10,
+      "size": 3,
+      "legalWitnessMoves": 15,
+      "certifiedMinimum": 15,
+      "manhattanLowerBound": 11,
+      "passed": true
+    },
+    {
+      "id": 11,
+      "size": 3,
+      "legalWitnessMoves": 16,
+      "certifiedMinimum": 16,
+      "manhattanLowerBound": 12,
+      "passed": true
+    },
+    {
+      "id": 12,
+      "size": 3,
+      "legalWitnessMoves": 17,
+      "certifiedMinimum": 17,
+      "manhattanLowerBound": 11,
+      "passed": true
+    },
+    {
+      "id": 13,
+      "size": 3,
+      "legalWitnessMoves": 18,
+      "certifiedMinimum": 18,
+      "manhattanLowerBound": 14,
+      "passed": true
+    },
+    {
+      "id": 14,
+      "size": 3,
+      "legalWitnessMoves": 19,
+      "certifiedMinimum": 19,
+      "manhattanLowerBound": 13,
+      "passed": true
+    },
+    {
+      "id": 15,
+      "size": 3,
+      "legalWitnessMoves": 20,
+      "certifiedMinimum": 20,
+      "manhattanLowerBound": 12,
+      "passed": true
+    },
+    {
+      "id": 16,
+      "size": 3,
+      "legalWitnessMoves": 21,
+      "certifiedMinimum": 21,
+      "manhattanLowerBound": 11,
+      "passed": true
+    },
+    {
+      "id": 17,
+      "size": 3,
+      "legalWitnessMoves": 22,
+      "certifiedMinimum": 22,
+      "manhattanLowerBound": 14,
+      "passed": true
+    },
+    {
+      "id": 18,
+      "size": 3,
+      "legalWitnessMoves": 23,
+      "certifiedMinimum": 23,
+      "manhattanLowerBound": 11,
+      "passed": true
+    },
+    {
+      "id": 19,
+      "size": 3,
+      "legalWitnessMoves": 24,
+      "certifiedMinimum": 24,
+      "manhattanLowerBound": 12,
+      "passed": true
+    },
+    {
+      "id": 20,
+      "size": 3,
+      "legalWitnessMoves": 25,
+      "certifiedMinimum": 25,
+      "manhattanLowerBound": 17,
+      "passed": true
+    },
+    {
+      "id": 21,
+      "size": 4,
+      "legalWitnessMoves": 14,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 12,
+      "passed": true
+    },
+    {
+      "id": 22,
+      "size": 4,
+      "legalWitnessMoves": 16,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 16,
+      "passed": true
+    },
+    {
+      "id": 23,
+      "size": 4,
+      "legalWitnessMoves": 18,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 14,
+      "passed": true
+    },
+    {
+      "id": 24,
+      "size": 4,
+      "legalWitnessMoves": 20,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 18,
+      "passed": true
+    },
+    {
+      "id": 25,
+      "size": 4,
+      "legalWitnessMoves": 22,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 18,
+      "passed": true
+    },
+    {
+      "id": 26,
+      "size": 4,
+      "legalWitnessMoves": 24,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 18,
+      "passed": true
+    },
+    {
+      "id": 27,
+      "size": 4,
+      "legalWitnessMoves": 26,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 18,
+      "passed": true
+    },
+    {
+      "id": 28,
+      "size": 4,
+      "legalWitnessMoves": 28,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 22,
+      "passed": true
+    },
+    {
+      "id": 29,
+      "size": 4,
+      "legalWitnessMoves": 30,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 22,
+      "passed": true
+    },
+    {
+      "id": 30,
+      "size": 4,
+      "legalWitnessMoves": 32,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 14,
+      "passed": true
+    },
+    {
+      "id": 31,
+      "size": 4,
+      "legalWitnessMoves": 34,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 26,
+      "passed": true
+    },
+    {
+      "id": 32,
+      "size": 4,
+      "legalWitnessMoves": 36,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 18,
+      "passed": true
+    },
+    {
+      "id": 33,
+      "size": 4,
+      "legalWitnessMoves": 38,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 32,
+      "passed": true
+    },
+    {
+      "id": 34,
+      "size": 4,
+      "legalWitnessMoves": 40,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 22,
+      "passed": true
+    },
+    {
+      "id": 35,
+      "size": 4,
+      "legalWitnessMoves": 42,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 20,
+      "passed": true
+    },
+    {
+      "id": 36,
+      "size": 4,
+      "legalWitnessMoves": 44,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 26,
+      "passed": true
+    },
+    {
+      "id": 37,
+      "size": 4,
+      "legalWitnessMoves": 46,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 30,
+      "passed": true
+    },
+    {
+      "id": 38,
+      "size": 4,
+      "legalWitnessMoves": 48,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 26,
+      "passed": true
+    },
+    {
+      "id": 39,
+      "size": 4,
+      "legalWitnessMoves": 50,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 20,
+      "passed": true
+    },
+    {
+      "id": 40,
+      "size": 4,
+      "legalWitnessMoves": 52,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 26,
+      "passed": true
+    },
+    {
+      "id": 41,
+      "size": 4,
+      "legalWitnessMoves": 54,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 22,
+      "passed": true
+    },
+    {
+      "id": 42,
+      "size": 4,
+      "legalWitnessMoves": 56,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 34,
+      "passed": true
+    },
+    {
+      "id": 43,
+      "size": 4,
+      "legalWitnessMoves": 58,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 30,
+      "passed": true
+    },
+    {
+      "id": 44,
+      "size": 4,
+      "legalWitnessMoves": 60,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 40,
+      "passed": true
+    },
+    {
+      "id": 45,
+      "size": 4,
+      "legalWitnessMoves": 62,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 24,
+      "passed": true
+    },
+    {
+      "id": 46,
+      "size": 4,
+      "legalWitnessMoves": 64,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 26,
+      "passed": true
+    },
+    {
+      "id": 47,
+      "size": 4,
+      "legalWitnessMoves": 66,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 36,
+      "passed": true
+    },
+    {
+      "id": 48,
+      "size": 4,
+      "legalWitnessMoves": 68,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 24,
+      "passed": true
+    },
+    {
+      "id": 49,
+      "size": 4,
+      "legalWitnessMoves": 70,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 32,
+      "passed": true
+    },
+    {
+      "id": 50,
+      "size": 4,
+      "legalWitnessMoves": 72,
+      "certifiedMinimum": null,
+      "manhattanLowerBound": 26,
+      "passed": true
+    }
+  ]
+}

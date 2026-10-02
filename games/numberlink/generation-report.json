@@ -1,0 +1,36 @@
+{
+  "seed": 31415926,
+  "levels": 50,
+  "batches": [
+    {
+      "n": 4,
+      "pairs": 4,
+      "trials": 11,
+      "seconds": 0.01
+    },
+    {
+      "n": 5,
+      "pairs": 6,
+      "trials": 21,
+      "seconds": 0.02
+    },
+    {
+      "n": 6,
+      "pairs": 8,
+      "trials": 59,
+      "seconds": 0.13
+    },
+    {
+      "n": 6,
+      "pairs": 7,
+      "trials": 53,
+      "seconds": 0.19
+    },
+    {
+      "n": 7,
+      "pairs": 8,
+      "trials": 619,
+      "seconds": 23.38
+    }
+  ]
+}

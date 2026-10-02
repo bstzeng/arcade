@@ -1,0 +1,27 @@
+{
+  "game": "star-battle",
+  "levels": 50,
+  "oneStarLevels": 40,
+  "twoStarLevels": 10,
+  "engineAssertions": 750,
+  "totalAssertions": 880,
+  "actualUIScriptWins": 50,
+  "uiCellActions": 434,
+  "flows": [
+    "all 50 wins through real click handlers",
+    "adjacency/diagonal, region, row, column quotas",
+    "undo",
+    "reset confirmation/cancel/undo",
+    "save/reload",
+    "malformed save",
+    "storage denial",
+    "wrong star and wrong exclusion hints",
+    "read-only answer preview",
+    "right-click notes",
+    "mode buttons",
+    "help/escape",
+    "navigation bounds"
+  ],
+  "uiMethod": "shipped app.js evaluated with deterministic DOM/event harness; no browser pixels tested",
+  "browserLayout": "pending publisher live-browser QA"
+}

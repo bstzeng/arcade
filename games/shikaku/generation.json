@@ -1,0 +1,41 @@
+{
+  "seed": 6124672,
+  "algorithm": "Random full rectangle tilings without singleton clues; random clue positions; exact-cover solution count; D4 canonical deduplication",
+  "generation": [
+    {
+      "size": 4,
+      "attempts": 142,
+      "accepted": 40,
+      "minCandidates": 9,
+      "maxCandidates": 14
+    },
+    {
+      "size": 5,
+      "attempts": 85,
+      "accepted": 40,
+      "minCandidates": 11,
+      "maxCandidates": 19
+    },
+    {
+      "size": 6,
+      "attempts": 93,
+      "accepted": 40,
+      "minCandidates": 27,
+      "maxCandidates": 39
+    },
+    {
+      "size": 7,
+      "attempts": 112,
+      "accepted": 40,
+      "minCandidates": 31,
+      "maxCandidates": 41
+    },
+    {
+      "size": 8,
+      "attempts": 121,
+      "accepted": 40,
+      "minCandidates": 36,
+      "maxCandidates": 51
+    }
+  ]
+}

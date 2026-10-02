@@ -1,0 +1,362 @@
+{
+  "game": "star-battle",
+  "levels": 50,
+  "unique": true,
+  "symmetryDistinct": 50,
+  "oneStarLevels": 40,
+  "twoStarLevels": 10,
+  "solver": "independent region-subset exact cover with row, column and king-distance constraints",
+  "seconds": 0.126,
+  "records": [
+    {
+      "level": 1,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 10
+    },
+    {
+      "level": 2,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 17
+    },
+    {
+      "level": 3,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 16
+    },
+    {
+      "level": 4,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 7
+    },
+    {
+      "level": 5,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 15
+    },
+    {
+      "level": 6,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 8
+    },
+    {
+      "level": 7,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 8
+    },
+    {
+      "level": 8,
+      "n": 5,
+      "k": 1,
+      "count": 1,
+      "nodes": 9
+    },
+    {
+      "level": 9,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 11
+    },
+    {
+      "level": 10,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 18
+    },
+    {
+      "level": 11,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 9
+    },
+    {
+      "level": 12,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 15
+    },
+    {
+      "level": 13,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 9
+    },
+    {
+      "level": 14,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 10
+    },
+    {
+      "level": 15,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 27
+    },
+    {
+      "level": 16,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 11
+    },
+    {
+      "level": 17,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 14
+    },
+    {
+      "level": 18,
+      "n": 6,
+      "k": 1,
+      "count": 1,
+      "nodes": 11
+    },
+    {
+      "level": 19,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 17
+    },
+    {
+      "level": 20,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 13
+    },
+    {
+      "level": 21,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 12
+    },
+    {
+      "level": 22,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 10
+    },
+    {
+      "level": 23,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 15
+    },
+    {
+      "level": 24,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 15
+    },
+    {
+      "level": 25,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 19
+    },
+    {
+      "level": 26,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 14
+    },
+    {
+      "level": 27,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 44
+    },
+    {
+      "level": 28,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 10
+    },
+    {
+      "level": 29,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 24
+    },
+    {
+      "level": 30,
+      "n": 7,
+      "k": 1,
+      "count": 1,
+      "nodes": 9
+    },
+    {
+      "level": 31,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 29
+    },
+    {
+      "level": 32,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 18
+    },
+    {
+      "level": 33,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 19
+    },
+    {
+      "level": 34,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 16
+    },
+    {
+      "level": 35,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 18
+    },
+    {
+      "level": 36,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 14
+    },
+    {
+      "level": 37,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 19
+    },
+    {
+      "level": 38,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 12
+    },
+    {
+      "level": 39,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 20
+    },
+    {
+      "level": 40,
+      "n": 8,
+      "k": 1,
+      "count": 1,
+      "nodes": 17
+    },
+    {
+      "level": 41,
+      "n": 8,
+      "k": 2,
+      "count": 1,
+      "nodes": 121
+    },
+    {
+      "level": 42,
+      "n": 8,
+      "k": 2,
+      "count": 1,
+      "nodes": 42
+    },
+    {
+      "level": 43,
+      "n": 8,
+      "k": 2,
+      "count": 1,
+      "nodes": 50
+    },
+    {
+      "level": 44,
+      "n": 8,
+      "k": 2,
+      "count": 1,
+      "nodes": 23
+    },
+    {
+      "level": 45,
+      "n": 8,
+      "k": 2,
+      "count": 1,
+      "nodes": 24
+    },
+    {
+      "level": 46,
+      "n": 9,
+      "k": 2,
+      "count": 1,
+      "nodes": 105
+    },
+    {
+      "level": 47,
+      "n": 9,
+      "k": 2,
+      "count": 1,
+      "nodes": 154
+    },
+    {
+      "level": 48,
+      "n": 9,
+      "k": 2,
+      "count": 1,
+      "nodes": 14
+    },
+    {
+      "level": 49,
+      "n": 9,
+      "k": 2,
+      "count": 1,
+      "nodes": 25
+    },
+    {
+      "level": 50,
+      "n": 9,
+      "k": 2,
+      "count": 1,
+      "nodes": 246
+    }
+  ]
+}
