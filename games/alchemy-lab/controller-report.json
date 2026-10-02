@@ -1,0 +1,32 @@
+{
+  "gameId": "alchemy-lab",
+  "passed": true,
+  "manualWinLevels": [
+    "001",
+    "050",
+    "100"
+  ],
+  "manualActionClicks": 22,
+  "levelCount": 100,
+  "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+  "coverage": [
+    "100-entry selector",
+    "three complete manual UI wins",
+    "selection and map clicks",
+    "stale control invalidation",
+    "hint nonmutation and assistance",
+    "separate proof replay without progress grant",
+    "reset confirm/cancel/Escape/repeated callback",
+    "invalid action atomicity",
+    "saved-state reload",
+    "corrupt and denied storage",
+    "DOM status labels",
+    "listener cleanup",
+    "actual bootstrap blur and pagehide lifecycle",
+    "bfcache pause/save retains usable controller"
+  ],
+  "browserQA": {
+    "status": "not-run",
+    "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+  }
+}
