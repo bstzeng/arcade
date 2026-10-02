@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "build": "20261002-tabletop-ai",
-  "registryCount": 67,
+  "build": "20261002-chinese-chess",
+  "registryCount": 69,
   "batchGames": 10,
   "levelsPerGame": 50,
   "totalVerifiedLevels": 500,
@@ -39,14 +39,14 @@
         {
           "command": "python3 games/mahjong-solitaire/verify-independent.py",
           "passed": true,
-          "seconds": 0.063,
+          "seconds": 0.075,
           "output": "PASS Mahjong: 50 distinct layered layouts, 873 legal pairs, full clearance, <=4 copies per face; negative/partial-cover tests",
           "stderr": ""
         },
         {
           "command": "node games/mahjong-solitaire/controller-tests.cjs",
           "passed": true,
-          "seconds": 1.021,
+          "seconds": 1.205,
           "output": "PASS mahjong-solitaire: 50 independent runtime witness replays (873 steps), 50 manual DOM wins, alternate fits/rules, non-destructive hints/preview/pause/step/stop, undo/reload, validated saves, confirmation cancellation, keyboard, disabled storage and background timers",
           "stderr": ""
         }
@@ -481,14 +481,14 @@
         {
           "command": "python3 games/tangram/verify-independent.py",
           "passed": true,
-          "seconds": 1.268,
+          "seconds": 1.415,
           "output": "PASS Tangram: 50 geometrically distinct silhouettes, 350 standard pieces, exact area/containment/no-overlap, connected simple boundary, negative tests",
           "stderr": ""
         },
         {
           "command": "node games/tangram/controller-tests.cjs",
           "passed": true,
-          "seconds": 2.636,
+          "seconds": 2.429,
           "output": "PASS tangram: 50 independent runtime witness replays (350 steps), 50 manual DOM wins, alternate fits/rules, non-destructive hints/preview/pause/step/stop, undo/reload, validated saves, confirmation cancellation, keyboard, disabled storage and background timers",
           "stderr": ""
         }
@@ -972,14 +972,14 @@
         {
           "command": "python3 games/samegame/verify.py",
           "passed": true,
-          "seconds": 0.046,
+          "seconds": 0.049,
           "output": "PASS: 50 independently replayed clearing certificates; 50 color/reflection-distinct boards; every removed group has at least 2 tiles.",
           "stderr": ""
         },
         {
           "command": "node games/samegame/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.444,
+          "seconds": 0.493,
           "output": "PASS samegame: 273 assertions; 50 UI wins (520 legal moves); hints, undo, saved-history validation, isolated demos, restart cancel, keyboard/touch cancellation, storage fallback.",
           "stderr": ""
         }
@@ -2082,14 +2082,14 @@
         {
           "command": "python3 games/untangle/verify.py",
           "passed": true,
-          "seconds": 0.054,
+          "seconds": 0.055,
           "output": "PASS: 50 connected pairwise non-isomorphic graphs, 50 crossing-free nondegenerate straight-line embeddings; all starts have crossings.",
           "stderr": ""
         },
         {
           "command": "node games/untangle/controller-tests.cjs",
           "passed": true,
-          "seconds": 1.716,
+          "seconds": 1.806,
           "output": "PASS untangle: 274 assertions; 50 UI wins (525 legal moves); hints, undo, saved-history validation, isolated demos, restart cancel, keyboard/touch cancellation, storage fallback.",
           "stderr": ""
         }
@@ -2622,14 +2622,14 @@
         {
           "command": "python3 games/dominosa/verify.py",
           "passed": true,
-          "seconds": 0.073,
+          "seconds": 0.086,
           "output": "Dominosa: 50/50 unique, complete standard sets, 50 canonical digit-renaming-distinct boards; independent counts verified",
           "stderr": ""
         },
         {
           "command": "node games/dominosa/controller-tests.cjs",
           "passed": true,
-          "seconds": 2.324,
+          "seconds": 1.934,
           "output": "Dominosa controller: 1431 assertions passed; 50 engine wins and 50 DOM wins, undo, tile removal, keyboard, hint/preview purity, cancellation, save/reload and malformed/blocked storage",
           "stderr": ""
         }
@@ -2913,14 +2913,14 @@
         {
           "command": "python3 games/unruly/verify.py",
           "passed": true,
-          "seconds": 0.129,
+          "seconds": 0.139,
           "output": "Unruly: 50/50 unique, 50 canonical-distinct clues AND solutions, repeated rows permitted; independent counts verified",
           "stderr": ""
         },
         {
           "command": "node games/unruly/controller-tests.cjs",
           "passed": true,
-          "seconds": 3.912,
+          "seconds": 2.967,
           "output": "Unruly controller: 2553 assertions passed; 50 engine wins and 50 DOM wins, classic repeated-row rule, clue protection, keyboard, undo, hint/preview purity, cancellation, save/reload and malformed/blocked storage",
           "stderr": ""
         }
@@ -3254,21 +3254,21 @@
         {
           "command": "python3 games/keen/verify-primary.py",
           "passed": true,
-          "seconds": 0.207,
+          "seconds": 0.178,
           "output": "keen primary counter: all 50 puzzles have exactly one solution",
           "stderr": ""
         },
         {
           "command": "node games/keen/verify-independent.cjs",
           "passed": true,
-          "seconds": 0.213,
+          "seconds": 0.194,
           "output": "keen verified 1 17\nkeen verified 2 19\nkeen verified 3 19\nkeen verified 4 21\nkeen verified 5 41\nkeen verified 6 23\nkeen verified 7 25\nkeen verified 8 25\nkeen verified 9 45\nkeen verified 10 39\nkeen verified 11 22\nkeen verified 12 21\nkeen verified 13 17\nkeen verified 14 26\nkeen verified 15 17\nkeen verified 16 27\nkeen verified 17 38\nkeen verified 18 25\nkeen verified 19 27\nkeen verified 20 55\nkeen verified 21 58\nkeen verified 22 36\nkeen verified 23 49\nkeen verified 24 167\nkeen verified 25 65\nkeen verified 26 96\nkeen verified 27 148\nkeen verified 28 102\nkeen verified 29 62\nkeen verified 30 167\nkeen verified 31 69\nkeen verified 32 41\nkeen verified 33 71\nkeen verified 34 74\nkeen verified 35 89\nkeen verified 36 39\nkeen verified 37 45\nkeen verified 38 60\nkeen verified 39 52\nkeen verified 40 95\nkeen verified 41 55\nkeen verified 42 37\nkeen verified 43 142\nkeen verified 44 245\nkeen verified 45 175\nkeen verified 46 122\nkeen verified 47 207\nkeen verified 48 475\nkeen verified 49 1281\nkeen verified 50 1034",
           "stderr": ""
         },
         {
           "command": "node games/keen/controller-tests.cjs",
           "passed": true,
-          "seconds": 2.284,
+          "seconds": 2.149,
           "output": "{\n  \"game\": \"keen\",\n  \"passed\": true,\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 50,\n  \"otherPassed\": [\n    \"50-level selector and boundaries\",\n    \"completion checked by rules, not answer comparison\",\n    \"reloaded all 50 completions validated\",\n    \"non-destructive solution preview\",\n    \"preview locks editing and never awards completion\",\n    \"undo retains hint attribution\",\n    \"restart Cancel and Escape preserve board\",\n    \"restart undo restores board\",\n    \"help open/close\",\n    \"save reload\",\n    \"malformed JSON recovery\",\n    \"invalid current board discarded\",\n    \"forged completion discarded\",\n    \"storage denied still playable\",\n    \"keyboard navigation and editing\",\n    \"click/touch controls\",\n    \"previous/next navigation\",\n    \"preview exits on level change\",\n    \"invalid level requests ignored\",\n    \"number buttons and direct keyboard entry\",\n    \"duplicate row and column feedback\",\n    \"arithmetic operator validation\",\n    \"out-of-range entry ignored\"\n  ],\n  \"visualBrowserQA\": \"Not run in this suite: shipped app.js executed in minimal DOM; rendering needs browser QA.\",\n  \"desktopDesignTarget\": \"1180×757, 100dvh, no body scrolling; mobile shell keeps board controls visible\"\n}",
           "stderr": ""
         }
@@ -3656,21 +3656,21 @@
         {
           "command": "python3 games/galaxies/verify-primary.py",
           "passed": true,
-          "seconds": 0.076,
+          "seconds": 0.065,
           "output": "galaxies primary counter: all 50 puzzles have exactly one solution",
           "stderr": ""
         },
         {
           "command": "node games/galaxies/verify-independent.cjs",
           "passed": true,
-          "seconds": 0.12,
+          "seconds": 0.125,
           "output": "galaxies verified 1 1\ngalaxies verified 2 1\ngalaxies verified 3 3\ngalaxies verified 4 1\ngalaxies verified 5 1\ngalaxies verified 6 1\ngalaxies verified 7 3\ngalaxies verified 8 7\ngalaxies verified 9 5\ngalaxies verified 10 3\ngalaxies verified 11 3\ngalaxies verified 12 5\ngalaxies verified 13 7\ngalaxies verified 14 7\ngalaxies verified 15 1\ngalaxies verified 16 7\ngalaxies verified 17 5\ngalaxies verified 18 3\ngalaxies verified 19 1\ngalaxies verified 20 3\ngalaxies verified 21 1\ngalaxies verified 22 5\ngalaxies verified 23 3\ngalaxies verified 24 3\ngalaxies verified 25 7\ngalaxies verified 26 7\ngalaxies verified 27 9\ngalaxies verified 28 7\ngalaxies verified 29 3\ngalaxies verified 30 1\ngalaxies verified 31 3\ngalaxies verified 32 9\ngalaxies verified 33 7\ngalaxies verified 34 5\ngalaxies verified 35 27\ngalaxies verified 36 15\ngalaxies verified 37 11\ngalaxies verified 38 19\ngalaxies verified 39 9\ngalaxies verified 40 15\ngalaxies verified 41 21\ngalaxies verified 42 9\ngalaxies verified 43 31\ngalaxies verified 44 56\ngalaxies verified 45 21\ngalaxies verified 46 41\ngalaxies verified 47 117\ngalaxies verified 48 85\ngalaxies verified 49 43\ngalaxies verified 50 165",
           "stderr": ""
         },
         {
           "command": "node games/galaxies/controller-tests.cjs",
           "passed": true,
-          "seconds": 1.591,
+          "seconds": 1.558,
           "output": "{\n  \"game\": \"galaxies\",\n  \"passed\": true,\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 42,\n  \"otherPassed\": [\n    \"50-level selector and boundaries\",\n    \"completion checked by rules, not answer comparison\",\n    \"reloaded all 50 completions validated\",\n    \"non-destructive solution preview\",\n    \"preview locks editing and never awards completion\",\n    \"undo retains hint attribution\",\n    \"restart Cancel and Escape preserve board\",\n    \"restart undo restores board\",\n    \"help open/close\",\n    \"save reload\",\n    \"malformed JSON recovery\",\n    \"invalid current board discarded\",\n    \"forged completion discarded\",\n    \"storage denied still playable\",\n    \"keyboard navigation and editing\",\n    \"click/touch controls\",\n    \"previous/next navigation\",\n    \"preview exits on level change\",\n    \"invalid level requests ignored\",\n    \"automatic rotational-pair paint and erase\",\n    \"fixed seed cells protected\",\n    \"center dropdown and numbered center buttons\",\n    \"non-mutating hover pair preview\",\n    \"all permitted edits retain symmetry\"\n  ],\n  \"visualBrowserQA\": \"Not run in this suite: shipped app.js executed in minimal DOM; rendering needs browser QA.\",\n  \"desktopDesignTarget\": \"1180×757, 100dvh, no body scrolling; mobile shell keeps board controls visible\"\n}",
           "stderr": ""
         }
@@ -4058,21 +4058,21 @@
         {
           "command": "python3 games/signpost/verify.py",
           "passed": true,
-          "seconds": 2.873,
-          "output": "1 7\n2 33\n3 3\n4 3\n5 7\n6 17\n7 3\n8 9\n9 25\n10 15\n11 27\n12 21\n13 15\n14 1094\n15 209\n16 63\n17 185\n18 12\n19 41\n20 29\n21 41\n22 287\n23 9\n24 166\n25 330\n26 43\n27 39\n28 65\n29 41\n30 86\n31 309\n32 56\n33 103\n34 391\n35 548\n36 69\n37 3532\n38 2207\n39 579\n40 42\n41 1177\n42 2223\n43 241\n44 93\n45 773\n46 891\n47 5185\n48 1093\n49 1460\n50 2648\nPASS 2.812",
+          "seconds": 2.825,
+          "output": "1 7\n2 33\n3 3\n4 3\n5 7\n6 17\n7 3\n8 9\n9 25\n10 15\n11 27\n12 21\n13 15\n14 1094\n15 209\n16 63\n17 185\n18 12\n19 41\n20 29\n21 41\n22 287\n23 9\n24 166\n25 330\n26 43\n27 39\n28 65\n29 41\n30 86\n31 309\n32 56\n33 103\n34 391\n35 548\n36 69\n37 3532\n38 2207\n39 579\n40 42\n41 1177\n42 2223\n43 241\n44 93\n45 773\n46 891\n47 5185\n48 1093\n49 1460\n50 2648\nPASS 2.783",
           "stderr": ""
         },
         {
           "command": "python3 games/signpost/solver-tests.py",
           "passed": true,
-          "seconds": 0.044,
+          "seconds": 0.066,
           "output": "{'passed': True, 'comparisons': 326, 'method': 'Exhaustive 2x2 directed graphs against permutation enumeration; 3x3 ambiguity and long-jump fixtures'}",
           "stderr": ""
         },
         {
           "command": "node games/signpost/controller-tests.cjs",
           "passed": true,
-          "seconds": 1.232,
+          "seconds": 1.213,
           "output": "{\n  \"game\": \"signpost\",\n  \"passed\": true,\n  \"assertions\": 1091,\n  \"engineWins\": 50,\n  \"controllerWinFlows\": 50,\n  \"coverage\": [\n    \"all 50 solution boards checked by rules\",\n    \"numeric input and multi-digit keyboard\",\n    \"pointer erase and keyboard Delete\",\n    \"fixed clues immutable\",\n    \"focus and arrow navigation\",\n    \"undo and auto-save reload\",\n    \"wrong-answer-safe nondestructive hints\",\n    \"nondestructive answer preview\",\n    \"reset confirm/cancel/Escape/double-click\",\n    \"navigation clears stale modal actions\",\n    \"invalid state/history/JSON rejection\",\n    \"blocked storage fallback\",\n    \"level boundaries\"\n  ],\n  \"visualBrowserQA\": \"Not run here; DOM harness is not a browser renderer.\"\n}",
           "stderr": ""
         }
@@ -4412,21 +4412,21 @@
         {
           "command": "python3 games/fillomino/verify.py",
           "passed": true,
-          "seconds": 18.456,
-          "output": "1 22\n2 51\n3 36\n4 122\n5 126\n6 130\n7 43\n8 35\n9 14\n10 55\n11 17\n12 22\n13 77\n14 170\n15 152\n16 41\n17 88\n18 79\n19 869\n20 914\n21 987\n22 469\n23 2481\n24 452\n25 62\n26 956\n27 676\n28 522\n29 229\n30 19\n31 740\n32 144\n33 35453\n34 35843\n35 26011\n36 306\n37 51556\n38 2532\n39 130\n40 1526\n41 22742\n42 24646\n43 191\n44 5051\n45 2307\n46 1448\n47 15493\n48 97\n49 5206\n50 1110\nPASS 18.404",
+          "seconds": 18.785,
+          "output": "1 22\n2 51\n3 36\n4 122\n5 126\n6 130\n7 43\n8 35\n9 14\n10 55\n11 17\n12 22\n13 77\n14 170\n15 152\n16 41\n17 88\n18 79\n19 869\n20 914\n21 987\n22 469\n23 2481\n24 452\n25 62\n26 956\n27 676\n28 522\n29 229\n30 19\n31 740\n32 144\n33 35453\n34 35843\n35 26011\n36 306\n37 51556\n38 2532\n39 130\n40 1526\n41 22742\n42 24646\n43 191\n44 5051\n45 2307\n46 1448\n47 15493\n48 97\n49 5206\n50 1110\nPASS 18.734",
           "stderr": ""
         },
         {
           "command": "python3 games/fillomino/solver-tests.py",
           "passed": true,
-          "seconds": 0.064,
+          "seconds": 0.073,
           "output": "{'passed': True, 'comparisons': 625, 'method': 'Every 2x2 clue pattern (0 through 4) against all 256 complete cell-value assignments', 'legalBlankBoardSolutions': 5, 'includesClueFreeRegions': True}",
           "stderr": ""
         },
         {
           "command": "node games/fillomino/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.732,
+          "seconds": 0.736,
           "output": "{\n  \"game\": \"fillomino\",\n  \"passed\": true,\n  \"assertions\": 1092,\n  \"engineWins\": 50,\n  \"controllerWinFlows\": 50,\n  \"coverage\": [\n    \"all 50 solution boards checked by rules\",\n    \"numeric input and multi-digit keyboard\",\n    \"pointer erase and keyboard Delete\",\n    \"fixed clues immutable\",\n    \"focus and arrow navigation\",\n    \"undo and auto-save reload\",\n    \"wrong-answer-safe nondestructive hints\",\n    \"nondestructive answer preview\",\n    \"reset confirm/cancel/Escape/double-click\",\n    \"navigation clears stale modal actions\",\n    \"invalid state/history/JSON rejection\",\n    \"blocked storage fallback\",\n    \"level boundaries\"\n  ],\n  \"visualBrowserQA\": \"Not run here; DOM harness is not a browser renderer.\"\n}",
           "stderr": ""
         }

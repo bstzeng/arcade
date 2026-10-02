@@ -4,13 +4,14 @@
 const fs = require('node:fs'), path = require('node:path'), vm = require('node:vm');
 const assert = require('node:assert/strict'), {spawnSync} = require('node:child_process');
 process.chdir(__dirname);
+const currentRegistryCount=require('./verify-lobby.cjs').games.length;
 function run(command,args){ console.log(`\n> ${command} ${args.join(' ')}`); const r=spawnSync(command,args,{stdio:'inherit'}); if(r.error)throw r.error;assert.equal(r.status,0,`Failed: ${command} ${args.join(' ')}`); }
 run(process.execPath,['--check','app.js']);
 const source=fs.readFileSync('app.js','utf8');
 const context=vm.createContext({});
 const data=vm.runInContext(source.slice(0,source.indexOf("let activeCategory"))+';({games,categoryNames,artMarkup,GAME_BUILD})',context);
-assert.equal(data.games.length,67);
-assert.equal(new Set(data.games.map(g=>g.id)).size,67);
+assert.equal(data.games.length,currentRegistryCount);
+assert.equal(new Set(data.games.map(g=>g.id)).size,currentRegistryCount);
 assert.equal(data.games.filter(g=>g.category==='cards').length,5);
 assert(data.categoryNames.cards);
 const home=fs.readFileSync('index.html','utf8');
@@ -48,15 +49,15 @@ const nodes=Object.fromEntries(['#game-grid','#search','#empty','#results','#res
 const filters=['all','puzzle','strategy','casual','cards','board','logic'].map(category=>{const n=new Node('button');n.dataset.filter=category;return n;});
 const doc={querySelector:s=>nodes[s],querySelectorAll:()=>filters,createElement:tag=>new Node(tag)};
 vm.runInNewContext(source,{document:doc});
-assert.equal(nodes['#game-grid'].children.length,67);
+assert.equal(nodes['#game-grid'].children.length,currentRegistryCount);
 filters[5].events.click();assert.equal(nodes['#game-grid'].children.length,10);
 filters[4].events.click();assert.equal(nodes['#game-grid'].children.length,5);
 nodes['#search'].value='KLONDIKE';nodes['#search'].events.input();assert.equal(nodes['#game-grid'].children.length,1);
 nodes['#search'].value='鐵道';nodes['#search'].events.input();assert.equal(nodes['#game-grid'].children.length,0);assert.equal(nodes['#empty'].hidden,false);
-nodes['#reset'].events.click();assert.equal(nodes['#game-grid'].children.length,67);assert(nodes['#search'].focused);
+nodes['#reset'].events.click();assert.equal(nodes['#game-grid'].children.length,currentRegistryCount);assert(nodes['#search'].focused);
 for(const card of nodes['#game-grid'].children){const link=card.children[1].children[3].children[1];assert.equal(link.tagName,'a');assert(link.href.endsWith('?v='+data.GAME_BUILD));}
-console.log('PASS: registry DOM contract for all/category/search/empty/reset and 67 versioned play links.');
-console.log('PASS: 67 unique ready games, 5 card tables, safe existing links, matching asset cache keys, scripts parse.');
+console.log('PASS: registry DOM contract for all/category/search/empty/reset and current versioned play links.');
+console.log('PASS: Current unique ready games, 5 card tables, safe existing links, matching asset cache keys, scripts parse.');
 run(process.execPath,['games/klondike/test.cjs']);
 run('python3',['games/freecell/verify.py']);
 run(process.execPath,['games/freecell/test.js']);
