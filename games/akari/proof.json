@@ -1,0 +1,459 @@
+{
+  "game": "akari",
+  "levels": 50,
+  "allUnique": true,
+  "distinctUnderEightBoardSymmetries": true,
+  "method": "Independent bitset illumination-cover solver, branching on bulbs that can illuminate an unlit cell. Exhaustive search up to two solutions, independently checking every rule.",
+  "results": [
+    {
+      "id": 1,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 6,
+      "whiteCells": 16,
+      "numberedCells": 5
+    },
+    {
+      "id": 2,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 6,
+      "bulbs": 5,
+      "whiteCells": 20,
+      "numberedCells": 5
+    },
+    {
+      "id": 3,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 3,
+      "bulbs": 7,
+      "whiteCells": 17,
+      "numberedCells": 2
+    },
+    {
+      "id": 4,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 6,
+      "bulbs": 5,
+      "whiteCells": 18,
+      "numberedCells": 4
+    },
+    {
+      "id": 5,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 7,
+      "bulbs": 6,
+      "whiteCells": 17,
+      "numberedCells": 6
+    },
+    {
+      "id": 6,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 6,
+      "whiteCells": 16,
+      "numberedCells": 3
+    },
+    {
+      "id": 7,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 11,
+      "bulbs": 6,
+      "whiteCells": 20,
+      "numberedCells": 5
+    },
+    {
+      "id": 8,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 4,
+      "whiteCells": 19,
+      "numberedCells": 3
+    },
+    {
+      "id": 9,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 4,
+      "bulbs": 6,
+      "whiteCells": 18,
+      "numberedCells": 6
+    },
+    {
+      "id": 10,
+      "size": 5,
+      "solutionCount": 1,
+      "independentNodes": 2,
+      "bulbs": 4,
+      "whiteCells": 16,
+      "numberedCells": 5
+    },
+    {
+      "id": 11,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 4,
+      "bulbs": 7,
+      "whiteCells": 26,
+      "numberedCells": 6
+    },
+    {
+      "id": 12,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 13,
+      "bulbs": 9,
+      "whiteCells": 22,
+      "numberedCells": 4
+    },
+    {
+      "id": 13,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 8,
+      "whiteCells": 23,
+      "numberedCells": 4
+    },
+    {
+      "id": 14,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 12,
+      "bulbs": 9,
+      "whiteCells": 21,
+      "numberedCells": 5
+    },
+    {
+      "id": 15,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 8,
+      "whiteCells": 22,
+      "numberedCells": 5
+    },
+    {
+      "id": 16,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 3,
+      "bulbs": 8,
+      "whiteCells": 23,
+      "numberedCells": 4
+    },
+    {
+      "id": 17,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 7,
+      "bulbs": 8,
+      "whiteCells": 22,
+      "numberedCells": 5
+    },
+    {
+      "id": 18,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 4,
+      "bulbs": 8,
+      "whiteCells": 26,
+      "numberedCells": 5
+    },
+    {
+      "id": 19,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 10,
+      "bulbs": 9,
+      "whiteCells": 21,
+      "numberedCells": 3
+    },
+    {
+      "id": 20,
+      "size": 6,
+      "solutionCount": 1,
+      "independentNodes": 16,
+      "bulbs": 6,
+      "whiteCells": 25,
+      "numberedCells": 4
+    },
+    {
+      "id": 21,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 6,
+      "bulbs": 8,
+      "whiteCells": 28,
+      "numberedCells": 6
+    },
+    {
+      "id": 22,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 11,
+      "bulbs": 11,
+      "whiteCells": 32,
+      "numberedCells": 8
+    },
+    {
+      "id": 23,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 14,
+      "bulbs": 10,
+      "whiteCells": 33,
+      "numberedCells": 9
+    },
+    {
+      "id": 24,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 6,
+      "bulbs": 10,
+      "whiteCells": 38,
+      "numberedCells": 8
+    },
+    {
+      "id": 25,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 8,
+      "whiteCells": 37,
+      "numberedCells": 6
+    },
+    {
+      "id": 26,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 8,
+      "bulbs": 9,
+      "whiteCells": 30,
+      "numberedCells": 7
+    },
+    {
+      "id": 27,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 9,
+      "bulbs": 11,
+      "whiteCells": 36,
+      "numberedCells": 6
+    },
+    {
+      "id": 28,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 7,
+      "bulbs": 10,
+      "whiteCells": 33,
+      "numberedCells": 6
+    },
+    {
+      "id": 29,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 8,
+      "bulbs": 10,
+      "whiteCells": 35,
+      "numberedCells": 5
+    },
+    {
+      "id": 30,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 6,
+      "bulbs": 10,
+      "whiteCells": 34,
+      "numberedCells": 7
+    },
+    {
+      "id": 31,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 11,
+      "bulbs": 9,
+      "whiteCells": 30,
+      "numberedCells": 5
+    },
+    {
+      "id": 32,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 24,
+      "bulbs": 8,
+      "whiteCells": 33,
+      "numberedCells": 9
+    },
+    {
+      "id": 33,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 15,
+      "bulbs": 12,
+      "whiteCells": 31,
+      "numberedCells": 6
+    },
+    {
+      "id": 34,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 7,
+      "bulbs": 9,
+      "whiteCells": 34,
+      "numberedCells": 8
+    },
+    {
+      "id": 35,
+      "size": 7,
+      "solutionCount": 1,
+      "independentNodes": 4,
+      "bulbs": 12,
+      "whiteCells": 33,
+      "numberedCells": 6
+    },
+    {
+      "id": 36,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 19,
+      "bulbs": 14,
+      "whiteCells": 46,
+      "numberedCells": 9
+    },
+    {
+      "id": 37,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 13,
+      "whiteCells": 41,
+      "numberedCells": 7
+    },
+    {
+      "id": 38,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 26,
+      "bulbs": 12,
+      "whiteCells": 51,
+      "numberedCells": 8
+    },
+    {
+      "id": 39,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 11,
+      "bulbs": 12,
+      "whiteCells": 39,
+      "numberedCells": 7
+    },
+    {
+      "id": 40,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 9,
+      "bulbs": 11,
+      "whiteCells": 43,
+      "numberedCells": 7
+    },
+    {
+      "id": 41,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 12,
+      "bulbs": 13,
+      "whiteCells": 46,
+      "numberedCells": 7
+    },
+    {
+      "id": 42,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 15,
+      "bulbs": 17,
+      "whiteCells": 40,
+      "numberedCells": 6
+    },
+    {
+      "id": 43,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 9,
+      "bulbs": 13,
+      "whiteCells": 42,
+      "numberedCells": 9
+    },
+    {
+      "id": 44,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 17,
+      "bulbs": 16,
+      "whiteCells": 40,
+      "numberedCells": 6
+    },
+    {
+      "id": 45,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 23,
+      "bulbs": 15,
+      "whiteCells": 40,
+      "numberedCells": 10
+    },
+    {
+      "id": 46,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 26,
+      "bulbs": 12,
+      "whiteCells": 47,
+      "numberedCells": 8
+    },
+    {
+      "id": 47,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 14,
+      "bulbs": 16,
+      "whiteCells": 38,
+      "numberedCells": 9
+    },
+    {
+      "id": 48,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 5,
+      "bulbs": 12,
+      "whiteCells": 39,
+      "numberedCells": 5
+    },
+    {
+      "id": 49,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 15,
+      "bulbs": 13,
+      "whiteCells": 43,
+      "numberedCells": 11
+    },
+    {
+      "id": 50,
+      "size": 8,
+      "solutionCount": 1,
+      "independentNodes": 28,
+      "bulbs": 12,
+      "whiteCells": 41,
+      "numberedCells": 8
+    }
+  ]
+}
