@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "misere-nim",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "misere-nim",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "forced-strategy"
+  ],
+  "sources": [
+    {
+      "path": "games/misere-nim.html",
+      "sha256": "0c88a09f2a8d999522d2cea41b6dc6f392a5a712a36bd8f98b6c6b6c9bb40b42"
+    },
+    {
+      "path": "games/misere-nim/README.md",
+      "sha256": "b09d8bdbc01cfc87f43ccbf4b786c2fd8fe732ae6a870c99222ee5ec3bff48c6"
+    },
+    {
+      "path": "games/misere-nim/app.js",
+      "sha256": "ecb0488cee8705afe33c6d20915ab0292a7ca293120e6aaf26189972d7be640f"
+    },
+    {
+      "path": "games/misere-nim/boundary-tests.cjs",
+      "sha256": "b2ceb82c31b7751b9f9a1c5b70f8e2ee1bccc48ca93df5080d26aa597761d6d2"
+    },
+    {
+      "path": "games/misere-nim/controller-tests.cjs",
+      "sha256": "11788d0b50136b7111b61ed2137436fe6de484438fef8241d59cb4497b18b3da"
+    },
+    {
+      "path": "games/misere-nim/engine.js",
+      "sha256": "fcfb50d6a20d1fff84cc623a5a026ecdf368a2f6489f4e8aae774e0f58b0b445"
+    },
+    {
+      "path": "games/misere-nim/generate.cjs",
+      "sha256": "b9a4bb2c00a113af32633855ca82f8eb22323a048b0110faec3bb57d13422809"
+    },
+    {
+      "path": "games/misere-nim/levels.js",
+      "sha256": "2ca1cc87ce2e33b14137ba30a2e476c8a9f6d7007b2bcd4e4f5309965c444625"
+    },
+    {
+      "path": "games/misere-nim/levels.json",
+      "sha256": "9ea14e4c0b4465f8b5093963983af89b80c33499b99f5a63a2cba8d0c46af085"
+    },
+    {
+      "path": "games/misere-nim/proof-claims.json",
+      "sha256": "05ed7689e780437185080db773b3974192191bf9e64da6e3e26e555d4c9aa428"
+    },
+    {
+      "path": "games/misere-nim/proofs.json",
+      "sha256": "90cfc5dc010515b025f2397fe2ad44347198051698dd9b2079c7ef7455fa483d"
+    },
+    {
+      "path": "games/misere-nim/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/misere-nim/test.cjs",
+      "sha256": "eb0156b3aaa0fe269427ff6364a7e12553aa2eee4d501efd2afe900229847cd6"
+    },
+    {
+      "path": "games/misere-nim/ui-test.cjs",
+      "sha256": "0900e4c9ec7abfb75ad54c4719040d61bf267a5f163476e9174dc01149e5a11e"
+    },
+    {
+      "path": "games/misere-nim/verify.cjs",
+      "sha256": "f75ab99ec62191cf9a742bb03cce2d91b19fd2a06cb410796d690342e88bfb4b"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release.",
+    "No uniqueness claim; alternative valid solutions are accepted."
+  ]
+}

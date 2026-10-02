@@ -1,0 +1,5474 @@
+[
+  {
+    "id": "misere-nim-001",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "0ecbde67686c2a73e563a0230b13afd507145b6c9b3f5d3208cd7847a5b36e4e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-002",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "c5fae23cbd1d9dbc78cdf9f8d3c38d5f6dbb04a5c149448a66573156bb7a8490",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-003",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "6c346d1d85acc0f2a250b6c156878e584e51d8c8dc878200bf6e2a5861131aa9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-004",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "9741f3a20c9aac509278939b559305f173bd414667e31d687cb60264ce15961d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-005",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "511e6558c921ca22f9d6469fec055448ff951ed5ac15b1efc4955ab59b4a2c86",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-006",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "034a788d47b011f8ccca27df44701477e43c6fb2e1ea9b1e0ec44f612ec028de",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-007",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "7db3180083e62f9d70f0259dc21c4f5b1d092cf088bd36cbf5660b49ebfe7ea7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-008",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "f6157c2b55543c623c16aabe01767be7214e4d0b36a061453a10206b66cdb1f1",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 3
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-009",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "0ee98c6900ae1dcd4ea848ebcf10870756853a5c6eb287fa7544bbeda3891d6b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-010",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "f1fd96dd06d8317ed34443e243aa1b09f6c0a408cdd9dea4ccc33fffc0077180",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-011",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "5499078cf9af06d64089c4d21cccd811328816117f2280ad53aabd9789f4b7d8",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 1
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-012",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "a26c4d5ceb967d5a6d9c39f61408fd34c6600717c8dfb39329ba43eb099642c5",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 5
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-013",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "4b92225844e16866dc450b46248bb07a7d41874ab28337d0cd4f7efa5f1aa382",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        },
+        {
+          "heap": 2,
+          "take": 1
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-014",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "bad0cc0158c313ce8cfffade95995d94f8721df464d424caef56a1942178813a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-015",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "595e4db75032ef2c9d94a118e996708f01f4c00379f873d43fa23b79bbab4a3d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-016",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "2b938b4256a164d66922c18e20d64722659ffb70970ad19f37c97388331249c5",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-017",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "4879a8f20c808f41c7d178548edc693898b9ff7f89c43b27d2bf365811aeb03e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-018",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "f2d24c32c4adf66ce4eae0f1b798e470070ac3e8e70bb52d4c790a8a868d217e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-019",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "5c5aca99e34d0a48113c9eef3ca07624b42f6d6508ba3104a9cbace3909852eb",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-020",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "08c95c0ea9fbfcd7250cff943cee0e9c434a9a6e1ab4c34402691a8dece34124",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 8
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        },
+        {
+          "heap": 2,
+          "take": 1
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-021",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "0b779e30e1731d55d3354c472053eb5dc272780f03ddb0a96732703337f3f09d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 3,
+          "take": 4
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-022",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "daf10026a27f8b57730db9f11e98a35948cc2c9177b8ac84ec23cb6c96fcc7cf",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-023",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "eae7a0f9826ed72b193b105f67432987cfd8948845239ef077c9062617b38aba",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 5
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-024",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "83f39a69da45188464703dfff12b66f7ccf5b8e2ef033ae83034f5c1aa70e147",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-025",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "1080577c1c7ead018174ea82c01103928f2770c97f355e9a144c8ed83dca34d2",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-026",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "d8fa38bd828ce75b6be903b319e08d8a8cb0d1fd57f6e75e26d7a5bce688e154",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 7
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-027",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "8b9a2dcbb9efae967fcba16b299622b8eb6de24ed4a04f3a2c3ee20f54fdbfda",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-028",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "d3ffc5155b5bb1d3939be070974e452c68a3a0a698038ad54c1b4a104e82b1d3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-029",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "4c133fe698afc52675f1f1c0242bde54e40c90e709d8b42058f17a32f63cd669",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-030",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "03a6fd0d591bd0e6f26b954769b7f4c18fde472dc90e2335c7841a5d6dffce0d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-031",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "5d070d4a24fcded31dcdb245903f3f3140ff3cc809ca17a8eba51beaf71d6445",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 9
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-032",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "f8fb9fe2f47596b147998d75be98abc9011956eea5681fc17909cc390f61acf9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 3
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-033",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "bb9c027b5270ea6fdcc3323ab038338fdf0c5a118bf51316fce6395bea27f14d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-034",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "b590dd443d0f20479601a00dc9690e9df0b693f75f8368d0cca7270bb77b4c4e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 3
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-035",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "6405f59c290c450dea93afd58c836ffec272512d4c45e2a907853d3431209386",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-036",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "22a10f02c0c67585022e7f1438618c9a642cd8bbe3cd4ac0519052a823be72f2",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-037",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "89c7d515de4f4b7d9a18f82edcaedb137e42ad94967677657571ade9f50d5aac",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 7
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-038",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "5fa70402d4a2d88e8150768258e97ee9b1b7f06593a7517dafd5717fc9b29520",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 3,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 5
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 1
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-039",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "f8fe305e03ce50375e97e5e2476a525ea7164d3167510b3b5eb3ae47bc3aac32",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 6
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-040",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "72607db87e9b35568c78270611e2633c3e7a3fe002a36ef37842da6c63e1b7a0",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 5
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-041",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "baef4c0648ef43973affb22d4119ecfc08b9c6eaa4b1dd7cec861702467bc8ee",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-042",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "56cc0d4fe173284c3bd121cafcc3df663ea2d16eea5e91532c8aa3d94dbd81bc",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 7
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-043",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "954b7b7013ee601df0de2a51b7562ce6c3694826d82cddd09ebee7a56f68bce9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 7
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-044",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "91a83d52f0f83201470e1d6d4bf8268794e972e1f50a44c6b002971e7b92facb",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 5
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-045",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "1e47bc9e635f4b4a2b5583a23c3e168f445997b58fa2c4672aa93e7b35635f05",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 6
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-046",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "08aab42d4c453e69f3a412fa8dbe82cc30aaee6b8df56c83045fd3647894a518",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 3,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-047",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "5bfb0728a108e15d6d5eeb755ff4a2c1d9686dd0cb68c23f96d57e7ea3f1ebc3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-048",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "57ba58d22b62a3525615c0bc78d72a4c7cb3c227adb7f393e1e2b6e46ff18666",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 5
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-049",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "bffb35d479c57954ba3dd29ffc916e9c298d577717bcdecaf42ac31746c08b01",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-050",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "0a3000878ea2664820a3e5283d78c9b8e2e24e99959b1463f2892e7f1b363006",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 4,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-051",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "11fc7fefcf97bcf68a64c27ff2a0aa0808adbb1238262460fc9772b6f9d22a30",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 4,
+          "take": 9
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-052",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "1cde35b8fb0fc080fe706f5308bdc07020981faceb9c8ad578f25dbac5178b2c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-053",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "995cfe59ed9618e38bb2f7f2a450f58619409350183058d3d567739e2c77be6c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-054",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "28dcb880d52f573f05a939b96a48a889c4b072d571741a6db62324d6dc7491c9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 5
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-055",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "e13a19c6fb94c88425b596aa0e759cc88409a006de0d17da85b4716588f64656",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 3,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-056",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "bfee1625888fb9f4364d0cf6cc57d3c4a40c298e3c73a29416317727c42d94ec",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 6
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 5
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-057",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "32c97d201d8e42740d54300ecd9725d1788aba3d1fdd026f172ba7f673be1acc",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-058",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "b4bf16060cefc763c3351cb9b51d30e0a35522d22019d0934c545c67e10defb0",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-059",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "57aee2a40c8491e0e2d2d51362926dd115760143d8f64b5bbf0ec3c1e6149828",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 3,
+          "take": 2
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 7
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-060",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "fe88a5d9231a5ccb624627471936580f430dfbbccb78cb9309baef924ed178ec",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 7
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-061",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "86eb1cd84915f940327b4ee2c94d1435e2723dfc0a961164a28bb98071dc7b09",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 7
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-062",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "6e97061a0ad0aaf0e785aa65ddc1003fe6e7737cd0b01bc99f6878448990fde3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 5
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-063",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "d557690b5dae74087d960e47c5eff275b44ae0346eb9c197f77a8d14cc389fa1",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 3
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-064",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "a500fc89555cba0e01cc59f33d11cad79590e779edac12b2bdfeefbf8c1f074a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 7
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-065",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "78a80f3d89dc79640e56df79a372835312b295456f839519634ce0b6c1ee21de",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 4,
+          "take": 2
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-066",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "a803215f73284f362031eeff455e5f26c83cda5301c2eb3675bfd59c70d6f98d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-067",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "4a4bc718aa058417016e653c4ffac91aeb5a58aab95c85bdd628305c5c878104",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        },
+        {
+          "heap": 3,
+          "take": 1
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-068",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "ee38edaf565f7bcb541665db9aff20bc05df3b54a034317e9047926ea2ab7429",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 6
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 7
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-069",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "84b7aaadec9898ecb21fb7029c852ec82876a67b39b4bb8a18e47d61836c238b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 4,
+          "take": 8
+        },
+        {
+          "heap": 1,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-070",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "5d4ee38a20a61048e92a224ddb5d02ab9a02148ca8f4b9d7ba731307ba28decb",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 4,
+          "take": 9
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-071",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "3027a27b49f786b20464e29c74aa8425d761e763b524d68520b98338c8891dc6",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-072",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "61ace76e383b01661853a7dc440726d37964c2071497cb0d553248795d69ffed",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-073",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "7875708e2a09fea53b7894fcf7d5b778eb618b96b147cbb99d238a56751fc830",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 7
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-074",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "0cf149509237c59b07abd7fef6d9bba69a834a1eb064599ba825b0a50ba57836",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-075",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "cdd8dfc0a8c8549a0d51d6fac280cbccd5567937ee7643c84042838a2843b27e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 8
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-076",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "cfe9e7e3cd98acadf09aaa26f21acde2c77f2e0eb2734e75f62ac247cfcfc113",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 2
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-077",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "c411d815862aaba96590b86a6f4d2b8d53aa52851731ddd07270a282968794a0",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 4,
+          "take": 2
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-078",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "ff8dcad787c2a84dc79351d341b0612432e9676b59c0dd9789a2bf27ad485856",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 7
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-079",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "ce035b11cf47e9801576f805f8637b54ed192680b7e8f78700c3adb001045637",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 7
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-080",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "da404e5d52293e0e3a1e22a3b931c17b73e1bf55823ca83c49f73bfd06013b40",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-081",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "3de7c07f389e5062b5f84d3fede7a0992d4f6ee38f7280850ca1e205266f775a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 7
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-082",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "ffc2743fc900cfaf0f742a37d791583eb6e948d39cea6b25c6d162f5ce38ecc6",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 3,
+          "take": 2
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-083",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "190c1d7fec2ead525c29140b046b92c21303bef41cbd048298d87ed175d411b7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 5
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-084",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "d7168a4c5c0816e0b106f938c2357d295f51ce3ec81b029bb806e7b2ab0452a4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-085",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "02beadf804f8dd9f4fa2ff5cf897173f1266de84b20c6eb7ad160f725f551c89",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-086",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "1416ebf19beaaeac6d46f56b6148f4c3273c26ea0d6887baa8b75cb1e867bc3e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 9
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-087",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "cfaf78a0b431e3907205681d0f790e9c44c2c87e6d7372483b2785fcd94251ed",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 1,
+          "take": 7
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-088",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "bc1f5d0e7968bc9197c7b05bc96b338073e03e3301321b5d6f5caf55f9dea4d4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 2
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-089",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "b0f0442f3ec729c70269b18bff9e76725ba2d2b62671fd306c4a820716cfb386",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-090",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "481e272b75a27ae47bd7d9ac14b1312826d436cb8097123c8ee9a0f4eae879f5",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 3,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-091",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "5354709083aa66c55f5fdddd9d561c789c18e87ad242e48ea764f61b55490cf7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 2,
+          "take": 7
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-092",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "987b4783822fc6005972f4514f66c40e1bf797f2b14d24c1d3035074536a63c9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 5
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-093",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "bc5316a08ee53b8ef9bcd0fddc66ffa4af9ceb4b334b1556fdfa161506b91887",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 2
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 3
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-094",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "3b8f4c551247fc685fb3225c8a1612d7d5844b1b7e07f66823a12cdbb42f8ca0",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 4
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-095",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "67bbb5de6f47d14c99f3caf4d0d959ebae48d4d6ed8bd5925dbb6c5025d636f3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 9
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-096",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "b8c2b9d5d4e7ebadd759a3c20e398937a9a1900ce21744a45cade42e789b0ada",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 1,
+          "take": 6
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-097",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "78dbc6757b0da3e4ced91683416dc625bdb297b105414e520eaa29443d18181f",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 5
+        },
+        {
+          "heap": 3,
+          "take": 7
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-098",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "bc458f99de841bdc35eeafc57fcf8c3ad682d9e1ccb775e19da882474f570029",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 6
+        },
+        {
+          "heap": 1,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-099",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "36841111d2ba60d469850173e3bb09f1e5ef9808a6101425bd2be79ab3fce8d1",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 9
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 3
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 3,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  },
+  {
+    "id": "misere-nim-100",
+    "kind": "forced-strategy",
+    "claim": "A player strategy wins against every legal opponent reply.",
+    "startStateHash": "beccc71cbbd048e9161674368ee5c279b40354799ef97cd8ec20b96edae0d6ab",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "heap": 0,
+          "take": 9
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 2,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 1
+        },
+        {
+          "heap": 4,
+          "take": 2
+        }
+      ],
+      "allReplies": true,
+      "proofMethod": "Independent recursive minimax, cross-checked across all 1–5 heaps with sizes 1–9."
+    }
+  }
+]
