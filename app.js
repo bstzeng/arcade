@@ -1,12 +1,12 @@
 'use strict';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
-  { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '讓數字碰撞出新可能，找到屬於你的解題節奏。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'soon', url: '' },
-  { id: 'maze-walk', title: '迷宮漫步', category: 'puzzle', description: '轉個彎，也許就是出口。用一點觀察，解開未知。', note: '觀察 × 解謎', art: 'maze', color: '#9ac8f3', background: '#25384c', word: 'FIND YOUR WAY', status: 'soon', url: '' },
-  { id: 'block-plan', title: '方塊計畫', category: 'strategy', description: '每一步都有新選擇，在小小棋盤裡，想得更遠。', note: '佈局 × 思考', art: 'blocks', color: '#e6a396', background: '#49322f', word: 'MAKE YOUR MOVE', status: 'soon', url: '' },
-  { id: 'memory-match', title: '記憶配對', category: 'puzzle', description: '翻開驚喜，也喚醒記憶。把散落的小線索連起來。', note: '記憶 × 配對', art: 'memory', color: '#edc47e', background: '#443924', word: 'A PERFECT MATCH', status: 'soon', url: '' },
-  { id: 'tiny-orbit', title: '小小星球', category: 'casual', description: '把步調慢下來，留一個角落給想像和自在探索。', note: '探索 × 放鬆', art: 'planet', color: '#95d7ba', background: '#263d38', word: 'YOUR OWN ORBIT', status: 'soon', url: '' },
-  { id: 'quick-spark', title: '反應時刻', category: 'casual', description: '專注當下的一瞬間，為平凡日常加一點小挑戰。', note: '反應 × 專注', art: 'target', color: '#e2a8c5', background: '#402c40', word: 'CATCH THE MOMENT', status: 'soon', url: '' }
+  { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
+  { id: 'maze-walk', title: '迷宮漫步', category: 'puzzle', description: '穿越隨機生成的迷宮，用觀察找到通往出口的路。', note: '觀察 × 解謎', art: 'maze', color: '#9ac8f3', background: '#25384c', word: 'FIND YOUR WAY', status: 'ready', url: './games/maze-walk.html' },
+  { id: 'block-plan', title: '方塊計畫', category: 'strategy', description: '放好每一塊，填滿整行或整列，讓棋盤留住新可能。', note: '佈局 × 思考', art: 'blocks', color: '#e6a396', background: '#49322f', word: 'MAKE YOUR MOVE', status: 'ready', url: './games/block-plan.html' },
+  { id: 'memory-match', title: '記憶配對', category: 'puzzle', description: '翻開卡片，記住圖案，以更少步數找齊每一對。', note: '記憶 × 配對', art: 'memory', color: '#edc47e', background: '#443924', word: 'A PERFECT MATCH', status: 'ready', url: './games/memory-match.html' },
+  { id: 'tiny-orbit', title: '小小星球', category: 'casual', description: '採集、種植與探索，培育森林，讓星光塔重新發光。', note: '探索 × 放鬆', art: 'planet', color: '#95d7ba', background: '#263d38', word: 'YOUR OWN ORBIT', status: 'ready', url: './games/tiny-orbit.html' },
+  { id: 'quick-spark', title: '反應時刻', category: 'casual', description: '等訊號亮起再出手，測試你的反應，別搶跑！', note: '反應 × 專注', art: 'target', color: '#e2a8c5', background: '#402c40', word: 'CATCH THE MOMENT', status: 'ready', url: './games/quick-spark.html' }
 ];
 const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒' };
 const artMarkup = {
@@ -65,7 +65,7 @@ function render() {
   const visible = games.filter(game => (activeCategory === 'all' || game.category === activeCategory) && `${game.title} ${game.description} ${game.note} ${game.word} ${categoryNames[game.category]}`.toLocaleLowerCase('zh-Hant').includes(query));
   grid.replaceChildren(...visible.map(game => gameCard(game, games.indexOf(game))));
   document.querySelector('#empty').hidden = visible.length > 0;
-  document.querySelector('#results').textContent = `顯示 ${visible.length} 款遊戲 · 未開放的卡片為概念預覽`;
+  document.querySelector('#results').textContent = `顯示 ${visible.length} 款遊戲 · 隨選隨玩`;
   filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === activeCategory)));
   filters[0].querySelector('span').textContent = String(games.length).padStart(2, '0');
 }
