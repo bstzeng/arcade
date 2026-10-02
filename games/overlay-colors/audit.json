@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "gameId": "overlay-colors",
+  "rulesRevision": "spatial-1.0",
+  "contentRevision": "spatial-content-1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "gameId": "overlay-colors",
+    "status": "passed",
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRendered": 100,
+    "levelsCompletedThroughGameSpecificControls": 100,
+    "isolatedSolutionReplays": 100,
+    "nonmutatingHints": 100,
+    "undoRestored": 100,
+    "actionsReplayedThroughControls": 381,
+    "saveReloadCompleted100": true,
+    "resetCancelAndStaleConfirmationPassed": true,
+    "replayNavigationInterruptionPassed": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+      "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+      "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+    ]
+  },
+  "proofKinds": [
+    "assignment"
+  ],
+  "sources": [
+    {
+      "path": "games/overlay-colors.html",
+      "sha256": "f653bbc9f5f9592a959f4beeadd89803a9345de25aecada820d22c4e840a514d"
+    },
+    {
+      "path": "games/overlay-colors/engine.js",
+      "sha256": "7271af946651f942ed1456397b564d41f42f8fd9259cd254d48a3adc9006f980"
+    },
+    {
+      "path": "games/overlay-colors/app.js",
+      "sha256": "efe81e179d68470dea6a46ac38d02f3ddc2e9af7439a9520920a8807931a0ee8"
+    },
+    {
+      "path": "games/overlay-colors/levels.js",
+      "sha256": "b927229034b349b99605a9a1f243a3675aeb18517093e68cccd01df128f6d6d7"
+    },
+    {
+      "path": "games/overlay-colors/levels.json",
+      "sha256": "fdb6ad1c8d942de8aa9e062902d4b46369caa663cb97e46cff63ffea3c0bcd15"
+    },
+    {
+      "path": "games/spatial-common/util.js",
+      "sha256": "2cc20499db9f64241f7e3800e41b9eab9fa8e0dfe0d1fe56b177cfd1784fba77"
+    },
+    {
+      "path": "games/spatial-common/app.js",
+      "sha256": "a9a14fc1154243ca32e8c7c7783260d8fd0d804c0bd95ac463fb7400b8aecd9b"
+    },
+    {
+      "path": "games/spatial-common/style.css",
+      "sha256": "4d91d76ec264f31870c53cb906fb449622859ff688a70ae9d471b092769af993"
+    },
+    {
+      "path": "games/spatial-common/generate.cjs",
+      "sha256": "bac19e3f9a769de01cfb3986ecdfe1b438ce9bb038546114118eafe19b9cd5b9"
+    },
+    {
+      "path": "games/spatial-common/oracle.cjs",
+      "sha256": "6140acd140fa54d42fef3c1be53432a751436cd472ab18d2ec6a635af12724a8"
+    },
+    {
+      "path": "games/spatial-common/verify.cjs",
+      "sha256": "f852d63f3f81631e122994d79dfe5daf5e8cfa84f04c33a086529e4042b4f37c"
+    },
+    {
+      "path": "games/spatial-common/dom-harness.cjs",
+      "sha256": "cca975b8db1200d712cb4f22fcaa708378e83c86ac3c25a0358c653265d801a9"
+    },
+    {
+      "path": "games/spatial-common/dom-tests.cjs",
+      "sha256": "720f52c56077acaca4e1888c08931e08f3ff05533d5cb8316e972c339e70cd08"
+    },
+    {
+      "path": "games/spatial-common/static-checks.cjs",
+      "sha256": "3be7f085e63f613f7bda833235c0d2b354ef7934fbc40636df3b96ca79e932e6"
+    },
+    {
+      "path": "games/spatial-common/browser-qa.cjs",
+      "sha256": "0f34f011bf88064a8c67dcecc8b8181cbd2c51ae27ded6723bb6dae282617280"
+    },
+    {
+      "path": "games/overlay-colors/README.md",
+      "sha256": "f41f16bce0a7a78ea0ec4ccd93be4bd52b780a8e8e3186a3e4be7de3cd7b125e"
+    },
+    {
+      "path": "games/challenge-common/core.js",
+      "sha256": "2d835770fbff7932630a6ec9d9a445c4c7b706e6739fd46a61ba16736fbc565b"
+    },
+    {
+      "path": "games/challenge-common/ui.js",
+      "sha256": "60811f97ebbd3af5ada81e2279461763ffd0ec06305514bf537f4a5d27558467"
+    },
+    {
+      "path": "games/challenge-common/style.css",
+      "sha256": "782e4cafec511a2c5113e6d8560416b52b16b536854954d8b2446ded71b6cb6e"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/spatial-common/verify.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/overlay-colors/audit.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/spatial-common/dom-tests.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/overlay-colors/dom-qa.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/spatial-common/static-checks.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/spatial-common/static-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "真實瀏覽器視覺驗證尚未執行；DOM 模擬不是瀏覽器驗證。",
+    "證明至少一解，未宣稱解的唯一性。",
+    "物理遊戲使用說明內公開的格點或靜態模型，非完整連續物理模擬。"
+  ],
+  "metrics": {
+    "witnessActions": 381,
+    "minActions": 3,
+    "maxActions": 4,
+    "boundaryAssertions": 7,
+    "controllerAssertions": 27
+  }
+}
