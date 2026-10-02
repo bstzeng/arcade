@@ -1,0 +1,410 @@
+{
+  "passed": true,
+  "algorithm": "Independent Python row-mask enumeration with row uniqueness, inter-row black separation, column digit sets; terminal direct-rule flood-fill",
+  "levelCount": 50,
+  "distinctConstraintGraphsIgnoringAllDigitLabelsAndD4": 50,
+  "results": [
+    {
+      "id": 1,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 20,
+      "blackCells": 5,
+      "canonicalSHA256": "f6b8ca16c405a93aaba0eef6663431527d24dfa0abad0049580b66d1b7fe5903"
+    },
+    {
+      "id": 2,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 7,
+      "blackCells": 5,
+      "canonicalSHA256": "ad1d694afb6a9f96f3b68c6f83b410b685df3f95b07dc0c654fdef5dcac1d2c4"
+    },
+    {
+      "id": 3,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 19,
+      "blackCells": 5,
+      "canonicalSHA256": "cc1dfcbeebf742c380d16549fd4e08ed09261546eca3dba298c888d0678f360b"
+    },
+    {
+      "id": 4,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 13,
+      "blackCells": 5,
+      "canonicalSHA256": "f514927b4e8c2b4bdbe94201c51cad11d53c2d3b1989b79b068b6a5ec5069b43"
+    },
+    {
+      "id": 5,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 21,
+      "blackCells": 5,
+      "canonicalSHA256": "a6ae3a2077689ac26665546a0992dd93fd5f285da184b0bfeb1b034fe8b9f9a7"
+    },
+    {
+      "id": 6,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 18,
+      "blackCells": 5,
+      "canonicalSHA256": "854045c5307c7ffe96d768479e8c17b87dd41ae08566e7ddf2712bd9df9c999b"
+    },
+    {
+      "id": 7,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 21,
+      "blackCells": 5,
+      "canonicalSHA256": "7742feeb6daaaae92da2a82600467307069d118080490b49864d2ea68e3d873a"
+    },
+    {
+      "id": 8,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 27,
+      "blackCells": 5,
+      "canonicalSHA256": "c6d7827e04a6bc5c7345b82c33e519e79cbceb0ce800a7aa18271be9e78671d5"
+    },
+    {
+      "id": 9,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 28,
+      "blackCells": 4,
+      "canonicalSHA256": "7e39ffb3fc0aba6c0ed7e88c0065e552ce52e74b9d2bf2f113b09000c270ee61"
+    },
+    {
+      "id": 10,
+      "size": 4,
+      "solutions": 1,
+      "rowSearchNodes": 65,
+      "blackCells": 4,
+      "canonicalSHA256": "f9bd4036d3ad768b296d3956fde426efe84437d234a374b503366fcfcab95d2c"
+    },
+    {
+      "id": 11,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 20,
+      "blackCells": 8,
+      "canonicalSHA256": "2ba82784ef57ee3307e34e0428d37058df4f0bc6c325524831b6094d9c6da13a"
+    },
+    {
+      "id": 12,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 16,
+      "blackCells": 7,
+      "canonicalSHA256": "e8cdf5336227c2c754a7cdd272bdc905699786178a813c0b80fa91514fecade3"
+    },
+    {
+      "id": 13,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 26,
+      "blackCells": 8,
+      "canonicalSHA256": "dc046ccc841b82431b046cc4da86ea4bf1e4724bee14d61a1cf86bf04b6b0872"
+    },
+    {
+      "id": 14,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 53,
+      "blackCells": 7,
+      "canonicalSHA256": "d621e8e262d504097189be5635c4afb90ba405a9db0e40aa5df83961c54462b8"
+    },
+    {
+      "id": 15,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 58,
+      "blackCells": 7,
+      "canonicalSHA256": "b8d8afe8bf85dbe9d64e2be0fbefb70d6a3086f8a528911d5dae84317537e95a"
+    },
+    {
+      "id": 16,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 31,
+      "blackCells": 8,
+      "canonicalSHA256": "7d5327aa7cf7ac6d56c6317f4694ceab48a146aece137306e4aba1d19cf08e8d"
+    },
+    {
+      "id": 17,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 88,
+      "blackCells": 7,
+      "canonicalSHA256": "8807ff513d0aa239a9b2ac69906ba45e09cfd74e64387676df0183fc348cc247"
+    },
+    {
+      "id": 18,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 28,
+      "blackCells": 7,
+      "canonicalSHA256": "95e590c49e581e7b0dcff456a97db2340c7996393fe83cd99db5bacbc3ed682b"
+    },
+    {
+      "id": 19,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 99,
+      "blackCells": 6,
+      "canonicalSHA256": "b67f2663477a3d2c9a8cae7748d7f78402e5b412844a262415b851b5dc207642"
+    },
+    {
+      "id": 20,
+      "size": 5,
+      "solutions": 1,
+      "rowSearchNodes": 210,
+      "blackCells": 6,
+      "canonicalSHA256": "7439c5ad365276c3662b8863f6fa50bfb25e7e235d6bfbce273b654bb7a90887"
+    },
+    {
+      "id": 21,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 35,
+      "blackCells": 11,
+      "canonicalSHA256": "ae536aa54c56ded2f3c342be51b092deabecd82a53b8694dcf3e83fa9e8931f7"
+    },
+    {
+      "id": 22,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 46,
+      "blackCells": 11,
+      "canonicalSHA256": "59bb49a0a772096d0b40c781f98cf63279e1549e23752171d56061b56875c537"
+    },
+    {
+      "id": 23,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 103,
+      "blackCells": 10,
+      "canonicalSHA256": "2a506a19a42c5010a6b0aa734ddd49171592f8ddaf091869e013508298bd32f1"
+    },
+    {
+      "id": 24,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 123,
+      "blackCells": 10,
+      "canonicalSHA256": "8bd35bb1e49f6fe885336e59430ab818f04d1c41659217da13b855bcdf11d0dc"
+    },
+    {
+      "id": 25,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 87,
+      "blackCells": 10,
+      "canonicalSHA256": "bb688dc28ddcb6a1612f9520f7623f105d8ffb1b55a9b2d06067d10f38f2fbfc"
+    },
+    {
+      "id": 26,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 516,
+      "blackCells": 10,
+      "canonicalSHA256": "29e5f114337af9e7c831d04cac16a5a864052928fa8e9c8baae94cbf5ef93c90"
+    },
+    {
+      "id": 27,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 620,
+      "blackCells": 9,
+      "canonicalSHA256": "128a8801424ed676ea68bee79c426fd2f8057221ce10e1da5dcf65503a4d3310"
+    },
+    {
+      "id": 28,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 268,
+      "blackCells": 11,
+      "canonicalSHA256": "ab10aa5c92d18fa7803c6464a9e1990af3a6404fcf3c148fa245ee48b70d777d"
+    },
+    {
+      "id": 29,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 854,
+      "blackCells": 9,
+      "canonicalSHA256": "757a4c6847b768b1e33f4786f89bfa235f1e48bc4727985827ae7057eab6b81a"
+    },
+    {
+      "id": 30,
+      "size": 6,
+      "solutions": 1,
+      "rowSearchNodes": 334,
+      "blackCells": 9,
+      "canonicalSHA256": "1b83c896c275a93bcf45f6309b3ba88f6b7ced0cc64fb574c9bea77eabe69434"
+    },
+    {
+      "id": 31,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 220,
+      "blackCells": 15,
+      "canonicalSHA256": "9d67646ee551a7a675e0205599081059889a8f7401177357d6be50a4341a0a4d"
+    },
+    {
+      "id": 32,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 31,
+      "blackCells": 15,
+      "canonicalSHA256": "b2ecddf7bf94088d06504571accbcb9c0c824e05b97be5dd351fdd0dd72225a9"
+    },
+    {
+      "id": 33,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 263,
+      "blackCells": 14,
+      "canonicalSHA256": "cebe7a99c64b446bbfbe051075f665c4867ff0f85ca750944032cf1f033fa929"
+    },
+    {
+      "id": 34,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 455,
+      "blackCells": 14,
+      "canonicalSHA256": "ba1f65c7c5a86e10a4f492394319e8e6bbfe4ff7642a2f096c904665422ef443"
+    },
+    {
+      "id": 35,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 130,
+      "blackCells": 13,
+      "canonicalSHA256": "fa4f6470d8c40b669002db53efb7d647e2b1250cbcb7aa2baa4ec59676798471"
+    },
+    {
+      "id": 36,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 409,
+      "blackCells": 15,
+      "canonicalSHA256": "a2ee392a04a19a7b8618897d515392bc6a8505683e937915f02dfc2c78db8570"
+    },
+    {
+      "id": 37,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 222,
+      "blackCells": 14,
+      "canonicalSHA256": "68d55e03ce149a2bf444e8b23fda6bc5895ded7c2fd3058acafad271b715e39e"
+    },
+    {
+      "id": 38,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 539,
+      "blackCells": 14,
+      "canonicalSHA256": "e9c6c9e4d4adcb69e09deb6d8ff1e8fe2d105c52992e7cca276ac66b75178bb4"
+    },
+    {
+      "id": 39,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 991,
+      "blackCells": 14,
+      "canonicalSHA256": "dda37be063f199e979cf5f2ce2c03c0331240d7336f92fd140cf5ee8bebace12"
+    },
+    {
+      "id": 40,
+      "size": 7,
+      "solutions": 1,
+      "rowSearchNodes": 2382,
+      "blackCells": 13,
+      "canonicalSHA256": "74787609ca86b9b2950b798a67d0539a9fb47ff9023b53e2290a9e64966849dd"
+    },
+    {
+      "id": 41,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 352,
+      "blackCells": 19,
+      "canonicalSHA256": "d346893a44ef2154d23516f40572dca83e47cbddae10e108586dcf44f8a975f4"
+    },
+    {
+      "id": 42,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 172,
+      "blackCells": 19,
+      "canonicalSHA256": "06bd157de145ebf29245e4a5b063e5561d7c4ba58f746982ee554081675e9c6a"
+    },
+    {
+      "id": 43,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 610,
+      "blackCells": 20,
+      "canonicalSHA256": "0d87368125ac62a09471999215da97e49ffc50c9536cb766fac2f4a25706c675"
+    },
+    {
+      "id": 44,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 1017,
+      "blackCells": 19,
+      "canonicalSHA256": "f9a1e860d0be0ad68266e2d0a7ce68ed207825a476cdcc2376ee6f8b4f4ad5d0"
+    },
+    {
+      "id": 45,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 537,
+      "blackCells": 19,
+      "canonicalSHA256": "46ed094f76eed5bab7869cb7c2872a6a55dbc4fbd968c403419577303d0e74ee"
+    },
+    {
+      "id": 46,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 494,
+      "blackCells": 18,
+      "canonicalSHA256": "479aa7b2f809cc5d83edbdccb6f009db1cf859cd9cab3eaf99907eaceb7674ce"
+    },
+    {
+      "id": 47,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 367,
+      "blackCells": 19,
+      "canonicalSHA256": "6eb34d71ab252aad0c013ca23948205ffadb925e4586f88df6a43eb87d29ed20"
+    },
+    {
+      "id": 48,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 1947,
+      "blackCells": 18,
+      "canonicalSHA256": "49d60a9969f784750c0184effb6525b4e2154e48d06c5027bfcfe10f6051c9fb"
+    },
+    {
+      "id": 49,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 3735,
+      "blackCells": 18,
+      "canonicalSHA256": "be10d5e97978139e278290c7b85bf436f4ef389384508a973d1a7e3f9f44bb57"
+    },
+    {
+      "id": 50,
+      "size": 8,
+      "solutions": 1,
+      "rowSearchNodes": 3387,
+      "blackCells": 17,
+      "canonicalSHA256": "a1927ba076045ebcd2b3c46abcf6007ab8953c92b594fcc0dc9a435293cf8b66"
+    }
+  ],
+  "source": "https://www.nikoli.co.jp/en/puzzles/hitori/",
+  "levelsSHA256": "ad3c3e2d1dcb9ce98b45571683168599018894814fda0b7b87c50b7007b0f358"
+}

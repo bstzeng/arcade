@@ -1,0 +1,10 @@
+(function(root){'use strict';
+function validCells(p,c){return Array.isArray(c)&&c.length===p.size*p.size&&c.every(x=>Number.isInteger(x)&&x>=0&&x<=2);}function integer(v){return Number.isSafeInteger(v)&&v>=0?v:0;}function fresh(){return{version:1,index:0,records:{},finished:{}};}function snapshot(r){return{cells:r.cells.slice(),hints:r.hints,moves:r.moves};}
+function sanitize(raw,levels,E){const s=fresh();if(!raw||raw.version!==1)return s;if(Number.isInteger(raw.index)&&raw.index>=0&&raw.index<levels.length)s.index=raw.index;for(let i=0;i<levels.length;i++){const p=levels[i],r=raw.records?.[i];if(r&&validCells(p,r.cells)){s.records[i]={cells:r.cells.slice(),moves:integer(r.moves),hints:integer(r.hints),undo:[]};if(Array.isArray(r.undo))s.records[i].undo=r.undo.filter(x=>x&&validCells(p,x.cells)).slice(-160).map(x=>({cells:x.cells.slice(),moves:integer(x.moves),hints:integer(x.hints)}));}const f=raw.finished?.[i];if(f&&validCells(p,f.cells)&&E.validateSolution(p,f.cells))s.finished[i]={cells:f.cells.slice(),assisted:!!f.assisted};}return s;}
+function record(s,L,E){return s.records[s.index]??(s.records[s.index]={cells:E.initial(L[s.index]),moves:0,hints:0,undo:[]});}function push(r){r.undo.push(snapshot(r));if(r.undo.length>160)r.undo.shift();}
+function apply(s,L,E,i,v){const r=record(s,L,E);if(!Number.isInteger(i)||i<0||i>=r.cells.length||![0,1,2].includes(v)||r.cells[i]===v)return false;push(r);r.cells[i]=v;r.moves++;return true;}
+function undo(s,L,E){const r=record(s,L,E),a=r.undo.pop();if(!a)return false;r.cells=a.cells;r.moves=a.moves;r.hints=Math.max(r.hints,a.hints);return true;}
+function restart(s,L,E){const r=record(s,L,E);push(r);r.cells=E.initial(L[s.index]);r.moves=0;r.hints=0;return true;}
+function markWin(s,L,E){const r=record(s,L,E);if(!E.validateSolution(L[s.index],r.cells))return false;const old=s.finished[s.index];s.finished[s.index]={cells:r.cells.slice(),assisted:old?old.assisted&&r.hints>0:r.hints>0};return true;}
+const api={fresh,sanitize,record,apply,undo,restart,markWin,validCells};if(typeof module!=='undefined')module.exports=api;else root.PuzzleState=api;
+})(globalThis);
