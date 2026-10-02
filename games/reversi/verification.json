@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "game": "reversi",
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "passed": true,
+    "assertions": 36800,
+    "fixtures": 9,
+    "independentOracle": true
+  },
+  "AI": {
+    "passed": true,
+    "legalAllDifficulties": true,
+    "defaultEffort": {
+      "easy": {
+        "nodes": 4,
+        "depth": 1
+      },
+      "normal": {
+        "nodes": 72,
+        "depth": 3
+      },
+      "hard": {
+        "nodes": 1388,
+        "depth": 6
+      }
+    }
+  },
+  "tactics": {
+    "passed": true,
+    "fixtures": 9,
+    "description": "Corner capture at each difficulty; six independently exhaustively solved endgame outcomes"
+  },
+  "selfPlay": {
+    "passed": true,
+    "games": 9,
+    "moves": 540,
+    "passes": 8,
+    "terminalCount": 9,
+    "seeds": [
+      "easy:173",
+      "easy:346",
+      "easy:519",
+      "normal:173",
+      "normal:346",
+      "normal:519",
+      "hard:173",
+      "hard:346",
+      "hard:519"
+    ]
+  },
+  "browserQA": "Not run here; publisher performs deployed browser QA",
+  "passed": true,
+  "controller": {
+    "passed": true,
+    "assertions": 91,
+    "coverage": [
+      "local play and single undo",
+      "AI round undo",
+      "human white and AI opening",
+      "replay save and restore",
+      "invalid and blocked storage",
+      "reset confirmation and cancel",
+      "mode-change confirmation and cancel",
+      "pause, help and resume",
+      "worker error fallback",
+      "out-of-order result cancellation",
+      "undo/reset cancellation",
+      "async fallback yielding and abort",
+      "keyboard navigation",
+      "page lifecycle"
+    ]
+  }
+}
