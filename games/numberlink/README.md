@@ -49,9 +49,8 @@ The UI test executes the actual shipped app.js, dispatches real registered DOM
 handlers, and solves all 50 boards. It also tests undo, reset confirmation,
 cancel, reset undo, valid/malformed saves, storage denial, current-level resume,
 transparent hints from wrong states, touch pointer input, help, boundaries, and
-non-destructive solution preview. The DOM harness does not measure layout;
-publisher live-browser QA is still required because local browser launch is
-blocked in this environment.
+non-destructive solution preview. The DOM harness does not measure pixel layout. Browser layout validation is
+a separate check.
 
 ## Integration / live QA
 
