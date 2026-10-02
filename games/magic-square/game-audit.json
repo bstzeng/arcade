@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "magic-square",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r2",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "magic-square",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "assignment"
+  ],
+  "sources": [
+    {
+      "path": "games/magic-square.html",
+      "sha256": "f80ebb15b6cd37e01babd57a4484d911930b7e54784478fc1aab9a2fc71a23a1"
+    },
+    {
+      "path": "games/magic-square/README.md",
+      "sha256": "7b8c622a45147539e2566c143ea0fc3102830a0c4798186d03df1dc96c2dffba"
+    },
+    {
+      "path": "games/magic-square/app.js",
+      "sha256": "29913498b0b9bec5a7ec10ea1e9c6288b49a6082159575f47f7abaf0dac53e13"
+    },
+    {
+      "path": "games/magic-square/boundary-tests.cjs",
+      "sha256": "d422581b0d08c4f637dcb5010c75f80ddb932446198b70aa974f7c1eaffb263f"
+    },
+    {
+      "path": "games/magic-square/controller-tests.cjs",
+      "sha256": "3b5cc16a4c4a19523f5619915ce487568c7fc04be0161bfdc9bfc8874bdd6f32"
+    },
+    {
+      "path": "games/magic-square/engine.js",
+      "sha256": "55185ef9158502586feb78c74226f8984a1df99279915ca5fdbfd5cb7547cb8b"
+    },
+    {
+      "path": "games/magic-square/generate.cjs",
+      "sha256": "95a50cccd6c096e5e0dc9a14b479c468d06fc14b22e444b8367ed1dfebabbfe7"
+    },
+    {
+      "path": "games/magic-square/levels.js",
+      "sha256": "998e42166a72529079f7b216b5d78cd4b1402101d493a82e8a59da4ee1d5a737"
+    },
+    {
+      "path": "games/magic-square/levels.json",
+      "sha256": "c851bbfb05dcd5cdac8dd39f93048131a6ea1aca9590aecc917ad178a4c22b77"
+    },
+    {
+      "path": "games/magic-square/proof-claims.json",
+      "sha256": "7ebe6b1122aeb0e4566fcc424fcd6fe603e4ec00c484beb880d5c3db47f91e24"
+    },
+    {
+      "path": "games/magic-square/proofs.json",
+      "sha256": "af938d371c7b4602785d6716e075dbe8351b70e145ab92cc35c003e2597c36bb"
+    },
+    {
+      "path": "games/magic-square/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/magic-square/test.cjs",
+      "sha256": "12a2043d4db7aaea2273728d5536311fd6aac6e8c463beee7376d75feed1f505"
+    },
+    {
+      "path": "games/magic-square/ui-test.cjs",
+      "sha256": "5737ebdd1d1a004c28d8983946ba067e430c3ff5f4a1b14ab6db080d8bf527db"
+    },
+    {
+      "path": "games/magic-square/verify.cjs",
+      "sha256": "bef730c7de963b6f5dc354ddf2a889f5911acc64314657d13c18a901ac5e3c66"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release.",
+    "No uniqueness claim; alternative valid solutions are accepted."
+  ]
+}

@@ -1,0 +1,4938 @@
+[
+  {
+    "id": "magic-square-001",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "3bc67803e6185c129558fce7163db7b5dd2e481d83bbc7355ab399b480aee7a0",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 4
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 5,
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-002",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "e19325f2e2c361bbd0dec8282c6d6b1e16dc50cd0080fc1d9111d8933f1270fb",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 1
+        },
+        {
+          "index": 7,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-003",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c28821ab239c9f23ce5632e624da9bcaa1470c8e1a7aca22dc3f5bdeb720a809",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 3
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 8,
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-004",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4e318029816eb74f1d04323750ec3aeabb00b91b6a78dcb104cc898b34ce723b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 7
+        },
+        {
+          "index": 5,
+          "value": 9
+        },
+        {
+          "index": 8,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-005",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "8baae183ff249ca2cc563e318ab06fc58b7af18206c5030b106979d210684a01",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 8
+        },
+        {
+          "index": 1,
+          "value": 1
+        },
+        {
+          "index": 2,
+          "value": 6
+        },
+        {
+          "index": 5,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-006",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "b67a03c676e007dffd6209ba802e1795665e9c39e755ffeaa1abd8cf33aee22d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 9
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-007",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "711157ba06d9caec151b3bbb95db27de600315594155d722218b886445449572",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 9
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 6,
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-008",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "8cffea7451f977b5b5975725e3c628a12d73416cdcbd9908c0ccd964c3b186a9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 1
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-009",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "814289635ff87aebe5c71f793faf1fa10f75a17381c32aacea5be9776108027d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 6
+        },
+        {
+          "index": 1,
+          "value": 7
+        },
+        {
+          "index": 5,
+          "value": 9
+        },
+        {
+          "index": 6,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-010",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "67274d69f00eb127fc8075a3f32c9f98fb26dc15ffc905ab3b094d4076c8b438",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 5,
+          "value": 1
+        },
+        {
+          "index": 7,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-011",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "ff94708dda897834de7e40802703ce609bacb4727bf91be6b1a6dcda2e510d9a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 5,
+          "value": 1
+        },
+        {
+          "index": 8,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-012",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "85b3fbec76adbfbb163fd3d5e2a42de7d8051ce0fc9c5b3f5ed823045419fb96",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 8,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-013",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "b769a1e928530be1de70bc880a0076fd60fe15a83eac698e828f2b3c3885c58c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 2
+        },
+        {
+          "index": 2,
+          "value": 4
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 7,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-014",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "d522302a3e994af10a389219cd4d9c8dd6787e2ddd9cf074e02fc50a9c513249",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 3,
+          "value": 9
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 6,
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-015",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "02c113882229cded2378454062044808c77e33211036d64ce307eb807d92ed9c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 6
+        },
+        {
+          "index": 2,
+          "value": 2
+        },
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 6,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-016",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "f3d44b3890c2d265482c0f60ea353ae0754546ae965ae15e844752245299fe45",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 8,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-017",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "427eb2b7d55b2fbe14250446b61f006549fcb53b24a38e98b73f69312837307d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 2,
+          "value": 4
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 6
+        },
+        {
+          "index": 7,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-018",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c8b7090619365719ce5badf30cef33515e733eb9e303435a6c3dc27ba9071b8d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 9
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 1
+        },
+        {
+          "index": 7,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-019",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "8194a8ab9f11659df77abe547a42ce6b5d32f9ce96ec9e4ada19b1cb9df27341",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 7
+        },
+        {
+          "index": 2,
+          "value": 2
+        },
+        {
+          "index": 4,
+          "value": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-020",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "3789d149c648db24f06124971c38c9901ff1bdbc1dd2b4b381477806f1f07677",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 2
+        },
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 5,
+          "value": 3
+        },
+        {
+          "index": 6,
+          "value": 6
+        },
+        {
+          "index": 8,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-021",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "38e696623172032007d4b3aff1219d56182498a426d459f3e70a3ade8133e3c2",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 8
+        },
+        {
+          "index": 4,
+          "value": 3
+        },
+        {
+          "index": 8,
+          "value": 2
+        },
+        {
+          "index": 9,
+          "value": 11
+        },
+        {
+          "index": 10,
+          "value": 7
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-022",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "8dd295c33140eed605909edc0ae548710e15eddf38e7a107818f57092c785266",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 6,
+          "value": 13
+        },
+        {
+          "index": 8,
+          "value": 14
+        },
+        {
+          "index": 9,
+          "value": 4
+        },
+        {
+          "index": 12,
+          "value": 7
+        },
+        {
+          "index": 14,
+          "value": 12
+        },
+        {
+          "index": 15,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-023",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "e5ad5de93b276b757448023d3533cb8bbc271bdcf061a506d4ef8c53b64c626b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 11
+        },
+        {
+          "index": 1,
+          "value": 5
+        },
+        {
+          "index": 4,
+          "value": 2
+        },
+        {
+          "index": 6,
+          "value": 13
+        },
+        {
+          "index": 7,
+          "value": 3
+        },
+        {
+          "index": 9,
+          "value": 4
+        },
+        {
+          "index": 10,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-024",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9d2a83b0362514030a107ccacd053be32934e84ec003f1b493b2f791072757ab",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 10
+        },
+        {
+          "index": 4,
+          "value": 8
+        },
+        {
+          "index": 7,
+          "value": 12
+        },
+        {
+          "index": 8,
+          "value": 5
+        },
+        {
+          "index": 9,
+          "value": 16
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 11,
+          "value": 9
+        },
+        {
+          "index": 14,
+          "value": 14
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-025",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5eeeecbd1e72220987ad51504e01a2aef1d73a06bf17f47d884ae5ee836367a4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 16
+        },
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 10,
+          "value": 6
+        },
+        {
+          "index": 12,
+          "value": 4
+        },
+        {
+          "index": 14,
+          "value": 15
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-026",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "e38bcbcc1bbf7fe1aadccd9e91db6bf793b28e72d0495ac6b04984a07510e935",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 9
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 14
+        },
+        {
+          "index": 10,
+          "value": 16
+        },
+        {
+          "index": 11,
+          "value": 2
+        },
+        {
+          "index": 14,
+          "value": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-027",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "26acf89a8dce32173fa0be0c842e7fb581985c1eecc7176d90ed9075261360be",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 1
+        },
+        {
+          "index": 5,
+          "value": 6
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 9
+        },
+        {
+          "index": 8,
+          "value": 8
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 11,
+          "value": 5
+        },
+        {
+          "index": 12,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-028",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "47cdba446057dc1512f2caf47e4d8c249a024e900ef21f4e033fb05bdda7640b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 5,
+          "value": 16
+        },
+        {
+          "index": 7,
+          "value": 3
+        },
+        {
+          "index": 9,
+          "value": 4
+        },
+        {
+          "index": 10,
+          "value": 1
+        },
+        {
+          "index": 13,
+          "value": 9
+        },
+        {
+          "index": 14,
+          "value": 12
+        },
+        {
+          "index": 15,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-029",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9b5797dbf5d40a49f745e1999775815874be9e879d27b1ea5f38f42b179c9d86",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 4
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 5,
+          "value": 6
+        },
+        {
+          "index": 7,
+          "value": 9
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 11,
+          "value": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-030",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "b820fe9f8032cf440d0f6cbf590a67aeff7fbc4301d541210a58c0e4ccfcfc15",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 15
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 9
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 12,
+          "value": 13
+        },
+        {
+          "index": 13,
+          "value": 3
+        },
+        {
+          "index": 14,
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-031",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "af6c2c64cbd2bd72691b819bcb3582a00fdc11156945b2c39f9b9def010eff75",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 11
+        },
+        {
+          "index": 4,
+          "value": 9
+        },
+        {
+          "index": 6,
+          "value": 16
+        },
+        {
+          "index": 8,
+          "value": 12
+        },
+        {
+          "index": 9,
+          "value": 1
+        },
+        {
+          "index": 12,
+          "value": 6
+        },
+        {
+          "index": 15,
+          "value": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-032",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "05dc188ec71b167eaec447dfc22789cae881ffd67b88476428cee2c7cb517197",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 6
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 14
+        },
+        {
+          "index": 8,
+          "value": 3
+        },
+        {
+          "index": 14,
+          "value": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-033",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "0bce3e8f18009e912a1d640ce325a9f6793d52f6e5b864592ba0c220c67f3a71",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 4,
+          "value": 3
+        },
+        {
+          "index": 11,
+          "value": 14
+        },
+        {
+          "index": 12,
+          "value": 16
+        },
+        {
+          "index": 13,
+          "value": 5
+        },
+        {
+          "index": 14,
+          "value": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-034",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "92850671806e389b6f057cc0ffeb7a7dabb3dbf26f69465d8ec2d53cd33ca241",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 16
+        },
+        {
+          "index": 4,
+          "value": 14
+        },
+        {
+          "index": 6,
+          "value": 11
+        },
+        {
+          "index": 7,
+          "value": 2
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 13,
+          "value": 12
+        },
+        {
+          "index": 15,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-035",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "e299f2dcc0607cc65a1de0ed058cd5356ff8387f8643ef44614d51d789c188e2",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 16
+        },
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 9,
+          "value": 7
+        },
+        {
+          "index": 14,
+          "value": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-036",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "59effc9aaf712ae842f1e150e00ce2a4bcd494c4bb521e53f6c076eea99362b0",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 7,
+          "value": 8
+        },
+        {
+          "index": 14,
+          "value": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-037",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "e4edb58d5fb303f46adaed6c12f2307d6049225861536251706bfd7b82d7d512",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 4,
+          "value": 14
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 9,
+          "value": 6
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 12,
+          "value": 1
+        },
+        {
+          "index": 15,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-038",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "1b4e1290e0231c8e120a2f386c0573955aaddd9a6e2a0c0a736a387a8a6bc0c3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 13
+        },
+        {
+          "index": 2,
+          "value": 12
+        },
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 4,
+          "value": 3
+        },
+        {
+          "index": 9,
+          "value": 11
+        },
+        {
+          "index": 13,
+          "value": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-039",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "30748de7455f9216d094c70550fda907fc2e1fd4d66197fb8ac14c21c7ac4966",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 15
+        },
+        {
+          "index": 2,
+          "value": 14
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 13,
+          "value": 3
+        },
+        {
+          "index": 14,
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-040",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "d97b676139a9641e82a35e6d6070ffcd7e8ff957ab97632b11a7f1ae8a88f0b6",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 11
+        },
+        {
+          "index": 1,
+          "value": 5
+        },
+        {
+          "index": 3,
+          "value": 10
+        },
+        {
+          "index": 8,
+          "value": 14
+        },
+        {
+          "index": 11,
+          "value": 15
+        },
+        {
+          "index": 13,
+          "value": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-041",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4fa2a3bc89d8048c363139c25d9a37dd62e84c1cd0d7b29f65ea430f8d8a80b7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 14
+        },
+        {
+          "index": 3,
+          "value": 4
+        },
+        {
+          "index": 5,
+          "value": 6
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 11,
+          "value": 5
+        },
+        {
+          "index": 13,
+          "value": 3
+        },
+        {
+          "index": 15,
+          "value": 16
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-042",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5687a6b983bd78ce3d09524d1a0f22a7c39820f7fc9aca0bde7e13b5e807ad5c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 2
+        },
+        {
+          "index": 13,
+          "value": 12
+        },
+        {
+          "index": 14,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-043",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9b9922af5664762fc65d740db42bb5f97bac4a5d618f63e81c5594c18b80929e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 4,
+          "value": 14
+        },
+        {
+          "index": 6,
+          "value": 11
+        },
+        {
+          "index": 8,
+          "value": 15
+        },
+        {
+          "index": 9,
+          "value": 6
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 11,
+          "value": 3
+        },
+        {
+          "index": 14,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-044",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "7b853fedd5df47b84da2607402550c22185077cebabf991b90be60acd5091727",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 15
+        },
+        {
+          "index": 5,
+          "value": 13
+        },
+        {
+          "index": 6,
+          "value": 1
+        },
+        {
+          "index": 9,
+          "value": 16
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 12,
+          "value": 11
+        },
+        {
+          "index": 15,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-045",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "8c0b53e9e6beb906e67d6d5bd93a56ae7c7a6aa55c41430f5daa60de07d12ab8",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 11
+        },
+        {
+          "index": 8,
+          "value": 15
+        },
+        {
+          "index": 12,
+          "value": 1
+        },
+        {
+          "index": 13,
+          "value": 12
+        },
+        {
+          "index": 14,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-046",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "0c5b890d97c7b6b0da0645ec8a3d923b921d31b33898c1158c6efca9f9810a13",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 7
+        },
+        {
+          "index": 1,
+          "value": 14
+        },
+        {
+          "index": 3,
+          "value": 11
+        },
+        {
+          "index": 4,
+          "value": 9
+        },
+        {
+          "index": 5,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 5
+        },
+        {
+          "index": 8,
+          "value": 12
+        },
+        {
+          "index": 12,
+          "value": 6
+        },
+        {
+          "index": 14,
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-047",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "012f1069b743d72a93c7bd999f1ce70febd74426a5cccb7c4d1b93f91f6dc121",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 14
+        },
+        {
+          "index": 8,
+          "value": 3
+        },
+        {
+          "index": 11,
+          "value": 2
+        },
+        {
+          "index": 12,
+          "value": 10
+        },
+        {
+          "index": 13,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-048",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4284708dc423a093a3b7a0cb99926f1a6841297a6415d7abafe21e7630446841",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 6,
+          "value": 6
+        },
+        {
+          "index": 9,
+          "value": 11
+        },
+        {
+          "index": 10,
+          "value": 7
+        },
+        {
+          "index": 11,
+          "value": 14
+        },
+        {
+          "index": 14,
+          "value": 9
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-049",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "cc68c33e457dcce856c123d2c235d4578d732fc6efbf01dd5f0730a230094379",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 13
+        },
+        {
+          "index": 1,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 4,
+          "value": 3
+        },
+        {
+          "index": 5,
+          "value": 10
+        },
+        {
+          "index": 10,
+          "value": 7
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-050",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "898452408a1e3450656b839ae6c2b9ff7f01ed5f09df6e38f41366ac55631080",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 3,
+          "value": 16
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 2
+        },
+        {
+          "index": 9,
+          "value": 6
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 12,
+          "value": 1
+        },
+        {
+          "index": 13,
+          "value": 12
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-051",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "497fe74e7b75e3b1241d7cb215443bca295d9c842c1c7365388eafd73e49dbc8",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 10
+        },
+        {
+          "index": 2,
+          "value": 15
+        },
+        {
+          "index": 4,
+          "value": 8
+        },
+        {
+          "index": 5,
+          "value": 13
+        },
+        {
+          "index": 9,
+          "value": 16
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 11,
+          "value": 9
+        },
+        {
+          "index": 13,
+          "value": 2
+        },
+        {
+          "index": 14,
+          "value": 14
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-052",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fe7686f11b7901432592f0f238dc8bf5009b769baa39192c7383022137ae569d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 6
+        },
+        {
+          "index": 1,
+          "value": 12
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 8,
+          "value": 3
+        },
+        {
+          "index": 9,
+          "value": 13
+        },
+        {
+          "index": 12,
+          "value": 10
+        },
+        {
+          "index": 13,
+          "value": 8
+        },
+        {
+          "index": 15,
+          "value": 11
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-053",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c25a7effa7024607d2f4bc79d2ebaef1a8f5421f006f1ce0b06a7eca31ba6980",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 16
+        },
+        {
+          "index": 1,
+          "value": 2
+        },
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 7,
+          "value": 8
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 11,
+          "value": 12
+        },
+        {
+          "index": 14,
+          "value": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-054",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "ab0039788832e04cec77946b01c123e7bd272c538b13445db52a730f39d3f68a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 13
+        },
+        {
+          "index": 9,
+          "value": 11
+        },
+        {
+          "index": 10,
+          "value": 7
+        },
+        {
+          "index": 11,
+          "value": 14
+        },
+        {
+          "index": 12,
+          "value": 16
+        },
+        {
+          "index": 13,
+          "value": 5
+        },
+        {
+          "index": 14,
+          "value": 9
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-055",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fbb44d744d847eef15dcbdd02d52897197fdf6704c3d84eb70906fe2dd48d257",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 15
+        },
+        {
+          "index": 3,
+          "value": 4
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 5,
+          "value": 6
+        },
+        {
+          "index": 8,
+          "value": 8
+        },
+        {
+          "index": 9,
+          "value": 10
+        },
+        {
+          "index": 14,
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-056",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5c534578b0aa123136c3cf66fffe0d49f591ddeaa06681f6c46d92d29bd51846",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 13
+        },
+        {
+          "index": 7,
+          "value": 15
+        },
+        {
+          "index": 8,
+          "value": 2
+        },
+        {
+          "index": 9,
+          "value": 11
+        },
+        {
+          "index": 13,
+          "value": 5
+        },
+        {
+          "index": 14,
+          "value": 9
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-057",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9b4c947ef9b0058d8e84bac8ab1db0e94cce10b11337a47e31cd7a1ececf10f7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 11,
+          "value": 12
+        },
+        {
+          "index": 12,
+          "value": 4
+        },
+        {
+          "index": 13,
+          "value": 14
+        },
+        {
+          "index": 14,
+          "value": 15
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-058",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5ea7f6beb4973cf4ac6d4dd0163167682735b4fa44c3f53184787d0be75e90cd",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 13
+        },
+        {
+          "index": 2,
+          "value": 12
+        },
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 4,
+          "value": 3
+        },
+        {
+          "index": 6,
+          "value": 6
+        },
+        {
+          "index": 8,
+          "value": 2
+        },
+        {
+          "index": 10,
+          "value": 7
+        },
+        {
+          "index": 12,
+          "value": 16
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-059",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "55da099b0ff53a62eb61316f9dc2b3b97a8012980b8bf78a2b32e4a0acd83495",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 16
+        },
+        {
+          "index": 1,
+          "value": 2
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 7,
+          "value": 8
+        },
+        {
+          "index": 10,
+          "value": 6
+        },
+        {
+          "index": 11,
+          "value": 12
+        },
+        {
+          "index": 12,
+          "value": 4
+        },
+        {
+          "index": 13,
+          "value": 14
+        },
+        {
+          "index": 14,
+          "value": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-060",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fc7ef1860f59f2a2cd753ebe5a0b9ba2a59f0614c3f97f4f5d6425f110b32793",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 4
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 8,
+          "value": 8
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 11,
+          "value": 5
+        },
+        {
+          "index": 13,
+          "value": 3
+        },
+        {
+          "index": 15,
+          "value": 16
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-061",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "223a1d6c69f42064b65262dc94bef8d17402a91434ccd0a656b798d404555fc1",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 10
+        },
+        {
+          "index": 4,
+          "value": 8
+        },
+        {
+          "index": 7,
+          "value": 12
+        },
+        {
+          "index": 8,
+          "value": 5
+        },
+        {
+          "index": 9,
+          "value": 16
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 11,
+          "value": 9
+        },
+        {
+          "index": 13,
+          "value": 2
+        },
+        {
+          "index": 15,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-062",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4bc936635d06d13b032483b99412caf8f4a737520ef4bab99f4c0e28a222ab14",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 9,
+          "value": 7
+        },
+        {
+          "index": 10,
+          "value": 6
+        },
+        {
+          "index": 13,
+          "value": 14
+        },
+        {
+          "index": 14,
+          "value": 15
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-063",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "7a83689138ce34b7b299c2fdd9b662b1f4498573a9d7c5d64e719f462ce1605b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 4
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 9
+        },
+        {
+          "index": 8,
+          "value": 8
+        },
+        {
+          "index": 9,
+          "value": 10
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 13,
+          "value": 3
+        },
+        {
+          "index": 14,
+          "value": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-064",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "aabd1711fff1c9a9efc083f1308ed4266fbe2b2204edfab14b47040812c376b7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 10
+        },
+        {
+          "index": 4,
+          "value": 2
+        },
+        {
+          "index": 6,
+          "value": 13
+        },
+        {
+          "index": 8,
+          "value": 14
+        },
+        {
+          "index": 9,
+          "value": 4
+        },
+        {
+          "index": 14,
+          "value": 12
+        },
+        {
+          "index": 15,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-065",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "ab5b1266c13bbda55d9614163b9cabb6e4cb22ec4ed9fb6c639bf09c01d80b6d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 4,
+          "value": 14
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 2
+        },
+        {
+          "index": 8,
+          "value": 15
+        },
+        {
+          "index": 9,
+          "value": 6
+        },
+        {
+          "index": 13,
+          "value": 12
+        },
+        {
+          "index": 14,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-066",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "8f93d7acb93a026653eeacd97e3065730f10b14bf512353a00c5b4f21d26a957",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 6
+        },
+        {
+          "index": 4,
+          "value": 8
+        },
+        {
+          "index": 5,
+          "value": 13
+        },
+        {
+          "index": 6,
+          "value": 1
+        },
+        {
+          "index": 8,
+          "value": 5
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 12,
+          "value": 11
+        },
+        {
+          "index": 14,
+          "value": 14
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-067",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fc92d2b2b2927801dea39b6d7430a25713766c5f74893222adf743ae0ae9994e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 1
+        },
+        {
+          "index": 1,
+          "value": 15
+        },
+        {
+          "index": 3,
+          "value": 4
+        },
+        {
+          "index": 5,
+          "value": 6
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 9
+        },
+        {
+          "index": 9,
+          "value": 10
+        },
+        {
+          "index": 10,
+          "value": 11
+        },
+        {
+          "index": 14,
+          "value": 2
+        },
+        {
+          "index": 15,
+          "value": 16
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-068",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c1988b2dadd14ffe52f4b54093870897aee7c70bcc3f351cefdd5c6592945f78",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 6,
+          "value": 6
+        },
+        {
+          "index": 8,
+          "value": 2
+        },
+        {
+          "index": 10,
+          "value": 7
+        },
+        {
+          "index": 11,
+          "value": 14
+        },
+        {
+          "index": 13,
+          "value": 5
+        },
+        {
+          "index": 14,
+          "value": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-069",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "b2a4fef4584a5fff4d45405a5f6e8d39f211437fbf6d6ec41bf1dbbc6b25d438",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 9
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 4,
+          "value": 15
+        },
+        {
+          "index": 5,
+          "value": 1
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 14
+        },
+        {
+          "index": 8,
+          "value": 3
+        },
+        {
+          "index": 9,
+          "value": 13
+        },
+        {
+          "index": 11,
+          "value": 2
+        },
+        {
+          "index": 14,
+          "value": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-070",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "814a1383c82b6e57c007bffef25a8bf917b5d2dde07cac837fbf4db96c6213ec",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 2
+        },
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 9,
+          "value": 7
+        },
+        {
+          "index": 10,
+          "value": 6
+        },
+        {
+          "index": 11,
+          "value": 12
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-071",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "faba2817d7620eee5bf0e306518629e9996c45d28722f16aa525491814b9b75c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 9,
+          "value": 7
+        },
+        {
+          "index": 10,
+          "value": 6
+        },
+        {
+          "index": 12,
+          "value": 4
+        },
+        {
+          "index": 14,
+          "value": 15
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-072",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "3b9e8f253ab6545bbcb40c59a617447e9dc9bd6ae0fe89ff1b360be44823410a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 3,
+          "value": 16
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 8,
+          "value": 15
+        },
+        {
+          "index": 9,
+          "value": 6
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 11,
+          "value": 3
+        },
+        {
+          "index": 13,
+          "value": 12
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-073",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c488b117b029496654e31f48509197be5724e201778267cfec42b6ecba814cea",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 12
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 4,
+          "value": 15
+        },
+        {
+          "index": 7,
+          "value": 14
+        },
+        {
+          "index": 8,
+          "value": 3
+        },
+        {
+          "index": 9,
+          "value": 13
+        },
+        {
+          "index": 11,
+          "value": 2
+        },
+        {
+          "index": 12,
+          "value": 10
+        },
+        {
+          "index": 14,
+          "value": 5
+        },
+        {
+          "index": 15,
+          "value": 11
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-074",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "78d260bc5be2d48385e972881e11b0da0f51c39c2112d0dea79d3a9488689b03",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 1
+        },
+        {
+          "index": 2,
+          "value": 14
+        },
+        {
+          "index": 3,
+          "value": 4
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 5,
+          "value": 6
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 9,
+          "value": 10
+        },
+        {
+          "index": 11,
+          "value": 5
+        },
+        {
+          "index": 14,
+          "value": 2
+        },
+        {
+          "index": 15,
+          "value": 16
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-075",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "f02f7adc70af0c5ef715c50d93b63221c1e1d4f7032f394c7cc1b2fa00489b02",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 11
+        },
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 10
+        },
+        {
+          "index": 6,
+          "value": 13
+        },
+        {
+          "index": 7,
+          "value": 3
+        },
+        {
+          "index": 8,
+          "value": 14
+        },
+        {
+          "index": 10,
+          "value": 1
+        },
+        {
+          "index": 13,
+          "value": 9
+        },
+        {
+          "index": 14,
+          "value": 12
+        },
+        {
+          "index": 15,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-076",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "a11d0e8026c76ee1be021742febe642b60717b395bf43a88b5a05eaff410f965",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 11
+        },
+        {
+          "index": 7,
+          "value": 2
+        },
+        {
+          "index": 9,
+          "value": 6
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 12,
+          "value": 1
+        },
+        {
+          "index": 15,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-077",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "878a0d9ccad65deca3c119d4ee7eb2c03a561291be3fb24a659d51297f01d823",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 16
+        },
+        {
+          "index": 1,
+          "value": 2
+        },
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 7,
+          "value": 8
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-078",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "093c5bb53cc2f4c3e01980d5cac57308349379410de9cc1a5e1a62fbb85c018b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 14
+        },
+        {
+          "index": 2,
+          "value": 2
+        },
+        {
+          "index": 4,
+          "value": 9
+        },
+        {
+          "index": 5,
+          "value": 4
+        },
+        {
+          "index": 6,
+          "value": 16
+        },
+        {
+          "index": 7,
+          "value": 5
+        },
+        {
+          "index": 8,
+          "value": 12
+        },
+        {
+          "index": 10,
+          "value": 13
+        },
+        {
+          "index": 11,
+          "value": 8
+        },
+        {
+          "index": 13,
+          "value": 15
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-079",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "441917cce3901f23cb03834377f2853f4a46cd494d8c18eec06ce95dd2be393d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 10
+        },
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 6
+        },
+        {
+          "index": 5,
+          "value": 13
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 11,
+          "value": 9
+        },
+        {
+          "index": 12,
+          "value": 11
+        },
+        {
+          "index": 13,
+          "value": 2
+        },
+        {
+          "index": 14,
+          "value": 14
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-080",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "1d59c2435acfde8ee8ec4bd49162698c8cef39d5b8114b5559efef2d511097fb",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 7
+        },
+        {
+          "index": 1,
+          "value": 14
+        },
+        {
+          "index": 2,
+          "value": 2
+        },
+        {
+          "index": 4,
+          "value": 9
+        },
+        {
+          "index": 5,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 5
+        },
+        {
+          "index": 10,
+          "value": 13
+        },
+        {
+          "index": 11,
+          "value": 8
+        },
+        {
+          "index": 14,
+          "value": 3
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-081",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "ee91a2764a57a9e9c1a9b693308a24c562730c54179e074532bb49a3560c6d14",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 2,
+          "value": 15
+        },
+        {
+          "index": 3,
+          "value": 6
+        },
+        {
+          "index": 5,
+          "value": 13
+        },
+        {
+          "index": 7,
+          "value": 12
+        },
+        {
+          "index": 8,
+          "value": 5
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 11,
+          "value": 9
+        },
+        {
+          "index": 12,
+          "value": 11
+        },
+        {
+          "index": 15,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-082",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "f663c8a8d078f672907d1a109f07b34029d6110b34d9acfe05aca6c1052daa29",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 14
+        },
+        {
+          "index": 4,
+          "value": 12
+        },
+        {
+          "index": 5,
+          "value": 6
+        },
+        {
+          "index": 6,
+          "value": 7
+        },
+        {
+          "index": 8,
+          "value": 8
+        },
+        {
+          "index": 9,
+          "value": 10
+        },
+        {
+          "index": 11,
+          "value": 5
+        },
+        {
+          "index": 13,
+          "value": 3
+        },
+        {
+          "index": 15,
+          "value": 16
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-083",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "aaf2d52c7e71a8c72fad7915811d01612c291c876462bb940471d514658d4239",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 10
+        },
+        {
+          "index": 1,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 6
+        },
+        {
+          "index": 5,
+          "value": 13
+        },
+        {
+          "index": 7,
+          "value": 12
+        },
+        {
+          "index": 8,
+          "value": 5
+        },
+        {
+          "index": 9,
+          "value": 16
+        },
+        {
+          "index": 10,
+          "value": 4
+        },
+        {
+          "index": 11,
+          "value": 9
+        },
+        {
+          "index": 14,
+          "value": 14
+        },
+        {
+          "index": 15,
+          "value": 7
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-084",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "f1eb4e5c9196364b5a124c5288873244b6251141e1e9ad33e7d1c1cfd430b4c3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 16
+        },
+        {
+          "index": 1,
+          "value": 2
+        },
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 4,
+          "value": 5
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 7,
+          "value": 8
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 13,
+          "value": 14
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-085",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "21e854a15f7e8f5170c084da255adb08ac4cfd6add0408b507c6e92b6c506487",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 5
+        },
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 4,
+          "value": 2
+        },
+        {
+          "index": 5,
+          "value": 16
+        },
+        {
+          "index": 6,
+          "value": 13
+        },
+        {
+          "index": 7,
+          "value": 3
+        },
+        {
+          "index": 8,
+          "value": 14
+        },
+        {
+          "index": 10,
+          "value": 1
+        },
+        {
+          "index": 12,
+          "value": 7
+        },
+        {
+          "index": 13,
+          "value": 9
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-086",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "470f704538cce65df26f5a0f0b92796e7a08f015ed68273a9c75caaecae11984",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 6
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 4,
+          "value": 15
+        },
+        {
+          "index": 5,
+          "value": 1
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 14
+        },
+        {
+          "index": 9,
+          "value": 13
+        },
+        {
+          "index": 10,
+          "value": 16
+        },
+        {
+          "index": 13,
+          "value": 8
+        },
+        {
+          "index": 14,
+          "value": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-087",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "21ff43bbc48879f307267c91f662898591a862725efd20b2948fa48f574d25f7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 7
+        },
+        {
+          "index": 1,
+          "value": 14
+        },
+        {
+          "index": 2,
+          "value": 2
+        },
+        {
+          "index": 4,
+          "value": 9
+        },
+        {
+          "index": 5,
+          "value": 4
+        },
+        {
+          "index": 6,
+          "value": 16
+        },
+        {
+          "index": 8,
+          "value": 12
+        },
+        {
+          "index": 9,
+          "value": 1
+        },
+        {
+          "index": 10,
+          "value": 13
+        },
+        {
+          "index": 11,
+          "value": 8
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-088",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "38ab0a6d88b223fbf95292149a033ae3f0910dca282cd61dda4c988c4551f130",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 16
+        },
+        {
+          "index": 2,
+          "value": 3
+        },
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 5,
+          "value": 11
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 7,
+          "value": 8
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 10,
+          "value": 6
+        },
+        {
+          "index": 11,
+          "value": 12
+        },
+        {
+          "index": 13,
+          "value": 14
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-089",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "019938d22d04b0da3083cd70a0fd4176c819f1fc2f9cd7ae381b27c336e80342",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 7
+        },
+        {
+          "index": 1,
+          "value": 14
+        },
+        {
+          "index": 4,
+          "value": 9
+        },
+        {
+          "index": 6,
+          "value": 16
+        },
+        {
+          "index": 7,
+          "value": 5
+        },
+        {
+          "index": 8,
+          "value": 12
+        },
+        {
+          "index": 9,
+          "value": 1
+        },
+        {
+          "index": 10,
+          "value": 13
+        },
+        {
+          "index": 13,
+          "value": 15
+        },
+        {
+          "index": 15,
+          "value": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-090",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "56f2c541b13ae87c1f42d340503068c9c0de20704289b89a09c208561b921b6a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 3,
+          "value": 16
+        },
+        {
+          "index": 4,
+          "value": 14
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 11
+        },
+        {
+          "index": 9,
+          "value": 6
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 14,
+          "value": 8
+        },
+        {
+          "index": 15,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-091",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "3342b694e18d4a92bfc10d951ab6d2a5a59cfc1db894d1b8f991d706d06d65f4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 4,
+          "value": 14
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 7,
+          "value": 2
+        },
+        {
+          "index": 8,
+          "value": 15
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 12,
+          "value": 1
+        },
+        {
+          "index": 13,
+          "value": 12
+        },
+        {
+          "index": 15,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-092",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "7d71efe397b1dbf5c570c32c2677c2fdcb8cc2b9ffdf69c9dc42fa96ed142418",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 7
+        },
+        {
+          "index": 1,
+          "value": 14
+        },
+        {
+          "index": 2,
+          "value": 2
+        },
+        {
+          "index": 3,
+          "value": 11
+        },
+        {
+          "index": 5,
+          "value": 4
+        },
+        {
+          "index": 6,
+          "value": 16
+        },
+        {
+          "index": 7,
+          "value": 5
+        },
+        {
+          "index": 11,
+          "value": 8
+        },
+        {
+          "index": 14,
+          "value": 3
+        },
+        {
+          "index": 15,
+          "value": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-093",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "24d37e488c5df7a4d17b22a15212f47afd24ab7fd574dd95791fecb319fba3ca",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 2,
+          "value": 9
+        },
+        {
+          "index": 3,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 4
+        },
+        {
+          "index": 7,
+          "value": 14
+        },
+        {
+          "index": 9,
+          "value": 13
+        },
+        {
+          "index": 12,
+          "value": 10
+        },
+        {
+          "index": 13,
+          "value": 8
+        },
+        {
+          "index": 14,
+          "value": 5
+        },
+        {
+          "index": 15,
+          "value": 11
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-094",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "f743449f71b85342e77be96980f559eb7636f1e42878739ac6cb07bee65e0d9a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 3,
+          "value": 13
+        },
+        {
+          "index": 6,
+          "value": 10
+        },
+        {
+          "index": 7,
+          "value": 8
+        },
+        {
+          "index": 8,
+          "value": 9
+        },
+        {
+          "index": 9,
+          "value": 7
+        },
+        {
+          "index": 10,
+          "value": 6
+        },
+        {
+          "index": 11,
+          "value": 12
+        },
+        {
+          "index": 13,
+          "value": 14
+        },
+        {
+          "index": 15,
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-095",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "707e7914033a033d551b71a4b55f1fc9c248127af0a294e91b8814b00d4217d8",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 11
+        },
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 4,
+          "value": 2
+        },
+        {
+          "index": 5,
+          "value": 16
+        },
+        {
+          "index": 8,
+          "value": 14
+        },
+        {
+          "index": 9,
+          "value": 4
+        },
+        {
+          "index": 11,
+          "value": 15
+        },
+        {
+          "index": 13,
+          "value": 9
+        },
+        {
+          "index": 15,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-096",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5619a781f27b22e018915cb695a34cf3b815ed0340a54cc54212827219361d80",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 13
+        },
+        {
+          "index": 2,
+          "value": 12
+        },
+        {
+          "index": 4,
+          "value": 3
+        },
+        {
+          "index": 5,
+          "value": 10
+        },
+        {
+          "index": 6,
+          "value": 6
+        },
+        {
+          "index": 7,
+          "value": 15
+        },
+        {
+          "index": 11,
+          "value": 14
+        },
+        {
+          "index": 12,
+          "value": 16
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-097",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "bcf97b58ab8c9b809f646f4d237170502e70dbb22eee2fe2b2f46561db8f98b4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 4
+        },
+        {
+          "index": 1,
+          "value": 9
+        },
+        {
+          "index": 2,
+          "value": 5
+        },
+        {
+          "index": 3,
+          "value": 16
+        },
+        {
+          "index": 5,
+          "value": 7
+        },
+        {
+          "index": 6,
+          "value": 11
+        },
+        {
+          "index": 7,
+          "value": 2
+        },
+        {
+          "index": 8,
+          "value": 15
+        },
+        {
+          "index": 10,
+          "value": 10
+        },
+        {
+          "index": 11,
+          "value": 3
+        },
+        {
+          "index": 15,
+          "value": 13
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-098",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "143d551f379034a9bb9a1bbe6f21f9db69d61922c101800ab699891e473b21d2",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 5
+        },
+        {
+          "index": 2,
+          "value": 8
+        },
+        {
+          "index": 3,
+          "value": 10
+        },
+        {
+          "index": 6,
+          "value": 13
+        },
+        {
+          "index": 7,
+          "value": 3
+        },
+        {
+          "index": 8,
+          "value": 14
+        },
+        {
+          "index": 9,
+          "value": 4
+        },
+        {
+          "index": 10,
+          "value": 1
+        },
+        {
+          "index": 12,
+          "value": 7
+        },
+        {
+          "index": 15,
+          "value": 6
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-099",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5ffbacbc9b1815e287bb9c684c9a3bf3c3dd596f70635b64a0ee3999cc48e923",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 0,
+          "value": 7
+        },
+        {
+          "index": 1,
+          "value": 14
+        },
+        {
+          "index": 6,
+          "value": 16
+        },
+        {
+          "index": 8,
+          "value": 12
+        },
+        {
+          "index": 9,
+          "value": 1
+        },
+        {
+          "index": 10,
+          "value": 13
+        },
+        {
+          "index": 11,
+          "value": 8
+        },
+        {
+          "index": 13,
+          "value": 15
+        },
+        {
+          "index": 15,
+          "value": 10
+        }
+      ]
+    }
+  },
+  {
+    "id": "magic-square-100",
+    "kind": "assignment",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fa861dcc51f40061b4482e0ec370032811b8180dbed6e3571cd6db9bab8c82d1",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "index": 1,
+          "value": 8
+        },
+        {
+          "index": 2,
+          "value": 12
+        },
+        {
+          "index": 3,
+          "value": 1
+        },
+        {
+          "index": 5,
+          "value": 10
+        },
+        {
+          "index": 6,
+          "value": 6
+        },
+        {
+          "index": 8,
+          "value": 2
+        },
+        {
+          "index": 9,
+          "value": 11
+        },
+        {
+          "index": 12,
+          "value": 16
+        },
+        {
+          "index": 14,
+          "value": 9
+        },
+        {
+          "index": 15,
+          "value": 4
+        }
+      ]
+    }
+  }
+]
