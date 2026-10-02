@@ -1,0 +1,161 @@
+{
+  "method": "Event-capable simulated DOM running shipped core, UI, engine, and app scripts; no visual browser rendering claimed.",
+  "games": {
+    "logic-grid": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 6,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "truth-liars": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 4,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "alibi-timeline": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 5,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "substitution-cipher": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 8,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "family-tree": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 4,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "hat-deduction": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 3,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "evidence-order": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 5,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "rule-lab": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 6,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "landmark-location": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 2,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    },
+    "escape-inventory": {
+      "manualSolutionUIFlows": 100,
+      "replaySteps": 11,
+      "flows": [
+        "100-level selection",
+        "actual board-control completion",
+        "replay board lock and isolation",
+        "reset dialog cancel and confirm",
+        "hint apply",
+        "undo",
+        "save/reload",
+        "corrupt save",
+        "storage denial"
+      ]
+    }
+  },
+  "browser": {
+    "status": "pending",
+    "blocker": "Chromium startup socket() Operation not permitted; CUA localhost ERR_BLOCKED_BY_CLIENT."
+  },
+  "assertions": 2210,
+  "passed": true
+}

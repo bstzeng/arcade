@@ -1,0 +1,464 @@
+{
+  "schemaVersion": 1,
+  "family": "clue-puzzles",
+  "implementedGames": 10,
+  "levels": 1000,
+  "canonicalDistinctPerGame": 100,
+  "localImplementationComplete": true,
+  "publicationReady": false,
+  "publicationBlocker": "Real-browser visual and interaction QA remains pending in a supported environment.",
+  "semanticRepair": {
+    "game": "logic-grid",
+    "identity": "gap(0) = equality",
+    "normalizationRegression": "games/clue-common/test-canonical.py",
+    "regressionChecks": 208,
+    "preservedOtherCorpora": 9
+  },
+  "tests": {
+    "independentReference": {
+      "passed": true,
+      "levels": 1000,
+      "report": "games/clue-common/independent-verification.json"
+    },
+    "engine": {
+      "passed": true,
+      "assertions": 33002,
+      "report": "games/clue-common/engine-verification.json"
+    },
+    "simulatedDom": {
+      "passed": true,
+      "manualSolutionFlows": 1000,
+      "assertions": 2210,
+      "report": "games/clue-common/ui-verification.json"
+    },
+    "static": {
+      "passed": true,
+      "checks": 192,
+      "report": "games/clue-common/static-verification.json"
+    },
+    "semanticCanonicalRegression": {
+      "passed": true,
+      "checks": 208,
+      "report": "games/clue-common/canonical-regression-verification.json"
+    },
+    "regeneration": {
+      "passed": true,
+      "byteIdenticalAssets": 20,
+      "regeneratedAssets": 2,
+      "preservedAssets": 18,
+      "report": "games/clue-common/regeneration-verification.json"
+    },
+    "actualBrowser": {
+      "passed": false,
+      "status": "not-run successfully",
+      "attempted": true,
+      "blockers": [
+        "Chromium launch: socket() Operation not permitted",
+        "Cloud browser: localhost ERR_BLOCKED_BY_CLIENT"
+      ],
+      "script": "games/clue-common/test-browser.cjs"
+    }
+  },
+  "files": [
+    {
+      "path": "games/logic-grid.html",
+      "bytes": 1291,
+      "sha256": "8f5e3e7e5d622cd14c7312b77a798a85eea3632818532c672b8a4bec1e50b346"
+    },
+    {
+      "path": "games/logic-grid/README.md",
+      "bytes": 1295,
+      "sha256": "f050076eee6695b81b9ea6013afb81e8eebcd2c4271bb0f251bd6cc3014c0706"
+    },
+    {
+      "path": "games/logic-grid/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/logic-grid/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/logic-grid/levels.js",
+      "bytes": 56346,
+      "sha256": "11945ea8057d39885ee6758851a869c9029d4209f48f878d8ec201a9c14826ba"
+    },
+    {
+      "path": "games/logic-grid/levels.json",
+      "bytes": 56189,
+      "sha256": "8d0adf103b5ea5f0de2207a709ad148e7b64eaf53b8b99fd636ea7b473f3fb30"
+    },
+    {
+      "path": "games/truth-liars.html",
+      "bytes": 1304,
+      "sha256": "c333569a4ee7ec4bdb40dde668bbd3118c45a82ebaadde21c2033741f741055c"
+    },
+    {
+      "path": "games/truth-liars/README.md",
+      "bytes": 1067,
+      "sha256": "dbf14c49118aa14fbb2fe68ed7246b3e75d5ec53d88cbd4fc2359d0fa890c209"
+    },
+    {
+      "path": "games/truth-liars/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/truth-liars/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/truth-liars/levels.js",
+      "bytes": 52804,
+      "sha256": "c78e04ff633823f5e994a7cabde503c6ffd02fbf237ce10d4b4610452c93b6f2"
+    },
+    {
+      "path": "games/truth-liars/levels.json",
+      "bytes": 52647,
+      "sha256": "d0bc7689a194dfff37d0dca09507f9af83f55eb3b5fb407ea24dbba5e23018ee"
+    },
+    {
+      "path": "games/alibi-timeline.html",
+      "bytes": 1316,
+      "sha256": "c50e6e7ab68e9a6111ce4fde970cf753305e5a0a43f075f355659eda88c13f42"
+    },
+    {
+      "path": "games/alibi-timeline/README.md",
+      "bytes": 1085,
+      "sha256": "d8245a4e0d4b41b87ad98cbe25673d15a8d5314769df210435048f2e19b9a5d2"
+    },
+    {
+      "path": "games/alibi-timeline/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/alibi-timeline/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/alibi-timeline/levels.js",
+      "bytes": 51757,
+      "sha256": "1a902dd17e05c22053d2d663dc178101fbea9a957d7cb0f3b9d09069a1af84b6"
+    },
+    {
+      "path": "games/alibi-timeline/levels.json",
+      "bytes": 51600,
+      "sha256": "75dc88744ba349f380a12c1dc58358942985a8efcd21008197ac610f0bdc75c7"
+    },
+    {
+      "path": "games/substitution-cipher.html",
+      "bytes": 1327,
+      "sha256": "75ecc2399f29c7a9b28e8b6d8b1e4267e3aa4fb2670437155e780e847c5b1565"
+    },
+    {
+      "path": "games/substitution-cipher/README.md",
+      "bytes": 1092,
+      "sha256": "879fec341917e4bf7b975fb3ea16db858de88b0403790c7688f1d31ab430c69a"
+    },
+    {
+      "path": "games/substitution-cipher/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/substitution-cipher/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/substitution-cipher/levels.js",
+      "bytes": 72638,
+      "sha256": "04d1233764b87af4203833e335bcfa230645fa7cbffeaf956af5199fb4c87e3b"
+    },
+    {
+      "path": "games/substitution-cipher/levels.json",
+      "bytes": 72481,
+      "sha256": "cd8479bdd92b70b4b737a10b4ff3576f1b634be2f1eda4d76c924a60389b4764"
+    },
+    {
+      "path": "games/family-tree.html",
+      "bytes": 1295,
+      "sha256": "995eee9ebb99879f44d95123dfb4b04bebfefd2637ac524c601ed7dd1542d89a"
+    },
+    {
+      "path": "games/family-tree/README.md",
+      "bytes": 1067,
+      "sha256": "8d50044ff23e17e244b9bba2a2ff9f726f7b8a856d7560a4d11ba5df3fc3ca28"
+    },
+    {
+      "path": "games/family-tree/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/family-tree/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/family-tree/levels.js",
+      "bytes": 53271,
+      "sha256": "9b25ec9942e1a6b5712a9405be86c6db65553980268dc01e3630554b02eba28b"
+    },
+    {
+      "path": "games/family-tree/levels.json",
+      "bytes": 53114,
+      "sha256": "73b77d7f2c39c077d33d9c148309c9406d5008e08bccc7e0aa45f1a6a65f270c"
+    },
+    {
+      "path": "games/hat-deduction.html",
+      "bytes": 1303,
+      "sha256": "596a29f02a7c1ea4d472def851a8cb266abd7afca06ac1b582a66c5d0846bc7b"
+    },
+    {
+      "path": "games/hat-deduction/README.md",
+      "bytes": 1078,
+      "sha256": "28ff8b339846e887ec799031c6e5f2d092c81d4a5c70051d5b719cad374d8f2b"
+    },
+    {
+      "path": "games/hat-deduction/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/hat-deduction/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/hat-deduction/levels.js",
+      "bytes": 53822,
+      "sha256": "5aeee6e6bc0acbee6b47384307e0cf2a31fdeca7bd6df6cdd9815243052e0861"
+    },
+    {
+      "path": "games/hat-deduction/levels.json",
+      "bytes": 53665,
+      "sha256": "e3d3b66dd11739953f50f265757d39d43413caabdb3392247d80b9ad770541cd"
+    },
+    {
+      "path": "games/evidence-order.html",
+      "bytes": 1307,
+      "sha256": "23382cdd3a59b11210b793461d82e9277b77c0dee171b2253ef1cb95ae2b707d"
+    },
+    {
+      "path": "games/evidence-order/README.md",
+      "bytes": 1069,
+      "sha256": "99f53cfcd1de48fd698bfab99d7b189cb201133c93049ad93805fea7504d8596"
+    },
+    {
+      "path": "games/evidence-order/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/evidence-order/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/evidence-order/levels.js",
+      "bytes": 46302,
+      "sha256": "fdd75c21d0714366de8305d34fd79df6c78c41aa6a5a9b366e2d0e731c800e41"
+    },
+    {
+      "path": "games/evidence-order/levels.json",
+      "bytes": 46145,
+      "sha256": "3836c6f0ae7f3d654550f8ba2c27af955b302f0faf529b2ca6944380955db817"
+    },
+    {
+      "path": "games/rule-lab.html",
+      "bytes": 1292,
+      "sha256": "e11c39bca749ad8863bd74fa40bb403d0d2862d6e412bfb2fffd2b8e9169a6cb"
+    },
+    {
+      "path": "games/rule-lab/README.md",
+      "bytes": 1077,
+      "sha256": "81ee725495afc10b7ede256d0b1ba69bf2f5255d766b704d8f4c6a944092f94c"
+    },
+    {
+      "path": "games/rule-lab/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/rule-lab/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/rule-lab/levels.js",
+      "bytes": 53636,
+      "sha256": "ad665ecb7abbc89f1122c8504ddcabb5c816589216a8d0287acef5ef866de357"
+    },
+    {
+      "path": "games/rule-lab/levels.json",
+      "bytes": 53479,
+      "sha256": "6eb3ee612a108f1c7e5fffafb99823af1169fc0f8d69f2176a01ce619caa5bfb"
+    },
+    {
+      "path": "games/landmark-location.html",
+      "bytes": 1319,
+      "sha256": "e1ca3e869fe9d205365e555c6005366cc2a98362715999e497c8d0f67a7302a6"
+    },
+    {
+      "path": "games/landmark-location/README.md",
+      "bytes": 1085,
+      "sha256": "e66b8c729bcc74ee99a123985b8b4c88673fe7bdb2e71e48ed4a1f5f6231aaf3"
+    },
+    {
+      "path": "games/landmark-location/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/landmark-location/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/landmark-location/levels.js",
+      "bytes": 48494,
+      "sha256": "fb80bf1f3369c757e453d2984a65a3354a1580d8de7e256e92347aad99bd78d9"
+    },
+    {
+      "path": "games/landmark-location/levels.json",
+      "bytes": 48337,
+      "sha256": "efc396980130cfd11e342fdb3d071049677e65d901b3ce76a0927c34f49e7ecc"
+    },
+    {
+      "path": "games/escape-inventory.html",
+      "bytes": 1315,
+      "sha256": "e90ae6d16810c014418b3479c091d0e57c1c8bcfdd303424af4f9551096f4c85"
+    },
+    {
+      "path": "games/escape-inventory/README.md",
+      "bytes": 1082,
+      "sha256": "bc5f7911f56acad66fe8976ed68ed10718ba867083fec2cfcc8a76b021df2c4f"
+    },
+    {
+      "path": "games/escape-inventory/app.js",
+      "bytes": 126,
+      "sha256": "542348bb63b0ac98bead36dc46b7b6ad8b8754b67e6c2bede896c5b78aee2d14"
+    },
+    {
+      "path": "games/escape-inventory/engine.js",
+      "bytes": 228,
+      "sha256": "6036d92780dc3b108af911903e7e049d02891b40d3f9a3773256655d6a7c731e"
+    },
+    {
+      "path": "games/escape-inventory/levels.js",
+      "bytes": 89859,
+      "sha256": "f4c533a3f94bcce7d4d9b7ea45a8ca7fb2bff555859297e83f0677aeab3d6702"
+    },
+    {
+      "path": "games/escape-inventory/levels.json",
+      "bytes": 89702,
+      "sha256": "6863bc07e0a143fdb712fd57a02a79cafb74ceb15a0b48af7be19e078202d8fc"
+    },
+    {
+      "path": "games/clue-common/README.md",
+      "bytes": 8107,
+      "sha256": "c187a9d085a4b4c740df0a5835d7416b9b321b20df1c2c8f3df41b07aa34e29f"
+    },
+    {
+      "path": "games/clue-common/app.js",
+      "bytes": 18980,
+      "sha256": "ce5888c3ba88ccc1a3093b0b8c1b56f79620f4ab535c8ba77763e3bb41ae3078"
+    },
+    {
+      "path": "games/clue-common/canonical-regression-verification.json",
+      "bytes": 260,
+      "sha256": "5f46fc790f4895aeb34c2755500b25731bdbb76198839c9b13f2fec188db4a69"
+    },
+    {
+      "path": "games/clue-common/canonical.py",
+      "bytes": 6106,
+      "sha256": "e90ab1bf38701782ee26890d79916cfe6e847fb6eb53678613846be42770071a"
+    },
+    {
+      "path": "games/clue-common/engine-verification.json",
+      "bytes": 3796,
+      "sha256": "6cb79972ec461c4192c416762a26df29ad429ced1dee278ecb2ab787e2b24b54"
+    },
+    {
+      "path": "games/clue-common/engine.js",
+      "bytes": 17307,
+      "sha256": "b76a1e5219e9e32eddc01fa98d75eb469d0e73d06ef26a9756413e4a18ea80d9"
+    },
+    {
+      "path": "games/clue-common/generate.py",
+      "bytes": 17594,
+      "sha256": "092b4fec4ba7f664fac29c62fed4618df989f670fec5cc6a645832a2eee5f3ba"
+    },
+    {
+      "path": "games/clue-common/independent-verification.json",
+      "bytes": 215488,
+      "sha256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df"
+    },
+    {
+      "path": "games/clue-common/regeneration-verification.json",
+      "bytes": 2615,
+      "sha256": "7e9b5bbbb8b71b280fbb7806d9a3fc0993667056d3c9a1b83c8825fc71f082f9"
+    },
+    {
+      "path": "games/clue-common/release-manifest.json",
+      "bytes": 7000,
+      "sha256": "69bab291d2d0bc0830a63ad29a405d89508562a2fff92b1ff40c891141795999"
+    },
+    {
+      "path": "games/clue-common/semantic-regression-fixtures.json",
+      "bytes": 3866,
+      "sha256": "336e8b8ebdc6bb758d4b0ecd804fa1aae9a972fc4c1bfd593e2ebdde7c4209ad"
+    },
+    {
+      "path": "games/clue-common/static-verification.json",
+      "bytes": 237,
+      "sha256": "5dd416d20ee87b193fdcee3f1b2eda11153b9fcb4cb849778e015b1f8ef4fc3b"
+    },
+    {
+      "path": "games/clue-common/style.css",
+      "bytes": 9518,
+      "sha256": "a8e34b4ead0f4670325c5a40c2e8cde20c09e682afec15718ed9e90146be2cd2"
+    },
+    {
+      "path": "games/clue-common/test-browser.cjs",
+      "bytes": 3621,
+      "sha256": "49e94a6a36291512f47300fb58b896a375e431f3613674278b93e31ad37b0089"
+    },
+    {
+      "path": "games/clue-common/test-canonical.py",
+      "bytes": 1415,
+      "sha256": "fdd68bc2193bbffece5f95531d3a6af0c503978cd442e5e4c79865bbff24a94c"
+    },
+    {
+      "path": "games/clue-common/test-ui.cjs",
+      "bytes": 7494,
+      "sha256": "37a302eb0ae12f5be7a6467c7768c1c409c3c734223d5ba28b200dd039ca9cad"
+    },
+    {
+      "path": "games/clue-common/test.cjs",
+      "bytes": 5107,
+      "sha256": "2cf4ab31f67fd878782ab72e8da882d1fcb400c6c60bc9cc51f83d4b0f1553bf"
+    },
+    {
+      "path": "games/clue-common/ui-verification.json",
+      "bytes": 4194,
+      "sha256": "4e73df2b40257f2b86d6eb019d9df087597b8f37b7ba0131dae7ed7e74eab789"
+    },
+    {
+      "path": "games/clue-common/verify-independent.py",
+      "bytes": 8098,
+      "sha256": "cc85579e39c18490ead1958631ff24afda7030793c2571c61718b250d9dc3a6f"
+    },
+    {
+      "path": "games/clue-common/verify-static.cjs",
+      "bytes": 1791,
+      "sha256": "b3a8c12fe0b6aa89641e4bd3cd92b286d316c629b4867d2c3992a82f57ac78a6"
+    }
+  ]
+}

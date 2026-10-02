@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": 208,
+  "canonicalDistinct": 100,
+  "regressions": [
+    "Original audit fixtures 010/014/015 collapse",
+    "Replace every gap(0) by equality",
+    "Replace every equality by gap(0)",
+    "100 final starts remain distinct"
+  ]
+}
