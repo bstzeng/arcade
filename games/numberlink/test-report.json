@@ -1,0 +1,25 @@
+{
+  "game": "numberlink",
+  "levels": 50,
+  "engineAssertions": 400,
+  "totalAssertions": 528,
+  "actualUIScriptWins": 50,
+  "uiCellActions": 1660,
+  "flows": [
+    "all 50 wins through real click handlers",
+    "invalid inputs",
+    "undo",
+    "reset confirmation/cancel/undo",
+    "save/reload",
+    "malformed save",
+    "storage denial",
+    "wrong-state transparent hint",
+    "non-destructive answer preview",
+    "touch pointer path",
+    "keyboard-click handlers",
+    "help/escape",
+    "navigation bounds"
+  ],
+  "uiMethod": "shipped app.js evaluated with deterministic DOM/event harness; no browser pixels tested",
+  "browserLayout": "pending publisher live-browser QA"
+}
