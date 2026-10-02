@@ -1,0 +1,8 @@
+{
+  "status": "not-run",
+  "evidence": [
+    "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+    "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+    "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+  ]
+}
