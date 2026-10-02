@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "baseCommit": "d0e979cc85ec039d2398ba42162a5646b1d5f775",
+  "build": "20261002-categories",
+  "scope": "Add an explicit accessible name to the native category selector so mobile CSS hiding the visible label does not remove its accessible name.",
+  "runtimeChanges": [
+    "index.html: add aria-label=\"瀏覽分類\" to #category-select"
+  ],
+  "focusedChecks": {
+    "appSyntax": true,
+    "verifierSyntax": true,
+    "localAssetReferences": 367,
+    "lobbySearchCases": 221,
+    "categoryCounts": {
+      "tabletop": 12,
+      "cards": 6,
+      "numbers": 9,
+      "deduction": 14,
+      "spatial": 10,
+      "paths": 8,
+      "simulation": 7,
+      "quick": 4
+    },
+    "explicitSelectorAccessibleName": true,
+    "preCorrectionMarkupRejectedByNewRegression": true,
+    "all70GamesAnd782AssetsUnchanged": true,
+    "historicalReportsUnchanged": 7
+  },
+  "historicalAggregate": {
+    "rerunForThisCorrection": false,
+    "baselineCommit": "d0e979cc85ec039d2398ba42162a5646b1d5f775",
+    "report": "aggregate-verification-report.json",
+    "sha256": "ee2a13569cbd420c294f68e5665a260e4e0cb416223a3e501f8565090d2da53a",
+    "baselineSuitesPassed": 8,
+    "artifactPreservedByteForByte": true,
+    "appAndStylesUnchangedSinceFullRun": true,
+    "note": "The full aggregate remains evidence for the baseline commit. This correction has fresh focused lobby/static/accessibility checks; it does not claim the old aggregate source hashes match the revised HTML or verifier."
+  },
+  "claims": {
+    "offlineSimulatedDOMChecks": true,
+    "browserVisualTestingClaimed": false
+  },
+  "sourceFiles": {
+    "app.js": "c3fd7dafbfe01a6ab82b44e39fc926fccee99822061f44978ed0431326ca70a8",
+    "index.html": "393ab095568870405b69b00a04db7d2de3c88dc772faae98ad415d3010565770",
+    "styles.css": "7862c8b0c38ea4321dec9fee227b6167a0d7a112451309d5799ab7c35bfa7870",
+    "verify-lobby.cjs": "8754971ebdea29a658a7e03c58086ecd0d080e999cdec22b6897c6b2cdbcdb37",
+    "lobby-categories-verification-report.json": "f09c2d88bf3f15b2875428cad4c7461df361c6581bfb9ec4e71e02137f111d85"
+  }
+}
