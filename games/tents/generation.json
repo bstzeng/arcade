@@ -1,0 +1,91 @@
+{
+  "seed": 2026100202,
+  "algorithm": "LCG 1664525/1013904223; independent-tent sampling; exact row-mask count-to-two",
+  "stats": [
+    {
+      "tier": 1,
+      "attempts": 51,
+      "uniquePool": 40,
+      "nodes": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "tier": 2,
+      "attempts": 43,
+      "uniquePool": 40,
+      "nodes": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        9,
+        10,
+        13
+      ]
+    },
+    {
+      "tier": 3,
+      "attempts": 50,
+      "uniquePool": 40,
+      "nodes": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        10,
+        10,
+        11,
+        14,
+        21
+      ]
+    },
+    {
+      "tier": 4,
+      "attempts": 50,
+      "uniquePool": 40,
+      "nodes": [
+        9,
+        9,
+        10,
+        11,
+        12,
+        12,
+        14,
+        16,
+        24,
+        34
+      ]
+    },
+    {
+      "tier": 5,
+      "attempts": 48,
+      "uniquePool": 40,
+      "nodes": [
+        10,
+        11,
+        14,
+        14,
+        15,
+        19,
+        22,
+        29,
+        50,
+        81
+      ]
+    }
+  ]
+}
