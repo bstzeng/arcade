@@ -1,0 +1,22 @@
+/* Scoped shell styling; every game supplies its own playing surface and visual identity. */
+.ac-shell { --ac-ink: #edf3ff; --ac-muted: #b6c4db; --ac-line: #71829d; --ac-surface: #18243a; color: var(--ac-ink); font: 1rem/1.5 system-ui, sans-serif; min-width: 0; }
+.ac-title { margin: 0 0 .65rem; font-size: clamp(1.25rem, 3vw, 1.8rem); }
+.ac-controls { display: flex; align-items: center; gap: .45rem; flex-wrap: wrap; }
+.ac-select-label { color: var(--ac-muted); }
+.ac-button, .ac-select { min-height: 44px; border: 1px solid var(--ac-line); border-radius: .6rem; background: var(--ac-surface); color: var(--ac-ink); font: inherit; padding: .45rem .7rem; max-width: 100%; }
+.ac-button { cursor: pointer; touch-action: manipulation; }
+.ac-button:hover:not(:disabled) { background: #2d4163; }
+.ac-button:disabled { opacity: .52; cursor: default; }
+.ac-button:focus-visible, .ac-select:focus-visible, .ac-board:focus-visible { outline: 3px solid #ffd76d; outline-offset: 3px; }
+.ac-progress, .ac-status, .ac-hint, .ac-warning { margin: .65rem 0; overflow-wrap: anywhere; }
+.ac-progress { color: var(--ac-muted); font-size: .9rem; }
+.ac-hint { border-left: 3px solid #ffd76d; padding: .55rem .8rem; background: #263346; }
+.ac-warning { color: #ffdc9e; }
+.ac-board { min-width: 0; }
+.ac-dialog { max-width: min(90vw, 30rem); color: var(--ac-ink); background: #18243a; border: 1px solid var(--ac-line); border-radius: 1rem; padding: 1.25rem; }
+.ac-dialog::backdrop { background: #030b18c9; }
+.ac-dialog .ac-button { margin: .25rem; }
+.ac-shell [hidden] { display: none !important; }
+.ac-shell[data-mode="replay"] .ac-board { border-color: #ffd76d; }
+@media (max-width: 480px) { .ac-select { flex: 1 1 65%; min-width: 0; } .ac-controls { gap: .4rem; } .ac-button { padding-inline: .6rem; } }
+@media (prefers-reduced-motion: reduce) { .ac-shell *, .ac-shell *::before, .ac-shell *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
