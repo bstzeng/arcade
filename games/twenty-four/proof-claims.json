@@ -1,0 +1,3402 @@
+[
+  {
+    "id": "twenty-four-001",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "1a745883d2fe937f0bdf9ec9705f92e8cc001cefd11ec12518afecd3bc5803dc",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-002",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "72e065f86ae0bde3f933e9f285eff48ff606bda5bb865e9f0f0ce7f4e8493d62",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-003",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9859159b873eb3c867218b9dd1f4c5d938c1100a1f8a46db0b474ced2bab3763",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-004",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fcc09226c281930db3527b126759e24f6aa3594f309a5c1999f64a78f4899997",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-005",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fec9b21a3ce44000aeeaab41bfd8528ca46e60a6c22bdb3ae968559159b4f823",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-006",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "46db83a5c2499b074ddad746198aab4ac7fb3e8491107f417120bd4f25f78d1e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-007",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "739594ca0939c94571b421b541bac953eaccf53e5b8f3d37aa79780d736f20f7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-008",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "cc8caaf4f7f2ab67ec35f680ec36192277f3c8a98df9f3402c6829e84c1bef12",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 0,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-009",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "811a340ccd601d7447fb8f16999787f5102fa39d688611f155de177a820e972f",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-010",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "2167168f6b8d44beefd2a21173e20905d26c69e2a18421e0d4c2564084329b81",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-011",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "0580318d8905a93b15da179cd6daed81161f5ec16f99c6ca0acd77178a625de4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-012",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "90cd9f1c39c36d303068d151e7b8f249d6f9270b2665490d86c5765149bc496e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-013",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "168258bdb2e9ad1283949719441afe2813b4490933857463372dc11b641fc0f5",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-014",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "6972369de7c772058debc6ea419cd16515a7acd4fac01bf653cea9e462951697",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 2,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-015",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "775d2b90a9f4d6f4d650018043e33df96cfec0dc851c93c6f9172032c010ef6c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 3,
+          "op": "-"
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-016",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9f7120d7cc566d8aba5b0fbd631346ba0f061d921e60fde57733adc70d93366f",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-017",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "ccd9be05bd3830bbeebdbf1cd4b8aab06955e61dd4cf2e45cae6c2e680083ebf",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-018",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fb613a095d7bf887f15ef22ef9071cf624700e89c173693696449a8f85c9f5da",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-019",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "20994c0a9c3d3ca2f74492b3bb1d6842e9a314cdf814427cdb3e5e59644f55f9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-020",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "75edd11f3dd02d681380d7a4282f8023306d944c0ee5bb90fd76afd0a46d4888",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-021",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "b97d795cce019ff27b45f5894173d0162e8da7421df1335c25bcf7b185b8eec5",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-022",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "e8ff64c233f82a52c8cb8b57f650b23e3ac359a37a552d86f358cecef536348a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-023",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9250d0832c3898779ac3eb76f4ea77f1a0ee895aae48953d8c2a5e166cbdc7b4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-024",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "1bc1028ba6f0a502a7290bb8b716721e8a2eca203571fce759d6579e1d2f3551",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 3,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-025",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "0ed24a99ee4e7d403c7ad39329481f8766d85984075bea5c3fbeeee2a97e9f64",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-026",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c217db438680f1aa9e83c73b49c44860aa9f6655d3c28e44ff83b0b3c1b0d57e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-027",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "85dea0484557ebde2627fd750be5dd6e5273196e2a8753a1b9a5320b9fd8dc77",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-028",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "0bcb1b154cd806d15417f5cd19b585b2babcee2516cdfb92cc07407f00d1344d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-029",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "bc2689091d39a0c4041af0def99fd8271d257ce2b7ce9fc8d37741591cccba0e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-030",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5aebbfb26dc2ccd52ed594b863f8f46e49af29a8d2978a39489e61512e457c16",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-031",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "a94004a77d1dbe6aa1e5a5118fb30067ebaa7a0ce0701646f40ddf1bd5b86fc0",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-032",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "912f98635b5755d2d5545dcfecb350da36ec5bf75634d8f7fc17b5b8b1c198be",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-033",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4d35ad2592bf50c096f948f24d8a93833c096847a03750127003424933a8540c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 0,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-034",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4a162f7d7fd43279ea73bf31e0c40730561439a391eaf922142d993cb15e3250",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-035",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "0f3b2134fc6119314b211e88ccc6e1adb5852719da5ba1fe7ede61da9dcd15fc",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-036",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "28514457ef0baca1f51f7cc743f9ba05c472e673dba41fb3b1aba5b65660112c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 3,
+          "op": "-"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-037",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "2a1e8f3e2cff5d9b8da9d6dcbffb6b365cf46f01c7313f7867301488d38abf1e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-038",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fd1261ec1c1bba398d68ed98c98948b9bdb92bc38d0d09a1447ebb8e0738f94e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-039",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9398716f96e1e03b2e381d049de37188e470c0b5f2427c3898a73f3da7cfe454",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-040",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "98028321e35512d8d35a4449e2cda20b45b710decc1880ff4934264de1fcfe02",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-041",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5e19b668464c464297b3e3a545e49e0ac8b7836e6804717c9718da0c2e39ff1d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-042",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c256966bdc2e96ddd0c999fd99d391e50d196e542e75ebc967b20f0127c9b8ff",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 0,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-043",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "8e0657b99630ffa699ca5c5972e5785a86f966a1127eb49e65b52af69b7c5d85",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-044",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9fe215458ca9d1f4c32c14ac68a326436c580a8ec85a3bb5bca1908fe57c501a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 1,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-045",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "aaa84e1b8b15ea820954f4d92d814c98ed56c301ee5598efbe01418e57bbe9ae",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-046",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "5315d754b1b0407c84ca61f81a7af2d0d7858e2874d2769452c3b0eba9522f9d",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-047",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "00c9267918d0c5cbba01ec364fff854114cd7f91b5be429a8bc7ebd2cbbdbdc7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-048",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "62cdb343eef3fdf4f52f1a881bd9c6d8eecf5462383f0a2ecabe3460e044e94e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-049",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "28531dffa15295b8f4b726d2fd546fb988bdc23c77bbaefa010876cd4ed81ec7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-050",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "dc8a2053a97d19c3f2a1a4622a6aeaac9ea62ef6c63e0ffcd0b3bac557223e48",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-051",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "be4a17677eef3d7b0f01ad1ad0aa6641adfc3f380da91854991093fe78ecc9c9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 0,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-052",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "9b16eaa10c3881ceb58ca3d7dce8e0194dae5016875ccb24cb1a6ce084b28286",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-053",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "31ef82ab12fd80ac71040564cbdd5154a42e002542db95ace2bfffba48a697f9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-054",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "cdee1577309333295518aaac7c62a165e4a5f8a7690ee60fbcf09805f30f678c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-055",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "53a36e4a005e20c6e0ac846f9a097fad07b84d63233265cfbd6da47827d11720",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-056",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "6ef6a9e075907cdce45d472cce21f4a95102679b9355a45228b385fc454c83bc",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-057",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "191cafc4da99c237bfb3a0ccee27e91f5b8fed1898a52823d18b408c05c2b0cb",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-058",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4bb307743fb165409cf91a20f703966f7b2b0019b96878da8c381db34ac7e056",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-059",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "efc9accc12aaf0fd3e3d571d7e96762aeb86f34c06ab408349ed96460a6b57f9",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-060",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "422c7d8524c9dd319b703afb21641df7f468c1bd35a3f8a4badb5db9eb819126",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 0,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-061",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "cdcc5d3ce97904f360302d1aded7e985c4c02683d3f1c96bcd0c080c01b877c3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-062",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "38296f0dfe13689a65932cce2cb6671522acd3cec8c32bf3430ebca0f47ab951",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-063",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "259227637daa78d2c512bfa4426f00b1864a1e078e07881a79034db16b760f79",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-064",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "393d77e0f8d27c5dcb78780589cc38d47b711fb3582795702f87f9929374d666",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-065",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "3d44171afa6066af4582ab721e2bd8c12055a1a912e19a3c60b6926cc56af9a1",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-066",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "7b2c5be751194ca495964e2e0f073277e84f21baa58d733574a01a6e94699465",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-067",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "3a7af62e3a859ee28c8e8fc15df8aece03ee5ef0226a5170b7e025f58cc2a0cd",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-068",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "84e50319b8a329617bc3dafbd02f4584e933516c27f56c12eca296f9984a59fc",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-069",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4525a407157d8b6cb5383bc33c6eecdee0906909898f97069b0eed8ac66c43a7",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-070",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "66ef5f4acb1805674b92286b9c550c0a6f90d3aea0fda8bf30e32b70755b0ca2",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-071",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "dd242fa8ca386f0184dbc15f9cb2cbc32ba1786d18ecd8ba910ff3a6122a7c21",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-072",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "d44bde7b5ce7157d1a272c47af08780f589134cea5838ae035ba853804bd1ac3",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-073",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "2497830927e2e8e45291ef9109b2344f5db26415a48f92087bfd48419f951881",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 0,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 1,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-074",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c968c14206cfd46573cdd29c0d5a7d9f6187abff166d8f25ce097ce71f618c15",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-075",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "3c07663dbe6f48b7aefbbfe3e86af5063d38ba1dbdea7d6b8d41c58ebc3f4d33",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-076",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "306c9c7d8118b67e0579a093fdf14deb0296ad20f14f56d590f0fbe4777a1115",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-077",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4c01cbef1b874dcccdb882998257b2ea12f7a6a156bec6003a6d2f6b6eec1816",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-078",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "58607f2c97a122f99dd5a595ab705ac807cd142edec48c0991b4698d93bd228b",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-079",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "4cc000859fd18bfcfe64a5eb9589b2a2367822ca9263246f682fc872a2635e3a",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 2,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-080",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "29b1d2c4d5f465a38c8a0527c72d0ca6d552214ae89289f273af964cea5f4a4e",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-081",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c6fd12c350298376c2dfe7165bc962bb79ddfdaa51036299b9f3afca6f88bdb4",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 3,
+          "op": "-"
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-082",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "dc19a47a2c8d8a3fb4993476e8e6a2f4d48aba2ba4823800312898bb6c38ea40",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-083",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "cf66f909a4fb0cc746bc3e691760d0a98589c3f088ff24e5a14c0b34c586d116",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-084",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "511cd5b552382ec5ed15ab04e1204aa8d53590baceb2bb262f364f2aff69babd",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-085",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "ef99fbec96d323e54f0941ff2e76fca97400fd0b81f63f9294b39192227af2f6",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "*"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-086",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "2690c707f42a97a12a8d5892645a02c8436057c22f3cdd5bf1cf9e93e673d7e8",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 0,
+          "op": "/"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-087",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "a8c37f747b54587910f70ef860b8d6a276ef52c992a1b525ad17ddc9d71b4455",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 2,
+          "op": "/"
+        },
+        {
+          "a": 0,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-088",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "708402ccaa9c5870b4b3e2883b468be26673de87c74dc2b1652caa161fc63edd",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "/"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "-"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-089",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "fc8bfa4f9ee614d54e3eb46a6c803f177bb02c3bc545a6dad8bc41749fb3fb80",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "/"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-090",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "280cff9dbd90ba21c61bbbf6cdd916a7c62a3e2588362eb5da5c0ea4bc621749",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 2,
+          "op": "/"
+        },
+        {
+          "a": 0,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-091",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "845b5b80d0f320d6e42b38037033f7dbb3a18135c001df88be144eaffd115673",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "/"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-092",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "976d7ddf5950add5f89c4b0b998d123e7d740e4d6eb57d4eb4a4bd11b95e9648",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 1,
+          "b": 2,
+          "op": "/"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 0,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-093",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "b1c0add1b5d2a6406cecc41770c2769aab891e9612f2feb1fd68ccfaedb8ac4c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "+"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "*"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-094",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "eb919f0abfbc232111c1a1e22b6f472aa0175c9fe7be1ae9b713fd4a5b56c737",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "*"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "/"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-095",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "0f43ab1e37f48a17bf9db98f075393412746ebfde2490d5f681528c762db101f",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "/"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-096",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "68d8864fcf6fbe89e329678b70113f6b7c88f3ae14bed792fc3be09c045172e1",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "/"
+        },
+        {
+          "a": 2,
+          "b": 4,
+          "op": "/"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "+"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-097",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "954b8e41ffc0165f3c912f9fadbd247181f577dfca998efa05d7ceb89c28b9f8",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 1,
+          "op": "/"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "op": "+"
+        },
+        {
+          "a": 5,
+          "b": 4,
+          "op": "/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-098",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "05a14eb9aeff0b841d2ecff03e54a7b37356c90672423adbca4305fb404e221c",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "+"
+        },
+        {
+          "a": 1,
+          "b": 3,
+          "op": "/"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "op": "/"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-099",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "c3e5197a2369b0583f8dedbc9a579127f3df92e958ca47814101921cac162392",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 0,
+          "b": 2,
+          "op": "/"
+        },
+        {
+          "a": 1,
+          "b": 4,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "*"
+        }
+      ]
+    }
+  },
+  {
+    "id": "twenty-four-100",
+    "kind": "reachability",
+    "claim": "A legal executable witness reaches a board satisfying the stated rules.",
+    "startStateHash": "7dd27f00e908d1f1e9d6347a2ad88cd880a294a47a0668e936d8b24784b02bbc",
+    "rulesRevision": "numeric-20261002-r1",
+    "goal": {
+      "allGameRulesSatisfied": true
+    },
+    "uniqueness": {
+      "claimed": false,
+      "count": null,
+      "method": null
+    },
+    "certificate": {
+      "actions": [
+        {
+          "a": 2,
+          "b": 1,
+          "op": "/"
+        },
+        {
+          "a": 4,
+          "b": 0,
+          "op": "-"
+        },
+        {
+          "a": 3,
+          "b": 5,
+          "op": "/"
+        }
+      ]
+    }
+  }
+]
