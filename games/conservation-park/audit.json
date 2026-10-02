@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "gameId": "conservation-park",
+  "rulesRevision": "management-rules-1",
+  "contentRevision": "management-content-1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": []
+  },
+  "proofKinds": [
+    "reachability"
+  ],
+  "witnessActions": 1599,
+  "independentFieldComparisons": 1599,
+  "offWitnessTransitions": 201,
+  "invalidActionCases": 800,
+  "namedBoundaryFixtures": 3,
+  "alternateLegalPlanAccepted": true,
+  "structurallyDistinctStarts": 98,
+  "canonicalNormalization": "Enumerate all patch permutations, remove names, transform/sort corridors; retain temporal weather order, winter indices and fixed food-web species roles.",
+  "witnessLengths": {
+    "min": 7,
+    "median": 16,
+    "max": 28
+  },
+  "sources": [
+    {
+      "path": "games/conservation-park.html",
+      "sha256": "e89bebf4bbe41a61ea294cec1a3973d068315a1c3f5d1eed9fb182afe03906a0"
+    },
+    {
+      "path": "games/conservation-park/engine.js",
+      "sha256": "10bdbd8e157d9d8e9bcc543045accce0ae7782132551a826fd33fe666b719838"
+    },
+    {
+      "path": "games/conservation-park/view.js",
+      "sha256": "8bbf5f59daab11844d92a7785958b5e351765dee6982baf1e6b8be2afd8ad561"
+    },
+    {
+      "path": "games/conservation-park/data.js",
+      "sha256": "bf31bd874aed508318cb27dbc02ffb4c7c353606fd8b09690c77a8c9f75c2122"
+    },
+    {
+      "path": "games/conservation-park/levels.json",
+      "sha256": "e922ea20f686d8e749bc1503316ab763d0c6835f21f49cda416544644cf7f533"
+    },
+    {
+      "path": "games/conservation-park/witnesses.json",
+      "sha256": "bb03d298c4829945576f100e38171a90140ada8c45f253ff03c5b319265e3174"
+    },
+    {
+      "path": "games/management-common/model.js",
+      "sha256": "b61ad81b017c2be9f976767ab4af4d33f677c6f925ccc1e918a85ccb26bbd6fb"
+    },
+    {
+      "path": "games/management-common/ui.js",
+      "sha256": "4b0f63297d6a4adcb31822b55b59dfc858d821e5cd5a4a4fce13d4273c8a11c6"
+    },
+    {
+      "path": "games/management-common/bootstrap.js",
+      "sha256": "ca83a40248f0b5a5c620134b2dd8c0ef69bdaea28c2f3a1a83175fd3b5e9c4c0"
+    },
+    {
+      "path": "games/management-common/style.css",
+      "sha256": "082f87535a68f20938c011dfe430c71cc3554eaf5c5ac20443353523e2d74ef6"
+    },
+    {
+      "path": "games/management-common/generate.cjs",
+      "sha256": "df9435854bdce8914d085d9a9e054582b7d36b8b5ee9d2c1b95340e8950b30f4"
+    },
+    {
+      "path": "games/management-common/reference.cjs",
+      "sha256": "aaefdce6a9e4a74fa5668c2dabdde0097d41c5c2299e75b9dbc32d5f68377ae9"
+    },
+    {
+      "path": "games/management-common/canonical.cjs",
+      "sha256": "6e4d41a5744d7114053839d871881f347df5c0c49ac325fe22a4ff66ecde853c"
+    },
+    {
+      "path": "games/management-common/audit.cjs",
+      "sha256": "c3ac7a36a2786ffac7aedb026b7647b28b45e470fe2981e64429fdf048959662"
+    },
+    {
+      "path": "games/management-common/controller-test.cjs",
+      "sha256": "0383e890c1778ae3fa2f201e98adf1f298d7b3f54681a39749e637a3ef0f5cb9"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/management-common/generate.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/conservation-park/witnesses.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/controller-test.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/conservation-park/controller-report.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/audit.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/conservation-park/audit.json"
+    }
+  ],
+  "limitations": [
+    "Browser visual and real pointer/touch QA not run; unavailable local preview must be resolved before final release.",
+    "Witnesses establish solvability from the fixed start, not uniqueness, shortest solutions or arbitrary mid-game recoverability."
+  ]
+}
