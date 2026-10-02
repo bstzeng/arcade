@@ -49,6 +49,7 @@ const filters=['all','puzzle','strategy','casual','cards','board'].map(category=
 const doc={querySelector:s=>nodes[s],querySelectorAll:()=>filters,createElement:tag=>new Node(tag)};
 vm.runInNewContext(source,{document:doc});
 assert.equal(nodes['#game-grid'].children.length,27);
+filters[5].events.click();assert.equal(nodes['#game-grid'].children.length,10);
 filters[4].events.click();assert.equal(nodes['#game-grid'].children.length,5);
 nodes['#search'].value='KLONDIKE';nodes['#search'].events.input();assert.equal(nodes['#game-grid'].children.length,1);
 nodes['#search'].value='鐵道';nodes['#search'].events.input();assert.equal(nodes['#game-grid'].children.length,0);assert.equal(nodes['#empty'].hidden,false);
