@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101b32"><title>冰面滑行棋 · 小遊樂場</title><link rel="stylesheet" href="ice-slide/style.css"></head>
+<body>
+<main class="app">
+ <header class="top"><div><a class="back" href="../index.html">← 小遊樂場</a><h1>冰面滑行棋 <span>POLAR PATHS</span></h1></div><div class="top-actions"><button id="levels-open" class="soft">選關 <b id="level-number">01 / 50</b></button><button id="help-open" aria-label="遊戲規則">?</button></div></header>
+ <section class="workspace">
+  <section class="play-area" aria-label="遊戲區">
+   <div class="mission"><div><span class="overline" id="chapter">薄冰探索</span><h2 id="level-name">霜光入口</h2></div><div class="mission-goal" id="objective"></div></div>
+   <div class="board-space" id="board-space"><div class="board-frame"><canvas id="board" tabindex="0" role="application" aria-label="冰面棋盤；使用 1、2、3 選棋，方向鍵移動"></canvas></div><div id="win-banner" class="win-banner" hidden><span>✦ 漂亮抵達！</span><strong id="win-text"></strong><button id="next-level" class="primary">前往下一關 →</button><button id="stay-level" class="quiet">留在這一關</button></div></div>
+   <div class="board-caption"><span><i class="target-icon">◎</i> 停在目標才算完成</span><span id="size-label">6 × 6 冰場</span></div>
+  </section>
+  <aside class="controls">
+   <div class="stats"><div><span>滑行步數</span><strong id="moves">0</strong></div><div><span>個人最佳</span><strong id="best">—</strong></div><div><span>已完成</span><strong id="progress">0<small>/ 50</small></strong></div></div>
+   <section class="robot-section"><div class="label-line"><h3>選擇棋子</h3><span class="keyboard-note">按 1・2・3</span></div><div class="robots" role="group" aria-label="選擇棋子"><button data-robot="0" class="robot red" aria-pressed="true"><i>1</i>紅棋</button><button data-robot="1" class="robot blue" aria-pressed="false"><i>2</i>藍棋</button><button data-robot="2" class="robot gold" aria-pressed="false"><i>3</i>金棋</button></div></section>
+   <div class="steering"><div class="pad" role="group" aria-label="滑行方向"><button data-dir="0" aria-label="向上滑行">↑</button><button data-dir="3" aria-label="向左滑行">←</button><span class="pad-center" aria-hidden="true">✧</span><button data-dir="1" aria-label="向右滑行">→</button><button data-dir="2" aria-label="向下滑行">↓</button></div><p class="steer-note">一滑到底<br>讓夥伴幫你煞車<span>方向鍵／WASD<br>或在棋盤上滑動</span></p></div>
+   <div class="action-grid"><button id="undo">↶ 悔棋</button><button id="restart">↻ 重來</button><button id="hint" class="hint-button">✧ 一步提示</button><button id="solution">查看解法</button></div>
+   <div class="status-box"><p id="status" role="status" aria-live="polite">先選棋子，再決定滑行方向</p><button id="apply-hint" class="primary" hidden>走這一步</button></div>
+   <p class="save-note" id="save-note">進度與個人最佳會保存在這台裝置</p>
+  </aside>
+ </section>
+</main>
+<dialog id="level-dialog"><div class="dialog-head"><div><span class="overline">50 道冰原謎題</span><h2>你的下一站</h2></div><button data-close="level-dialog" aria-label="關閉選關">×</button></div><p class="dialog-intro">全部關卡自由挑戰。冰場、障礙與合作路線都不同；越後面越需要先安排夥伴的位置。</p><div id="level-grid" class="level-grid"></div><p class="legend">✓ 已完成　• 每一步都是一次完整滑行</p></dialog>
+<dialog id="help-dialog"><div class="dialog-head"><h2>一起滑，才停得準</h2><button data-close="help-dialog" aria-label="關閉規則">×</button></div><div class="help-body"><p class="help-lead">把指定顏色的棋子，停在同色的 ◎ 目標上。</p><ol><li>點棋子、顏色按鈕，或按 1／2／3 選擇棋子。</li><li>按方向鍵、WASD、方向按鈕，或在棋盤上滑動。棋子會沿直線滑到邊界、冰岩或另一顆棋子前面，不能中途停止。</li><li>棋子不能推動、穿越彼此。目標只是標記，不會讓棋子煞車；滑過目標不算完成。</li><li>另外兩顆棋子也可以自由移動。把它們放到好位置，就能成為移動的煞車。</li><li>有效滑行才算一步。悔棋（Z）回到上一步，重來（R）回到本關起點。</li></ol><p>提示和解法都從「目前盤面」重新搜尋。若目前盤面已無解，可悔棋或重來。看過提示、解法或示範的這一局會標記為輔助完成，不更新個人最佳；重新開始後可再獨立挑戰。</p><p>50 關都有可重現的合法解法，並由獨立檢查程式驗證。關卡依搜尋解長與棋盤尺寸分組；個人的體感難度可能不同。</p></div></dialog>
+<dialog id="solution-dialog"><div class="dialog-head"><h2>從目前盤面出發</h2><button data-close="solution-dialog" aria-label="關閉解法">×</button></div><p id="solution-summary"></p><ol id="solution-list" class="solution-list"></ol><div class="dialog-actions"><button id="play-solution" class="primary">播放示範</button><button data-close="solution-dialog">繼續自己試</button></div><p class="legend">示範會移動棋子並標記為輔助完成；你可以隨時停止或悔棋</p></dialog>
+<script src="ice-slide/engine.js"></script><script src="ice-slide/levels.js"></script><script src="ice-slide/app.js"></script>
+</body></html>
