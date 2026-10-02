@@ -15,11 +15,11 @@ Files: `levels.json` and `levels.js` contain identical datasets. `engine.js` con
 Run:
 
 ```
-python arcade/games/akari/generate.py
-python arcade/games/akari/verify.py
-node arcade/games/akari/controller-tests.cjs
+python games/akari/generate.py
+python games/akari/verify.py
+node games/akari/controller-tests.cjs
 ```
 
 Controls: `#level`, `#prev`, `#next`, `#undo`, `#reset`, `#hint`, `#solution`, `#modal`, `#cancel`, `#confirm`; white cells are `#board [data-cell="INDEX"]` with zero-based row-major indices. Click cycles empty → bulb → cross; Shift-click/right-click reverses. Arrow keys navigate white cells. Space/Enter cycles; B places a bulb, X marks a cross, Delete clears. Every edit has undo; reset asks first. Hints and answer views never edit the board or mark a level completed. Invalid save arrays, values, or history are rejected. Home link is `../index.html`.
 
-Responsive layout targets 1180×757 desktop and narrow/mobile screens. Browser visual QA was not performed by this worker because the assigned environment explicitly prohibited browser work; parent publication QA owns screenshots and live browser checks.
+Responsive layout targets 1180×757 desktop and narrow/mobile screens. The DOM controller suite does not test browser rendering.
