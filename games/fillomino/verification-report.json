@@ -1,0 +1,695 @@
+{
+  "game": "fillomino",
+  "levels": 50,
+  "uniqueLevels": 50,
+  "canonicalDistinctSolutions": 50,
+  "cluelessRegionsAllowed": true,
+  "levelsWithCluelessRegions": 37,
+  "method": "Independent cell-value-domain CSP with connected-component propagation and exhaustive branching to second solution; full clue-free-region size domain",
+  "seconds": 19.332,
+  "results": [
+    {
+      "id": 1,
+      "solutionCount": 1,
+      "nodes": 22,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 2,
+      "solutionCount": 1,
+      "nodes": 51,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 3,
+      "solutionCount": 1,
+      "nodes": 36,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 4,
+      "solutionCount": 1,
+      "nodes": 122,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 5,
+      "solutionCount": 1,
+      "nodes": 126,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 6,
+      "solutionCount": 1,
+      "nodes": 130,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 3
+    },
+    {
+      "id": 7,
+      "solutionCount": 1,
+      "nodes": 43,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 8,
+      "solutionCount": 1,
+      "nodes": 35,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 9,
+      "solutionCount": 1,
+      "nodes": 14,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 10,
+      "solutionCount": 1,
+      "nodes": 55,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 11,
+      "solutionCount": 1,
+      "nodes": 17,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 12,
+      "solutionCount": 1,
+      "nodes": 22,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 13,
+      "solutionCount": 1,
+      "nodes": 77,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 14,
+      "solutionCount": 1,
+      "nodes": 170,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 3
+    },
+    {
+      "id": 15,
+      "solutionCount": 1,
+      "nodes": 152,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 16,
+      "solutionCount": 1,
+      "nodes": 41,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 17,
+      "solutionCount": 1,
+      "nodes": 88,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 18,
+      "solutionCount": 1,
+      "nodes": 79,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 19,
+      "solutionCount": 1,
+      "nodes": 869,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 20,
+      "solutionCount": 1,
+      "nodes": 914,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 21,
+      "solutionCount": 1,
+      "nodes": 987,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 22,
+      "solutionCount": 1,
+      "nodes": 469,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 3
+    },
+    {
+      "id": 23,
+      "solutionCount": 1,
+      "nodes": 2481,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 24,
+      "solutionCount": 1,
+      "nodes": 452,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 25,
+      "solutionCount": 1,
+      "nodes": 62,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 26,
+      "solutionCount": 1,
+      "nodes": 956,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 27,
+      "solutionCount": 1,
+      "nodes": 676,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 3
+    },
+    {
+      "id": 28,
+      "solutionCount": 1,
+      "nodes": 522,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 29,
+      "solutionCount": 1,
+      "nodes": 229,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 30,
+      "solutionCount": 1,
+      "nodes": 19,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 31,
+      "solutionCount": 1,
+      "nodes": 740,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 32,
+      "solutionCount": 1,
+      "nodes": 144,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 33,
+      "solutionCount": 1,
+      "nodes": 35453,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 3
+    },
+    {
+      "id": 34,
+      "solutionCount": 1,
+      "nodes": 35843,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 35,
+      "solutionCount": 1,
+      "nodes": 26011,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 36,
+      "solutionCount": 1,
+      "nodes": 306,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 37,
+      "solutionCount": 1,
+      "nodes": 51556,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 38,
+      "solutionCount": 1,
+      "nodes": 2532,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 39,
+      "solutionCount": 1,
+      "nodes": 130,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 5
+    },
+    {
+      "id": 40,
+      "solutionCount": 1,
+      "nodes": 1526,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 41,
+      "solutionCount": 1,
+      "nodes": 22742,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 42,
+      "solutionCount": 1,
+      "nodes": 24646,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 43,
+      "solutionCount": 1,
+      "nodes": 191,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 44,
+      "solutionCount": 1,
+      "nodes": 5051,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 45,
+      "solutionCount": 1,
+      "nodes": 2307,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 46,
+      "solutionCount": 1,
+      "nodes": 1448,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 47,
+      "solutionCount": 1,
+      "nodes": 15493,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 2
+    },
+    {
+      "id": 48,
+      "solutionCount": 1,
+      "nodes": 97,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 0
+    },
+    {
+      "id": 49,
+      "solutionCount": 1,
+      "nodes": 5206,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 1
+    },
+    {
+      "id": 50,
+      "solutionCount": 1,
+      "nodes": 1110,
+      "completeValueDomain": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "cluelessRegions": 2
+    }
+  ],
+  "datasetSHA256": "1bc6585c6703812c85a15169f64ded782640a813ddab513896206e89d4ecff49"
+}
