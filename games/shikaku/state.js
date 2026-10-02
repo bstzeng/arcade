@@ -1,0 +1,11 @@
+(function(root){'use strict';
+const copy=zs=>zs.map(z=>z.slice());function validRects(p,zs,E){return Array.isArray(zs)&&zs.length<=Object.keys(p.clues).length&&zs.every(z=>E.validRect(p,z))&&!E.inspect(p,zs).bad.size;}function integer(v){return Number.isSafeInteger(v)&&v>=0?v:0;}function fresh(){return{version:1,index:0,records:{},finished:{}};}
+function sanitize(raw,L,E){const s=fresh();if(!raw||raw.version!==1)return s;if(Number.isInteger(raw.index)&&raw.index>=0&&raw.index<L.length)s.index=raw.index;for(let i=0;i<L.length;i++){const p=L[i],r=raw.records?.[i];if(r&&validRects(p,r.rects,E)){s.records[i]={rects:copy(r.rects),moves:integer(r.moves),hints:integer(r.hints),undo:[]};if(Array.isArray(r.undo))s.records[i].undo=r.undo.filter(x=>x&&validRects(p,x.rects,E)).slice(-160).map(x=>({rects:copy(x.rects),moves:integer(x.moves),hints:integer(x.hints)}));}const f=raw.finished?.[i];if(f&&validRects(p,f.rects,E)&&E.validateSolution(p,f.rects))s.finished[i]={rects:copy(f.rects),assisted:!!f.assisted};}return s;}
+function record(s,L,E){return s.records[s.index]??(s.records[s.index]={rects:[],moves:0,hints:0,undo:[]});}function push(r){r.undo.push({rects:copy(r.rects),moves:r.moves,hints:r.hints});if(r.undo.length>160)r.undo.shift();}
+function add(s,L,E,z){const r=record(s,L,E),p=L[s.index];if(!E.validRect(p,z)||!validRects(p,[...r.rects,z],E))return false;push(r);r.rects.push(z.slice());r.moves++;return true;}
+function remove(s,L,E,k){const r=record(s,L,E);if(!Number.isInteger(k)||k<0||k>=r.rects.length)return false;push(r);r.rects.splice(k,1);r.moves++;return true;}
+function undo(s,L,E){const r=record(s,L,E),a=r.undo.pop();if(!a)return false;r.rects=a.rects;r.moves=a.moves;r.hints=Math.max(r.hints,a.hints);return true;}
+function restart(s,L,E){const r=record(s,L,E);push(r);r.rects=[];r.moves=0;r.hints=0;return true;}
+function markWin(s,L,E){const r=record(s,L,E);if(!E.validateSolution(L[s.index],r.rects))return false;const old=s.finished[s.index];s.finished[s.index]={rects:copy(r.rects),assisted:old?old.assisted&&r.hints>0:r.hints>0};return true;}
+const api={fresh,sanitize,record,add,remove,undo,restart,markWin,validRects};if(typeof module!=='undefined')module.exports=api;else root.PuzzleState=api;
+})(globalThis);
