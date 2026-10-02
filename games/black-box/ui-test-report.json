@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "levelsPlayedThroughRealHandlers": 50,
+  "scope": "Node event-driven DOM mock; no browser rendering",
+  "tests": [
+    "all-level UI completion",
+    "false answers",
+    "undo after win",
+    "non-destructive hint and solution",
+    "reset confirmation and cancellation",
+    "all-level save/reload",
+    "corruption isolation",
+    "forged-win rejection",
+    "blocked storage",
+    "keyboard",
+    "level-50 deep link"
+  ]
+}
