@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "independent": "Python coordinate toggles and exhaustive first-row chasing; no JavaScript imports",
+  "levels": 50,
+  "transitions": 378,
+  "canonical_unique": 50,
+  "minimum_range_by_size": {
+    "3": [
+      1,
+      5
+    ],
+    "4": [
+      3,
+      6
+    ],
+    "5": [
+      5,
+      11
+    ],
+    "6": [
+      10,
+      16
+    ]
+  },
+  "solution_count_by_size": {
+    "3": 1,
+    "4": 16,
+    "5": 4,
+    "6": 1
+  },
+  "sha256": "a558d2da348b852c2b6813e4ff478f0fd39890d974b81ec1d98bd348e5675928"
+}
