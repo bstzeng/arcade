@@ -1,0 +1,1 @@
+importScripts('engine.js');onmessage=function(e){const {state,level,token}=e.data;try{postMessage({token,move:GameEngine.choose(state,level)});}catch(error){postMessage({token,error:String(error)});}};
