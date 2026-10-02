@@ -1,0 +1,206 @@
+{
+  "scope": "Three difficulty policies exercised at twelve successive legal positions each, 90 ms test budget; default budgets independently exercised in the controller worker tests.",
+  "games": {
+    "chess": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 12,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 30,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 92,
+        "terminal": null
+      }
+    ],
+    "go9": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 17,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 93,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      }
+    ],
+    "shogi": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 7,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 77,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      }
+    ],
+    "dou-shou-qi": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 2,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 18,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 92,
+        "terminal": null
+      }
+    ],
+    "backgammon": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 1,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 1,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 1,
+        "terminal": null
+      }
+    ],
+    "hex": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 57,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      }
+    ],
+    "dots-and-boxes": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 1,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 4,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 56,
+        "terminal": null
+      }
+    ],
+    "ataxx": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 3,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 31,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      }
+    ],
+    "amazons": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      }
+    ],
+    "hnefatafl": [
+      {
+        "difficulty": "easy",
+        "actions": 12,
+        "maxElapsedMs": 10,
+        "terminal": null
+      },
+      {
+        "difficulty": "normal",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      },
+      {
+        "difficulty": "hard",
+        "actions": 12,
+        "maxElapsedMs": 90,
+        "terminal": null
+      }
+    ]
+  },
+  "passed": true
+}

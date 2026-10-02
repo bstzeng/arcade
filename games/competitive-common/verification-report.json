@@ -1,0 +1,1249 @@
+{
+  "batch": "competitive-board-expansion-v1",
+  "passed": true,
+  "tenNewGames": true,
+  "puzzles": 1000,
+  "solutionsVerified": 1000,
+  "independentWitnesses": 800,
+  "independentUniqueMatePuzzles": 200,
+  "nodeAssertions": 12724,
+  "simulatedDOMAssertions": 247,
+  "staticChecks": 238,
+  "aiDifficultyCombinations": 30,
+  "aiSelfplayActions": 360,
+  "chessIndependent": {
+    "game": "chess",
+    "oracle": "python-chess 1.999 / chess 1.11.2",
+    "puzzles": 100,
+    "uniqueMatePuzzles": 100,
+    "differentialPositions": 432,
+    "allLegalMoveSetsAgree": true,
+    "levelsSha256": "44271c0be56e52f34d2238a84b76ddaadec8789f3ef5d2ffc4c536a315617df4",
+    "engineSha256": "5494a8fa4b11e791ec63f003eea736705bf946c5a39d2f10bd0d8645402eba26",
+    "records": [
+      {
+        "id": 1,
+        "legalMoves": 20,
+        "uniqueMate": "a4d1"
+      },
+      {
+        "id": 2,
+        "legalMoves": 25,
+        "uniqueMate": "g5g7"
+      },
+      {
+        "id": 3,
+        "legalMoves": 26,
+        "uniqueMate": "e7h4"
+      },
+      {
+        "id": 4,
+        "legalMoves": 26,
+        "uniqueMate": "f2a2"
+      },
+      {
+        "id": 5,
+        "legalMoves": 24,
+        "uniqueMate": "d8d1"
+      },
+      {
+        "id": 6,
+        "legalMoves": 29,
+        "uniqueMate": "b4b7"
+      },
+      {
+        "id": 7,
+        "legalMoves": 26,
+        "uniqueMate": "d2h6"
+      },
+      {
+        "id": 8,
+        "legalMoves": 27,
+        "uniqueMate": "c2c8"
+      },
+      {
+        "id": 9,
+        "legalMoves": 21,
+        "uniqueMate": "f8a3"
+      },
+      {
+        "id": 10,
+        "legalMoves": 24,
+        "uniqueMate": "f2g3"
+      },
+      {
+        "id": 11,
+        "legalMoves": 18,
+        "uniqueMate": "h3g2"
+      },
+      {
+        "id": 12,
+        "legalMoves": 27,
+        "uniqueMate": "f4c1"
+      },
+      {
+        "id": 13,
+        "legalMoves": 23,
+        "uniqueMate": "f1a1"
+      },
+      {
+        "id": 14,
+        "legalMoves": 30,
+        "uniqueMate": "d3d8"
+      },
+      {
+        "id": 15,
+        "legalMoves": 26,
+        "uniqueMate": "g8g1"
+      },
+      {
+        "id": 16,
+        "legalMoves": 20,
+        "uniqueMate": "e3e1"
+      },
+      {
+        "id": 17,
+        "legalMoves": 20,
+        "uniqueMate": "d2b2"
+      },
+      {
+        "id": 18,
+        "legalMoves": 22,
+        "uniqueMate": "g2h2"
+      },
+      {
+        "id": 19,
+        "legalMoves": 25,
+        "uniqueMate": "a3b4"
+      },
+      {
+        "id": 20,
+        "legalMoves": 24,
+        "uniqueMate": "e4e1"
+      },
+      {
+        "id": 21,
+        "legalMoves": 34,
+        "uniqueMate": "c3c1"
+      },
+      {
+        "id": 22,
+        "legalMoves": 29,
+        "uniqueMate": "g6g8"
+      },
+      {
+        "id": 23,
+        "legalMoves": 35,
+        "uniqueMate": "a6a8"
+      },
+      {
+        "id": 24,
+        "legalMoves": 32,
+        "uniqueMate": "h4h8"
+      },
+      {
+        "id": 25,
+        "legalMoves": 22,
+        "uniqueMate": "d3a3"
+      },
+      {
+        "id": 26,
+        "legalMoves": 26,
+        "uniqueMate": "f8a8"
+      },
+      {
+        "id": 27,
+        "legalMoves": 34,
+        "uniqueMate": "a7h7"
+      },
+      {
+        "id": 28,
+        "legalMoves": 25,
+        "uniqueMate": "e1e2"
+      },
+      {
+        "id": 29,
+        "legalMoves": 24,
+        "uniqueMate": "c6c8"
+      },
+      {
+        "id": 30,
+        "legalMoves": 34,
+        "uniqueMate": "f7h7"
+      },
+      {
+        "id": 31,
+        "legalMoves": 20,
+        "uniqueMate": "h8h7"
+      },
+      {
+        "id": 32,
+        "legalMoves": 25,
+        "uniqueMate": "f8g7"
+      },
+      {
+        "id": 33,
+        "legalMoves": 27,
+        "uniqueMate": "f2b2"
+      },
+      {
+        "id": 34,
+        "legalMoves": 33,
+        "uniqueMate": "e3e1"
+      },
+      {
+        "id": 35,
+        "legalMoves": 29,
+        "uniqueMate": "g5g7"
+      },
+      {
+        "id": 36,
+        "legalMoves": 19,
+        "uniqueMate": "h2e2"
+      },
+      {
+        "id": 37,
+        "legalMoves": 19,
+        "uniqueMate": "d1f3"
+      },
+      {
+        "id": 38,
+        "legalMoves": 29,
+        "uniqueMate": "f2f8"
+      },
+      {
+        "id": 39,
+        "legalMoves": 22,
+        "uniqueMate": "a7d7"
+      },
+      {
+        "id": 40,
+        "legalMoves": 36,
+        "uniqueMate": "e4c2"
+      },
+      {
+        "id": 41,
+        "legalMoves": 27,
+        "uniqueMate": "b7b5"
+      },
+      {
+        "id": 42,
+        "legalMoves": 26,
+        "uniqueMate": "e1e8"
+      },
+      {
+        "id": 43,
+        "legalMoves": 30,
+        "uniqueMate": "f7f8"
+      },
+      {
+        "id": 44,
+        "legalMoves": 24,
+        "uniqueMate": "a5d8"
+      },
+      {
+        "id": 45,
+        "legalMoves": 17,
+        "uniqueMate": "a7c6"
+      },
+      {
+        "id": 46,
+        "legalMoves": 28,
+        "uniqueMate": "h5h3"
+      },
+      {
+        "id": 47,
+        "legalMoves": 29,
+        "uniqueMate": "f8h8"
+      },
+      {
+        "id": 48,
+        "legalMoves": 26,
+        "uniqueMate": "f3f1"
+      },
+      {
+        "id": 49,
+        "legalMoves": 37,
+        "uniqueMate": "d8a8"
+      },
+      {
+        "id": 50,
+        "legalMoves": 29,
+        "uniqueMate": "c5a3"
+      },
+      {
+        "id": 51,
+        "legalMoves": 29,
+        "uniqueMate": "a1g1"
+      },
+      {
+        "id": 52,
+        "legalMoves": 29,
+        "uniqueMate": "a2c4"
+      },
+      {
+        "id": 53,
+        "legalMoves": 35,
+        "uniqueMate": "e4e8"
+      },
+      {
+        "id": 54,
+        "legalMoves": 35,
+        "uniqueMate": "a8e4"
+      },
+      {
+        "id": 55,
+        "legalMoves": 28,
+        "uniqueMate": "f4h4"
+      },
+      {
+        "id": 56,
+        "legalMoves": 28,
+        "uniqueMate": "d8e8"
+      },
+      {
+        "id": 57,
+        "legalMoves": 22,
+        "uniqueMate": "h6g7"
+      },
+      {
+        "id": 58,
+        "legalMoves": 31,
+        "uniqueMate": "b1b8"
+      },
+      {
+        "id": 59,
+        "legalMoves": 24,
+        "uniqueMate": "e8g6"
+      },
+      {
+        "id": 60,
+        "legalMoves": 29,
+        "uniqueMate": "e7a3"
+      },
+      {
+        "id": 61,
+        "legalMoves": 39,
+        "uniqueMate": "f5f8"
+      },
+      {
+        "id": 62,
+        "legalMoves": 39,
+        "uniqueMate": "e5a5"
+      },
+      {
+        "id": 63,
+        "legalMoves": 40,
+        "uniqueMate": "c5c8"
+      },
+      {
+        "id": 64,
+        "legalMoves": 39,
+        "uniqueMate": "d4b6"
+      },
+      {
+        "id": 65,
+        "legalMoves": 28,
+        "uniqueMate": "d8b6"
+      },
+      {
+        "id": 66,
+        "legalMoves": 38,
+        "uniqueMate": "d5d8"
+      },
+      {
+        "id": 67,
+        "legalMoves": 35,
+        "uniqueMate": "c3b2"
+      },
+      {
+        "id": 68,
+        "legalMoves": 30,
+        "uniqueMate": "h4h7"
+      },
+      {
+        "id": 69,
+        "legalMoves": 22,
+        "uniqueMate": "h4h3"
+      },
+      {
+        "id": 70,
+        "legalMoves": 37,
+        "uniqueMate": "a5d8"
+      },
+      {
+        "id": 71,
+        "legalMoves": 39,
+        "uniqueMate": "d1d8"
+      },
+      {
+        "id": 72,
+        "legalMoves": 33,
+        "uniqueMate": "c5a7"
+      },
+      {
+        "id": 73,
+        "legalMoves": 40,
+        "uniqueMate": "d8d1"
+      },
+      {
+        "id": 74,
+        "legalMoves": 41,
+        "uniqueMate": "d1d5"
+      },
+      {
+        "id": 75,
+        "legalMoves": 32,
+        "uniqueMate": "g8f8"
+      },
+      {
+        "id": 76,
+        "legalMoves": 30,
+        "uniqueMate": "e2g2"
+      },
+      {
+        "id": 77,
+        "legalMoves": 30,
+        "uniqueMate": "d8b6"
+      },
+      {
+        "id": 78,
+        "legalMoves": 29,
+        "uniqueMate": "f7g7"
+      },
+      {
+        "id": 79,
+        "legalMoves": 40,
+        "uniqueMate": "g4f2"
+      },
+      {
+        "id": 80,
+        "legalMoves": 23,
+        "uniqueMate": "a2c3"
+      },
+      {
+        "id": 81,
+        "legalMoves": 40,
+        "uniqueMate": "e4e7"
+      },
+      {
+        "id": 82,
+        "legalMoves": 32,
+        "uniqueMate": "g5b5"
+      },
+      {
+        "id": 83,
+        "legalMoves": 29,
+        "uniqueMate": "b3c5"
+      },
+      {
+        "id": 84,
+        "legalMoves": 25,
+        "uniqueMate": "a4d1"
+      },
+      {
+        "id": 85,
+        "legalMoves": 28,
+        "uniqueMate": "a7b8"
+      },
+      {
+        "id": 86,
+        "legalMoves": 32,
+        "uniqueMate": "d7g7"
+      },
+      {
+        "id": 87,
+        "legalMoves": 24,
+        "uniqueMate": "b1c3"
+      },
+      {
+        "id": 88,
+        "legalMoves": 32,
+        "uniqueMate": "d4h8"
+      },
+      {
+        "id": 89,
+        "legalMoves": 32,
+        "uniqueMate": "g5h4"
+      },
+      {
+        "id": 90,
+        "legalMoves": 31,
+        "uniqueMate": "f7b7"
+      },
+      {
+        "id": 91,
+        "legalMoves": 21,
+        "uniqueMate": "d6e5"
+      },
+      {
+        "id": 92,
+        "legalMoves": 20,
+        "uniqueMate": "h6f7"
+      },
+      {
+        "id": 93,
+        "legalMoves": 27,
+        "uniqueMate": "e7g8"
+      },
+      {
+        "id": 94,
+        "legalMoves": 17,
+        "uniqueMate": "f1g3"
+      },
+      {
+        "id": 95,
+        "legalMoves": 26,
+        "uniqueMate": "h1g2"
+      },
+      {
+        "id": 96,
+        "legalMoves": 19,
+        "uniqueMate": "a3b2"
+      },
+      {
+        "id": 97,
+        "legalMoves": 28,
+        "uniqueMate": "f3f2"
+      },
+      {
+        "id": 98,
+        "legalMoves": 19,
+        "uniqueMate": "h6f7"
+      },
+      {
+        "id": 99,
+        "legalMoves": 16,
+        "uniqueMate": "c8b7"
+      },
+      {
+        "id": 100,
+        "legalMoves": 20,
+        "uniqueMate": "c6b5"
+      }
+    ]
+  },
+  "shogiIndependent": {
+    "game": "shogi",
+    "oracle": "python-shogi 1.1.1",
+    "puzzles": 100,
+    "uniqueMatePuzzles": 100,
+    "differentialPositions": 540,
+    "allLegalMoveSetsAgree": true,
+    "levelsSha256": "1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad",
+    "engineSha256": "0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f",
+    "records": [
+      {
+        "id": 1,
+        "legalMoves": 89,
+        "uniqueMate": "R*2b"
+      },
+      {
+        "id": 2,
+        "legalMoves": 111,
+        "uniqueMate": "G*3h"
+      },
+      {
+        "id": 3,
+        "legalMoves": 91,
+        "uniqueMate": "R*3a"
+      },
+      {
+        "id": 4,
+        "legalMoves": 110,
+        "uniqueMate": "G*4i"
+      },
+      {
+        "id": 5,
+        "legalMoves": 103,
+        "uniqueMate": "R*2a"
+      },
+      {
+        "id": 6,
+        "legalMoves": 111,
+        "uniqueMate": "G*7g"
+      },
+      {
+        "id": 7,
+        "legalMoves": 96,
+        "uniqueMate": "G*4b"
+      },
+      {
+        "id": 8,
+        "legalMoves": 101,
+        "uniqueMate": "G*3h"
+      },
+      {
+        "id": 9,
+        "legalMoves": 97,
+        "uniqueMate": "G*3b"
+      },
+      {
+        "id": 10,
+        "legalMoves": 108,
+        "uniqueMate": "G*2g"
+      },
+      {
+        "id": 11,
+        "legalMoves": 99,
+        "uniqueMate": "R*9c"
+      },
+      {
+        "id": 12,
+        "legalMoves": 108,
+        "uniqueMate": "S*2h"
+      },
+      {
+        "id": 13,
+        "legalMoves": 99,
+        "uniqueMate": "S*3b"
+      },
+      {
+        "id": 14,
+        "legalMoves": 105,
+        "uniqueMate": "R*2i"
+      },
+      {
+        "id": 15,
+        "legalMoves": 119,
+        "uniqueMate": "G*5b"
+      },
+      {
+        "id": 16,
+        "legalMoves": 91,
+        "uniqueMate": "N*7g"
+      },
+      {
+        "id": 17,
+        "legalMoves": 117,
+        "uniqueMate": "G*5b"
+      },
+      {
+        "id": 18,
+        "legalMoves": 134,
+        "uniqueMate": "G*4f"
+      },
+      {
+        "id": 19,
+        "legalMoves": 100,
+        "uniqueMate": "R*8a"
+      },
+      {
+        "id": 20,
+        "legalMoves": 98,
+        "uniqueMate": "R*1g"
+      },
+      {
+        "id": 21,
+        "legalMoves": 117,
+        "uniqueMate": "R*8c"
+      },
+      {
+        "id": 22,
+        "legalMoves": 112,
+        "uniqueMate": "G*5h"
+      },
+      {
+        "id": 23,
+        "legalMoves": 120,
+        "uniqueMate": "R*4a"
+      },
+      {
+        "id": 24,
+        "legalMoves": 103,
+        "uniqueMate": "R*3i"
+      },
+      {
+        "id": 25,
+        "legalMoves": 87,
+        "uniqueMate": "G*2b"
+      },
+      {
+        "id": 26,
+        "legalMoves": 93,
+        "uniqueMate": "G*6h"
+      },
+      {
+        "id": 27,
+        "legalMoves": 89,
+        "uniqueMate": "L*1d"
+      },
+      {
+        "id": 28,
+        "legalMoves": 97,
+        "uniqueMate": "R*7i"
+      },
+      {
+        "id": 29,
+        "legalMoves": 88,
+        "uniqueMate": "G*2b"
+      },
+      {
+        "id": 30,
+        "legalMoves": 118,
+        "uniqueMate": "G*8f"
+      },
+      {
+        "id": 31,
+        "legalMoves": 105,
+        "uniqueMate": "G*5b"
+      },
+      {
+        "id": 32,
+        "legalMoves": 103,
+        "uniqueMate": "G*7h"
+      },
+      {
+        "id": 33,
+        "legalMoves": 127,
+        "uniqueMate": "G*5b"
+      },
+      {
+        "id": 34,
+        "legalMoves": 90,
+        "uniqueMate": "G*6h"
+      },
+      {
+        "id": 35,
+        "legalMoves": 108,
+        "uniqueMate": "R*1c"
+      },
+      {
+        "id": 36,
+        "legalMoves": 94,
+        "uniqueMate": "R*7g"
+      },
+      {
+        "id": 37,
+        "legalMoves": 93,
+        "uniqueMate": "G*2b"
+      },
+      {
+        "id": 38,
+        "legalMoves": 96,
+        "uniqueMate": "G*3h"
+      },
+      {
+        "id": 39,
+        "legalMoves": 104,
+        "uniqueMate": "G*4b"
+      },
+      {
+        "id": 40,
+        "legalMoves": 102,
+        "uniqueMate": "G*4h"
+      },
+      {
+        "id": 41,
+        "legalMoves": 81,
+        "uniqueMate": "4d4b+"
+      },
+      {
+        "id": 42,
+        "legalMoves": 75,
+        "uniqueMate": "1f2h+"
+      },
+      {
+        "id": 43,
+        "legalMoves": 111,
+        "uniqueMate": "4a2a+"
+      },
+      {
+        "id": 44,
+        "legalMoves": 100,
+        "uniqueMate": "9e7g+"
+      },
+      {
+        "id": 45,
+        "legalMoves": 123,
+        "uniqueMate": "8a8b+"
+      },
+      {
+        "id": 46,
+        "legalMoves": 26,
+        "uniqueMate": "9g9h+"
+      },
+      {
+        "id": 47,
+        "legalMoves": 45,
+        "uniqueMate": "1c2b+"
+      },
+      {
+        "id": 48,
+        "legalMoves": 38,
+        "uniqueMate": "2f2g+"
+      },
+      {
+        "id": 49,
+        "legalMoves": 104,
+        "uniqueMate": "9d8c+"
+      },
+      {
+        "id": 50,
+        "legalMoves": 35,
+        "uniqueMate": "3g2h+"
+      },
+      {
+        "id": 51,
+        "legalMoves": 106,
+        "uniqueMate": "2b2a+"
+      },
+      {
+        "id": 52,
+        "legalMoves": 10,
+        "uniqueMate": "9g9h+"
+      },
+      {
+        "id": 53,
+        "legalMoves": 23,
+        "uniqueMate": "1c1b+"
+      },
+      {
+        "id": 54,
+        "legalMoves": 27,
+        "uniqueMate": "4i2g+"
+      },
+      {
+        "id": 55,
+        "legalMoves": 62,
+        "uniqueMate": "3d6a+"
+      },
+      {
+        "id": 56,
+        "legalMoves": 111,
+        "uniqueMate": "5g3g+"
+      },
+      {
+        "id": 57,
+        "legalMoves": 79,
+        "uniqueMate": "2e3c+"
+      },
+      {
+        "id": 58,
+        "legalMoves": 50,
+        "uniqueMate": "8h8g+"
+      },
+      {
+        "id": 59,
+        "legalMoves": 73,
+        "uniqueMate": "1c1b+"
+      },
+      {
+        "id": 60,
+        "legalMoves": 80,
+        "uniqueMate": "9f8g+"
+      },
+      {
+        "id": 61,
+        "legalMoves": 47,
+        "uniqueMate": "9b7b+"
+      },
+      {
+        "id": 62,
+        "legalMoves": 54,
+        "uniqueMate": "9h8h+"
+      },
+      {
+        "id": 63,
+        "legalMoves": 109,
+        "uniqueMate": "4d5b+"
+      },
+      {
+        "id": 64,
+        "legalMoves": 117,
+        "uniqueMate": "6h8h+"
+      },
+      {
+        "id": 65,
+        "legalMoves": 33,
+        "uniqueMate": "1b2a+"
+      },
+      {
+        "id": 66,
+        "legalMoves": 47,
+        "uniqueMate": "4f4g+"
+      },
+      {
+        "id": 67,
+        "legalMoves": 110,
+        "uniqueMate": "3b3a+"
+      },
+      {
+        "id": 68,
+        "legalMoves": 42,
+        "uniqueMate": "1f3h+"
+      },
+      {
+        "id": 69,
+        "legalMoves": 26,
+        "uniqueMate": "2e2a+"
+      },
+      {
+        "id": 70,
+        "legalMoves": 100,
+        "uniqueMate": "6i8g+"
+      },
+      {
+        "id": 71,
+        "legalMoves": 98,
+        "uniqueMate": "8f9e"
+      },
+      {
+        "id": 72,
+        "legalMoves": 116,
+        "uniqueMate": "2g3g"
+      },
+      {
+        "id": 73,
+        "legalMoves": 104,
+        "uniqueMate": "4c3b"
+      },
+      {
+        "id": 74,
+        "legalMoves": 32,
+        "uniqueMate": "1c2e"
+      },
+      {
+        "id": 75,
+        "legalMoves": 110,
+        "uniqueMate": "7c4c"
+      },
+      {
+        "id": 76,
+        "legalMoves": 22,
+        "uniqueMate": "7i8i"
+      },
+      {
+        "id": 77,
+        "legalMoves": 37,
+        "uniqueMate": "9e8d"
+      },
+      {
+        "id": 78,
+        "legalMoves": 45,
+        "uniqueMate": "3h4g"
+      },
+      {
+        "id": 79,
+        "legalMoves": 121,
+        "uniqueMate": "3f3b"
+      },
+      {
+        "id": 80,
+        "legalMoves": 103,
+        "uniqueMate": "9g9h"
+      },
+      {
+        "id": 81,
+        "legalMoves": 55,
+        "uniqueMate": "9e8d"
+      },
+      {
+        "id": 82,
+        "legalMoves": 45,
+        "uniqueMate": "8i6i"
+      },
+      {
+        "id": 83,
+        "legalMoves": 114,
+        "uniqueMate": "4c6a"
+      },
+      {
+        "id": 84,
+        "legalMoves": 26,
+        "uniqueMate": "9g9h"
+      },
+      {
+        "id": 85,
+        "legalMoves": 97,
+        "uniqueMate": "4a3b"
+      },
+      {
+        "id": 86,
+        "legalMoves": 106,
+        "uniqueMate": "7e7i"
+      },
+      {
+        "id": 87,
+        "legalMoves": 23,
+        "uniqueMate": "4c4b"
+      },
+      {
+        "id": 88,
+        "legalMoves": 30,
+        "uniqueMate": "4i3i"
+      },
+      {
+        "id": 89,
+        "legalMoves": 43,
+        "uniqueMate": "6c5b"
+      },
+      {
+        "id": 90,
+        "legalMoves": 55,
+        "uniqueMate": "9e7g"
+      },
+      {
+        "id": 91,
+        "legalMoves": 25,
+        "uniqueMate": "1c1b"
+      },
+      {
+        "id": 92,
+        "legalMoves": 31,
+        "uniqueMate": "4g3h"
+      },
+      {
+        "id": 93,
+        "legalMoves": 21,
+        "uniqueMate": "1d2c"
+      },
+      {
+        "id": 94,
+        "legalMoves": 81,
+        "uniqueMate": "1g1h"
+      },
+      {
+        "id": 95,
+        "legalMoves": 29,
+        "uniqueMate": "3e2c"
+      },
+      {
+        "id": 96,
+        "legalMoves": 86,
+        "uniqueMate": "9i8h"
+      },
+      {
+        "id": 97,
+        "legalMoves": 43,
+        "uniqueMate": "9e9d"
+      },
+      {
+        "id": 98,
+        "legalMoves": 90,
+        "uniqueMate": "5i6i"
+      },
+      {
+        "id": 99,
+        "legalMoves": 43,
+        "uniqueMate": "8b7c"
+      },
+      {
+        "id": 100,
+        "legalMoves": 58,
+        "uniqueMate": "7f8g"
+      }
+    ]
+  },
+  "browserVisualQA": {
+    "passed": false,
+    "status": "pending-in-permitted-preview",
+    "reason": "Environment blocks Chromium process socket and cloud-browser localhost preview; parent instructed no further attempts. This is not a failure of tested engine/controller behavior."
+  },
+  "scopeDisclosures": [
+    "AI is bounded heuristic search with candidate sampling, not perfect play.",
+    "Eight games use exact tactical goals, not eventual forced-win claims.",
+    "Go is strict 9x9 Tromp–Taylor, 7.5 komi, two-pass scoring and play-out dead stones.",
+    "Fetlar Hnefatafl has a labeled three-occurrence repetition house draw.",
+    "Ataxx and Jungle have explicit anti-cycle draw conventions.",
+    "Chess arbitrarily blocked dead positions require mutual draw adjudication.",
+    "Backgammon uses virtual scoring only and a disclosed cube safety cap."
+  ],
+  "games": [
+    {
+      "id": "chess",
+      "title": "西洋棋",
+      "ruleset": "fide-2023-casual-dead-position-agreement-v1",
+      "puzzles": 100,
+      "proof": "games/chess/proof.json"
+    },
+    {
+      "id": "go9",
+      "title": "九路圍棋",
+      "ruleset": "tromp-taylor-9x9-komi7.5-v1",
+      "puzzles": 100,
+      "proof": "games/go9/proof.json"
+    },
+    {
+      "id": "shogi",
+      "title": "日本將棋",
+      "ruleset": "jsa-2025-declaration31-v1",
+      "puzzles": 100,
+      "proof": "games/shogi/proof.json"
+    },
+    {
+      "id": "dou-shou-qi",
+      "title": "鬥獸棋",
+      "ruleset": "jungle-leiden-rat-no-cross-capture-draw-v1",
+      "puzzles": 100,
+      "proof": "games/dou-shou-qi/proof.json"
+    },
+    {
+      "id": "backgammon",
+      "title": "西洋雙陸棋",
+      "ruleset": "backgammon-single-game-virtual-cube-v1",
+      "puzzles": 100,
+      "proof": "games/backgammon/proof.json"
+    },
+    {
+      "id": "hex",
+      "title": "六角連線棋",
+      "ruleset": "hex-11x11-pie-v1",
+      "puzzles": 100,
+      "proof": "games/hex/proof.json"
+    },
+    {
+      "id": "dots-and-boxes",
+      "title": "點線方格",
+      "ruleset": "dots-boxes-4x4-v1",
+      "puzzles": 100,
+      "proof": "games/dots-and-boxes/proof.json"
+    },
+    {
+      "id": "ataxx",
+      "title": "同化棋",
+      "ruleset": "ataxx-7-open-threefold-quiet100-v1",
+      "puzzles": 100,
+      "proof": "games/ataxx/proof.json"
+    },
+    {
+      "id": "amazons",
+      "title": "亞馬遜棋",
+      "ruleset": "amazons-10-standard-v1",
+      "puzzles": 100,
+      "proof": "games/amazons/proof.json"
+    },
+    {
+      "id": "hnefatafl",
+      "title": "維京王棋",
+      "ruleset": "fetlar-11x11-threefold-house-v1",
+      "puzzles": 100,
+      "proof": "games/hnefatafl/proof.json"
+    }
+  ],
+  "files": {
+    "games/amazons.html": "1d6d22f9e2958203bfe300fe5e8711c9ac23ec3925a593ce200d683ebcf13b81",
+    "games/amazons/README.md": "638fc680c7642b1abc0c8aef0031eeb5f3938000ada021d993215aca49f49983",
+    "games/amazons/config.js": "e0185a89a42e45d20c62c7273c94d749f1bebc72a464ec04b17f22720e2a5bca",
+    "games/amazons/config.json": "ebddbc1fdb92f6e92c8205fa3f8895a8ceb4616e9cb374e05f5adcacbaf5faaf",
+    "games/amazons/engine.js": "e284e5e98371147089fc123079ed578506a27ced0c7a98de7f7b74cf1692bab1",
+    "games/amazons/generation-report.json": "6536472f475e22b8b88f4dde334ec88c993e1939c81f7495bdf29d2887fe4783",
+    "games/amazons/levels.js": "57c9db253b8577b302893f6a82b16e3cfd34c190cac9e7645561577c2cc177f3",
+    "games/amazons/levels.json": "ded332deea32faa99321665d194791f8a191fb7bcc4b4cb16ff2f2b154000ca6",
+    "games/amazons/proof.json": "8904a104feb9124c4c53db80d00d90b665360c5688bb560a2b7e89431fc69917",
+    "games/ataxx.html": "07d5c2ebe4e4ab4f048050b625598e81a336ce60f3365bf873cc0b89b618fa4c",
+    "games/ataxx/README.md": "d4443f23b2934334b35497078a6fe7984ccc23b503c1479f28401127ad910ce0",
+    "games/ataxx/config.js": "222e74f0583843abf9f8b737e37466764ee13dcc3dff88464e1668ad0445102e",
+    "games/ataxx/config.json": "a4bc8bb31f8a8c08e9310678b641cdf7ff18b3eee0b931c446f09d49d603e5c2",
+    "games/ataxx/engine.js": "60a8590cda4704b8a1d1b1da9f8e00aa23f2f6a029160163b2dba83e2df2a180",
+    "games/ataxx/generation-report.json": "469732dd1520d9f48982e1c26c9d534b0febdeff49ad13b85e5db1384618e048",
+    "games/ataxx/levels.js": "32abc097f639e1dc2351849401cbfbdba7bb7177c0a853f152d5e35b4ba96c15",
+    "games/ataxx/levels.json": "64b3be91755c857a9b7c5bc90b39937b28a43fd71b0a879e62d7910b3c476881",
+    "games/ataxx/proof.json": "c8bbccdaaa26c15d7e8c65ae6f4896eb92b18caf36f1f239f7d5ad2185eeff86",
+    "games/backgammon.html": "8eec2d357b48e986ecad58c15d6cb086b3a0faf2729b76b76226312a93346958",
+    "games/backgammon/README.md": "40fdf87e8eb769d91db3b53e904143708968d5294db0a8da314b03636289b397",
+    "games/backgammon/config.js": "58458b6e9e4c98aa52e24e065c2c416d3755786c1a15fb20e70eb8f7f1870c5b",
+    "games/backgammon/config.json": "87f6e6869b464e98184a22b65c71e0d9dad7f421f5e14db085a0d4118c04beab",
+    "games/backgammon/engine.js": "d1211bceb3a333d8a1d14e04efd6d82541a2ad440257576fd3d7ae0882e9dbef",
+    "games/backgammon/generation-report.json": "663088109a0d6e3330cd1a2e658fa64ec2bec1d8162bad7bdb2b58999c700a85",
+    "games/backgammon/levels.js": "336e89f2c22413268dae355d4661c0938567b7818d5eb130e4ba7a6d0bbc3ad8",
+    "games/backgammon/levels.json": "475b222c1114ace8d14ebaaa4b79081d014aa0de9b0bac0a1bf56dd7e37f53a9",
+    "games/backgammon/proof.json": "a957e0d7203bce904b9899e01b08c319d38ad1435640076e32ab83c25dae56a7",
+    "games/chess.html": "f8efc8e76b79e2c9d2ecea2b808e6a3e3b7ffaa02259a4e254fd3073435ea9c4",
+    "games/chess/README.md": "77f26bd114471e7522acceea08a8b38f8e51f8b385b0c3a732925b95ddb3a630",
+    "games/chess/config.js": "2141035331f41918c8047cf540ad7149be481bb8c9afd7415310c3483225887d",
+    "games/chess/config.json": "9c4bd40a4f3407843ab49da4cee3a7f70fbecda55968fc192c465dc6aac4d16d",
+    "games/chess/engine.js": "5494a8fa4b11e791ec63f003eea736705bf946c5a39d2f10bd0d8645402eba26",
+    "games/chess/generate-levels.cjs": "7b4a30ba5b0f15e4d2f2beb9f656817fcf3a2baaaf809483a144255b505ba798",
+    "games/chess/independent-check.py": "b0871e0c6fe6fe8ec196361a94f12a3cdf65e57bf10dfea8da9c257d40d69e2a",
+    "games/chess/independent-verification.json": "f6ca68e237d53b6a4773a10199fc13f2a6c1a1b8da52c98d227e4e76d53feb7b",
+    "games/chess/levels.js": "8816b6d37ec904d8092b2aa1e295dd51885312d0ec2388ebbafccaf643460d1a",
+    "games/chess/levels.json": "44271c0be56e52f34d2238a84b76ddaadec8789f3ef5d2ffc4c536a315617df4",
+    "games/chess/proof.json": "164074a5ed7eec7637b3ba9a10e205bcbedf1f31dc17bc60d70414fe3deb614f",
+    "games/chess/requirements-test.txt": "391e529739e99dc63461425af4ad7afb10d89aa275922928ceb8e2f5dffa7149",
+    "games/chess/test.cjs": "848967df3010847eae0e9df97c9ea82e9f099c959f1d85928b1e37c4fb9de3c3",
+    "games/chess/verification-summary.json": "836556c1f2ad304dc3e589843720f93d107707dc02428a4e09169cd37db894df",
+    "games/competitive-common/README.md": "4a547f313e9634c7563371e6e0dd27ad799fad91fec26dedea41e5388054a721",
+    "games/competitive-common/ai-selfplay-report.json": "3b1361708cc967b93ba4b4eeceb62ad637a852459a2b8c07736f1b704aac6b43",
+    "games/competitive-common/ai.js": "27d3e4ca8082ed53d876acbe0320b64a2e310b3c5035e72839900008a6266e98",
+    "games/competitive-common/app.js": "c28dff6054417b3a6c9ba8e8b65e92ff976349bd6ea84a119aac60211df53443",
+    "games/competitive-common/challenges.js": "12105d6d2bf05e99fdc0ea8db5665ffde61ecfdbe59db212894e12ddcefa96b3",
+    "games/competitive-common/controller-test-report.json": "41870c1f301d6b4f5d731286734bdb02564d6d5aeea537184c6b462dcf57e674",
+    "games/competitive-common/core.js": "478461bb87fbe8670a5b28087b294bcfb6a1b87f716479066d0a03052485bec0",
+    "games/competitive-common/finalize.cjs": "1356b70943eeb03e4faf521c97608ba3960263bc37a2d0261e790c3bf3c06a98",
+    "games/competitive-common/generate.cjs": "acc26ee76b7c23c1a6dd9da118e4f56040da548c32d56d5ec070a41d6c45fc26",
+    "games/competitive-common/independent-check.py": "526dc00aed8022ada6841f0e5ba93133529fb7f07fcbb694725f2c7d51a6629b",
+    "games/competitive-common/independent-verification.json": "f6d42f01399f34ff4670196d9ef55a5535a8152c62aece1db1e4aa0fc3ab417a",
+    "games/competitive-common/release-manifest.json": "a42351d7b3f528c28062291a316ed80108e1c59710d29ae2d46bf4bfae08b5ea",
+    "games/competitive-common/session.js": "dfae2eb15713d3a9a52add576d1dc995c35c19f282add29a93df96d3d284a7f1",
+    "games/competitive-common/static-test-report.json": "58343da16c672ef0b3dae0ca7d07f6f04483b4e73c39c6a1dcb4139c2e42e425",
+    "games/competitive-common/style.css": "207ec5da419dd9d526c55a59025cd3ad365a9e90490d17f01d78718820df738a",
+    "games/competitive-common/test-ai-selfplay.cjs": "9dcc780d8e1d5179dd2de019f8437e4a6287f220a3caad941795d5c9f749d703",
+    "games/competitive-common/test-browser.cjs": "e1609ba57e77ffb2901a6cebbe8edb33a0bc94064fbac2392ee7c62f51f7f7c6",
+    "games/competitive-common/test-controller.cjs": "c8354a03c90772fdf4784e71b36a8280fe2a2d6825d479ed06c85d6e7d72cbe8",
+    "games/competitive-common/test-report.json": "d794bc492608fcb6ed78e0dc0f5c044c485553ba14bff2323954c6bc584bbf05",
+    "games/competitive-common/test-static.cjs": "7844162e2120175d7602431cfff8fa168ea8309fe65021a0f99f58d1da462d42",
+    "games/competitive-common/test.cjs": "2598313db82fa8c111ed8124717e47fb1fa3f3259caf4bd458fe84a6d2387e7f",
+    "games/competitive-common/worker.js": "78ecb0ba1a21e00178e64aaa8adc76b644032c49e3535456c27168e9c02cdb52",
+    "games/competitive-common/write-pages.cjs": "b24cd5670524b8f49460288de9a5d5b14977ef8c556d83b7a1026062ad0a7912",
+    "games/dots-and-boxes.html": "af2fd16d27adfd1d8af2906fe62b38f6de5f27857d5e0a74d4c40a5be8af51bb",
+    "games/dots-and-boxes/README.md": "f296f447fb0d7c3c9018bb3c9097642147351c328957151d1de48203ae3ff0d9",
+    "games/dots-and-boxes/config.js": "0f57d50647f92af7bcc133ab97fd4c0c7024d0556bcbb882b85c4287e680979d",
+    "games/dots-and-boxes/config.json": "2adf30f20c6af38c9f318a60c33a1f68b3c818f17c1f28d46387251bceb46e97",
+    "games/dots-and-boxes/engine.js": "376543dd01412bd1c2dbfe6c965a9de2c01908a52c73ce8271ae68860cf9f795",
+    "games/dots-and-boxes/generation-report.json": "2f5e6f06d7ff2f93f49ee491f8ef6a4df7ba36729cb0953403833b3424be8905",
+    "games/dots-and-boxes/levels.js": "83f29693aaa53f49b1e1350bc113d855968c069a44b1ae8db3bda439ba8d80e9",
+    "games/dots-and-boxes/levels.json": "75048e94224c3204c854e6a24399e24dee6a027fed6a68331fa8646f5be99e8f",
+    "games/dots-and-boxes/proof.json": "3dd7c320018c51ffc77c296dbdab2cc54c6262e1ece6131eb9bea61b22c26e97",
+    "games/dou-shou-qi.html": "e89643e920d7e85a4ebdb8771142556cfe7af30da99ac5d307305854f8f2e509",
+    "games/dou-shou-qi/README.md": "847ad7c93e510dd6d381839c8ca663c9985b21afdbd6917c7196444b4be85fb8",
+    "games/dou-shou-qi/config.js": "ccb1975a74f9e393aa4789915957cb6488c6ca70c2e1a8a2f5bb839ac69b712a",
+    "games/dou-shou-qi/config.json": "97cbe4f585fe4d148bc483979b95cb0de413b0fdef5bc589a8f8b877afa07977",
+    "games/dou-shou-qi/engine.js": "38c8d47637b10a37e2e60266b27f85cc2b4dfab6c1fdb242bd28fb1c511fc361",
+    "games/dou-shou-qi/generation-report.json": "92cab7237500bc7b7188c0dd6d14cea7acd52211701cc3d3c39b94ffae39d711",
+    "games/dou-shou-qi/levels.js": "17c722f6b0b8fdb63e7c0c58b4051e1c9d209bf063e32536390adfa7f413deeb",
+    "games/dou-shou-qi/levels.json": "41aac8e0e6c92b46d266ada1486292d11a4880e39cd6d11b7833b3ffcd924270",
+    "games/dou-shou-qi/proof.json": "19acdd1c6ae02d4aa9842382ebb80feed5b554cb202bb819820a118a85b47d7c",
+    "games/go9.html": "824a7c2d8269a3c364feab4842dc5c880dc7de295250880182e6d2fa5e2f202a",
+    "games/go9/README.md": "d4635dca65c1b8bdfe0f3a2fd33ffcdcd0609e85d4c0ba2aaad1dd2e6753200b",
+    "games/go9/config.js": "7b9597337392ae95b5f12fd4248e759a99ec0e1b4ee606585ea41bee39b6ec6e",
+    "games/go9/config.json": "a6cfb72487008fe99320d13f80f1cbe9b8f7844e3d23c8a4c02e7cd6e525a858",
+    "games/go9/engine.js": "7318f5a15fa4b8aca991ee9b90be67966718b4889f0aefa71a5aade03cdd7cb2",
+    "games/go9/generation-report.json": "99bcc8ce8612febceffff5c399f377b86ad20c1575a8b2aee17b8eafcf565fad",
+    "games/go9/levels.js": "8a30e05faf2040ed5e8f75f33fafb695f604dce273081a2351ed9945aa674866",
+    "games/go9/levels.json": "ee52e818abd4f6efdd77826ea44c0461d91807c3ec6fcf75a3fbe3d373d511e8",
+    "games/go9/proof.json": "4f36c32506fb70768ada895c7a294932ecdae403c99d83d3c40768f60fccf857",
+    "games/hex.html": "0e55f594efd045b9ae0715e94b402ca2922d5939a452582549dc853f59b14547",
+    "games/hex/README.md": "4765acbddd92db598a966ba1ccdb6cda9457931e851e8d9008be19af15e0eb4c",
+    "games/hex/config.js": "de025dc98009dc4d03a7ef0bd20f3a6b8496924b1a358ba9a859bb3fc7b82654",
+    "games/hex/config.json": "43f98e653cfbadc66312ea28bcca8fc7c5492371ff41ab62520cd0ab3aa72d8a",
+    "games/hex/engine.js": "b6844a0a82b1f71422adc18b59721eab376a59f4555f87e42cd9a538ace8f0b6",
+    "games/hex/generation-report.json": "af24a1afb59bf33c85c63eb407320288b2f7fb5ec66555ba63c8b47d7376e137",
+    "games/hex/levels.js": "5e25feb86982a2b8980c398069017f46baa16a0780afb5427de7d053d6ccd95d",
+    "games/hex/levels.json": "624cd59bd08663083211654d28b4cf23f6e22e94cef7007cab0c6d1001406eec",
+    "games/hex/proof.json": "85f0f695e11de27709055df600b0428ec2690a43944de414a7105fff4439c0a4",
+    "games/hnefatafl.html": "2a5e6cc91c941afc4eb812c824e229179b98c41a2994e18d86d93ce2e68fb0dd",
+    "games/hnefatafl/README.md": "a11802461d4d6d62bd72f062309858c8642690c19095e54fce9be68232c95366",
+    "games/hnefatafl/config.js": "44692508cfb22c102e61fda0c1897efa4a7f60d23ea93dfd47064bfbf1a5a4d8",
+    "games/hnefatafl/config.json": "de821c739539bc73d5f18a593ca51627f4f9576c75af2a7f5dba98bbcfe16751",
+    "games/hnefatafl/engine.js": "90e189cefadfb481f4414f305217edc07cbe6728b0cd0afaff1637b9a2d866a0",
+    "games/hnefatafl/generation-report.json": "d79eccb094dc2b7ba59b184fac102c5f9ab54716745c16083283bc95722c9669",
+    "games/hnefatafl/levels.js": "afed8c97f3996ecef2c4a9de69b5d389acfbebbc598b26d133d0a462eda28bf0",
+    "games/hnefatafl/levels.json": "447b07f0e169afb26f4365b92d1817e2b4a06e9feebf85fad3da9ea8ec4c5e22",
+    "games/hnefatafl/proof.json": "4e2045e877cd56e1f58088884549aa67c0b16472a6194565c87cb392c5600dfd",
+    "games/shogi.html": "f40ee0a111caf53d7767b15f37fb8f4cf4e2ebba804b176f7fbf0fa8ec7754c1",
+    "games/shogi/README.md": "1c1288bc879a4a735b6448cfad24d1f6d85735d16a7ff4849ce47326d94aebd2",
+    "games/shogi/config.js": "9d668bff184ab434fa30ddf76431f4442ee714bf28aed3e034d4d4fa57c671cf",
+    "games/shogi/config.json": "eeb0ef5eaa2bc1abdd6ffcfcec3b732fe8af77557d6d5682224309f5f8611942",
+    "games/shogi/engine.js": "0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f",
+    "games/shogi/generate-levels.cjs": "08df92721ebe4cf85804945072620ab51c6315577ac83e79ecaedb4a84421866",
+    "games/shogi/independent-check.py": "2eb24ddf50ffe428b666897daa4ee3fb24dc4a3ac4e463c4f459ffda68fb1bd8",
+    "games/shogi/independent-verification.json": "ada546a6073a67f76f3eeb82ab28c4581a4b131c571e8610f21c548a4ec64d89",
+    "games/shogi/levels.js": "741e46bbea46018404b38c7065a841cf40469f10283ea513d66be308a77acffa",
+    "games/shogi/levels.json": "1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad",
+    "games/shogi/proof.json": "8a5e1ece075f72add34ad45d0cd5c01f33b9a47076c2628b1c57f91e1e1a4473",
+    "games/shogi/requirements-test.txt": "2e4f23a0baf1f59e6f14b3d63357e9890cc83fe4819fb32a86c0ddb28445b3e2",
+    "games/shogi/test.cjs": "453d4a3af852bd4d932b4c8baa2154f873fa61cbe8907b20a28a305396344dcc",
+    "games/shogi/verification-summary.json": "16cda565c8922a15b5f614b10954ec004351dc19934685bac177df7da88a9804"
+  }
+}
