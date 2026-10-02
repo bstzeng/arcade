@@ -1,0 +1,18 @@
+{
+  "game": "chinese-poker",
+  "checkedAt": "2026-10-02T17:25:41.796Z",
+  "status": "passed",
+  "levels": 100,
+  "uniquePositions": 100,
+  "distinctRankDistributions": 100,
+  "certificateActions": 400,
+  "heroDecisions": 100,
+  "minCertificateActions": 4,
+  "maxCertificateActions": 4,
+  "independentCardAndLegalityChecks": true,
+  "deterministicOpponentChecks": true,
+  "selfPlayRounds": 8,
+  "hiddenInformationInvarianceCases": 12,
+  "elapsedMs": 51318,
+  "scope": "Complete open-hand fixed-opponent scenario witnesses; no claim of arbitrary-opponent forced wins."
+}
