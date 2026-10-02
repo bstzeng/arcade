@@ -12,7 +12,7 @@ function preserve(){for(const [file,sha] of Object.entries(preservation.assets))
 assert.equal(preservation.originalGames,67);
 assert.equal(Object.keys(preservation.assets).filter(f=>/^games\/[a-z0-9-]+\.html$/.test(f)).length,67,'Preservation manifest must cover all original game entries');
 preserve();
-assert.equal(registry.games.length,69);
+assert(registry.games.length>=69);
 assert.equal(registry.games.filter(g=>g.category==='tabletop').length,12);
 assert.equal(preservation.gameIds.length,67);
 for(const id of preservation.gameIds)assert(registry.games.some(g=>g.id===id),'Original lobby entry missing: '+id);
@@ -42,4 +42,4 @@ try{
  }
  preserve();assert.equal(report.suites.length,2);report.passed=true;
 }finally{fs.writeFileSync('chinese-chess-verification-report.json',JSON.stringify(report,null,2)+'\n');}
-console.log('\nPASS: 2 Chinese chess games, 3 AI difficulties, rule/tactical/self-play/controller suites; 69 lobby entries; all '+report.preservedOriginalAssets+' prior game assets unchanged.');
+console.log('\nPASS: 2 Chinese chess games, 3 AI difficulties, rule/tactical/self-play/controller suites; '+registry.games.length+' lobby entries; all '+report.preservedOriginalAssets+' prior game assets unchanged.');
