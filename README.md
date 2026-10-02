@@ -2,7 +2,7 @@
 
 輕量、響應式的繁體中文遊戲入口網站。原生 HTML / CSS / JavaScript，無套件、無外部字型、無追蹤，也不需要建置。
 
-五十七款遊戲均可直接遊玩，支援滑鼠、觸控及鍵盤操作。
+六十七款遊戲均可直接遊玩，支援滑鼠、觸控及鍵盤操作。
 
 ## 遊戲目錄
 
@@ -99,7 +99,7 @@ Black Box 的唯一性是對**完整四邊可觀測訊號**與已知原子數作
 
 ### 十款經典新挑戰 · 總計 2,000 關益智
 
-新增 **10 款遊戲、每款 50 關，共 500 個固定關卡**。目前全站 **57 款遊戲、2,000 關益智挑戰及 250 副接龍牌局**，大廳以「經典新挑戰」分類收錄這批作品。
+新增 **10 款遊戲、每款 50 關，共 500 個固定關卡**。此批發布時全站 **57 款遊戲、2,000 關益智挑戰及 250 副接龍牌局**，大廳以「經典新挑戰」分類收錄這批作品。
 
 - **麻將接龍（Mahjong Solitaire）**：移除未被覆蓋且至少一側開放的相同牌，清空牌陣
 - **七巧板（Tangram）**：用七片標準幾何拼板，旋轉與翻面後完整拼出輪廓
@@ -140,7 +140,7 @@ python3 -m http.server 8080
 - `styles.css`：響應式版面、CSS 插畫、鍵盤焦點與減少動態效果設定
 - `app.js`：遊戲資料、卡片呈現、分類篩選、搜尋與空狀態
 - `favicon.svg`：站台圖示
-- `games/*.html`：五十七款遊戲入口；原有十二款為單頁，新接龍遊戲搭配同名資料夾中的規則引擎與牌局資料
+- `games/*.html`：六十七款遊戲入口；原有十二款為單頁，新接龍遊戲搭配同名資料夾中的規則引擎與牌局資料
 
 ## 新增遊戲
 
@@ -150,7 +150,7 @@ python3 -m http.server 8080
 {
   id: 'my-game',
   title: '我的遊戲',
-  category: 'puzzle', // puzzle、strategy、casual、cards、board、logic、classic 或 collection
+  category: 'puzzle', // puzzle、strategy、casual、cards、board、logic、classic、collection 或 tabletop
   description: '一段簡短介紹。',
   note: '邏輯 × 挑戰',
   art: 'tiles', // tiles、maze、blocks、memory、planet、target
@@ -169,6 +169,25 @@ python3 -m http.server 8080
 
 遊戲數量會自動更新；分類與搜尋可以交叉使用。搜尋不到時可一鍵重設。所有導覽都能用鍵盤操作；未完成遊戲不會提供假的啟動連結。
 
+## 多人棋桌 · 十款人類與 AI 對戰
+
+全站現有 **67 款遊戲、2,000 關益智挑戰、250 副接龍牌局**，新增十款可反覆對弈的棋類。每款支援 **同一裝置輪流多人遊玩**與 **人類對 AI**，可選 **簡單、普通、困難**。AI 依遊戲使用不同搜尋深度或評估策略；困難代表較深入的有限搜尋，並不宣稱完美或無敵。
+
+- 黑白棋（Reversi）：夾子翻色、無合法步時跳過、雙方皆無步時結算
+- 五子棋（Gomoku）：15 × 15 自由規則，連續五枚或以上獲勝
+- 四子棋（Connect Four）：7 欄 × 6 列重力落子，任一方向連四
+- 西洋跳棋（Checkers）：8 × 8 對弈，強制吃子、連跳、升王
+- 中國跳棋（Chinese Checkers）：星形棋盤，以步行或連跳將棋子送進對面營地
+- 飛行棋（Aeroplane Chess）：擲骰競速，起飛、追趕與精準進入終點
+- 播棋（Kalah）：逐穴播種，己方倉庫落末子可再走，含捕獲與終局清盤
+- 九子棋（Nine Men’s Morris）：放子、走子、成磨吃子與三子飛行
+- 步步為營（Quoridor）：移動與築牆，任何牆都須保留雙方抵達終點的路徑
+- 四連異形棋（Quarto）：選子交給對手落盤，四枚共同特徵連成一線即勝
+
+各遊戲的規則變體、AI 策略與測試指令，見同名資料夾 README。每款有獨立本機存檔，提供撤銷與重新開始；重設、切換模式及讀取存檔會取消過時的 AI 回合。此批是對戰遊戲，不使用預設關卡數量。
+
+`node verify-tabletop.cjs` 重跑十款規則、三難度 AI 合法性、戰術局面、自我對弈與控制器回歸測試，並檢查既有遊戲資產未被更動。`tabletop-verification-report.json` 記錄完整檢查結果。`tabletop-preservation.json` 保存先前 57 款遊戲共 631 個資產的 SHA-256；測試在隔離副本重建證據，避免改動發布內容。`node verify-static.cjs` 檢查全站 HTML / CSS 的本機資產與導覽路徑。這些是離線引擎／模擬 DOM 測試，實際瀏覽器桌面驗收另行執行。
+
 ## GitHub Pages
 
 此公開網站由 `main` 分支根目錄 `/ (root)` 發布，無須自訂建置流程。
@@ -179,11 +198,14 @@ python3 -m http.server 8080
 
 ```sh
 node --check app.js
+node verify-static.cjs
+node verify-lobby.cjs
 node verify-cards.cjs
 node verify-puzzles.cjs
 node verify-logic.cjs
 node verify-classics.cjs
 node verify-collection.cjs
+node verify-tabletop.cjs
 # 或一次執行所有接龍、棋盤與邏輯推理驗證
 node verify-all.cjs
 ```
