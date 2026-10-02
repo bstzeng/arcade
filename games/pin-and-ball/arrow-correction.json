@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "gameId": "pin-and-ball",
+  "reason": "Linux Chrome lacked the diagonal-arrow font glyphs in router direction indicators and their legend.",
+  "scope": "Replace router glyphs with explicit SVG paths; expose current direction in Chinese accessible labels; use plain Chinese words in the legend.",
+  "beforeSha256": "b0f19f5e7b1e22d4d6a8f5301b8a990566ffe808a50aaa9f8e5a800f836bd755",
+  "afterSha256": "ef4292030988db5cc606612ae6c4adea70301855e99f0ee903f9a260e519b0d4",
+  "runtimeFiles": [
+    "games/pin-and-ball/app.js"
+  ],
+  "unchangedCorpus": {
+    "engine.js": "63da235c68768e7860570a1be78b27be8f80f39e2e0bf4c374b591c726dd207f",
+    "levels.js": "880cb423ea8cee97878a42c15498a141616360910efb9478fe72d856c545e298",
+    "levels.json": "64c379bedbe4a31ae5ee6f654cda48d7dcb777d97026528e434ec948dfe851a9"
+  },
+  "publication": "Parent will bundle and publish the correction; no publication performed here.",
+  "correctionId": "pin-and-ball-svg-router-arrows",
+  "status": "frozen; targeted offline regression passed; live visual recheck pending",
+  "reportedLocation": {
+    "url": "https://bstzeng.github.io/arcade/games/pin-and-ball.html",
+    "level": "001",
+    "reproduction": "Complete pins 3, 2, 4, 5, 1, 6. Both router circles previously displayed a missing-glyph rectangle for the down-right direction.",
+    "reportedViewport": "1180×757",
+    "reportedCircleCenters": [
+      [
+        487,
+        480
+      ],
+      [
+        751,
+        605
+      ]
+    ]
+  },
+  "changedPaths": [
+    "games/pin-and-ball/app.js",
+    "games/pin-and-ball/arrow-correction.json",
+    "games/pin-and-ball/verify-arrow-correction.cjs",
+    "games/pin-and-ball/arrow-correction-test-report.json",
+    "games/spatial-common/source-freeze.json"
+  ],
+  "baseSourceFreezeSha256": "02200793e5a9e99bb27760683930488c47645f02eace7b8ed4356266f850fc26",
+  "sourceFreezePath": "games/spatial-common/source-freeze.json",
+  "regression": {
+    "command": [
+      "node",
+      "games/pin-and-ball/verify-arrow-correction.cjs"
+    ],
+    "exitCode": 0,
+    "report": "games/pin-and-ball/arrow-correction-test-report.json",
+    "levels": 100,
+    "actions": 1604,
+    "inspectedArrowPaths": 9689
+  },
+  "historicalAuditPolicy": "Existing audit.json, dom-qa.json and browser-qa.json are left unchanged. Integrator may rebind only justified metadata when bundling the correction."
+}

@@ -26,7 +26,7 @@
   "browserQA": {
     "status": "not-run",
     "evidence": [
-      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+      "Corrected numeric-layout-r2 source awaits actual browser recheck after publication; baseline f03965d exposed tall-board clipping/overlap."
     ]
   },
   "proofKinds": [
@@ -107,7 +107,7 @@
     },
     {
       "path": "games/numeric-common/style.css",
-      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+      "sha256": "1adffc7e0a269ddf49fac20c0c10a59657ce38abbb82a715f9b1aa765050910b"
     },
     {
       "path": "games/numeric-common/verify.cjs",
@@ -130,10 +130,26 @@
       ],
       "exitCode": 0,
       "evidencePath": "games/numeric-common/batch-verification-report.json"
+    },
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/layout-tests.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/layout-correction-report.json"
     }
   ],
   "limitations": [
     "No minimality claim.",
     "Browser visual QA pending coordinated release."
-  ]
+  ],
+  "uiRevision": "numeric-layout-r2",
+  "focusedUIRegression": {
+    "passed": true,
+    "staticCSSViewports": 7,
+    "simulatedDOMLevels": 100,
+    "ruleCorpusProofsUnchanged": true,
+    "evidencePath": "games/numeric-common/layout-correction-report.json"
+  }
 }
