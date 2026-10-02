@@ -33,3 +33,6 @@
 .collection-keen,.collection-sign{grid-template-columns:repeat(3,1fr)}.collection-keen{gap:0;border:3px solid currentColor}.collection-keen i{position:relative;border-radius:0;border:1px dashed #ffffff44;padding-top:9px;font-size:21px}.collection-keen small{position:absolute;top:3px;left:3px;font-size:8px}.collection-keen i:nth-child(3n){border-right:2px solid currentColor}.collection-keen i:nth-child(n+7){border-top:2px solid currentColor}
 .collection-sign i{font-size:25px}.collection-sign i:first-child,.collection-sign i:last-child{background:var(--art-color);color:var(--art-bg);font-size:18px}
 .collection-fill{grid-template-columns:repeat(4,1fr);gap:0;border:2px solid currentColor}.collection-fill i{border-radius:0;border:1px solid #ffffff22}.collection-fill i:nth-child(-n+2),.collection-fill i:nth-child(5){background:#a6d4be44}.collection-fill i:nth-child(3),.collection-fill i:nth-child(4),.collection-fill i:nth-child(8){background:#c4b3e344}.collection-fill i:nth-child(n+9){border-top:2px solid currentColor}
+
+/* Tabletop games: local vector covers with their own board geometry. */
+.tabletop-art{display:block;width:148px;height:134px;overflow:visible;transform:rotate(6deg);filter:drop-shadow(3px 6px 1px #0002)}
