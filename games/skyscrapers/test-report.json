@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "levels": 50,
+  "visibilityFixtures": 4,
+  "assertions": 755,
+  "tests": [
+    "visibility from both directions",
+    "empty puzzle is nonunique",
+    "contradictory givens rejected",
+    "all-level unique counts in two solvers",
+    "Latin constraints",
+    "clue constraints",
+    "false-answer rejection",
+    "saved-action replay",
+    "undo after win",
+    "persistent assistance",
+    "pencil notes",
+    "invalid action rejection"
+  ]
+}
