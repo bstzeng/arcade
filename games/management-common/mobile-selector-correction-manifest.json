@@ -1,8 +1,24 @@
 {
   "schemaVersion": 1,
-  "batch": "management-challenges",
-  "ownedFileCount": 129,
-  "files": [
+  "id": "management-mobile-level-selector",
+  "status": "offline-verified-awaiting-live-mobile-recheck",
+  "scope": "CSS-only runtime correction for the shared selector used by all ten management games. No engine, corpus, witness, root lobby or desktop styling changes.",
+  "issue": "At a 400 CSS-pixel viewport the shared level selector could shrink to an approximately 18px arrow-only control beside sibling buttons.",
+  "mobileMaxWidth": 480,
+  "viewportsRequested": [
+    333,
+    400
+  ],
+  "runtimeFiles": [
+    {
+      "path": "games/management-common/style.css",
+      "beforeSha256": "082f87535a68f20938c011dfe430c71cc3554eaf5c5ac20443353523e2d74ef6",
+      "afterSha256": "24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab"
+    }
+  ],
+  "oldRule": ".ac-select{max-width:none;flex:1;min-width:0}",
+  "newRule": ".ac-select-label{flex:0 0 100%;width:100%}.ac-select{max-width:none;flex:1 0 100%;width:100%;min-width:0}",
+  "protectedFiles": [
     {
       "path": "games/alchemy-lab.html",
       "bytes": 1413,
@@ -324,21 +340,6 @@
       "sha256": "df9435854bdce8914d085d9a9e054582b7d36b8b5ee9d2c1b95340e8950b30f4"
     },
     {
-      "path": "games/management-common/mobile-selector-correction-manifest.json",
-      "bytes": 23240,
-      "sha256": "660bc8279bca5ef3f81970f95ef9705b9ae723f7f87c0164532243dc65d1f7e4"
-    },
-    {
-      "path": "games/management-common/mobile-selector-correction-report.json",
-      "bytes": 2053,
-      "sha256": "1c5131aab12417dc2867bd90dc74e3bf57824a68a2ea2cad7d012f0f31a79b27"
-    },
-    {
-      "path": "games/management-common/mobile-selector.test.cjs",
-      "bytes": 5456,
-      "sha256": "fdac1b6bfe79888c3adfd352229b073e553d69a42dc69a6d7e097e1c38ff4cf9"
-    },
-    {
       "path": "games/management-common/model.js",
       "bytes": 1707,
       "sha256": "b61ad81b017c2be9f976767ab4af4d33f677c6f925ccc1e918a85ccb26bbd6fb"
@@ -362,11 +363,6 @@
       "path": "games/management-common/static-test.cjs",
       "bytes": 2574,
       "sha256": "22fcde7dd289e030fcc8f66438b2789f38d18d77fba1f5c5e9122013fc8cd85b"
-    },
-    {
-      "path": "games/management-common/style.css",
-      "bytes": 7164,
-      "sha256": "24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab"
     },
     {
       "path": "games/management-common/ui.js",
@@ -648,5 +644,35 @@
       "bytes": 965857,
       "sha256": "c6b41eb907891d26786b2dadf1f99c152e063315497f46736663fe06c20b7ff4"
     }
-  ]
+  ],
+  "protectedPriorFileCount": 125,
+  "expectedGames": 10,
+  "expectedMissions": 1000,
+  "historicalReportsPreserved": true,
+  "testCommand": [
+    "node",
+    "games/management-common/mobile-selector.test.cjs"
+  ],
+  "report": "games/management-common/mobile-selector-correction-report.json",
+  "browserQA": {
+    "status": "pending",
+    "note": "Live recheck requested at 333 and 400 CSS pixels. Static or simulated-DOM checks are not visual layout evidence."
+  },
+  "changedPaths": [
+    "games/management-common/style.css",
+    "games/management-common/mobile-selector.test.cjs",
+    "games/management-common/mobile-selector-correction-manifest.json",
+    "games/management-common/mobile-selector-correction-report.json",
+    "games/management-common/source-manifest.json"
+  ],
+  "sourceInventory": "games/management-common/source-manifest.json",
+  "verificationSummary": {
+    "scopedAssertions": 286,
+    "controllerAssertions": 2947,
+    "simulatedDomClicks": 1042,
+    "corpusAuditAssertions": 138201,
+    "legalWitnesses": 1000,
+    "independentWitnessActions": 32240,
+    "staticChecks": 574
+  }
 }

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "management-mobile-level-selector",
+  "passed": true,
+  "scope": "CSS-only runtime correction for the shared selector used by all ten management games. No engine, corpus, witness, root lobby or desktop styling changes.",
+  "assertions": 286,
+  "exactCssSha256": "24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab",
+  "desktopCssUnchanged": true,
+  "onlyMobileMediaRuleChanged": true,
+  "mobileLayoutDeclarationChecks": {
+    "widths": [
+      333,
+      400
+    ],
+    "selectorFullRow": true,
+    "selectorFlexShrink": 0,
+    "labelSeparateRow": true,
+    "actualBrowserLayoutMeasurement": false
+  },
+  "protectedPriorFiles": 125,
+  "historicalReportsUnchanged": true,
+  "corpusUnchanged": {
+    "games": 10,
+    "missions": 1000,
+    "proofs": 1000
+  },
+  "isolatedController": {
+    "passed": true,
+    "assertions": 2947,
+    "manualClicks": 1042,
+    "manualWinLevels": [
+      "001",
+      "050",
+      "100"
+    ],
+    "games": 10
+  },
+  "isolatedRules": {
+    "passed": true,
+    "assertions": 138201,
+    "legalWitnesses": 1000,
+    "witnessActions": 32240,
+    "canonicalDistinct": 1000
+  },
+  "isolatedStatic": {
+    "passed": true,
+    "checks": 574
+  },
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/management-common/controller-test.cjs"
+      ],
+      "exitCode": 0,
+      "execution": "isolated temporary copy; source-tree historical reports untouched"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/audit.cjs"
+      ],
+      "exitCode": 0,
+      "execution": "isolated temporary copy; source-tree historical reports untouched"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/static-test.cjs"
+      ],
+      "exitCode": 0,
+      "execution": "isolated temporary copy; source-tree historical reports untouched"
+    }
+  ],
+  "browserQA": {
+    "status": "pending",
+    "note": "333/400 declaration checks and simulated DOM do not measure rendered widths. Live QA evidence must be recorded separately."
+  }
+}
