@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "assertions": 13447,
+  "levels": 100,
+  "viewportLayouts": 700,
+  "viewports": [
+    333,
+    400,
+    600,
+    601,
+    720,
+    721,
+    1180
+  ],
+  "minimumRenderedTileCSSPixels": 43,
+  "minimumAdjacentTileClearanceCSSPixels": 3,
+  "scope": "CSS-bound layout arithmetic for every dual-shadow level on both sides of responsive breakpoints; actual-app DOM rendering is a separate test, and real-browser confirmation remains required."
+}
