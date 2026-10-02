@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "build": "20261002-air-traffic",
+  "registryCount": 70,
+  "newGames": 1,
+  "maps": [
+    {
+      "id": "islands",
+      "name": "翡翠群島",
+      "biome": "islands",
+      "airports": 2
+    },
+    {
+      "id": "canyon",
+      "name": "赤岩峽谷",
+      "biome": "canyon",
+      "airports": 2
+    },
+    {
+      "id": "city",
+      "name": "都會海灣",
+      "biome": "city",
+      "airports": 3
+    },
+    {
+      "id": "alpine",
+      "name": "雪線山谷",
+      "biome": "alpine",
+      "airports": 3
+    },
+    {
+      "id": "desert",
+      "name": "沙漠綠洲",
+      "biome": "desert",
+      "airports": 3
+    },
+    {
+      "id": "lakes",
+      "name": "湖畔田野",
+      "biome": "lakes",
+      "airports": 4
+    },
+    {
+      "id": "volcano",
+      "name": "火山環礁",
+      "biome": "volcano",
+      "airports": 4
+    },
+    {
+      "id": "aurora",
+      "name": "極光港灣",
+      "biome": "aurora",
+      "airports": 4
+    }
+  ],
+  "preservedOriginalGames": 69,
+  "preservedOriginalAssets": 772,
+  "preservedOriginalCardsAndArtwork": true,
+  "baseCommit": "81f02c0d7ca4bbfebb2c370b186fb627c699ff2f",
+  "unchangedContent": {
+    "puzzleLevels": 2000,
+    "cardDeals": 250,
+    "tabletopGames": 12
+  },
+  "claims": {
+    "realTimeGame": true,
+    "fixedPuzzleLevelCountNotApplicable": true,
+    "controllerTestsAreNotBrowserVisualTests": true,
+    "browserTestingClaimed": false
+  },
+  "entrySHA256": "1bf46211d35fbec3877aa9c8c17929f5871e18101ea64b779f18f4f1fe562ecf",
+  "files": {
+    "README.md": "3f9f4cf5e97d9f0825dd3e45a04736e74218ae54dde67745acf853e87a8b0f73",
+    "app.js": "3f750bde7d1ef932d1aa8dc346bd7e7f85b343bb7e4ce5616b1cc3f6403e391d",
+    "audit.test.cjs": "03616a85b344c7f68fa3d5b4320ef7732654e56dc756f0df8726b3bc539550be",
+    "engine.js": "2853bb5ab611b46a04fd1a9be31decdd247037abc8e9eb9919889111dd07cb85",
+    "maps.js": "686b75c0128fdf15edaabc7565bc046e540a9e26dad10f8efdb26bf34b7a5e2a",
+    "render.js": "32c79ec46fafde31bc9e02ae2a0d76d97cd999ad973d9ef0b6af2c25b65235ff",
+    "style.css": "2e0ffb41daff4cf2548ad5c46ce610e11016967aaf1dcddaebf9859231a89b98",
+    "test-ui.cjs": "b267e6c11f307d313f17e26318f1e4606ef9067bb89acb1aeabbff8228f53ab5",
+    "test.cjs": "71c895fbe583677591ab7b0d3cbd49b6d350471ab7b6259fc1cfe41d8b02b951"
+  },
+  "suites": [
+    {
+      "command": "node games/air-traffic/test.cjs",
+      "passed": true,
+      "seconds": 0.398,
+      "output": "✓ exports a browser global and CommonJS API without dependencies\n✓ map is required and normalized without mutating the input\n✓ first flight is visible for four seconds before entering the airspace\n✓ aircraft continue moving with no route and after the route ends\n✓ route replacement changes heading smoothly with a finite turn rate\n✓ route API sanitizes input, preserves copied points, and handles unknown IDs\n✓ a waypoint inside the turn radius cannot trap a jet in an endless orbit\n✓ normal aircraft land only after crossing the assigned runway in its direction\n✓ reverse direction, wrong angle and parallel runway misses do not land\n✓ starting inside a runway cannot skip the approach threshold\n✓ crossing a different airport does not count as landing\n✓ turning out of the runway cancels an armed approach\n✓ vertical runways use the same directional landing rule\n✓ helicopters may enter their assigned helipad from any heading\n✓ helicopters cannot land at the wrong pad or regular runway\n✓ departures succeed at all four assigned exit edges\n✓ wrong departure exit and arrivals leaving airspace each count a miss\n✓ three misses fail a challenge, but free play permits missed flights\n✓ landing target wins challenge while departure completions do not\n✓ collision stops both modes and identifies the aircraft pair\n✓ swept collision detection catches fast crossing between frames\n✓ warnings forecast converging aircraft before the near-distance threshold\n✓ near-miss episodes count once until aircraft separate\n✓ unsafe spawn previews wait and resume only after a safe opening\n✓ spawn safety considers approaching trajectories rather than position alone\n✓ spawn forecasts preserve tight curved routes at 30, 60 and 120 frames per second\n✓ fixed simulation ticks prevent high-frame-rate waypoint release divergence\n✓ fixed ticks make motion identical across constant and variable frame intervals\n✓ simultaneous nearby preview releases cannot collide immediately\n✓ combined active aircraft and previews respect traffic cap\n✓ queued IDs are unique and automatic IDs avoid explicit collisions\n✓ same seed and inputs produce exactly the same simulation\n✓ invalid dt is ignored and enormous dt is bounded safely\n✓ zero dt leaves position, preview countdown and simulation time unchanged\n✓ finished states freeze simulation and reject route edits\n✓ many seeds release their first flight safely and produce finite motion\n\n36 air traffic engine tests passed.",
+      "stderr": ""
+    },
+    {
+      "command": "node games/air-traffic/test-ui.cjs",
+      "passed": true,
+      "seconds": 0.831,
+      "output": "✓ all entry script references exist and runtime loads without canvas errors\n✓ challenge opens one map and renders all eight distinct map choices\n✓ free mode unlocks every map, each can start its own airspace\n✓ first shift opens tutorial, then closes to the running game\n✓ dragging freezes simulation and commits a finite route on pointerup\n✓ tap selects a flight without changing its existing route\n✓ pointer cancellation discards preview and preserves old route\n✓ lost capture cancels only its own in-progress route\n✓ additional fingers cannot steal or finish the active route\n✓ off-aircraft taps deselect rather than redraw an unrelated flight\n✓ clear route keeps the aircraft present and heading unchanged\n✓ pause freezes time and P or Space can resume\n✓ help interrupts play safely and restores prior pause state\n✓ menu opened from pause restores pause rather than starting silently\n✓ restart cancel retains current session and confirmation replaces it\n✓ visibility interruption cancels sketch, preserves route, and pauses\n✓ resizing during sketch discards uncommitted route and pauses\n✓ window blur during sketch cancels and pauses safely\n✓ runway assist accepts a correct approach and creates long aligned final\n✓ runway assist rejects reverse approaches and wrong airport\n✓ helicopter assist targets the assigned H pad\n✓ challenge win unlocks next map, persists best, and next button advances\n✓ final-map win offers free flight and leaves all maps unlocked\n✓ failure shows retry and stops time rather than re-opening every frame\n✓ free mode displays unbounded misses and saves its separate best\n✓ invalid saved JSON gracefully falls back and reports storage issue\n✓ malformed numeric progress is bounded and invalid mode becomes challenge\n✓ saved progress reloads without preserving stale active aircraft\n✓ paused and terminal maps still render with valid coordinates\n\n29 fake-DOM/canvas controller checks passed. Actual browser visual QA is separate.",
+      "stderr": ""
+    },
+    {
+      "command": "node games/air-traffic/audit.test.cjs",
+      "passed": true,
+      "seconds": 7.657,
+      "output": "PASS all production maps have accessible, unique matching destinations and increasing targets\nPASS every runway accepts plane and jet only from its assigned threshold and forward heading\nPASS all runway headings reject reverse, off-center, mid-runway and wrong-destination approaches\nPASS all helipads accept their helicopter from eight directions and reject another airport\nPASS landing remains invalid after an armed approach exceeds corridor and turns back inside\nPASS departures cannot accidentally land on matching runway or helipad\nPASS all four exit sides score anywhere on correct boundary and never at another side\nPASS a short forward route exhausts and continues on exactly its final heading\nPASS finite-speed motion and progress are stable across common render frame rates\nPASS fixed simulation produces identical curves under varied render frame timing\nPASS swept collisions detect mid-step crossings but ignore separated crossing times\nPASS each challenge wins exactly on its landing goal while free play continues beyond it\nPASS unsafe pending previews stay still and their safety forecast does not mutate active routes\nPASS spawn forecast follows curved short routes at actual simulation precision\nPASS high-refresh turns cannot invalidate a safe-release forecast\n  Audited 1543 actual random releases across 192 seeded map runs.\nPASS seeded real-map spawns preserve preview, caps, finite state and a five-second reaction window\n\nIndependent audit passed: 16 test families, 933 deterministic cases.",
+      "stderr": ""
+    }
+  ]
+}
