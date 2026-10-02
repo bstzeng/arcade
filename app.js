@@ -1,4 +1,5 @@
 'use strict';
+const GAME_BUILD = '20261002-compact-campaign';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -7,7 +8,7 @@ const games = [
   { id: 'memory-match', title: '記憶配對', category: 'puzzle', description: '翻開卡片，記住圖案，以更少步數找齊每一對。', note: '記憶 × 配對', art: 'memory', color: '#edc47e', background: '#443924', word: 'A PERFECT MATCH', status: 'ready', url: './games/memory-match.html' },
   { id: 'tiny-orbit', title: '小小星球', category: 'casual', description: '採集、種植與探索，培育森林，讓星光塔重新發光。', note: '探索 × 放鬆', art: 'planet', color: '#95d7ba', background: '#263d38', word: 'YOUR OWN ORBIT', status: 'ready', url: './games/tiny-orbit.html' },
   { id: 'quick-spark', title: '反應時刻', category: 'casual', description: '等訊號亮起再出手，測試你的反應，別搶跑！', note: '反應 × 專注', art: 'target', color: '#e2a8c5', background: '#402c40', word: 'CATCH THE MOMENT', status: 'ready', url: './games/quick-spark.html' },
-  {"id": "railway-town", "title": "鐵道物流小鎮", "category": "strategy", "description": "鋪設鐵道、安排列車與加工運輸，用有限預算讓小鎮繁榮。", "note": "鐵道 × 物流", "art": "maze", "color": "#9ac8f3", "background": "#25384c", "word": "RAILWAY TOWN", "status": "ready", "url": "./games/railway-town.html"},
+  {"id": "railway-town", "title": "鐵道物流小鎮", "category": "strategy", "description": "挑戰三章十六合約，經營十五條貨運線、加工工廠與升級車隊。", "note": "鐵道 × 物流", "art": "maze", "color": "#9ac8f3", "background": "#25384c", "word": "RAILWAY TOWN", "status": "ready", "url": "./games/railway-town.html"},
   {"id": "merge-bistro", "title": "合併餐廳", "category": "casual", "description": "合併食材、烹調料理與完成訂單，打造你的夢想小餐館。", "note": "合併 × 經營", "art": "tiles", "color": "#edc47e", "background": "#443924", "word": "MERGE BISTRO", "status": "ready", "url": "./games/merge-bistro.html"},
   {"id": "space-rescue", "title": "太空救援任務", "category": "strategy", "description": "規劃航線與補給，救援失聯太空站，帶著夥伴安全返航。", "note": "航線 × 救援", "art": "planet", "color": "#c5b3f5", "background": "#302b48", "word": "SPACE RESCUE", "status": "ready", "url": "./games/space-rescue.html"},
   {"id": "backpack-dungeon", "title": "地城背包探險", "category": "strategy", "description": "把戰利品塞進有限背包，搭配裝備效果，挑戰地城首領。", "note": "裝備 × 探險", "art": "blocks", "color": "#e6a396", "background": "#49322f", "word": "PACK & EXPLORE", "status": "ready", "url": "./games/backpack-dungeon.html"},
@@ -52,7 +53,7 @@ function gameCard(game, index) {
   bottom.append(element('small', '', game.note));
   if (isReady) {
     const link = element('a', 'play-link', '開始遊戲 ↗');
-    link.href = game.url;
+    link.href = `${game.url}?v=${encodeURIComponent(GAME_BUILD)}`;
     link.setAttribute('aria-label', `開始遊戲：${game.title}`);
     bottom.append(link);
   } else {
