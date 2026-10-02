@@ -1,0 +1,124 @@
+{
+  "game": "checkers",
+  "passed": true,
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "count": 11,
+    "names": [
+      "standard 8-by-8 opening, red first, twelve per side",
+      "men only move and capture forwards, kings both ways",
+      "global capture priority and complete multi-jump enforcement",
+      "no maximum capture obligation and capture choice",
+      "crowning stops capture immediately, new king cannot continue",
+      "blue crowns on bottom row and simple promotion",
+      "no pieces or no legal move loses",
+      "same position and side three times automatically draws",
+      "80 king-only non-capturing half-turns draw; man/capture reset",
+      "engines are immutable and illegal path/capture payload rejected",
+      "difficulty search depths and budgets differ"
+    ]
+  },
+  "ai": {
+    "easy": {
+      "legal": true,
+      "immediateWin": true,
+      "forcedCapture": true,
+      "openingDepth": 2,
+      "openingNodes": 92,
+      "maxDepth": 2
+    },
+    "normal": {
+      "legal": true,
+      "immediateWin": true,
+      "forcedCapture": true,
+      "openingDepth": 4,
+      "openingNodes": 1472,
+      "maxDepth": 5
+    },
+    "hard": {
+      "legal": true,
+      "immediateWin": true,
+      "forcedCapture": true,
+      "openingDepth": 4,
+      "openingNodes": 1920,
+      "maxDepth": 9
+    }
+  },
+  "selfPlay": [
+    {
+      "seed": 1,
+      "plies": 159,
+      "result": {
+        "winner": 1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 2,
+      "plies": 64,
+      "result": {
+        "winner": -1,
+        "reason": "blocked"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 3,
+      "plies": 151,
+      "result": {
+        "winner": 1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 4,
+      "plies": 184,
+      "result": {
+        "winner": -1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 5,
+      "plies": 74,
+      "result": {
+        "winner": -1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 6,
+      "plies": 123,
+      "result": {
+        "winner": 1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    }
+  ],
+  "controller": {
+    "passed": true,
+    "count": 10,
+    "names": [
+      "human AI reply, locked turns, round undo and local single-turn undo",
+      "undo during AI cancels worker and ignores late result",
+      "reset and mode changes invalidate stale and rejected AI jobs",
+      "AI first move, legal fallback and terminal lock",
+      "save replay, history, settings, invalid saves and pending restore",
+      "actual UI board, click flow, worker reply, undo and save reload",
+      "actual UI confirms/cancels reset and setting changes; stale response ignored",
+      "actual UI keyboard, selection cancel, help and local undo",
+      "storage unavailable, malformed save, worker fallback and page lifecycle",
+      "actual UI multi-jump is atomic, cancellable and saved only on completion"
+    ],
+    "coverage": "Pure session plus actual app.js in lightweight DOM; not browser rendering verification"
+  }
+}

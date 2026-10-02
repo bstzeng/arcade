@@ -20,7 +20,7 @@ const hash=f=>crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex
 const preservation=JSON.parse(fs.readFileSync('collection-preservation.json','utf8'));
 function checkPreservation(){for(const [file,sha] of Object.entries(preservation.assets))assert.equal(hash(file),sha,'Historical asset changed: '+file);}
 checkPreservation();
-const report={passed:false,build:registry.GAME_BUILD,registryCount:57,batchGames:10,levelsPerGame:50,totalVerifiedLevels:0,uniqueSolutionLevels:0,completionWitnessLevels:0,preservedOriginalGames:47,preservedOriginalAssets:Object.keys(preservation.assets).length,baseCommit:preservation.baseCommit,claims:{initialPositionsOnly:true,uniqueGames:['dominosa','unruly','keen','galaxies','signpost','fillomino'],multipleSolutionsAllowed:['mahjong-solitaire','tangram','samegame','untangle'],independentCertificatesRegeneratedInIsolation:true,controllerTestsAreNotBrowserVisualTests:true,mobileBrowserTestingClaimed:false},suites:[]};
+const report={passed:false,build:registry.GAME_BUILD,registryCount:67,batchGames:10,levelsPerGame:50,totalVerifiedLevels:0,uniqueSolutionLevels:0,completionWitnessLevels:0,preservedOriginalGames:47,preservedOriginalAssets:Object.keys(preservation.assets).length,baseCommit:preservation.baseCommit,claims:{initialPositionsOnly:true,uniqueGames:['dominosa','unruly','keen','galaxies','signpost','fillomino'],multipleSolutionsAllowed:['mahjong-solitaire','tangram','samegame','untangle'],independentCertificatesRegeneratedInIsolation:true,controllerTestsAreNotBrowserVisualTests:true,mobileBrowserTestingClaimed:false},suites:[]};
 const reportFile='collection-verification-report.json';
 try{
  for(const [id,proofFile,rowsKey,resultKey,commands] of suites){
@@ -40,4 +40,4 @@ try{
  }
  assert.equal(report.totalVerifiedLevels,500);assert.equal(report.uniqueSolutionLevels,300);assert.equal(report.completionWitnessLevels,200);checkPreservation();report.passed=true;
 }finally{fs.writeFileSync(reportFile,JSON.stringify(report,null,2)+'\n');}
-console.log('\nPASS: 500 new levels; 300 independent unique solutions and 200 legal completion witnesses; 57 lobby entries; all '+report.preservedOriginalAssets+' historical game assets unchanged.');
+console.log('\nPASS: 500 new levels; 300 independent unique solutions and 200 legal completion witnesses; 67 lobby entries; all '+report.preservedOriginalAssets+' historical game assets unchanged.');

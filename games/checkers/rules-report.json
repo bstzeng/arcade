@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "rules": {
+    "count": 11,
+    "names": [
+      "standard 8-by-8 opening, red first, twelve per side",
+      "men only move and capture forwards, kings both ways",
+      "global capture priority and complete multi-jump enforcement",
+      "no maximum capture obligation and capture choice",
+      "crowning stops capture immediately, new king cannot continue",
+      "blue crowns on bottom row and simple promotion",
+      "no pieces or no legal move loses",
+      "same position and side three times automatically draws",
+      "80 king-only non-capturing half-turns draw; man/capture reset",
+      "engines are immutable and illegal path/capture payload rejected",
+      "difficulty search depths and budgets differ"
+    ]
+  },
+  "ai": {
+    "easy": {
+      "legal": true,
+      "immediateWin": true,
+      "forcedCapture": true,
+      "openingDepth": 2,
+      "openingNodes": 92,
+      "maxDepth": 2
+    },
+    "normal": {
+      "legal": true,
+      "immediateWin": true,
+      "forcedCapture": true,
+      "openingDepth": 5,
+      "openingNodes": 4567,
+      "maxDepth": 5
+    },
+    "hard": {
+      "legal": true,
+      "immediateWin": true,
+      "forcedCapture": true,
+      "openingDepth": 6,
+      "openingNodes": 14080,
+      "maxDepth": 9
+    }
+  },
+  "selfPlay": [
+    {
+      "seed": 1,
+      "plies": 153,
+      "result": {
+        "winner": 1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 2,
+      "plies": 158,
+      "result": {
+        "winner": -1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 3,
+      "plies": 179,
+      "result": {
+        "winner": 0,
+        "reason": "repetition"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 4,
+      "plies": 107,
+      "result": {
+        "winner": 1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 5,
+      "plies": 142,
+      "result": {
+        "winner": -1,
+        "reason": "pieces"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 6,
+      "plies": 168,
+      "result": {
+        "winner": 0,
+        "reason": "quiet"
+      },
+      "legalEveryTurn": true
+    }
+  ]
+}

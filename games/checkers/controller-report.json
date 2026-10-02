@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "count": 10,
+  "names": [
+    "human AI reply, locked turns, round undo and local single-turn undo",
+    "undo during AI cancels worker and ignores late result",
+    "reset and mode changes invalidate stale and rejected AI jobs",
+    "AI first move, legal fallback and terminal lock",
+    "save replay, history, settings, invalid saves and pending restore",
+    "actual UI board, click flow, worker reply, undo and save reload",
+    "actual UI confirms/cancels reset and setting changes; stale response ignored",
+    "actual UI keyboard, selection cancel, help and local undo",
+    "storage unavailable, malformed save, worker fallback and page lifecycle",
+    "actual UI multi-jump is atomic, cancellable and saved only on completion"
+  ],
+  "coverage": "Pure session plus actual app.js in lightweight DOM; not browser rendering verification"
+}

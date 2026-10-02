@@ -4,7 +4,7 @@
 // Historical suites run in isolated source copies, retaining their own batch claims.
 const fs=require('node:fs'),path=require('node:path'),os=require('node:os'),{spawnSync}=require('node:child_process');
 process.chdir(__dirname);
-for(const [file,report] of [['verify-cards.cjs',null],['verify-puzzles.cjs','puzzle-verification-report.json'],['verify-logic.cjs','logic-verification-report.json'],['verify-classics.cjs','classics-verification-report.json'],['verify-collection.cjs','collection-verification-report.json']]){
+for(const [file,report] of [['verify-cards.cjs',null],['verify-puzzles.cjs','puzzle-verification-report.json'],['verify-logic.cjs','logic-verification-report.json'],['verify-classics.cjs','classics-verification-report.json'],['verify-collection.cjs','collection-verification-report.json'],['verify-tabletop.cjs','tabletop-verification-report.json']]){
  const copy=fs.mkdtempSync(path.join(os.tmpdir(),'arcade-audit-'));
  try{
   fs.cpSync(__dirname,copy,{recursive:true,filter:f=>!/(?:^|\/)(?:\.git|node_modules|__pycache__)(?:\/|$)/.test(f)});
@@ -13,4 +13,4 @@ for(const [file,report] of [['verify-cards.cjs',null],['verify-puzzles.cjs','puz
   if(report)fs.copyFileSync(path.join(copy,report),path.join(__dirname,report));
  }finally{fs.rmSync(copy,{recursive:true,force:true});}
 }
-console.log('PASS: 57 games; 250 certified card deals; 2,000 verified puzzle levels. Each report describes its own historical 500-level batch and the current lobby.');
+console.log('PASS: 67 games; 250 certified card deals; 2,000 verified puzzle levels; 10 multiplayer/AI tabletop games with 3 AI difficulties. Each report describes its own historical 500-level batch and the current lobby.');

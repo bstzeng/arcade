@@ -1,0 +1,31 @@
+{
+  "game": "quarto",
+  "passed": true,
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "passed": true,
+    "checks": 6
+  },
+  "controller": {
+    "passed": true,
+    "count": 6,
+    "names": [
+      "worker constructor, transport, runtime and invalid replies recover",
+      "actual UI local play, reload, replay and undo",
+      "actual UI reset confirmation and cancellation; settings cancellation",
+      "actual UI AI turn locking, stale results after reset and undo",
+      "actual UI worker results, save and interrupted page lifecycle",
+      "actual UI malformed storage, unavailable storage and worker retry"
+    ],
+    "coverage": "Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support"
+  },
+  "browser": {
+    "passed": false,
+    "status": "not-run",
+    "reason": "Chromium launch blocked by OS socket permissions; runnable browser-tests.cjs supplied"
+  }
+}

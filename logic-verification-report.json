@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "build": "20261002-collection-500",
-  "registryCount": 57,
+  "build": "20261002-tabletop-ai",
+  "registryCount": 67,
   "newGames": 10,
   "levelsPerGame": 50,
   "totalUniqueLevels": 500,
@@ -19,14 +19,14 @@
         {
           "command": "node games/nonogram/verify.cjs",
           "passed": true,
-          "seconds": 0.278,
+          "seconds": 0.436,
           "output": "Nonogram: 50/50 independent exact uniqueness + rules + mutation checks passed",
           "stderr": ""
         },
         {
           "command": "node games/nonogram/ui-test.cjs",
           "passed": true,
-          "seconds": 6.875,
+          "seconds": 7.639,
           "output": "manual 10\nmanual 20\nmanual 30\nmanual 40\nmanual 50\n{\n  \"game\": \"nonogram\",\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 50,\n  \"otherPassed\": [\n    \"50-level selector\",\n    \"previous/next bounds\",\n    \"victory dialog and record\",\n    \"non-destructive solution demo\",\n    \"demo navigation exits preview\",\n    \"undo input\",\n    \"restart confirmation cancel and Escape\",\n    \"restart then undo restores board and hint usage\",\n    \"help modal\",\n    \"save/reload\",\n    \"malformed JSON recovery\",\n    \"invalid cell data rejected\",\n    \"forged completion rejected\",\n    \"storage denial still playable\",\n    \"keyboard movement/edit\",\n    \"touch/click paint modes\",\n    \"right-click marking\",\n    \"fixed Nurikabe clues\"\n  ],\n  \"visualBrowserQA\": \"Not run: assigned local browser/preview path was reported blocked; mock DOM tests do not verify rendering.\",\n  \"desktopDesignTarget\": \"1180×757, fixed 100dvh shell; 26px minimum cells and independently scrollable board on narrow screens\"\n}",
           "stderr": ""
         }
@@ -258,14 +258,14 @@
         {
           "command": "node games/nurikabe/verify.cjs",
           "passed": true,
-          "seconds": 0.164,
+          "seconds": 0.205,
           "output": "Nurikabe: 50/50 independent exact uniqueness + rules + mutation checks passed",
           "stderr": ""
         },
         {
           "command": "node games/nurikabe/ui-test.cjs",
           "passed": true,
-          "seconds": 1.989,
+          "seconds": 1.88,
           "output": "manual 10\nmanual 20\nmanual 30\nmanual 40\nmanual 50\n{\n  \"game\": \"nurikabe\",\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 50,\n  \"otherPassed\": [\n    \"50-level selector\",\n    \"previous/next bounds\",\n    \"victory dialog and record\",\n    \"non-destructive solution demo\",\n    \"demo navigation exits preview\",\n    \"undo input\",\n    \"restart confirmation cancel and Escape\",\n    \"restart then undo restores board and hint usage\",\n    \"help modal\",\n    \"save/reload\",\n    \"malformed JSON recovery\",\n    \"invalid cell data rejected\",\n    \"forged completion rejected\",\n    \"storage denial still playable\",\n    \"keyboard movement/edit\",\n    \"touch/click paint modes\",\n    \"right-click marking\",\n    \"fixed Nurikabe clues\"\n  ],\n  \"visualBrowserQA\": \"Not run: assigned local browser/preview path was reported blocked; mock DOM tests do not verify rendering.\",\n  \"desktopDesignTarget\": \"1180×757, fixed 100dvh shell; 26px minimum cells and independently scrollable board on narrow screens\"\n}",
           "stderr": ""
         }
@@ -497,14 +497,14 @@
         {
           "command": "node games/magnets/test.cjs",
           "passed": true,
-          "seconds": 1.109,
+          "seconds": 1.144,
           "output": "PASS magnets: 50 unique levels; 50 client wins; 1140 actions; all state, controls, persistence and demo tests.\nNot run. DOM-contract harness is not a real browser or layout test.",
           "stderr": ""
         },
         {
           "command": "python3 games/magnets/verify.py",
           "passed": true,
-          "seconds": 0.883,
+          "seconds": 1.053,
           "output": "Magnets independent 1 1 44\nMagnets independent 2 1 7\nMagnets independent 3 1 8\nMagnets independent 4 1 8\nMagnets independent 5 1 6\nMagnets independent 6 1 6\nMagnets independent 7 1 10\nMagnets independent 8 1 19\nMagnets independent 9 1 8\nMagnets independent 10 1 27\nMagnets independent 11 1 30\nMagnets independent 12 1 28\nMagnets independent 13 1 11\nMagnets independent 14 1 34\nMagnets independent 15 1 8\nMagnets independent 16 1 49\nMagnets independent 17 1 62\nMagnets independent 18 1 89\nMagnets independent 19 1 126\nMagnets independent 20 1 49\nMagnets independent 21 1 21\nMagnets independent 22 1 14\nMagnets independent 23 1 49\nMagnets independent 24 1 135\nMagnets independent 25 1 117\nMagnets independent 26 1 99\nMagnets independent 27 1 84\nMagnets independent 28 1 158\nMagnets independent 29 1 30\nMagnets independent 30 1 60\nMagnets independent 31 1 1628\nMagnets independent 32 1 1189\nMagnets independent 33 1 153\nMagnets independent 34 1 116\nMagnets independent 35 1 355\nMagnets independent 36 1 97\nMagnets independent 37 1 119\nMagnets independent 38 1 62\nMagnets independent 39 1 153\nMagnets independent 40 1 87\nMagnets independent 41 1 354\nMagnets independent 42 1 234\nMagnets independent 43 1 1829\nMagnets independent 44 1 512\nMagnets independent 45 1 737\nMagnets independent 46 1 38\nMagnets independent 47 1 173\nMagnets independent 48 1 349\nMagnets independent 49 1 359\nMagnets independent 50 1 1118\nPASS 50 unique solutions, 50 canonical layouts, independent rule checks",
           "stderr": ""
         }
@@ -514,7 +514,7 @@
         "app.js": "f493eb232dc98bcc29dc5856c712b353cd6ebabe84b37ee16b46f6ba5565454f",
         "engine.js": "c5105f7b186ac23a9db85559b0a467938cdde3694c955909c80050fe08460f54",
         "generate.cjs": "b27f605d1bc99831d735c13ab3371e8fefd88bef22d58d7564b22ec03515a0a2",
-        "independent-proof.json": "48c1f8caadaa2ce84ffa73fb063c433577618fe7ad5fb928b1cbb96d45956717",
+        "independent-proof.json": "bb56511e63abc33e2f75e3caea135399a7f3417712ba203b18e54c417e1a6b96",
         "levels.js": "32f020df260a6e79e4985ee44f6be844c9d85633a71b036a064804afa6f9ab57",
         "levels.json": "ad2724803dafcd73620d86f5f08d894257d87d2a590b1e50003661d34f685e7c",
         "proof.json": "c715881941d318f82eee8d18bb62b945df6dc67c4782c5ea22f244955ff576df",
@@ -736,14 +736,14 @@
         {
           "command": "node games/battleships/test.cjs",
           "passed": true,
-          "seconds": 2.74,
+          "seconds": 2.445,
           "output": "PASS battleships: 50 unique levels; 50 client wins; 1840 actions; all state, controls, persistence and demo tests.\nNot run. DOM-contract harness is not a real browser or layout test.",
           "stderr": ""
         },
         {
           "command": "python3 games/battleships/verify.py",
           "passed": true,
-          "seconds": 0.26,
+          "seconds": 0.178,
           "output": "Battleships independent 1 1 7\nBattleships independent 2 1 7\nBattleships independent 3 1 12\nBattleships independent 4 1 4\nBattleships independent 5 1 8\nBattleships independent 6 1 7\nBattleships independent 7 1 7\nBattleships independent 8 1 6\nBattleships independent 9 1 12\nBattleships independent 10 1 10\nBattleships independent 11 1 31\nBattleships independent 12 1 8\nBattleships independent 13 1 13\nBattleships independent 14 1 7\nBattleships independent 15 1 18\nBattleships independent 16 1 11\nBattleships independent 17 1 22\nBattleships independent 18 1 22\nBattleships independent 19 1 6\nBattleships independent 20 1 8\nBattleships independent 21 1 78\nBattleships independent 22 1 37\nBattleships independent 23 1 47\nBattleships independent 24 1 71\nBattleships independent 25 1 12\nBattleships independent 26 1 31\nBattleships independent 27 1 68\nBattleships independent 28 1 73\nBattleships independent 29 1 18\nBattleships independent 30 1 51\nBattleships independent 31 1 101\nBattleships independent 32 1 108\nBattleships independent 33 1 62\nBattleships independent 34 1 26\nBattleships independent 35 1 34\nBattleships independent 36 1 108\nBattleships independent 37 1 177\nBattleships independent 38 1 27\nBattleships independent 39 1 364\nBattleships independent 40 1 189\nBattleships independent 41 1 78\nBattleships independent 42 1 307\nBattleships independent 43 1 148\nBattleships independent 44 1 455\nBattleships independent 45 1 66\nBattleships independent 46 1 638\nBattleships independent 47 1 177\nBattleships independent 48 1 65\nBattleships independent 49 1 80\nBattleships independent 50 1 393\nPASS 50 unique occupied patterns, 50 canonical layouts, independent rule checks",
           "stderr": ""
         }
@@ -753,7 +753,7 @@
         "app.js": "a821719e3c18b072093179cdc039163eab21335f36757c0ed24bfa913829aaa8",
         "engine.js": "27cc638ae1b8f194160463cbf2b02d38c3747d5959f45e819dccbce88cdc553d",
         "generate.cjs": "65d3bd1eed35aee688a42a27f178e9094746bea5877fae8d61ce778333076a8d",
-        "independent-proof.json": "f9b5d429f0d98aafd7b677a9528fece3e5c803368ae1aeca97342e17ece5b9ed",
+        "independent-proof.json": "52b3aecda743dadf60d40a6932c9f6912176c2d8094b992f533cad1b10314c6a",
         "levels.js": "cfb434219e3d4307d391bf00ade3e412277a971f01070dce46ae78db5211f790",
         "levels.json": "eee6abf5c907dcc5d5da180e02530cdb58227fbe8196553c5b24203a3fb7aefa",
         "proof.json": "20138963f10bef78d1cc3aaa402856b49aa3d6c85964d1b3273ee01f0bfdb45e",
@@ -975,21 +975,21 @@
         {
           "command": "node games/futoshiki/certify.cjs",
           "passed": true,
-          "seconds": 76.179,
+          "seconds": 75.047,
           "output": "certified Futoshiki 1 nodes 15\ncertified Futoshiki 2 nodes 13\ncertified Futoshiki 3 nodes 13\ncertified Futoshiki 4 nodes 13\ncertified Futoshiki 5 nodes 13\ncertified Futoshiki 6 nodes 13\ncertified Futoshiki 7 nodes 13\ncertified Futoshiki 8 nodes 22\ncertified Futoshiki 9 nodes 14\ncertified Futoshiki 10 nodes 20\ncertified Futoshiki 11 nodes 121\ncertified Futoshiki 12 nodes 64\ncertified Futoshiki 13 nodes 45\ncertified Futoshiki 14 nodes 153\ncertified Futoshiki 15 nodes 70\ncertified Futoshiki 16 nodes 82\ncertified Futoshiki 17 nodes 65\ncertified Futoshiki 18 nodes 31\ncertified Futoshiki 19 nodes 87\ncertified Futoshiki 20 nodes 90\ncertified Futoshiki 21 nodes 4272\ncertified Futoshiki 22 nodes 16295\ncertified Futoshiki 23 nodes 6165\ncertified Futoshiki 24 nodes 3130\ncertified Futoshiki 25 nodes 14363\ncertified Futoshiki 26 nodes 1303\ncertified Futoshiki 27 nodes 18207\ncertified Futoshiki 28 nodes 386\ncertified Futoshiki 29 nodes 334\ncertified Futoshiki 30 nodes 342\ncertified Futoshiki 31 nodes 86755\ncertified Futoshiki 32 nodes 15353\ncertified Futoshiki 33 nodes 14413425\ncertified Futoshiki 34 nodes 513759\ncertified Futoshiki 35 nodes 127321\ncertified Futoshiki 36 nodes 224915\ncertified Futoshiki 37 nodes 59946\ncertified Futoshiki 38 nodes 16743\ncertified Futoshiki 39 nodes 137666\ncertified Futoshiki 40 nodes 10932\ncertified Futoshiki 41 nodes 11275\ncertified Futoshiki 42 nodes 1507692\ncertified Futoshiki 43 nodes 132802\ncertified Futoshiki 44 nodes 164859\ncertified Futoshiki 45 nodes 35310\ncertified Futoshiki 46 nodes 16508568\ncertified Futoshiki 47 nodes 123035\ncertified Futoshiki 48 nodes 1588500\ncertified Futoshiki 49 nodes 328141\ncertified Futoshiki 50 nodes 236201",
           "stderr": ""
         },
         {
           "command": "node games/futoshiki/engine-test.cjs",
           "passed": true,
-          "seconds": 0.099,
+          "seconds": 0.081,
           "output": "Futoshiki independent-count, arbitrary-win, malformed-input, givens and contradiction-safe hint fixtures passed",
           "stderr": ""
         },
         {
           "command": "node games/futoshiki/ui-test.cjs futoshiki",
           "passed": true,
-          "seconds": 7.759,
+          "seconds": 8.268,
           "output": "{\n  \"game\": \"futoshiki\",\n  \"manualSolutionFlows\": 50,\n  \"hintCompletionFlows\": 50,\n  \"wrongValueRecoveryFlows\": 50,\n  \"passed\": [\n    \"50-level selector\",\n    \"arbitrary correct final board wins\",\n    \"reset confirmation and cancel\",\n    \"numeric and delete keyboard events\",\n    \"keyboard focus retention\",\n    \"arrow movement\",\n    \"undo retains assistance\",\n    \"demo preserves values and never awards completion\",\n    \"progress save/reload\",\n    \"invalid JSON and malicious state recovery\",\n    \"storage denied fallback\",\n    \"help modal\",\n    \"last-level boundary\"\n  ],\n  \"visualBrowserQA\": \"Not run: browser and local preview were unavailable for this assigned task. These are DOM integration tests, not browser rendering tests.\"\n}",
           "stderr": ""
         }
@@ -1221,21 +1221,21 @@
         {
           "command": "node games/kakuro/certify.cjs",
           "passed": true,
-          "seconds": 0.206,
+          "seconds": 0.243,
           "output": "certified Kakuro 1 nodes 16\ncertified Kakuro 2 nodes 36\ncertified Kakuro 3 nodes 33\ncertified Kakuro 4 nodes 23\ncertified Kakuro 5 nodes 22\ncertified Kakuro 6 nodes 13\ncertified Kakuro 7 nodes 19\ncertified Kakuro 8 nodes 25\ncertified Kakuro 9 nodes 12\ncertified Kakuro 10 nodes 11\ncertified Kakuro 11 nodes 21\ncertified Kakuro 12 nodes 16\ncertified Kakuro 13 nodes 67\ncertified Kakuro 14 nodes 39\ncertified Kakuro 15 nodes 24\ncertified Kakuro 16 nodes 18\ncertified Kakuro 17 nodes 31\ncertified Kakuro 18 nodes 26\ncertified Kakuro 19 nodes 18\ncertified Kakuro 20 nodes 42\ncertified Kakuro 21 nodes 42\ncertified Kakuro 22 nodes 65\ncertified Kakuro 23 nodes 22\ncertified Kakuro 24 nodes 35\ncertified Kakuro 25 nodes 85\ncertified Kakuro 26 nodes 33\ncertified Kakuro 27 nodes 30\ncertified Kakuro 28 nodes 105\ncertified Kakuro 29 nodes 83\ncertified Kakuro 30 nodes 44\ncertified Kakuro 31 nodes 146\ncertified Kakuro 32 nodes 105\ncertified Kakuro 33 nodes 61\ncertified Kakuro 34 nodes 57\ncertified Kakuro 35 nodes 47\ncertified Kakuro 36 nodes 57\ncertified Kakuro 37 nodes 38\ncertified Kakuro 38 nodes 76\ncertified Kakuro 39 nodes 95\ncertified Kakuro 40 nodes 30\ncertified Kakuro 41 nodes 120\ncertified Kakuro 42 nodes 56\ncertified Kakuro 43 nodes 157\ncertified Kakuro 44 nodes 127\ncertified Kakuro 45 nodes 41\ncertified Kakuro 46 nodes 51\ncertified Kakuro 47 nodes 89\ncertified Kakuro 48 nodes 52\ncertified Kakuro 49 nodes 67\ncertified Kakuro 50 nodes 68",
           "stderr": ""
         },
         {
           "command": "node games/kakuro/engine-test.cjs",
           "passed": true,
-          "seconds": 0.087,
+          "seconds": 0.103,
           "output": "Kakuro independent-count, arbitrary-win, malformed-input, overlap, sum and contradiction-safe hint fixtures passed",
           "stderr": ""
         },
         {
           "command": "node games/kakuro/ui-test.cjs kakuro",
           "passed": true,
-          "seconds": 4.757,
+          "seconds": 4.667,
           "output": "{\n  \"game\": \"kakuro\",\n  \"manualSolutionFlows\": 50,\n  \"hintCompletionFlows\": 50,\n  \"wrongValueRecoveryFlows\": 50,\n  \"passed\": [\n    \"50-level selector\",\n    \"arbitrary correct final board wins\",\n    \"reset confirmation and cancel\",\n    \"numeric and delete keyboard events\",\n    \"keyboard focus retention\",\n    \"arrow movement\",\n    \"undo retains assistance\",\n    \"demo preserves values and never awards completion\",\n    \"progress save/reload\",\n    \"invalid JSON and malicious state recovery\",\n    \"storage denied fallback\",\n    \"help modal\",\n    \"last-level boundary\"\n  ],\n  \"visualBrowserQA\": \"Not run: browser and local preview were unavailable for this assigned task. These are DOM integration tests, not browser rendering tests.\"\n}",
           "stderr": ""
         }
@@ -1466,21 +1466,21 @@
         {
           "command": "node games/masyu/test.cjs",
           "passed": true,
-          "seconds": 0.314,
+          "seconds": 0.226,
           "output": "Masyu: 419 rule, uniqueness and state-flow assertions passed",
           "stderr": ""
         },
         {
           "command": "node games/masyu/test-ui.cjs",
           "passed": true,
-          "seconds": 0.12,
+          "seconds": 0.101,
           "output": "masyu: 25 DOM-controller assertions passed (not browser visual QA)",
           "stderr": ""
         },
         {
           "command": "python3 games/masyu/verify.py",
           "passed": true,
-          "seconds": 0.269,
+          "seconds": 0.212,
           "output": "Masyu 01: unique; 1 independent search nodes\nMasyu 02: unique; 1 independent search nodes\nMasyu 03: unique; 1 independent search nodes\nMasyu 04: unique; 1 independent search nodes\nMasyu 05: unique; 1 independent search nodes\nMasyu 06: unique; 1 independent search nodes\nMasyu 07: unique; 1 independent search nodes\nMasyu 08: unique; 5 independent search nodes\nMasyu 09: unique; 1 independent search nodes\nMasyu 10: unique; 1 independent search nodes\nMasyu 11: unique; 1 independent search nodes\nMasyu 12: unique; 1 independent search nodes\nMasyu 13: unique; 7 independent search nodes\nMasyu 14: unique; 3 independent search nodes\nMasyu 15: unique; 3 independent search nodes\nMasyu 16: unique; 3 independent search nodes\nMasyu 17: unique; 1 independent search nodes\nMasyu 18: unique; 1 independent search nodes\nMasyu 19: unique; 7 independent search nodes\nMasyu 20: unique; 1 independent search nodes\nMasyu 21: unique; 11 independent search nodes\nMasyu 22: unique; 1 independent search nodes\nMasyu 23: unique; 1 independent search nodes\nMasyu 24: unique; 1 independent search nodes\nMasyu 25: unique; 5 independent search nodes\nMasyu 26: unique; 5 independent search nodes\nMasyu 27: unique; 3 independent search nodes\nMasyu 28: unique; 11 independent search nodes\nMasyu 29: unique; 1 independent search nodes\nMasyu 30: unique; 7 independent search nodes\nMasyu 31: unique; 7 independent search nodes\nMasyu 32: unique; 3 independent search nodes\nMasyu 33: unique; 9 independent search nodes\nMasyu 34: unique; 15 independent search nodes\nMasyu 35: unique; 7 independent search nodes\nMasyu 36: unique; 3 independent search nodes\nMasyu 37: unique; 11 independent search nodes\nMasyu 38: unique; 3 independent search nodes\nMasyu 39: unique; 3 independent search nodes\nMasyu 40: unique; 7 independent search nodes\nMasyu 41: unique; 1 independent search nodes\nMasyu 42: unique; 3 independent search nodes\nMasyu 43: unique; 19 independent search nodes\nMasyu 44: unique; 9 independent search nodes\nMasyu 45: unique; 13 independent search nodes\nMasyu 46: unique; 17 independent search nodes\nMasyu 47: unique; 5 independent search nodes\nMasyu 48: unique; 43 independent search nodes\nMasyu 49: unique; 7 independent search nodes\nMasyu 50: unique; 5 independent search nodes\nPASS: 50 proof-valid, unique, symmetry-distinct Masyu puzzles",
           "stderr": ""
         }
@@ -1498,7 +1498,7 @@
         "test-ui.cjs": "6709be2a3a40c3848fc511620630b36f4146241324f81105841adaa706f00489",
         "test.cjs": "bf55914530b3bc758e64cec5c92484698e08b53c1120a2d3cb3baf968a600fac",
         "ui-test-report.json": "d64afba0db1718f30fbbaaf38e6e5eb72c4226cea467783b9039cdaff1384ca9",
-        "verification-report.json": "bc174e510861505cb8d5296100b6cfe7065f71e5267dce8a949800e2238df832",
+        "verification-report.json": "9fd509de934b1e99298fecf5963ae56cb993d3ed0fcf36c928f5f74e71c18949",
         "verify.py": "9b45ed67ef0a914af1a94b43f6326f5893b80fcab0d396e889661b4819446145"
       },
       "uniqueSolutionCounts": [
@@ -1713,21 +1713,21 @@
         {
           "command": "node games/net/test.cjs",
           "passed": true,
-          "seconds": 0.137,
+          "seconds": 0.112,
           "output": "Net: 416 rule, uniqueness and state-flow assertions passed",
           "stderr": ""
         },
         {
           "command": "node games/net/test-ui.cjs",
           "passed": true,
-          "seconds": 0.129,
+          "seconds": 0.101,
           "output": "net: 30 DOM-controller assertions passed (not browser visual QA)",
           "stderr": ""
         },
         {
           "command": "python3 games/net/verify.py",
           "passed": true,
-          "seconds": 0.091,
+          "seconds": 0.075,
           "output": "Net 01: unique; 1 independent search nodes\nNet 02: unique; 1 independent search nodes\nNet 03: unique; 1 independent search nodes\nNet 04: unique; 1 independent search nodes\nNet 05: unique; 1 independent search nodes\nNet 06: unique; 1 independent search nodes\nNet 07: unique; 1 independent search nodes\nNet 08: unique; 1 independent search nodes\nNet 09: unique; 1 independent search nodes\nNet 10: unique; 1 independent search nodes\nNet 11: unique; 1 independent search nodes\nNet 12: unique; 1 independent search nodes\nNet 13: unique; 1 independent search nodes\nNet 14: unique; 1 independent search nodes\nNet 15: unique; 1 independent search nodes\nNet 16: unique; 1 independent search nodes\nNet 17: unique; 1 independent search nodes\nNet 18: unique; 1 independent search nodes\nNet 19: unique; 1 independent search nodes\nNet 20: unique; 1 independent search nodes\nNet 21: unique; 1 independent search nodes\nNet 22: unique; 1 independent search nodes\nNet 23: unique; 1 independent search nodes\nNet 24: unique; 1 independent search nodes\nNet 25: unique; 1 independent search nodes\nNet 26: unique; 1 independent search nodes\nNet 27: unique; 1 independent search nodes\nNet 28: unique; 1 independent search nodes\nNet 29: unique; 1 independent search nodes\nNet 30: unique; 1 independent search nodes\nNet 31: unique; 1 independent search nodes\nNet 32: unique; 1 independent search nodes\nNet 33: unique; 1 independent search nodes\nNet 34: unique; 1 independent search nodes\nNet 35: unique; 1 independent search nodes\nNet 36: unique; 1 independent search nodes\nNet 37: unique; 1 independent search nodes\nNet 38: unique; 1 independent search nodes\nNet 39: unique; 1 independent search nodes\nNet 40: unique; 1 independent search nodes\nNet 41: unique; 1 independent search nodes\nNet 42: unique; 1 independent search nodes\nNet 43: unique; 1 independent search nodes\nNet 44: unique; 1 independent search nodes\nNet 45: unique; 3 independent search nodes\nNet 46: unique; 1 independent search nodes\nNet 47: unique; 1 independent search nodes\nNet 48: unique; 1 independent search nodes\nNet 49: unique; 1 independent search nodes\nNet 50: unique; 1 independent search nodes\nPASS: 50 proof-valid, unique, symmetry-distinct Net puzzles",
           "stderr": ""
         }
@@ -1745,7 +1745,7 @@
         "test-ui.cjs": "6709be2a3a40c3848fc511620630b36f4146241324f81105841adaa706f00489",
         "test.cjs": "90472a6307a67daafe129dc7c79896bf4510e2c5f9fd07c78979bf4033813d07",
         "ui-test-report.json": "6ba688c061e5e2e275cee109771fdebca6a1f777974b850c440967b342933388",
-        "verification-report.json": "2eb1505f133ed69282f7828c1be2cb62c8fa7f1dc0b3edb2b58b9788ffd93619",
+        "verification-report.json": "cbbcfa06f250a9805994ce0483f24758d666ff2720cd018e5cf2edf157f6032c",
         "verify.py": "bbae8b72cf1f0631d127a23919494e95d0c86ea09902b11e781089286437f2fc"
       },
       "uniqueSolutionCounts": [
@@ -1960,21 +1960,21 @@
         {
           "command": "node games/black-box/verify-independent.cjs",
           "passed": true,
-          "seconds": 4.392,
+          "seconds": 4.054,
           "output": "Independent exhaustive group 4 2 120 passed\nIndependent exhaustive group 4 3 560 passed\nIndependent exhaustive group 5 3 2300 passed\nIndependent exhaustive group 5 4 12650 passed\nIndependent exhaustive group 6 4 58905 passed\n{\n  passed: true,\n  levels: 50,\n  tracesExamined: 1723600,\n  dihedralDuplicates: 0,\n  sourceFixtureAssertions: 12,\n  method: 'independent-padded-matrix-cardinal-tracer; exhaustive complete signatures',\n  results: [\n    { level: 1, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 2, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 3, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 4, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 5, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 6, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 7, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 8, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 9, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 10, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 11, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 12, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 13, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 14, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 15, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 16, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 17, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 18, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 19, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 20, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 21, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 22, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 23, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 24, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 25, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 26, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 27, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 28, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 29, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 30, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 31, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 32, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 33, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 34, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 35, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 36, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 37, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 38, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 39, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 40, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 41, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 42, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 43, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 44, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 45, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 46, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 47, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 48, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 49, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 50, n: 6, k: 4, candidates: 58905, solutions: 1 }\n  ]\n}",
           "stderr": ""
         },
         {
           "command": "node games/black-box/test.cjs",
           "passed": true,
-          "seconds": 0.111,
+          "seconds": 0.099,
           "output": "{\n  passed: true,\n  levels: 50,\n  fixtureCases: 7,\n  assertions: 712,\n  tests: [\n    'primary-source rays',\n    'head-on priority',\n    'entry reflection',\n    'single deflection',\n    'double-diagonal reversal',\n    'reciprocity',\n    'all-level solution validation',\n    'false-answer rejection',\n    'saved-action replay',\n    'undo after win',\n    'persistent assistance',\n    'invalid action rejection'\n  ]\n}",
           "stderr": ""
         },
         {
           "command": "node games/black-box/test-ui.cjs",
           "passed": true,
-          "seconds": 0.204,
+          "seconds": 0.196,
           "output": "PASS black-box: 50 actual-handler wins, false-answer rejection, probes/marks or values/notes, undo, non-destructive hint/solution, reset confirmation/cancel, all-level persistence, corruption isolation, forged-win rejection, blocked storage, keyboard, level-50 deep link. No browser/render claim.",
           "stderr": ""
         }
@@ -2207,21 +2207,21 @@
         {
           "command": "node games/skyscrapers/verify-independent.cjs",
           "passed": true,
-          "seconds": 0.113,
+          "seconds": 0.106,
           "output": "{\n  passed: true,\n  levels: 50,\n  dihedralDuplicates: 0,\n  method: 'independent row/column domain propagation and branching; limit 2',\n  results: [\n    { level: 1, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 2, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 3, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 4, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 5, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 6, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 7, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 8, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 9, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 10, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 11, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 12, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 13, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 14, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 15, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 16, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 17, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 18, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 19, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 20, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 21, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 22, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 23, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 24, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 25, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 26, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 27, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 28, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 29, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 30, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 31, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 32, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 33, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 34, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 35, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 36, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 37, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 38, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 39, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 40, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 41, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 42, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 43, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 44, n: 6, solutions: 1, independentSearchNodes: 3 },\n    { level: 45, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 46, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 47, n: 6, solutions: 1, independentSearchNodes: 3 },\n    { level: 48, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 49, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 50, n: 6, solutions: 1, independentSearchNodes: 1 }\n  ]\n}",
           "stderr": ""
         },
         {
           "command": "node games/skyscrapers/test.cjs",
           "passed": true,
-          "seconds": 5.6,
+          "seconds": 5.588,
           "output": "{\n  passed: true,\n  levels: 50,\n  visibilityFixtures: 4,\n  assertions: 755,\n  tests: [\n    'visibility from both directions',\n    'empty puzzle is nonunique',\n    'contradictory givens rejected',\n    'all-level unique counts in two solvers',\n    'Latin constraints',\n    'clue constraints',\n    'false-answer rejection',\n    'saved-action replay',\n    'undo after win',\n    'persistent assistance',\n    'pencil notes',\n    'invalid action rejection'\n  ]\n}",
           "stderr": ""
         },
         {
           "command": "node games/skyscrapers/test-ui.cjs",
           "passed": true,
-          "seconds": 0.742,
+          "seconds": 0.766,
           "output": "PASS skyscrapers: 50 actual-handler wins, false-answer rejection, probes/marks or values/notes, undo, non-destructive hint/solution, reset confirmation/cancel, all-level persistence, corruption isolation, forged-win rejection, blocked storage, keyboard, level-50 deep link. No browser/render claim.",
           "stderr": ""
         }

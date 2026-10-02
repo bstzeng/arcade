@@ -1,0 +1,1233 @@
+{
+  "passed": true,
+  "build": "20261002-tabletop-ai",
+  "registryCount": 67,
+  "tabletopGames": 10,
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "modes": [
+    "same-device multiplayer",
+    "human versus AI"
+  ],
+  "preservedOriginalGames": 57,
+  "preservedOriginalAssets": 631,
+  "baseCommit": "55df13b2262e0265cfcba3bdc36793ad0f24ca66",
+  "unchangedContent": {
+    "puzzleLevels": 2000,
+    "cardDeals": 250
+  },
+  "claims": {
+    "boundedAI": true,
+    "perfectPlay": false,
+    "onlineMultiplayer": false,
+    "fixedLevelCountNotApplicable": true,
+    "controllerTestsAreNotBrowserVisualTests": true,
+    "mobileBrowserTestingClaimed": false
+  },
+  "suites": [
+    {
+      "game": "reversi",
+      "checks": [
+        {
+          "command": "node games/reversi/rules-tests.cjs",
+          "passed": true,
+          "seconds": 2.803,
+          "output": "Reversi rules/AI: 36800 assertions, 9 seeded complete games, 540 legal moves, 8 passes",
+          "stderr": ""
+        },
+        {
+          "command": "node games/reversi/controller-tests.cjs",
+          "passed": true,
+          "seconds": 0.12,
+          "output": "reversi controller: 91 assertions passed",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "21f9b8407289d03a7fafb8bcabc2c193ff2b02c3ea564cb4b84388737e5ce525",
+        "app.js": "218209b36572910c3bdbf093c154fc0b1676f7efe038063676571d65e052fe0b",
+        "controller-tests.cjs": "80689db05cebb2fee705633e74b037846b3d8738229e22769a64bbfe76bacc4c",
+        "engine.js": "cf8b64d31d73d30d82ae9a7123f509e8bc697825c79fcd8e056f9fb8edac90a6",
+        "rules-tests.cjs": "f168af6e9474d6b8c9457d6257d14dc45fdfc28f8a6a0a96b7ec0cd8a7eed759",
+        "session.js": "31fc0ca83db6c1f1efeb259007c2176824e9b4e0c7640a9a6aeab46f2a15433e",
+        "style.css": "052623cdfab3b30a73d52d0288f52aca59dcbbd739a548d767914b483df4ec74",
+        "verification.json": "69a25df56566296863ed5dea18c1d0b647c5d5bc355bdef661ab31ae25362b4c",
+        "worker.js": "7b3b763b2ad01c7331fe83bb78bb1f2aeaebd4dcdb5ef64bfcb578b730089543"
+      },
+      "entrySHA256": "710a82a617d70b28212443b1eff04411b1b6c51477220a88bf217496c0a2f98d",
+      "evidence": {
+        "schemaVersion": 1,
+        "game": "reversi",
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "rules": {
+          "passed": true,
+          "assertions": 36800,
+          "fixtures": 9,
+          "independentOracle": true
+        },
+        "AI": {
+          "passed": true,
+          "legalAllDifficulties": true,
+          "defaultEffort": {
+            "easy": {
+              "nodes": 4,
+              "depth": 1
+            },
+            "normal": {
+              "nodes": 72,
+              "depth": 3
+            },
+            "hard": {
+              "nodes": 1388,
+              "depth": 6
+            }
+          }
+        },
+        "tactics": {
+          "passed": true,
+          "fixtures": 9,
+          "description": "Corner capture at each difficulty; six independently exhaustively solved endgame outcomes"
+        },
+        "selfPlay": {
+          "passed": true,
+          "games": 9,
+          "moves": 540,
+          "passes": 8,
+          "terminalCount": 9,
+          "seeds": [
+            "easy:173",
+            "easy:346",
+            "easy:519",
+            "normal:173",
+            "normal:346",
+            "normal:519",
+            "hard:173",
+            "hard:346",
+            "hard:519"
+          ]
+        },
+        "browserQA": "Not run here; publisher performs deployed browser QA",
+        "passed": true,
+        "controller": {
+          "passed": true,
+          "assertions": 91,
+          "coverage": [
+            "local play and single undo",
+            "AI round undo",
+            "human white and AI opening",
+            "replay save and restore",
+            "invalid and blocked storage",
+            "reset confirmation and cancel",
+            "mode-change confirmation and cancel",
+            "pause, help and resume",
+            "worker error fallback",
+            "out-of-order result cancellation",
+            "undo/reset cancellation",
+            "async fallback yielding and abort",
+            "keyboard navigation",
+            "page lifecycle"
+          ]
+        }
+      }
+    },
+    {
+      "game": "gomoku",
+      "checks": [
+        {
+          "command": "node games/gomoku/rules-tests.cjs",
+          "passed": true,
+          "seconds": 2.787,
+          "output": "Gomoku rules/AI: 92046 assertions, 9 seeded complete games, 396 legal moves",
+          "stderr": ""
+        },
+        {
+          "command": "node games/gomoku/controller-tests.cjs",
+          "passed": true,
+          "seconds": 0.139,
+          "output": "gomoku controller: 91 assertions passed",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "b8a903a5d07297256b12600f988ecf8c368694847f42414fb065f7069403cb86",
+        "app.js": "218209b36572910c3bdbf093c154fc0b1676f7efe038063676571d65e052fe0b",
+        "controller-tests.cjs": "80689db05cebb2fee705633e74b037846b3d8738229e22769a64bbfe76bacc4c",
+        "engine.js": "fbabaefd154fc28ee17d563fd5944a58912a987acb693aa01ad6c76a79f01d35",
+        "rules-tests.cjs": "0491818427374020f4f9c2b7d15df2d44d80ad6f29c841de2502b3f8bdd7728f",
+        "session.js": "31fc0ca83db6c1f1efeb259007c2176824e9b4e0c7640a9a6aeab46f2a15433e",
+        "style.css": "052623cdfab3b30a73d52d0288f52aca59dcbbd739a548d767914b483df4ec74",
+        "verification.json": "d93eeba477299dac924ec355139b2a9b8cd3f7e72fb6b6f3fd20db8177c39e17",
+        "worker.js": "7b3b763b2ad01c7331fe83bb78bb1f2aeaebd4dcdb5ef64bfcb578b730089543"
+      },
+      "entrySHA256": "9179e3454bec7e8d92f8e68f011ddadb28dd0741065bc56ef927842fc0b81133",
+      "evidence": {
+        "schemaVersion": 1,
+        "game": "gomoku",
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "rules": {
+          "passed": true,
+          "assertions": 92046,
+          "fixtures": 14,
+          "independentOracle": true
+        },
+        "AI": {
+          "passed": true,
+          "legalAllDifficulties": true,
+          "defaultEffort": {
+            "easy": {
+              "nodes": 1,
+              "depth": 1
+            },
+            "normal": {
+              "nodes": 10,
+              "depth": 2
+            },
+            "hard": {
+              "nodes": 334,
+              "depth": 4
+            }
+          }
+        },
+        "tactics": {
+          "passed": true,
+          "fixtures": 14,
+          "description": "Immediate five and opponent-four blocks at all strengths, plus open-four forced win verified against every legal reply"
+        },
+        "selfPlay": {
+          "passed": true,
+          "games": 9,
+          "moves": 396,
+          "terminalCount": 9,
+          "seeds": [
+            "easy:179",
+            "easy:358",
+            "easy:537",
+            "normal:179",
+            "normal:358",
+            "normal:537",
+            "hard:179",
+            "hard:358",
+            "hard:537"
+          ]
+        },
+        "browserQA": "Not run here; publisher performs deployed browser QA",
+        "passed": true,
+        "controller": {
+          "passed": true,
+          "assertions": 91,
+          "coverage": [
+            "local play and single undo",
+            "AI round undo",
+            "human white and AI opening",
+            "replay save and restore",
+            "invalid and blocked storage",
+            "reset confirmation and cancel",
+            "mode-change confirmation and cancel",
+            "pause, help and resume",
+            "worker error fallback",
+            "out-of-order result cancellation",
+            "undo/reset cancellation",
+            "async fallback yielding and abort",
+            "keyboard navigation",
+            "page lifecycle"
+          ]
+        }
+      }
+    },
+    {
+      "game": "connect-four",
+      "checks": [
+        {
+          "command": "node games/connect-four/test.cjs",
+          "passed": true,
+          "seconds": 0.819,
+          "output": "{\"game\":\"connect-four\",\"passed\":true,\"rules\":5,\"seededMatches\":6,\"controllerGroups\":9}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "8c15b1e16a25e5c8e2f60cc72c2a9da9322fdecae1576127bf033070b6986f06",
+        "app.js": "e3e973d7dad37aa029ac33aaa4905678b8bbf898bfe100f96c859bf20450faf7",
+        "controller-report.json": "fc1701e6f713a00688898ec8afe95fc566308e4f0e9aca48c9369a2e94cb8610",
+        "controller-tests.cjs": "fa12b39085e9b4c7f2ad6823e910771874cf89f74dc2bb9c301a0daf7606dbde",
+        "engine.js": "5e550971bff0c79574d011ab64e56f9ac3a734bd04b6778026ea0f311daa9a28",
+        "rules-report.json": "e8d7ca6656ac27c76c68c396690ab471b7fa35e10ac0075b3ffdf7f00b23af71",
+        "rules-tests.cjs": "49cd91ed92e04de6ebbae2bca2fed84b345b39ea36efdae8392c70af9beb53df",
+        "session.js": "9ba906d7c07efb32c364679404888a26984564d45c2cdb67f81d3d3285c29945",
+        "style.css": "32dcd1a092a42a7874ed6a815b1ec2c8f7b78c0578ba8c3f9cee77be31eabe3f",
+        "test.cjs": "36c335d757124f18426d3ed0062df5a7f17d7975f905a341bbb28da054d794d8",
+        "verification.json": "d51a1467d261471c841d681c5b01ca0a2af8e5ac4d178a5c3243d8d1d56be7c0",
+        "worker.js": "56dacdb57033299bf931b53b8e615721317a03fc3045a9c803da81dc0d72a128"
+      },
+      "entrySHA256": "c9c7f2c036c7e0f2324638e8980326b65552600af0cf9f6e20f3fad7c38a2223",
+      "evidence": {
+        "game": "connect-four",
+        "passed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "rules": {
+          "count": 5,
+          "names": [
+            "initial 7-by-6 board and gravity",
+            "full column and illegal moves rejected",
+            "horizontal, vertical and both diagonals",
+            "legal 42-turn draw replay",
+            "difficulty search budgets and depths differ"
+          ]
+        },
+        "ai": {
+          "easy": {
+            "legal": true,
+            "immediateWin": true,
+            "immediateBlock": true,
+            "openingDepth": 2,
+            "openingNodes": 63,
+            "maxDepth": 2
+          },
+          "normal": {
+            "legal": true,
+            "immediateWin": true,
+            "immediateBlock": true,
+            "openingDepth": 5,
+            "openingNodes": 2647,
+            "maxDepth": 5
+          },
+          "hard": {
+            "legal": true,
+            "immediateWin": true,
+            "immediateBlock": true,
+            "openingDepth": 7,
+            "openingNodes": 52480,
+            "maxDepth": 9
+          }
+        },
+        "selfPlay": [
+          {
+            "seed": 1,
+            "plies": 35,
+            "result": {
+              "winner": 1,
+              "reason": "four",
+              "cells": [
+                16,
+                24,
+                32,
+                40
+              ]
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 2,
+            "plies": 37,
+            "result": {
+              "winner": 1,
+              "reason": "four",
+              "cells": [
+                3,
+                11,
+                19,
+                27
+              ]
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 3,
+            "plies": 35,
+            "result": {
+              "winner": 1,
+              "reason": "four",
+              "cells": [
+                3,
+                9,
+                15,
+                21
+              ]
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 4,
+            "plies": 38,
+            "result": {
+              "winner": -1,
+              "reason": "four",
+              "cells": [
+                18,
+                24,
+                30,
+                36
+              ]
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 5,
+            "plies": 41,
+            "result": {
+              "winner": 1,
+              "reason": "four",
+              "cells": [
+                3,
+                11,
+                19,
+                27
+              ]
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 6,
+            "plies": 38,
+            "result": {
+              "winner": -1,
+              "reason": "four",
+              "cells": [
+                18,
+                24,
+                30,
+                36
+              ]
+            },
+            "legalEveryTurn": true
+          }
+        ],
+        "controller": {
+          "passed": true,
+          "count": 9,
+          "names": [
+            "human AI reply, locked turns, round undo and local single-turn undo",
+            "undo during AI cancels worker and ignores late result",
+            "reset and mode changes invalidate stale and rejected AI jobs",
+            "AI first move, legal fallback and terminal lock",
+            "save replay, history, settings, invalid saves and pending restore",
+            "actual UI board, click flow, worker reply, undo and save reload",
+            "actual UI confirms/cancels reset and setting changes; stale response ignored",
+            "actual UI keyboard, selection cancel, help and local undo",
+            "storage unavailable, malformed save, worker fallback and page lifecycle"
+          ],
+          "coverage": "Pure session plus actual app.js in lightweight DOM; not browser rendering verification"
+        }
+      }
+    },
+    {
+      "game": "checkers",
+      "checks": [
+        {
+          "command": "node games/checkers/test.cjs",
+          "passed": true,
+          "seconds": 3.366,
+          "output": "{\"game\":\"checkers\",\"passed\":true,\"rules\":11,\"seededMatches\":6,\"controllerGroups\":10}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "e58f31b9755e5d49d997a8f8ddb1025ea9ad6a5ed372a477f70ad340515c2f93",
+        "app.js": "552f0e6dec0af7f363810bcac8893afbe013a14ee931f4972ab7647a8732b4f1",
+        "controller-report.json": "5f41ccba8ed4b11d619ff02d313a3d3a4fd3f3b87cd7624173ad82543cd9c91a",
+        "controller-tests.cjs": "7f1f92eead84da3f049746a1b89b06c8f1e3b89ad0765437ada63d14fb2558b3",
+        "engine.js": "0ace4d815dccdf7595a3678e5776149d9c46b00fb1715e44ee1b6fb3b210013e",
+        "rules-report.json": "4b7ad79cf9205e48df0a58df658861bf963f950f61e04c2182f2eba0006fa6dd",
+        "rules-tests.cjs": "ad1a8dd5fb8287a7c010ad385fe3646f092b5bb7344528dd00d8e9ffb52820ec",
+        "session.js": "9ba906d7c07efb32c364679404888a26984564d45c2cdb67f81d3d3285c29945",
+        "style.css": "ed59ec5adbb449265d0df06a57f70aff80ebf47590a46243ead600bc42353211",
+        "test.cjs": "285d72206521d24db66411ab8bce0a60338d78a9fbbf23b3541a18ecd4c23c4c",
+        "verification.json": "52acf8631d70853ea80d2b1bb7ca2554adc9ea54292606ce99e7221c9195ce52",
+        "worker.js": "f92cf98369a5724669cab2a7aa53114ddc93b8b427cf69b7b1c9112f790f644f"
+      },
+      "entrySHA256": "c154293e10585434193f43c15cf540688c0f84fcb5bd86e0412597429b0c19b1",
+      "evidence": {
+        "game": "checkers",
+        "passed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "rules": {
+          "count": 11,
+          "names": [
+            "standard 8-by-8 opening, red first, twelve per side",
+            "men only move and capture forwards, kings both ways",
+            "global capture priority and complete multi-jump enforcement",
+            "no maximum capture obligation and capture choice",
+            "crowning stops capture immediately, new king cannot continue",
+            "blue crowns on bottom row and simple promotion",
+            "no pieces or no legal move loses",
+            "same position and side three times automatically draws",
+            "80 king-only non-capturing half-turns draw; man/capture reset",
+            "engines are immutable and illegal path/capture payload rejected",
+            "difficulty search depths and budgets differ"
+          ]
+        },
+        "ai": {
+          "easy": {
+            "legal": true,
+            "immediateWin": true,
+            "forcedCapture": true,
+            "openingDepth": 2,
+            "openingNodes": 92,
+            "maxDepth": 2
+          },
+          "normal": {
+            "legal": true,
+            "immediateWin": true,
+            "forcedCapture": true,
+            "openingDepth": 5,
+            "openingNodes": 4567,
+            "maxDepth": 5
+          },
+          "hard": {
+            "legal": true,
+            "immediateWin": true,
+            "forcedCapture": true,
+            "openingDepth": 6,
+            "openingNodes": 15488,
+            "maxDepth": 9
+          }
+        },
+        "selfPlay": [
+          {
+            "seed": 1,
+            "plies": 137,
+            "result": {
+              "winner": 1,
+              "reason": "pieces"
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 2,
+            "plies": 119,
+            "result": {
+              "winner": 1,
+              "reason": "pieces"
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 3,
+            "plies": 165,
+            "result": {
+              "winner": 0,
+              "reason": "quiet"
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 4,
+            "plies": 105,
+            "result": {
+              "winner": 1,
+              "reason": "pieces"
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 5,
+            "plies": 213,
+            "result": {
+              "winner": 1,
+              "reason": "pieces"
+            },
+            "legalEveryTurn": true
+          },
+          {
+            "seed": 6,
+            "plies": 108,
+            "result": {
+              "winner": -1,
+              "reason": "pieces"
+            },
+            "legalEveryTurn": true
+          }
+        ],
+        "controller": {
+          "passed": true,
+          "count": 10,
+          "names": [
+            "human AI reply, locked turns, round undo and local single-turn undo",
+            "undo during AI cancels worker and ignores late result",
+            "reset and mode changes invalidate stale and rejected AI jobs",
+            "AI first move, legal fallback and terminal lock",
+            "save replay, history, settings, invalid saves and pending restore",
+            "actual UI board, click flow, worker reply, undo and save reload",
+            "actual UI confirms/cancels reset and setting changes; stale response ignored",
+            "actual UI keyboard, selection cancel, help and local undo",
+            "storage unavailable, malformed save, worker fallback and page lifecycle",
+            "actual UI multi-jump is atomic, cancellable and saved only on completion"
+          ],
+          "coverage": "Pure session plus actual app.js in lightweight DOM; not browser rendering verification"
+        }
+      }
+    },
+    {
+      "game": "chinese-checkers",
+      "checks": [
+        {
+          "command": "node games/chinese-checkers/rules-tests.cjs",
+          "passed": true,
+          "seconds": 1.206,
+          "output": "PASS 121-hole star, six ten-hole arms, all seats\nPASS Adjacent step, jump and multihop legal without capture\nPASS Target lock and illegal opponent move\nPASS Fair blockade win and forced pass draw\nPASS AI legality and invariant preservation all levels and seat counts",
+          "stderr": ""
+        },
+        {
+          "command": "node games/chinese-checkers/controller-tests.cjs",
+          "passed": true,
+          "seconds": 0.116,
+          "output": "PASS Round undo returns human turn and cancels epoch\nPASS Save restore and reject malformed storage\nPASS Restart retains config and clears history\nPASS Guard rejects stale worker after cancel/reset\nPASS UI boot, setup, pause, restart, storage fallback\nPASS UI stale worker response cannot alter restarted game\nController tests: 6",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "db96bbac95084f3b72edc544c03c29b1922802c6b674e8e33ccbd29e0646769d",
+        "app.js": "329f1bab5bad8a9f2b5b1e94f94020414b635a8caa5f6bdf6cc6b6a7dde4b5d8",
+        "controller-tests.cjs": "7ee38565eb669b33e75d382544fa5d7572ebf1e6efc4dcc46bf56a5fa911d8c6",
+        "engine.js": "cb599208400720d0c4139986c68e4059f779441a2660e3affe91b035adf220f4",
+        "rules-tests.cjs": "74442467c0c2758ca17d3e622fe4be3fc5a94ba5168bdfaaaa4e83223dd08e89",
+        "session.js": "d5918d8986174d105ad3e56fe1bc140b9f1be62e790e9bb5b981fb58b88e6773",
+        "style.css": "84888a695c81a637ed4fc5978ebf20c16e8da282a7c781af0125dcb2f6b4f78e",
+        "verification.json": "a59609ecb7924ddbe5a2602186125deffd387344ca14527af64c92ab24bcaa77",
+        "worker.js": "8b429b5a441c9f44511998bf8f503437813064230d9cd1912d3cabec16ec0552"
+      },
+      "entrySHA256": "0917aa9f57705cbda9ffa87e15a5f193243fb382ad58bddf3dc1a4ab2a9ab6df",
+      "evidence": {
+        "game": "chinese-checkers",
+        "rulesTests": 5,
+        "rulesPassed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "seatCounts": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "passed": true,
+        "fixedLevelCountNotApplicable": true,
+        "controllerTests": 6,
+        "controllerPassed": true,
+        "controller": {
+          "passed": true,
+          "tests": 6
+        },
+        "browserVisualTests": false
+      }
+    },
+    {
+      "game": "aeroplane-chess",
+      "checks": [
+        {
+          "command": "node games/aeroplane-chess/rules-tests.cjs",
+          "passed": true,
+          "seconds": 0.225,
+          "output": "PASS 52 unique track spaces and seat layouts\nPASS Six launches without moving and grants extra roll\nPASS Same color jump and ordered shortcut\nPASS Capture all stacked opponents and cross-lane shortcut\nPASS Exact finish, no overshoot, rankings continue\nPASS AI legal all difficulties and player counts",
+          "stderr": ""
+        },
+        {
+          "command": "node games/aeroplane-chess/controller-tests.cjs",
+          "passed": true,
+          "seconds": 0.096,
+          "output": "PASS Round undo returns human turn and cancels epoch\nPASS Save restore and reject malformed storage\nPASS Restart retains config and clears history\nPASS Undo preserves dice tape and pending-roll save\nPASS Guard rejects stale worker after cancel/reset\nPASS UI boot, setup, pause, restart, storage fallback\nPASS UI stale worker response cannot alter restarted game\nController tests: 7",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "1f8e5d42194cab8d2aebdda71a0a5300f8bf156d19505fafbc33fafde96114e3",
+        "app.js": "329f1bab5bad8a9f2b5b1e94f94020414b635a8caa5f6bdf6cc6b6a7dde4b5d8",
+        "controller-tests.cjs": "7ee38565eb669b33e75d382544fa5d7572ebf1e6efc4dcc46bf56a5fa911d8c6",
+        "engine.js": "1948d0fc3cf9f4a0b3886121b8e62ad0623a2f0cb7738244c34c8834581eaa7c",
+        "rules-tests.cjs": "7f4c0a711f0a43d8e195438558e8f9fee3d8dd52da42be0a2ae4ec439d6959cf",
+        "session.js": "d5918d8986174d105ad3e56fe1bc140b9f1be62e790e9bb5b981fb58b88e6773",
+        "style.css": "84888a695c81a637ed4fc5978ebf20c16e8da282a7c781af0125dcb2f6b4f78e",
+        "verification.json": "e06008faa588ba53858c613a20660d2719f7ebc5dc4203ce6b94158eb216bd1f",
+        "worker.js": "8b429b5a441c9f44511998bf8f503437813064230d9cd1912d3cabec16ec0552"
+      },
+      "entrySHA256": "d19ac4731ff2b221ad9d601360ba6575e0a31ee078b9a370e1122afe9f44ac65",
+      "evidence": {
+        "game": "aeroplane-chess",
+        "rulesTests": 6,
+        "rulesPassed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "seatCounts": [
+          2,
+          3,
+          4
+        ],
+        "passed": true,
+        "fixedLevelCountNotApplicable": true,
+        "controllerTests": 7,
+        "controllerPassed": true,
+        "controller": {
+          "passed": true,
+          "tests": 7
+        },
+        "browserVisualTests": false
+      }
+    },
+    {
+      "game": "kalah",
+      "checks": [
+        {
+          "command": "node games/kalah/rules-tests.cjs",
+          "passed": true,
+          "seconds": 0.159,
+          "output": "PASS standard 48 seeds and 6 legal opening pits\nPASS landing in own store keeps the same player\nPASS multiple laps skip opponent store\nPASS own empty pit captures opposite stones and landing seed\nPASS empty opposite pit does not capture own landing seed\nPASS end sweep overrides bonus turn and counts winner\nPASS tied final stores are a draw\nPASS enemy pits, stores and empty pits are rejected without mutation\nPASS easy chooses a six-stone tactical capture\nPASS normal chooses a six-stone tactical capture\nPASS hard chooses a six-stone tactical capture\nPASS seeded legal playout 0\nPASS seeded legal playout 1\nPASS seeded legal playout 2\nPASS seeded legal playout 3\nPASS seeded legal playout 4\nPASS seeded legal playout 5\nPASS seeded legal playout 6\nPASS seeded legal playout 7\nPASS seeded legal playout 8\nPASS seeded legal playout 9\nPASS seeded legal playout 10\nPASS seeded legal playout 11\nPASS full bounded easy AI self-play with legality and terminal checks\nPASS full bounded normal AI self-play with legality and terminal checks\nPASS full bounded hard AI self-play with legality and terminal checks\nPASS save boundary replays moves, discards forged board, rejects invalid transcripts\n{\"passed\":true,\"game\":\"kalah\",\"checks\":27}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/kalah/controller-tests.cjs",
+          "passed": true,
+          "seconds": 0.362,
+          "output": "PASS local mode enables alternating legal actions and disables AI settings\nPASS local undo restores initial state and can be repeated safely\nPASS restart cancellation preserves all actions\nPASS restart approval resets state and stored transcript\nPASS setting cancellation restores displayed and active config\nPASS confirmed settings reset once and use requested difficulty\nPASS save and reload replay the identical local state\nPASS malformed and illegal saves recover to a fresh game\nPASS disabled storage never blocks legal gameplay\nPASS computer first locks board and disallows opening undo\nPASS duplicate worker replies cannot apply the same search twice\nPASS help pauses AI; obsolete worker reply is ignored; closing resumes\nPASS background visibility cancels AI and foreground resumes\nPASS pagehide cancels and pageshow resumes a pending computer turn\nPASS restart prevents obsolete search from mutating the new game\nPASS illegal worker result falls back to a legal move\nPASS worker error falls back to bounded synchronous search\nPASS unsupported worker uses a bounded compatibility search\nPASS wrong worker generation is ignored\nPASS AI undo retracts human turn and pending response\nPASS session save snapshots cannot mutate the live transcript\nPASS local undo retracts an entire bonus-turn chain\nPASS easy worker script returns a legal opening with matching token\nPASS normal worker script returns a legal opening with matching token\nPASS hard worker script returns a legal opening with matching token\n{\"passed\":true,\"game\":\"kalah\",\"controllerChecks\":25}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "978b4eec117eb0b162e21050267c828061e7bcbd5f846f27165b82926c912182",
+        "ai-worker.js": "1f93d1bf94ef519b8b6f44565713a74e9cfde3fce2cfef13dcd9582a4f215d5b",
+        "app.js": "b999586023685519c27d4903353e263ede0f1c8757aaf1b31cc9e8188fa35807",
+        "controller-results.json": "df56f60364864d6b516920ad4fcb294b11b5578df801d65391220638924365fd",
+        "controller-tests.cjs": "a25fdc6c061fc423cfac0c74e366782489e56c2ec0f1eaca17fed35662de70dc",
+        "engine.js": "e727db033904db818fb518fff8e1aa9bfbc1d33efb16c4766c7403f0189449ae",
+        "rule-results.json": "e671fdacf891d5276012f861fb7030af60cfad477820d2f9bbe0e8cfd6f08845",
+        "rules-tests.cjs": "f9ffa03b87793241af674d5df8599f096659021741a5823c9750eb203a93fd4d",
+        "session.js": "bfa349c6eb20b5370fc7f3b4da04bbf62004a4d11bc4252c0e56b219f6fdec0b",
+        "style.css": "34c3fa08df2fdf55592a82d59037aeb78ac1f9fdc987d8774088f5d6b1ffee48",
+        "verification.json": "09773cc5defac4f5b523b300dd813cc236b13ee1c79491ac3827e9b09b18efab"
+      },
+      "entrySHA256": "d07f03c2c8635b2994bfb1da2c9c7162071a8ab994cca80f1a7ce2a18b61bf3e",
+      "evidence": {
+        "game": "kalah",
+        "passed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "checks": [
+          "local mode enables alternating legal actions and disables AI settings",
+          "local undo restores initial state and can be repeated safely",
+          "restart cancellation preserves all actions",
+          "restart approval resets state and stored transcript",
+          "setting cancellation restores displayed and active config",
+          "confirmed settings reset once and use requested difficulty",
+          "save and reload replay the identical local state",
+          "malformed and illegal saves recover to a fresh game",
+          "disabled storage never blocks legal gameplay",
+          "computer first locks board and disallows opening undo",
+          "duplicate worker replies cannot apply the same search twice",
+          "help pauses AI; obsolete worker reply is ignored; closing resumes",
+          "background visibility cancels AI and foreground resumes",
+          "pagehide cancels and pageshow resumes a pending computer turn",
+          "restart prevents obsolete search from mutating the new game",
+          "illegal worker result falls back to a legal move",
+          "worker error falls back to bounded synchronous search",
+          "unsupported worker uses a bounded compatibility search",
+          "wrong worker generation is ignored",
+          "AI undo retracts human turn and pending response",
+          "session save snapshots cannot mutate the live transcript",
+          "local undo retracts an entire bonus-turn chain",
+          "easy worker script returns a legal opening with matching token",
+          "normal worker script returns a legal opening with matching token",
+          "hard worker script returns a legal opening with matching token"
+        ],
+        "visualQA": "Not run by this suite. DOM/Worker harness does not measure browser layout.",
+        "total": 25,
+        "controller": {
+          "passed": true,
+          "checks": 25
+        },
+        "rules": {
+          "passed": true,
+          "game": "kalah",
+          "difficultyLevels": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "rules": {
+            "passed": true,
+            "fixtures": 8
+          },
+          "tactics": [
+            {
+              "level": "easy",
+              "fixture": "six-stone-capture",
+              "move": 1,
+              "depth": 1
+            },
+            {
+              "level": "normal",
+              "fixture": "six-stone-capture",
+              "move": 1,
+              "depth": 5
+            },
+            {
+              "level": "hard",
+              "fixture": "six-stone-capture",
+              "move": 1,
+              "depth": 10
+            }
+          ],
+          "selfPlay": [
+            {
+              "kind": "seeded-random",
+              "seed": 0,
+              "actions": 54,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 1,
+              "actions": 43,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 2,
+              "actions": 70,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 3,
+              "actions": 32,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 4,
+              "actions": 53,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 5,
+              "actions": 23,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 6,
+              "actions": 47,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 7,
+              "actions": 49,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 8,
+              "actions": 43,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 9,
+              "actions": 29,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 10,
+              "actions": 51,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 11,
+              "actions": 37,
+              "result": 0
+            }
+          ],
+          "ai": [
+            {
+              "level": "easy",
+              "actions": 18,
+              "result": 0,
+              "budget": "reduced test budget; real level configuration tested in tactics"
+            },
+            {
+              "level": "normal",
+              "actions": 40,
+              "result": 0,
+              "budget": "reduced test budget; real level configuration tested in tactics"
+            },
+            {
+              "level": "hard",
+              "actions": 44,
+              "result": 0,
+              "budget": "reduced test budget; real level configuration tested in tactics"
+            }
+          ],
+          "checks": 27
+        }
+      }
+    },
+    {
+      "game": "nine-mens-morris",
+      "checks": [
+        {
+          "command": "node games/nine-mens-morris/rules-tests.cjs",
+          "passed": true,
+          "seconds": 2.521,
+          "output": "PASS board has 24 intersections, 16 mills and symmetric adjacency\nPASS nine reserves each; placement decrements one and alternates\nPASS a mill keeps the turn for capture and protects enemy mills\nPASS when all enemies are in mills any one can be captured\nPASS mill without enemy pieces does not leave a stuck capture phase\nPASS four pieces move adjacent only; three pieces can fly\nPASS under three loses after capture, but not during placement\nPASS blocked player loses after the opponent ends its move\nPASS third identical board plus turn draws in movement phase\nPASS 100 movement actions without capture draw; captures reset clock\nPASS invalid actions do not mutate state\nPASS easy completes a mill and evaluates its capture continuation\nPASS normal completes a mill and evaluates its capture continuation\nPASS hard completes a mill and evaluates its capture continuation\nPASS seeded legal playout 0\nPASS seeded legal playout 1\nPASS seeded legal playout 2\nPASS seeded legal playout 3\nPASS seeded legal playout 4\nPASS seeded legal playout 5\nPASS seeded legal playout 6\nPASS seeded legal playout 7\nPASS seeded legal playout 8\nPASS seeded legal playout 9\nPASS seeded legal playout 10\nPASS seeded legal playout 11\nPASS full bounded easy AI self-play with legality and terminal checks\nPASS full bounded normal AI self-play with legality and terminal checks\nPASS full bounded hard AI self-play with legality and terminal checks\nPASS save boundary replays moves, discards forged board, rejects invalid transcripts\n{\"passed\":true,\"game\":\"nine-mens-morris\",\"checks\":30}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/nine-mens-morris/controller-tests.cjs",
+          "passed": true,
+          "seconds": 2.215,
+          "output": "PASS local mode enables alternating legal actions and disables AI settings\nPASS local undo restores initial state and can be repeated safely\nPASS restart cancellation preserves all actions\nPASS restart approval resets state and stored transcript\nPASS setting cancellation restores displayed and active config\nPASS confirmed settings reset once and use requested difficulty\nPASS save and reload replay the identical local state\nPASS malformed and illegal saves recover to a fresh game\nPASS disabled storage never blocks legal gameplay\nPASS computer first locks board and disallows opening undo\nPASS duplicate worker replies cannot apply the same search twice\nPASS help pauses AI; obsolete worker reply is ignored; closing resumes\nPASS background visibility cancels AI and foreground resumes\nPASS pagehide cancels and pageshow resumes a pending computer turn\nPASS restart prevents obsolete search from mutating the new game\nPASS illegal worker result falls back to a legal move\nPASS worker error falls back to bounded synchronous search\nPASS unsupported worker uses a bounded compatibility search\nPASS wrong worker generation is ignored\nPASS AI undo retracts human turn and pending response\nPASS session save snapshots cannot mutate the live transcript\nPASS mill placement and capture form one local undo unit\nPASS easy worker script returns a legal opening with matching token\nPASS normal worker script returns a legal opening with matching token\nPASS hard worker script returns a legal opening with matching token\n{\"passed\":true,\"game\":\"nine-mens-morris\",\"controllerChecks\":25}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "098905484b1c3f93ae5e7d627e885710699e97ec980ca737cf4b46798722f46e",
+        "ai-worker.js": "1f93d1bf94ef519b8b6f44565713a74e9cfde3fce2cfef13dcd9582a4f215d5b",
+        "app.js": "b999586023685519c27d4903353e263ede0f1c8757aaf1b31cc9e8188fa35807",
+        "controller-results.json": "1f2b251f47fec108064f710cb6267581bd0c1ae52da726f13fc62b12ecea3c31",
+        "controller-tests.cjs": "a25fdc6c061fc423cfac0c74e366782489e56c2ec0f1eaca17fed35662de70dc",
+        "engine.js": "9c5b3a0fbc9b0eb102638d7dd59d5e771ec103aa27a725ccb424b466972c85ea",
+        "rule-results.json": "85a611f256911c93ededc29f23b0cf8f18a4c9b1fe36248a725bc0840edc79e5",
+        "rules-tests.cjs": "f9ffa03b87793241af674d5df8599f096659021741a5823c9750eb203a93fd4d",
+        "session.js": "bfa349c6eb20b5370fc7f3b4da04bbf62004a4d11bc4252c0e56b219f6fdec0b",
+        "style.css": "34c3fa08df2fdf55592a82d59037aeb78ac1f9fdc987d8774088f5d6b1ffee48",
+        "verification.json": "b6076734ccc14ee6004d978fa7c7534f9275e2a21c56478a0d6a6b41040a34d9"
+      },
+      "entrySHA256": "cfa56aeaf6cd3c41205707bdd25fd49bbe3fe897326a591901cb211807a4611c",
+      "evidence": {
+        "game": "nine-mens-morris",
+        "passed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "checks": [
+          "local mode enables alternating legal actions and disables AI settings",
+          "local undo restores initial state and can be repeated safely",
+          "restart cancellation preserves all actions",
+          "restart approval resets state and stored transcript",
+          "setting cancellation restores displayed and active config",
+          "confirmed settings reset once and use requested difficulty",
+          "save and reload replay the identical local state",
+          "malformed and illegal saves recover to a fresh game",
+          "disabled storage never blocks legal gameplay",
+          "computer first locks board and disallows opening undo",
+          "duplicate worker replies cannot apply the same search twice",
+          "help pauses AI; obsolete worker reply is ignored; closing resumes",
+          "background visibility cancels AI and foreground resumes",
+          "pagehide cancels and pageshow resumes a pending computer turn",
+          "restart prevents obsolete search from mutating the new game",
+          "illegal worker result falls back to a legal move",
+          "worker error falls back to bounded synchronous search",
+          "unsupported worker uses a bounded compatibility search",
+          "wrong worker generation is ignored",
+          "AI undo retracts human turn and pending response",
+          "session save snapshots cannot mutate the live transcript",
+          "mill placement and capture form one local undo unit",
+          "easy worker script returns a legal opening with matching token",
+          "normal worker script returns a legal opening with matching token",
+          "hard worker script returns a legal opening with matching token"
+        ],
+        "visualQA": "Not run by this suite. DOM/Worker harness does not measure browser layout.",
+        "total": 25,
+        "controller": {
+          "passed": true,
+          "checks": 25
+        },
+        "rules": {
+          "passed": true,
+          "game": "nine-mens-morris",
+          "difficultyLevels": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "rules": {
+            "passed": true,
+            "fixtures": 11
+          },
+          "tactics": [
+            {
+              "level": "easy",
+              "fixture": "mill-and-capture",
+              "move": {
+                "to": 2
+              },
+              "depth": 1
+            },
+            {
+              "level": "normal",
+              "fixture": "mill-and-capture",
+              "move": {
+                "to": 2
+              },
+              "depth": 3
+            },
+            {
+              "level": "hard",
+              "fixture": "mill-and-capture",
+              "move": {
+                "to": 2
+              },
+              "depth": 4
+            }
+          ],
+          "selfPlay": [
+            {
+              "kind": "seeded-random",
+              "seed": 0,
+              "actions": 179,
+              "result": "quiet"
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 1,
+              "actions": 191,
+              "result": "repetition"
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 2,
+              "actions": 76,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 3,
+              "actions": 150,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 4,
+              "actions": 108,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 5,
+              "actions": 171,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 6,
+              "actions": 158,
+              "result": 1
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 7,
+              "actions": 89,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 8,
+              "actions": 250,
+              "result": "quiet"
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 9,
+              "actions": 129,
+              "result": 0
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 10,
+              "actions": 164,
+              "result": "quiet"
+            },
+            {
+              "kind": "seeded-random",
+              "seed": 11,
+              "actions": 231,
+              "result": 1
+            }
+          ],
+          "ai": [
+            {
+              "level": "easy",
+              "actions": 67,
+              "result": 1,
+              "budget": "reduced test budget; real level configuration tested in tactics"
+            },
+            {
+              "level": "normal",
+              "actions": 64,
+              "result": 0,
+              "budget": "reduced test budget; real level configuration tested in tactics"
+            },
+            {
+              "level": "hard",
+              "actions": 64,
+              "result": 0,
+              "budget": "reduced test budget; real level configuration tested in tactics"
+            }
+          ],
+          "checks": 30
+        }
+      }
+    },
+    {
+      "game": "quoridor",
+      "checks": [
+        {
+          "command": "node games/quoridor/rules-tests.cjs",
+          "passed": true,
+          "seconds": 4.617,
+          "output": "PASS initial state, legal movement and immutable apply\nPASS straight jump, blocked diagonal and edge diagonal\nPASS overlap, crossing, endpoint and path preservation\nPASS goal ends play for both players\nPASS all AI difficulties legal and immediate win\nPASS save, corrupted imports, local and AI undo\nPASS late worker results ignored after undo/restart/load\n{\"game\":\"quoridor\",\"checks\":7,\"passed\":true}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/quoridor/controller-tests.cjs",
+          "passed": true,
+          "seconds": 0.136,
+          "output": "{\"passed\":true,\"count\":6,\"names\":[\"worker constructor, transport, runtime and invalid replies recover\",\"actual UI local play, reload, replay and undo\",\"actual UI reset confirmation and cancellation; settings cancellation\",\"actual UI AI turn locking, stale results after reset and undo\",\"actual UI worker results, save and interrupted page lifecycle\",\"actual UI malformed storage, unavailable storage and worker retry\"],\"coverage\":\"Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support\"}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "98240e6a7f90823faa9eddd5e3fe6c988adfcbfa40e96cfef6d5aa19732d9b71",
+        "app.js": "06ce82298fbcc48e3a86730d45014fc923d237985635457f596b1ddc95c1b610",
+        "browser-tests.cjs": "1c7405a3b2ec4202e470150b6d0808e793823ff1429690d82cea9d1f4e8020ea",
+        "controller-report.json": "0344064d389caa4830a4b7cb54bf98137f577632bdf995a67acb0f723d1a8dba",
+        "controller-tests.cjs": "d81b59d491ef5d84090303fe7ba3144db24ad4952c47a851ac85a0170f8760ac",
+        "engine.js": "783cb82011d1f28fcacc6af95ae8134a5485b79953b08b0f57f27c2b351486ab",
+        "rules-tests.cjs": "20f91cffb0a95955ec7bebe6024e79c5bc2cb30234703a1ef09597dfbf519194",
+        "session.js": "15494897dd471d9599481c0e804656c6ad44a1bac678a076fe9c15a024104b61",
+        "style.css": "f0673bed2a039f837199a480edff5f7d344282ccb6e3c90059ee9e8b6ef79efe",
+        "ui.js": "8910c6c431a5def0c9f2b22538a852bff402f9479eb4a59bb93a8b3e9d87a698",
+        "verification.json": "7a1377db86573f186ac0cfa5d9e7902909cf5ef366103de11126c02e559d18f4",
+        "worker.js": "7f827ac6473905f0f50dab5b856bad90177fc3f187d734456036aa7dd29556b0"
+      },
+      "entrySHA256": "4d76b0615985a33797d7996df55fbab71376c6fb154ec5ea196970d04eb65fe2",
+      "evidence": {
+        "game": "quoridor",
+        "passed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "rules": {
+          "passed": true,
+          "checks": 7
+        },
+        "controller": {
+          "passed": true,
+          "count": 6,
+          "names": [
+            "worker constructor, transport, runtime and invalid replies recover",
+            "actual UI local play, reload, replay and undo",
+            "actual UI reset confirmation and cancellation; settings cancellation",
+            "actual UI AI turn locking, stale results after reset and undo",
+            "actual UI worker results, save and interrupted page lifecycle",
+            "actual UI malformed storage, unavailable storage and worker retry"
+          ],
+          "coverage": "Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support"
+        },
+        "browser": {
+          "passed": false,
+          "status": "not-run",
+          "reason": "Chromium launch blocked by OS socket permissions; runnable browser-tests.cjs supplied"
+        }
+      }
+    },
+    {
+      "game": "quarto",
+      "checks": [
+        {
+          "command": "node games/quarto/rules-tests.cjs",
+          "passed": true,
+          "seconds": 14.82,
+          "output": "PASS 16 unique pieces and give/place turn ownership\nPASS all ten lines and all eight shared trait polarities\nPASS automatic win, full-board draw and terminal guards\nPASS AI legal all difficulties throughout full matches\nPASS AI wins now and never gives an immediate winning piece when safe exists\nPASS round undo, validated save and stale worker safety\n{\"game\":\"quarto\",\"checks\":6,\"passed\":true}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/quarto/controller-tests.cjs",
+          "passed": true,
+          "seconds": 0.095,
+          "output": "{\"passed\":true,\"count\":6,\"names\":[\"worker constructor, transport, runtime and invalid replies recover\",\"actual UI local play, reload, replay and undo\",\"actual UI reset confirmation and cancellation; settings cancellation\",\"actual UI AI turn locking, stale results after reset and undo\",\"actual UI worker results, save and interrupted page lifecycle\",\"actual UI malformed storage, unavailable storage and worker retry\"],\"coverage\":\"Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support\"}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "90053737f69fdd658c7700ff3fbcf7886f8fb5b9d6928169388e9931bc314e41",
+        "app.js": "c8a23bfe0cf91e7f8b7227eb916a469f95e9a36567d9aedf9767af9fd0039482",
+        "browser-tests.cjs": "1c7405a3b2ec4202e470150b6d0808e793823ff1429690d82cea9d1f4e8020ea",
+        "controller-report.json": "0344064d389caa4830a4b7cb54bf98137f577632bdf995a67acb0f723d1a8dba",
+        "controller-tests.cjs": "d81b59d491ef5d84090303fe7ba3144db24ad4952c47a851ac85a0170f8760ac",
+        "engine.js": "1bad622463902e37376dbd4a1ce1fae014fcf70ddbc7b3188e7b169b964e59cc",
+        "rules-tests.cjs": "6d50e07fe1b5f33b5cb1f99b06da24abecf376f82c426ce11cfe4d32126bfce6",
+        "session.js": "15494897dd471d9599481c0e804656c6ad44a1bac678a076fe9c15a024104b61",
+        "style.css": "e570f2f85ae43afef0932b1f46faf62407e322eec522f360d9cf91a443f6957f",
+        "ui.js": "8910c6c431a5def0c9f2b22538a852bff402f9479eb4a59bb93a8b3e9d87a698",
+        "verification.json": "4f7208cb83b98cd35fefc76c768604d16932454a11743bff46e5275bafbeebae",
+        "worker.js": "251e29ae6265f671fb490a561040ac7d12d00113b8bf8de772cb827f1280939a"
+      },
+      "entrySHA256": "c1c5c37b89cf466edc25341e931c069a6e8639d7df320e24c0d4ef3eba18cb33",
+      "evidence": {
+        "game": "quarto",
+        "passed": true,
+        "difficultyLevels": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "rules": {
+          "passed": true,
+          "checks": 6
+        },
+        "controller": {
+          "passed": true,
+          "count": 6,
+          "names": [
+            "worker constructor, transport, runtime and invalid replies recover",
+            "actual UI local play, reload, replay and undo",
+            "actual UI reset confirmation and cancellation; settings cancellation",
+            "actual UI AI turn locking, stale results after reset and undo",
+            "actual UI worker results, save and interrupted page lifecycle",
+            "actual UI malformed storage, unavailable storage and worker retry"
+          ],
+          "coverage": "Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support"
+        },
+        "browser": {
+          "passed": false,
+          "status": "not-run",
+          "reason": "Chromium launch blocked by OS socket permissions; runnable browser-tests.cjs supplied"
+        }
+      }
+    }
+  ]
+}

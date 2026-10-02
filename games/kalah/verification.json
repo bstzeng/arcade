@@ -1,0 +1,170 @@
+{
+  "game": "kalah",
+  "passed": true,
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "checks": [
+    "local mode enables alternating legal actions and disables AI settings",
+    "local undo restores initial state and can be repeated safely",
+    "restart cancellation preserves all actions",
+    "restart approval resets state and stored transcript",
+    "setting cancellation restores displayed and active config",
+    "confirmed settings reset once and use requested difficulty",
+    "save and reload replay the identical local state",
+    "malformed and illegal saves recover to a fresh game",
+    "disabled storage never blocks legal gameplay",
+    "computer first locks board and disallows opening undo",
+    "duplicate worker replies cannot apply the same search twice",
+    "help pauses AI; obsolete worker reply is ignored; closing resumes",
+    "background visibility cancels AI and foreground resumes",
+    "pagehide cancels and pageshow resumes a pending computer turn",
+    "restart prevents obsolete search from mutating the new game",
+    "illegal worker result falls back to a legal move",
+    "worker error falls back to bounded synchronous search",
+    "unsupported worker uses a bounded compatibility search",
+    "wrong worker generation is ignored",
+    "AI undo retracts human turn and pending response",
+    "session save snapshots cannot mutate the live transcript",
+    "local undo retracts an entire bonus-turn chain",
+    "easy worker script returns a legal opening with matching token",
+    "normal worker script returns a legal opening with matching token",
+    "hard worker script returns a legal opening with matching token"
+  ],
+  "visualQA": "Not run by this suite. DOM/Worker harness does not measure browser layout.",
+  "total": 25,
+  "controller": {
+    "passed": true,
+    "checks": 25
+  },
+  "rules": {
+    "passed": true,
+    "game": "kalah",
+    "difficultyLevels": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "rules": {
+      "passed": true,
+      "fixtures": 8
+    },
+    "tactics": [
+      {
+        "level": "easy",
+        "fixture": "six-stone-capture",
+        "move": 1,
+        "depth": 1
+      },
+      {
+        "level": "normal",
+        "fixture": "six-stone-capture",
+        "move": 1,
+        "depth": 5
+      },
+      {
+        "level": "hard",
+        "fixture": "six-stone-capture",
+        "move": 1,
+        "depth": 10
+      }
+    ],
+    "selfPlay": [
+      {
+        "kind": "seeded-random",
+        "seed": 0,
+        "actions": 54,
+        "result": 1
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 1,
+        "actions": 43,
+        "result": 0
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 2,
+        "actions": 70,
+        "result": 1
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 3,
+        "actions": 32,
+        "result": 0
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 4,
+        "actions": 53,
+        "result": 0
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 5,
+        "actions": 23,
+        "result": 1
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 6,
+        "actions": 47,
+        "result": 0
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 7,
+        "actions": 49,
+        "result": 1
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 8,
+        "actions": 43,
+        "result": 0
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 9,
+        "actions": 29,
+        "result": 1
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 10,
+        "actions": 51,
+        "result": 0
+      },
+      {
+        "kind": "seeded-random",
+        "seed": 11,
+        "actions": 37,
+        "result": 0
+      }
+    ],
+    "ai": [
+      {
+        "level": "easy",
+        "actions": 18,
+        "result": 0,
+        "budget": "reduced test budget; real level configuration tested in tactics"
+      },
+      {
+        "level": "normal",
+        "actions": 40,
+        "result": 0,
+        "budget": "reduced test budget; real level configuration tested in tactics"
+      },
+      {
+        "level": "hard",
+        "actions": 44,
+        "result": 0,
+        "budget": "reduced test budget; real level configuration tested in tactics"
+      }
+    ],
+    "checks": 27
+  }
+}

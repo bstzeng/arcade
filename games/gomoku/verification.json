@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "game": "gomoku",
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "passed": true,
+    "assertions": 92046,
+    "fixtures": 14,
+    "independentOracle": true
+  },
+  "AI": {
+    "passed": true,
+    "legalAllDifficulties": true,
+    "defaultEffort": {
+      "easy": {
+        "nodes": 1,
+        "depth": 1
+      },
+      "normal": {
+        "nodes": 10,
+        "depth": 2
+      },
+      "hard": {
+        "nodes": 334,
+        "depth": 4
+      }
+    }
+  },
+  "tactics": {
+    "passed": true,
+    "fixtures": 14,
+    "description": "Immediate five and opponent-four blocks at all strengths, plus open-four forced win verified against every legal reply"
+  },
+  "selfPlay": {
+    "passed": true,
+    "games": 9,
+    "moves": 396,
+    "terminalCount": 9,
+    "seeds": [
+      "easy:179",
+      "easy:358",
+      "easy:537",
+      "normal:179",
+      "normal:358",
+      "normal:537",
+      "hard:179",
+      "hard:358",
+      "hard:537"
+    ]
+  },
+  "browserQA": "Not run here; publisher performs deployed browser QA",
+  "passed": true,
+  "controller": {
+    "passed": true,
+    "assertions": 91,
+    "coverage": [
+      "local play and single undo",
+      "AI round undo",
+      "human white and AI opening",
+      "replay save and restore",
+      "invalid and blocked storage",
+      "reset confirmation and cancel",
+      "mode-change confirmation and cancel",
+      "pause, help and resume",
+      "worker error fallback",
+      "out-of-order result cancellation",
+      "undo/reset cancellation",
+      "async fallback yielding and abort",
+      "keyboard navigation",
+      "page lifecycle"
+    ]
+  }
+}
