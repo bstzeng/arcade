@@ -1,0 +1,1 @@
+(function(root){const api=typeof module==='object'&&module.exports?require('../cards80-common/engine.js').create('texas-holdem'):root.CardEngines.create('texas-holdem');if(typeof module==='object'&&module.exports)module.exports=api;else root.GameEngine=api;})(typeof globalThis!=='undefined'?globalThis:this);
