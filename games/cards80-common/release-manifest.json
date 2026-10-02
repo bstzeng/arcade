@@ -1,0 +1,173 @@
+{
+  "revision": "cards80-v1",
+  "games": [
+    {
+      "id": "big-two",
+      "title": "大老二",
+      "english": "BIG TWO",
+      "url": "./games/big-two.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人順時針・3♦首攻・含三條與同花・單副計分",
+      "levels": 100,
+      "proofActions": 3532,
+      "filesPrefix": "games/big-two/",
+      "rulesSources": [
+        "https://www.pagat.com/climbing/bigtwo.html"
+      ]
+    },
+    {
+      "id": "dou-dizhu",
+      "title": "鬥地主",
+      "english": "DOU DIZHU",
+      "url": "./games/dou-dizhu.html",
+      "players": 3,
+      "status": "ready",
+      "variant": "三人順時針・公開底牌・叫分 1–3・炸彈／春天加倍",
+      "levels": 100,
+      "proofActions": 2996,
+      "filesPrefix": "games/dou-dizhu/",
+      "rulesSources": [
+        "https://www.pagat.com/climbing/doudizhu.html"
+      ]
+    },
+    {
+      "id": "sevens",
+      "title": "排七",
+      "english": "SEVENS",
+      "url": "./games/sevens.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人 Fan Tan・7♦先出・A 為低牌・有牌必出",
+      "levels": 100,
+      "proofActions": 4324,
+      "filesPrefix": "games/sevens/",
+      "rulesSources": [
+        "https://www.pagat.com/layout/sevens.html"
+      ]
+    },
+    {
+      "id": "chinese-poker",
+      "title": "十三支",
+      "english": "CHINESE POKER",
+      "url": "./games/chinese-poker.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人封閉排牌・前3／中5／後5・逐墩 1 分・無特殊牌／紅利",
+      "levels": 100,
+      "proofActions": 400,
+      "filesPrefix": "games/chinese-poker/",
+      "rulesSources": [
+        "https://www.pagat.com/partition/pusoy.html"
+      ]
+    },
+    {
+      "id": "hearts",
+      "title": "紅心大戰",
+      "english": "HEARTS",
+      "url": "./games/hearts.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人 Black Lady・左／右／對面／不傳・射月加他家 26",
+      "levels": 100,
+      "proofActions": 4415,
+      "filesPrefix": "games/hearts/",
+      "rulesSources": [
+        "https://bicyclecards.com/how-to-play/hearts/"
+      ]
+    },
+    {
+      "id": "crazy-eights",
+      "title": "瘋狂八",
+      "english": "CRAZY EIGHTS",
+      "url": "./games/crazy-eights.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人各五張・抽到能出・八指定花色・不回收牌庫",
+      "levels": 100,
+      "proofActions": 3882,
+      "filesPrefix": "games/crazy-eights/",
+      "rulesSources": [
+        "https://bicyclecards.com/how-to-play/crazy-eights/"
+      ]
+    },
+    {
+      "id": "gin-rummy",
+      "title": "金拉米",
+      "english": "GIN RUMMY",
+      "url": "./games/gin-rummy.html",
+      "players": 2,
+      "status": "ready",
+      "variant": "雙人・十張牌・Gin 25／反敲 25・自動最小散牌分組",
+      "levels": 100,
+      "proofActions": 1976,
+      "filesPrefix": "games/gin-rummy/",
+      "rulesSources": [
+        "https://bicyclecards.com/how-to-play/gin-rummy/",
+        "https://www.pagat.com/rummy/ginrummy.html"
+      ]
+    },
+    {
+      "id": "spades",
+      "title": "黑桃",
+      "english": "SPADES",
+      "url": "./games/spades.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人搭檔 1+3／2+4・允許 Nil・10 沙包扣 100・先 500",
+      "levels": 100,
+      "proofActions": 4490,
+      "filesPrefix": "games/spades/",
+      "rulesSources": [
+        "https://bicyclecards.com/how-to-play/spades/",
+        "https://www.pagat.com/auctionwhist/spades.html"
+      ]
+    },
+    {
+      "id": "contract-bridge",
+      "title": "合約橋牌",
+      "english": "CONTRACT BRIDGE",
+      "url": "./games/contract-bridge.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人搭檔・完整叫牌・單副複式分數・AI 自然估值，非約定叫系統",
+      "levels": 100,
+      "proofActions": 4397,
+      "filesPrefix": "games/contract-bridge/",
+      "rulesSources": [
+        "https://www.acbl.org/learn/"
+      ]
+    },
+    {
+      "id": "texas-holdem",
+      "title": "德州撲克",
+      "english": "TEXAS HOLD’EM",
+      "url": "./games/texas-holdem.html",
+      "players": 4,
+      "status": "ready",
+      "variant": "四人無限注・每副 200 虛擬點・盲注 1／2・邊池・無真實金錢",
+      "levels": 100,
+      "proofActions": 864,
+      "filesPrefix": "games/texas-holdem/",
+      "rulesSources": [
+        "https://www.pokerstars.com/poker/games/texas-holdem/",
+        "https://www.pokertda.com/view-poker-tda-rules/"
+      ]
+    }
+  ],
+  "challengeSemantics": "100 genuine playable open-hand specified positions per game, verified against a fixed public-information AI policy and fixed deck. Not forced wins against arbitrary opponents.",
+  "browserQA": {
+    "status": "pending",
+    "reason": "Executor Chromium denied required Unix socket even after reviewed retry; cloud browser rejects localhost. Deterministic DOM UI suite passed; real renderer and touchscreen QA must run on the supported release preview."
+  },
+  "completionProvenance": {
+    "saveFormat": 2,
+    "status": "passed",
+    "games": 10,
+    "regressionCases": 81,
+    "independentRetest": "passed on all ten games: completed/interrupted replay, undo and unaided completion reloads",
+    "legacyPolicy": "v1 challenge saves have unknown assistance provenance and cannot promote a completed attempt to an unaided win",
+    "scopeWording": "Shared UI says all players rather than four players; game corpus and engine bytes unchanged."
+  },
+  "freezeCheckedAt": "2026-10-02T17:27:54.646Z"
+}

@@ -1,0 +1,167 @@
+{
+  "revision": "cards80-v1",
+  "kind": "actual app in deterministic DOM harness; no browser renderer",
+  "games": {
+    "big-two": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:24:47.573Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "dou-dizhu": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:24:49.446Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "sevens": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:24:50.062Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "chinese-poker": {
+      "status": "passed",
+      "cases": 9,
+      "checkedAt": "2026-10-02T17:25:57.226Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection",
+        "automatic arrangement is assisted"
+      ]
+    },
+    "hearts": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:26:00.951Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "crazy-eights": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:26:01.474Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "gin-rummy": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:26:02.755Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "spades": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:26:03.412Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "contract-bridge": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:26:04.339Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    },
+    "texas-holdem": {
+      "status": "passed",
+      "cases": 8,
+      "checkedAt": "2026-10-02T17:26:05.000Z",
+      "checks": [
+        "complete replay reload",
+        "repeat reload",
+        "undo retains assistance",
+        "interrupted replay reload then manual continuation",
+        "hint before first action survives reload",
+        "legacy v1 conservative provenance",
+        "unaided completion reload remains manual",
+        "explicit new attempt resets provenance",
+        "malformed v2 provenance rejection"
+      ]
+    }
+  }
+}
