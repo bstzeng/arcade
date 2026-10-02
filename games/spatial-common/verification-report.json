@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "games": 10,
+  "challenges": 1000,
+  "independentWitnesses": 1000,
+  "normalizedUnique": 1000,
+  "reports": [
+    {
+      "gameId": "jigsaw-workshop",
+      "metrics": {
+        "witnessActions": 921,
+        "minActions": 4,
+        "maxActions": 12,
+        "boundaryAssertions": 7,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "rolling-block",
+      "metrics": {
+        "witnessActions": 1290,
+        "minActions": 8,
+        "maxActions": 30,
+        "boundaryAssertions": 31,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "cube-nets",
+      "metrics": {
+        "witnessActions": 500,
+        "minActions": 5,
+        "maxActions": 5,
+        "boundaryAssertions": 7,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "shadow-sculpture",
+      "metrics": {
+        "witnessActions": 315,
+        "minActions": 2,
+        "maxActions": 4,
+        "boundaryAssertions": 9,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "three-view-blocks",
+      "metrics": {
+        "witnessActions": 1215,
+        "minActions": 4,
+        "maxActions": 22,
+        "boundaryAssertions": 10,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "paper-fold",
+      "metrics": {
+        "witnessActions": 749,
+        "minActions": 4,
+        "maxActions": 12,
+        "boundaryAssertions": 16,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "gear-workshop",
+      "metrics": {
+        "witnessActions": 460,
+        "minActions": 3,
+        "maxActions": 7,
+        "boundaryAssertions": 8,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "overlay-colors",
+      "metrics": {
+        "witnessActions": 381,
+        "minActions": 3,
+        "maxActions": 4,
+        "boundaryAssertions": 7,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "balance-builder",
+      "metrics": {
+        "witnessActions": 515,
+        "minActions": 4,
+        "maxActions": 6,
+        "boundaryAssertions": 7,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    },
+    {
+      "gameId": "pin-and-ball",
+      "metrics": {
+        "witnessActions": 1604,
+        "minActions": 5,
+        "maxActions": 26,
+        "boundaryAssertions": 7,
+        "controllerAssertions": 27
+      },
+      "browserQA": {
+        "status": "not-run",
+        "evidence": [
+          "Standalone Chromium launch blocked: process_singleton_posix.cc socket() failed: Operation not permitted, including supported escalation.",
+          "Cloud browser localhost navigation blocked with net::ERR_BLOCKED_BY_CLIENT.",
+          "No live browser screenshots or visual pass claimed. Shipped-script DOM simulation is tracked separately in dom-qa.json."
+        ]
+      }
+    }
+  ]
+}
