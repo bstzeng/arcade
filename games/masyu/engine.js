@@ -1,0 +1,18 @@
+/* Original Masyu implementation. Directions N E S W = 1 2 4 8. */
+(function(root){'use strict';
+const B=[1,2,4,8],OP=[4,8,1,2],DR=[-1,0,1,0],DC=[0,1,0,-1],SHAPES=[0,3,5,6,9,10,12];
+const straight=m=>m===5||m===10, turn=m=>m!==0&&!straight(m);
+function topology(w,h){const n=w*h,near=Array.from({length:n},(_,i)=>B.map((_,d)=>{let r=Math.floor(i/w)+DR[d],c=i%w+DC[d];return r<0||c<0||r>=h||c>=w?-1:r*w+c}));const edges=[];for(let i=0;i<n;i++)for(let d of [1,2])if(near[i][d]>=0)edges.push([i,near[i][d],B[d],OP[d]]);return {near,edges}}
+function validate(p,m){const n=p.w*p.h;if(!Array.isArray(m)||m.length!==n||m.some(x=>!SHAPES.includes(x)))return false;const {near,edges}=topology(p.w,p.h);for(let i=0;i<n;i++){for(let d=0;d<4;d++)if((m[i]&B[d])&&(near[i][d]<0||!(m[near[i][d]]&OP[d])))return false;if(p.pearls[i]==='B'&&(!turn(m[i])||B.some((b,d)=>(m[i]&b)&&!straight(m[near[i][d]]))))return false;if(p.pearls[i]==='W'&&(!straight(m[i])||!B.some((b,d)=>(m[i]&b)&&turn(m[near[i][d]]))))return false}let start=m.findIndex(Boolean);if(start<0)return false;const seen=new Set([start]),stack=[start];while(stack.length){let i=stack.pop();for(let d=0;d<4;d++)if(m[i]&B[d]){let j=near[i][d];if(!seen.has(j)){seen.add(j);stack.push(j)}}}return seen.size===m.filter(Boolean).length}
+function solve(p,limit=2,maxNodes=2000000){const {near}=topology(p.w,p.h),n=p.w*p.h;let nodes=0,solutions=[],aborted=false;
+let domains=Array.from({length:n},(_,i)=>SHAPES.filter(m=>B.every((b,d)=>near[i][d]>=0||!(m&b))&&(p.pearls[i]==='B'?turn(m):p.pearls[i]==='W'?straight(m):true)));
+function propagate(ds){let changed=true;while(changed){changed=false;for(let i=0;i<n;i++){let old=ds[i];let a=old.filter(m=>{for(let d=0;d<4;d++){let j=near[i][d];if(j>=0&&!ds[j].some(v=>!!(m&B[d])===!!(v&OP[d])&&(!(m&B[d])||p.pearls[i]!=='B'||straight(v))&&(!(m&B[d])||p.pearls[j]!=='B'||straight(m))))return false}if(p.pearls[i]==='W'&&!B.some((b,d)=>(m&b)&&ds[near[i][d]].some(v=>(v&OP[d])&&turn(v))))return false;return true});if(!a.length)return false;if(a.length!==old.length){ds[i]=a;changed=true}}
+// A forced closed component must be the entire loop; optional vertices outside become empty.
+let visited=new Set;for(let s=0;s<n;s++)if(ds[s].length===1&&ds[s][0]&&!visited.has(s)){let comp=[],stack=[s],closed=true;visited.add(s);while(stack.length){let i=stack.pop();comp.push(i);for(let d=0;d<4;d++)if(ds[i][0]&B[d]){let j=near[i][d];if(ds[j].length!==1){closed=false;continue}if(!visited.has(j)){visited.add(j);stack.push(j)}}}if(closed){const set=new Set(comp);for(let i=0;i<n;i++)if(!set.has(i)){if(!ds[i].includes(0))return false;if(ds[i].length>1){ds[i]=[0];changed=true}}}}
+}return true}
+function search(ds){if(solutions.length>=limit||aborted)return;if(++nodes>maxNodes){aborted=true;return}if(!propagate(ds))return;let ix=-1,size=99;for(let i=0;i<n;i++)if(ds[i].length>1&&ds[i].length<size){ix=i;size=ds[i].length}if(ix<0){const m=ds.map(x=>x[0]);if(validate(p,m))solutions.push(m);return}for(const v of ds[ix]){const next=ds.map(a=>a.slice());next[ix]=[v];search(next);if(solutions.length>=limit||aborted)return}}
+search(domains);return {count:solutions.length,solutions,nodes,aborted}}
+function masksFromEdges(p,state){const m=Array(p.w*p.h).fill(0);topology(p.w,p.h).edges.forEach(([a,b,x,y],k)=>{if(state[k]===1){m[a]|=x;m[b]|=y}});return m}
+function edgesFromMasks(p,m){return topology(p.w,p.h).edges.map(([a,b,x])=>(m[a]&x)?1:0)}
+const api={B,OP,SHAPES,topology,straight,turn,validate,solve,masksFromEdges,edgesFromMasks};if(typeof module!=='undefined')module.exports=api;root.MasyuEngine=api;
+})(typeof window!=='undefined'?window:globalThis);
