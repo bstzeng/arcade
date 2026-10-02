@@ -38,7 +38,7 @@
       "immediateWin": true,
       "immediateBlock": true,
       "openingDepth": 7,
-      "openingNodes": 51328,
+      "openingNodes": 50560,
       "maxDepth": 9
     }
   },
@@ -60,11 +60,16 @@
     },
     {
       "seed": 2,
-      "plies": 42,
+      "plies": 37,
       "result": {
-        "winner": 0,
-        "reason": "full",
-        "cells": []
+        "winner": 1,
+        "reason": "four",
+        "cells": [
+          3,
+          11,
+          19,
+          27
+        ]
       },
       "legalEveryTurn": true
     },
