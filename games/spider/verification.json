@@ -1,0 +1,758 @@
+{
+  "verifier": "Independent Python rules replay (no engine or generator imports)",
+  "verifiedDeals": 50,
+  "uniqueColumnInvariantRankLayouts": 50,
+  "totalLegalActions": 4911,
+  "results": [
+    {
+      "deal": 1,
+      "actions": 98,
+      "dealSteps": [
+        4,
+        19,
+        30,
+        40,
+        53
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 8,
+      "canonicalSHA256": "4f1cb18003f2248bd8c1c9461506c3b2f150869c9216a7a7ffdd725f644d886e"
+    },
+    {
+      "deal": 2,
+      "actions": 98,
+      "dealSteps": [
+        8,
+        16,
+        30,
+        43,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 6,
+      "canonicalSHA256": "6de10cf3f51de335af490016732cfc06cff7f8c96aee78d5b6a6914ae351bc7b"
+    },
+    {
+      "deal": 3,
+      "actions": 98,
+      "dealSteps": [
+        8,
+        19,
+        30,
+        42,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 7,
+      "canonicalSHA256": "3f017c61c1b7d5b6738ec8d8b2bcd7c1fb938697d368524576b1548449191017"
+    },
+    {
+      "deal": 4,
+      "actions": 99,
+      "dealSteps": [
+        8,
+        22,
+        29,
+        46,
+        55
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 8,
+      "canonicalSHA256": "22e2e8feb3219bc5937da0c9ba366a77c0bfc2955942a05f699a185f914b69f9"
+    },
+    {
+      "deal": 5,
+      "actions": 99,
+      "dealSteps": [
+        9,
+        22,
+        31,
+        43,
+        57
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "c4058b30f8a28691456243726a997e094a857d674acd53a5533f2d1b35256bdb"
+    },
+    {
+      "deal": 6,
+      "actions": 98,
+      "dealSteps": [
+        6,
+        21,
+        30,
+        42,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 5,
+      "canonicalSHA256": "0454a5a0679aa4088cf26029c110d0835577cadf5b49f8ba34751297937d0170"
+    },
+    {
+      "deal": 7,
+      "actions": 98,
+      "dealSteps": [
+        8,
+        17,
+        31,
+        40,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 12,
+      "canonicalSHA256": "36ec82ff1d705ef7bc4d41d570e5aa2f9f2f3d69039e4cecfcf1392ceeae8111"
+    },
+    {
+      "deal": 8,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        22,
+        33,
+        43,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "eccbef7517c541b79b25e1f905f50fc5c35a4108bcdcb1a6d8cbe2e2b3d2c8aa"
+    },
+    {
+      "deal": 9,
+      "actions": 98,
+      "dealSteps": [
+        4,
+        22,
+        33,
+        43,
+        55
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 5,
+      "canonicalSHA256": "8fff970f1562393f00dcc4048380342aa5082bcae307b9c6019bde00628956b4"
+    },
+    {
+      "deal": 10,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        21,
+        29,
+        41,
+        53
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 9,
+      "canonicalSHA256": "e8538a16fe50a63052cfea4d7a58e4abe664831ed8610dbceb1e74b281c25b92"
+    },
+    {
+      "deal": 11,
+      "actions": 99,
+      "dealSteps": [
+        9,
+        16,
+        30,
+        41,
+        54
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 8,
+      "canonicalSHA256": "0c54a070049e1d81404964e92d7e6ab8bd0166d95ee07ff59c437902d67a351f"
+    },
+    {
+      "deal": 12,
+      "actions": 98,
+      "dealSteps": [
+        9,
+        22,
+        32,
+        40,
+        54
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 4,
+      "canonicalSHA256": "a225d5a0b50f4488adbbf786f10c7f30913772bbadd3e08f87d8e98490d94f63"
+    },
+    {
+      "deal": 13,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        19,
+        30,
+        46,
+        54
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 1,
+      "canonicalSHA256": "c1f6c64fa1a799294f512e835c435ff6ba09e1170eacbd592d92e2de646794bb"
+    },
+    {
+      "deal": 14,
+      "actions": 98,
+      "dealSteps": [
+        4,
+        22,
+        29,
+        43,
+        54
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 4,
+      "canonicalSHA256": "12710fad428dc92fa6b4275c4c43888da0d65d9bb82317e889d53f35cd58d1e7"
+    },
+    {
+      "deal": 15,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        18,
+        34,
+        42,
+        53
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "5b9ec0881905d29fc099cd2f61c08488f42c7d46fc8dd2abf2d183ed56681a05"
+    },
+    {
+      "deal": 16,
+      "actions": 98,
+      "dealSteps": [
+        4,
+        17,
+        30,
+        46,
+        57
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 6,
+      "canonicalSHA256": "956067c7667e8518dc98a47a67664650b33ee1ee0fd70966aba7ba2a98362ccc"
+    },
+    {
+      "deal": 17,
+      "actions": 98,
+      "dealSteps": [
+        8,
+        21,
+        29,
+        41,
+        57
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 5,
+      "canonicalSHA256": "e378d31aa6f5b07d27656c084dec9fc74a2c4a025e0b2dde614db68c96ceda74"
+    },
+    {
+      "deal": 18,
+      "actions": 98,
+      "dealSteps": [
+        7,
+        21,
+        29,
+        45,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 3,
+      "canonicalSHA256": "fa4d986d62ea4423ac85a9bcce37d2136f286d90d08aeda27e149b11eff5cccd"
+    },
+    {
+      "deal": 19,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        18,
+        33,
+        45,
+        55
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "3835f364475085b1475920612109a9468e4af243623cede329bc1336b34653d2"
+    },
+    {
+      "deal": 20,
+      "actions": 98,
+      "dealSteps": [
+        9,
+        17,
+        33,
+        43,
+        52
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 6,
+      "canonicalSHA256": "ff944475d7b6871a077f27c7525ea9bb02807d59184cc4a7c6f987123b4c22ae"
+    },
+    {
+      "deal": 21,
+      "actions": 98,
+      "dealSteps": [
+        6,
+        22,
+        29,
+        46,
+        57
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 11,
+      "canonicalSHA256": "423d612c6589d32e0774233cb568df66c27fe098786cc01a4e627175257aa1da"
+    },
+    {
+      "deal": 22,
+      "actions": 98,
+      "dealSteps": [
+        6,
+        17,
+        34,
+        44,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 4,
+      "canonicalSHA256": "1d63eebb786c689a0f9e87615297baee44560b29741d7224db31345565ce772d"
+    },
+    {
+      "deal": 23,
+      "actions": 96,
+      "dealSteps": [
+        6,
+        21,
+        28,
+        43,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 1,
+      "canonicalSHA256": "a124ec68ab19e220d9387697fde24bc689d4087bc51b7422bd840c1e9c5f588e"
+    },
+    {
+      "deal": 24,
+      "actions": 99,
+      "dealSteps": [
+        4,
+        19,
+        31,
+        40,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 9,
+      "canonicalSHA256": "ce14da8223cd6a485ad28efe02781799a0512b2ec0c399c01558364c2edfa66d"
+    },
+    {
+      "deal": 25,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        22,
+        32,
+        42,
+        52
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 11,
+      "canonicalSHA256": "4d9dbbab0c2cb8816ac57ac65845b4b906e8443f5cec2d4e636d0e8e44f558fc"
+    },
+    {
+      "deal": 26,
+      "actions": 97,
+      "dealSteps": [
+        8,
+        18,
+        33,
+        44,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 2,
+      "canonicalSHA256": "07cb244d7dc84dea212d30646279f123d92a58e6117ad5103b4da865e03e55b3"
+    },
+    {
+      "deal": 27,
+      "actions": 99,
+      "dealSteps": [
+        7,
+        18,
+        32,
+        42,
+        53
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 4,
+      "canonicalSHA256": "5eb043e313fb6462f968fbe713cec5d35fa778bf4d1e6a5a3a0ccb8a9f3790bc"
+    },
+    {
+      "deal": 28,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        19,
+        30,
+        46,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 12,
+      "canonicalSHA256": "f91d9d1bb0c1526f5e92ea4dea67674b799e92167ec724ef058d5bec1f1de211"
+    },
+    {
+      "deal": 29,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        18,
+        32,
+        44,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 4,
+      "canonicalSHA256": "095827be929bed64e22013fc063d28a4f8b1083d4c0b9a886328ff0bf3866bdb"
+    },
+    {
+      "deal": 30,
+      "actions": 98,
+      "dealSteps": [
+        6,
+        22,
+        30,
+        42,
+        55
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "33bc930377f202f25641477157ebec865e886fb675053db8fba9c5eaab3a30b9"
+    },
+    {
+      "deal": 31,
+      "actions": 99,
+      "dealSteps": [
+        8,
+        22,
+        31,
+        46,
+        52
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 3,
+      "canonicalSHA256": "692c228154d74ec5d5732d72cfc6c946c33122b0877dd2679630cd435c3438b9"
+    },
+    {
+      "deal": 32,
+      "actions": 98,
+      "dealSteps": [
+        6,
+        17,
+        30,
+        42,
+        52
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 11,
+      "canonicalSHA256": "2b507578249076bb424af8d854cdfe94b89fc68ed9195640f6f044abb6baf2b2"
+    },
+    {
+      "deal": 33,
+      "actions": 98,
+      "dealSteps": [
+        6,
+        19,
+        30,
+        45,
+        57
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "e2992e23ab906c2f843bf01ce885d003a65f6574ac36d53e066e65137edab226"
+    },
+    {
+      "deal": 34,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        16,
+        28,
+        41,
+        57
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 1,
+      "canonicalSHA256": "50f535676453cf7f4e2adc873462737d77944d4509d992b85eb48494e92295d5"
+    },
+    {
+      "deal": 35,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        21,
+        32,
+        46,
+        55
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 4,
+      "canonicalSHA256": "c84a02b2e3fd5ef8482092f8b86946497f5cc837baec447ba98edd34d7c00916"
+    },
+    {
+      "deal": 36,
+      "actions": 98,
+      "dealSteps": [
+        4,
+        21,
+        29,
+        42,
+        55
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 8,
+      "canonicalSHA256": "64e3b14c0cf9524f4f1f2f5b4d0e50a9a38c6ced3bcbc71f388a68e9a51ccc13"
+    },
+    {
+      "deal": 37,
+      "actions": 98,
+      "dealSteps": [
+        7,
+        22,
+        28,
+        41,
+        55
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 5,
+      "canonicalSHA256": "012aa3f22b7b8b51c6f5c1d43ca2d80b17b231cd7e396aebf6ef87f57183d1f3"
+    },
+    {
+      "deal": 38,
+      "actions": 98,
+      "dealSteps": [
+        6,
+        22,
+        29,
+        45,
+        54
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 5,
+      "canonicalSHA256": "c8aedd715fa133099a029637b161834d0e5a0f2e8b6bd6f39723e380b8847aac"
+    },
+    {
+      "deal": 39,
+      "actions": 99,
+      "dealSteps": [
+        5,
+        17,
+        31,
+        46,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "2a94ced945892cdf59531b8572de3adb12cbbf9598e9806d083317cb203e2633"
+    },
+    {
+      "deal": 40,
+      "actions": 98,
+      "dealSteps": [
+        8,
+        16,
+        32,
+        42,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 1,
+      "canonicalSHA256": "8426f63d3bf467fb5191fd962ac88a39ca81d38a5c8044b858134acec61dc40a"
+    },
+    {
+      "deal": 41,
+      "actions": 99,
+      "dealSteps": [
+        6,
+        16,
+        34,
+        44,
+        57
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "7242d59f1497b31a79f9fa355ff4c3dd7994c0b2743017d4c7b98ecd84bee0f8"
+    },
+    {
+      "deal": 42,
+      "actions": 99,
+      "dealSteps": [
+        9,
+        18,
+        30,
+        43,
+        52
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 11,
+      "canonicalSHA256": "38d425bc575abe5021dadb7530ad9b6d8b6a5347eb0f202055f6fb6566d14d56"
+    },
+    {
+      "deal": 43,
+      "actions": 99,
+      "dealSteps": [
+        6,
+        21,
+        33,
+        46,
+        53
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 11,
+      "canonicalSHA256": "77a34efb31e0ece8118e82db7f89ab31072eedecacef59d474296dad445307c7"
+    },
+    {
+      "deal": 44,
+      "actions": 98,
+      "dealSteps": [
+        8,
+        17,
+        32,
+        43,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 8,
+      "canonicalSHA256": "ad876f7be303272711310a488934f9256dbe986d14ae72e5078cb41275d18a7c"
+    },
+    {
+      "deal": 45,
+      "actions": 98,
+      "dealSteps": [
+        5,
+        17,
+        33,
+        45,
+        54
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 9,
+      "canonicalSHA256": "e4574238d1b6165d23e182bdc1310d12a4c69a7e11c809856c8d6ba046a75c41"
+    },
+    {
+      "deal": 46,
+      "actions": 99,
+      "dealSteps": [
+        4,
+        16,
+        34,
+        43,
+        52
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 11,
+      "canonicalSHA256": "21eb4073e12d9437bf333f070659c298cb67a23971741c591e7455400082f1d8"
+    },
+    {
+      "deal": 47,
+      "actions": 98,
+      "dealSteps": [
+        8,
+        16,
+        28,
+        41,
+        58
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 4,
+      "canonicalSHA256": "d2e5e292a45c5b1fa4369cba3d85eb9d18d0e2ae25cb2a8514afe6db9e889cc4"
+    },
+    {
+      "deal": 48,
+      "actions": 99,
+      "dealSteps": [
+        6,
+        17,
+        28,
+        46,
+        52
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 12,
+      "canonicalSHA256": "54ad3ea01caa4cfc6b9bc3c75675effe24b12c7e2333f08d1728842a297a6399"
+    },
+    {
+      "deal": 49,
+      "actions": 99,
+      "dealSteps": [
+        9,
+        22,
+        32,
+        41,
+        53
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 10,
+      "canonicalSHA256": "59ac80fac3d2f8001a856e72094c166ad998f1755726a7d7794fc74668b8f55a"
+    },
+    {
+      "deal": 50,
+      "actions": 99,
+      "dealSteps": [
+        6,
+        18,
+        32,
+        45,
+        56
+      ],
+      "hiddenRevealed": 44,
+      "completedRuns": 8,
+      "longestMovedRun": 12,
+      "canonicalSHA256": "707224c3a7f872ace52c290418c00dd3b072cb445304204d2e0b1a1ab3fb0662"
+    }
+  ]
+}
