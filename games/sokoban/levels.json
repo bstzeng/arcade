@@ -1,0 +1,967 @@
+[
+  {
+    "id": 1,
+    "name": "倉庫暖身",
+    "stage": 1,
+    "map": [
+      "#######",
+      "# # @##",
+      "# ##$.#",
+      "#     #",
+      "#  ## #",
+      "#     #",
+      "#######"
+    ],
+    "solution": "DRDDDLLLUURRLLDDRRRUU",
+    "solutionMoves": 21,
+    "solutionPushes": 3,
+    "searchStates": 6,
+    "topologyHash": "b8dfde856a02d0db"
+  },
+  {
+    "id": 2,
+    "name": "倉庫暖身",
+    "stage": 1,
+    "map": [
+      "#######",
+      "#     #",
+      "# #   #",
+      "#    ##",
+      "#   $@#",
+      "# . # #",
+      "#######"
+    ],
+    "solution": "LLULD",
+    "solutionMoves": 5,
+    "solutionPushes": 3,
+    "searchStates": 9,
+    "topologyHash": "f031e960c325c6a6"
+  },
+  {
+    "id": 3,
+    "name": "倉庫暖身",
+    "stage": 1,
+    "map": [
+      "#######",
+      "#    ##",
+      "#   .##",
+      "# $ # #",
+      "# @   #",
+      "#     #",
+      "#######"
+    ],
+    "solution": "ULURR",
+    "solutionMoves": 5,
+    "solutionPushes": 3,
+    "searchStates": 7,
+    "topologyHash": "d37cd41994bf1ac9"
+  },
+  {
+    "id": 4,
+    "name": "倉庫暖身",
+    "stage": 1,
+    "map": [
+      "#######",
+      "##  # #",
+      "#   @ #",
+      "#  #$ #",
+      "#     #",
+      "#.#   #",
+      "#######"
+    ],
+    "solution": "DRDLLLULD",
+    "solutionMoves": 9,
+    "solutionPushes": 5,
+    "searchStates": 10,
+    "topologyHash": "0dd1cf1f7b35fea6"
+  },
+  {
+    "id": 5,
+    "name": "倉庫暖身",
+    "stage": 1,
+    "map": [
+      "#######",
+      "#   @ #",
+      "## #$##",
+      "# #   #",
+      "#     #",
+      "## .  #",
+      "#######"
+    ],
+    "solution": "DDDRDL",
+    "solutionMoves": 6,
+    "solutionPushes": 4,
+    "searchStates": 8,
+    "topologyHash": "c0a304fb50caedea"
+  },
+  {
+    "id": 6,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "#     #",
+      "#     #",
+      "#.  $##",
+      "# #.$@#",
+      "#   # #",
+      "#######"
+    ],
+    "solution": "LULUURRDLULDRDLL",
+    "solutionMoves": 16,
+    "solutionPushes": 6,
+    "searchStates": 27,
+    "topologyHash": "498a1df114449d6e"
+  },
+  {
+    "id": 7,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "#    ##",
+      "#   $@#",
+      "#  # $#",
+      "#  #  #",
+      "#   ..#",
+      "#######"
+    ],
+    "solution": "DLDDLLUUUURRDDDURD",
+    "solutionMoves": 18,
+    "solutionPushes": 5,
+    "searchStates": 25,
+    "topologyHash": "da96716300ba096f"
+  },
+  {
+    "id": 8,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "##@#  #",
+      "# $$  #",
+      "#    .#",
+      "# . # #",
+      "#     #",
+      "#######"
+    ],
+    "solution": "DRDRRUULDLLDRR",
+    "solutionMoves": 14,
+    "solutionPushes": 5,
+    "searchStates": 32,
+    "topologyHash": "26b4feda4a3becd9"
+  },
+  {
+    "id": 9,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "###  ##",
+      "#@$  ##",
+      "##  . #",
+      "# $ . #",
+      "#     #",
+      "#######"
+    ],
+    "solution": "RDRRUULDLDRDDLLURR",
+    "solutionMoves": 18,
+    "solutionPushes": 5,
+    "searchStates": 35,
+    "topologyHash": "88f0e3510d7b44dc"
+  },
+  {
+    "id": 10,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "#  #@ #",
+      "#. #$##",
+      "#  $  #",
+      "#     #",
+      "# ##.##",
+      "#######"
+    ],
+    "solution": "DDLLDLURRRD",
+    "solutionMoves": 11,
+    "solutionPushes": 6,
+    "searchStates": 33,
+    "topologyHash": "70b682542aee904c"
+  },
+  {
+    "id": 11,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "# #   #",
+      "#  #. #",
+      "#    ##",
+      "#  $$ #",
+      "# # @.#",
+      "#######"
+    ],
+    "solution": "UULLDRURDLDR",
+    "solutionMoves": 12,
+    "solutionPushes": 5,
+    "searchStates": 21,
+    "topologyHash": "a8d40d5a2bf64e65"
+  },
+  {
+    "id": 12,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "#.  @ #",
+      "# # $ #",
+      "#   .##",
+      "# # $ #",
+      "#     #",
+      "#######"
+    ],
+    "solution": "LDDRURULLLRDDDDRU",
+    "solutionMoves": 17,
+    "solutionPushes": 5,
+    "searchStates": 39,
+    "topologyHash": "4c9bb696ecc0a6ae"
+  },
+  {
+    "id": 13,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "#  ##.#",
+      "#  .  #",
+      "###   #",
+      "#  $$ #",
+      "#   @##",
+      "#######"
+    ],
+    "solution": "LUUDDRULURDRUU",
+    "solutionMoves": 14,
+    "solutionPushes": 6,
+    "searchStates": 50,
+    "topologyHash": "8092ae5badfebda4"
+  },
+  {
+    "id": 14,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "#     #",
+      "## $  #",
+      "# ##  #",
+      "# .$@ #",
+      "#    .#",
+      "#######"
+    ],
+    "solution": "UUULLDRURDDDLDR",
+    "solutionMoves": 15,
+    "solutionPushes": 6,
+    "searchStates": 66,
+    "topologyHash": "fe4cb94173ec3c9a"
+  },
+  {
+    "id": 15,
+    "name": "雙箱換位",
+    "stage": 2,
+    "map": [
+      "#######",
+      "## .  #",
+      "#.# # #",
+      "#   ###",
+      "# $$# #",
+      "## @  #",
+      "#######"
+    ],
+    "solution": "LUDRUUUDLDLU",
+    "solutionMoves": 12,
+    "solutionPushes": 6,
+    "searchStates": 17,
+    "topologyHash": "359d670cd33c9236"
+  },
+  {
+    "id": 16,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "# @#   #",
+      "##$#$$ #",
+      "#. # # #",
+      "#.     #",
+      "#   . ##",
+      "########"
+    ],
+    "solution": "DDLDDRRURRRUUULLDDUURRDLULDRRDDLDLLULDLUDRRRRULRRUULLDDLL",
+    "solutionMoves": 57,
+    "solutionPushes": 13,
+    "searchStates": 366,
+    "topologyHash": "aa079932fd2c5e51"
+  },
+  {
+    "id": 17,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "#######",
+      "##. #+#",
+      "#   #$#",
+      "## $  #",
+      "#   $ #",
+      "#  .  #",
+      "#######"
+    ],
+    "solution": "DDLLDLUUDDDRRRUUUDLDRDL",
+    "solutionMoves": 23,
+    "solutionPushes": 10,
+    "searchStates": 228,
+    "topologyHash": "9fd8d9ed771fc533"
+  },
+  {
+    "id": 18,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "#######",
+      "# ##  #",
+      "# $   #",
+      "#@$   #",
+      "# $ ..#",
+      "##  . #",
+      "#######"
+    ],
+    "solution": "URRDRRUULDLLLDRURDURDLDRULLLDRRLDR",
+    "solutionMoves": 34,
+    "solutionPushes": 11,
+    "searchStates": 369,
+    "topologyHash": "bb1785085adfdeda"
+  },
+  {
+    "id": 19,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#   .  #",
+      "# # $$ #",
+      "# #    #",
+      "#   #$ #",
+      "# .. @ #",
+      "########"
+    ],
+    "solution": "LLUURUDRRUULDRDLLULDDURRRDDLLLUURRDRDLL",
+    "solutionMoves": 39,
+    "solutionPushes": 10,
+    "searchStates": 544,
+    "topologyHash": "5d74645f6544db9c"
+  },
+  {
+    "id": 20,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#. ##  #",
+      "# #@$  #",
+      "# .$  .#",
+      "#  $   #",
+      "#      #",
+      "########"
+    ],
+    "solution": "RDRRUULDLDLLDLUUDRRRRDDLLURUL",
+    "solutionMoves": 29,
+    "solutionPushes": 9,
+    "searchStates": 589,
+    "topologyHash": "b87f0c951418792c"
+  },
+  {
+    "id": 21,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#    @ #",
+      "##$$#$##",
+      "# .    #",
+      "#.     #",
+      "#  .   #",
+      "########"
+    ],
+    "solution": "LLLDURDURRDULLDLDURDRDRRULLLDL",
+    "solutionMoves": 30,
+    "solutionPushes": 10,
+    "searchStates": 540,
+    "topologyHash": "c525a3d8efb5c0e9"
+  },
+  {
+    "id": 22,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "# # #@##",
+      "#.   $ #",
+      "# .$   #",
+      "# $ #  #",
+      "#   . ##",
+      "########"
+    ],
+    "solution": "DRDDLDLLUURULLRRRRDLLULDLLDDRUDRRRUULLDLDR",
+    "solutionMoves": 42,
+    "solutionPushes": 10,
+    "searchStates": 687,
+    "topologyHash": "f6c2cad84807accb"
+  },
+  {
+    "id": 23,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#. . # #",
+      "# $    #",
+      "#   $ ##",
+      "#    $@#",
+      "# .  # #",
+      "########"
+    ],
+    "solution": "LUULLDLURULDRRRDLULLDDRUUDRRDLULDRDL",
+    "solutionMoves": 36,
+    "solutionPushes": 9,
+    "searchStates": 1060,
+    "topologyHash": "da87732bdbaf873a"
+  },
+  {
+    "id": 24,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#      #",
+      "### $###",
+      "#  . # #",
+      "# $  $+#",
+      "#  .# ##",
+      "########"
+    ],
+    "solution": "LLULUURDDLLLDDRRUDLLUURDRRRLLLLDR",
+    "solutionMoves": 33,
+    "solutionPushes": 9,
+    "searchStates": 172,
+    "topologyHash": "242dfa777ab720cd"
+  },
+  {
+    "id": 25,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#      #",
+      "#  # $.#",
+      "#$#    #",
+      "# #   $#",
+      "#..  #@#",
+      "########"
+    ],
+    "solution": "ULULUURDULLLDLDUURRRDDDRRUDLLUURDUULLLDLDDUUURRRDDRRDLLULDRDL",
+    "solutionMoves": 61,
+    "solutionPushes": 10,
+    "searchStates": 127,
+    "topologyHash": "81da879ca829f6d2"
+  },
+  {
+    "id": 26,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#      #",
+      "#.. #$ #",
+      "# $#   #",
+      "#  . $@#",
+      "#    # #",
+      "########"
+    ],
+    "solution": "UUULDULLDLLDDRULUURRDLURRRDRDDLLRRUULDLDLDLUUDRRURRDLL",
+    "solutionMoves": 54,
+    "solutionPushes": 11,
+    "searchStates": 144,
+    "topologyHash": "dd18f5d554385ffe"
+  },
+  {
+    "id": 27,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "# #    #",
+      "#    $ #",
+      "#   $@##",
+      "# . #$ #",
+      "# .   .#",
+      "########"
+    ],
+    "solution": "LUURRDLULDLDURRDLLULDRRRDULLLLDDRRRRUULLDURRDDLL",
+    "solutionMoves": 48,
+    "solutionPushes": 11,
+    "searchStates": 563,
+    "topologyHash": "dcb41509e8098861"
+  },
+  {
+    "id": 28,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#@$ .. #",
+      "###  # #",
+      "#.     #",
+      "# $  $ #",
+      "# #    #",
+      "########"
+    ],
+    "solution": "RRRDDLLLDRURRDDLURULLDRDRRURULDLUU",
+    "solutionMoves": 34,
+    "solutionPushes": 11,
+    "searchStates": 328,
+    "topologyHash": "8f97ade9814ab6cf"
+  },
+  {
+    "id": 29,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "##     #",
+      "# $   ##",
+      "#  #   #",
+      "#@$. $ #",
+      "## ..  #",
+      "########"
+    ],
+    "solution": "UURRURDDULLDLDRUURRDDURRDLDLRUULD",
+    "solutionMoves": 33,
+    "solutionPushes": 9,
+    "searchStates": 372,
+    "topologyHash": "79b05c68e9e34bf7"
+  },
+  {
+    "id": 30,
+    "name": "三箱調度",
+    "stage": 3,
+    "map": [
+      "########",
+      "#. #   #",
+      "# $# $ #",
+      "#     .#",
+      "#  $@#.#",
+      "###    #",
+      "########"
+    ],
+    "solution": "ULLLUURDLDDRRURUURDLDLLDLUUDRRRRURDLLLDDRULURR",
+    "solutionMoves": 46,
+    "solutionPushes": 11,
+    "searchStates": 582,
+    "topologyHash": "312be0c78873735f"
+  },
+  {
+    "id": 31,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "#######",
+      "#     #",
+      "#.$$# #",
+      "#     #",
+      "# ###$#",
+      "#.. $+#",
+      "#######"
+    ],
+    "solution": "UUDDLLRRUULLLLUURRDURRDDLLLRUULLDDRRULDLDURRRRD",
+    "solutionMoves": 47,
+    "solutionPushes": 13,
+    "searchStates": 595,
+    "topologyHash": "f172ad8804fccc18"
+  },
+  {
+    "id": 32,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#      #",
+      "# . .# #",
+      "#. .#  #",
+      "##    ##",
+      "# $$$$ #",
+      "#  @   #",
+      "########"
+    ],
+    "solution": "LUURULDDDRUUULURDDDDRULUUUURRRDDLDLDLUDDRRRULDLURULLDLUU",
+    "solutionMoves": 56,
+    "solutionPushes": 16,
+    "searchStates": 1426,
+    "topologyHash": "de17c01de141d218"
+  },
+  {
+    "id": 33,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#  .   #",
+      "#  $ $ #",
+      "#   $@##",
+      "#.#  $ #",
+      "# #.   #",
+      "#     .#",
+      "########"
+    ],
+    "solution": "URULLDLDLLUURDRDLULDURRRDDURDDLDR",
+    "solutionMoves": 33,
+    "solutionPushes": 13,
+    "searchStates": 18338,
+    "topologyHash": "d1c293f187779a51"
+  },
+  {
+    "id": 34,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#  @# .#",
+      "# $$# .#",
+      "##  $  #",
+      "# $.   #",
+      "#.     #",
+      "#      #",
+      "########"
+    ],
+    "solution": "DDUULLDRDRRLLUURDLDDLDDRRURUURDDDLLLLUURURRDRRUUDDLLURDRUDDLLLL",
+    "solutionMoves": 63,
+    "solutionPushes": 14,
+    "searchStates": 5517,
+    "topologyHash": "70f18d1cbdeb1b7f"
+  },
+  {
+    "id": 35,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#@$   .#",
+      "# $$  ##",
+      "#  #.# #",
+      "#.$    #",
+      "## .  ##",
+      "########"
+    ],
+    "solution": "RRRRLLLDLDDRRLLUURDUURRDDDLLUURURDLLDDRRRDL",
+    "solutionMoves": 43,
+    "solutionPushes": 13,
+    "searchStates": 2588,
+    "topologyHash": "e8bc605d176e80ac"
+  },
+  {
+    "id": 36,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#.#    #",
+      "#..    #",
+      "#  #  ##",
+      "#$$ $$##",
+      "#@.    #",
+      "########"
+    ],
+    "solution": "UUUDDDRUUDDRRRUULULLRURRRDLLLRDDRDLL",
+    "solutionMoves": 36,
+    "solutionPushes": 14,
+    "searchStates": 2625,
+    "topologyHash": "94e5a9e745b475db"
+  },
+  {
+    "id": 37,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "# .  $ #",
+      "#  #  .#",
+      "###  $.#",
+      "# $    #",
+      "#@$   .#",
+      "#  #   #",
+      "########"
+    ],
+    "solution": "URRURURRULLLRDRRDDLULURDDDLULURRDLLLLDRRRR",
+    "solutionMoves": 42,
+    "solutionPushes": 14,
+    "searchStates": 3089,
+    "topologyHash": "382c900f7cfbb6dc"
+  },
+  {
+    "id": 38,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#   .  #",
+      "#  .   #",
+      "#.  #. #",
+      "#      #",
+      "# $$$$##",
+      "##   @ #",
+      "########"
+    ],
+    "solution": "LLLUURULDDDRUUUULURDDDDDRULUUURRDDLDLUUDDDRRUU",
+    "solutionMoves": 46,
+    "solutionPushes": 14,
+    "searchStates": 6445,
+    "topologyHash": "e89dbe45b0aa03ef"
+  },
+  {
+    "id": 39,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "# #    #",
+      "#@$. $##",
+      "# $$   #",
+      "## .   #",
+      "#      #",
+      "#   .. #",
+      "########"
+    ],
+    "solution": "RRURDURDLLDURDURDRDDLLLLUULURDRRDURDLDURD",
+    "solutionMoves": 41,
+    "solutionPushes": 13,
+    "searchStates": 4361,
+    "topologyHash": "b762ec24c6c33492"
+  },
+  {
+    "id": 40,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#  #   #",
+      "#    . #",
+      "# $   .#",
+      "# $ #  #",
+      "#.  $  #",
+      "# .$@###",
+      "########"
+    ],
+    "solution": "LULLUURLDDRRUULURRDLDDLULURRRRDDLLL",
+    "solutionMoves": 35,
+    "solutionPushes": 13,
+    "searchStates": 2970,
+    "topologyHash": "5bc46cd7b12136a4"
+  },
+  {
+    "id": 41,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#@$  ..#",
+      "##$$   #",
+      "#  #.  #",
+      "#   .  #",
+      "## # $ #",
+      "#  #   #",
+      "########"
+    ],
+    "solution": "RRRRLLLDRURRDDLULURDLLDLDRRLUURRDRDRDDLLUUDDRURUL",
+    "solutionMoves": 49,
+    "solutionPushes": 14,
+    "searchStates": 5572,
+    "topologyHash": "13911065d3f40d4f"
+  },
+  {
+    "id": 42,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#  .   #",
+      "# . #  #",
+      "## # $ #",
+      "# $ # .#",
+      "#+$  $ #",
+      "# #    #",
+      "########"
+    ],
+    "solution": "RUUDDRDRRRUULUURULLRDDDRDDLULRRUULDRDDLLULLRRRDRU",
+    "solutionMoves": 49,
+    "solutionPushes": 15,
+    "searchStates": 3336,
+    "topologyHash": "cc516a48261be2e8"
+  },
+  {
+    "id": 43,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#      #",
+      "#.###  #",
+      "#.  $  #",
+      "# #.$# #",
+      "#$$   .#",
+      "#@#    #",
+      "########"
+    ],
+    "solution": "UUURRRDLDDRRURUULRDDDLLLURULULLDDRLUURRDRDDRRUUULLLLRDRDDLURR",
+    "solutionMoves": 61,
+    "solutionPushes": 13,
+    "searchStates": 1914,
+    "topologyHash": "2c9670a52938e09d"
+  },
+  {
+    "id": 44,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#  # . #",
+      "# $@$  #",
+      "#  $# ##",
+      "#   .$ #",
+      "#   . .#",
+      "########"
+    ],
+    "solution": "RURDLLDLDDRRRRULDLLLUURURRDDUULLDLLURRRLDLDDRRRUUULLDDLDR",
+    "solutionMoves": 57,
+    "solutionPushes": 13,
+    "searchStates": 2762,
+    "topologyHash": "680a5d769d08b85e"
+  },
+  {
+    "id": 45,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#.  #  #",
+      "#   $$ #",
+      "#.   $@#",
+      "#  #  ##",
+      "#.  .$ #",
+      "#      #",
+      "########"
+    ],
+    "solution": "LRUULDLLDLURULDRRDURRDLLLLDDDRRRRULLLRRUULDRDDLLUL",
+    "solutionMoves": 50,
+    "solutionPushes": 16,
+    "searchStates": 5871,
+    "topologyHash": "077044e2f233a5e0"
+  },
+  {
+    "id": 46,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#.     #",
+      "#.  $  #",
+      "# $### #",
+      "##@#   #",
+      "# $#$ .#",
+      "#    . #",
+      "########"
+    ],
+    "solution": "UURULDRRRURDDDLDDLLLUUUDDDRRRUURUULLLLRRRRDDLLDURRUULLLLDDDDRR",
+    "solutionMoves": 62,
+    "solutionPushes": 14,
+    "searchStates": 4167,
+    "topologyHash": "fe5a74a4edf480e2"
+  },
+  {
+    "id": 47,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#    # #",
+      "# $ # .#",
+      "#  $@$.#",
+      "#  #$. #",
+      "# #    #",
+      "#  .   #",
+      "########"
+    ],
+    "solution": "DRDDLLLLUUUURDRLDLDDRRRRUURUULDRDDDLLLLLUUURRRRLLLUURDLDRRLLDLDDRRRRURUUDDDLLLLLUUURRRRLDDRDL",
+    "solutionMoves": 93,
+    "solutionPushes": 13,
+    "searchStates": 2777,
+    "topologyHash": "7fb84ba6e31d195d"
+  },
+  {
+    "id": 48,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#  #  .#",
+      "#  #$$ #",
+      "#  #@$ #",
+      "# . $# #",
+      "#      #",
+      "#    ..#",
+      "########"
+    ],
+    "solution": "DLDDRRURUUUULLDDRULURDRDDDLLRRUULLDLLDDRUDRRURUULLDLRDLDR",
+    "solutionMoves": 57,
+    "solutionPushes": 15,
+    "searchStates": 8180,
+    "topologyHash": "69d8bdb3c88f7392"
+  },
+  {
+    "id": 49,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#.#   ##",
+      "# $    #",
+      "# ## # #",
+      "#$$..  #",
+      "#@$ ##.#",
+      "##    ##",
+      "########"
+    ],
+    "solution": "UUURRURDLLLDDRRRRLLLLUURRRDURRDDUULLLLLDDRRDDLULUR",
+    "solutionMoves": 50,
+    "solutionPushes": 14,
+    "searchStates": 526,
+    "topologyHash": "f1e10410c53304df"
+  },
+  {
+    "id": 50,
+    "name": "四箱協作",
+    "stage": 4,
+    "map": [
+      "########",
+      "#   #  #",
+      "#.  $$ #",
+      "##.  $@#",
+      "#    $ #",
+      "# .. # #",
+      "########"
+    ],
+    "solution": "LRUULDLLLRRRRDDLLRRUULLDURRDLLLDURRDLDLRUULD",
+    "solutionMoves": 44,
+    "solutionPushes": 15,
+    "searchStates": 1567,
+    "topologyHash": "9cb536aafffc7326"
+  }
+]
