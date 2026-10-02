@@ -25,57 +25,57 @@
     {
       "command": "node verify-cards.cjs",
       "passed": true,
-      "seconds": 29.594,
+      "seconds": 31.605,
       "verifierSHA256": "fef26f1c9b47926ddbaab559f307297e488709b21be3fc0c2dfa34224bc8c405"
     },
     {
       "command": "node verify-puzzles.cjs",
       "passed": true,
-      "seconds": 52.394,
+      "seconds": 48.313,
       "verifierSHA256": "beaff383c203d93857f552eaae59aedac2a5a45e7f3db4875a769956f263b0ac",
-      "freshReportSHA256": "c9eeae5d950444e8fde2023265cf411c6f28bbac0bdc1dad57c2bb18446af157"
+      "freshReportSHA256": "844f8cb5af01fea649f37e5d72152f64ba1f524e8218b203376dac1a420e9f14"
     },
     {
       "command": "node verify-logic.cjs",
       "passed": true,
-      "seconds": 120.023,
+      "seconds": 112.51,
       "verifierSHA256": "63c60d50dbc664c851c35b10855577bfc795fa49e928e103ca36b978a5823624",
-      "freshReportSHA256": "24ca4027364827568080faef3dcd4cf29f78b0f25026905b05d5fd7e76f6a47f"
+      "freshReportSHA256": "b55aaa349937832e2d46c9d64b248a0207322d32e20a4b1b0164faced3c85004"
     },
     {
       "command": "node verify-classics.cjs",
       "passed": true,
-      "seconds": 29.011,
+      "seconds": 26.954,
       "verifierSHA256": "b3151f2ca90f3db0fa5b1eef461e20368973452fcf93897ad55b2970d399f05d",
-      "freshReportSHA256": "d1db2218feca1d62dffd3f9e8ba9fbbc2c34588621db77dbb2232d254913743a"
+      "freshReportSHA256": "7cfca02eb6edff584504d4d99ce7440566ea649f1861b6bd09644cd9c3953daf"
     },
     {
       "command": "node verify-collection.cjs",
       "passed": true,
-      "seconds": 46.014,
+      "seconds": 55.016,
       "verifierSHA256": "55cfc54c6a777cf62f00d40ef31cc57a829fbb91ed11a37842623597627d2720",
-      "freshReportSHA256": "10ca1cbe8a8d58df1917eff3e0674a9657fe16fe91eda879789ae698f3227279"
+      "freshReportSHA256": "51117693122a0512827e8420e9235d916de93b8d653ae1637dd6da12126c07ee"
     },
     {
       "command": "node verify-tabletop.cjs",
       "passed": true,
-      "seconds": 46.487,
+      "seconds": 41.725,
       "verifierSHA256": "2555b509e3cdef3d289bbd9a3a69238fca1aff9addf3ae6fe7582eccb3676df2",
-      "freshReportSHA256": "5bf3d2f26aa8d9a54b469060ee31160e719bade8a5e05588858ac758481b18cc"
+      "freshReportSHA256": "bd88752a4c7d3ca96c760b0cd09edd2255142e5c9b293f611a53637e3f8dcd76"
     },
     {
       "command": "node verify-chinese-chess.cjs",
       "passed": true,
-      "seconds": 30.26,
+      "seconds": 32.413,
       "verifierSHA256": "2f7d492b0e54d8e5f9f5273d52f045b58419bc1731c26d1b813f304e98b0eed1",
-      "freshReportSHA256": "83d80dfbe66eaef8d67add99f2fbb3b77d0a1243b25c99af9733544be33caa78"
+      "freshReportSHA256": "9d4364e8a7fc0959856be3399dcb9fc7ff311f79573adb889c1a8e01ce2a97f3"
     },
     {
       "command": "node verify-air-traffic.cjs",
       "passed": true,
-      "seconds": 9.263,
+      "seconds": 9.221,
       "verifierSHA256": "ecb1507a10f15eb0fb77c8e7ec889aeb1126dc034fd5e50c7032b71847bf5e5c",
-      "freshReportSHA256": "5012b1365ffb5b6d469acaae70567cabe551396f93e168abbce6bed68b82d6d7",
+      "freshReportSHA256": "6b9808b24c379e31345d1646aec89067f21fa940be38e6db32644c5652872f03",
       "publishedReport": "air-traffic-verification-report.json"
     }
   ]
