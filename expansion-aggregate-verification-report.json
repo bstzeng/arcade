@@ -1,0 +1,862 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Complete offline release audit; browser and hosted verification are separate",
+  "build": "20261002-expansion80",
+  "baseCommit": "4867af6a1b114d79b57c19c727f571e2fc84741e",
+  "registryCount": 150,
+  "newGames": 80,
+  "newChallenges": 8000,
+  "historicalContent": {
+    "games": 70,
+    "gameAssets": 782,
+    "cardDeals": 250,
+    "puzzleLevels": 2000,
+    "tabletopGames": 12,
+    "airTrafficMaps": 8
+  },
+  "claims": {
+    "offlineRulesAndControllerTests": true,
+    "browserVisualTestingClaimed": false,
+    "mobileBrowserTestingClaimed": false,
+    "allNewChallengesUniquelySolved": false,
+    "allOpponentWinsForced": false,
+    "historicalEvidenceRegeneratedInIsolation": true,
+    "historicalPublishedReportsPreserved": true,
+    "frozenBuilderArtifactsPreserved": true,
+    "incrementalCompletionAfterMetadataOnlyGeneratorRepair": true
+  },
+  "publicationReady": false,
+  "browserQA": {
+    "status": "not-run",
+    "required": "Actual desktop/narrow browser and hosted route verification by release owner"
+  },
+  "sourceFiles": {
+    "app.js": "288c1f123399f5e904aafb8dd4ca170294e32776890e10a939d7008bd1e2fac1",
+    "index.html": "af5efdedfd19a1fb09233933528b5b595250bc5d9fb335b3beaa9c0053ec0e46",
+    "styles.css": "d1eb17e232bff2ac72abd9c386c7751c853e66b85ca16ead893041ba73b42788",
+    "README.md": "3c8d3df600a443c04d2caa8ef8e9cea864b4c466feb982bb04ce9f26b42951f7",
+    "expansion-manifest.json": "feb86a0f49bd162c2938336ae6d2f25a8b8459b0d5b2613edb3b1466e96a0bcc",
+    "expansion-preservation.json": "8eb674e3b6c1609073ab9fb13fb834096249a0fab6135a524975945577b3714f",
+    "expansion-independent-review.json": "268dd579327f33c70ce9c9e9b568215c4e645da5d17ac8627623a028b8a4f379",
+    "verify-air-traffic.cjs": "7966699fde7e9c8f00bf5ec6b550c79fed4a8d548b36176cacf5e16b087a00a1",
+    "verify-all.cjs": "10a529645fcbaa353f0ca112cab09c9335167b3f4aa4c7e9728fdc6c61e4880a",
+    "verify-cards.cjs": "e380242ad06764a4f62b047140dbbee05f6a6856aafb18fa183989a76a7e9b6c",
+    "verify-chinese-chess.cjs": "2f7d492b0e54d8e5f9f5273d52f045b58419bc1731c26d1b813f304e98b0eed1",
+    "verify-classics.cjs": "b3151f2ca90f3db0fa5b1eef461e20368973452fcf93897ad55b2970d399f05d",
+    "verify-collection.cjs": "55cfc54c6a777cf62f00d40ef31cc57a829fbb91ed11a37842623597627d2720",
+    "verify-expansion.cjs": "bcaa36d353ccdc1dcb6479fa7e923b35bb55de7bb4da24782c01e4a31223ae2d",
+    "verify-integration-regressions.cjs": "65bf27847076e5931f2016068594e43f7e682cf75be06c2ed78dd21d5b251e82",
+    "verify-lobby.cjs": "e45cf3f90a4bca1cdfe28a56faa3ab4b6b605ab9c5ffaa4f615042a75d0b3502",
+    "verify-logic.cjs": "ccfe845f8e4fde4b093ad3a17a961bd9a0f171e6757b1b4294470170c3d943c4",
+    "verify-puzzles.cjs": "edc66ddabab53e41932c15e381266bbbe294f50a0bf001ae9a798d0950089fdc",
+    "verify-static.cjs": "a6ac4ba046c3f56c5bfa02e9ff91ba27e115c776272d7d8d5bdeff72c8570d52",
+    "verify-tabletop.cjs": "2555b509e3cdef3d289bbd9a3a69238fca1aff9addf3ae6fe7582eccb3676df2"
+  },
+  "suites": [
+    {
+      "id": "historical:verify-cards.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-cards.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 32.532,
+          "stdoutSHA256": "60b185c63ced81781701fbdf943c5a565b751e188644c6d5a1a62191151cda04",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "#50, stop/cancel recovery, safe hint rollback/cancel, verified reload, corrupt save, unavailable storage\n\n> /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node games/spider/test.js\nPASS: shared gameplay engine replayed 4911 actions across 50 deals, 400 completions, 250 stock rows, 46 multi-card moves; all-action undo, save/reload and illegal-action regressions passed.\n\n> /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node games/spider/ui-test.js\nPASS: DOM-event harness: 50-selector, click move, hints, persisted reload+undo, divergence confirmation/cancel, full UI autoplay, completion undo, pause cancellation, rules/proof dialogs, stock undo and restart. Rendered visual/browser QA remains separate.\n\n> /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node games/tripeaks/test.cjs\nPASS shared gameplay engine: 50 winning replays, 2370 legal moves, all undo/checkpoint suffixes, deck/rule/stock/adversarial tests.\nPASS independent checker: 50 / 50 wins; 50 canonical rank layouts; 2370 legal actions (39–51 per deal).\n\n> /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node games/tripeaks/test-client.cjs\nPASS actual client + DOM-contract harness: 50 wins / 2370 actions, 50 selector controls, undo, divergence confirmation/cancel, hints, restart, 43-step non-destructive playback, save/reload, timer pause, corrupt/disabled storage.\nNot a visual/browser test: responsive layout, native focus and live-host rendering require browser QA.\n\nPASS: all five sets (250 deals) have complete independently verified winning certificates.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {},
+      "seconds": 32.785
+    },
+    {
+      "id": "historical:verify-puzzles.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-puzzles.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 48.294,
+          "stdoutSHA256": "97f4c7dc69a51f10d6f452cfad3c0eacc35b7122538a1686611d070c4b27a6ab",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "tents\n{\n  \"game\": \"tents\",\n  \"manualSolutionUIFlows\": 50,\n  \"hintCompletionUIFlows\": 50,\n  \"wrongPlacementHintRecoveryFlows\": 50,\n  \"otherFlows\": [\n    \"50-level select\",\n    \"previous/next\",\n    \"win dialog\",\n    \"solution preview preserves state and completion\",\n    \"undo\",\n    \"reset then undo restores hint usage\",\n    \"help modal\",\n    \"save/reload\",\n    \"invalid save recovery\",\n    \"storage denial\",\n    \"keyboard focus/edit\"\n  ],\n  \"visualBrowserQA\": \"Not run: browser/preview unavailable in assigned environment; DOM harness is not visual QA.\"\n}\n\n> python3 games/slitherlink/verify.py\nslitherlink: 50 distinct verified levels; 798 witness actions. 50 unique solutions.\n\n> node games/slitherlink/test.cjs\nslitherlink 50 gameplay-engine replays passed\n\n> node games/slitherlink/test-ui.cjs\nslitherlink UI tests: 50 demonstration wins + restore, 50 hint wins+undo, save/reload, cancellation, timer interruption, corrupt/blocked storage passed\n\n> python3 games/polyomino/verify.py\npolyomino: 50 distinct verified levels; 267 witness actions. Multiple valid tilings allowed.\n\n> node games/polyomino/test.cjs\npolyomino 50 gameplay-engine replays passed\n\n> node games/polyomino/test-ui.cjs\n50 manual pointer-placement witnesses passed, including occupied/blocked bounding-box corners\npolyomino UI tests: 50 demonstration wins + restore, 50 hint wins+undo, save/reload, cancellation, timer interruption, corrupt/blocked storage passed\n\nPASS: 10 games × 50 distinct solvable levels = 500; all current registry links/assets present; unique-solution claims verified for Hashi, Tents, and Slitherlink.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "puzzle-verification-report.json": "8218a06ce5d0087cf8e8ffa297330bfd6cc83d32345a5cb327456b67bd7b10fb"
+      },
+      "seconds": 48.381
+    },
+    {
+      "id": "historical:verify-logic.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-logic.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 107.715,
+          "stdoutSHA256": "e79d35786a036dd53d754ed0309883ecd3a7630299a9abff4defa5c8ee4d63a0",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "solutions: 1, independentSearchNodes: 1 },\n    { level: 42, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 43, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 44, n: 6, solutions: 1, independentSearchNodes: 3 },\n    { level: 45, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 46, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 47, n: 6, solutions: 1, independentSearchNodes: 3 },\n    { level: 48, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 49, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 50, n: 6, solutions: 1, independentSearchNodes: 1 }\n  ]\n}\n\n> node games/skyscrapers/test.cjs\n{\n  passed: true,\n  levels: 50,\n  visibilityFixtures: 4,\n  assertions: 755,\n  tests: [\n    'visibility from both directions',\n    'empty puzzle is nonunique',\n    'contradictory givens rejected',\n    'all-level unique counts in two solvers',\n    'Latin constraints',\n    'clue constraints',\n    'false-answer rejection',\n    'saved-action replay',\n    'undo after win',\n    'persistent assistance',\n    'pencil notes',\n    'invalid action rejection'\n  ]\n}\n\n> node games/skyscrapers/test-ui.cjs\nPASS skyscrapers: 50 actual-handler wins, false-answer rejection, probes/marks or values/notes, undo, non-destructive hint/solution, reset confirmation/cancel, all-level persistence, corruption isolation, forged-win rejection, blocked storage, keyboard, level-50 deep link. No browser/render claim.\n\nPASS: 500 new distinct unique-solution levels; independent counters, rules and controller flows; current lobby links and assets.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "logic-verification-report.json": "2ac7c93fc7c3460e8b7be7984f988a1ba0ed3e83c26d22b586e7ec056ec8c3de"
+      },
+      "seconds": 107.853
+    },
+    {
+      "id": "historical:verify-classics.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-classics.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 30.35,
+          "stdoutSHA256": "98ebeacb9739f275e41df4c1f4bd8048cac5ae92e03a7ebc2f33e96de03daa1a",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "mes/star-battle/verify.py\n1 1 10\n2 1 17\n3 1 16\n4 1 7\n5 1 15\n6 1 8\n7 1 8\n8 1 9\n9 1 11\n10 1 18\n11 1 9\n12 1 15\n13 1 9\n14 1 10\n15 1 27\n16 1 11\n17 1 14\n18 1 11\n19 1 17\n20 1 13\n21 1 12\n22 1 10\n23 1 15\n24 1 15\n25 1 19\n26 1 14\n27 1 44\n28 1 10\n29 1 24\n30 1 9\n31 1 29\n32 1 18\n33 1 19\n34 1 16\n35 1 18\n36 1 14\n37 1 19\n38 1 12\n39 1 20\n40 1 17\n41 1 121\n42 1 42\n43 1 50\n44 1 23\n45 1 24\n46 1 105\n47 1 154\n48 1 14\n49 1 25\n50 1 246\n{\"game\": \"star-battle\", \"levels\": 50, \"unique\": true, \"symmetryDistinct\": 50, \"oneStarLevels\": 40, \"twoStarLevels\": 10, \"solver\": \"independent region-subset exact cover with row, column and king-distance constraints\", \"seconds\": 0.1}\n\n> node games/star-battle/test.cjs\n{\n  \"game\": \"star-battle\",\n  \"levels\": 50,\n  \"oneStarLevels\": 40,\n  \"twoStarLevels\": 10,\n  \"engineAssertions\": 750,\n  \"totalAssertions\": 880,\n  \"actualUIScriptWins\": 50,\n  \"uiCellActions\": 434,\n  \"flows\": [\n    \"all 50 wins through real click handlers\",\n    \"adjacency/diagonal, region, row, column quotas\",\n    \"undo\",\n    \"reset confirmation/cancel/undo\",\n    \"save/reload\",\n    \"malformed save\",\n    \"storage denial\",\n    \"wrong star and wrong exclusion hints\",\n    \"read-only answer preview\",\n    \"right-click notes\",\n    \"mode buttons\",\n    \"help/escape\",\n    \"navigation bounds\"\n  ],\n  \"uiMethod\": \"shipped app.js evaluated with deterministic DOM/event harness; no browser pixels tested\",\n  \"browserLayout\": \"not measured by this DOM-based test\"\n}\n\nPASS: 500 new puzzles; 350 uniquely solved clue challenges, 50 no-guess minefields, 100 legal move witnesses; current lobby links; 349 original assets preserved.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "classics-verification-report.json": "28550332f19173159e93ec00be8cb5a4ac8be2bb624c67448aa640019389259c"
+      },
+      "seconds": 30.814
+    },
+    {
+      "id": "historical:verify-collection.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-collection.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 45.678,
+          "stdoutSHA256": "69b113b4460ed749fbea8f049eb79a919f88977d300bf66c2003d641d76a8ea5",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": " DOM harness is not a browser renderer.\"\n}\n\n> python3 games/fillomino/verify.py\n1 22\n2 51\n3 36\n4 122\n5 126\n6 130\n7 43\n8 35\n9 14\n10 55\n11 17\n12 22\n13 77\n14 170\n15 152\n16 41\n17 88\n18 79\n19 869\n20 914\n21 987\n22 469\n23 2481\n24 452\n25 62\n26 956\n27 676\n28 522\n29 229\n30 19\n31 740\n32 144\n33 35453\n34 35843\n35 26011\n36 306\n37 51556\n38 2532\n39 130\n40 1526\n41 22742\n42 24646\n43 191\n44 5051\n45 2307\n46 1448\n47 15493\n48 97\n49 5206\n50 1110\nPASS 18.388\n\n> python3 games/fillomino/solver-tests.py\n{'passed': True, 'comparisons': 625, 'method': 'Every 2x2 clue pattern (0 through 4) against all 256 complete cell-value assignments', 'legalBlankBoardSolutions': 5, 'includesClueFreeRegions': True}\n\n> node games/fillomino/controller-tests.cjs\n{\n  \"game\": \"fillomino\",\n  \"passed\": true,\n  \"assertions\": 1092,\n  \"engineWins\": 50,\n  \"controllerWinFlows\": 50,\n  \"coverage\": [\n    \"all 50 solution boards checked by rules\",\n    \"numeric input and multi-digit keyboard\",\n    \"pointer erase and keyboard Delete\",\n    \"fixed clues immutable\",\n    \"focus and arrow navigation\",\n    \"undo and auto-save reload\",\n    \"wrong-answer-safe nondestructive hints\",\n    \"nondestructive answer preview\",\n    \"reset confirm/cancel/Escape/double-click\",\n    \"navigation clears stale modal actions\",\n    \"invalid state/history/JSON rejection\",\n    \"blocked storage fallback\",\n    \"level boundaries\"\n  ],\n  \"visualBrowserQA\": \"Not run here; DOM harness is not a browser renderer.\"\n}\n\nPASS: 500 new levels; 300 independent unique solutions and 200 legal completion witnesses; current lobby entries; all 492 historical game assets unchanged.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "collection-verification-report.json": "0701e0911a0c936b8752bb14c52902548884b6b85e9f3bac9273ab3e11c9d023"
+      },
+      "seconds": 45.823
+    },
+    {
+      "id": "historical:verify-tabletop.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-tabletop.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 41.597,
+          "stdoutSHA256": "fa75053701416cc6cbb77d9c7b91ee8a37656ec516996a9e30c8ede8646d57da",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "cancellation; settings cancellation\",\"actual UI AI turn locking, stale results after reset and undo\",\"actual UI worker results, save and interrupted page lifecycle\",\"actual UI malformed storage, unavailable storage and worker retry\"],\"coverage\":\"Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support\"}\n\n> node games/quarto/rules-tests.cjs\nPASS 16 unique pieces and give/place turn ownership\nPASS all ten lines and all eight shared trait polarities\nPASS automatic win, full-board draw and terminal guards\nPASS AI legal all difficulties throughout full matches\nPASS AI wins now and never gives an immediate winning piece when safe exists\nPASS round undo, validated save and stale worker safety\n{\"game\":\"quarto\",\"checks\":6,\"passed\":true}\n\n> node games/quarto/controller-tests.cjs\n{\"passed\":true,\"count\":7,\"names\":[\"worker constructor, transport, runtime and invalid replies recover\",\"actual UI local play, reload, replay and undo\",\"actual UI reset confirmation and cancellation; settings cancellation\",\"actual UI AI turn locking, stale results after reset and undo\",\"actual UI worker results, save and interrupted page lifecycle\",\"actual UI malformed storage, unavailable storage and worker retry\",\"actual pool ArrowUp/Down follows computed four/eight columns, wraps and skips used pieces\"],\"coverage\":\"Session plus actual app.js/ui.js in VM DOM harness; separate browser script requires Chromium support\"}\n\nPASS: 10 tabletop games, 3 AI difficulties, rule/tactical/self-play/controller suites; current lobby entries; all 631 prior game assets unchanged.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "tabletop-verification-report.json": "97532b97cbe9109799e0a241d256a967d5483354ef7756b3c811aab6a19f47f0"
+      },
+      "seconds": 42.016
+    },
+    {
+      "id": "historical:verify-chinese-chess.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-chinese-chess.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 34.484,
+          "stdoutSHA256": "b744c6258062ea808ddd128c6d932a0a5ba77d9798c12463319d0f3d654a7272",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": " self-play with conserved inventory\n\n16 Banqi test groups passed.\n{\n  \"passed\": true,\n  \"testCount\": 16,\n  \"cases\": [\n    \"local moves, replay reload and one-ply undo preserve original shuffle\",\n    \"seeded capture midgame save reload preserves full state and exact hidden pool\",\n    \"human turn plus AI reply undo as complete round\",\n    \"second seat opening cannot be undone alone; later complete round can\",\n    \"undo during search terminates worker and ignores delayed answer\",\n    \"reset terminates old worker, clears replay and ignores stale results\",\n    \"worker message contains public observations only, not seed or hidden identities\",\n    \"worker failure, invalid action, timeout and constructor failure all recover legally\",\n    \"wrong request id is ignored; repeated start does not create duplicate worker\",\n    \"missing worker and missing AI still use legal deterministic fallback\",\n    \"invalid and oversized saves rejected, valid replay re-derived not trusted\",\n    \"storage denial remains playable, destroy cancels pending work\",\n    \"actual app initial DOM exposes only 32 generic covered pieces, keyboard navigation and flip\",\n    \"actual app restart and setting changes require confirmation; cancel and Escape preserve state\",\n    \"actual app AI first seat, ignored user clicks, failure fallback and stale replies\",\n    \"actual app help, hint toggle and keyboard undo\"\n  ],\n  \"actualAppVM\": true\n}\nBanqi verification.json generated.\n\nPASS: 2 Chinese chess games, 3 AI difficulties, rule/tactical/self-play/controller suites; 150 lobby entries; all 747 prior game assets unchanged.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "chinese-chess-verification-report.json": "72d978a11ee210bc8aeaf3d2dfc9a177878e682c1984b53ab333b56d80c50ba8"
+      },
+      "seconds": 34.576
+    },
+    {
+      "id": "historical:verify-air-traffic.cjs",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-air-traffic.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 12.36,
+          "stdoutSHA256": "c14d5ca0fe1c7db90605d674b5fef1a06825b16f72aa67178bb867a03c6fdda8",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "ing destinations and increasing targets\nPASS every runway accepts plane and jet only from its assigned threshold and forward heading\nPASS all runway headings reject reverse, off-center, mid-runway and wrong-destination approaches\nPASS all helipads accept their helicopter from eight directions and reject another airport\nPASS landing remains invalid after an armed approach exceeds corridor and turns back inside\nPASS departures cannot accidentally land on matching runway or helipad\nPASS all four exit sides score anywhere on correct boundary and never at another side\nPASS a short forward route exhausts and continues on exactly its final heading\nPASS finite-speed motion and progress are stable across common render frame rates\nPASS fixed simulation produces identical curves under varied render frame timing\nPASS swept collisions detect mid-step crossings but ignore separated crossing times\nPASS each challenge wins exactly on its landing goal while free play continues beyond it\nPASS unsafe pending previews stay still and their safety forecast does not mutate active routes\nPASS spawn forecast follows curved short routes at actual simulation precision\nPASS high-refresh turns cannot invalidate a safe-release forecast\n  Audited 1543 actual random releases across 192 seeded map runs.\nPASS seeded real-map spawns preserve preview, caps, finite state and a five-second reaction window\n\nIndependent audit passed: 16 test families, 933 deterministic cases.\n\nPASS: Air Traffic Control rules and controller suites; 150 lobby entries; all 772 prior game assets and 69 prior cards/artwork unchanged.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "air-traffic-verification-report.json": "2ddea9883ce9544a56c1828a818b76704920c4beb933156ee5634fbdeb546b3a"
+      },
+      "seconds": 12.438
+    },
+    {
+      "id": "shared-challenge-lifecycle",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/challenge-common/challenge-core.test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.123,
+          "stdoutSHA256": "4c61bb23a6e6f6b531a126aa5fa0f6f98237eebd630a2d9c4ae7bbcb41e60fc9",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\n  \"passed\": true,\n  \"assertions\": 522,\n  \"levelsExercised\": 100,\n  \"coverage\": [\n    \"legal transitions\",\n    \"rejected actions are atomic\",\n    \"JSON boundaries\",\n    \"undo/reset\",\n    \"hint assistance\",\n    \"separate replay\",\n    \"stale navigation\",\n    \"completion evidence\",\n    \"corrupt and denied storage\",\n    \"revision mismatch\",\n    \"subscriptions\",\n    \"all 100 level flows\"\n  ],\n  \"browserVisualQA\": false\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/challenge-common/challenge-ui.test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.102,
+          "stdoutSHA256": "88b5ab8d7f932fe1f38499706a6b01e5ceacb5012eb0132ad8ecd5fe38cabb1f",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\n  \"passed\": true,\n  \"assertions\": 36,\n  \"scope\": \"Simulated DOM lifecycle\",\n  \"coverage\": [\n    \"selection boundaries\",\n    \"accessible control labels\",\n    \"reset confirm/cancel/Escape/double click\",\n    \"stale navigation and play\",\n    \"focus return\",\n    \"hint and replay separation\",\n    \"illegal action reporting\",\n    \"listener cleanup\"\n  ],\n  \"browserVisualQA\": false\n}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {},
+      "seconds": 0.322
+    },
+    {
+      "id": "expansion:tabletop",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/generate.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 1.348,
+          "stdoutSHA256": "996d69ec85f3be73de7e2af739bceb1ddf06369fbf95b44ba1613db428204b92",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "go9 100 { candidates: 1031, unique: 100 }\nhex 100 { candidates: 3596, unique: 100 }\nataxx 100 { candidates: 520, unique: 100 }\namazons 100 { candidates: 922, unique: 100 }\ndots-and-boxes 100 { candidates: 487, unique: 100 }\ndou-shou-qi 100 { candidates: 792, unique: 100 }\nhnefatafl 100 { candidates: 586, unique: 100 }\nbackgammon 100 { candidates: 137, unique: 100 }\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/chess/generate-levels.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.312,
+          "stdoutSHA256": "99bb6d783d46df401ec729d89653f74438a0636bb9175cf0bc6d4532d20fe366",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "chess 10 attempts 402\nchess 20 attempts 844\nchess 30 attempts 1078\nchess 40 attempts 1321\nchess 50 attempts 1498\nchess 60 attempts 2030\nchess 70 attempts 2386\nchess 80 attempts 2695\nchess 90 attempts 2991\nchess 100 attempts 4269\nGenerated chess 100 attempts 4269\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/shogi/generate-levels.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 2.619,
+          "stdoutSHA256": "4ac3fb8558c1a7ea04d201ea30d1122b51dd09151e3e6dd1cede1da450065507",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "shogi 10 attempts 505\nshogi 20 attempts 1002\nshogi 30 attempts 1384\nshogi 40 attempts 2233\nshogi 50 attempts 3469\nshogi 60 attempts 4703\nshogi 70 attempts 6100\nshogi 80 attempts 6735\nshogi 90 attempts 8512\nshogi 100 attempts 9651\nGenerated shogi 100 attempts 9651\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 3.725,
+          "stdoutSHA256": "339f5a3bec979997c59f00891e1572b2a3b6fc34603b8bc9c987817306816ea5",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS 12724 assertions 13 boundary groups\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test-controller.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 7.305,
+          "stdoutSHA256": "4a6b416f1a468b778f8615769357f20765c64b8644d1d102f95eca0d497fd3f1",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "chess PASS\ngo9 PASS\nshogi PASS\ndou-shou-qi PASS\nbackgammon PASS\nhex PASS\ndots-and-boxes PASS\nataxx PASS\namazons PASS\nhnefatafl PASS\nPASS 247 simulated-DOM assertions\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test-ai-selfplay.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 16.174,
+          "stdoutSHA256": "ebdabd17d791310c5951b468e74b97fac8a3054695de25f9353bef529d62ae2f",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "chess PASS\ngo9 PASS\nshogi PASS\ndou-shou-qi PASS\nbackgammon PASS\nhex PASS\ndots-and-boxes PASS\nataxx PASS\namazons PASS\nhnefatafl PASS\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test-static.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.269,
+          "stdoutSHA256": "6d0e3f3f576bf51548b5d9b05712557eedbe88e13b74494ba84c47f3c249ad05",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS 238 static checks\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "python3",
+            "games/competitive-common/independent-check.py"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.314,
+          "stdoutSHA256": "1cf721176cf197875fc952ca774e0ce0d111df1857bca440c6dce597b1dff5f9",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "go9 100 100 PASS\nhex 100 100 PASS\nataxx 100 100 PASS\namazons 100 100 PASS\ndots-and-boxes 100 100 PASS\ndou-shou-qi 100 100 PASS\nhnefatafl 100 100 PASS\nbackgammon 100 238 PASS\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/chess/test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 2.128,
+          "stdoutSHA256": "c1f679b20570f2c4a4c0d2625f20ce0af2a783461046e8826950dd3f8e00a887",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS Initial perft depth 4 = 197281\nPASS Kiwipete castling/pins perft depth 3 = 97862\nPASS Rook-pawn endgame perft depth 3 = 2812\nPASS Castling through check is forbidden; queenside works\nPASS Rook capture removes opponent castle right\nPASS En passant and discovered self-check\nPASS Non-capturable en passant is omitted from repetition key\nPASS Four promotions and no unpromoted last-rank pawn\nPASS Mate, stalemate, material dead position\nPASS Threefold claim and fivefold automatic draw\nPASS Fifty-move intended and current claims, 75 automatic\nPASS Pawn moves/captures reset fifty-move count\nPASS play rejects illegal moves and is immutable\nPASS Agreement action requires consent and replays identically\nPASS All 100 puzzles are valid, unique, exactly one mate, no mutation\nPASS Shared Session: every puzzle saves/restores, replays, undoes and rejects wrong answer\nPASS Shared Session: immediate and intended repetition claims replay\nPASS Shared Session: two-consent draw is a replayable event\nPASS Shared AI: three difficulties produce legal immutable moves and normal finds mate\nChess: 19 regression groups, 100 puzzles passed.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "python3",
+            "games/chess/independent-check.py"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.423,
+          "stdoutSHA256": "b78df5b4350a3515d07834d6d62cf75b6674a188545f1f50c94895cb193f0113",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\"game\": \"chess\", \"oracle\": \"python-chess 1.999 / chess 1.11.2\", \"puzzles\": 100, \"uniqueMatePuzzles\": 100, \"differentialPositions\": 432, \"allLegalMoveSetsAgree\": true, \"levelsSha256\": \"44271c0be56e52f34d2238a84b76ddaadec8789f3ef5d2ffc4c536a315617df4\", \"engineSha256\": \"5494a8fa4b11e791ec63f003eea736705bf946c5a39d2f10bd0d8645402eba26\"}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/shogi/test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 1.001,
+          "stdoutSHA256": "9f55aa8863414f7237f0792e3dee075708e53f40adb0c8886e5007338b2d7d10",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS Initial position and depth 1–3 perft\nPASS Nifu blocks pawn drops; promoted pawn does not\nPASS No dead-rank pawn/lance/knight drops\nPASS Mandatory promotion and four directional zone rules\nPASS Promoted captured piece is demoted into capturer hand\nPASS Pin forbids exposing own king\nPASS Uchifuzume rejects pawn-drop mate but allows capturable pawn\nPASS Nonpawn drop mate and board-pawn mate are legal\nPASS Fourfold repetition is replay, never threefold\nPASS Continuous checking side loses repetition\nPASS Declaration threshold: 24–30 replay; 31+ wins\nPASS 500-move rule extends whole continuous-check sequence\nPASS Impasse requires both players agreement\nPASS Agreement action requires consent and replays identically\nPASS Immutable play rejects invalid drops\nPASS All 100 puzzles valid, unique, exact single mate\nPASS Shared Session: every puzzle saves/restores, replays, undoes and rejects wrong answer\nPASS Shared Session: declaration claim replay and undo\nPASS Shared Session: impasse consent event replay and undo\nPASS Shared AI: three difficulties produce legal immutable moves and normal finds mate\nShogi: 20 regression groups, 100 puzzles passed.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "python3",
+            "games/shogi/independent-check.py"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 2.115,
+          "stdoutSHA256": "ecfe2f867036f3cbe83487e598fbe01034d8e489810a25e0cb5815fc0d56c846",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\"game\": \"shogi\", \"oracle\": \"python-shogi 1.1.1\", \"puzzles\": 100, \"uniqueMatePuzzles\": 100, \"differentialPositions\": 540, \"allLegalMoveSetsAgree\": true, \"levelsSha256\": \"1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad\", \"engineSha256\": \"0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f\"}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/competitive-common/independent-verification.json": "f6d42f01399f34ff4670196d9ef55a5535a8152c62aece1db1e4aa0fc3ab417a",
+        "games/chess/independent-verification.json": "f6ca68e237d53b6a4773a10199fc13f2a6c1a1b8da52c98d227e4e76d53feb7b",
+        "games/shogi/independent-verification.json": "ada546a6073a67f76f3eeb82ab28c4581a4b131c571e8610f21c548a4ec64d89"
+      },
+      "regeneration": {
+        "passed": true,
+        "byteIdenticalFiles": 20
+      },
+      "seconds": 37.864
+    },
+    {
+      "id": "expansion:cards",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/cards80-common/generate.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 181.325,
+          "stdoutSHA256": "aa1a7eb1a16bc2dca4453b5c0fdb7ee3056039a55148f347820149f1f4eeb0c1",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "big-two 100 certified candidates 16056ms\ndou-dizhu 100 certified candidates 2256ms\nsevens 92 seed 200500\nsevens 100 certified candidates 962ms\nchinese-poker 100 certified candidates 157132ms\nhearts 100 certified candidates 1414ms\ncrazy-eights 100 certified candidates 271ms\ngin-rummy 100 certified candidates 1067ms\nspades 100 certified candidates 372ms\ncontract-bridge 100 certified candidates 727ms\ntexas-holdem 24 seed 900500\ntexas-holdem 57 seed 901000\ntexas-holdem 91 seed 901500\ntexas-holdem 100 certified candidates 738ms\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/cards80-common/test-all.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 66.804,
+          "stdoutSHA256": "2a53b8ac2b30127d32d43b99360cd3e5a42beb84e43a766b5d0e1f4ff1969efd",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "s\":234,\"scope\":\"Complete open-hand fixed-opponent scenario witnesses; no claim of arbitrary-opponent forced wins.\"}\nPASS assistance provenance spades 8\nPASS controller spades\nPASS DOM UI spades\nPASS rule fixtures contract-bridge\nPASS contract-bridge {\"game\":\"contract-bridge\",\"checkedAt\":\"2026-10-02T18:28:42.571Z\",\"status\":\"passed\",\"levels\":100,\"uniquePositions\":100,\"distinctRankDistributions\":100,\"certificateActions\":4397,\"heroDecisions\":1848,\"minCertificateActions\":29,\"maxCertificateActions\":63,\"independentCardAndLegalityChecks\":true,\"deterministicOpponentChecks\":true,\"selfPlayRounds\":24,\"hiddenInformationInvarianceCases\":12,\"elapsedMs\":339,\"scope\":\"Complete open-hand fixed-opponent scenario witnesses; no claim of arbitrary-opponent forced wins.\"}\nPASS assistance provenance contract-bridge 8\nPASS controller contract-bridge\nPASS DOM UI contract-bridge\nPASS rule fixtures texas-holdem\nPASS texas-holdem {\"game\":\"texas-holdem\",\"checkedAt\":\"2026-10-02T18:28:43.196Z\",\"status\":\"passed\",\"levels\":100,\"uniquePositions\":100,\"distinctRankDistributions\":100,\"certificateActions\":864,\"heroDecisions\":359,\"minCertificateActions\":4,\"maxCertificateActions\":18,\"independentCardAndLegalityChecks\":true,\"deterministicOpponentChecks\":true,\"selfPlayRounds\":24,\"hiddenInformationInvarianceCases\":12,\"elapsedMs\":179,\"scope\":\"Complete open-hand fixed-opponent scenario witnesses; no claim of arbitrary-opponent forced wins.\"}\nPASS assistance provenance texas-holdem 8\nPASS controller texas-holdem\nPASS DOM UI texas-holdem\nPASS all ten card games / 1,000 witnesses; real browser QA remains explicitly pending.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/cards80-common/assistance-tests.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 16.981,
+          "stdoutSHA256": "fab32b75c77e815d2b353b5b8c529c197aed74a0552eb4f09855c817647c27bb",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS assistance provenance big-two 8\nPASS assistance provenance dou-dizhu 8\nPASS assistance provenance sevens 8\nPASS assistance provenance chinese-poker 9\nPASS assistance provenance hearts 8\nPASS assistance provenance crazy-eights 8\nPASS assistance provenance gin-rummy 8\nPASS assistance provenance spades 8\nPASS assistance provenance contract-bridge 8\nPASS assistance provenance texas-holdem 8\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/cards80-common/verification-report.json": "7de44dabc8a3fe0ce3f16a3d439ba02abcfab51ea3357a07298adf2c1997a857",
+        "games/cards80-common/assistance-verification-report.json": "7250c8e6764c546eaf60a700f949d042a95d28713d38f10d9b44d88a2aa954e3"
+      },
+      "execution": "rerun after serialization-only generator repair",
+      "regeneration": {
+        "passed": true,
+        "byteIdenticalFiles": 30
+      },
+      "seconds": 265.285
+    },
+    {
+      "id": "expansion:numbers",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/verify-batch.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 35.196,
+          "stdoutSHA256": "e0ff13f6008a198347ea91f6f51b2c72be593604a5d0d6430ff513dd1b6d9f05",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "play isolation, no preview completion, undo, reset, progression, verified reload, corrupt/quota storage\nBOUNDARY PASS difference-sequence\nDOM PASS difference-sequence: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\nPASS prime-bins: 100 distinct puzzles, independent exact witnesses, engine replay, invalid actions\nPASS prime-bins: replay isolation, no preview completion, undo, reset, progression, verified reload, corrupt/quota storage\nBOUNDARY PASS prime-bins\nDOM PASS prime-bins: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\nPASS matchstick-equation: 100 distinct puzzles, independent exact witnesses, engine replay, invalid actions\nPASS matchstick-equation: replay isolation, no preview completion, undo, reset, progression, verified reload, corrupt/quota storage\nBOUNDARY PASS matchstick-equation\nDOM PASS matchstick-equation: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\nPASS misere-nim: 100 distinct puzzles, independent exact witnesses, engine replay, invalid actions\nPASS misere-nim: replay isolation, no preview completion, undo, reset, progression, verified reload, corrupt/quota storage\nBOUNDARY PASS misere-nim\nDOM PASS misere-nim: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\nPASS numeric batch: 10 games, 1000 challenges, reproducible generation, independent proofs, engine/boundary/controller/simulated-DOM suites. Browser visual QA pending.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/numeric-common/batch-verification-report.json": "e2ff23a2ab15f23524836453b21b4ef0f9fa53fed335394909721d876c896173"
+      },
+      "seconds": 35.68
+    },
+    {
+      "id": "expansion:deduction",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "python3",
+            "games/clue-common/generate.py"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 43.404,
+          "stdoutSHA256": "9152bd28a09001b4659235a0f08eef634f3969b76d262384be69cffe0a0c3c66",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "Generating logic-grid\nCanonical unique: logic-grid 100 batches 2\nGenerating truth-liars\nCanonical unique: truth-liars 100 batches 2\nGenerating alibi-timeline\nCanonical unique: alibi-timeline 100 batches 1\nGenerating substitution-cipher\nCanonical unique: substitution-cipher 100 batches 1\nGenerating family-tree\nCanonical unique: family-tree 100 batches 2\nGenerating hat-deduction\nCanonical unique: hat-deduction 100 batches 2\nGenerating evidence-order\nCanonical unique: evidence-order 100 batches 9\nGenerating rule-lab\nCanonical unique: rule-lab 100 batches 11\nGenerating landmark-location\nCanonical unique: landmark-location 100 batches 1\nGenerating escape-inventory\nCanonical unique: escape-inventory 100 batches 2\nGenerated 1000 puzzles\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "python3",
+            "games/clue-common/test-canonical.py"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.07,
+          "stdoutSHA256": "33acc1f657e2c72a8aae663e3420f28944ffd18b6b1b6446e86dd9b054530f72",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS 208 semantic canonicalization regression checks\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "python3",
+            "games/clue-common/verify-independent.py"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 1.866,
+          "stdoutSHA256": "a31280c8348c613b8543abe35d9cfbaa83bbac988c52754510d6caaeb2beec4d",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "logic-grid 100 independent checks passed\ntruth-liars 100 independent checks passed\nalibi-timeline 100 independent checks passed\nsubstitution-cipher 100 independent checks passed\nfamily-tree 100 independent checks passed\nhat-deduction 100 independent checks passed\nevidence-order 100 independent checks passed\nrule-lab 100 independent checks passed\nlandmark-location 100 independent checks passed\nescape-inventory 100 independent checks passed\nPASS 1000\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/clue-common/test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 65.391,
+          "stdoutSHA256": "d100becf5248396d328d4b255c9029ce8b1c15d3abfd6b528ddd6c7a49dabe37",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "logic-grid passed\ntruth-liars passed\nalibi-timeline passed\nsubstitution-cipher passed\nfamily-tree passed\nhat-deduction passed\nevidence-order passed\nrule-lab passed\nlandmark-location passed\nescape-inventory passed\nPASS 33002 assertions\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/clue-common/test-ui.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 4.325,
+          "stdoutSHA256": "62bdc803a04afc81b97747cae971534f0124c120fd836ad1ebbadb43eaf09612",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "logic-grid UI 100 passed\ntruth-liars UI 100 passed\nalibi-timeline UI 100 passed\nsubstitution-cipher UI 100 passed\nfamily-tree UI 100 passed\nhat-deduction UI 100 passed\nevidence-order UI 100 passed\nrule-lab UI 100 passed\nlandmark-location UI 100 passed\nescape-inventory UI 100 passed\nPASS 2210 UI assertions\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/clue-common/verify-static.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.125,
+          "stdoutSHA256": "ee912799d184ea4761b50dda754f7695aa1a17fe2021b4ed9cefe955c350fe09",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS 192 static checks\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/clue-common/independent-verification.json": "53f0d999472d4b0091f1f5b49621dbb7a391020858ddafc668e412ba09ad348d",
+        "games/clue-common/engine-verification.json": "6cb79972ec461c4192c416762a26df29ad429ced1dee278ecb2ab787e2b24b54",
+        "games/clue-common/ui-verification.json": "4e73df2b40257f2b86d6eb019d9df087597b8f37b7ba0131dae7ed7e74eab789"
+      },
+      "regeneration": {
+        "passed": true,
+        "byteIdenticalFiles": 20
+      },
+      "seconds": 115.278
+    },
+    {
+      "id": "expansion:spatial",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/spatial-common/verify.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 3.498,
+          "stdoutSHA256": "debfb191e9b9ae0e97cd68d422b5351c22a8f8a8de6431ea3e8605626a448b8e",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "jigsaw-workshop: 100 independent witnesses, 100 normalized unique, 921 actions, boundaries 7, controller 27, browser not-run\nrolling-block: 100 independent witnesses, 100 normalized unique, 1290 actions, boundaries 31, controller 27, browser not-run\ncube-nets: 100 independent witnesses, 100 normalized unique, 500 actions, boundaries 7, controller 27, browser not-run\nshadow-sculpture: 100 independent witnesses, 100 normalized unique, 315 actions, boundaries 9, controller 27, browser not-run\nthree-view-blocks: 100 independent witnesses, 100 normalized unique, 1215 actions, boundaries 10, controller 27, browser not-run\npaper-fold: 100 independent witnesses, 100 normalized unique, 749 actions, boundaries 16, controller 27, browser not-run\ngear-workshop: 100 independent witnesses, 100 normalized unique, 460 actions, boundaries 8, controller 27, browser not-run\noverlay-colors: 100 independent witnesses, 100 normalized unique, 381 actions, boundaries 7, controller 27, browser not-run\nbalance-builder: 100 independent witnesses, 100 normalized unique, 515 actions, boundaries 7, controller 27, browser not-run\npin-and-ball: 100 independent witnesses, 100 normalized unique, 1604 actions, boundaries 7, controller 27, browser not-run\nPASS: 10 spatial games / 1,000 challenges.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/spatial-common/dom-tests.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 75.266,
+          "stdoutSHA256": "8b12e7da376c87a289ef0c1552753812f0f175f0d2ae8fbdb2afd90435b5792d",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS jigsaw-workshop all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS rolling-block all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS cube-nets all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS shadow-sculpture all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS three-view-blocks all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS paper-fold all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS gear-workshop all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS overlay-colors all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS balance-builder all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\nDOM PASS pin-and-ball all 100 rendered, manual controls, preview, hint, undo, reload and cancel.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/spatial-common/static-checks.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.495,
+          "stdoutSHA256": "7932c89a9230798061cf75614ca85d95def13c8d738a1ed8dcb22bcc23f5775f",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "STATIC PASS jigsaw-workshop\nSTATIC PASS rolling-block\nSTATIC PASS cube-nets\nSTATIC PASS shadow-sculpture\nSTATIC PASS three-view-blocks\nSTATIC PASS paper-fold\nSTATIC PASS gear-workshop\nSTATIC PASS overlay-colors\nSTATIC PASS balance-builder\nSTATIC PASS pin-and-ball\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/spatial-common/verification-report.json": "9bc9ade2f7689ba34611e8ce2cb7d7bad917f0e3c708399dd692ff308dd66858"
+      },
+      "seconds": 79.739
+    },
+    {
+      "id": "expansion:paths",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/path-lab/verify-batch.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 14.243,
+          "stdoutSHA256": "159a24659a89e75e693be2e8e9f3e9375d8270604787dc642dcc64ca2e032d79",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "5,18]}\n{\"game\":\"dual-shadow-maze\",\"passed\":true,\"assertions\":60461,\"differentialStates\":5768,\"solutionLength\":[5,18],\"durationMs\":366}\n{\"game\":\"tidal-maze\",\"count\":100,\"tries\":7578,\"lengths\":[6,18]}\n{\"game\":\"tidal-maze\",\"passed\":true,\"assertions\":37468,\"differentialStates\":3827,\"solutionLength\":[6,18],\"durationMs\":726}\n{\"game\":\"energy-network\",\"count\":100,\"tries\":5587,\"lengths\":[4,10]}\n{\"game\":\"energy-network\",\"passed\":true,\"assertions\":31842,\"differentialStates\":4987,\"solutionLength\":[4,10],\"durationMs\":2874}\n{\"game\":\"single-teleport\",\"count\":100,\"tries\":1022,\"lengths\":[6,15]}\n{\"game\":\"single-teleport\",\"passed\":true,\"assertions\":22774,\"differentialStates\":2251,\"solutionLength\":[6,15],\"durationMs\":376}\n{\"game\":\"color-gates\",\"count\":100,\"tries\":37224,\"lengths\":[6,18]}\n{\"game\":\"color-gates\",\"passed\":true,\"assertions\":24017,\"differentialStates\":2478,\"solutionLength\":[6,18],\"durationMs\":1054}\n{\"game\":\"tether-maze\",\"count\":100,\"tries\":185,\"lengths\":[5,15]}\n{\"game\":\"tether-maze\",\"passed\":true,\"assertions\":72927,\"differentialStates\":5801,\"solutionLength\":[5,15],\"durationMs\":950}\n{\"game\":\"reversible-stairs\",\"count\":100,\"tries\":524,\"lengths\":[5,16]}\n{\"game\":\"reversible-stairs\",\"passed\":true,\"assertions\":57188,\"differentialStates\":7550,\"solutionLength\":[5,16],\"durationMs\":1755}\n{\"game\":\"tour-route\",\"count\":100,\"tries\":100,\"lengths\":[4,8]}\n{\"game\":\"tour-route\",\"passed\":true,\"assertions\":114523,\"differentialStates\":7335,\"solutionLength\":[4,8],\"durationMs\":454}\n{\n  \"batch\": \"paths10\",\n  \"passed\": true,\n  \"games\": 10,\n  \"challenges\": 1000,\n  \"sourceFiles\": 86,\n  \"browserQA\": \"not-run\"\n}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/path-lab/batch-verification-report.json": "1dde3b82f2f2bceb3721d23cf693672d977483fcfd23273aa04a9cb7178fb892"
+      },
+      "seconds": 14.357
+    },
+    {
+      "id": "expansion:simulation",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/management-common/controller-test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 5.22,
+          "stdoutSHA256": "d08703bdf324bbd280c19f0bcfb22bd4a541a0128240cc601e961dac74e5780a",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "hotel-manager: 103 manual UI actions passed\nrepair-shop: 101 manual UI actions passed\nmuseum-curator: 107 manual UI actions passed\ntheater-manager: 75 manual UI actions passed\ncaravan-trade: 65 manual UI actions passed\ntower-defense: 291 manual UI actions passed\ndeep-sea-treasure: 75 manual UI actions passed\ntime-loop-adventure: 94 manual UI actions passed\nconservation-park: 46 manual UI actions passed\nalchemy-lab: 22 manual UI actions passed\n{\"passed\":true,\"games\":10,\"assertions\":2947,\"clicks\":1042}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/management-common/audit.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 12.122,
+          "stdoutSHA256": "9644078dc21f069c77a701db60ad547ffba64b4bb8494d2507e3095e73a2bf4a",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "epair-shop\",\n      \"path\": \"games/repair-shop/audit.json\",\n      \"sha256\": \"0a818b110c2c302351f6ddb3031424945b4d849e643f853590a7670564a525b5\"\n    },\n    {\n      \"gameId\": \"museum-curator\",\n      \"path\": \"games/museum-curator/audit.json\",\n      \"sha256\": \"7c6663f882651996c310f7aaa6ee18368d452abb52a2ce502a13bb5222cf296c\"\n    },\n    {\n      \"gameId\": \"theater-manager\",\n      \"path\": \"games/theater-manager/audit.json\",\n      \"sha256\": \"9e7ca4c03196145c02c54c468f926ff5f49f828cc6a1c6920766c65f1cbe44ab\"\n    },\n    {\n      \"gameId\": \"caravan-trade\",\n      \"path\": \"games/caravan-trade/audit.json\",\n      \"sha256\": \"5e6d720a668355072f219a2d79bd13867df06b1715ace307bc7cb994268d6f75\"\n    },\n    {\n      \"gameId\": \"tower-defense\",\n      \"path\": \"games/tower-defense/audit.json\",\n      \"sha256\": \"0d3b3aa2bd0c1be06fd4dc655537433d1f88eb4da2072ea82912addbe2ebb499\"\n    },\n    {\n      \"gameId\": \"deep-sea-treasure\",\n      \"path\": \"games/deep-sea-treasure/audit.json\",\n      \"sha256\": \"f3e2891f40876080e8ddac53f46f2db7e1dab52f0cdcbec1874ed16187316645\"\n    },\n    {\n      \"gameId\": \"time-loop-adventure\",\n      \"path\": \"games/time-loop-adventure/audit.json\",\n      \"sha256\": \"3c8fec7e1f9293466c1cd40937c0164376e8e6346add4e7958fc47b7216884ff\"\n    },\n    {\n      \"gameId\": \"conservation-park\",\n      \"path\": \"games/conservation-park/audit.json\",\n      \"sha256\": \"5dcc72e82acbbad203aa261270cca9bd4935720f30de11894118dd07ec485569\"\n    },\n    {\n      \"gameId\": \"alchemy-lab\",\n      \"path\": \"games/alchemy-lab/audit.json\",\n      \"sha256\": \"d5f36b5b8e39b1c6423893d9ca3e9720a590647cb00ea7d84aac3fbc3769e5ae\"\n    }\n  ]\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/management-common/static-test.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 0.415,
+          "stdoutSHA256": "37717d6ab61185747267f45eada438b2d40ba6eeb07a7de18ca9352889268a15",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\n  \"passed\": true,\n  \"checks\": 574,\n  \"games\": 10,\n  \"scope\": \"Local asset graph, metadata, exact data copies, no external runtime service, final audit source hashes and responsive/accessibility stylesheet hooks. No browser rendering claim.\",\n  \"browserQA\": \"not-run\"\n}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/management-common/aggregate-audit.json": "3e251951d6a809f7130e7a57ce0502e32f3d550aa68602829f9838d31f98f09c",
+        "games/management-common/controller-report.json": "a77b5ccb68d0cd8b24501cca87cb3ed55983fe34f44f3bee0916f9458bec4c97"
+      },
+      "seconds": 17.934
+    },
+    {
+      "id": "expansion:quick",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/action-common/verify-all.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 12.316,
+          "stdoutSHA256": "37a5a42fd053bfc6f5a6c5e28f5838572aea79da96bf78c6a6ed335da06d100a",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "breakout: 100/100 independent legal winning replays, 527160 audited ticks\nsnake: 100/100 independent legal winning replays, 72918 audited ticks\npinball: 100/100 independent legal winning replays, 67657 audited ticks\nbubble-shooter: 100/100 independent legal winning replays, 97275 audited ticks\nrhythm-drums: 100/100 independent legal winning replays, 131413 audited ticks\nparkour-run: 100/100 independent legal winning replays, 136542 audited ticks\nspace-dodge: 100/100 independent legal winning replays, 131801 audited ticks\nwhack-a-mole: 100/100 independent legal winning replays, 152546 audited ticks\nfruit-slice: 100/100 independent legal winning replays, 167947 audited ticks\nfishing-challenge: 100/100 independent legal winning replays, 184626 audited ticks\n{\"ticks\":1669885,\"events\":22902}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/action-common/verification-report.json": "480f84b7872786e44a83e5c62203638d67adf2d1a33f0141fa728cd933d08308"
+      },
+      "seconds": 12.483
+    },
+    {
+      "id": "final-150-game-integration",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-lobby.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 3.58,
+          "stdoutSHA256": "791ec38328b81652ddeb5d87234f3c1b08b04d9e86e3f1bcf04754885a07cb67",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS: 1227 local HTML/CSS references across 236 files; no missing assets or navigation targets.\nPASS: 150 games including all 70 unchanged records, 80 distinct new illustrations, 782 preserved game assets, 8 primary categories, 461 search cases, grouped/keyboard/reset/history contracts and versioned links. Browser visual testing is separate.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "verify-expansion.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 4.119,
+          "stdoutSHA256": "bc5abe8853ce56b45ab12c23bb1483e249bdb7b324773d1bc69b35d6faa1f2dc",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS: 1227 local HTML/CSS references across 236 files; no missing assets or navigation targets.\nPASS: 150 games including all 70 unchanged records, 80 distinct new illustrations, 782 preserved game assets, 8 primary categories, 461 search cases, grouped/keyboard/reset/history contracts and versioned links. Browser visual testing is separate.\nPASS: 80 new games × 100 selectable challenges with complete typed certificates; frozen source hashes, canonical counts, 150-game registry, categories, titles, old assets and local references. Run verify-all.cjs for fresh independent solver/controller evidence.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "verify-integration-regressions.cjs"
+          ],
+          "exitCode": 0,
+          "passed": true,
+          "seconds": 8.551,
+          "stdoutSHA256": "cd81ee75d66027453f6b21951bb91b4891797b84b079bd850f69c0bc4dd8d242",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS: 8 intentional integration corruptions rejected for the expected reason; original source untouched.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "expansion-lobby-verification-report.json": "dae55524af7a40d8538c909dbdab024697bdf31426283f91dac6f27cdbce8c6d",
+        "expansion-verification-report.json": "a415ef965c11ddeeae40a0731adb863c5c7a2282402934dd8e06ac5551d82cd6",
+        "expansion-integration-regression-report.json": "a1f1aa3f3f4fc363b531f1675c7a20b159d8c69ace5dde6fdfadb582a7bd7062"
+      },
+      "execution": "rerun after serialization-only generator repair",
+      "seconds": 16.859
+    }
+  ],
+  "failures": [],
+  "independentReview": {
+    "competitiveBoardsAndCards": {
+      "status": "passed",
+      "games": 20,
+      "sourceFilesVerified": 180
+    },
+    "numericClueSpatialAndPath": {
+      "status": "passed",
+      "games": 40,
+      "sourceFilesVerified": 460
+    },
+    "managementAndAction": {
+      "status": "passed",
+      "games": 20,
+      "sourceFilesVerified": 131
+    }
+  },
+  "seconds": 1148.711,
+  "incrementalProvenance": {
+    "method": "The initial complete 18-suite run had 17 passes and one card-regeneration serialization failure. Only generator metadata key order and its asset receipt changed. All 993 other frozen expansion files and all prior-tested root code were hash-verified unchanged. All card regeneration/rules/controller/provenance tests and final integration gates were then rerun.",
+    "initialReportSHA256": "7c649a319b8659634179b49225235ab413b45b85a20de1c80f382d49e7c9a6de",
+    "initialExecutionSeconds": 866.148,
+    "priorPassingSuiteCount": 17,
+    "retainedSuiteCount": 16,
+    "rerunSuites": [
+      "expansion:cards",
+      "final-150-game-integration"
+    ],
+    "changedSourceFiles": [
+      {
+        "path": "games/cards80-common/assets.sha256.json",
+        "beforeSHA256": "25b57ba7163d7943b53842be7968ec1825c00c25da6123f006d24d0450317f5e",
+        "afterSHA256": "1cafa5f2419359007f1d0f16b205044b9c25873b86c79418ebd89aa2c054b639"
+      },
+      {
+        "path": "games/cards80-common/generate.cjs",
+        "beforeSHA256": "1d72b02232e81589b752c158c92a724ba252efc279253b4108b6967cb26ed1f8",
+        "afterSHA256": "c511169374fe0fc561e067cdf05e934b7155c5a28d08e1077b765bd28181400d"
+      }
+    ],
+    "generatorDeltaVerifiedAsPropertyOrderOnly": true,
+    "unchangedFrozenFiles": 993,
+    "runtimeAndCorpusBytesUnchanged": true,
+    "fullFreshReproductionCommand": "node verify-all.cjs",
+    "refreshExecutionSeconds": 282.563
+  }
+}

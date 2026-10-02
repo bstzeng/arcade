@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "build": "20261002-expansion80",
+  "baseCommit": "4867af6a1b114d79b57c19c727f571e2fc84741e",
+  "registryCount": 150,
+  "newGames": 80,
+  "newChallenges": 8000,
+  "primaryCategoryCounts": {
+    "tabletop": 22,
+    "cards": 16,
+    "numbers": 19,
+    "deduction": 24,
+    "spatial": 20,
+    "paths": 18,
+    "simulation": 17,
+    "quick": 14
+  },
+  "eachGameAssignedExactlyOnce": true,
+  "originalRegistryAndArtworkUnchanged": true,
+  "preservedGameAssets": 782,
+  "preservedHistoricalReports": 7,
+  "searchCases": 461,
+  "checks": [
+    "Eight prominent labeled category tiles and native selector",
+    "All 150 games in semantic groups with stable IDs and versioned links",
+    "Every title, English name and game ID searchable",
+    "NFKC/case/whitespace normalization and all-game search from other categories",
+    "Empty/reset, clear-search, Escape, Enter and repeated-interaction flows",
+    "Category/query deep links, refresh, Back/Forward and unrelated URL preservation",
+    "Semantic buttons/select, explicit responsive-safe selector name, focus return, polite status and responsive/reduced-motion source checks"
+  ],
+  "claims": {
+    "offlineRulesAndSimulatedDOM": true,
+    "browserVisualTestingClaimed": false,
+    "mobileBrowserTestingClaimed": false
+  },
+  "sourceFiles": {
+    "app.js": "288c1f123399f5e904aafb8dd4ca170294e32776890e10a939d7008bd1e2fac1",
+    "index.html": "af5efdedfd19a1fb09233933528b5b595250bc5d9fb335b3beaa9c0053ec0e46",
+    "styles.css": "d1eb17e232bff2ac72abd9c386c7751c853e66b85ca16ead893041ba73b42788",
+    "verify-lobby.cjs": "e45cf3f90a4bca1cdfe28a56faa3ab4b6b605ab9c5ffaa4f615042a75d0b3502",
+    "lobby-categories-preservation.json": "76f042a1be2d6b940ef0d0d493be0a7b26620befb6e6bf43ceeacc762e5cb87d",
+    "expansion-manifest.json": "feb86a0f49bd162c2938336ae6d2f25a8b8459b0d5b2613edb3b1466e96a0bcc",
+    "expansion-preservation.json": "8eb674e3b6c1609073ab9fb13fb834096249a0fab6135a524975945577b3714f"
+  }
+}

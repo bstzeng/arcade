@@ -2,28 +2,164 @@
 
 輕量、響應式的繁體中文遊戲入口網站。原生 HTML / CSS / JavaScript，無套件、無外部字型、無追蹤，也不需要建置。
 
-七十款遊戲均可直接遊玩，支援滑鼠與觸控；各款的鍵盤功能以玩法說明為準。空中指揮所的航線繪製需要滑鼠、觸控或觸控筆，鍵盤可控制暫停、說明與重開。
+一百五十款遊戲均可直接遊玩，支援滑鼠與觸控；各款的鍵盤功能以玩法說明為準。空中指揮所的航線繪製需要滑鼠、觸控或觸控筆，鍵盤可控制暫停、說明與重開。
 
 ## 分類瀏覽與搜尋
 
 首頁依實際玩法分成八類，每款遊戲只屬於一個主要分類：
 
-- 棋類對戰：12 款，同機對戰與 AI 棋桌
-- 牌桌接龍：6 款，五種紙牌接龍與麻將接龍
-- 數字推理：9 款，數獨、2048、數和與算術規律
-- 線索解謎：14 款，數繪、踩地雷、區域與線索推理
-- 空間拼圖：10 款，滑塊、推箱、幾何拼板與搬移
-- 連線迷宮：8 款，迷宮、光路、水管與連線
-- 經營冒險：7 款，鐵道、餐廳、探索與即時航線指揮
-- 休閒反應：4 款，記憶配對、方塊消除與反應練習
+- 棋類對戰：22 款，同機對戰與 AI 棋桌
+- 牌桌接龍：16 款，接龍、麻將接龍與十種競技牌桌
+- 數字推理：19 款，數獨、2048、數和與算術規律
+- 線索解謎：24 款，數繪、踩地雷、區域與線索推理
+- 空間拼圖：20 款，滑塊、推箱、幾何拼板與搬移
+- 連線迷宮：18 款，迷宮、光路、水管與連線
+- 經營冒險：17 款，鐵道、餐廳、探索與即時航線指揮
+- 休閒反應：14 款，記憶配對、方塊消除與反應練習
 
-點選大型分類入口即可只看該類；分類選單可快速切換，返回分類會清空搜尋並回到總覽。全部遊戲依分類分組，保留原有卡片、插畫、介紹與遊戲編號。搜尋始終涵蓋全部 70 款，支援中英文名稱、玩法、分類與多個空白分隔的關鍵字，避免上一個分類讓搜尋漏掉遊戲。Escape 清除搜尋，Enter 跳到結果；分類與搜尋狀態支援網址分享以及瀏覽器上一頁／下一頁。
+點選大型分類入口即可只看該類；分類選單可快速切換，返回分類會清空搜尋並回到總覽。全部遊戲依分類分組，保留原有卡片、插畫、介紹與遊戲編號。搜尋始終涵蓋全部 150 款，支援中英文名稱、玩法、分類與多個空白分隔的關鍵字，避免上一個分類讓搜尋漏掉遊戲。Escape 清除搜尋，Enter 跳到結果；分類與搜尋狀態支援網址分享以及瀏覽器上一頁／下一頁。
 
 主要分類定義在 `app.js` 的 `categories`，`gameIds` 必須完整且不重複地包含全部遊戲。原本每款的 `category` 為歷史發行批次，保留供既有驗證使用；新瀏覽分類不更動遊戲內容、存檔或路徑。新增遊戲時，除新增 `games` 項目，也需將 ID 加入恰好一個主要分類，更新首頁分類範例、總數與驗證。
 
-本次分類改版的最新驗證記錄是 `aggregate-verification-report.json` 與 `lobby-categories-verification-report.json`。原有七份發行批次報告保留原貌；完整驗證在隔離副本重跑既有八個測試套件，另檢查所有 70 款遊戲與 782 個既有遊戲檔案均未變動。瀏覽器視覺與實機互動檢查另行記錄，不以離線 DOM 模擬宣稱完成。
+本次 80 款擴充的完整離線記錄是 `expansion-aggregate-verification-report.json`，整合與大廳記錄是 `expansion-verification-report.json` 與 `expansion-lobby-verification-report.json`。`expansion-manifest.json` 明列每款的證明類型、資料、獨立驗證與來源雜湊。既有 `aggregate-verification-report.json`、分類改版與所有歷史批次報告保留原樣，屬於各自發布時的證據。完整驗證在隔離副本重跑八個歷史套件、八個新作套件與共用控制器／整合檢查，另逐一核對 70 筆既有卡片、插畫及 782 個既有遊戲檔案。實際瀏覽器視覺／觸控與上線路徑驗收另行記錄；離線 DOM 模擬不代表瀏覽器驗收已完成。
 
-## 遊戲目錄
+## 八十款新作 · 8,000 關挑戰
+
+本次完整加入 **80 款不同遊戲，每款 100 關**，與原有 70 款合計 150 款。八個主要分類各增加十款，保留原有遊戲網址、卡片順序、插畫、規則與本機存檔。所有新關卡都有固定 ID，可選關；各遊戲的操作與公開規則請看其說明。
+
+### 「有解」的確切意思
+
+- 數字、線索與空間題：獨立檢查公開條件或逐步重播合法解答。只有經另行計數的題型才宣稱唯一解。
+- 西洋棋、將棋：100 題一步將殺；列舉所有合法走法，並由獨立棋規函式庫交叉驗證。
+- 其餘新棋桌：100 題明確局部目標，例如提子、連線、得分或收子；不把局部成功當成整盤必勝。
+- 多堆取石：依最後取石者輸的規則，以全對手回應的極小極大檢查證明策略。
+- 十款競技牌桌：100 副公開明手的指定局面，依固定牌庫與指定對手策略驗證完整結果；不是對任意對手的必勝保證。自由對戰的 AI 只使用自己的手牌與公開資訊。
+- 迷宮、資源經營與反應題：依實際公開模型重播到目標；反應題使用固定模擬時序與合法控制輸入。物理／幾何模型與容差以個別說明為準。
+
+解答示範與玩家進度隔離；提示和示範不能冒充未協助完成。既有 2,000 關益智與 250 副接龍牌局維持原始承諾，不與新增挑戰混稱為「全部唯一解」。
+
+### 棋類對戰 · 新增十款
+
+- **[西洋棋](games/chess.html)**（CHESS）：守住王的安全，解開一步將殺，也能與朋友或 AI 對弈。
+- **[圍棋（9路）](games/go9.html)**（GO · 9×9）：在九路棋盤圍出氣與地，練習提子，再來一盤完整對局。
+- **[日本將棋](games/shogi.html)**（SHOGI）：活用升變與持駒打入，找出一步詰將，體驗完整將棋對局。
+- **[鬥獸棋](games/dou-shou-qi.html)**（JUNGLE）：穿越河流與陷阱，掌握動物大小、鼠象例外與跳河戰術。
+- **[西洋雙陸棋](games/backgammon.html)**（BACKGAMMON）：依骰子調度棋子、處理入場與吃子，規劃最後的收子路線。
+- **[六角連線棋](games/hex.html)**（HEX）：在六角格交錯布局，把屬於自己的兩側連成一條路。
+- **[圍方棋](games/dots-and-boxes.html)**（DOTS AND BOXES）：一筆一筆圍出方格，善用完成方格後可以再走的機會。
+- **[黑白翻轉棋](games/ataxx.html)**（ATAXX）：複製或跳躍棋子，翻轉落點周圍的對手，擴大你的版圖。
+- **[亞馬遜棋](games/amazons.html)**（AMAZONS）：移動女王後射出封路箭，用地形限制對手的活動空間。
+- **[北歐國王逃脫棋](games/hnefatafl.html)**（HNEFATAFL）：在非對稱的北歐棋陣中，選擇護送國王或包圍逃生路。
+
+### 牌桌接龍 · 新增十款
+
+- **[大老二](games/big-two.html)**（BIG TWO）：比較單張、對子與五張牌型，抓準出牌與讓牌的節奏。
+- **[鬥地主](games/dou-dizhu.html)**（DOU DIZHU）：競叫地主、組合牌型，與農民搭檔或獨自出清手牌。
+- **[排七](games/sevens.html)**（SEVENS）：從各花色的七向兩側延伸，在有限的出牌空間中解套。
+- **[十三支](games/chinese-poker.html)**（CHINESE POKER）：把十三張牌排成前、中、後墩，兼顧牌力與不倒水的規則。
+- **[紅心大戰](games/hearts.html)**（HEARTS）：依花色跟牌，避開紅心與黑桃皇后，也能挑戰全收的逆轉。
+- **[瘋狂八](games/crazy-eights.html)**（CRAZY EIGHTS）：配對花色或點數，用萬用八改變花色，搶先清空手牌。
+- **[金拉米](games/gin-rummy.html)**（GIN RUMMY）：抽牌、棄牌，組成同點或順子，降低手中未成組的點數。
+- **[黑桃](games/spades.html)**（SPADES）：估計能拿下的墩數，與搭檔運用黑桃王牌完成叫牌。
+- **[合約橋牌](games/contract-bridge.html)**（CONTRACT BRIDGE）：從叫牌、定約到明手與打牌，在公開牌局中練習完成合約。
+- **[德州撲克](games/texas-holdem.html)**（TEXAS HOLD’EM）：觀察公共牌與下注輪次，用虛擬籌碼練習牌型和邊池判定。
+
+### 數字推理 · 新增十款
+
+- **[24點](games/twenty-four.html)**（TWENTY FOUR）：選兩張牌，用加、減、乘、除與括號湊出 24。
+- **[字母算式](games/alphametic.html)**（ALPHAMETIC）：選字母，再按數字鍵填入。
+- **[魔方陣](games/magic-square.html)**（MAGIC SQUARE）：點空格，再從數字盤填入。
+- **[餘數密碼](games/remainder-code.html)**（REMAINDER CODE）：比對三個餘數，輸入範圍內的整數。
+- **[天平重量](games/balance-weights.html)**（BALANCE WEIGHTS）：調整每個砝碼的整數重量，讓全部天平平衡。
+- **[分數滿杯](games/fraction-cup.html)**（FRACTION CUP）：選分數片，再點杯子；每杯恰好裝滿 1。
+- **[差分數列](games/difference-sequence.html)**（DIFFERENCE SEQUENCE）：依指定階差分與固定項，填完整數列。
+- **[質因數分箱](games/prime-bins.html)**（PRIME FACTOR BINS）：選質因數，再點箱子，讓乘積等於箱上目標。
+- **[算式火柴](games/matchstick-equation.html)**（MATCHSTICK EQUATION）：先點亮火柴拾起，再點空位放下。
+- **[多堆取石](games/misere-nim.html)**（MISÈRE NIM）：一次選一堆取石，拿走最後一顆的人輸。
+
+### 線索解謎 · 新增十款
+
+- **[邏輯配對](games/logic-grid.html)**（LOGIC GRID）：交叉比對人物、座位與屬性，用肯定和排除線索完成配對。
+- **[真話與謊言](games/truth-liars.html)**（TRUTH AND LIARS）：分析相互指涉的證言，找出同時符合全部陳述的真假身分。
+- **[時間線追兇](games/alibi-timeline.html)**（ALIBI TIMELINE）：安排離開時間並核對往返路程，推算誰有可能到過現場。
+- **[替換密文](games/substitution-cipher.html)**（SUBSTITUTION CIPHER）：依公開字典與字母線索，破解一對一替換後的密文。
+- **[家譜追蹤](games/family-tree.html)**（FAMILY TREE）：沿著明確的單線世代關係，把每個人接回正確的家譜位置。
+- **[帽色推理](games/hat-deduction.html)**（HAT DEDUCTION）：追蹤每個人看得到什麼，再用公開發言推理已知與未知。
+- **[物證因果](games/evidence-order.html)**（EVIDENCE ORDER）：依因果與間隔線索排列事件，找出一條合理的發生順序。
+- **[規則實驗室](games/rule-lab.html)**（RULE LAB）：主動輸入實驗值，從明確的有限公式語言中辨認隱藏規則。
+- **[地圖定位](games/landmark-location.html)**（LANDMARK LOCATION）：觀察地標的相對方向與距離，找出自己的位置和面向。
+- **[密室道具](games/escape-inventory.html)**（ESCAPE INVENTORY）：安排消耗材料與啟動機關的次序，用有限道具打開出口。
+
+### 空間拼圖 · 新增十款
+
+- **[拼圖工坊](games/jigsaw-workshop.html)**（JIGSAW WORKSHOP）：轉動帶有真實凹凸榫槽的花窗拼片，讓內縫吻合、外緣成框。
+- **[滾方塊過橋](games/rolling-block.html)**（ROLLING BLOCK）：翻滾長方塊穿越薄板、切換橋樑，以直立姿態落入出口。
+- **[立方體展開圖](games/cube-nets.html)**（CUBE NETS）：把六個有方向的面接成紙網，摺出面向與箭頭都正確的立方體。
+- **[光影雕塑](games/shadow-sculpture.html)**（SHADOW SCULPTURE）：移動、旋轉立體零件，讓正面與斜向兩束光產生指定剪影。
+- **[三視圖積木](games/three-view-blocks.html)**（THREE VIEW BLOCKS）：用恰好的積木數量堆出同時符合上、正、側三視圖的模型。
+- **[摺紙剪影](games/paper-fold.html)**（PAPER FOLD）：把紙對摺、逐層剪孔，讓展開後的孔洞符合目標。
+- **[齒輪工坊](games/gear-workshop.html)**（GEAR WORKSHOP）：在雙平面軸位裝上齒輪，調出精確的輸出方向與轉速比。
+- **[透明片疊色](games/overlay-colors.html)**（OVERLAY COLORS）：轉動並堆疊半透明色片，利用位置與前後順序合成目標。
+- **[重心建築師](games/balance-builder.html)**（BALANCE BUILDER）：逐層擺放不同重量的樑板，用支撐與重心托住外伸載重。
+- **[抽棒落球](games/pin-and-ball.html)**（PIN AND BALL）：依序抽出儲球棒與岔道棒，把不同顏色的球送往正確容器。
+
+### 連線迷宮 · 新增十款
+
+- **[一筆走橋](games/euler-bridges.html)**（EULER BRIDGES）：規劃一筆走完所有橋的路線，分清平行橋並保留最後的出口。
+- **[騎士巡遊](games/knight-tour.html)**（KNIGHT TOUR）：讓騎士用日字步走訪所有可用格，每格只能踏入一次。
+- **[雙影迷宮](games/dual-shadow-maze.html)**（DUAL SHADOW MAZE）：一個指令控制兩個鏡像角色，利用各自的牆壁同步抵達終點。
+- **[潮汐迷宮](games/tidal-maze.html)**（TIDAL MAZE）：看準下一拍的潮汐，移動或等待，穿過定時開放的水道。
+- **[能量路網](games/energy-network.html)**（ENERGY NETWORK）：管理電量、路線損耗與承載上限，利用一次性充電站抵達終點。
+- **[單次傳送](games/single-teleport.html)**（SINGLE TELEPORT）：跨過彼此隔離的兩區，為只能使用一次的傳送門規劃路線。
+- **[變色通路](games/color-gates.html)**（COLOR GATES）：踏入染色格改變顏色，再穿過相符色門找到出口。
+- **[牽繩迷宮](games/tether-maze.html)**（TETHER MAZE）：分別移動繩子兩端，收放繩長，避開立柱與自己的繩路。
+- **[倒轉階梯](games/reversible-stairs.html)**（REVERSIBLE STAIRS）：取得鑰匙再找出口；每次抵達節點都會翻轉相鄰樓梯。
+- **[巡迴路線](games/tour-route.html)**（TOUR ROUTE）：走訪每個景點後回到基地，用精確路程表找出最佳巡迴。
+
+### 經營冒險 · 新增十款
+
+- **[旅館經理](games/hotel-manager.html)**（HOTEL MANAGER）：安排床位、退房清潔與每日員工服務，在薪資與房費間經營多日旅館。
+- **[二手修理店](games/repair-shop.html)**（REPAIR SHOP）：用檢測排除故障，規劃零件到貨與工具升級，修好二手物品再出售。
+- **[博物館策展](games/museum-curator.html)**（MUSEUM CURATOR）：配置展品與保存設備，設計參觀動線，兼顧觀眾偏好與行走疲勞。
+- **[劇院經理](games/theater-manager.html)**（THEATER MANAGER）：選角、排練與跨舞台排程，管理演員疲勞，讓每場演出達到品質目標。
+- **[商隊交易](games/caravan-trade.html)**（CARAVAN TRADE）：買賣有限貨物、規劃糧食與護衛，穿越有風險的商路完成合約並返鄉。
+- **[塔防守城](games/tower-defense.html)**（TOWER DEFENSE）：在真實固定時間格戰鬥中配置箭塔、砲塔與冰塔，升級防線抵擋公開敵軍波次。
+- **[潛海尋寶](games/deep-sea-treasure.html)**（DEEP SEA TREASURE）：在礁石、深度與海流間潛行，管理氧氣、載重與補氣罐，帶寶物安全返航。
+- **[時間循環探險](games/time-loop-adventure.html)**（TIME LOOP ADVENTURE）：跨日保留線索記憶，改變水閘與洪水事件，製作信標解除時間循環。
+- **[生態保育園](games/conservation-park.html)**（CONSERVATION PARK）：逐季修復棲地、灌溉、野放與遷移，平衡草、兔與狐的透明食物網。
+- **[鍊金研究所](games/alchemy-lab.html)**（ALCHEMY LAB）：依原料、工具與熱度研究幻想配方，管理燃料、器具耐久與材料質量。
+
+### 休閒反應 · 新增十款
+
+- **[打磚塊](games/breakout.html)**（BREAKOUT）：移動球板接球，利用不同反射角清除多層耐久磚塊。
+- **[貪吃蛇](games/snake.html)**（SNAKE）：在迷宮走廊中即時轉彎，依序吃果實並避開越來越長的身體。
+- **[彈珠台](games/pinball.html)**（PINBALL）：發射彈珠、操作左右球拍，撞擊彈跳球累積目標分數。
+- **[泡泡射擊](games/bubble-shooter.html)**（BUBBLE SHOOTER）：瞄準並反射彩球，組成三連並讓失去頂端連接的球群掉落。
+- **[節拍鼓手](games/rhythm-drums.html)**（RHYTHM DRUMS）：在判定窗內擊打四條音符軌，處理雙音與按住音符。
+- **[跑酷衝刺](games/parkour-run.html)**（PARKOUR RUN）：自動加速奔跑，跳過矮障與地洞、滑過懸樑，安全到終點。
+- **[太空閃避](games/space-dodge.html)**（SPACE DODGE）：移動太空船穿過連續星雨空隙，必要時使用一次性防護罩。
+- **[打地鼠](games/whack-a-mole.html)**（WHACK A MOLE）：在限時內擊中真地鼠，辨別並避開紫色叉號陷阱。
+- **[水果快切](games/fruit-slice.html)**（FRUIT SLICE）：以實際拖曳軌跡切過拋起的水果，避開炸彈。
+- **[釣魚挑戰](games/fishing-challenge.html)**（FISHING CHALLENGE）：控制拋竿力度、抓準咬鉤時機，再交替收放線管理張力。
+
+### 重現完整離線驗證
+
+需要 Node.js 18+、Python 3。西洋棋／將棋的獨立測試另需安裝其版本固定的測試依賴；遊戲執行時仍完全不需要外部套件或 CDN。
+
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python3 -m pip install -r games/chess/requirements-test.txt -r games/shogi/requirements-test.txt
+node --check app.js
+node verify-static.cjs
+node verify-lobby.cjs
+node verify-expansion.cjs
+node verify-all.cjs
+```
+
+`verify-all.cjs` 在隔離副本執行所有歷史／新作套件，對有命令列生成器的批次重新生成並比對內容雜湊，其餘批次由套件逐關驗證重生成結果。失敗、未執行、與通過分開記錄；完整離線通過仍不等於實際瀏覽器或發布驗收。報告不會覆寫任何既有歷史遊戲資產或發布記錄。
+
+## 既有七十款遊戲與歷史批次
 
 - **數字實驗室**：滑動合併相同數字，挑戰 2048。
 - **迷宮漫步**：穿越隨機迷宮，找到出口。
@@ -247,10 +383,10 @@ node verify-all.cjs
 
 ## 空中指揮所 · 2D 航線調度
 
-全站現有 **70 款遊戲**，保留原有 **2,000 關益智挑戰、250 副接龍牌局與 12 款多人／AI 棋桌**。
+空中指揮所批次發布時全站共有 **70 款遊戲**，保留原有 **2,000 關益智挑戰、250 副接龍牌局與 12 款多人／AI 棋桌**。
 
 - **空中指揮所（Air Traffic Control）**：拖曳畫出航線，引導進場飛機降落，讓離場飛機安全離開空域。
 - 提供八張橫向地圖，並有挑戰與自由模式；滑鼠與觸控均可畫線，須注意降落方向與飛機間的安全距離。
 - 這是可反覆遊玩的即時調度遊戲，地圖並非固定唯一解益智關卡，不列入既有 2,000 關的數量。操作、保存內容與規則以 `games/air-traffic/README.md` 為準。
 
-`node verify-air-traffic.cjs` 在隔離副本執行新作測試，驗證新入口、八張地圖與 70 款大廳整合，並檢查 `air-traffic-preservation.json` 記錄的 69 款既有遊戲共 772 個資產逐位元未變。`node verify-all.cjs` 重跑完整歷史批次與空中指揮所；新作結果保存在 `air-traffic-verification-report.json`，完整本次執行摘要則保存於 `aggregate-verification-report.json`；歷史證據在隔離副本重新產生，保留先前發布的歷史報告。離線規則／模擬 DOM 測試與實際瀏覽器視覺驗收分開記錄。
+`node verify-air-traffic.cjs` 在隔離副本執行新作測試，驗證新入口、八張地圖與 70 款大廳整合，並檢查 `air-traffic-preservation.json` 記錄的 69 款既有遊戲共 772 個資產逐位元未變。`node verify-all.cjs` 重跑完整歷史批次與空中指揮所；新作結果保存在 `air-traffic-verification-report.json`，該歷史批次的完整摘要保存在 `aggregate-verification-report.json`；目前的 150 款完整執行摘要改存 `expansion-aggregate-verification-report.json`；歷史證據在隔離副本重新產生，保留先前發布的歷史報告。離線規則／模擬 DOM 測試與實際瀏覽器視覺驗收分開記錄。
