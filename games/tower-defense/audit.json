@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "gameId": "tower-defense",
+  "rulesRevision": "management-rules-1",
+  "contentRevision": "management-content-1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": []
+  },
+  "proofKinds": [
+    "real-time-witness"
+  ],
+  "witnessActions": 9644,
+  "independentFieldComparisons": 9644,
+  "offWitnessTransitions": 250,
+  "invalidActionCases": 900,
+  "namedBoundaryFixtures": 3,
+  "alternateLegalPlanAccepted": true,
+  "structurallyDistinctStarts": 100,
+  "canonicalNormalization": "Enumerate all eight orthogonal board symmetries, transform ordered entry-to-gate path and sort interchangeable empty pads; retain enemy order, wave timing and tower parameters.",
+  "witnessLengths": {
+    "min": 25,
+    "median": 88,
+    "max": 222
+  },
+  "sources": [
+    {
+      "path": "games/tower-defense.html",
+      "sha256": "b2b6fa701bc819cb7700d25b2666380585150bc5c603f08c8847e3556953fe39"
+    },
+    {
+      "path": "games/tower-defense/engine.js",
+      "sha256": "6a5fd8ca8b38e4d670ee45ba26d7f8e3b91eef663f8ec876f36d71ce5b2a83b7"
+    },
+    {
+      "path": "games/tower-defense/view.js",
+      "sha256": "ed5e8567b44bd0f4c7e966e16eca38de399f4bafc187ec8edb2162945595e202"
+    },
+    {
+      "path": "games/tower-defense/data.js",
+      "sha256": "8e17b83b5287050ffce34ea03ba1f5b691a9cd321f64901d7071bc08377b2c56"
+    },
+    {
+      "path": "games/tower-defense/levels.json",
+      "sha256": "aec8e264b74d143cc53effce92dda366e0e762929e7763b59f839bb808d4575a"
+    },
+    {
+      "path": "games/tower-defense/witnesses.json",
+      "sha256": "c6b41eb907891d26786b2dadf1f99c152e063315497f46736663fe06c20b7ff4"
+    },
+    {
+      "path": "games/management-common/model.js",
+      "sha256": "b61ad81b017c2be9f976767ab4af4d33f677c6f925ccc1e918a85ccb26bbd6fb"
+    },
+    {
+      "path": "games/management-common/ui.js",
+      "sha256": "4b0f63297d6a4adcb31822b55b59dfc858d821e5cd5a4a4fce13d4273c8a11c6"
+    },
+    {
+      "path": "games/management-common/bootstrap.js",
+      "sha256": "ca83a40248f0b5a5c620134b2dd8c0ef69bdaea28c2f3a1a83175fd3b5e9c4c0"
+    },
+    {
+      "path": "games/management-common/style.css",
+      "sha256": "082f87535a68f20938c011dfe430c71cc3554eaf5c5ac20443353523e2d74ef6"
+    },
+    {
+      "path": "games/management-common/generate.cjs",
+      "sha256": "df9435854bdce8914d085d9a9e054582b7d36b8b5ee9d2c1b95340e8950b30f4"
+    },
+    {
+      "path": "games/management-common/reference.cjs",
+      "sha256": "aaefdce6a9e4a74fa5668c2dabdde0097d41c5c2299e75b9dbc32d5f68377ae9"
+    },
+    {
+      "path": "games/management-common/canonical.cjs",
+      "sha256": "6e4d41a5744d7114053839d871881f347df5c0c49ac325fe22a4ff66ecde853c"
+    },
+    {
+      "path": "games/management-common/audit.cjs",
+      "sha256": "c3ac7a36a2786ffac7aedb026b7647b28b45e470fe2981e64429fdf048959662"
+    },
+    {
+      "path": "games/management-common/controller-test.cjs",
+      "sha256": "0383e890c1778ae3fa2f201e98adf1f298d7b3f54681a39749e637a3ef0f5cb9"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/management-common/generate.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/tower-defense/witnesses.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/controller-test.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/tower-defense/controller-report.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/audit.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/tower-defense/audit.json"
+    }
+  ],
+  "limitations": [
+    "Browser visual and real pointer/touch QA not run; unavailable local preview must be resolved before final release.",
+    "Witnesses establish solvability from the fixed start, not uniqueness, shortest solutions or arbitrary mid-game recoverability.",
+    "Combat uses deterministic fixed ticks and public waves; construction is allowed only between waves, with pause and manual step."
+  ]
+}
