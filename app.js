@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261002-logic-500';
+const GAME_BUILD = '20261002-classics-500';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -38,10 +38,30 @@ const games = [
   {"id": "masyu", "title": "黑白圓圈環線", "description": "穿過黑白珍珠畫出單一閉環，遵守轉彎與直行規則。", "note": "珍珠 × 環線", "art": "logic-masyu", "category": "logic", "color": "#d3d6e0", "background": "#333847", "word": "MASYU", "status": "ready", "url": "./games/masyu.html"},
   {"id": "net", "title": "旋轉水管", "description": "旋轉線路拼片，將每個節點接上中心，完成無環網路。", "note": "旋轉 × 連通", "art": "logic-net", "category": "logic", "color": "#96d8ce", "background": "#263e3b", "word": "NET", "status": "ready", "url": "./games/net.html"},
   {"id": "black-box", "title": "棋盤雷射", "description": "從邊界射入光線，根據吸收、反射與出口推算隱藏原子。", "note": "光線 × 推理", "art": "logic-black-box", "category": "logic", "color": "#b3b8f1", "background": "#30334e", "word": "BLACK BOX", "status": "ready", "url": "./games/black-box.html"},
-  {"id": "skyscrapers", "title": "天際線", "description": "安排不同高度的樓群，讓每一側看見的棟數吻合。", "note": "視角 × 高度", "art": "logic-skyscrapers", "category": "logic", "color": "#efb08e", "background": "#49372d", "word": "SKYSCRAPERS", "status": "ready", "url": "./games/skyscrapers.html"}
+  {"id": "skyscrapers", "title": "天際線", "description": "安排不同高度的樓群，讓每一側看見的棟數吻合。", "note": "視角 × 高度", "art": "logic-skyscrapers", "category": "logic", "color": "#efb08e", "background": "#49372d", "word": "SKYSCRAPERS", "status": "ready", "url": "./games/skyscrapers.html"} ,
+  {"id": "sudoku", "title": "數獨", "category": "classic", "description": "行、列與九宮格填入 1 到 9，從線索推導每一個空格。", "note": "九宮 × 推理", "art": "classic-sudoku", "color": "#cab7f0", "background": "#352e48", "word": "SUDOKU", "status": "ready", "url": "./games/sudoku.html", "badge": "50 關 · 唯一解"},
+  {"id": "minesweeper", "title": "踩地雷", "category": "classic", "description": "從已知起點展開數字，以邏輯排除地雷，50 關都不必猜。", "note": "數字 × 排雷", "art": "classic-minesweeper", "color": "#abd6bf", "background": "#273d35", "word": "MINESWEEPER", "status": "ready", "url": "./games/minesweeper.html", "badge": "50 關 · 不必猜"},
+  {"id": "fifteen-puzzle", "title": "十五數字拼圖", "category": "classic", "description": "借一格空位挪動數字，將打散的十五塊方片逐一歸位。", "note": "滑動 × 排序", "art": "classic-fifteen-puzzle", "color": "#efc388", "background": "#443725", "word": "FIFTEEN PUZZLE", "status": "ready", "url": "./games/fifteen-puzzle.html", "badge": "50 關 · 驗證可解"},
+  {"id": "hanoi", "title": "漢諾塔", "category": "classic", "description": "一次搬一片，小片不能壓在大片下方，規劃到達目標的路。", "note": "圓盤 × 規劃", "art": "classic-hanoi", "color": "#a8c8f1", "background": "#29384b", "word": "TOWER OF HANOI", "status": "ready", "url": "./games/hanoi.html", "badge": "50 關 · 驗證可解"},
+  {"id": "mastermind", "title": "猜密碼", "category": "classic", "description": "讀懂已給定的黑白回饋，組合線索，推理唯一的隱藏密碼。", "note": "色碼 × 推演", "art": "classic-mastermind", "color": "#eab0c6", "background": "#472e3b", "word": "MASTERMIND", "status": "ready", "url": "./games/mastermind.html", "badge": "50 關 · 唯一密碼"},
+  {"id": "akari", "title": "燈泡棋", "category": "classic", "description": "用燈泡照亮每個白格，符合牆上數字，燈泡不能互相照見。", "note": "光線 × 佈局", "art": "classic-akari", "color": "#eed791", "background": "#443d27", "word": "AKARI", "status": "ready", "url": "./games/akari.html", "badge": "50 關 · 唯一解"},
+  {"id": "hitori", "title": "一人一格", "category": "classic", "description": "塗黑重複數字，黑格不能相鄰，留下連通的白色棋盤。", "note": "去重 × 連通", "art": "classic-hitori", "color": "#d8c9bb", "background": "#3f3833", "word": "HITORI", "status": "ready", "url": "./games/hitori.html", "badge": "50 關 · 唯一解"},
+  {"id": "shikaku", "title": "矩形分割", "category": "classic", "description": "按數字劃出矩形，每區恰有一個線索，面積與數字相同。", "note": "矩形 × 面積", "art": "classic-shikaku", "color": "#a7d9d1", "background": "#283f3c", "word": "SHIKAKU", "status": "ready", "url": "./games/shikaku.html", "badge": "50 關 · 唯一解"},
+  {"id": "numberlink", "title": "數字連線", "category": "classic", "description": "連接成對的數字，路徑不能交叉，讓每一格都有歸屬。", "note": "路徑 × 配對", "art": "classic-numberlink", "color": "#b4bdf0", "background": "#30364d", "word": "NUMBERLINK", "status": "ready", "url": "./games/numberlink.html", "badge": "50 關 · 唯一解"},
+  {"id": "star-battle", "title": "星星戰棋", "category": "classic", "description": "讓行、列與區域各擁有指定星星，星星彼此不能接觸。", "note": "星星 × 區域", "art": "classic-star-battle", "color": "#edb799", "background": "#463429", "word": "STAR BATTLE", "status": "ready", "url": "./games/star-battle.html", "badge": "50 關 · 唯一解"}
 ];
-const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤', logic: '邏輯推理' };
+const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤', logic: '邏輯推理', classic: '經典益智' };
 const artMarkup = {
+  "classic-sudoku": "<div class=\"classic-art classic-sudoku\"><i>1</i><i></i><i>3</i><i></i><i>5</i><i></i><i>7</i><i></i><i>9</i></div>",
+  "classic-minesweeper": "<div class=\"classic-art classic-mine\"><i>1</i><i>1</i><i></i><i>1</i><i>⚑</i><i></i><i></i><i>2</i><i>1</i></div>",
+  "classic-fifteen-puzzle": "<div class=\"classic-art classic-fifteen\"><i>1</i><i>2</i><i>3</i><i>4</i><i>5</i><i>6</i><i>7</i><i>8</i><i>9</i><i>10</i><i>11</i><i>12</i><i>13</i><i>14</i><i>15</i><b></b></div>",
+  "classic-hanoi": "<div class=\"classic-art classic-hanoi\"><span><i></i><i></i><i></i></span><b></b><b></b></div>",
+  "classic-mastermind": "<div class=\"classic-art classic-code\"><div><i>●</i><i>◆</i><i>▲</i><i>■</i></div><span>● ● ○</span><div><i>◆</i><i>■</i><i>●</i><i>▲</i></div></div>",
+  "classic-akari": "<div class=\"classic-art classic-akari\"><i></i><i>✦</i><i></i><i>1</i><i></i><i>2</i><i></i><i>✦</i><i></i></div>",
+  "classic-hitori": "<div class=\"classic-art classic-hitori\"><i>2</i><i>3</i><i>2</i><i>3</i><i>1</i><i>2</i><i>1</i><i>2</i><i>3</i></div>",
+  "classic-shikaku": "<div class=\"classic-art classic-shikaku\"><i>4</i><i>6</i><i>2</i><i>4</i></div>",
+  "classic-numberlink": "<div class=\"classic-art classic-numberlink\"><i>1</i><b></b><i>1</i><i>2</i><b></b><i>2</i></div>",
+  "classic-star-battle": "<div class=\"classic-art classic-star\"><i></i><i>★</i><i></i><i></i><i></i><i></i><i></i><i></i><i>★</i><i>★</i><i></i><i></i><i></i><i>★</i><i></i><i></i></div>",
   "logic-nonogram": "<div class=\"logic-art logic-nonogram\"><b>1 3 1</b><div><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>",
   "logic-nurikabe": "<div class=\"logic-art logic-nurikabe\"><i>2</i><i></i><i></i><i>3</i><i></i><i></i><i></i><i></i><i></i><i>1</i><i></i><i></i><i></i><i></i><i></i><i></i></div>",
   "logic-magnets": "<div class=\"logic-art logic-magnets\"><i><b>+</b><b>\u2212</b></i><i><b>\u2212</b><b>+</b></i><i><b>+</b><b>\u2212</b></i></div>",
@@ -93,7 +113,7 @@ function gameCard(game, index) {
   art.setAttribute('aria-hidden', 'true');
   art.append(element('div', 'art-pattern'), element('span', 'card-number', `GAME / ${String(index + 1).padStart(2, '0')}`));
   const isReady = game.status === 'ready' && typeof game.url === 'string' && /^\.\/games\/[\w\-/]+(?:\.html)?$/.test(game.url);
-  art.append(element('span', 'coming-badge', isReady ? (game.category === 'logic' ? '50 關 · 唯一解' : game.category === 'board' ? '50 關 · 驗證可解' : '可以開玩') : 'COMING SOON'));
+  art.append(element('span', 'coming-badge', isReady ? (game.badge || (game.category === 'logic' ? '50 關 · 唯一解' : game.category === 'board' ? '50 關 · 驗證可解' : '可以開玩')) : 'COMING SOON'));
   const visual = element('div', 'game-art');
   // Only static, developer-controlled artwork templates are inserted as HTML.
   visual.innerHTML = artMarkup[game.art] || artMarkup.blocks;
