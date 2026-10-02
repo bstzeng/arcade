@@ -1,0 +1,361 @@
+{
+  "passed": true,
+  "method": "Independent unbounded JavaScript forward BFS on each of all 50 starts; generator is C++ multi-source reverse BFS",
+  "levels": 50,
+  "allPublishedOptimaIndependentlyProven": true,
+  "metric": "One orthogonal straight slide of any positive distance is one move",
+  "levelsSHA256": "d5b8f0265a6e88032835e142cd0125c880117df2ec63859cfc5f3d3cf245d0f1",
+  "seconds": 13.356,
+  "results": [
+    {
+      "id": 1,
+      "claimedOptimal": 8,
+      "independentForwardBfsOptimal": 8,
+      "visitedStates": 25,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 2,
+      "claimedOptimal": 8,
+      "independentForwardBfsOptimal": 8,
+      "visitedStates": 147,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 3,
+      "claimedOptimal": 8,
+      "independentForwardBfsOptimal": 8,
+      "visitedStates": 113,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 4,
+      "claimedOptimal": 8,
+      "independentForwardBfsOptimal": 8,
+      "visitedStates": 62,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 5,
+      "claimedOptimal": 15,
+      "independentForwardBfsOptimal": 15,
+      "visitedStates": 429,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 6,
+      "claimedOptimal": 17,
+      "independentForwardBfsOptimal": 17,
+      "visitedStates": 1513,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 7,
+      "claimedOptimal": 19,
+      "independentForwardBfsOptimal": 19,
+      "visitedStates": 1177,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 8,
+      "claimedOptimal": 20,
+      "independentForwardBfsOptimal": 20,
+      "visitedStates": 2796,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 9,
+      "claimedOptimal": 23,
+      "independentForwardBfsOptimal": 23,
+      "visitedStates": 2558,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 10,
+      "claimedOptimal": 26,
+      "independentForwardBfsOptimal": 26,
+      "visitedStates": 3153,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 11,
+      "claimedOptimal": 31,
+      "independentForwardBfsOptimal": 31,
+      "visitedStates": 5041,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 12,
+      "claimedOptimal": 31,
+      "independentForwardBfsOptimal": 31,
+      "visitedStates": 685,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 13,
+      "claimedOptimal": 32,
+      "independentForwardBfsOptimal": 32,
+      "visitedStates": 6771,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 14,
+      "claimedOptimal": 35,
+      "independentForwardBfsOptimal": 35,
+      "visitedStates": 4132,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 15,
+      "claimedOptimal": 39,
+      "independentForwardBfsOptimal": 39,
+      "visitedStates": 2652,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 16,
+      "claimedOptimal": 43,
+      "independentForwardBfsOptimal": 43,
+      "visitedStates": 10701,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 17,
+      "claimedOptimal": 44,
+      "independentForwardBfsOptimal": 44,
+      "visitedStates": 8379,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 18,
+      "claimedOptimal": 45,
+      "independentForwardBfsOptimal": 45,
+      "visitedStates": 13196,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 19,
+      "claimedOptimal": 46,
+      "independentForwardBfsOptimal": 46,
+      "visitedStates": 17792,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 20,
+      "claimedOptimal": 53,
+      "independentForwardBfsOptimal": 53,
+      "visitedStates": 10051,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 21,
+      "claimedOptimal": 54,
+      "independentForwardBfsOptimal": 54,
+      "visitedStates": 9565,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 22,
+      "claimedOptimal": 55,
+      "independentForwardBfsOptimal": 55,
+      "visitedStates": 30189,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 23,
+      "claimedOptimal": 57,
+      "independentForwardBfsOptimal": 57,
+      "visitedStates": 6223,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 24,
+      "claimedOptimal": 62,
+      "independentForwardBfsOptimal": 62,
+      "visitedStates": 21045,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 25,
+      "claimedOptimal": 63,
+      "independentForwardBfsOptimal": 63,
+      "visitedStates": 8556,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 26,
+      "claimedOptimal": 67,
+      "independentForwardBfsOptimal": 67,
+      "visitedStates": 7983,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 27,
+      "claimedOptimal": 70,
+      "independentForwardBfsOptimal": 70,
+      "visitedStates": 11793,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 28,
+      "claimedOptimal": 70,
+      "independentForwardBfsOptimal": 70,
+      "visitedStates": 22186,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 29,
+      "claimedOptimal": 72,
+      "independentForwardBfsOptimal": 72,
+      "visitedStates": 12318,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 30,
+      "claimedOptimal": 77,
+      "independentForwardBfsOptimal": 77,
+      "visitedStates": 23264,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 31,
+      "claimedOptimal": 79,
+      "independentForwardBfsOptimal": 79,
+      "visitedStates": 38500,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 32,
+      "claimedOptimal": 81,
+      "independentForwardBfsOptimal": 81,
+      "visitedStates": 12318,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 33,
+      "claimedOptimal": 82,
+      "independentForwardBfsOptimal": 82,
+      "visitedStates": 31668,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 34,
+      "claimedOptimal": 85,
+      "independentForwardBfsOptimal": 85,
+      "visitedStates": 23600,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 35,
+      "claimedOptimal": 90,
+      "independentForwardBfsOptimal": 90,
+      "visitedStates": 12318,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 36,
+      "claimedOptimal": 90,
+      "independentForwardBfsOptimal": 90,
+      "visitedStates": 40857,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 37,
+      "claimedOptimal": 93,
+      "independentForwardBfsOptimal": 93,
+      "visitedStates": 20788,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 38,
+      "claimedOptimal": 95,
+      "independentForwardBfsOptimal": 95,
+      "visitedStates": 26854,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 39,
+      "claimedOptimal": 99,
+      "independentForwardBfsOptimal": 99,
+      "visitedStates": 12318,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 40,
+      "claimedOptimal": 101,
+      "independentForwardBfsOptimal": 101,
+      "visitedStates": 20788,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 41,
+      "claimedOptimal": 102,
+      "independentForwardBfsOptimal": 102,
+      "visitedStates": 39752,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 42,
+      "claimedOptimal": 107,
+      "independentForwardBfsOptimal": 107,
+      "visitedStates": 28682,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 43,
+      "claimedOptimal": 109,
+      "independentForwardBfsOptimal": 109,
+      "visitedStates": 12318,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 44,
+      "claimedOptimal": 114,
+      "independentForwardBfsOptimal": 114,
+      "visitedStates": 41377,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 45,
+      "claimedOptimal": 120,
+      "independentForwardBfsOptimal": 120,
+      "visitedStates": 33335,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 46,
+      "claimedOptimal": 126,
+      "independentForwardBfsOptimal": 126,
+      "visitedStates": 41520,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 47,
+      "claimedOptimal": 132,
+      "independentForwardBfsOptimal": 132,
+      "visitedStates": 28682,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 48,
+      "claimedOptimal": 138,
+      "independentForwardBfsOptimal": 138,
+      "visitedStates": 41350,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 49,
+      "claimedOptimal": 145,
+      "independentForwardBfsOptimal": 145,
+      "visitedStates": 28682,
+      "replayedWinningPath": true
+    },
+    {
+      "id": 50,
+      "claimedOptimal": 150,
+      "independentForwardBfsOptimal": 150,
+      "visitedStates": 41350,
+      "replayedWinningPath": true
+    }
+  ]
+}
