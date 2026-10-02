@@ -1,0 +1,10 @@
+{
+  "levels": 50,
+  "verified": true,
+  "uniqueSolutions": false,
+  "method": "以連通小片分割棋盤，保留完整鋪排見證，再打亂每片初始方向。另用exact-cover最受限格搜尋重新求解；不要求唯一解，任何完整合法拼法皆可通關。",
+  "gameplayReplay": 50,
+  "uiDemonstrationWins": 50,
+  "uiHintWins": 50,
+  "visualQA": "pending live deployment"
+}
