@@ -1,0 +1,47 @@
+{
+  "game": "banqi",
+  "passed": true,
+  "verifiedAt": "2026-10-02T13:11:06.484Z",
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "passed": true,
+    "testGroups": 16,
+    "fullSelfPlayGames": 6
+  },
+  "controller": {
+    "passed": true,
+    "testGroups": 16,
+    "actualAppVM": true
+  },
+  "fairInformation": {
+    "passed": true,
+    "observationOnlyWorker": true,
+    "hiddenIdentityGetterTraps": true,
+    "samePublicStateFixedSeedSameDecision": true
+  },
+  "checks": {
+    "rules-tests.cjs": {
+      "passed": true
+    },
+    "controller-tests.cjs": {
+      "passed": true
+    }
+  },
+  "files": {
+    "../banqi.html": "dda79c48174986b3eefb305fd207a93d87e07429fa87320921202bfbdab76352",
+    "style.css": "f4744bda5bba0f4d0f5d1a3d664ee6226fd6b182c53dfe4212e18e8c6b20cfa8",
+    "engine.js": "f119218d2d54ce0648d5ea1afc7c63db180ced778a8c215579fad5e553fb346c",
+    "ai.js": "e28cb35b6a92979ff3e0dda2905e6d33326a6d85d09c57f014f4148c015f1cd9",
+    "worker.js": "f165bf6e5ece70a318d76ea3bf4c9eac16ee1ec8a1681522c04c2e7e4a3c46f7",
+    "session.js": "aa1fa3b711ea517dbad5cfff6b8357b32f91f4e190fe509c91908a0e69b788ac",
+    "app.js": "3555b15b6ebe05a493e7a31fe3d9e1e89dd1a10c8392fd20dbe630dede3e60c5",
+    "engine-tests.cjs": "7c88ac94165506d566ad62dc3d429c54d83a92fab46f8958eea28e2d38f4d87d",
+    "rules-tests.cjs": "92f5768d6f05b4aab89d8a340855bd70df41aef056e5199dd016aa37fa10929e",
+    "controller-tests.cjs": "7dbe67c8722dd2bc8eae767a248689707d22ef2dc72c29cca35920c21071ad1d"
+  },
+  "browserQA": "Parent integration performs live browser and responsive checks separately."
+}
