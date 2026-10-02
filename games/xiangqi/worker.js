@@ -1,0 +1,1 @@
+'use strict';importScripts('engine.js','ai.js');self.onmessage=event=>{const {id,state,level}=event.data;try{self.postMessage({id,...XiangqiAI.choose(state,level)});}catch(error){self.postMessage({id,error:String(error)});}};

@@ -1,0 +1,627 @@
+{
+  "game": "xiangqi",
+  "build": "20261002xq1",
+  "passed": true,
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "passed": 39,
+    "failed": 0,
+    "tests": [
+      {
+        "name": "Initial layout, counters, key and 44 legal moves",
+        "passed": true,
+        "durationMs": 42
+      },
+      {
+        "name": "Empty squares have no pseudo moves",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Red king orthogonal palace movement and edge",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Black king orthogonal palace movement and edge",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Flying generals capture, check and interposed blocker",
+        "passed": true,
+        "durationMs": 2
+      },
+      {
+        "name": "General does not fly to other pieces or across a row",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Advisors move one diagonal within either palace",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Elephants move two diagonals and cannot cross the river",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "All four elephant eyes block, regardless of blocker side",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Horse eight L moves, board corners and capture occupancy",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Each horse leg blocks exactly its two L moves",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Rooks slide, stop at friendly pieces, capture first enemy only",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Cannons slide freely without screens, but cannot capture first piece",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Cannons capture across exactly one screen and never land on empty beyond it",
+        "passed": true,
+        "durationMs": 1
+      },
+      {
+        "name": "Red soldiers cross river before gaining sideways moves and never retreat",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Black soldiers cross river before gaining sideways moves and never retreat",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Rook, horse, cannon and soldier check detection respects their blockers",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Pinned piece cannot expose its king to a rook or opposing general",
+        "passed": true,
+        "durationMs": 4
+      },
+      {
+        "name": "Check evasions allow capture, interposition and safe king moves only",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "Checkmate and Xiangqi stalemate both lose; winner works for either color",
+        "passed": true,
+        "durationMs": 1
+      },
+      {
+        "name": "Missing general is terminal, including general captured by a rook",
+        "passed": true,
+        "durationMs": 1
+      },
+      {
+        "name": "Legal move filtering, uniqueness and invalid move rejection",
+        "passed": true,
+        "durationMs": 10
+      },
+      {
+        "name": "Play/apply are immutable; capture, quiet, turn, ply and keys update",
+        "passed": true,
+        "durationMs": 1
+      },
+      {
+        "name": "Threefold repetition requires same board and turn; real legal cycle draws",
+        "passed": true,
+        "durationMs": 13
+      },
+      {
+        "name": "120 non-capturing plies draw; captures reset the clock",
+        "passed": true,
+        "durationMs": 3
+      },
+      {
+        "name": "Every opening and second-ply legal move keeps own general safe",
+        "passed": true,
+        "durationMs": 346
+      },
+      {
+        "name": "Color-rotated opening and representative positions have symmetric legal sets",
+        "passed": true,
+        "durationMs": 1
+      },
+      {
+        "name": "Session saves only moves/options and faithfully replays valid saves",
+        "passed": true,
+        "durationMs": 2
+      },
+      {
+        "name": "Session restore rejects malformed, oversized, incompatible and illegal replay data",
+        "passed": true,
+        "durationMs": 3
+      },
+      {
+        "name": "Session replay rejects extra moves after a terminal repetition draw",
+        "passed": true,
+        "durationMs": 4
+      },
+      {
+        "name": "Local undo removes one ply, preserves input, and restores history/counters",
+        "passed": true,
+        "durationMs": 3
+      },
+      {
+        "name": "AI undo returns to human decision point for human red or black",
+        "passed": true,
+        "durationMs": 3
+      },
+      {
+        "name": "AI shipped easy, normal and hard profiles each return a legal opening move",
+        "passed": true,
+        "durationMs": 1701
+      },
+      {
+        "name": "AI keeps a legal fallback when node/time budget expires immediately",
+        "passed": true,
+        "durationMs": 14
+      },
+      {
+        "name": "AI returns no move for mate, stalemate or a drawn position",
+        "passed": true,
+        "durationMs": 0
+      },
+      {
+        "name": "AI finds an immediate general capture and a forced check evasion",
+        "passed": true,
+        "durationMs": 29
+      },
+      {
+        "name": "easy AI reproducible self-play, at least 24 plies",
+        "passed": true,
+        "durationMs": 93
+      },
+      {
+        "name": "normal AI reproducible self-play, at least 24 plies",
+        "passed": true,
+        "durationMs": 679
+      },
+      {
+        "name": "hard AI reproducible self-play, at least 24 plies",
+        "passed": true,
+        "durationMs": 6882
+      }
+    ],
+    "selfPlay": [
+      {
+        "level": "easy",
+        "plies": 24,
+        "nodeBudgetPerMove": 400,
+        "completedDepths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "moves": [
+          {
+            "from": 64,
+            "to": 1
+          },
+          {
+            "from": 0,
+            "to": 1
+          },
+          {
+            "from": 70,
+            "to": 7
+          },
+          {
+            "from": 8,
+            "to": 7
+          },
+          {
+            "from": 54,
+            "to": 45
+          },
+          {
+            "from": 27,
+            "to": 36
+          },
+          {
+            "from": 45,
+            "to": 36
+          },
+          {
+            "from": 29,
+            "to": 38
+          },
+          {
+            "from": 36,
+            "to": 27
+          },
+          {
+            "from": 38,
+            "to": 47
+          },
+          {
+            "from": 56,
+            "to": 47
+          },
+          {
+            "from": 31,
+            "to": 40
+          },
+          {
+            "from": 47,
+            "to": 38
+          },
+          {
+            "from": 40,
+            "to": 49
+          },
+          {
+            "from": 58,
+            "to": 49
+          },
+          {
+            "from": 33,
+            "to": 42
+          },
+          {
+            "from": 49,
+            "to": 40
+          },
+          {
+            "from": 42,
+            "to": 51
+          },
+          {
+            "from": 60,
+            "to": 51
+          },
+          {
+            "from": 35,
+            "to": 44
+          },
+          {
+            "from": 51,
+            "to": 42
+          },
+          {
+            "from": 44,
+            "to": 53
+          },
+          {
+            "from": 62,
+            "to": 53
+          },
+          {
+            "from": 19,
+            "to": 22
+          }
+        ],
+        "finalOutcome": null
+      },
+      {
+        "level": "normal",
+        "plies": 24,
+        "nodeBudgetPerMove": 1000,
+        "completedDepths": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "moves": [
+          {
+            "from": 64,
+            "to": 1
+          },
+          {
+            "from": 0,
+            "to": 1
+          },
+          {
+            "from": 70,
+            "to": 67
+          },
+          {
+            "from": 27,
+            "to": 36
+          },
+          {
+            "from": 67,
+            "to": 31
+          },
+          {
+            "from": 33,
+            "to": 42
+          },
+          {
+            "from": 56,
+            "to": 47
+          },
+          {
+            "from": 35,
+            "to": 44
+          },
+          {
+            "from": 58,
+            "to": 49
+          },
+          {
+            "from": 19,
+            "to": 21
+          },
+          {
+            "from": 82,
+            "to": 65
+          },
+          {
+            "from": 25,
+            "to": 23
+          },
+          {
+            "from": 49,
+            "to": 40
+          },
+          {
+            "from": 7,
+            "to": 24
+          },
+          {
+            "from": 65,
+            "to": 76
+          },
+          {
+            "from": 2,
+            "to": 18
+          },
+          {
+            "from": 88,
+            "to": 69
+          },
+          {
+            "from": 6,
+            "to": 26
+          },
+          {
+            "from": 69,
+            "to": 58
+          },
+          {
+            "from": 18,
+            "to": 2
+          },
+          {
+            "from": 83,
+            "to": 63
+          },
+          {
+            "from": 2,
+            "to": 18
+          },
+          {
+            "from": 63,
+            "to": 83
+          },
+          {
+            "from": 18,
+            "to": 2
+          }
+        ],
+        "finalOutcome": null
+      },
+      {
+        "level": "hard",
+        "plies": 24,
+        "nodeBudgetPerMove": 2000,
+        "completedDepths": [
+          3,
+          3,
+          3,
+          2,
+          3,
+          2,
+          3,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "moves": [
+          {
+            "from": 64,
+            "to": 1
+          },
+          {
+            "from": 0,
+            "to": 1
+          },
+          {
+            "from": 70,
+            "to": 67
+          },
+          {
+            "from": 27,
+            "to": 36
+          },
+          {
+            "from": 67,
+            "to": 31
+          },
+          {
+            "from": 33,
+            "to": 42
+          },
+          {
+            "from": 56,
+            "to": 47
+          },
+          {
+            "from": 35,
+            "to": 44
+          },
+          {
+            "from": 58,
+            "to": 49
+          },
+          {
+            "from": 19,
+            "to": 21
+          },
+          {
+            "from": 82,
+            "to": 65
+          },
+          {
+            "from": 25,
+            "to": 23
+          },
+          {
+            "from": 49,
+            "to": 40
+          },
+          {
+            "from": 7,
+            "to": 24
+          },
+          {
+            "from": 65,
+            "to": 76
+          },
+          {
+            "from": 2,
+            "to": 18
+          },
+          {
+            "from": 88,
+            "to": 69
+          },
+          {
+            "from": 6,
+            "to": 26
+          },
+          {
+            "from": 69,
+            "to": 58
+          },
+          {
+            "from": 18,
+            "to": 2
+          },
+          {
+            "from": 83,
+            "to": 63
+          },
+          {
+            "from": 2,
+            "to": 18
+          },
+          {
+            "from": 63,
+            "to": 83
+          },
+          {
+            "from": 18,
+            "to": 2
+          }
+        ],
+        "finalOutcome": null
+      }
+    ],
+    "durationMs": 9839
+  },
+  "controller": {
+    "passed": true,
+    "assertions": 38,
+    "actualApp": true,
+    "coverage": [
+      "AI round undo",
+      "local undo",
+      "replay restore",
+      "invalid save",
+      "blocked storage",
+      "new settings confirm/cancel/Escape",
+      "restart confirm/cancel",
+      "black human",
+      "stale worker",
+      "illegal worker reply",
+      "worker error",
+      "worker timeout",
+      "retry",
+      "rules dialog"
+    ]
+  },
+  "controllerPassed": true,
+  "verificationScope": "Rules fixtures, actual search AI legality/self-play, replay persistence, actual app and worker in VM. Browser/visual release QA is separate."
+}

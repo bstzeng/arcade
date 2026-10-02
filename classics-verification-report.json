@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "build": "20261002-tabletop-ai",
-  "registryCount": 67,
+  "build": "20261002-chinese-chess",
+  "registryCount": 69,
   "newGames": 10,
   "levelsPerGame": 50,
   "totalVerifiedLevels": 500,
@@ -36,21 +36,21 @@
         {
           "command": "python3 games/sudoku/verify.py",
           "passed": true,
-          "seconds": 1.429,
+          "seconds": 2.51,
           "output": "{\"verified\": true, \"count\": 50, \"uniqueSolutions\": 50, \"canonicalDistinct\": 50, \"canonicalGroup\": \"digit relabel, transpose, row permutations within bands, band permutations, column permutations within stacks, stack permutations; clue masks ignore digits entirely\", \"subgrids\": {\"4x4\": \"2x2\", \"9x9\": \"3x3\"}, \"dataSHA256\": \"c53064150c3a514ea0d2863869b7448b82dce7f4637b009b80699957a9aed5b0\"}",
           "stderr": ""
         },
         {
           "command": "node games/sudoku/test.cjs",
           "passed": true,
-          "seconds": 0.771,
+          "seconds": 0.916,
           "output": "{\"game\":\"sudoku\",\"levels\":50,\"fullWins\":50,\"logicalSingleWins\":47,\"tests\":\"fixed clues, note toggle, erase, candidates, conflicts, win, invalid saves, navigation assets passed\"}",
           "stderr": ""
         },
         {
           "command": "node games/sudoku/test-ui.cjs",
           "passed": true,
-          "seconds": 5.402,
+          "seconds": 6.026,
           "output": "sudoku helper regression: undo, erase, preview, restart, level switch and conflict-to-victory passed\n{\"game\":\"sudoku\",\"controllerLevels\":50,\"previewPreserves\":50,\"completed\":50,\"undo\":50,\"resetCancellation\":50,\"tests\":\"selector, help, preview interruption, save/reload, persisted undo, restart, final level, keyboard, corrupt/blocked saves, notes and erase passed\"}",
           "stderr": ""
         }
@@ -580,21 +580,21 @@
         {
           "command": "python3 games/minesweeper/verify.py",
           "passed": true,
-          "seconds": 0.111,
+          "seconds": 0.11,
           "output": "{\"verified\": true, \"count\": 50, \"noGuessCertificates\": 50, \"canonicalDistinct\": 50, \"allCellsReplayed\": 3300, \"rejectedTamperedProofs\": 3, \"techniques\": [\"designated safe zero start\", \"zero remaining mines\", \"all remaining cells mines\", \"strict subset subtraction\", \"global remaining mine constraint\"], \"informationPolicy\": \"Every action is logically entailed by revealed numbers and already proven mines plus total mine count. Board truth is consulted only after inference validation.\", \"dataSHA256\": \"fe1704ec65ce64abd6a15c7b260c69637a597b93fed5ee2133d9b3f5b1cf82b1\"}",
           "stderr": ""
         },
         {
           "command": "node games/minesweeper/test.cjs",
           "passed": true,
-          "seconds": 0.607,
+          "seconds": 0.647,
           "output": "{\"game\":\"minesweeper\",\"levels\":50,\"publicOnlyHintWins\":50,\"totalHints\":1939,\"chordWins\":50,\"chordLosses\":50,\"tests\":\"safe opening, reveal, flag, automatic zero flood, chord success/failure, loss, win, hint purity, invalid saves passed\"}",
           "stderr": ""
         },
         {
           "command": "node games/minesweeper/test-ui.cjs",
           "passed": true,
-          "seconds": 8.84,
+          "seconds": 9.452,
           "output": "{\"game\":\"minesweeper\",\"controllerLevels\":50,\"previewPreserves\":50,\"completed\":50,\"undo\":50,\"resetCancellation\":50,\"tests\":\"selector, help, preview interruption, save/reload, persisted undo, restart, final level, keyboard, corrupt/blocked saves, long press, right-click, flag mode, loss and undo passed\"}",
           "stderr": ""
         }
@@ -1409,21 +1409,21 @@
         {
           "command": "python3 games/fifteen-puzzle/verify-independent.py",
           "passed": true,
-          "seconds": 0.519,
+          "seconds": 0.549,
           "output": "PASS: 50 independent sliding witnesses, proper parity, standard goals, unique starts; 20 exact optima via all 181,440 3×3 states; 30 honest 4×4 reference lengths",
           "stderr": ""
         },
         {
           "command": "node games/fifteen-puzzle/test.cjs",
           "passed": true,
-          "seconds": 0.141,
+          "seconds": 0.211,
           "output": "PASS: fifteen-puzzle 50 complete fixtures, every witness action + inverse, legal/illegal moves, off-path routes, validated current saves and winning transcripts, malformed input, exact state graph/parity invariants",
           "stderr": ""
         },
         {
           "command": "node games/fifteen-puzzle/test-ui.cjs",
           "passed": true,
-          "seconds": 0.946,
+          "seconds": 1.175,
           "output": "PASS: fifteen-puzzle real UI handlers: all 50 wins (1600 moves), non-destructive playback, pause/speed/stop, off-path hints, undo/reload, confirmed navigation/restart, keyboard/focus, corrupted saves, proof-validated records, unavailable storage, background/help timer pause",
           "stderr": ""
         }
@@ -1854,21 +1854,21 @@
         {
           "command": "python3 games/hanoi/verify-independent.py",
           "passed": true,
-          "seconds": 0.096,
+          "seconds": 0.107,
           "output": "PASS: 50 independent Hanoi witnesses, exact shortest paths, legal top-disc moves, 50 peg-relabel-distinct layouts; all 9,828 states across 3–8 discs enumerated",
           "stderr": ""
         },
         {
           "command": "node games/hanoi/test.cjs",
           "passed": true,
-          "seconds": 0.178,
+          "seconds": 0.229,
           "output": "PASS: hanoi 50 complete fixtures, every witness action + inverse, legal/illegal moves, off-path routes, validated current saves and winning transcripts, malformed input, exact state graph/parity invariants",
           "stderr": ""
         },
         {
           "command": "node games/hanoi/test-ui.cjs",
           "passed": true,
-          "seconds": 1.59,
+          "seconds": 2.754,
           "output": "PASS: hanoi real UI handlers: all 50 wins (3238 moves), non-destructive playback, pause/speed/stop, off-path hints, undo/reload, confirmed navigation/restart, keyboard/focus, corrupted saves, proof-validated records, unavailable storage, background/help timer pause",
           "stderr": ""
         }
@@ -2349,14 +2349,14 @@
         {
           "command": "node games/mastermind/verify.cjs",
           "passed": true,
-          "seconds": 0.646,
+          "seconds": 0.985,
           "output": "Mastermind: 50/50 unique; 243476 independent feedback comparisons; all starting clues necessary",
           "stderr": ""
         },
         {
           "command": "node games/mastermind/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.094,
+          "seconds": 0.148,
           "output": "Mastermind controller: 420 assertions pass (50 wins/undo, UI submit, hint, solution, reset cancel/confirm, level boundaries, reload, corrupt save)",
           "stderr": ""
         }
@@ -3092,14 +3092,14 @@
         {
           "command": "python3 games/akari/verify.py",
           "passed": true,
-          "seconds": 0.045,
+          "seconds": 0.052,
           "output": "Akari: 50/50 independently proved unique; all solutions satisfy every rule; no dihedral duplicates",
           "stderr": ""
         },
         {
           "command": "node games/akari/controller-tests.cjs",
           "passed": true,
-          "seconds": 0.097,
+          "seconds": 0.108,
           "output": "Akari controller: 368 assertions pass (50 wins/undo, click cycles, keyboard marks, hint, solution, reset cancel/confirm, reload, corrupt save)",
           "stderr": ""
         }
@@ -3579,21 +3579,21 @@
         {
           "command": "node games/hitori/test.cjs",
           "passed": true,
-          "seconds": 0.109,
+          "seconds": 0.163,
           "output": "Hitori engine: all 50 unique solutions + state transitions + 512 exhaustive validator comparisons pass",
           "stderr": ""
         },
         {
           "command": "python3 games/hitori/verify.py",
           "passed": true,
-          "seconds": 0.32,
+          "seconds": 0.753,
           "output": "Hitori: 50/50 independently unique; rotations/reflections/global numeric relabels excluded; all rule validators pass",
           "stderr": ""
         },
         {
           "command": "node games/hitori/ui-test.cjs",
           "passed": true,
-          "seconds": 0.732,
+          "seconds": 0.965,
           "output": "{\n  \"game\": \"hitori\",\n  \"passed\": true,\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 50,\n  \"otherPassed\": [\n    \"50-level selector and boundaries\",\n    \"current-board rules validate victory\",\n    \"reloaded all 50 completions validated\",\n    \"non-destructive solution preview\",\n    \"preview locks editing and never awards completion\",\n    \"undo with retained hint usage\",\n    \"restart Cancel and Escape preserve board\",\n    \"restart undo restores board\",\n    \"help open/close\",\n    \"save reload\",\n    \"malformed JSON recovery\",\n    \"invalid current board discarded\",\n    \"forged completion discarded\",\n    \"storage denied still playable\",\n    \"keyboard navigation and editing\",\n    \"click/touch controls\",\n    \"previous/next navigation\",\n    \"preview exits on level change\",\n    \"invalid level request ignored\",\n    \"black-only completion without mandatory white marking\",\n    \"three paint modes and right-click white marking\"\n  ],\n  \"visualBrowserQA\": \"Not run in this automated suite. The actual controller code is executed with a minimal mock DOM, which does not test rendering.\",\n  \"desktopDesignTarget\": \"1180×757, 100dvh no body scrolling; 30px minimum board cells; mobile controls remain in fixed shell\"\n}",
           "stderr": ""
         }
@@ -4028,21 +4028,21 @@
         {
           "command": "node games/shikaku/test.cjs",
           "passed": true,
-          "seconds": 0.102,
+          "seconds": 0.158,
           "output": "Shikaku engine: all 50 unique covers + state transitions + invalid/overlap/coverage rejection pass",
           "stderr": ""
         },
         {
           "command": "python3 games/shikaku/verify.py",
           "passed": true,
-          "seconds": 0.107,
+          "seconds": 0.118,
           "output": "Shikaku: 50/50 independently unique; rotations/reflections excluded; full rectangle-cover rules pass",
           "stderr": ""
         },
         {
           "command": "node games/shikaku/ui-test.cjs",
           "passed": true,
-          "seconds": 0.779,
+          "seconds": 1.356,
           "output": "{\n  \"game\": \"shikaku\",\n  \"passed\": true,\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 50,\n  \"otherPassed\": [\n    \"50-level selector and boundaries\",\n    \"current-board rules validate victory\",\n    \"reloaded all 50 completions validated\",\n    \"non-destructive solution preview\",\n    \"preview locks editing and never awards completion\",\n    \"undo with retained hint usage\",\n    \"restart Cancel and Escape preserve board\",\n    \"restart undo restores board\",\n    \"help open/close\",\n    \"save reload\",\n    \"malformed JSON recovery\",\n    \"invalid current board discarded\",\n    \"forged completion discarded\",\n    \"storage denied still playable\",\n    \"keyboard navigation and editing\",\n    \"click/touch controls\",\n    \"previous/next navigation\",\n    \"preview exits on level change\",\n    \"invalid level request ignored\",\n    \"tap-two-corner input with confirmation preview\",\n    \"hover/keyboard preview\",\n    \"cancel preview\",\n    \"invalid rectangle rejected\",\n    \"overlap rejected\",\n    \"erase rectangle\",\n    \"right-click and Delete removal\"\n  ],\n  \"visualBrowserQA\": \"Not run in this automated suite. The actual controller code is executed with a minimal mock DOM, which does not test rendering.\",\n  \"desktopDesignTarget\": \"1180×757, 100dvh no body scrolling; 30px minimum board cells; mobile controls remain in fixed shell\"\n}",
           "stderr": ""
         }
@@ -4477,14 +4477,14 @@
         {
           "command": "python3 games/numberlink/verify.py",
           "passed": true,
-          "seconds": 0.085,
-          "output": "1 1 1\n2 1 1\n3 1 1\n4 1 1\n5 1 1\n6 1 1\n7 1 1\n8 1 1\n9 1 1\n10 1 1\n11 1 1\n12 1 1\n13 1 1\n14 1 1\n15 1 5\n16 1 1\n17 1 1\n18 1 1\n19 1 1\n20 1 1\n21 1 1\n22 1 1\n23 1 1\n24 1 1\n25 1 3\n26 1 3\n27 1 1\n28 1 1\n29 1 1\n30 1 1\n31 1 1\n32 1 1\n33 1 1\n34 1 9\n35 1 1\n36 1 1\n37 1 1\n38 1 5\n39 1 1\n40 1 1\n41 1 7\n42 1 9\n43 1 21\n44 1 7\n45 1 29\n46 1 7\n47 1 1\n48 1 1\n49 1 3\n50 1 53\n{\"game\": \"numberlink\", \"levels\": 50, \"unique\": true, \"symmetryDistinct\": 50, \"solver\": \"independent undirected-edge degree CSP with component/terminal constraints\", \"seconds\": 0.04}",
+          "seconds": 0.078,
+          "output": "1 1 1\n2 1 1\n3 1 1\n4 1 1\n5 1 1\n6 1 1\n7 1 1\n8 1 1\n9 1 1\n10 1 1\n11 1 1\n12 1 1\n13 1 1\n14 1 1\n15 1 5\n16 1 1\n17 1 1\n18 1 1\n19 1 1\n20 1 1\n21 1 1\n22 1 1\n23 1 1\n24 1 1\n25 1 3\n26 1 3\n27 1 1\n28 1 1\n29 1 1\n30 1 1\n31 1 1\n32 1 1\n33 1 1\n34 1 9\n35 1 1\n36 1 1\n37 1 1\n38 1 5\n39 1 1\n40 1 1\n41 1 7\n42 1 9\n43 1 21\n44 1 7\n45 1 29\n46 1 7\n47 1 1\n48 1 1\n49 1 3\n50 1 53\n{\"game\": \"numberlink\", \"levels\": 50, \"unique\": true, \"symmetryDistinct\": 50, \"solver\": \"independent undirected-edge degree CSP with component/terminal constraints\", \"seconds\": 0.038}",
           "stderr": ""
         },
         {
           "command": "node games/numberlink/test.cjs",
           "passed": true,
-          "seconds": 0.464,
+          "seconds": 0.663,
           "output": "{\n  \"game\": \"numberlink\",\n  \"levels\": 50,\n  \"engineAssertions\": 400,\n  \"totalAssertions\": 528,\n  \"actualUIScriptWins\": 50,\n  \"uiCellActions\": 1660,\n  \"flows\": [\n    \"all 50 wins through real click handlers\",\n    \"invalid inputs\",\n    \"undo\",\n    \"reset confirmation/cancel/undo\",\n    \"save/reload\",\n    \"malformed save\",\n    \"storage denial\",\n    \"wrong-state transparent hint\",\n    \"non-destructive answer preview\",\n    \"touch pointer path\",\n    \"keyboard-click handlers\",\n    \"help/escape\",\n    \"navigation bounds\"\n  ],\n  \"uiMethod\": \"shipped app.js evaluated with deterministic DOM/event harness; no browser pixels tested\",\n  \"browserLayout\": \"not measured by this DOM-based test\"\n}",
           "stderr": ""
         }
@@ -4503,7 +4503,7 @@
         "style.css": "9ba0f7bbd8b55e70c69a5b33e8d02e4139c7bc0b43814014632c2ca896b67e9a",
         "test-report.json": "2e957c004784450f698e543b51b68b9bbba65c01e0b069020e3f7d54c6c49ba2",
         "test.cjs": "5947e67eb1e538dcc849c8e0a1dcee419067605386173e91921693963281e835",
-        "verification-report.json": "65dcba945fe9f31409537624ecb08dce4184dc1c54d69e3016c7fb45b3683b3e",
+        "verification-report.json": "d2797e444fec2d5d9853d47900a251829572b690ccb481be90697c5a27a9e187",
         "verification.log": "e781da2fee675e1c7baaf8606eff40b8a6766762242a46f6f552ed2ab1ee7387",
         "verify.py": "b7f252bef729da2a113caac0cccaffc55dbc70496de50b21bc39d039ac3aa34f"
       },
@@ -4869,14 +4869,14 @@
         {
           "command": "python3 games/star-battle/verify.py",
           "passed": true,
-          "seconds": 0.137,
-          "output": "1 1 10\n2 1 17\n3 1 16\n4 1 7\n5 1 15\n6 1 8\n7 1 8\n8 1 9\n9 1 11\n10 1 18\n11 1 9\n12 1 15\n13 1 9\n14 1 10\n15 1 27\n16 1 11\n17 1 14\n18 1 11\n19 1 17\n20 1 13\n21 1 12\n22 1 10\n23 1 15\n24 1 15\n25 1 19\n26 1 14\n27 1 44\n28 1 10\n29 1 24\n30 1 9\n31 1 29\n32 1 18\n33 1 19\n34 1 16\n35 1 18\n36 1 14\n37 1 19\n38 1 12\n39 1 20\n40 1 17\n41 1 121\n42 1 42\n43 1 50\n44 1 23\n45 1 24\n46 1 105\n47 1 154\n48 1 14\n49 1 25\n50 1 246\n{\"game\": \"star-battle\", \"levels\": 50, \"unique\": true, \"symmetryDistinct\": 50, \"oneStarLevels\": 40, \"twoStarLevels\": 10, \"solver\": \"independent region-subset exact cover with row, column and king-distance constraints\", \"seconds\": 0.096}",
+          "seconds": 0.16,
+          "output": "1 1 10\n2 1 17\n3 1 16\n4 1 7\n5 1 15\n6 1 8\n7 1 8\n8 1 9\n9 1 11\n10 1 18\n11 1 9\n12 1 15\n13 1 9\n14 1 10\n15 1 27\n16 1 11\n17 1 14\n18 1 11\n19 1 17\n20 1 13\n21 1 12\n22 1 10\n23 1 15\n24 1 15\n25 1 19\n26 1 14\n27 1 44\n28 1 10\n29 1 24\n30 1 9\n31 1 29\n32 1 18\n33 1 19\n34 1 16\n35 1 18\n36 1 14\n37 1 19\n38 1 12\n39 1 20\n40 1 17\n41 1 121\n42 1 42\n43 1 50\n44 1 23\n45 1 24\n46 1 105\n47 1 154\n48 1 14\n49 1 25\n50 1 246\n{\"game\": \"star-battle\", \"levels\": 50, \"unique\": true, \"symmetryDistinct\": 50, \"oneStarLevels\": 40, \"twoStarLevels\": 10, \"solver\": \"independent region-subset exact cover with row, column and king-distance constraints\", \"seconds\": 0.107}",
           "stderr": ""
         },
         {
           "command": "node games/star-battle/test.cjs",
           "passed": true,
-          "seconds": 0.252,
+          "seconds": 0.399,
           "output": "{\n  \"game\": \"star-battle\",\n  \"levels\": 50,\n  \"oneStarLevels\": 40,\n  \"twoStarLevels\": 10,\n  \"engineAssertions\": 750,\n  \"totalAssertions\": 880,\n  \"actualUIScriptWins\": 50,\n  \"uiCellActions\": 434,\n  \"flows\": [\n    \"all 50 wins through real click handlers\",\n    \"adjacency/diagonal, region, row, column quotas\",\n    \"undo\",\n    \"reset confirmation/cancel/undo\",\n    \"save/reload\",\n    \"malformed save\",\n    \"storage denial\",\n    \"wrong star and wrong exclusion hints\",\n    \"read-only answer preview\",\n    \"right-click notes\",\n    \"mode buttons\",\n    \"help/escape\",\n    \"navigation bounds\"\n  ],\n  \"uiMethod\": \"shipped app.js evaluated with deterministic DOM/event harness; no browser pixels tested\",\n  \"browserLayout\": \"not measured by this DOM-based test\"\n}",
           "stderr": ""
         }
@@ -4895,7 +4895,7 @@
         "style.css": "add320ff2bee4a6aeb43a2bd856e1a38fcac8cea0d7c3904f5e6ebd6d9c621d4",
         "test-report.json": "94ff545dcf2bf977e59083b4e6cafeb2301844c3659239d5e744e538f9d8239d",
         "test.cjs": "3e90f9928de6589109e3963d753154ef3401994803aed71ced31e6ed253fb006",
-        "verification-report.json": "39ff6f26ca68fa8d7939eed2e75817baeac5a5ff97b1d6af22dd820a1ac5d0a8",
+        "verification-report.json": "1a49ac0484491d499ed11b978b782797e1c93dc8dd3ad774c444fdfa2541035c",
         "verification.log": "b508a4eb9fe022c3f6a6f97434a98e009d5c65a8b1208bc398ea797a329c7723",
         "verify.py": "cdfbc16dbf583712c4811d4a9f12975b8cab8b8846e0859731729e13c1f0b98b"
       },

@@ -5,6 +5,7 @@ const fs = require('node:fs'), path = require('node:path'), vm = require('node:v
 const assert = require('node:assert/strict'), crypto = require('node:crypto');
 const {spawnSync} = require('node:child_process');
 process.chdir(__dirname);
+const currentRegistryCount=require('./verify-lobby.cjs').games.length;
 const suites = [
  ['traffic-jam', ['python3','verify.py'], ['node','test.cjs'], ['node','test-ui.cjs']],
  ['sliding-blocks', ['python3','verify.py'], ['node','test.js'], ['node','ui-test.js']],
@@ -19,8 +20,8 @@ const suites = [
 ];
 const source = fs.readFileSync('app.js','utf8');
 const registry = vm.runInNewContext(source.slice(0,source.indexOf('let activeCategory'))+';({games,categoryNames,artMarkup,GAME_BUILD})');
-assert.equal(registry.games.length,67);
-assert.equal(new Set(registry.games.map(g=>g.id)).size,67);
+assert.equal(registry.games.length,currentRegistryCount);
+assert.equal(new Set(registry.games.map(g=>g.id)).size,currentRegistryCount);
 assert.equal(registry.games.filter(g=>g.category==='board').length,10);
 assert.equal(registry.games.filter(g=>g.category==='cards').length,5);
 const index = fs.readFileSync('index.html','utf8');
@@ -36,7 +37,7 @@ for (const g of registry.games) {
   if(file.endsWith('.js'))new vm.Script(fs.readFileSync(file,'utf8'),{filename:file});
  }
 }
-const report={passed:false,games:10,levelsPerGame:50,totalVerifiedLevels:500,registryCount:67,build:registry.GAME_BUILD,claims:{uniqueSolutionGames:['bridges','tents','slitherlink'],otherGamesMayHaveMultipleSolutions:true,initialPositionsOnly:true,controllerTestsAreNotBrowserVisualTests:true},suites:[]};
+const report={passed:false,games:10,levelsPerGame:50,totalVerifiedLevels:500,registryCount:currentRegistryCount,build:registry.GAME_BUILD,claims:{uniqueSolutionGames:['bridges','tents','slitherlink'],otherGamesMayHaveMultipleSolutions:true,initialPositionsOnly:true,controllerTestsAreNotBrowserVisualTests:true},suites:[]};
 for (const [id,...commands] of suites) {
  const dir=path.join('games',id), entry=registry.games.find(g=>g.id===id);assert(entry?.category==='board');
  let data=fs.existsSync(path.join(dir,'levels.json'))?JSON.parse(fs.readFileSync(path.join(dir,'levels.json'),'utf8')):require('./'+dir+'/levels.js');
@@ -56,4 +57,4 @@ for (const [id,...commands] of suites) {
 }
 report.passed=true;
 fs.writeFileSync('puzzle-verification-report.json',JSON.stringify(report,null,2)+'\n');
-console.log('\nPASS: 10 games × 50 distinct solvable levels = 500; all 67 registry links/assets present; unique-solution claims verified for Hashi, Tents, and Slitherlink.');
+console.log('\nPASS: 10 games × 50 distinct solvable levels = 500; all current registry links/assets present; unique-solution claims verified for Hashi, Tents, and Slitherlink.');
