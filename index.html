@@ -7,8 +7,8 @@
   <meta name="description" content="Arcade 遊戲小宇宙。七十款益智、經營、冒險、休閒、經典接龍與多人棋類遊戲，打開瀏覽器即可開始。">
   <title>Arcade — 遊戲小宇宙</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20261002-air-traffic">
-  <script src="./app.js?v=20261002-air-traffic" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20261002-categories">
+  <script src="./app.js?v=20261002-categories" defer></script>
 </head>
 <body>
   <a class="skip" href="#games">跳到遊戲列表</a>
@@ -19,16 +19,65 @@
       <span class="header-note"><i></i> 一點空閒，無限可能</span>
     </header>
     <main>
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy"><p class="eyebrow"><span></span> YOUR LITTLE PLAYGROUND</p><h1 id="hero-title">讓日常暫停，<br>讓<span>好玩</span>開始。</h1><p class="hero-description">留一點時間給好奇心。<br>你的遊戲小宇宙，從這裡慢慢展開。</p><a class="primary-button" href="#games">探索遊戲 <span aria-hidden="true">↗</span></a><p class="hero-footnote">70 款遊戲 · 250 副接龍牌局 · 2,000 關益智挑戰</p></div>
-        <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="spark spark-one">✦</span><span class="spark spark-two">+</span><span class="spark spark-three">✧</span><div class="floating-label"><span>✳</span> JUST PRESS PAUSE</div><div class="console"><div class="console-top"><span>ARCADE / 001</span><i></i></div><div class="screen"><div class="screen-grid"></div><div class="pixel-face"><div class="eyes"><b></b><b></b></div><div class="smile"></div></div><span class="screen-caption">HELLO, PLAYER.</span></div><div class="controls"><span class="dpad"></span><div class="console-lines"><i></i><i></i><i></i></div><div class="buttons"><i></i><i></i></div></div></div><div class="art-ticket"><span>100%</span><small>留給你的玩心</small></div></div>
+      <section class="library-hero" aria-labelledby="hero-title">
+        <div><p class="eyebrow"><span></span> A LITTLE TIME. A LOT TO PLAY.</p><h1 id="hero-title">今天，想玩哪一種<span>？</span></h1><p class="library-description">找個對手、動動腦，或只是放鬆一下。<br class="mobile-break">先選分類，再挑你的下一局。</p></div>
+        <div class="library-stamp" aria-hidden="true"><span>70<span>✳</span></span><small>小小入口，大大世界</small></div>
       </section>
-      <section id="games" class="catalog" aria-labelledby="catalog-title">
-        <div class="section-heading"><div><p class="eyebrow">PICK YOUR NEXT ADVENTURE</p><h2 id="catalog-title">發現下一個小樂趣<span class="heading-dot">.</span></h2></div><span class="catalog-note">小小入口，大大世界 <span aria-hidden="true">↙</span></span></div>
-        <div class="catalog-tools"><div class="filters" role="group" aria-label="依遊戲類型篩選"><button type="button" data-filter="all" aria-pressed="true">全部遊戲 <span>70</span></button><button type="button" data-filter="puzzle" aria-pressed="false">益智解謎</button><button type="button" data-filter="strategy" aria-pressed="false">策略挑戰</button><button type="button" data-filter="casual" aria-pressed="false">輕鬆休閒</button><button type="button" data-filter="cards" aria-pressed="false">接龍牌桌 <span>5</span></button><button type="button" data-filter="board" aria-pressed="false">益智棋盤 <span>10</span></button><button type="button" data-filter="logic" aria-pressed="false">邏輯推理 <span>10</span></button><button type="button" data-filter="classic" aria-pressed="false">經典益智 <span>10</span></button><button type="button" data-filter="tabletop" aria-pressed="false">多人棋桌 <span>12</span></button><button type="button" data-filter="collection" aria-pressed="false">經典新挑戰 <span>10</span></button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="找點好玩的…" aria-label="搜尋遊戲" autocomplete="off"></label></div>
-        <p id="results" class="result-count" role="status" aria-live="polite"></p><div id="game-grid" class="game-grid"></div><div id="empty" class="empty" hidden><span aria-hidden="true">⌕</span><h3>還沒找到這個小樂趣</h3><p>換個關鍵字，或看看其他類型吧。</p><button id="reset" type="button">顯示全部遊戲</button></div><noscript><p class="no-script">開啟 JavaScript 即可瀏覽遊戲卡片、篩選分類並遊玩七十款遊戲。</p></noscript>
+      <section id="games" class="catalog library-catalog" aria-labelledby="catalog-title">
+        <h2 id="catalog-title" class="visually-hidden">探索遊戲</h2>
+        <div class="catalog-search">
+          <label for="search" class="search-label">有想玩的了？<span>中英文名稱、玩法都能找</span></label>
+          <div class="search search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋全部 70 款遊戲…" aria-label="搜尋全部遊戲" aria-describedby="search-help" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></div>
+          <span id="search-help" class="visually-hidden">搜尋涵蓋所有分類。按 Enter 跳到結果，按 Escape 清除搜尋。</span>
+        </div>
+        <div id="category-intro" class="category-intro"><div><p class="eyebrow">FIND YOUR KIND OF FUN</p><h2 id="category-title" tabindex="-1">依玩法找遊戲<span class="heading-dot">.</span></h2></div><span class="category-summary">70 款遊戲 · 8 個分類</span></div>
+        <div id="category-overview" class="category-overview" role="group" aria-label="選擇遊戲分類">
+          <button class="category-tile" type="button" data-filter="tabletop" aria-pressed="false" aria-controls="game-grid" style="--category-color:#edc47e">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">♟</span><span class="category-size"><span data-category-count>12</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">棋類對戰</span><span class="category-examples">象棋・五子棋・黑白棋</span>
+          </button>
+          <button class="category-tile" type="button" data-filter="cards" aria-pressed="false" aria-controls="game-grid" style="--category-color:#95d7ba">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">♠</span><span class="category-size"><span data-category-count>6</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">牌桌接龍</span><span class="category-examples">經典接龍・蜘蛛・麻將</span>
+          </button>
+          <button class="category-tile" type="button" data-filter="numbers" aria-pressed="false" aria-controls="game-grid" style="--category-color:#c5b3f5">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">123</span><span class="category-size"><span data-category-count>9</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">數字推理</span><span class="category-examples">數獨・2048・算術方格</span>
+          </button>
+          <button class="category-tile" type="button" data-filter="deduction" aria-pressed="false" aria-controls="game-grid" style="--category-color:#e2a8c5">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">◎</span><span class="category-size"><span data-category-count>14</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">線索解謎</span><span class="category-examples">踩地雷・數繪・猜密碼</span>
+          </button>
+          <button class="category-tile" type="button" data-filter="spatial" aria-pressed="false" aria-controls="game-grid" style="--category-color:#e6a396">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">▧</span><span class="category-size"><span data-category-count>10</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">空間拼圖</span><span class="category-examples">華容道・推箱子・七巧板</span>
+          </button>
+          <button class="category-tile" type="button" data-filter="paths" aria-pressed="false" aria-controls="game-grid" style="--category-color:#9ac8f3">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">⌁</span><span class="category-size"><span data-category-count>8</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">連線迷宮</span><span class="category-examples">迷宮・水管・數字連線</span>
+          </button>
+          <button class="category-tile" type="button" data-filter="simulation" aria-pressed="false" aria-controls="game-grid" style="--category-color:#a8d9d2">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">✈</span><span class="category-size"><span data-category-count>7</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">經營冒險</span><span class="category-examples">鐵道・餐廳・空中指揮所</span>
+          </button>
+          <button class="category-tile" type="button" data-filter="quick" aria-pressed="false" aria-controls="game-grid" style="--category-color:#d2f86a">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">✦</span><span class="category-size"><span data-category-count>4</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">休閒反應</span><span class="category-examples">記憶配對・反應・消除</span>
+          </button>
+        </div>
+        <div id="browse-results" class="browse-results">
+          <div class="browse-toolbar">
+            <button id="back-to-categories" class="back-to-categories" type="button" hidden>← 返回分類</button>
+            <label class="category-switch" for="category-select"><span>瀏覽分類</span><select id="category-select" aria-controls="game-grid"><option value="all">全部遊戲（70）</option></select></label>
+            <p id="results" class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
+          </div>
+          <div class="browse-heading"><div><h2 id="browse-title" tabindex="-1">全部遊戲</h2><p id="browse-description">依玩法分組，找到喜歡的就開始吧。</p></div><span class="browse-decoration" aria-hidden="true">↘</span></div>
+          <div id="game-grid" class="catalog-groups"></div>
+          <div id="empty" class="empty" hidden><span aria-hidden="true">⌕</span><h3>沒有找到符合的遊戲</h3><p>試試短一點的名稱、玩法，或回分類慢慢逛。</p><button id="reset" type="button">清除搜尋，返回全部分類</button></div>
+        </div>
+        <noscript><p class="no-script">開啟 JavaScript 即可瀏覽遊戲卡片、搜尋分類並遊玩七十款遊戲。</p></noscript>
       </section>
-      <section class="about" id="about" aria-labelledby="about-title"><div class="about-icon" aria-hidden="true">✳</div><div><p class="eyebrow">A SMALL START. MORE TO COME.</p><h2 id="about-title">好玩的事，還在後頭。</h2><p>七十個小世界，七十種遊戲節奏。從鐵道經營、地城冒險、空中航線指揮，到五款經典接龍、十款單人棋盤、十款邏輯推理、二十款經典益智，以及十二款可同機多人或挑戰 AI 的棋類。250 副接龍牌局與 2,000 個益智關卡皆經驗證有解，多人棋桌提供簡單、普通、困難三種 AI 難度，隨時換個對手再來一局。挑一關，慢慢想下一步。</p></div><span class="about-tag">持續擴充中 <span aria-hidden="true">↗</span></span></section>
+      <section class="about" id="about" aria-labelledby="about-title"><div class="about-icon" aria-hidden="true">✳</div><div><p class="eyebrow">A SMALL START. MORE TO COME.</p><h2 id="about-title">好玩的事，還在後頭。</h2><p>七十個小世界，七十種遊戲節奏。從鐵道經營、地城冒險、空中航線指揮，到五款經典接龍、十款單人棋盤、十款邏輯推理、二十款經典益智，以及十二款可同機多人或挑戰 AI 的棋類。250 副接龍牌局與 2,000 關益智挑戰皆經驗證有解，多人棋桌提供簡單、普通、困難三種 AI 難度，隨時換個對手再來一局。挑一關，慢慢想下一步。</p></div><span class="about-tag">持續擴充中 <span aria-hidden="true">↗</span></span></section>
     </main>
     <footer><a class="footer-brand" href="./">arcade.</a><p>給生活一點遊戲時間。</p><a href="#hero-title">回到頂端 ↑</a></footer>
   </div>
