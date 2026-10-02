@@ -1,0 +1,417 @@
+{
+  "schema": 1,
+  "levelFileSha256": "eefc33ad237868a72ce37405ca705237fc37ac0acd48c98513b4ed5d25d31d0d",
+  "total": 50,
+  "independent": true,
+  "checks": [
+    "legal witness replay",
+    "50 D4-distinct board topologies",
+    "color-permutation-aware puzzle uniqueness",
+    "target-only unreachability",
+    "target requires robot stopper",
+    "independent shortest-distance BFS",
+    "monotone distance progression"
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "size": 6,
+      "shortestDistance": 4,
+      "helperMoves": 3,
+      "robotStops": 2,
+      "independentVisited": 534
+    },
+    {
+      "id": 2,
+      "size": 6,
+      "shortestDistance": 4,
+      "helperMoves": 3,
+      "robotStops": 2,
+      "independentVisited": 974
+    },
+    {
+      "id": 3,
+      "size": 6,
+      "shortestDistance": 4,
+      "helperMoves": 2,
+      "robotStops": 2,
+      "independentVisited": 804
+    },
+    {
+      "id": 4,
+      "size": 6,
+      "shortestDistance": 5,
+      "helperMoves": 3,
+      "robotStops": 1,
+      "independentVisited": 474
+    },
+    {
+      "id": 5,
+      "size": 6,
+      "shortestDistance": 5,
+      "helperMoves": 1,
+      "robotStops": 2,
+      "independentVisited": 1521
+    },
+    {
+      "id": 6,
+      "size": 6,
+      "shortestDistance": 5,
+      "helperMoves": 3,
+      "robotStops": 2,
+      "independentVisited": 693
+    },
+    {
+      "id": 7,
+      "size": 6,
+      "shortestDistance": 5,
+      "helperMoves": 3,
+      "robotStops": 2,
+      "independentVisited": 1680
+    },
+    {
+      "id": 8,
+      "size": 6,
+      "shortestDistance": 5,
+      "helperMoves": 2,
+      "robotStops": 1,
+      "independentVisited": 980
+    },
+    {
+      "id": 9,
+      "size": 6,
+      "shortestDistance": 5,
+      "helperMoves": 3,
+      "robotStops": 2,
+      "independentVisited": 2002
+    },
+    {
+      "id": 10,
+      "size": 6,
+      "shortestDistance": 6,
+      "helperMoves": 4,
+      "robotStops": 3,
+      "independentVisited": 494
+    },
+    {
+      "id": 11,
+      "size": 6,
+      "shortestDistance": 6,
+      "helperMoves": 2,
+      "robotStops": 1,
+      "independentVisited": 2382
+    },
+    {
+      "id": 12,
+      "size": 6,
+      "shortestDistance": 7,
+      "helperMoves": 4,
+      "robotStops": 3,
+      "independentVisited": 2889
+    },
+    {
+      "id": 13,
+      "size": 6,
+      "shortestDistance": 7,
+      "helperMoves": 4,
+      "robotStops": 3,
+      "independentVisited": 2889
+    },
+    {
+      "id": 14,
+      "size": 6,
+      "shortestDistance": 7,
+      "helperMoves": 3,
+      "robotStops": 2,
+      "independentVisited": 616
+    },
+    {
+      "id": 15,
+      "size": 6,
+      "shortestDistance": 7,
+      "helperMoves": 3,
+      "robotStops": 2,
+      "independentVisited": 1033
+    },
+    {
+      "id": 16,
+      "size": 7,
+      "shortestDistance": 7,
+      "helperMoves": 4,
+      "robotStops": 2,
+      "independentVisited": 3174
+    },
+    {
+      "id": 17,
+      "size": 7,
+      "shortestDistance": 7,
+      "helperMoves": 3,
+      "robotStops": 3,
+      "independentVisited": 6796
+    },
+    {
+      "id": 18,
+      "size": 7,
+      "shortestDistance": 8,
+      "helperMoves": 3,
+      "robotStops": 3,
+      "independentVisited": 8726
+    },
+    {
+      "id": 19,
+      "size": 7,
+      "shortestDistance": 8,
+      "helperMoves": 2,
+      "robotStops": 3,
+      "independentVisited": 11355
+    },
+    {
+      "id": 20,
+      "size": 7,
+      "shortestDistance": 8,
+      "helperMoves": 4,
+      "robotStops": 3,
+      "independentVisited": 7041
+    },
+    {
+      "id": 21,
+      "size": 7,
+      "shortestDistance": 8,
+      "helperMoves": 4,
+      "robotStops": 3,
+      "independentVisited": 10341
+    },
+    {
+      "id": 22,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 4,
+      "robotStops": 3,
+      "independentVisited": 15024
+    },
+    {
+      "id": 23,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 7,
+      "robotStops": 3,
+      "independentVisited": 6160
+    },
+    {
+      "id": 24,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 8,
+      "robotStops": 2,
+      "independentVisited": 5003
+    },
+    {
+      "id": 25,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 6,
+      "robotStops": 4,
+      "independentVisited": 2560
+    },
+    {
+      "id": 26,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 4,
+      "robotStops": 4,
+      "independentVisited": 14968
+    },
+    {
+      "id": 27,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 4,
+      "robotStops": 3,
+      "independentVisited": 12475
+    },
+    {
+      "id": 28,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 7,
+      "robotStops": 6,
+      "independentVisited": 11243
+    },
+    {
+      "id": 29,
+      "size": 7,
+      "shortestDistance": 9,
+      "helperMoves": 6,
+      "robotStops": 4,
+      "independentVisited": 16995
+    },
+    {
+      "id": 30,
+      "size": 7,
+      "shortestDistance": 10,
+      "helperMoves": 4,
+      "robotStops": 2,
+      "independentVisited": 6681
+    },
+    {
+      "id": 31,
+      "size": 7,
+      "shortestDistance": 10,
+      "helperMoves": 4,
+      "robotStops": 2,
+      "independentVisited": 8954
+    },
+    {
+      "id": 32,
+      "size": 7,
+      "shortestDistance": 10,
+      "helperMoves": 8,
+      "robotStops": 4,
+      "independentVisited": 15040
+    },
+    {
+      "id": 33,
+      "size": 7,
+      "shortestDistance": 10,
+      "helperMoves": 6,
+      "robotStops": 3,
+      "independentVisited": 5778
+    },
+    {
+      "id": 34,
+      "size": 7,
+      "shortestDistance": 11,
+      "helperMoves": 7,
+      "robotStops": 4,
+      "independentVisited": 17899
+    },
+    {
+      "id": 35,
+      "size": 7,
+      "shortestDistance": 11,
+      "helperMoves": 6,
+      "robotStops": 3,
+      "independentVisited": 9202
+    },
+    {
+      "id": 36,
+      "size": 8,
+      "shortestDistance": 11,
+      "helperMoves": 4,
+      "robotStops": 4,
+      "independentVisited": 26615
+    },
+    {
+      "id": 37,
+      "size": 8,
+      "shortestDistance": 11,
+      "helperMoves": 3,
+      "robotStops": 5,
+      "independentVisited": 44333
+    },
+    {
+      "id": 38,
+      "size": 8,
+      "shortestDistance": 11,
+      "helperMoves": 7,
+      "robotStops": 4,
+      "independentVisited": 21823
+    },
+    {
+      "id": 39,
+      "size": 8,
+      "shortestDistance": 11,
+      "helperMoves": 9,
+      "robotStops": 5,
+      "independentVisited": 29619
+    },
+    {
+      "id": 40,
+      "size": 8,
+      "shortestDistance": 11,
+      "helperMoves": 8,
+      "robotStops": 4,
+      "independentVisited": 24706
+    },
+    {
+      "id": 41,
+      "size": 8,
+      "shortestDistance": 12,
+      "helperMoves": 8,
+      "robotStops": 5,
+      "independentVisited": 43965
+    },
+    {
+      "id": 42,
+      "size": 8,
+      "shortestDistance": 12,
+      "helperMoves": 9,
+      "robotStops": 4,
+      "independentVisited": 49344
+    },
+    {
+      "id": 43,
+      "size": 8,
+      "shortestDistance": 12,
+      "helperMoves": 7,
+      "robotStops": 4,
+      "independentVisited": 42246
+    },
+    {
+      "id": 44,
+      "size": 8,
+      "shortestDistance": 13,
+      "helperMoves": 7,
+      "robotStops": 6,
+      "independentVisited": 62720
+    },
+    {
+      "id": 45,
+      "size": 8,
+      "shortestDistance": 13,
+      "helperMoves": 10,
+      "robotStops": 5,
+      "independentVisited": 19270
+    },
+    {
+      "id": 46,
+      "size": 8,
+      "shortestDistance": 13,
+      "helperMoves": 8,
+      "robotStops": 4,
+      "independentVisited": 27302
+    },
+    {
+      "id": 47,
+      "size": 8,
+      "shortestDistance": 13,
+      "helperMoves": 6,
+      "robotStops": 5,
+      "independentVisited": 37953
+    },
+    {
+      "id": 48,
+      "size": 8,
+      "shortestDistance": 13,
+      "helperMoves": 7,
+      "robotStops": 5,
+      "independentVisited": 39527
+    },
+    {
+      "id": 49,
+      "size": 8,
+      "shortestDistance": 13,
+      "helperMoves": 7,
+      "robotStops": 6,
+      "independentVisited": 35281
+    },
+    {
+      "id": 50,
+      "size": 8,
+      "shortestDistance": 14,
+      "helperMoves": 7,
+      "robotStops": 1,
+      "independentVisited": 34778
+    }
+  ]
+}

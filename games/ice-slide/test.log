@@ -1,0 +1,2 @@
+PASS actual gameplay engine: 50 solutions, 445 slides + undo/replay, 50 off-path hints, restart, invalid/no-op moves, solved lock, storage recovery, impossible and bounded searches.
+PASS controller DOM contract: 50 UI-played levels, saved independent bests, selection, keyboard, touch swipes, off-path hint, full playback, stop, stale search cancellation, modal interruption, undo/restart. This is not visual/browser QA.
