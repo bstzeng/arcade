@@ -1,0 +1,18 @@
+/* Pure rules shared by the game and certification runner. No DOM, RNG or storage. */
+(function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.PegEngine=api;})(globalThis,function(){
+'use strict';
+const equal=(a,b)=>a.length===b.length&&a.every((x,i)=>x===b[i]);
+function validate(l){return !!l&&Number.isInteger(l.width)&&l.width>=3&&l.width<=9&&Number.isInteger(l.height)&&l.height>=3&&l.height<=9&&Array.isArray(l.cells)&&new Set(l.cells).size===l.cells.length&&l.cells.every(x=>Number.isInteger(x)&&x>=0&&x<l.width*l.height)&&Array.isArray(l.pegs)&&new Set(l.pegs).size===l.pegs.length&&l.pegs.length>=2&&l.pegs.every(x=>l.cells.includes(x))&&(l.goal===null||l.cells.includes(l.goal));}
+function initial(l){if(!validate(l))throw Error('關卡資料錯誤');return l.pegs.slice().sort((a,b)=>a-b);}
+function geometry(l){const cells=new Set(l.cells),out=[];for(const from of l.cells){const y=Math.floor(from/l.width),x=from%l.width;for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1]]){const mx=x+dx,my=y+dy,tx=x+2*dx,ty=y+2*dy;if(tx>=0&&tx<l.width&&ty>=0&&ty<l.height&&mx>=0&&mx<l.width&&my>=0&&my<l.height){const over=my*l.width+mx,to=ty*l.width+tx;if(cells.has(over)&&cells.has(to))out.push({from,over,to});}}}return out;}
+function legal(l,s,a){if(!a||![a.from,a.over,a.to].every(Number.isInteger))return false;return geometry(l).some(m=>m.from===a.from&&m.over===a.over&&m.to===a.to)&&s.includes(a.from)&&s.includes(a.over)&&!s.includes(a.to);}
+function moves(l,s){const p=new Set(s);return geometry(l).filter(m=>p.has(m.from)&&p.has(m.over)&&!p.has(m.to));}
+function step(l,s,a){if(!legal(l,s,a))throw Error('不合法的跳躍');return s.filter(x=>x!==a.from&&x!==a.over).concat(a.to).sort((a,b)=>a-b);}
+function won(l,s){return s.length===1&&(l.goal===null||s[0]===l.goal);}
+function replay(l,actions){if(!Array.isArray(actions)||actions.length>=l.pegs.length)throw Error('存檔格式錯誤');const states=[initial(l)];for(const a of actions)states.push(step(l,states.at(-1),a));return states;}
+function proof(l){const s=replay(l,l.solution);if(!won(l,s.at(-1)))throw Error('解答未完成');return s;}
+function canonical(l){const coords=l.cells.map(i=>[i%l.width,Math.floor(i/l.width)]),pegs=new Set(l.pegs);const transforms=[(x,y)=>[x,y],(x,y)=>[-x,y],(x,y)=>[x,-y],(x,y)=>[-x,-y],(x,y)=>[y,x],(x,y)=>[-y,x],(x,y)=>[y,-x],(x,y)=>[-y,-x]];return transforms.map(t=>{const c=coords.map(([x,y])=>t(x,y)),minX=Math.min(...c.map(v=>v[0])),minY=Math.min(...c.map(v=>v[1]));return c.map(([x,y],j)=>[x-minX,y-minY,pegs.has(l.cells[j])?1:0,l.cells[j]===l.goal?1:0]).sort((a,b)=>a[1]-b[1]||a[0]-b[0]).map(v=>v.join(',')).join(';');}).sort()[0];}
+/* Bounded search of the CURRENT position. Null means search limit/dead end, never an invented hint. */
+function solve(l,s,maxNodes=50000){const triples=geometry(l),index=new Map(l.cells.map((c,i)=>[c,i])),bits=l.cells.map((_,i)=>1n<<BigInt(i)),ms=triples.map(m=>({...m,a:bits[index.get(m.from)],b:bits[index.get(m.over)],c:bits[index.get(m.to)]}));let mask=s.reduce((m,c)=>m|bits[index.get(c)],0n),nodes=0,limited=false;const dead=new Set(),path=[];const target=l.goal===null?null:bits[index.get(l.goal)];function dfs(m,count){if(++nodes>maxNodes){limited=true;return false;}if(count===1)return target===null||m===target;const key=m.toString();if(dead.has(key))return false;for(const a of ms)if((m&a.a)&&(m&a.b)&&!(m&a.c)){path.push({from:a.from,over:a.over,to:a.to});if(dfs(m^a.a^a.b^a.c,count-1))return true;path.pop();if(limited)return false;}dead.add(key);return false;}return {solution:dfs(mask,s.length)?path.slice():null,nodes,limited};}
+return {validate,initial,geometry,legal,moves,step,won,replay,proof,canonical,solve,equal};
+});

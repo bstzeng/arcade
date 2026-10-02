@@ -1,0 +1,10 @@
+{
+  "levels": 50,
+  "verified": true,
+  "uniqueSolutions": true,
+  "method": "以連通格子區域的外框產生单一環，逐步移除線索。完整邊變數回溯搜尋，約束每格線索、每頂點度數0/2，終局檢查唯一連通環；搜尋到第二解即拒絕，所有50題的解數均為1。",
+  "gameplayReplay": 50,
+  "uiDemonstrationWins": 50,
+  "uiHintWins": 50,
+  "visualQA": "pending live deployment"
+}

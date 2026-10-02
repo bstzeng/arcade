@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "levels": 50,
+  "witnessMovesVerified": 3336,
+  "distinctShapeMirrorCanonicalStates": 50,
+  "shapeMixtures": 4,
+  "optimalRange": [
+    8,
+    150
+  ],
+  "tiers": {
+    "0": 9,
+    "1": 10,
+    "2": 14,
+    "3": 11,
+    "4": 6
+  },
+  "minimumCellDifferenceBetweenAnyStartsIgnoringMirror": 6,
+  "reverseBFSReachableStates": 251539,
+  "levelsSHA256": "d5b8f0265a6e88032835e142cd0125c880117df2ec63859cfc5f3d3cf245d0f1"
+}

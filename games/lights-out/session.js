@@ -1,0 +1,7 @@
+/* Restore only a legal transcript; the stored board is never authoritative. */
+(function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.LightsSession=api;})(globalThis,function(){
+'use strict';
+function record(v){return v&&Number.isInteger(v.moves)&&v.moves>0&&Number.isFinite(v.seconds)&&v.seconds>=0&&typeof v.assisted==='boolean';}
+function restore(raw,levels,E){if(!raw||raw.version!==1||!Number.isInteger(raw.index)||raw.index<0||raw.index>=levels.length||!Array.isArray(raw.actions)||!Number.isFinite(raw.seconds)||raw.seconds<0||typeof raw.assisted!=='boolean')throw Error('無效存檔');const l=levels[raw.index],states=[E.initial(l)],progress={};for(const a of raw.actions){if(E.won(states.at(-1)))throw Error('完成後仍有步驟');states.push(E.step(l,states.at(-1),a));}if(raw.progress&&typeof raw.progress==='object'&&!Array.isArray(raw.progress))for(let i=0;i<levels.length;i++){const r=raw.progress[i];if(record(r)&&r.moves>=levels[i].par&&Array.isArray(r.witness)&&r.witness.length===r.moves){try{let b=E.initial(levels[i]);for(const a of r.witness){if(E.won(b))throw Error('完成後的步驟');b=E.step(levels[i],b,a);}if(E.won(b))progress[i]={moves:r.moves,seconds:r.seconds,assisted:r.assisted,witness:r.witness.slice()};}catch(_){}}}return {index:raw.index,actions:raw.actions.slice(),states,seconds:raw.seconds,assisted:raw.assisted,progress};}
+return {restore};
+});

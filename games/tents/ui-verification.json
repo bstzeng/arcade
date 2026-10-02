@@ -1,0 +1,20 @@
+{
+  "game": "tents",
+  "manualSolutionUIFlows": 50,
+  "hintCompletionUIFlows": 50,
+  "wrongPlacementHintRecoveryFlows": 50,
+  "otherFlows": [
+    "50-level select",
+    "previous/next",
+    "win dialog",
+    "solution preview preserves state and completion",
+    "undo",
+    "reset then undo restores hint usage",
+    "help modal",
+    "save/reload",
+    "invalid save recovery",
+    "storage denial",
+    "keyboard focus/edit"
+  ],
+  "visualBrowserQA": "Not run: browser/preview unavailable in assigned environment; DOM harness is not visual QA."
+}

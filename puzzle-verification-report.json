@@ -1,0 +1,417 @@
+{
+  "passed": true,
+  "games": 10,
+  "levelsPerGame": 50,
+  "totalVerifiedLevels": 500,
+  "registryCount": 27,
+  "build": "20261002-puzzle-collection",
+  "claims": {
+    "uniqueSolutionGames": [
+      "bridges",
+      "tents",
+      "slitherlink"
+    ],
+    "otherGamesMayHaveMultipleSolutions": true,
+    "initialPositionsOnly": true,
+    "controllerTestsAreNotBrowserVisualTests": true
+  },
+  "suites": [
+    {
+      "game": "traffic-jam",
+      "levels": 50,
+      "files": {
+        "README.md": "c216873da5f32646482021ded12de32218085a63f6d8bdbd322157ca75223c2a",
+        "app.js": "3b8fcdc03010f8af7db312d7b4920356ebe3b60d5591d440c4048b15a8a1b669",
+        "engine-test-report.json": "04e54cbe683804ddcec83e9832a8df4c2aadd38bfa9a370cb1b7154efb3d2444",
+        "engine.js": "be510a3bdab618f9187a3c71bcb40c84da72b9aeaa85f82e09d6c7de82882156",
+        "generate.cpp": "0122accd0de16a9c6485b8133a7eeb1eebca7c6a2b9adb7099e81a23263c8fd7",
+        "levels.js": "8358336a640699344d1da1fa485cb1d4ba97b80e0f1269cafd52eabd137e9458",
+        "levels.json": "95cc573ddd20be41c637858ad9ac8612ec18329b216df1ff0b2e9f90fab6ccfd",
+        "style.css": "852d547d063dd23063f465bde457ddf2daa1fff088a0534ffd6d4532a97058cb",
+        "test-ui.cjs": "d75f54e9cdeee0a493eb7923b502d3c24ce152add679d367dac33ad3ab302505",
+        "test.cjs": "26a9dfe292265e00953f37c78e5fcfd3b3ef3eb1391b4440db17e2a0a1d56ef7",
+        "verification.json": "780b8b343b2945e30c08ac410a5a2bba07022588b0a3ec2ef9a99368fe2ce8ec",
+        "verify.py": "115643e56e6fb6b68d3da3549bcac4d5caa00e9bfd2e90593f94453bd4387637"
+      },
+      "checks": [
+        {
+          "command": "python3 games/traffic-jam/verify.py",
+          "passed": true,
+          "seconds": 11.167,
+          "output": "level 01 ✓ 8 optimal slides; 19979 states\nlevel 02 ✓ 8 optimal slides; 20957 states\nlevel 03 ✓ 8 optimal slides; 2593 states\nlevel 04 ✓ 9 optimal slides; 4245 states\nlevel 05 ✓ 9 optimal slides; 228 states\nlevel 06 ✓ 9 optimal slides; 12596 states\nlevel 07 ✓ 9 optimal slides; 935 states\nlevel 08 ✓ 9 optimal slides; 14092 states\nlevel 09 ✓ 10 optimal slides; 1639 states\nlevel 10 ✓ 11 optimal slides; 30567 states\nlevel 11 ✓ 12 optimal slides; 6276 states\nlevel 12 ✓ 12 optimal slides; 6293 states\nlevel 13 ✓ 12 optimal slides; 6030 states\nlevel 14 ✓ 12 optimal slides; 118 states\nlevel 15 ✓ 13 optimal slides; 2998 states\nlevel 16 ✓ 13 optimal slides; 2119 states\nlevel 17 ✓ 13 optimal slides; 5181 states\nlevel 18 ✓ 13 optimal slides; 8097 states\nlevel 19 ✓ 14 optimal slides; 3486 states\nlevel 20 ✓ 15 optimal slides; 1028 states\nlevel 21 ✓ 16 optimal slides; 3011 states\nlevel 22 ✓ 16 optimal slides; 12577 states\nlevel 23 ✓ 16 optimal slides; 1641 states\nlevel 24 ✓ 17 optimal slides; 1236 states\nlevel 25 ✓ 17 optimal slides; 6145 states\nlevel 26 ✓ 17 optimal slides; 9320 states\nlevel 27 ✓ 17 optimal slides; 8158 states\nlevel 28 ✓ 17 optimal slides; 589 states\nlevel 29 ✓ 18 optimal slides; 3133 states\nlevel 30 ✓ 19 optimal slides; 1877 states\nlevel 31 ✓ 20 optimal slides; 4966 states\nlevel 32 ✓ 20 optimal slides; 4840 states\nlevel 33 ✓ 20 optimal slides; 1108 states\nlevel 34 ✓ 20 optimal slides; 6074 states\nlevel 35 ✓ 20 optimal slides; 2779 states\nlevel 36 ✓ 21 optimal slides; 2709 states\nlevel 37 ✓ 22 optimal slides; 2414 states\nlevel 38 ✓ 22 optimal slides; 3877 states\nlevel 39 ✓ 24 optimal slides; 8669 states\nlevel 40 ✓ 24 optimal slides; 16103 states\nlevel 41 ✓ 25 optimal slides; 3044 states\nlevel 42 ✓ 26 optimal slides; 2574 states\nlevel 43 ✓ 27 optimal slides; 8025 states\nlevel 44 ✓ 27 optimal slides; 7229 states\nlevel 45 ✓ 27 optimal slides; 33469 states\nlevel 46 ✓ 28 optimal slides; 10323 states\nlevel 47 ✓ 29 optimal slides; 11313 states\nlevel 48 ✓ 31 optimal slides; 15674 states\nlevel 49 ✓ 31 optimal slides; 5785 states\nlevel 50 ✓ 44 optimal slides; 3401 states\n{\"passed\": true, \"levels\": 50, \"distinctCanonicalLayouts\": 50, \"distinctVehicleTopologies\": 50, \"legalWitnessSlides\": 897, \"exactMinimumIndependentlyChecked\": true, \"sha256\": \"95cc573ddd20be41c637858ad9ac8612ec18329b216df1ff0b2e9f90fab6ccfd\", \"seconds\": 11.11}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/traffic-jam/test.cjs",
+          "passed": true,
+          "seconds": 6.256,
+          "output": "PASS 50 engine BFS optima; 897 witness slides; 91440 independent move checks; save schema and reversibility.",
+          "stderr": ""
+        },
+        {
+          "command": "node games/traffic-jam/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.658,
+          "output": "PASS actual UI script: all 50 tap-played witnesses; 200-step undo; divergent hints; complete 44-step playback; modal/pause/navigation cancellation; stale-search cancellation; reload; corrupt-state and false-completion rejection; storage failure. Visual rendering NOT tested.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "sliding-blocks",
+      "levels": 50,
+      "files": {
+        "README.md": "3a41977e0d83ef84a8a21e4a55b35c72b04eb88ed3b9cbf45eff124d48cac390",
+        "app.js": "ddb28c6972e13c1989555e5f8a6759594457d1629cd0d725031515b1f8073f8a",
+        "build-levels.py": "83a302f8af3a06998a1b93dba56135297160f02c52373124d401c6e622decd0f",
+        "engine.js": "8247d3c750d5a54be97174f318346bdf3b1a1930c9eb10a2576b8b527ae42e6f",
+        "generate.cpp": "da67551bc47c6f9e5446cd5433a2c857b3fe5fa3995f48ad667e35f955e79489",
+        "levels.js": "9bdf2b91e645fa29dbf868f0758bbf22f91de179b3f80b345f710e06e1a38e34",
+        "levels.json": "d5b8f0265a6e88032835e142cd0125c880117df2ec63859cfc5f3d3cf245d0f1",
+        "style.css": "7d1d1fa9866437bd464d2eb412d401779b11a6f2a7b30833b8a9ed9423ed7edd",
+        "test.js": "4aca48714c620465184587fd57a0cf15bd77c7751c932ef9bc673105fda5a4ce",
+        "ui-test.js": "85cf9c8fc9c4260e84df2345ac6ea7c9c60e6aba0f312244640ab4f6eb7e1557",
+        "verification.json": "ba80d616ac68b57336714a1caa8f393ea4ed7de4f63fea36fd7c9867243e09c0",
+        "verify.py": "e71b459316ceb469d2f2548fffecea3a6052987c8851a6886fe68d95fcfbae2b",
+        "optimality-verification.json": "0fc71fc819edfc0c02b7ee5d9b7ebf4f39dbeadea52a74919f28c32fbc03bbb0"
+      },
+      "checks": [
+        {
+          "command": "python3 games/sliding-blocks/verify.py",
+          "passed": true,
+          "seconds": 0.129,
+          "output": "{\n  \"passed\": true,\n  \"levels\": 50,\n  \"witnessMovesVerified\": 3336,\n  \"distinctShapeMirrorCanonicalStates\": 50,\n  \"shapeMixtures\": 4,\n  \"optimalRange\": [\n    8,\n    150\n  ],\n  \"tiers\": {\n    \"0\": 9,\n    \"1\": 10,\n    \"2\": 14,\n    \"3\": 11,\n    \"4\": 6\n  },\n  \"minimumCellDifferenceBetweenAnyStartsIgnoringMirror\": 6,\n  \"reverseBFSReachableStates\": 251539,\n  \"levelsSHA256\": \"d5b8f0265a6e88032835e142cd0125c880117df2ec63859cfc5f3d3cf245d0f1\"\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/sliding-blocks/test.js",
+          "passed": true,
+          "seconds": 13.553,
+          "output": "Forward BFS level 1: 8 optimal slides, 25 states\nForward BFS level 2: 8 optimal slides, 147 states\nForward BFS level 3: 8 optimal slides, 113 states\nForward BFS level 4: 8 optimal slides, 62 states\nForward BFS level 5: 15 optimal slides, 429 states\nForward BFS level 6: 17 optimal slides, 1513 states\nForward BFS level 7: 19 optimal slides, 1177 states\nForward BFS level 8: 20 optimal slides, 2796 states\nForward BFS level 9: 23 optimal slides, 2558 states\nForward BFS level 10: 26 optimal slides, 3153 states\nForward BFS level 11: 31 optimal slides, 5041 states\nForward BFS level 12: 31 optimal slides, 685 states\nForward BFS level 13: 32 optimal slides, 6771 states\nForward BFS level 14: 35 optimal slides, 4132 states\nForward BFS level 15: 39 optimal slides, 2652 states\nForward BFS level 16: 43 optimal slides, 10701 states\nForward BFS level 17: 44 optimal slides, 8379 states\nForward BFS level 18: 45 optimal slides, 13196 states\nForward BFS level 19: 46 optimal slides, 17792 states\nForward BFS level 20: 53 optimal slides, 10051 states\nForward BFS level 21: 54 optimal slides, 9565 states\nForward BFS level 22: 55 optimal slides, 30189 states\nForward BFS level 23: 57 optimal slides, 6223 states\nForward BFS level 24: 62 optimal slides, 21045 states\nForward BFS level 25: 63 optimal slides, 8556 states\nForward BFS level 26: 67 optimal slides, 7983 states\nForward BFS level 27: 70 optimal slides, 11793 states\nForward BFS level 28: 70 optimal slides, 22186 states\nForward BFS level 29: 72 optimal slides, 12318 states\nForward BFS level 30: 77 optimal slides, 23264 states\nForward BFS level 31: 79 optimal slides, 38500 states\nForward BFS level 32: 81 optimal slides, 12318 states\nForward BFS level 33: 82 optimal slides, 31668 states\nForward BFS level 34: 85 optimal slides, 23600 states\nForward BFS level 35: 90 optimal slides, 12318 states\nForward BFS level 36: 90 optimal slides, 40857 states\nForward BFS level 37: 93 optimal slides, 20788 states\nForward BFS level 38: 95 optimal slides, 26854 states\nForward BFS level 39: 99 optimal slides, 12318 states\nForward BFS level 40: 101 optimal slides, 20788 states\nForward BFS level 41: 102 optimal slides, 39752 states\nForward BFS level 42: 107 optimal slides, 28682 states\nForward BFS level 43: 109 optimal slides, 12318 states\nForward BFS level 44: 114 optimal slides, 41377 states\nForward BFS level 45: 120 optimal slides, 33335 states\nForward BFS level 46: 126 optimal slides, 41520 states\nForward BFS level 47: 132 optimal slides, 28682 states\nForward BFS level 48: 138 optimal slides, 41350 states\nForward BFS level 49: 145 optimal slides, 28682 states\nForward BFS level 50: 150 optimal slides, 41350 states\nPASS: 50 levels, 3336 engine-replayed moves; legality, crossing, canonical uniqueness, persistence, undo, solver completeness",
+          "stderr": ""
+        },
+        {
+          "command": "node games/sliding-blocks/ui-test.js",
+          "passed": true,
+          "seconds": 0.921,
+          "output": "PASS actual app DOM harness: all 50 wins; hint no-op, divergence reset/cancel, keyboard, pointer drag, full list, playback/pause/navigation, undo, restart, valid/corrupt restore, 50 progress certificates, storage error",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "sokoban",
+      "levels": 50,
+      "files": {
+        "QA.md": "0650fc45d8eec6892953ea53d57a62af6151cc9188ffbf1c36095c0dd53db3a6",
+        "README.md": "4e95b0505a097c4b3ef064fb0fe33b7b7c6116b08b93a7091e2815af2b00c4e9",
+        "app.js": "58d9f624e8cbafdf3b0d99001b7e86d62830b4d72640c253ebb9fcf9bca3aa14",
+        "certification.json": "125281dc13ecc8be92a63788d830ee272951e645f907de2f5b54157a023ea1e3",
+        "engine.js": "6cc4b8f741ee563c384f6e0219b3bd1d9136dc3b714a0f20cec8c9e2aff322b4",
+        "generate.py": "ec3af0114c358f3e3e5bfc9660fdc37d49aeb7b49cfda4554de4d17e8912c676",
+        "levels.js": "660a09f3d58969c9a86619d85223870b766caf1ef7844364c6a868332da482b3",
+        "levels.json": "0bf89c346d078f9303a6846363c2c689748eaea9212f6eb888ae238b561dba6b",
+        "session.js": "e6078095ddd728e16fec8e0d35bfeb2bb3298a8461663e4f6754b420586c8ba1",
+        "style.css": "3f94568c180884490ff2e7adbcc5a4e353af0cb5c51a40de27f3f61a609271aa",
+        "test-ui.cjs": "446b57d90299ac71d7c2e4ad7a02d846962a15fc60149b3466d4efbef6d68357",
+        "test.cjs": "49b772cab9612842f6fbc84120e83673266b737dfe5c84437ff5342bad41aa36",
+        "verify.py": "3ac200df7133b4964a818dd4380ea0c66c3c6fc208dde66cecbe9c255d2122ad"
+      },
+      "checks": [
+        {
+          "command": "python3 games/sokoban/verify.py",
+          "passed": true,
+          "seconds": 0.051,
+          "output": "PASS 50/50 independent replays; 1806 moves, 506 pushes; 50 distinct D4 wall topologies",
+          "stderr": ""
+        },
+        {
+          "command": "node games/sokoban/test.cjs",
+          "passed": true,
+          "seconds": 0.255,
+          "output": "PASS gameplay: 50/50, 1806 moves / 506 pushes; undo/restart/validated save; 20 off-path solutions; 0 rejected dead ends",
+          "stderr": ""
+        },
+        {
+          "command": "node games/sokoban/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.304,
+          "output": "PASS actual UI script: all 50 wins; 50 selectors; restart/cancel; undo after win; off-path hint and solution; demo/manual cancel; keyboard/touch; reload; corrupt save; storage failure; demo records excluded. Rendered browser QA not run.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "peg-solitaire",
+      "levels": 50,
+      "files": {
+        "README.md": "8491a2da8b0bc4e79e66fe7e891d2a5b2920ce9630a33dfd75594b17764ff04a",
+        "app.js": "776802ebc3f960665198bc43d19a63eeccd1073d0d64c37b2215cae7e2e7e560",
+        "certification.json": "61b4028289a8db0fe3c3627e4097dcdb5d3c809940ac277e8996883920ee5d20",
+        "engine.js": "f0e96f69817a0c79d1d0101c7cb2a0c04cccdbfd0888f524ad5511bcf3f24f10",
+        "generate.cjs": "62d714054151c8c45f8d1997a66728ed3f79affe2c8f317c6744d89bc7a9e6f3",
+        "levels.js": "2af085ddcad48ecdac242ffac2d9c4dbec3599bb74658fa4e8473d0269cfbf84",
+        "levels.json": "1332fca97a110b201478a24cac16706e41f76262305292cd2459d3b8ae6127b6",
+        "session.js": "1fcf3b5da1a41a7563eee5828e9635f6ed54537ba7edbc2ef49d64be4746ce5d",
+        "solver-worker.js": "bcddcb2c500debfe422f88b7fee920467ecbfdac7f60dcd2118babb0c6e42243",
+        "style.css": "40c08a76b3d5882d28f2590359fa1b32d01e8d7f445813d909a682808c7d9a30",
+        "test-ui.cjs": "b8144827084220ee6328cc4fefbcc553353b8be68a1a4fcf07da6cfb2b463295",
+        "test.cjs": "8995c5076c9ea8efc5117a6f88c59ddf900d3b317adc12bc3221096cc8efdc85",
+        "verify-independent.py": "dc64c71883b6ac1993ead987b9b79ef0528cc9d398314a9f631a24e95526975f"
+      },
+      "checks": [
+        {
+          "command": "python3 games/peg-solitaire/verify-independent.py",
+          "passed": true,
+          "seconds": 0.051,
+          "output": "{\n  \"status\": \"PASS\",\n  \"independent\": \"Python coordinate/set rules; no JavaScript imports\",\n  \"levels\": 50,\n  \"transitions\": 700,\n  \"canonical_unique\": 50,\n  \"initial_patterns_unique_ignoring_goal\": 50,\n  \"shape_families\": 9,\n  \"sha256\": \"1332fca97a110b201478a24cac16706e41f76262305292cd2459d3b8ae6127b6\"\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/peg-solitaire/test.cjs",
+          "passed": true,
+          "seconds": 0.178,
+          "output": "PASS: 50 engine proofs, 700 legal jumps, every-prefix save restore, current-state solve and negative rules",
+          "stderr": ""
+        },
+        {
+          "command": "node games/peg-solitaire/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.132,
+          "output": "PASS: peg-solitaire real client handlers: selection, hints without mutation, playback #1/#50, stop/resume, unlimited undo, confirmed navigation/restart, best proof validation, corrupted save, blocked storage, keyboard and background pause",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "lights-out",
+      "levels": 50,
+      "files": {
+        "README.md": "c562cc6c0c6980be1354d29bfb70e62fc695059bc5b8e252bbd9f9f81531e8f5",
+        "app.js": "b0ce91ca7e80b3d5c4e2bea1816766e7e048495982bd65435a76fd8b6bd35c5d",
+        "certification.json": "230a99d3db90afa8a6f5f6a0a280303022fda64298748ca58095ad2961da0cb9",
+        "engine.js": "7532cd6ddf59de8c5464c69ae7670864cbbd4e8cc0f696f793c0d487fff04ef2",
+        "generate.cjs": "a68fa43b989901c80cf08865c7a41126b2e578c8b946dca047290f31cddc7a22",
+        "levels.js": "79525e6b6263706ee0079c62bc34c8afb7d054a736ac4044392ded1799c75165",
+        "levels.json": "a558d2da348b852c2b6813e4ff478f0fd39890d974b81ec1d98bd348e5675928",
+        "session.js": "1e9bf74a6ed2b328751b6f8685372a3af6b18dcbd18cbeebf418d8513496cd27",
+        "style.css": "4fd4a0d80404805fb42a87908f0141ef0e6f95ae3a6dad7f3a20bc2da698c215",
+        "test-ui.cjs": "b8144827084220ee6328cc4fefbcc553353b8be68a1a4fcf07da6cfb2b463295",
+        "test.cjs": "cd591d59d79fdb3651f3e194009c4fa6e7db76c21802346f7e6c140abf058dc9",
+        "verify-independent.py": "b46d14f71c514335d67c7693994480c7e188db14cd9ce04eb45ffa32afa7774d"
+      },
+      "checks": [
+        {
+          "command": "python3 games/lights-out/verify-independent.py",
+          "passed": true,
+          "seconds": 0.064,
+          "output": "{\n  \"status\": \"PASS\",\n  \"independent\": \"Python coordinate toggles and exhaustive first-row chasing; no JavaScript imports\",\n  \"levels\": 50,\n  \"transitions\": 378,\n  \"canonical_unique\": 50,\n  \"minimum_range_by_size\": {\n    \"3\": [\n      1,\n      5\n    ],\n    \"4\": [\n      3,\n      6\n    ],\n    \"5\": [\n      5,\n      11\n    ],\n    \"6\": [\n      10,\n      16\n    ]\n  },\n  \"solution_count_by_size\": {\n    \"3\": 1,\n    \"4\": 16,\n    \"5\": 4,\n    \"6\": 1\n  },\n  \"sha256\": \"a558d2da348b852c2b6813e4ff478f0fd39890d974b81ec1d98bd348e5675928\"\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/lights-out/test.cjs",
+          "passed": true,
+          "seconds": 0.203,
+          "output": "PASS: 50 engine proofs, 378 toggles, every-prefix save restore, all one-click divergent states solved, involution and commutativity",
+          "stderr": ""
+        },
+        {
+          "command": "node games/lights-out/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.115,
+          "output": "PASS: lights-out real client handlers: selection, hints without mutation, playback #1/#50, stop/resume, unlimited undo, confirmed navigation/restart, best proof validation, corrupted save, blocked storage, keyboard and background pause",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "ice-slide",
+      "levels": 50,
+      "files": {
+        "README.md": "e29f219b2215030d1d0df992da9776aec164e54d10270647ecab9a2e262147c1",
+        "app.js": "4ad78bbe239ba7a7df4a35a40a59fdc44b6f5b4947c172b1a5c0f2c03c349af7",
+        "engine.js": "a59057ef2b2bf6cc4cda564c3bce583d5de2e44d216d419f1893922a1b7518a0",
+        "generate.cjs": "9c2140f63c90dd14b1edfef194c6804124dbee1ca07efcc5166702b42507c258",
+        "levels.js": "97911f820b7d552792ef3e9a4c092c9836b4f7086b01441833abbca091609fbe",
+        "levels.json": "eefc33ad237868a72ce37405ca705237fc37ac0acd48c98513b4ed5d25d31d0d",
+        "proof-report.json": "0ac216d09a54d095bbf5d4554234cb3a4545485d31462a488ba639eb0e039d38",
+        "style.css": "afb1a4d798925a724480408808e46aaf9c55b64da20fdf404765d4cca48c10a3",
+        "test-controller.cjs": "337e5383e3627b47c75a5d2553f2d344f5383cd7d4299c92f0242ee99cbb3e8f",
+        "test.cjs": "0416869393aa0005776c5dfe486aed1af75619f73b788f0cde676924dc9807a2",
+        "verify-independent.cjs": "9a5a92a664619243e54dd40b4020e82e368eea01eb5c3daf98d53b98bf92d84b",
+        "worker.js": "ea106d796d03806bfcf0e82036183783f7626c34ed4031eeea7f88554ebaa6bd"
+      },
+      "checks": [
+        {
+          "command": "node games/ice-slide/verify-independent.cjs",
+          "passed": true,
+          "seconds": 0.489,
+          "output": "Verified 1/50: 4 slides, 3 helper moves\nVerified 2/50: 4 slides, 3 helper moves\nVerified 3/50: 4 slides, 2 helper moves\nVerified 4/50: 5 slides, 3 helper moves\nVerified 5/50: 5 slides, 1 helper moves\nVerified 6/50: 5 slides, 3 helper moves\nVerified 7/50: 5 slides, 3 helper moves\nVerified 8/50: 5 slides, 2 helper moves\nVerified 9/50: 5 slides, 3 helper moves\nVerified 10/50: 6 slides, 4 helper moves\nVerified 11/50: 6 slides, 2 helper moves\nVerified 12/50: 7 slides, 4 helper moves\nVerified 13/50: 7 slides, 4 helper moves\nVerified 14/50: 7 slides, 3 helper moves\nVerified 15/50: 7 slides, 3 helper moves\nVerified 16/50: 7 slides, 4 helper moves\nVerified 17/50: 7 slides, 3 helper moves\nVerified 18/50: 8 slides, 3 helper moves\nVerified 19/50: 8 slides, 2 helper moves\nVerified 20/50: 8 slides, 4 helper moves\nVerified 21/50: 8 slides, 4 helper moves\nVerified 22/50: 9 slides, 4 helper moves\nVerified 23/50: 9 slides, 7 helper moves\nVerified 24/50: 9 slides, 8 helper moves\nVerified 25/50: 9 slides, 6 helper moves\nVerified 26/50: 9 slides, 4 helper moves\nVerified 27/50: 9 slides, 4 helper moves\nVerified 28/50: 9 slides, 7 helper moves\nVerified 29/50: 9 slides, 6 helper moves\nVerified 30/50: 10 slides, 4 helper moves\nVerified 31/50: 10 slides, 4 helper moves\nVerified 32/50: 10 slides, 8 helper moves\nVerified 33/50: 10 slides, 6 helper moves\nVerified 34/50: 11 slides, 7 helper moves\nVerified 35/50: 11 slides, 6 helper moves\nVerified 36/50: 11 slides, 4 helper moves\nVerified 37/50: 11 slides, 3 helper moves\nVerified 38/50: 11 slides, 7 helper moves\nVerified 39/50: 11 slides, 9 helper moves\nVerified 40/50: 11 slides, 8 helper moves\nVerified 41/50: 12 slides, 8 helper moves\nVerified 42/50: 12 slides, 9 helper moves\nVerified 43/50: 12 slides, 7 helper moves\nVerified 44/50: 13 slides, 7 helper moves\nVerified 45/50: 13 slides, 10 helper moves\nVerified 46/50: 13 slides, 8 helper moves\nVerified 47/50: 13 slides, 6 helper moves\nVerified 48/50: 13 slides, 7 helper moves\nVerified 49/50: 13 slides, 7 helper moves\nVerified 50/50: 14 slides, 7 helper moves\nPASS: all 50 levels independently certified",
+          "stderr": ""
+        },
+        {
+          "command": "node games/ice-slide/test.cjs",
+          "passed": true,
+          "seconds": 1.653,
+          "output": "PASS actual gameplay engine: 50 solutions, 445 slides + undo/replay, 50 off-path hints, restart, invalid/no-op moves, solved lock, storage recovery, impossible and bounded searches.",
+          "stderr": ""
+        },
+        {
+          "command": "node games/ice-slide/test-controller.cjs",
+          "passed": true,
+          "seconds": 0.337,
+          "output": "PASS controller DOM contract: 50 UI-played levels, saved independent bests, selection, keyboard, touch swipes, off-path hint, full playback, stop, stale search cancellation, modal interruption, undo/restart. This is not visual/browser QA.",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "bridges",
+      "levels": 50,
+      "files": {
+        "README.md": "3fd8ae5eb4c9c1d91104a051c80327704c1d39e263eebdb362a3a7f50daab466",
+        "app.js": "05a3e57f5ec102754faeba1f6c8c6e555f2ea48fbb4994fdbecfa3732ffce09c",
+        "engine.js": "558ac8c62db0f7a78c650149d1e072ef49d34835543445cd3df195d77250d191",
+        "generate.cjs": "72915338a9b742e5bb924831494252cf4aac0bf76b10341fd6802a5504530436",
+        "generation.json": "acfd276fcc6e5c3bbc6e58a931010a37b02878be78a4ce406cff7e646ceb734b",
+        "levels.js": "ca7a188bc824b1af20d2f6f69a28a167029723a6a0175bf64adf271f73e3044f",
+        "solver.cjs": "86a6144a39f9175614fc6e588bac9b832468f5f2aefc7c559405e50d582f7bec",
+        "style.css": "7213ef11805c18fd7b32c36202526669f52a16a6ebd6b9c82cf976c74ac08e49",
+        "ui-test.cjs": "48ea7ba1331c20dc235bc7c4987d8cd2f6fc69ca53167027baa6c8294dbf7a7b",
+        "ui-verification.json": "bec2d17438043b866686ba21c788e8b2101c38df58ade725fc04a816c06099d5",
+        "verification.json": "3f552d57e7e6313641daf1d1fcaa9860d5becb4952f3a4bbc8b7f8b986e56c93",
+        "verify.cjs": "747d8cfc7932d6a0609279f55dd14f9d6fe361e1f9f4ff80c3227c250828361b"
+      },
+      "checks": [
+        {
+          "command": "node games/bridges/verify.cjs",
+          "passed": true,
+          "seconds": 0.145,
+          "output": "{\n  \"game\": \"Hashi\",\n  \"levels\": 50,\n  \"exactUnique\": 50,\n  \"canonicalDistinct\": 50,\n  \"independentRuleChecks\": 50,\n  \"independentBruteCounts\": 10,\n  \"singleEdgeMutationRejections\": 994,\n  \"rows\": [\n    {\n      \"id\": 1,\n      \"size\": 5,\n      \"islands\": 8,\n      \"edges\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 2,\n      \"size\": 5,\n      \"islands\": 8,\n      \"edges\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 3,\n      \"size\": 5,\n      \"islands\": 8,\n      \"edges\": 8,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 4,\n      \"size\": 5,\n      \"islands\": 8,\n      \"edges\": 8,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 5,\n      \"size\": 5,\n      \"islands\": 9,\n      \"edges\": 8,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 6,\n      \"size\": 5,\n      \"islands\": 9,\n      \"edges\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 7,\n      \"size\": 5,\n      \"islands\": 10,\n      \"edges\": 10,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 8,\n      \"size\": 5,\n      \"islands\": 10,\n      \"edges\": 11,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 9,\n      \"size\": 5,\n      \"islands\": 10,\n      \"edges\": 11,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 10,\n      \"size\": 5,\n      \"islands\": 9,\n      \"edges\": 11,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 11,\n      \"size\": 6,\n      \"islands\": 11,\n      \"edges\": 10,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 12,\n      \"size\": 6,\n      \"islands\": 11,\n      \"edges\": 12,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 13,\n      \"size\": 6,\n      \"islands\": 12,\n      \"edges\": 12,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 14,\n      \"size\": 6,\n      \"islands\": 12,\n      \"edges\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 15,\n      \"size\": 6,\n      \"islands\": 12,\n      \"edges\": 14,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 16,\n      \"size\": 6,\n      \"islands\": 13,\n      \"edges\": 14,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 17,\n      \"size\": 6,\n      \"islands\": 13,\n      \"edges\": 14,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 18,\n      \"size\": 6,\n      \"islands\": 13,\n      \"edges\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 1\n    },\n    {\n      \"id\": 19,\n      \"size\": 6,\n      \"islands\": 12,\n      \"edges\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 20,\n      \"size\": 6,\n      \"islands\": 13,\n      \"edges\": 14,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 21,\n      \"size\": 7,\n      \"islands\": 15,\n      \"edges\": 16,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 22,\n      \"size\": 7,\n      \"islands\": 15,\n      \"edges\": 18,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 23,\n      \"size\": 7,\n      \"islands\": 15,\n      \"edges\": 18,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 24,\n      \"size\": 7,\n      \"islands\": 16,\n      \"edges\": 19,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 25,\n      \"size\": 7,\n      \"islands\": 16,\n      \"edges\": 19,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 26,\n      \"size\": 7,\n      \"islands\": 16,\n      \"edges\": 20,\n      \"solutions\": 1,\n      \"searchNodes\": 3\n    },\n    {\n      \"id\": 27,\n      \"size\": 7,\n      \"islands\": 15,\n      \"edges\": 17,\n      \"solutions\": 1,\n      \"searchNodes\": 4\n    },\n    {\n      \"id\": 28,\n      \"size\": 7,\n      \"islands\": 16,\n      \"edges\": 18,\n      \"solutions\": 1,\n      \"searchNodes\": 5\n    },\n    {\n      \"id\": 29,\n      \"size\": 7,\n      \"islands\": 17,\n      \"edges\": 20,\n      \"solutions\": 1,\n      \"searchNodes\": 5\n    },\n    {\n      \"id\": 30,\n      \"size\": 7,\n      \"islands\": 15,\n      \"edges\": 17,\n      \"solutions\": 1,\n      \"searchNodes\": 9\n    },\n    {\n      \"id\": 31,\n      \"size\": 8,\n      \"islands\": 19,\n      \"edges\": 22,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 32,\n      \"size\": 8,\n      \"islands\": 20,\n      \"edges\": 24,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 33,\n      \"size\": 8,\n      \"islands\": 20,\n      \"edges\": 26,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 34,\n      \"size\": 8,\n      \"islands\": 21,\n      \"edges\": 26,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 35,\n      \"size\": 8,\n      \"islands\": 21,\n      \"edges\": 27,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 36,\n      \"size\": 8,\n      \"islands\": 21,\n      \"edges\": 27,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 37,\n      \"size\": 8,\n      \"islands\": 19,\n      \"edges\": 23,\n      \"solutions\": 1,\n      \"searchNodes\": 8\n    },\n    {\n      \"id\": 38,\n      \"size\": 8,\n      \"islands\": 20,\n      \"edges\": 26,\n      \"solutions\": 1,\n      \"searchNodes\": 9\n    },\n    {\n      \"id\": 39,\n      \"size\": 8,\n      \"islands\": 20,\n      \"edges\": 25,\n      \"solutions\": 1,\n      \"searchNodes\": 10\n    },\n    {\n      \"id\": 40,\n      \"size\": 8,\n      \"islands\": 21,\n      \"edges\": 27,\n      \"solutions\": 1,\n      \"searchNodes\": 18\n    },\n    {\n      \"id\": 41,\n      \"size\": 9,\n      \"islands\": 25,\n      \"edges\": 33,\n      \"solutions\": 1,\n      \"searchNodes\": 20\n    },\n    {\n      \"id\": 42,\n      \"size\": 9,\n      \"islands\": 25,\n      \"edges\": 34,\n      \"solutions\": 1,\n      \"searchNodes\": 21\n    },\n    {\n      \"id\": 43,\n      \"size\": 9,\n      \"islands\": 26,\n      \"edges\": 34,\n      \"solutions\": 1,\n      \"searchNodes\": 21\n    },\n    {\n      \"id\": 44,\n      \"size\": 9,\n      \"islands\": 26,\n      \"edges\": 35,\n      \"solutions\": 1,\n      \"searchNodes\": 22\n    },\n    {\n      \"id\": 45,\n      \"size\": 9,\n      \"islands\": 24,\n      \"edges\": 32,\n      \"solutions\": 1,\n      \"searchNodes\": 23\n    },\n    {\n      \"id\": 46,\n      \"size\": 9,\n      \"islands\": 25,\n      \"edges\": 33,\n      \"solutions\": 1,\n      \"searchNodes\": 23\n    },\n    {\n      \"id\": 47,\n      \"size\": 9,\n      \"islands\": 25,\n      \"edges\": 33,\n      \"solutions\": 1,\n      \"searchNodes\": 25\n    },\n    {\n      \"id\": 48,\n      \"size\": 9,\n      \"islands\": 26,\n      \"edges\": 35,\n      \"solutions\": 1,\n      \"searchNodes\": 27\n    },\n    {\n      \"id\": 49,\n      \"size\": 9,\n      \"islands\": 24,\n      \"edges\": 32,\n      \"solutions\": 1,\n      \"searchNodes\": 30\n    },\n    {\n      \"id\": 50,\n      \"size\": 9,\n      \"islands\": 26,\n      \"edges\": 37,\n      \"solutions\": 1,\n      \"searchNodes\": 63\n    }\n  ]\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/bridges/ui-test.cjs bridges",
+          "passed": true,
+          "seconds": 6.144,
+          "output": "{\n  \"game\": \"bridges\",\n  \"manualSolutionUIFlows\": 50,\n  \"hintCompletionUIFlows\": 50,\n  \"wrongPlacementHintRecoveryFlows\": 50,\n  \"otherFlows\": [\n    \"50-level select\",\n    \"previous/next\",\n    \"win dialog\",\n    \"solution preview preserves state and completion\",\n    \"undo\",\n    \"reset then undo restores hint usage\",\n    \"help modal\",\n    \"save/reload\",\n    \"invalid save recovery\",\n    \"storage denial\",\n    \"keyboard focus/edit\"\n  ],\n  \"visualBrowserQA\": \"Not run: browser/preview unavailable in assigned environment; DOM harness is not visual QA.\"\n}",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "tents",
+      "levels": 50,
+      "files": {
+        "README.md": "2fedce7f722b90eb2e55522b31f2313451056842c0bc06de1dde1729aa3823ee",
+        "app.js": "e15ce823e4e2955805ad78d9f6447546d35836046b58e6465694ffaddbcf4c63",
+        "engine.js": "6e3f519af85ac598e7407b0eb58cb2ab9cb516b6742d45a532469b08b239cc01",
+        "generate.cjs": "c54b89043fd417d204cdcbcc973e69110b1c8519ce5102c3e4d60506b734462a",
+        "generation.json": "f4cd74bc93d46e46037be52a3b450301b40d5371a1dbcb661b8588ba16a1dc5f",
+        "levels.js": "6cdb0081db8d90c46203b01924f9906761d575a7ff1407cd110d008462534fc6",
+        "solver.cjs": "09ee0bef07afcf02fddec10ee1032869e5053465ffa5ad535fd0ef22aefa5c32",
+        "style.css": "7213ef11805c18fd7b32c36202526669f52a16a6ebd6b9c82cf976c74ac08e49",
+        "ui-test.cjs": "48ea7ba1331c20dc235bc7c4987d8cd2f6fc69ca53167027baa6c8294dbf7a7b",
+        "ui-verification.json": "6b17fcd7ef41d068657df32e3d4237b1ca2379ddf781bbc22b567c4614227542",
+        "verification.json": "0c1003a50ecbe8786d63a0d32a8c11feabb3195b558d6046c2375b2a80fb576b",
+        "verify.cjs": "14c578ff1652699433753dcbe3c3de8c05e1a7503b2824e9d95cc35c7c44a95d"
+      },
+      "checks": [
+        {
+          "command": "node games/tents/verify.cjs",
+          "passed": true,
+          "seconds": 0.132,
+          "output": "{\n  \"game\": \"Tents\",\n  \"levels\": 50,\n  \"exactUnique\": 50,\n  \"canonicalDistinct\": 50,\n  \"independentRuleChecks\": 50,\n  \"independentBruteCounts\": 10,\n  \"toggleMutationRejections\": 2550,\n  \"multipleMatchingFixturePassed\": true,\n  \"rows\": [\n    {\n      \"id\": 1,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 2,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 3,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 4,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 5,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 6,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 7,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 8,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 6\n    },\n    {\n      \"id\": 9,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 8\n    },\n    {\n      \"id\": 10,\n      \"size\": 5,\n      \"trees\": 5,\n      \"solutions\": 1,\n      \"searchNodes\": 9\n    },\n    {\n      \"id\": 11,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 12,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 13,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 14,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 15,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 16,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 17,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 7\n    },\n    {\n      \"id\": 18,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 9\n    },\n    {\n      \"id\": 19,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 10\n    },\n    {\n      \"id\": 20,\n      \"size\": 6,\n      \"trees\": 7,\n      \"solutions\": 1,\n      \"searchNodes\": 13\n    },\n    {\n      \"id\": 21,\n      \"size\": 7,\n      \"trees\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 8\n    },\n    {\n      \"id\": 22,\n      \"size\": 7,\n      \"trees\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 8\n    },\n    {\n      \"id\": 23,\n      \"size\": 7,\n      \"trees\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 8\n    },\n    {\n      \"id\": 24,\n      \"size\": 7,\n      \"trees\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 8\n    },\n    {\n      \"id\": 25,\n      \"size\": 7,\n      \"trees\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 8\n    },\n    {\n      \"id\": 26,\n      \"size\": 7,\n      \"trees\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 10\n    },\n    {\n      \"id\": 27,\n      \"size\": 7,\n      \"trees\": 10,\n      \"solutions\": 1,\n      \"searchNodes\": 10\n    },\n    {\n      \"id\": 28,\n      \"size\": 7,\n      \"trees\": 10,\n      \"solutions\": 1,\n      \"searchNodes\": 11\n    },\n    {\n      \"id\": 29,\n      \"size\": 7,\n      \"trees\": 9,\n      \"solutions\": 1,\n      \"searchNodes\": 14\n    },\n    {\n      \"id\": 30,\n      \"size\": 7,\n      \"trees\": 10,\n      \"solutions\": 1,\n      \"searchNodes\": 21\n    },\n    {\n      \"id\": 31,\n      \"size\": 8,\n      \"trees\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 9\n    },\n    {\n      \"id\": 32,\n      \"size\": 8,\n      \"trees\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 9\n    },\n    {\n      \"id\": 33,\n      \"size\": 8,\n      \"trees\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 10\n    },\n    {\n      \"id\": 34,\n      \"size\": 8,\n      \"trees\": 12,\n      \"solutions\": 1,\n      \"searchNodes\": 11\n    },\n    {\n      \"id\": 35,\n      \"size\": 8,\n      \"trees\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 12\n    },\n    {\n      \"id\": 36,\n      \"size\": 8,\n      \"trees\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 12\n    },\n    {\n      \"id\": 37,\n      \"size\": 8,\n      \"trees\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 14\n    },\n    {\n      \"id\": 38,\n      \"size\": 8,\n      \"trees\": 13,\n      \"solutions\": 1,\n      \"searchNodes\": 16\n    },\n    {\n      \"id\": 39,\n      \"size\": 8,\n      \"trees\": 12,\n      \"solutions\": 1,\n      \"searchNodes\": 24\n    },\n    {\n      \"id\": 40,\n      \"size\": 8,\n      \"trees\": 12,\n      \"solutions\": 1,\n      \"searchNodes\": 34\n    },\n    {\n      \"id\": 41,\n      \"size\": 9,\n      \"trees\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 10\n    },\n    {\n      \"id\": 42,\n      \"size\": 9,\n      \"trees\": 16,\n      \"solutions\": 1,\n      \"searchNodes\": 11\n    },\n    {\n      \"id\": 43,\n      \"size\": 9,\n      \"trees\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 14\n    },\n    {\n      \"id\": 44,\n      \"size\": 9,\n      \"trees\": 16,\n      \"solutions\": 1,\n      \"searchNodes\": 14\n    },\n    {\n      \"id\": 45,\n      \"size\": 9,\n      \"trees\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 15\n    },\n    {\n      \"id\": 46,\n      \"size\": 9,\n      \"trees\": 16,\n      \"solutions\": 1,\n      \"searchNodes\": 19\n    },\n    {\n      \"id\": 47,\n      \"size\": 9,\n      \"trees\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 22\n    },\n    {\n      \"id\": 48,\n      \"size\": 9,\n      \"trees\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 29\n    },\n    {\n      \"id\": 49,\n      \"size\": 9,\n      \"trees\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 50\n    },\n    {\n      \"id\": 50,\n      \"size\": 9,\n      \"trees\": 15,\n      \"solutions\": 1,\n      \"searchNodes\": 81\n    }\n  ]\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/tents/ui-test.cjs tents",
+          "passed": true,
+          "seconds": 3.32,
+          "output": "{\n  \"game\": \"tents\",\n  \"manualSolutionUIFlows\": 50,\n  \"hintCompletionUIFlows\": 50,\n  \"wrongPlacementHintRecoveryFlows\": 50,\n  \"otherFlows\": [\n    \"50-level select\",\n    \"previous/next\",\n    \"win dialog\",\n    \"solution preview preserves state and completion\",\n    \"undo\",\n    \"reset then undo restores hint usage\",\n    \"help modal\",\n    \"save/reload\",\n    \"invalid save recovery\",\n    \"storage denial\",\n    \"keyboard focus/edit\"\n  ],\n  \"visualBrowserQA\": \"Not run: browser/preview unavailable in assigned environment; DOM harness is not visual QA.\"\n}",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "slitherlink",
+      "levels": 50,
+      "files": {
+        "README.md": "ba84af06a5460cece76e3f520977853f82ffe102ef3558b05cbbd73e89c01aba",
+        "app.js": "787fd30143e6eaf393e0d6182575e985dca5edddb43fd1486cab104f85643ff4",
+        "engine.js": "2afa11230cbad0382904a5ba9ac28c68574ac1eb40451f1a220aafd86b1f3b47",
+        "generate.py": "38518e7ee93add5de8247114959a541c4da0c0c73beafbc4f8572695a210b880",
+        "levels.js": "b4721671acaf98333e7daa1f01e09c351f118296a86bf62389ac89f88f5ada44",
+        "levels.json": "aa00ba275d77d765ded4b30f6721c177d7b682e92f61285a8150dfdbe827f34a",
+        "style.css": "f0b6ba3d08a249744bd6732a162b89911daca9bb47946318a696d999ca2989b7",
+        "test-ui.cjs": "c703d5b49bf63d0749be5647b895ffd8347693e39f797b98d6163e6140ce9e36",
+        "test.cjs": "be04755d0e917728724d9f2fee891db1bf90a67e3f60600fbf0f91f8c20625bf",
+        "verification.json": "eb021290a8a0f31a8c2529ca23bdc14d8291aa143bf4918fcb3bdb7082ac83e5",
+        "verify.py": "83658cd37313b0212b5a4d1c57b8ffc7509ee33c3b28c0093b621a94b61c3ef1"
+      },
+      "checks": [
+        {
+          "command": "python3 games/slitherlink/verify.py",
+          "passed": true,
+          "seconds": 0.188,
+          "output": "slitherlink: 50 distinct verified levels; 798 witness actions. 50 unique solutions.",
+          "stderr": ""
+        },
+        {
+          "command": "node games/slitherlink/test.cjs",
+          "passed": true,
+          "seconds": 0.112,
+          "output": "slitherlink 50 gameplay-engine replays passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/slitherlink/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.477,
+          "output": "slitherlink UI tests: 50 demonstration wins + restore, 50 hint wins+undo, save/reload, cancellation, timer interruption, corrupt/blocked storage passed",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "game": "polyomino",
+      "levels": 50,
+      "files": {
+        "README.md": "59bb15a829d95934491898dbf819d2a393a697b8c391c1cb782079dcce342eaa",
+        "app.js": "933d05098fbb470d56bf8870e8e3a917f4af0ef523d89ff5696638c0e0bcf1cb",
+        "engine.js": "8e86ee1ab4d570d1b621969f3d07111f9e9eeb8b262c430c42c968f4d12ba61f",
+        "generate.py": "2cc587d3ea622be94934374202768ecb93c50954c337db447283ac0c264fccfc",
+        "levels.js": "fc7c4997a5bd974b79debb0571ab255840b567a491aeb914d9307dde830d371f",
+        "levels.json": "5bfea9dfb796be92311be54389c1d19d6a4878671c7fdf06b1f96344641cc229",
+        "style.css": "fddb832a72002651011d669fe2f1b4d7bd413eb28b067a3a3ee8f469da7b9c78",
+        "test-ui.cjs": "4c98b5ce65c5b845dc64f73c7bc9f19d69834e31f0d3641e46c67176c0e35f16",
+        "test.cjs": "be04755d0e917728724d9f2fee891db1bf90a67e3f60600fbf0f91f8c20625bf",
+        "verification.json": "58b05b2b5337337e68785536d13ba610a2275f6289c600941f8ea090a3e66e53",
+        "verify.py": "83658cd37313b0212b5a4d1c57b8ffc7509ee33c3b28c0093b621a94b61c3ef1"
+      },
+      "checks": [
+        {
+          "command": "python3 games/polyomino/verify.py",
+          "passed": true,
+          "seconds": 0.293,
+          "output": "polyomino: 50 distinct verified levels; 267 witness actions. Multiple valid tilings allowed.",
+          "stderr": ""
+        },
+        {
+          "command": "node games/polyomino/test.cjs",
+          "passed": true,
+          "seconds": 0.183,
+          "output": "polyomino 50 gameplay-engine replays passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/polyomino/test-ui.cjs",
+          "passed": true,
+          "seconds": 1.176,
+          "output": "50 manual pointer-placement witnesses passed, including occupied/blocked bounding-box corners\npolyomino UI tests: 50 demonstration wins + restore, 50 hint wins+undo, save/reload, cancellation, timer interruption, corrupt/blocked storage passed",
+          "stderr": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+(function(root){'use strict';
+function neighbors(n,i){const r=Math.floor(i/n),c=i%n;return [[r-1,c],[r+1,c],[r,c-1],[r,c+1]].filter(([a,b])=>a>=0&&b>=0&&a<n&&b<n).map(([a,b])=>a*n+b);}
+function matching(p,tents){const match=new Map(),trees=new Set(p.trees);function aug(t,seen){for(const tr of neighbors(p.size,t))if(trees.has(tr)&&!seen.has(tr)){seen.add(tr);if(!match.has(tr)||aug(match.get(tr),seen)){match.set(tr,t);return true;}}return false;}return tents.length===p.trees.length&&tents.every(t=>aug(t,new Set()));}
+function inspect(p,state){const n=p.size,trees=new Set(p.trees),tents=[],rows=Array(n).fill(0),cols=Array(n).fill(0),bad=new Set();for(let i=0;i<n*n;i++)if(state[i]===1){tents.push(i);rows[Math.floor(i/n)]++;cols[i%n]++;if(trees.has(i)||!neighbors(n,i).some(j=>trees.has(j)))bad.add(i);}for(let a=0;a<tents.length;a++)for(let b=0;b<a;b++){const u=tents[a],v=tents[b];if(Math.abs(Math.floor(u/n)-Math.floor(v/n))<=1&&Math.abs(u%n-v%n)<=1){bad.add(u);bad.add(v);}}
+const exact=rows.every((v,i)=>v===p.rows[i])&&cols.every((v,i)=>v===p.cols[i]);const won=!bad.size&&exact&&matching(p,tents);return{won,rows,cols,tents,bad,reason:bad.size?'帳篷要靠樹，彼此連角也不能相碰':rows.some((v,i)=>v>p.rows[i])||cols.some((v,i)=>v>p.cols[i])?'有一行或一列的帳篷超過提示':exact&&!won?'每棵樹都需要配對到不同的帳篷':'讓每棵樹都有自己的帳篷'};}
+function validateSolution(p,tents){if(new Set(tents).size!==tents.length||tents.some(i=>!Number.isInteger(i)||i<0||i>=p.size*p.size))return false;const s=Array(p.size*p.size).fill(0);tents.forEach(i=>s[i]=1);return inspect(p,s).won;}
+const api={neighbors,matching,inspect,validateSolution};if(typeof module!=='undefined')module.exports=api;else root.TentsEngine=api;
+})(typeof globalThis!=='undefined'?globalThis:this);

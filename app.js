@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261002-certified-cards';
+const GAME_BUILD = '20261002-puzzle-collection';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -18,10 +18,31 @@ const games = [
   {"id": "freecell", "title": "新接龍", "category": "cards", "description": "善用四個暫存格，規劃每一步，把 52 張牌送回花色收牌區。", "note": "規劃 × 暫存格", "art": "card-freecell", "color": "#a9c9f7", "background": "#263a52", "word": "FREECELL", "status": "ready", "url": "./games/freecell.html"},
   {"id": "spider", "title": "蜘蛛接龍", "category": "cards", "description": "單一花色，十列牌陣，組成 K 到 A 的完整序列逐組收回。", "note": "一色 × 序列", "art": "card-spider", "color": "#cab1f5", "background": "#392c50", "word": "SPIDER", "status": "ready", "url": "./games/spider.html"},
   {"id": "pyramid", "title": "金字塔接龍", "category": "cards", "description": "配對點數合計 13 的牌，層層揭開金字塔，找到清空的路。", "note": "配對 × 合計 13", "art": "card-pyramid", "color": "#edc27d", "background": "#493924", "word": "PYRAMID", "status": "ready", "url": "./games/pyramid.html"},
-  {"id": "tripeaks", "title": "三峰接龍", "category": "cards", "description": "接上高一點或低一點的牌，一步步翻開三座高峰，清空牌陣。", "note": "連接 × 三座山峰", "art": "card-tripeaks", "color": "#eab0bd", "background": "#482f3b", "word": "TRIPEAKS", "status": "ready", "url": "./games/tripeaks.html"}
+  {"id": "tripeaks", "title": "三峰接龍", "category": "cards", "description": "接上高一點或低一點的牌，一步步翻開三座高峰，清空牌陣。", "note": "連接 × 三座山峰", "art": "card-tripeaks", "color": "#eab0bd", "background": "#482f3b", "word": "TRIPEAKS", "status": "ready", "url": "./games/tripeaks.html"},
+  {"id": "traffic-jam", "title": "塞車棋", "description": "讓車輛沿自身方向滑動，清出通道，送紅車駛向出口。", "note": "交通 × 調度", "art": "board-traffic-jam", "category": "board", "color": "#9ac8f3", "background": "#25384c", "word": "TRAFFIC JAM", "status": "ready", "url": "./games/traffic-jam.html"},
+  {"id": "sliding-blocks", "title": "華容道", "description": "挪動大小方塊與有限空格，讓主角穿越擁擠棋盤。", "note": "滑塊 × 佈局", "art": "board-sliding-blocks", "category": "board", "color": "#e6a396", "background": "#49322f", "word": "SLIDING BLOCKS", "status": "ready", "url": "./games/sliding-blocks.html"},
+  {"id": "sokoban", "title": "推箱子", "description": "箱子只能推不能拉，把每一箱送到目標，留意死角。", "note": "推箱 × 規劃", "art": "board-sokoban", "category": "board", "color": "#edc47e", "background": "#443924", "word": "SOKOBAN", "status": "ready", "url": "./games/sokoban.html"},
+  {"id": "peg-solitaire", "title": "獨立鑽石", "description": "跳過棋子並移除，步步規劃，讓棋盤最後只留一枚。", "note": "跳躍 × 推演", "art": "board-peg-solitaire", "category": "board", "color": "#c5b3f5", "background": "#302b48", "word": "PEG SOLITAIRE", "status": "ready", "url": "./games/peg-solitaire.html"},
+  {"id": "lights-out", "title": "熄燈棋", "description": "一次切換自己與鄰格，找出能將整片燈光熄滅的組合。", "note": "切換 × 邏輯", "art": "board-lights-out", "category": "board", "color": "#95d7ba", "background": "#263d38", "word": "LIGHTS OUT", "status": "ready", "url": "./games/lights-out.html"},
+  {"id": "ice-slide", "title": "冰面滑行棋", "description": "一路滑到障礙才停，用其他棋子作擋板，精準抵達目標。", "note": "滑行 × 協作", "art": "board-ice-slide", "category": "board", "color": "#9ac8f3", "background": "#25384c", "word": "ICE SLIDE", "status": "ready", "url": "./games/ice-slide.html"},
+  {"id": "bridges", "title": "橋梁連線", "description": "依數字架橋，避免交叉，把所有島嶼連成一體。", "note": "島嶼 × 連線", "art": "board-bridges", "category": "board", "color": "#e6a396", "background": "#49322f", "word": "BRIDGES", "status": "ready", "url": "./games/bridges.html"},
+  {"id": "tents", "title": "帳篷與樹", "description": "為樹木安排帳篷，符合行列數量，也留出彼此的距離。", "note": "營地 × 推理", "art": "board-tents", "category": "board", "color": "#edc47e", "background": "#443924", "word": "TENTS", "status": "ready", "url": "./games/tents.html"},
+  {"id": "slitherlink", "title": "數字環線", "description": "沿格線畫出唯一封閉環，讓每個數字的邊數恰好吻合。", "note": "環線 × 推理", "art": "board-slitherlink", "category": "board", "color": "#c5b3f5", "background": "#302b48", "word": "SLITHERLINK", "status": "ready", "url": "./games/slitherlink.html"},
+  {"id": "polyomino", "title": "多格拼板", "description": "旋轉與翻轉不同拼片，完整填滿棋盤，不重疊也不留空。", "note": "拼片 × 空間", "art": "board-polyomino", "category": "board", "color": "#95d7ba", "background": "#263d38", "word": "POLYOMINO", "status": "ready", "url": "./games/polyomino.html"}
 ];
-const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌' };
+const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤' };
 const artMarkup = {
+  'board-traffic-jam': '<div class="mini-board mini-traffic"><i></i><i></i><i></i><i></i><b>→</b></div>',
+  'board-sliding-blocks': '<div class="mini-board mini-slide"><i></i><i></i><i></i><i></i><i></i></div>',
+  'board-sokoban': '<div class="mini-board mini-sokoban"><i>✚</i><i>▣</i><i>●</i><i>▣</i><i>✚</i></div>',
+  'board-peg-solitaire': '<div class="mini-board mini-peg"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>',
+  'board-lights-out': '<div class="mini-board mini-lights"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>',
+  'board-ice-slide': '<div class="mini-board mini-ice"><i>1</i><i>2</i><i>3</i><b>◎</b></div>',
+  'board-bridges': '<div class="mini-board mini-bridges"><i>2</i><i>3</i><i>2</i><i>3</i></div>',
+  'board-tents': '<div class="mini-board mini-tents"><i>♠</i><b>△</b><i>♠</i><b>△</b></div>',
+  'board-slitherlink': '<div class="mini-board mini-loop"><i>3</i><i>2</i><i>2</i><i>3</i></div>',
+  'board-polyomino': '<div class="mini-board mini-poly"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>',
+
   tiles: '<div class="tiles"><b data-number="2"></b><b data-number="4"></b><b data-number="8"></b><b data-number="16"></b></div>',
   maze: '<div class="maze"></div>',
   blocks: '<div class="blocks"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>',
@@ -52,7 +73,7 @@ function gameCard(game, index) {
   art.setAttribute('aria-hidden', 'true');
   art.append(element('div', 'art-pattern'), element('span', 'card-number', `GAME / ${String(index + 1).padStart(2, '0')}`));
   const isReady = game.status === 'ready' && typeof game.url === 'string' && /^\.\/games\/[\w\-/]+(?:\.html)?$/.test(game.url);
-  art.append(element('span', 'coming-badge', isReady ? '可以開玩' : 'COMING SOON'));
+  art.append(element('span', 'coming-badge', isReady ? (game.category === 'board' ? '50 關 · 驗證可解' : '可以開玩') : 'COMING SOON'));
   const visual = element('div', 'game-art');
   // Only static, developer-controlled artwork templates are inserted as HTML.
   visual.innerHTML = artMarkup[game.art] || artMarkup.blocks;
