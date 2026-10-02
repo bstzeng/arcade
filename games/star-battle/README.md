@@ -44,7 +44,7 @@ From the arcade root:
     python3 games/star-battle/verify.py
     node games/star-battle/test.cjs
 
-Seed: 27182818. Generation takes about 3 minutes in this environment.
+Seed: 27182818. Generation takes about 3 minutes on the reference generator run.
 Data: `levels.json` and identical browser data `levels.js`.
 Proof: `verification-report.json`. UI/engine tests: `test-report.json`.
 
@@ -53,8 +53,8 @@ harness, completing all 50 levels through the registered click handlers. It
 tests incorrect adjacency/diagonals/quotas, missing and extra stars, optional
 crosses, invalid input, undo, confirmed/cancelled reset, reset undo, reload,
 invalid saves, storage denial, wrong-star/wrong-cross hints, note modes, help,
-and non-destructive preview. No pixel-layout test is claimed: local browser
-launch is blocked; publisher live-browser QA is still required.
+and non-destructive preview. The DOM harness does not measure pixel layout. Browser layout validation is
+a separate check.
 
 ## Integration / live QA
 
