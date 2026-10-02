@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261002-puzzle-fit';
+const GAME_BUILD = '20261002-logic-500';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -28,10 +28,30 @@ const games = [
   {"id": "bridges", "title": "橋梁連線", "description": "依數字架橋，避免交叉，把所有島嶼連成一體。", "note": "島嶼 × 連線", "art": "board-bridges", "category": "board", "color": "#e6a396", "background": "#49322f", "word": "BRIDGES", "status": "ready", "url": "./games/bridges.html"},
   {"id": "tents", "title": "帳篷與樹", "description": "為樹木安排帳篷，符合行列數量，也留出彼此的距離。", "note": "營地 × 推理", "art": "board-tents", "category": "board", "color": "#edc47e", "background": "#443924", "word": "TENTS", "status": "ready", "url": "./games/tents.html"},
   {"id": "slitherlink", "title": "數字環線", "description": "沿格線畫出唯一封閉環，讓每個數字的邊數恰好吻合。", "note": "環線 × 推理", "art": "board-slitherlink", "category": "board", "color": "#c5b3f5", "background": "#302b48", "word": "SLITHERLINK", "status": "ready", "url": "./games/slitherlink.html"},
-  {"id": "polyomino", "title": "多格拼板", "description": "旋轉與翻轉不同拼片，完整填滿棋盤，不重疊也不留空。", "note": "拼片 × 空間", "art": "board-polyomino", "category": "board", "color": "#95d7ba", "background": "#263d38", "word": "POLYOMINO", "status": "ready", "url": "./games/polyomino.html"}
+  {"id": "polyomino", "title": "多格拼板", "description": "旋轉與翻轉不同拼片，完整填滿棋盤，不重疊也不留空。", "note": "拼片 × 空間", "art": "board-polyomino", "category": "board", "color": "#95d7ba", "background": "#263d38", "word": "POLYOMINO", "status": "ready", "url": "./games/polyomino.html"},
+  {"id": "nonogram", "title": "數繪", "description": "從行列數字推算連續色塊，慢慢揭開像素圖案。", "note": "填格 × 圖像", "art": "logic-nonogram", "category": "logic", "color": "#a5d6bf", "background": "#263d38", "word": "NONOGRAM", "status": "ready", "url": "./games/nonogram.html"},
+  {"id": "nurikabe", "title": "數牆", "description": "將島嶼分開，用連通海水包圍每座指定面積的小島。", "note": "島嶼 × 邊界", "art": "logic-nurikabe", "category": "logic", "color": "#a7cff3", "background": "#25384c", "word": "NURIKABE", "status": "ready", "url": "./games/nurikabe.html"},
+  {"id": "magnets", "title": "磁鐵棋", "description": "安排正負磁極，符合行列數量，避免同極相鄰。", "note": "磁極 × 排列", "art": "logic-magnets", "category": "logic", "color": "#e6a6ad", "background": "#49323a", "word": "MAGNETS", "status": "ready", "url": "./games/magnets.html"},
+  {"id": "battleships", "title": "戰艦定位", "description": "依行列線索找出整支艦隊，艦艇之間不能碰觸。", "note": "艦隊 × 搜索", "art": "logic-battleships", "category": "logic", "color": "#b2c8ee", "background": "#2b354c", "word": "BATTLESHIPS", "status": "ready", "url": "./games/battleships.html"},
+  {"id": "futoshiki", "title": "不等式數獨", "description": "填入不重複的數字，讓每一個大於、小於關係成立。", "note": "數字 × 比較", "art": "logic-futoshiki", "category": "logic", "color": "#d0b8f3", "background": "#382d4b", "word": "FUTOSHIKI", "status": "ready", "url": "./games/futoshiki.html"},
+  {"id": "kakuro", "title": "數和", "description": "交叉填入數字，組成線索總和，每段不得重複。", "note": "加法 × 交叉", "art": "logic-kakuro", "category": "logic", "color": "#edc480", "background": "#443924", "word": "KAKURO", "status": "ready", "url": "./games/kakuro.html"},
+  {"id": "masyu", "title": "黑白圓圈環線", "description": "穿過黑白珍珠畫出單一閉環，遵守轉彎與直行規則。", "note": "珍珠 × 環線", "art": "logic-masyu", "category": "logic", "color": "#d3d6e0", "background": "#333847", "word": "MASYU", "status": "ready", "url": "./games/masyu.html"},
+  {"id": "net", "title": "旋轉水管", "description": "旋轉線路拼片，將每個節點接上中心，完成無環網路。", "note": "旋轉 × 連通", "art": "logic-net", "category": "logic", "color": "#96d8ce", "background": "#263e3b", "word": "NET", "status": "ready", "url": "./games/net.html"},
+  {"id": "black-box", "title": "棋盤雷射", "description": "從邊界射入光線，根據吸收、反射與出口推算隱藏原子。", "note": "光線 × 推理", "art": "logic-black-box", "category": "logic", "color": "#b3b8f1", "background": "#30334e", "word": "BLACK BOX", "status": "ready", "url": "./games/black-box.html"},
+  {"id": "skyscrapers", "title": "天際線", "description": "安排不同高度的樓群，讓每一側看見的棟數吻合。", "note": "視角 × 高度", "art": "logic-skyscrapers", "category": "logic", "color": "#efb08e", "background": "#49372d", "word": "SKYSCRAPERS", "status": "ready", "url": "./games/skyscrapers.html"}
 ];
-const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤' };
+const categoryNames = { puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤', logic: '邏輯推理' };
 const artMarkup = {
+  "logic-nonogram": "<div class=\"logic-art logic-nonogram\"><b>1 3 1</b><div><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>",
+  "logic-nurikabe": "<div class=\"logic-art logic-nurikabe\"><i>2</i><i></i><i></i><i>3</i><i></i><i></i><i></i><i></i><i></i><i>1</i><i></i><i></i><i></i><i></i><i></i><i></i></div>",
+  "logic-magnets": "<div class=\"logic-art logic-magnets\"><i><b>+</b><b>\u2212</b></i><i><b>\u2212</b><b>+</b></i><i><b>+</b><b>\u2212</b></i></div>",
+  "logic-battleships": "<div class=\"logic-art logic-ships\"><i></i><i></i><i></i><b>2\u30001\u30003</b></div>",
+  "logic-futoshiki": "<div class=\"logic-art logic-futoshiki\"><i>1</i><b>\uff1c</b><i>3</i><b>\u2228</b><b></b><b>\u2227</b><i>2</i><b>\uff1e</b><i>1</i></div>",
+  "logic-kakuro": "<div class=\"logic-art logic-kakuro\"><b>\u2198 7</b><b>\u2199 6</b><b>4</b><i>1</i><i>3</i><b>9</b><i>5</i><i>4</i></div>",
+  "logic-masyu": "<div class=\"logic-art logic-masyu\"><i></i><i></i><i></i><i></i></div>",
+  "logic-net": "<div class=\"logic-art logic-net\"><i>\u250c</i><i>\u2534</i><i>\u2510</i><i>\u2514</i><b>\u2726</b><i>\u2524</i><i>\u2576</i><i>\u252c</i><i>\u2518</i></div>",
+  "logic-black-box": "<div class=\"logic-art logic-blackbox\"><b>\u2198</b><i>?</i><i>?</i><b>\u2197</b></div>",
+  "logic-skyscrapers": "<div class=\"logic-art logic-sky\"><i>1</i><i>3</i><i>2</i><i>4</i><b>2 \u2192</b></div>",
   'board-traffic-jam': '<div class="mini-board mini-traffic"><i></i><i></i><i></i><i></i><b>→</b></div>',
   'board-sliding-blocks': '<div class="mini-board mini-slide"><i></i><i></i><i></i><i></i><i></i></div>',
   'board-sokoban': '<div class="mini-board mini-sokoban"><i>✚</i><i>▣</i><i>●</i><i>▣</i><i>✚</i></div>',
@@ -73,7 +93,7 @@ function gameCard(game, index) {
   art.setAttribute('aria-hidden', 'true');
   art.append(element('div', 'art-pattern'), element('span', 'card-number', `GAME / ${String(index + 1).padStart(2, '0')}`));
   const isReady = game.status === 'ready' && typeof game.url === 'string' && /^\.\/games\/[\w\-/]+(?:\.html)?$/.test(game.url);
-  art.append(element('span', 'coming-badge', isReady ? (game.category === 'board' ? '50 關 · 驗證可解' : '可以開玩') : 'COMING SOON'));
+  art.append(element('span', 'coming-badge', isReady ? (game.category === 'logic' ? '50 關 · 唯一解' : game.category === 'board' ? '50 關 · 驗證可解' : '可以開玩') : 'COMING SOON'));
   const visual = element('div', 'game-art');
   // Only static, developer-controlled artwork templates are inserted as HTML.
   visual.innerHTML = artMarkup[game.art] || artMarkup.blocks;

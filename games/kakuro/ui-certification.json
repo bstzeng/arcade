@@ -1,0 +1,22 @@
+{
+  "game": "kakuro",
+  "manualSolutionFlows": 50,
+  "hintCompletionFlows": 50,
+  "wrongValueRecoveryFlows": 50,
+  "passed": [
+    "50-level selector",
+    "arbitrary correct final board wins",
+    "reset confirmation and cancel",
+    "numeric and delete keyboard events",
+    "keyboard focus retention",
+    "arrow movement",
+    "undo retains assistance",
+    "demo preserves values and never awards completion",
+    "progress save/reload",
+    "invalid JSON and malicious state recovery",
+    "storage denied fallback",
+    "help modal",
+    "last-level boundary"
+  ],
+  "visualBrowserQA": "Not run: browser and local preview were unavailable for this assigned task. These are DOM integration tests, not browser rendering tests."
+}

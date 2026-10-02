@@ -1,0 +1,29 @@
+{
+  "game": "magnets",
+  "levels": 50,
+  "uniqueSolutions": 50,
+  "solverNodes": 765,
+  "controllerWins": 50,
+  "actions": 1140,
+  "checks": [
+    "full-rule completion",
+    "enumeration capped at two",
+    "synthetic ambiguous and impossible puzzles",
+    "50 selector",
+    "keyboard movement",
+    "cycle",
+    "undo",
+    "reset confirm/cancel",
+    "contradiction-safe hint",
+    "sticky assistance",
+    "solution preview",
+    "step and timed demo isolation",
+    "win dialog",
+    "save/reload each level",
+    "invalid completed save rejection",
+    "corrupt save recovery",
+    "blocked storage",
+    "deep link"
+  ],
+  "visualBrowserQA": "Not run. DOM-contract harness is not a real browser or layout test."
+}

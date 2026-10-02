@@ -1,0 +1,407 @@
+{
+  "generator": "mulberry32 seed 2026100202",
+  "attempts": 50,
+  "method": "Exact row-mask search with fleet multiset, no diagonal touching, counts, givens; enumeration capped at two. Identical ships are not labeled.",
+  "levels": [
+    {
+      "id": 1,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 17,
+      "givens": 1,
+      "canonical": "5:0000000011100001000010001"
+    },
+    {
+      "id": 2,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 8,
+      "givens": 1,
+      "canonical": "5:0000000010100001000110001"
+    },
+    {
+      "id": 3,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 12,
+      "givens": 1,
+      "canonical": "5:0000010011100001000000100"
+    },
+    {
+      "id": 4,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 16,
+      "givens": 1,
+      "canonical": "5:0000110001000010010000100"
+    },
+    {
+      "id": 5,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 16,
+      "givens": 1,
+      "canonical": "5:0000110001100001000000010"
+    },
+    {
+      "id": 6,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 18,
+      "givens": 1,
+      "canonical": "5:0000001001010010100000010"
+    },
+    {
+      "id": 7,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 16,
+      "givens": 1,
+      "canonical": "5:0000000001100001001010010"
+    },
+    {
+      "id": 8,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 19,
+      "givens": 1,
+      "canonical": "5:0000100001000011000000110"
+    },
+    {
+      "id": 9,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 15,
+      "givens": 1,
+      "canonical": "5:0000000100000010000111001"
+    },
+    {
+      "id": 10,
+      "size": 5,
+      "solutions": 1,
+      "nodes": 9,
+      "givens": 2,
+      "canonical": "5:0000000000011100000010011"
+    },
+    {
+      "id": 11,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 134,
+      "givens": 0,
+      "canonical": "6:000100000000110001000001000000001110"
+    },
+    {
+      "id": 12,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 29,
+      "givens": 1,
+      "canonical": "6:000000000000000011001000101000101010"
+    },
+    {
+      "id": 13,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 13,
+      "givens": 0,
+      "canonical": "6:000000010111010000000000100011000000"
+    },
+    {
+      "id": 14,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 34,
+      "givens": 0,
+      "canonical": "6:000000100001100001001101000000000001"
+    },
+    {
+      "id": 15,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 22,
+      "givens": 2,
+      "canonical": "6:000000100001001001001000001010000010"
+    },
+    {
+      "id": 16,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 14,
+      "givens": 2,
+      "canonical": "6:000000000101010100010100000000011000"
+    },
+    {
+      "id": 17,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 22,
+      "givens": 3,
+      "canonical": "6:000000000101000101010000010001010000"
+    },
+    {
+      "id": 18,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 66,
+      "givens": 1,
+      "canonical": "6:000000011101000000100000100000000110"
+    },
+    {
+      "id": 19,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 17,
+      "givens": 0,
+      "canonical": "6:000000000100100101100101000000001000"
+    },
+    {
+      "id": 20,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 14,
+      "givens": 1,
+      "canonical": "6:000001111001000000000000000110010000"
+    },
+    {
+      "id": 21,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 77,
+      "givens": 3,
+      "canonical": "6:000010110000000000000111000000101100"
+    },
+    {
+      "id": 22,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 34,
+      "givens": 1,
+      "canonical": "6:000000000011111000000010100000101000"
+    },
+    {
+      "id": 23,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 113,
+      "givens": 4,
+      "canonical": "6:000001000001101000100000001110100000"
+    },
+    {
+      "id": 24,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 66,
+      "givens": 1,
+      "canonical": "6:000010000010001000100011000000011100"
+    },
+    {
+      "id": 25,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 51,
+      "givens": 1,
+      "canonical": "6:000001010000010000000111000000100110"
+    },
+    {
+      "id": 26,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 38,
+      "givens": 1,
+      "canonical": "6:000000001110100000101000000010010010"
+    },
+    {
+      "id": 27,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 24,
+      "givens": 1,
+      "canonical": "6:000000000010001000001011101000100001"
+    },
+    {
+      "id": 28,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 80,
+      "givens": 3,
+      "canonical": "6:000011110000000000001110000000100001"
+    },
+    {
+      "id": 29,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 16,
+      "givens": 1,
+      "canonical": "6:000000010110000000010010010000010011"
+    },
+    {
+      "id": 30,
+      "size": 6,
+      "solutions": 1,
+      "nodes": 53,
+      "givens": 2,
+      "canonical": "6:000000100001100101100000000110010000"
+    },
+    {
+      "id": 31,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 177,
+      "givens": 2,
+      "canonical": "7:0000100000010001000000000111100000010000011001100"
+    },
+    {
+      "id": 32,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 227,
+      "givens": 1,
+      "canonical": "7:0000000000110010000010011000100000010000001001110"
+    },
+    {
+      "id": 33,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 148,
+      "givens": 2,
+      "canonical": "7:0000000010011000000001110000000000110000011000101"
+    },
+    {
+      "id": 34,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 118,
+      "givens": 2,
+      "canonical": "7:0000000000000111100010000000000011110000001000101"
+    },
+    {
+      "id": 35,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 120,
+      "givens": 0,
+      "canonical": "7:0000101000010000000001000100100010010100000000111"
+    },
+    {
+      "id": 36,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 47,
+      "givens": 2,
+      "canonical": "7:0000000000000000100011010101101000100001000010100"
+    },
+    {
+      "id": 37,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 289,
+      "givens": 2,
+      "canonical": "7:0000100000010010001011010000001000010000000000111"
+    },
+    {
+      "id": 38,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 149,
+      "givens": 1,
+      "canonical": "7:0000001011100000000000010011101000000100000000011"
+    },
+    {
+      "id": 39,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 218,
+      "givens": 1,
+      "canonical": "7:0000000001010100101001000000000111000000000111000"
+    },
+    {
+      "id": 40,
+      "size": 7,
+      "solutions": 1,
+      "nodes": 95,
+      "givens": 3,
+      "canonical": "7:0000001100000010010100001010000001010000000001110"
+    },
+    {
+      "id": 41,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 122,
+      "givens": 2,
+      "canonical": "8:0000000000001001000010001010100000101000001000110000000000100011"
+    },
+    {
+      "id": 42,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 1211,
+      "givens": 3,
+      "canonical": "8:0000000000000101000001011000010010100000001000010010100000100010"
+    },
+    {
+      "id": 43,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 998,
+      "givens": 2,
+      "canonical": "8:0000000100010000000000011100000000011110000000000000011111000000"
+    },
+    {
+      "id": 44,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 46,
+      "givens": 1,
+      "canonical": "8:0000001000000000001100000000000110000100000101001101010000010100"
+    },
+    {
+      "id": 45,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 199,
+      "givens": 3,
+      "canonical": "8:0000000001010101010101000001010001000100000000001000000000011000"
+    },
+    {
+      "id": 46,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 364,
+      "givens": 3,
+      "canonical": "8:0000000000010110000000001100000100000000000011111110000000001000"
+    },
+    {
+      "id": 47,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 1034,
+      "givens": 4,
+      "canonical": "8:0000000000100001001000011010110100100000000010001000000000000011"
+    },
+    {
+      "id": 48,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 896,
+      "givens": 2,
+      "canonical": "8:0000000000011110000000000000011111010000000000000100000101000100"
+    },
+    {
+      "id": 49,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 486,
+      "givens": 1,
+      "canonical": "8:0000000000100001001000010010100110001001000000000001010100010000"
+    },
+    {
+      "id": 50,
+      "size": 8,
+      "solutions": 1,
+      "nodes": 146,
+      "givens": 4,
+      "canonical": "8:0000000001000101000000011110000100000001000010001000000010000011"
+    }
+  ]
+}

@@ -1,0 +1,2451 @@
+{
+  "passed": true,
+  "build": "20261002-logic-500",
+  "registryCount": 37,
+  "newGames": 10,
+  "levelsPerGame": 50,
+  "totalUniqueLevels": 500,
+  "claims": {
+    "allNewLevelsHaveExactlyOneSolution": true,
+    "blackBox": "Entire observable boundary signature at the published atom count; partial probes can be ambiguous",
+    "net": "Physical connector masks; symmetric rotations do not create extra solutions",
+    "controllerTestsAreNotBrowserVisualTests": true
+  },
+  "suites": [
+    {
+      "game": "nonogram",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/nonogram/verify.cjs",
+          "passed": true,
+          "seconds": 0.349,
+          "output": "Nonogram: 50/50 independent exact uniqueness + rules + mutation checks passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/nonogram/ui-test.cjs",
+          "passed": true,
+          "seconds": 7.13,
+          "output": "manual 10\nmanual 20\nmanual 30\nmanual 40\nmanual 50\n{\n  \"game\": \"nonogram\",\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 50,\n  \"otherPassed\": [\n    \"50-level selector\",\n    \"previous/next bounds\",\n    \"victory dialog and record\",\n    \"non-destructive solution demo\",\n    \"demo navigation exits preview\",\n    \"undo input\",\n    \"restart confirmation cancel and Escape\",\n    \"restart then undo restores board and hint usage\",\n    \"help modal\",\n    \"save/reload\",\n    \"malformed JSON recovery\",\n    \"invalid cell data rejected\",\n    \"forged completion rejected\",\n    \"storage denial still playable\",\n    \"keyboard movement/edit\",\n    \"touch/click paint modes\",\n    \"right-click marking\",\n    \"fixed Nurikabe clues\"\n  ],\n  \"visualBrowserQA\": \"Not run: assigned local browser/preview path was reported blocked; mock DOM tests do not verify rendering.\",\n  \"desktopDesignTarget\": \"1180×757, fixed 100dvh shell; 26px minimum cells and independently scrollable board on narrow screens\"\n}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "178b8e05e7610076d85ac568b5b1675f566e4bb4b177a892fc406cd70d4595a8",
+        "app.js": "1fa3281cda640d2b799e59e8976b149552a8a3b9ffa5d6bf2719d7e885c8a25e",
+        "engine.js": "a552172164335c27f49d193da629b11f0061e3b9963ce9df5c3acd565d38269d",
+        "generate.py": "8dec1de24137afab4c7960bfed5af0cadfad17cfe0563c2613a24d9a790efb3c",
+        "generation.json": "b694c4e03913110a7f6e38edbcb3e5f1d01f0084193e3e3895a85c1ebacb60da",
+        "levels.js": "789827f1685fd7a17a988fe5cacffc70507fcde3effb0162f3a37d25b1e0debc",
+        "levels.json": "3f7c3e1613e78623d6976c5a09217dc48c64692186112fff7eb9d544383aeb1a",
+        "state.js": "761e4782110b31bfb976e3643bd67e7b22582ec61f4c981774669b52953cca64",
+        "style.css": "08ce3c13e4bbfc9dd99032a7094ce5888b69ee7951415a7a12a3ccd2f768f1f6",
+        "ui-test.cjs": "057490d60b615275464d695b3cc4498557ecac3b18c3e7a3df3b510f24e646f0",
+        "ui-verification.json": "dfd45186b2a22e25eaa3dc3921743a210b96a8e094a72bab793a8ae78243a675",
+        "verification.json": "719ea1e5138982bc489346d13dedd4252a097950dbb732df8004e3e07709487f",
+        "verify.cjs": "832030856ac8852c71d431fc32e43f152cbef6093c13c0650c616b238f4bda00"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "verification.json",
+      "entrySHA256": "c06cf04722131159df7e6c8a4d86366d85ca0a9a4e2f7998ba58c996fbaea98b"
+    },
+    {
+      "game": "nurikabe",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/nurikabe/verify.cjs",
+          "passed": true,
+          "seconds": 0.167,
+          "output": "Nurikabe: 50/50 independent exact uniqueness + rules + mutation checks passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/nurikabe/ui-test.cjs",
+          "passed": true,
+          "seconds": 2.333,
+          "output": "manual 10\nmanual 20\nmanual 30\nmanual 40\nmanual 50\n{\n  \"game\": \"nurikabe\",\n  \"manualWinFlows\": 50,\n  \"hintToWinFlows\": 50,\n  \"wrongMoveHintRecoveryFlows\": 50,\n  \"otherPassed\": [\n    \"50-level selector\",\n    \"previous/next bounds\",\n    \"victory dialog and record\",\n    \"non-destructive solution demo\",\n    \"demo navigation exits preview\",\n    \"undo input\",\n    \"restart confirmation cancel and Escape\",\n    \"restart then undo restores board and hint usage\",\n    \"help modal\",\n    \"save/reload\",\n    \"malformed JSON recovery\",\n    \"invalid cell data rejected\",\n    \"forged completion rejected\",\n    \"storage denial still playable\",\n    \"keyboard movement/edit\",\n    \"touch/click paint modes\",\n    \"right-click marking\",\n    \"fixed Nurikabe clues\"\n  ],\n  \"visualBrowserQA\": \"Not run: assigned local browser/preview path was reported blocked; mock DOM tests do not verify rendering.\",\n  \"desktopDesignTarget\": \"1180×757, fixed 100dvh shell; 26px minimum cells and independently scrollable board on narrow screens\"\n}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "f294ebfa1d6bf1b463caec8788dacf5fcb8588270810a81b52477497042888a7",
+        "app.js": "1fa3281cda640d2b799e59e8976b149552a8a3b9ffa5d6bf2719d7e885c8a25e",
+        "engine.js": "68ad8944b1643c6f219fb17465acce60344d6378e94089d1cc18cc892e2d63c5",
+        "generate.py": "9a9adb5ab301c023d67b88502e412ad2076b797e429973c7cd756444856e6e7f",
+        "generation.json": "aebabd0f8a70eb979f9ccca3b87492b0faef4d002849e5e066ad8bfe0c481953",
+        "levels.js": "e9090817197c918d923ace1ab9989262ffb9795f0d216dc17dc0afef34f19a94",
+        "levels.json": "d6ff1fdea4665f2a3590e588100204ec667d63f23b714fc86365b98558555a45",
+        "state.js": "761e4782110b31bfb976e3643bd67e7b22582ec61f4c981774669b52953cca64",
+        "style.css": "08ce3c13e4bbfc9dd99032a7094ce5888b69ee7951415a7a12a3ccd2f768f1f6",
+        "ui-test.cjs": "057490d60b615275464d695b3cc4498557ecac3b18c3e7a3df3b510f24e646f0",
+        "ui-verification.json": "986c43fd9fb36738926059e2873716c6222f3f2b0fcb4e8c117497fb1f30ef1f",
+        "verification.json": "3f48e152805e42f89b0a937137f82c12bb5425927d6cf5ecaee5ee815300c218",
+        "verify.cjs": "846108b6d25373aa49536b15ad4ba1d1770cee1aa5c89d1bb695eac764ec279a"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "verification.json",
+      "entrySHA256": "e57389bbe570b9ee79de4e553cc3a4e24e8f75592cd3b76bdc92cc355be2c574"
+    },
+    {
+      "game": "magnets",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/magnets/test.cjs",
+          "passed": true,
+          "seconds": 1.137,
+          "output": "PASS magnets: 50 unique levels; 50 client wins; 1140 actions; all state, controls, persistence and demo tests.\nNot run. DOM-contract harness is not a real browser or layout test.",
+          "stderr": ""
+        },
+        {
+          "command": "python3 games/magnets/verify.py",
+          "passed": true,
+          "seconds": 0.81,
+          "output": "Magnets independent 1 1 44\nMagnets independent 2 1 7\nMagnets independent 3 1 8\nMagnets independent 4 1 8\nMagnets independent 5 1 6\nMagnets independent 6 1 6\nMagnets independent 7 1 10\nMagnets independent 8 1 19\nMagnets independent 9 1 8\nMagnets independent 10 1 27\nMagnets independent 11 1 30\nMagnets independent 12 1 28\nMagnets independent 13 1 11\nMagnets independent 14 1 34\nMagnets independent 15 1 8\nMagnets independent 16 1 49\nMagnets independent 17 1 62\nMagnets independent 18 1 89\nMagnets independent 19 1 126\nMagnets independent 20 1 49\nMagnets independent 21 1 21\nMagnets independent 22 1 14\nMagnets independent 23 1 49\nMagnets independent 24 1 135\nMagnets independent 25 1 117\nMagnets independent 26 1 99\nMagnets independent 27 1 84\nMagnets independent 28 1 158\nMagnets independent 29 1 30\nMagnets independent 30 1 60\nMagnets independent 31 1 1628\nMagnets independent 32 1 1189\nMagnets independent 33 1 153\nMagnets independent 34 1 116\nMagnets independent 35 1 355\nMagnets independent 36 1 97\nMagnets independent 37 1 119\nMagnets independent 38 1 62\nMagnets independent 39 1 153\nMagnets independent 40 1 87\nMagnets independent 41 1 354\nMagnets independent 42 1 234\nMagnets independent 43 1 1829\nMagnets independent 44 1 512\nMagnets independent 45 1 737\nMagnets independent 46 1 38\nMagnets independent 47 1 173\nMagnets independent 48 1 349\nMagnets independent 49 1 359\nMagnets independent 50 1 1118\nPASS 50 unique solutions, 50 canonical layouts, independent rule checks",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "31304d7192c49acd1d2a386d4666801f67533ba4440660dbc5c8e9aa8d9eb073",
+        "app.js": "f493eb232dc98bcc29dc5856c712b353cd6ebabe84b37ee16b46f6ba5565454f",
+        "engine.js": "c5105f7b186ac23a9db85559b0a467938cdde3694c955909c80050fe08460f54",
+        "generate.cjs": "b27f605d1bc99831d735c13ab3371e8fefd88bef22d58d7564b22ec03515a0a2",
+        "independent-proof.json": "23cd8b041571da6c8b8dcd252b736ae6890699c2fed5aeb25ddf49a719179ca3",
+        "levels.js": "32f020df260a6e79e4985ee44f6be844c9d85633a71b036a064804afa6f9ab57",
+        "levels.json": "ad2724803dafcd73620d86f5f08d894257d87d2a590b1e50003661d34f685e7c",
+        "proof.json": "c715881941d318f82eee8d18bb62b945df6dc67c4782c5ea22f244955ff576df",
+        "session.js": "3d40d4aad6306a1540c90eb69cec450122618298c03c7562b76d5d80e53ae466",
+        "style.css": "3d7737b2e57fd571f2aa3360305e73767a894613f7ddadd32806e77518813951",
+        "test-report.json": "9a6ed0b68471f986ce01fdc7f6c942bbfc171c584f08166e769795908269197a",
+        "test.cjs": "c738497fb4e180ce92648b662bdcae73d208153f3714620739bdc187d5eee952",
+        "verify.py": "712e2283de7247dfbe12efe0270e605760c67b5c8e3478b3c1d96031c95df2fe"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "independent-proof.json",
+      "entrySHA256": "abeb50d6b448e5b3ad461a27ed4608eabb200e97fb9546244b7ef1baca61af90"
+    },
+    {
+      "game": "battleships",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/battleships/test.cjs",
+          "passed": true,
+          "seconds": 2.633,
+          "output": "PASS battleships: 50 unique levels; 50 client wins; 1840 actions; all state, controls, persistence and demo tests.\nNot run. DOM-contract harness is not a real browser or layout test.",
+          "stderr": ""
+        },
+        {
+          "command": "python3 games/battleships/verify.py",
+          "passed": true,
+          "seconds": 0.19,
+          "output": "Battleships independent 1 1 7\nBattleships independent 2 1 7\nBattleships independent 3 1 12\nBattleships independent 4 1 4\nBattleships independent 5 1 8\nBattleships independent 6 1 7\nBattleships independent 7 1 7\nBattleships independent 8 1 6\nBattleships independent 9 1 12\nBattleships independent 10 1 10\nBattleships independent 11 1 31\nBattleships independent 12 1 8\nBattleships independent 13 1 13\nBattleships independent 14 1 7\nBattleships independent 15 1 18\nBattleships independent 16 1 11\nBattleships independent 17 1 22\nBattleships independent 18 1 22\nBattleships independent 19 1 6\nBattleships independent 20 1 8\nBattleships independent 21 1 78\nBattleships independent 22 1 37\nBattleships independent 23 1 47\nBattleships independent 24 1 71\nBattleships independent 25 1 12\nBattleships independent 26 1 31\nBattleships independent 27 1 68\nBattleships independent 28 1 73\nBattleships independent 29 1 18\nBattleships independent 30 1 51\nBattleships independent 31 1 101\nBattleships independent 32 1 108\nBattleships independent 33 1 62\nBattleships independent 34 1 26\nBattleships independent 35 1 34\nBattleships independent 36 1 108\nBattleships independent 37 1 177\nBattleships independent 38 1 27\nBattleships independent 39 1 364\nBattleships independent 40 1 189\nBattleships independent 41 1 78\nBattleships independent 42 1 307\nBattleships independent 43 1 148\nBattleships independent 44 1 455\nBattleships independent 45 1 66\nBattleships independent 46 1 638\nBattleships independent 47 1 177\nBattleships independent 48 1 65\nBattleships independent 49 1 80\nBattleships independent 50 1 393\nPASS 50 unique occupied patterns, 50 canonical layouts, independent rule checks",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "aeb795e2fcfc71827c9663cb62b5b0f9d52df80314d5e323beaaa8cc568f962a",
+        "app.js": "a821719e3c18b072093179cdc039163eab21335f36757c0ed24bfa913829aaa8",
+        "engine.js": "27cc638ae1b8f194160463cbf2b02d38c3747d5959f45e819dccbce88cdc553d",
+        "generate.cjs": "65d3bd1eed35aee688a42a27f178e9094746bea5877fae8d61ce778333076a8d",
+        "independent-proof.json": "87172d47e37ecbff06ec19c235d1d49384d45beeae0a9e43f2158264f6afce54",
+        "levels.js": "cfb434219e3d4307d391bf00ade3e412277a971f01070dce46ae78db5211f790",
+        "levels.json": "eee6abf5c907dcc5d5da180e02530cdb58227fbe8196553c5b24203a3fb7aefa",
+        "proof.json": "20138963f10bef78d1cc3aaa402856b49aa3d6c85964d1b3273ee01f0bfdb45e",
+        "session.js": "9e0f4760a5de5231843e82fcc5150133a3aa1c3dde2e355ce00a190f48be680c",
+        "style.css": "3d7737b2e57fd571f2aa3360305e73767a894613f7ddadd32806e77518813951",
+        "test-report.json": "bc5308ba590bda38251e81da56d1be53520f46b73f82bf0ea9cefdcf6c81b399",
+        "test.cjs": "d66486f8f3a931d05f9d93b218cfa1fecd6edf37b796e38b4e11eaaeef186c7c",
+        "verify.py": "436b9065fab4260eaaa96745455260fb33f182ddae842c039cb08dac6a2b427a"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "independent-proof.json",
+      "entrySHA256": "de39ac35c569c397bfb3925994f9abc417dc7c9d98da2c389c4a92b99824f2eb"
+    },
+    {
+      "game": "futoshiki",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/futoshiki/certify.cjs",
+          "passed": true,
+          "seconds": 71.861,
+          "output": "certified Futoshiki 1 nodes 15\ncertified Futoshiki 2 nodes 13\ncertified Futoshiki 3 nodes 13\ncertified Futoshiki 4 nodes 13\ncertified Futoshiki 5 nodes 13\ncertified Futoshiki 6 nodes 13\ncertified Futoshiki 7 nodes 13\ncertified Futoshiki 8 nodes 22\ncertified Futoshiki 9 nodes 14\ncertified Futoshiki 10 nodes 20\ncertified Futoshiki 11 nodes 121\ncertified Futoshiki 12 nodes 64\ncertified Futoshiki 13 nodes 45\ncertified Futoshiki 14 nodes 153\ncertified Futoshiki 15 nodes 70\ncertified Futoshiki 16 nodes 82\ncertified Futoshiki 17 nodes 65\ncertified Futoshiki 18 nodes 31\ncertified Futoshiki 19 nodes 87\ncertified Futoshiki 20 nodes 90\ncertified Futoshiki 21 nodes 4272\ncertified Futoshiki 22 nodes 16295\ncertified Futoshiki 23 nodes 6165\ncertified Futoshiki 24 nodes 3130\ncertified Futoshiki 25 nodes 14363\ncertified Futoshiki 26 nodes 1303\ncertified Futoshiki 27 nodes 18207\ncertified Futoshiki 28 nodes 386\ncertified Futoshiki 29 nodes 334\ncertified Futoshiki 30 nodes 342\ncertified Futoshiki 31 nodes 86755\ncertified Futoshiki 32 nodes 15353\ncertified Futoshiki 33 nodes 14413425\ncertified Futoshiki 34 nodes 513759\ncertified Futoshiki 35 nodes 127321\ncertified Futoshiki 36 nodes 224915\ncertified Futoshiki 37 nodes 59946\ncertified Futoshiki 38 nodes 16743\ncertified Futoshiki 39 nodes 137666\ncertified Futoshiki 40 nodes 10932\ncertified Futoshiki 41 nodes 11275\ncertified Futoshiki 42 nodes 1507692\ncertified Futoshiki 43 nodes 132802\ncertified Futoshiki 44 nodes 164859\ncertified Futoshiki 45 nodes 35310\ncertified Futoshiki 46 nodes 16508568\ncertified Futoshiki 47 nodes 123035\ncertified Futoshiki 48 nodes 1588500\ncertified Futoshiki 49 nodes 328141\ncertified Futoshiki 50 nodes 236201",
+          "stderr": ""
+        },
+        {
+          "command": "node games/futoshiki/engine-test.cjs",
+          "passed": true,
+          "seconds": 0.148,
+          "output": "Futoshiki independent-count, arbitrary-win, malformed-input, givens and contradiction-safe hint fixtures passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/futoshiki/ui-test.cjs futoshiki",
+          "passed": true,
+          "seconds": 7.023,
+          "output": "{\n  \"game\": \"futoshiki\",\n  \"manualSolutionFlows\": 50,\n  \"hintCompletionFlows\": 50,\n  \"wrongValueRecoveryFlows\": 50,\n  \"passed\": [\n    \"50-level selector\",\n    \"arbitrary correct final board wins\",\n    \"reset confirmation and cancel\",\n    \"numeric and delete keyboard events\",\n    \"keyboard focus retention\",\n    \"arrow movement\",\n    \"undo retains assistance\",\n    \"demo preserves values and never awards completion\",\n    \"progress save/reload\",\n    \"invalid JSON and malicious state recovery\",\n    \"storage denied fallback\",\n    \"help modal\",\n    \"last-level boundary\"\n  ],\n  \"visualBrowserQA\": \"Not run: browser and local preview were unavailable for this assigned task. These are DOM integration tests, not browser rendering tests.\"\n}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "6c34c37014eb050a2479aac5dc421e9a265ae340bf9dd64604a948d355c474b0",
+        "app.js": "3ababc9eba32aa0651727a611a9b905672ddeb8449054a21729082a4d91bc208",
+        "certification.json": "601ff2dd19b5e3f54c6ae6afd21b5bb8d7e41b38b221d184669c6770738e8fa4",
+        "certify.cjs": "d3fa3b1df646012dbec893aa22160eee13ea2659b9bbeb05faa880d504a3c758",
+        "engine-test.cjs": "a8a6df2e48219060099c09a899861a1d2954438b192da7e7811e777be2672b1f",
+        "engine.js": "e5c0e62613dac281f49ce90e0a0ccf6b00da2eabff4245bbfa8afd7cd9af7e93",
+        "generate.py": "005bc80b0b2dc083d1d8f698ea689e51e4b40e1f476d8b6b42d4324bdab62331",
+        "levels.js": "f4bcca65c0f92cd6c971d2a847340990958107b7613adb23c05a15e071e048ff",
+        "levels.json": "490dde8e41fc3fee7145eb4017fc9dc902c538de96ee0de35709fd740b2ea41d",
+        "make_ui.py": "0b819793cee9ddaae95c17addff270fec657e07a93b650d210cce1d18e8c3c53",
+        "style.css": "5cbef2e6410f2886cf42b1b5031ea0ba5ea937504c8b1903f79c71893ffee0f5",
+        "ui-certification.json": "6ee8e691e309f53098ff30df0792cb40ab65f43369cc85796bdf6ae65d669a78",
+        "ui-test.cjs": "62c1862ac2c2dcc4637b5520bd4d6b8b79cbd57aee84f13f25125741940e071e"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "certification.json",
+      "entrySHA256": "eb28f1139cd5781d9b410f751644d69aefd57bfaadfb17f6a6ae4374d7b68600"
+    },
+    {
+      "game": "kakuro",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/kakuro/certify.cjs",
+          "passed": true,
+          "seconds": 0.194,
+          "output": "certified Kakuro 1 nodes 16\ncertified Kakuro 2 nodes 36\ncertified Kakuro 3 nodes 33\ncertified Kakuro 4 nodes 23\ncertified Kakuro 5 nodes 22\ncertified Kakuro 6 nodes 13\ncertified Kakuro 7 nodes 19\ncertified Kakuro 8 nodes 25\ncertified Kakuro 9 nodes 12\ncertified Kakuro 10 nodes 11\ncertified Kakuro 11 nodes 21\ncertified Kakuro 12 nodes 16\ncertified Kakuro 13 nodes 67\ncertified Kakuro 14 nodes 39\ncertified Kakuro 15 nodes 24\ncertified Kakuro 16 nodes 18\ncertified Kakuro 17 nodes 31\ncertified Kakuro 18 nodes 26\ncertified Kakuro 19 nodes 18\ncertified Kakuro 20 nodes 42\ncertified Kakuro 21 nodes 42\ncertified Kakuro 22 nodes 65\ncertified Kakuro 23 nodes 22\ncertified Kakuro 24 nodes 35\ncertified Kakuro 25 nodes 85\ncertified Kakuro 26 nodes 33\ncertified Kakuro 27 nodes 30\ncertified Kakuro 28 nodes 105\ncertified Kakuro 29 nodes 83\ncertified Kakuro 30 nodes 44\ncertified Kakuro 31 nodes 146\ncertified Kakuro 32 nodes 105\ncertified Kakuro 33 nodes 61\ncertified Kakuro 34 nodes 57\ncertified Kakuro 35 nodes 47\ncertified Kakuro 36 nodes 57\ncertified Kakuro 37 nodes 38\ncertified Kakuro 38 nodes 76\ncertified Kakuro 39 nodes 95\ncertified Kakuro 40 nodes 30\ncertified Kakuro 41 nodes 120\ncertified Kakuro 42 nodes 56\ncertified Kakuro 43 nodes 157\ncertified Kakuro 44 nodes 127\ncertified Kakuro 45 nodes 41\ncertified Kakuro 46 nodes 51\ncertified Kakuro 47 nodes 89\ncertified Kakuro 48 nodes 52\ncertified Kakuro 49 nodes 67\ncertified Kakuro 50 nodes 68",
+          "stderr": ""
+        },
+        {
+          "command": "node games/kakuro/engine-test.cjs",
+          "passed": true,
+          "seconds": 0.084,
+          "output": "Kakuro independent-count, arbitrary-win, malformed-input, overlap, sum and contradiction-safe hint fixtures passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/kakuro/ui-test.cjs kakuro",
+          "passed": true,
+          "seconds": 4.673,
+          "output": "{\n  \"game\": \"kakuro\",\n  \"manualSolutionFlows\": 50,\n  \"hintCompletionFlows\": 50,\n  \"wrongValueRecoveryFlows\": 50,\n  \"passed\": [\n    \"50-level selector\",\n    \"arbitrary correct final board wins\",\n    \"reset confirmation and cancel\",\n    \"numeric and delete keyboard events\",\n    \"keyboard focus retention\",\n    \"arrow movement\",\n    \"undo retains assistance\",\n    \"demo preserves values and never awards completion\",\n    \"progress save/reload\",\n    \"invalid JSON and malicious state recovery\",\n    \"storage denied fallback\",\n    \"help modal\",\n    \"last-level boundary\"\n  ],\n  \"visualBrowserQA\": \"Not run: browser and local preview were unavailable for this assigned task. These are DOM integration tests, not browser rendering tests.\"\n}",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "4bc0d0f7482264fd2fd3bfead262a8263af1af0cba1e2f056bf08bec19ef9bf0",
+        "app.js": "52cee8d4c0e892fb150786e5ad1d51037bb323ba8b4ab55137b6e61213016ebc",
+        "certification.json": "e9373677a303727463cc87af73cc084da170768ddd5b6ba7da56e2d17e1df74b",
+        "certify.cjs": "082c3ce0ea17d48d20991b3b59b7a867061911afd29b6e9151f9413e9a03fc5d",
+        "engine-test.cjs": "bdcbb7c5275479e7c663823fd06c8a38719fce2701d304ca3239f4202d475bb1",
+        "engine.js": "440084a73c173bd379544a4ab7a394a10f01229143e70a6d002a33bee68000ab",
+        "generate.py": "9a4f9db6cad2cda6131d378ed41508fbb68eb3efd6a385966ad5a8fa2e5e83d7",
+        "levels.js": "228642d70adf96e4ff34a7e800edb05b9c612ee991ea87c35b8e8218061159c9",
+        "levels.json": "9a2f7e79608167a978726c5ef012e03ab050fa53968cbc9b7f4321cac8918fa6",
+        "style.css": "5cbef2e6410f2886cf42b1b5031ea0ba5ea937504c8b1903f79c71893ffee0f5",
+        "ui-certification.json": "dd214878182f36da4fa7d5857b00a6b8ed3dec5947b66d537bb3d0d1912e27af",
+        "ui-test.cjs": "7c69906be63fccce248096abd3816aa6d0295f18cdd0ae1e740748b08d4e36df"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "certification.json",
+      "entrySHA256": "87824430ffb3263b53615b330a792f58e37c3355294fe04cce102b6b3e0d99d5"
+    },
+    {
+      "game": "masyu",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/masyu/test.cjs",
+          "passed": true,
+          "seconds": 0.214,
+          "output": "Masyu: 419 rule, uniqueness and state-flow assertions passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/masyu/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.112,
+          "output": "masyu: 25 DOM-controller assertions passed (not browser visual QA)",
+          "stderr": ""
+        },
+        {
+          "command": "python3 games/masyu/verify.py",
+          "passed": true,
+          "seconds": 0.194,
+          "output": "Masyu 01: unique; 1 independent search nodes\nMasyu 02: unique; 1 independent search nodes\nMasyu 03: unique; 1 independent search nodes\nMasyu 04: unique; 1 independent search nodes\nMasyu 05: unique; 1 independent search nodes\nMasyu 06: unique; 1 independent search nodes\nMasyu 07: unique; 1 independent search nodes\nMasyu 08: unique; 5 independent search nodes\nMasyu 09: unique; 1 independent search nodes\nMasyu 10: unique; 1 independent search nodes\nMasyu 11: unique; 1 independent search nodes\nMasyu 12: unique; 1 independent search nodes\nMasyu 13: unique; 7 independent search nodes\nMasyu 14: unique; 3 independent search nodes\nMasyu 15: unique; 3 independent search nodes\nMasyu 16: unique; 3 independent search nodes\nMasyu 17: unique; 1 independent search nodes\nMasyu 18: unique; 1 independent search nodes\nMasyu 19: unique; 7 independent search nodes\nMasyu 20: unique; 1 independent search nodes\nMasyu 21: unique; 11 independent search nodes\nMasyu 22: unique; 1 independent search nodes\nMasyu 23: unique; 1 independent search nodes\nMasyu 24: unique; 1 independent search nodes\nMasyu 25: unique; 5 independent search nodes\nMasyu 26: unique; 5 independent search nodes\nMasyu 27: unique; 3 independent search nodes\nMasyu 28: unique; 11 independent search nodes\nMasyu 29: unique; 1 independent search nodes\nMasyu 30: unique; 7 independent search nodes\nMasyu 31: unique; 7 independent search nodes\nMasyu 32: unique; 3 independent search nodes\nMasyu 33: unique; 9 independent search nodes\nMasyu 34: unique; 15 independent search nodes\nMasyu 35: unique; 7 independent search nodes\nMasyu 36: unique; 3 independent search nodes\nMasyu 37: unique; 11 independent search nodes\nMasyu 38: unique; 3 independent search nodes\nMasyu 39: unique; 3 independent search nodes\nMasyu 40: unique; 7 independent search nodes\nMasyu 41: unique; 1 independent search nodes\nMasyu 42: unique; 3 independent search nodes\nMasyu 43: unique; 19 independent search nodes\nMasyu 44: unique; 9 independent search nodes\nMasyu 45: unique; 13 independent search nodes\nMasyu 46: unique; 17 independent search nodes\nMasyu 47: unique; 5 independent search nodes\nMasyu 48: unique; 43 independent search nodes\nMasyu 49: unique; 7 independent search nodes\nMasyu 50: unique; 5 independent search nodes\nPASS: 50 proof-valid, unique, symmetry-distinct Masyu puzzles",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "fa3c34897304ade0642082c5833c129410312eb6aee88e9b72473daa7c098c84",
+        "app.js": "960c51b7eeedaffa3fe92a643e5ce4bd043a3845eef558c5ab3f2b25e8cb3b6d",
+        "engine.js": "1e786b2a3453585beb6bcaa523923d0b54fd66cfa61b8fe17cffded04bffa8ac",
+        "generate.cjs": "cdee397d80eb18bbbe53abcc31e3959050f8733791eb6e863ffffe07f9f1640e",
+        "levels.js": "42fca2c60500f95200050bd5f33aa95631fb74e865823f962703bf4b5a749d73",
+        "levels.json": "c85eb46ab4a604984527e606749afba99bcfa1926df57905da0ad73a6dc75369",
+        "model.js": "e6e4b3b62f6f8f1131493538861a63358fa7082edbc4a86db8ffb07f0718ac86",
+        "style.css": "81da347cda9959f670258431bbbbc8f02435ead5717dae7705b062751eebabd5",
+        "test-report.json": "5fe3557be7ea8f7c873748c6fe0ef7cf6af298634d946b3813635bd5f394769a",
+        "test-ui.cjs": "6709be2a3a40c3848fc511620630b36f4146241324f81105841adaa706f00489",
+        "test.cjs": "bf55914530b3bc758e64cec5c92484698e08b53c1120a2d3cb3baf968a600fac",
+        "ui-test-report.json": "d64afba0db1718f30fbbaaf38e6e5eb72c4226cea467783b9039cdaff1384ca9",
+        "verification-report.json": "a5230084cafc533daf4d8d4851390329d649f1d3616d8281b7e8f419fdd31221",
+        "verify.py": "9b45ed67ef0a914af1a94b43f6326f5893b80fcab0d396e889661b4819446145"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "verification-report.json",
+      "entrySHA256": "a5a00a429815f90ed63837c14f22bfc1e5bf52f7eb8c15c5e441b5e21f24b80d"
+    },
+    {
+      "game": "net",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/net/test.cjs",
+          "passed": true,
+          "seconds": 0.13,
+          "output": "Net: 416 rule, uniqueness and state-flow assertions passed",
+          "stderr": ""
+        },
+        {
+          "command": "node games/net/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.116,
+          "output": "net: 30 DOM-controller assertions passed (not browser visual QA)",
+          "stderr": ""
+        },
+        {
+          "command": "python3 games/net/verify.py",
+          "passed": true,
+          "seconds": 0.087,
+          "output": "Net 01: unique; 1 independent search nodes\nNet 02: unique; 1 independent search nodes\nNet 03: unique; 1 independent search nodes\nNet 04: unique; 1 independent search nodes\nNet 05: unique; 1 independent search nodes\nNet 06: unique; 1 independent search nodes\nNet 07: unique; 1 independent search nodes\nNet 08: unique; 1 independent search nodes\nNet 09: unique; 1 independent search nodes\nNet 10: unique; 1 independent search nodes\nNet 11: unique; 1 independent search nodes\nNet 12: unique; 1 independent search nodes\nNet 13: unique; 1 independent search nodes\nNet 14: unique; 1 independent search nodes\nNet 15: unique; 1 independent search nodes\nNet 16: unique; 1 independent search nodes\nNet 17: unique; 1 independent search nodes\nNet 18: unique; 1 independent search nodes\nNet 19: unique; 1 independent search nodes\nNet 20: unique; 1 independent search nodes\nNet 21: unique; 1 independent search nodes\nNet 22: unique; 1 independent search nodes\nNet 23: unique; 1 independent search nodes\nNet 24: unique; 1 independent search nodes\nNet 25: unique; 1 independent search nodes\nNet 26: unique; 1 independent search nodes\nNet 27: unique; 1 independent search nodes\nNet 28: unique; 1 independent search nodes\nNet 29: unique; 1 independent search nodes\nNet 30: unique; 1 independent search nodes\nNet 31: unique; 1 independent search nodes\nNet 32: unique; 1 independent search nodes\nNet 33: unique; 1 independent search nodes\nNet 34: unique; 1 independent search nodes\nNet 35: unique; 1 independent search nodes\nNet 36: unique; 1 independent search nodes\nNet 37: unique; 1 independent search nodes\nNet 38: unique; 1 independent search nodes\nNet 39: unique; 1 independent search nodes\nNet 40: unique; 1 independent search nodes\nNet 41: unique; 1 independent search nodes\nNet 42: unique; 1 independent search nodes\nNet 43: unique; 1 independent search nodes\nNet 44: unique; 1 independent search nodes\nNet 45: unique; 3 independent search nodes\nNet 46: unique; 1 independent search nodes\nNet 47: unique; 1 independent search nodes\nNet 48: unique; 1 independent search nodes\nNet 49: unique; 1 independent search nodes\nNet 50: unique; 1 independent search nodes\nPASS: 50 proof-valid, unique, symmetry-distinct Net puzzles",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "2c5083a8b3117e15d30c14b80eb68512abe1f5c0397b4697013f418197f98146",
+        "app.js": "9e677d2c1a821a0acc505aa3065181ac0194e87e032932530c3f1fbeeb5edac1",
+        "engine.js": "c9e6fc0c98d774e224b059b0453acc40ac51ac99933b340087ae47eb7cd992b7",
+        "generate.cjs": "88d776bcb8021979e36f26f156944c43997b248e63890e21d9926f22b2d20be7",
+        "levels.js": "f5788907ac5320ff14314edcacf8142d1665c3107904940ed214933b3eba14e6",
+        "levels.json": "40883c340617d8c4df11ae0ebebb32bf15d3ff7ccc2b8b764236698f099ca69f",
+        "model.js": "505d47e2abe84b83dac2514a979764a1ecae0e0ab36f3db8d1cf583feb06521e",
+        "style.css": "c0db8ef7d0fca68db036f6dbe4a83a6db53aa11793794aa16732d3d5d80f352b",
+        "test-report.json": "39bb7cd12e346bfd20b378bd674d1dceeb7469856d090b1aecbd2af4e167bcd8",
+        "test-ui.cjs": "6709be2a3a40c3848fc511620630b36f4146241324f81105841adaa706f00489",
+        "test.cjs": "90472a6307a67daafe129dc7c79896bf4510e2c5f9fd07c78979bf4033813d07",
+        "ui-test-report.json": "6ba688c061e5e2e275cee109771fdebca6a1f777974b850c440967b342933388",
+        "verification-report.json": "414467bb5ec3f52ffe6f2c9317cf3ae2331c80630177ca3c43f66ef22a78d5e0",
+        "verify.py": "bbae8b72cf1f0631d127a23919494e95d0c86ea09902b11e781089286437f2fc"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "verification-report.json",
+      "entrySHA256": "2ec7466104d8844bd701f37c7def0b3a24d26edb616867910888fc1ef4c76762"
+    },
+    {
+      "game": "black-box",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/black-box/verify-independent.cjs",
+          "passed": true,
+          "seconds": 4.102,
+          "output": "Independent exhaustive group 4 2 120 passed\nIndependent exhaustive group 4 3 560 passed\nIndependent exhaustive group 5 3 2300 passed\nIndependent exhaustive group 5 4 12650 passed\nIndependent exhaustive group 6 4 58905 passed\n{\n  passed: true,\n  levels: 50,\n  tracesExamined: 1723600,\n  dihedralDuplicates: 0,\n  sourceFixtureAssertions: 12,\n  method: 'independent-padded-matrix-cardinal-tracer; exhaustive complete signatures',\n  results: [\n    { level: 1, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 2, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 3, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 4, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 5, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 6, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 7, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 8, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 9, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 10, n: 4, k: 2, candidates: 120, solutions: 1 },\n    { level: 11, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 12, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 13, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 14, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 15, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 16, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 17, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 18, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 19, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 20, n: 4, k: 3, candidates: 560, solutions: 1 },\n    { level: 21, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 22, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 23, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 24, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 25, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 26, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 27, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 28, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 29, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 30, n: 5, k: 3, candidates: 2300, solutions: 1 },\n    { level: 31, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 32, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 33, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 34, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 35, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 36, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 37, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 38, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 39, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 40, n: 5, k: 4, candidates: 12650, solutions: 1 },\n    { level: 41, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 42, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 43, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 44, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 45, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 46, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 47, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 48, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 49, n: 6, k: 4, candidates: 58905, solutions: 1 },\n    { level: 50, n: 6, k: 4, candidates: 58905, solutions: 1 }\n  ]\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/black-box/test.cjs",
+          "passed": true,
+          "seconds": 0.119,
+          "output": "{\n  passed: true,\n  levels: 50,\n  fixtureCases: 7,\n  assertions: 712,\n  tests: [\n    'primary-source rays',\n    'head-on priority',\n    'entry reflection',\n    'single deflection',\n    'double-diagonal reversal',\n    'reciprocity',\n    'all-level solution validation',\n    'false-answer rejection',\n    'saved-action replay',\n    'undo after win',\n    'persistent assistance',\n    'invalid action rejection'\n  ]\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/black-box/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.234,
+          "output": "PASS black-box: 50 actual-handler wins, false-answer rejection, probes/marks or values/notes, undo, non-destructive hint/solution, reset confirmation/cancel, all-level persistence, corruption isolation, forged-win rejection, blocked storage, keyboard, level-50 deep link. No browser/render claim.",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "b3d27ff6865a5dc40228ff9a4e45af218437a0a781ee922863a02bf14863d4ac",
+        "app.js": "53f9dc3e3081cdeb435b9e1650d7addcf65b9702f13c524248d1c060f9ea5983",
+        "engine.js": "50c46a973a1d82c5cb514edef44eb7bbf54551fcab9b082b23d50a526b56ddb9",
+        "fixtures.json": "e025f274273a00afe4c2db8543509979b8891c51b71ce79e443403a349f666cb",
+        "generate.cjs": "75d65f90acce59f6f68551860afeeb02e6dcfd82409f4fed7e09020808868327",
+        "levels.js": "fdf2aea2a5f9adf88c32eaa050c99431fb51d82b639494caec4cf365851ef738",
+        "levels.json": "7adce92809da32cabd605288b9e07e5ddfebc77f85725842326191363a957d22",
+        "style.css": "d7536bafa4a1e497251142377c7d4db679c229613ba65fedb14938e87f6722b7",
+        "test-report.json": "7283ebb21240bcb8c6eed0d087c41978f4dbfab47f3d874036e89383636ddb3d",
+        "test-ui.cjs": "e26de14612a557fb1effe885886a3414833a7eea20b21cf7230cd425a47d5844",
+        "test.cjs": "8003e4c7b50eb3df53d4934bd2cd9db96e7295be6e6ead8c90d3af027fe0a580",
+        "ui-test-report.json": "43f79e76afe2e45b0212b9733e72011d822da7bef8bd042e0d392332367396c8",
+        "verification-report.json": "895b4e797ff4142d636946533baf056d915dee572c6cc1d23c031e06cbc8757b",
+        "verify-independent.cjs": "77325ee74b28e14ba9bf4d487a2c0664dff87c21c58e7028547586fd4b7b9b1f"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "verification-report.json",
+      "entrySHA256": "5a29e32a17a1985732a650b64f2593620cfdf42e78e41fe4b3dfe6128b1cf24c"
+    },
+    {
+      "game": "skyscrapers",
+      "levels": 50,
+      "checks": [
+        {
+          "command": "node games/skyscrapers/verify-independent.cjs",
+          "passed": true,
+          "seconds": 0.112,
+          "output": "{\n  passed: true,\n  levels: 50,\n  dihedralDuplicates: 0,\n  method: 'independent row/column domain propagation and branching; limit 2',\n  results: [\n    { level: 1, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 2, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 3, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 4, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 5, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 6, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 7, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 8, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 9, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 10, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 11, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 12, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 13, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 14, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 15, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 16, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 17, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 18, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 19, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 20, n: 4, solutions: 1, independentSearchNodes: 1 },\n    { level: 21, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 22, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 23, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 24, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 25, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 26, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 27, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 28, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 29, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 30, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 31, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 32, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 33, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 34, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 35, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 36, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 37, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 38, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 39, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 40, n: 5, solutions: 1, independentSearchNodes: 1 },\n    { level: 41, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 42, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 43, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 44, n: 6, solutions: 1, independentSearchNodes: 3 },\n    { level: 45, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 46, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 47, n: 6, solutions: 1, independentSearchNodes: 3 },\n    { level: 48, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 49, n: 6, solutions: 1, independentSearchNodes: 1 },\n    { level: 50, n: 6, solutions: 1, independentSearchNodes: 1 }\n  ]\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/skyscrapers/test.cjs",
+          "passed": true,
+          "seconds": 5.257,
+          "output": "{\n  passed: true,\n  levels: 50,\n  visibilityFixtures: 4,\n  assertions: 755,\n  tests: [\n    'visibility from both directions',\n    'empty puzzle is nonunique',\n    'contradictory givens rejected',\n    'all-level unique counts in two solvers',\n    'Latin constraints',\n    'clue constraints',\n    'false-answer rejection',\n    'saved-action replay',\n    'undo after win',\n    'persistent assistance',\n    'pencil notes',\n    'invalid action rejection'\n  ]\n}",
+          "stderr": ""
+        },
+        {
+          "command": "node games/skyscrapers/test-ui.cjs",
+          "passed": true,
+          "seconds": 0.743,
+          "output": "PASS skyscrapers: 50 actual-handler wins, false-answer rejection, probes/marks or values/notes, undo, non-destructive hint/solution, reset confirmation/cancel, all-level persistence, corruption isolation, forged-win rejection, blocked storage, keyboard, level-50 deep link. No browser/render claim.",
+          "stderr": ""
+        }
+      ],
+      "files": {
+        "README.md": "6c272a142fac8948760bddbab8cb5c5a695cd5e5b746276830ef7609fd7326ed",
+        "app.js": "b31b7e3e2db619d92890f4fde31d33c29e7368ba29c160ce359010f088b6f356",
+        "engine.js": "6bb28ba1bde6497d4e2173983e99c9358453bb0040d4908ceff5b40c86b3a1da",
+        "fixtures.json": "8d7500664af3086b4578e4993c76fd0cd967a77a81163886f16b9778880a45cb",
+        "generate.cjs": "a991cc335de2092aca9b5d363cd9a0c4e2651fc0629fc52bf87494c77052bb02",
+        "levels.js": "affb9d856bd9663d4258bbf41d02ae4f9a29e8eea17b16f29522d0d154dd83a7",
+        "levels.json": "fbe9ff2ab5086304fc9e0c6f57a01a301a8747c76a88dd2f48b716d947f7f597",
+        "style.css": "d7536bafa4a1e497251142377c7d4db679c229613ba65fedb14938e87f6722b7",
+        "test-report.json": "d574cd8ffea0b1014c78647a12051570d800556bb60cd3528c6ffa3f92c66b69",
+        "test-ui.cjs": "e26de14612a557fb1effe885886a3414833a7eea20b21cf7230cd425a47d5844",
+        "test.cjs": "8fa405a1c0f3b1a76b94f9ac11c60c33d049c99abbcc80ed5ef304391ab92206",
+        "ui-test-report.json": "43f79e76afe2e45b0212b9733e72011d822da7bef8bd042e0d392332367396c8",
+        "verification-report.json": "1454dc0f377439c580f023fed08759f41a18baa082d5fc7a4f1c6fe61b1e4024",
+        "verify-independent.cjs": "25d84303ccf78cac542c7fce21b4bd7d196407f8ca07f80f249628822a1f6391"
+      },
+      "uniqueSolutionCounts": [
+        {
+          "level": 1,
+          "solutions": 1
+        },
+        {
+          "level": 2,
+          "solutions": 1
+        },
+        {
+          "level": 3,
+          "solutions": 1
+        },
+        {
+          "level": 4,
+          "solutions": 1
+        },
+        {
+          "level": 5,
+          "solutions": 1
+        },
+        {
+          "level": 6,
+          "solutions": 1
+        },
+        {
+          "level": 7,
+          "solutions": 1
+        },
+        {
+          "level": 8,
+          "solutions": 1
+        },
+        {
+          "level": 9,
+          "solutions": 1
+        },
+        {
+          "level": 10,
+          "solutions": 1
+        },
+        {
+          "level": 11,
+          "solutions": 1
+        },
+        {
+          "level": 12,
+          "solutions": 1
+        },
+        {
+          "level": 13,
+          "solutions": 1
+        },
+        {
+          "level": 14,
+          "solutions": 1
+        },
+        {
+          "level": 15,
+          "solutions": 1
+        },
+        {
+          "level": 16,
+          "solutions": 1
+        },
+        {
+          "level": 17,
+          "solutions": 1
+        },
+        {
+          "level": 18,
+          "solutions": 1
+        },
+        {
+          "level": 19,
+          "solutions": 1
+        },
+        {
+          "level": 20,
+          "solutions": 1
+        },
+        {
+          "level": 21,
+          "solutions": 1
+        },
+        {
+          "level": 22,
+          "solutions": 1
+        },
+        {
+          "level": 23,
+          "solutions": 1
+        },
+        {
+          "level": 24,
+          "solutions": 1
+        },
+        {
+          "level": 25,
+          "solutions": 1
+        },
+        {
+          "level": 26,
+          "solutions": 1
+        },
+        {
+          "level": 27,
+          "solutions": 1
+        },
+        {
+          "level": 28,
+          "solutions": 1
+        },
+        {
+          "level": 29,
+          "solutions": 1
+        },
+        {
+          "level": 30,
+          "solutions": 1
+        },
+        {
+          "level": 31,
+          "solutions": 1
+        },
+        {
+          "level": 32,
+          "solutions": 1
+        },
+        {
+          "level": 33,
+          "solutions": 1
+        },
+        {
+          "level": 34,
+          "solutions": 1
+        },
+        {
+          "level": 35,
+          "solutions": 1
+        },
+        {
+          "level": 36,
+          "solutions": 1
+        },
+        {
+          "level": 37,
+          "solutions": 1
+        },
+        {
+          "level": 38,
+          "solutions": 1
+        },
+        {
+          "level": 39,
+          "solutions": 1
+        },
+        {
+          "level": 40,
+          "solutions": 1
+        },
+        {
+          "level": 41,
+          "solutions": 1
+        },
+        {
+          "level": 42,
+          "solutions": 1
+        },
+        {
+          "level": 43,
+          "solutions": 1
+        },
+        {
+          "level": 44,
+          "solutions": 1
+        },
+        {
+          "level": 45,
+          "solutions": 1
+        },
+        {
+          "level": 46,
+          "solutions": 1
+        },
+        {
+          "level": 47,
+          "solutions": 1
+        },
+        {
+          "level": 48,
+          "solutions": 1
+        },
+        {
+          "level": 49,
+          "solutions": 1
+        },
+        {
+          "level": 50,
+          "solutions": 1
+        }
+      ],
+      "independentProof": "verification-report.json",
+      "entrySHA256": "809f924ade34a267b6383e1e663fa63a2b7c40c65e1187005f47bc73268311d4"
+    }
+  ]
+}

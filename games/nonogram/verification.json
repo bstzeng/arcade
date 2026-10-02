@@ -1,0 +1,612 @@
+{
+  "game": "nonogram",
+  "levels": 50,
+  "distinctUpToDihedralSymmetry": true,
+  "allUnique": true,
+  "independentRuleChecks": 50,
+  "invalidMutationChecks": 50,
+  "sha256": "3f7c3e1613e78623d6976c5a09217dc48c64692186112fff7eb9d544383aeb1a",
+  "counter": "Independent exhaustive bitmask line enumeration + row prefix DFS; two-solution cutoff; no solution lookup",
+  "results": [
+    {
+      "id": 1,
+      "name": "小旗",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 6,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 2,
+      "name": "小十字",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 6,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 3,
+      "name": "小箭頭",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 8,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 4,
+      "name": "小樹",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 8,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 5,
+      "name": "小船",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 6,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 6,
+      "name": "寶石",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 10,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 7,
+      "name": "小愛心",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 16,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 8,
+      "name": "小屋",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 14,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 9,
+      "name": "沙漏",
+      "size": [
+        5,
+        5
+      ],
+      "solutions": 1,
+      "independentNodes": 6,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 10,
+      "name": "皇冠",
+      "size": [
+        5,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 9,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 11,
+      "name": "信封",
+      "size": [
+        5,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 6,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 12,
+      "name": "鑰匙",
+      "size": [
+        6,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 18,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 13,
+      "name": "茶杯",
+      "size": [
+        6,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 7,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 14,
+      "name": "山峰",
+      "size": [
+        5,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 6,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 15,
+      "name": "月牙",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 13,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 16,
+      "name": "花朵",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 14,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 17,
+      "name": "雨傘",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 10,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 18,
+      "name": "火箭",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 34,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 19,
+      "name": "仙人掌",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 8,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 20,
+      "name": "魚兒",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 12,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 21,
+      "name": "小鳥",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 19,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 22,
+      "name": "蝸牛",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 11,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 23,
+      "name": "蝴蝶",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 8,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 24,
+      "name": "音符",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 11,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 25,
+      "name": "太陽",
+      "size": [
+        7,
+        7
+      ],
+      "solutions": 1,
+      "independentNodes": 13,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 26,
+      "name": "電池",
+      "size": [
+        7,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 12,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 27,
+      "name": "城堡",
+      "size": [
+        7,
+        10
+      ],
+      "solutions": 1,
+      "independentNodes": 10,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 28,
+      "name": "鈴鐺",
+      "size": [
+        8,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 13,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 29,
+      "name": "蠟燭",
+      "size": [
+        8,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 9,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 30,
+      "name": "盾牌",
+      "size": [
+        8,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 9,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 31,
+      "name": "蘋果",
+      "size": [
+        8,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 13,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 32,
+      "name": "蘑菇",
+      "size": [
+        8,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 13,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 33,
+      "name": "南瓜",
+      "size": [
+        8,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 15,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 34,
+      "name": "風箏",
+      "size": [
+        9,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 20,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 35,
+      "name": "火焰",
+      "size": [
+        9,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 14,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 36,
+      "name": "熱氣球",
+      "size": [
+        9,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 26,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 37,
+      "name": "雪人",
+      "size": [
+        9,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 10,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 38,
+      "name": "機器人",
+      "size": [
+        9,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 42,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 39,
+      "name": "錨",
+      "size": [
+        9,
+        9
+      ],
+      "solutions": 1,
+      "independentNodes": 47,
+      "generatorNodes": 4,
+      "ruleCheck": true
+    },
+    {
+      "id": 40,
+      "name": "蝙蝠",
+      "size": [
+        8,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 142,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 41,
+      "name": "機關車",
+      "size": [
+        9,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 17,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 42,
+      "name": "鯨魚",
+      "size": [
+        9,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 40,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 43,
+      "name": "手提包",
+      "size": [
+        9,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 10,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 44,
+      "name": "蛋糕",
+      "size": [
+        9,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 10,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 45,
+      "name": "書本",
+      "size": [
+        9,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 10,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 46,
+      "name": "燈塔",
+      "size": [
+        10,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 13,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 47,
+      "name": "松樹",
+      "size": [
+        10,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 25,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 48,
+      "name": "望遠鏡",
+      "size": [
+        10,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 114,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 49,
+      "name": "小幽靈",
+      "size": [
+        10,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 67,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    },
+    {
+      "id": 50,
+      "name": "城門",
+      "size": [
+        10,
+        11
+      ],
+      "solutions": 1,
+      "independentNodes": 11,
+      "generatorNodes": 1,
+      "ruleCheck": true
+    }
+  ]
+}
