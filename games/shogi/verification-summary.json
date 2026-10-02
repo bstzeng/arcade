@@ -1,0 +1,27 @@
+{
+  "game": "shogi",
+  "engineSha256": "0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f",
+  "levelsSha256": "1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad",
+  "puzzleCount": 100,
+  "uniqueAnswers": 100,
+  "independentOracle": "python-shogi 1.1.1",
+  "independentLegalSetComparisons": 540,
+  "boundaryRegressionGroups": 20,
+  "browserUMD": true,
+  "sharedSession": {
+    "solved": 100,
+    "replayedWithoutMutation": 100,
+    "saveRestore": 100,
+    "undo": 100,
+    "wrongMoveFailure": 100,
+    "replayableClaims": true,
+    "replayableConsent": true
+  },
+  "aiDifficultiesAllReturnLegalMoves": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "scope": "engine, puzzles, and headless shared-session integration; visual browser QA belongs to shared UI task",
+  "sharedAIRegression": true
+}
