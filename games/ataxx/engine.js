@@ -1,0 +1,9 @@
+(function(root){'use strict';const U=root.CompetitiveUtil||(typeof require==='function'?require('../competitive-common/core.js'):null),W=7,N=49;
+function initial(){const b=Array(N).fill(0);b[0]=b[48]=1;b[6]=b[42]=-1;const s={board:b,turn:1,ply:0,quiet:0,keys:[]};s.keys=[U.key(s)];return s;}
+function moves(s,p=s.turn){const a=[];for(let from=0;from<N;from++)if(s.board[from]===p)for(let dy=-2;dy<=2;dy++)for(let dx=-2;dx<=2;dx++){const x=from%W+dx,y=Math.floor(from/W)+dy;if((dx||dy)&&U.inside(x,y,W)&&!s.board[y*W+x])a.push({from,to:y*W+x});}return a;}
+function legal(s){const a=moves(s);return a.length?a:[{type:'pass'}];}
+function apply(s,m){if(m.type==='pass')return U.next(s,s.board.slice(),{quiet:s.quiet+1});const b=s.board.slice(),jump=Math.max(Math.abs(m.from%W-m.to%W),Math.abs(Math.floor(m.from/W)-Math.floor(m.to/W)))===2;let capture=0;if(jump)b[m.from]=0;b[m.to]=s.turn;for(const j of U.neighbors(m.to,W,W,U.dirs8))if(b[j]===-s.turn){b[j]=s.turn;capture++;}return U.next(s,b,{quiet:jump&&!capture?s.quiet+1:0});}
+function counts(s){return{red:s.board.filter(x=>x===1).length,blue:s.board.filter(x=>x===-1).length};}
+function outcome(s){const c=counts(s);if(!c.red||!c.blue||!s.board.includes(0)||(!moves(s,1).length&&!moves(s,-1).length))return{winner:Math.sign(c.red-c.blue),reason:'棋子數：紅 '+c.red+'／藍 '+c.blue};if((s.keys||[]).filter(k=>k===U.key(s)).length>=3)return{winner:0,reason:'三次同局面和局（本作循環規則）'};if(s.quiet>=100)return{winner:0,reason:'100 手無增殖或轉化，和局'};return null;}
+const e=U.attach('ataxx',{width:W,height:W,initial,legal,apply,outcome,moves,counts,evaluate:(s,p)=>s.board.reduce((a,b)=>a+b,0)*p*10+(moves(s,p).length-moves(s,-p).length)/10,labels:{'1':'●','-1':'●'},names:{'1':'紅方','-1':'藍方'}});if(typeof module!=='undefined')module.exports=e;
+})(typeof globalThis!=='undefined'?globalThis:this);
