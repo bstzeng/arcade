@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "rules": {
+    "count": 5,
+    "names": [
+      "initial 7-by-6 board and gravity",
+      "full column and illegal moves rejected",
+      "horizontal, vertical and both diagonals",
+      "legal 42-turn draw replay",
+      "difficulty search budgets and depths differ"
+    ]
+  },
+  "ai": {
+    "easy": {
+      "legal": true,
+      "immediateWin": true,
+      "immediateBlock": true,
+      "openingDepth": 2,
+      "openingNodes": 63,
+      "maxDepth": 2
+    },
+    "normal": {
+      "legal": true,
+      "immediateWin": true,
+      "immediateBlock": true,
+      "openingDepth": 5,
+      "openingNodes": 2647,
+      "maxDepth": 5
+    },
+    "hard": {
+      "legal": true,
+      "immediateWin": true,
+      "immediateBlock": true,
+      "openingDepth": 7,
+      "openingNodes": 47744,
+      "maxDepth": 9
+    }
+  },
+  "selfPlay": [
+    {
+      "seed": 1,
+      "plies": 36,
+      "result": {
+        "winner": -1,
+        "reason": "four",
+        "cells": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 2,
+      "plies": 37,
+      "result": {
+        "winner": 1,
+        "reason": "four",
+        "cells": [
+          3,
+          11,
+          19,
+          27
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 3,
+      "plies": 35,
+      "result": {
+        "winner": 1,
+        "reason": "four",
+        "cells": [
+          3,
+          9,
+          15,
+          21
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 4,
+      "plies": 38,
+      "result": {
+        "winner": -1,
+        "reason": "four",
+        "cells": [
+          18,
+          24,
+          30,
+          36
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 5,
+      "plies": 41,
+      "result": {
+        "winner": 1,
+        "reason": "four",
+        "cells": [
+          3,
+          11,
+          19,
+          27
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 6,
+      "plies": 38,
+      "result": {
+        "winner": -1,
+        "reason": "four",
+        "cells": [
+          18,
+          24,
+          30,
+          36
+        ]
+      },
+      "legalEveryTurn": true
+    }
+  ],
+  "drawFixture": [
+    5,
+    2,
+    0,
+    3,
+    2,
+    6,
+    3,
+    4,
+    1,
+    5,
+    5,
+    3,
+    6,
+    1,
+    3,
+    0,
+    0,
+    3,
+    3,
+    5,
+    6,
+    2,
+    4,
+    5,
+    5,
+    2,
+    2,
+    4,
+    1,
+    4,
+    4,
+    4,
+    0,
+    2,
+    6,
+    0,
+    0,
+    6,
+    6,
+    1,
+    1,
+    1
+  ]
+}

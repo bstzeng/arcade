@@ -1,0 +1,148 @@
+{
+  "game": "connect-four",
+  "passed": true,
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "count": 5,
+    "names": [
+      "initial 7-by-6 board and gravity",
+      "full column and illegal moves rejected",
+      "horizontal, vertical and both diagonals",
+      "legal 42-turn draw replay",
+      "difficulty search budgets and depths differ"
+    ]
+  },
+  "ai": {
+    "easy": {
+      "legal": true,
+      "immediateWin": true,
+      "immediateBlock": true,
+      "openingDepth": 2,
+      "openingNodes": 63,
+      "maxDepth": 2
+    },
+    "normal": {
+      "legal": true,
+      "immediateWin": true,
+      "immediateBlock": true,
+      "openingDepth": 5,
+      "openingNodes": 2647,
+      "maxDepth": 5
+    },
+    "hard": {
+      "legal": true,
+      "immediateWin": true,
+      "immediateBlock": true,
+      "openingDepth": 7,
+      "openingNodes": 51328,
+      "maxDepth": 9
+    }
+  },
+  "selfPlay": [
+    {
+      "seed": 1,
+      "plies": 35,
+      "result": {
+        "winner": 1,
+        "reason": "four",
+        "cells": [
+          16,
+          24,
+          32,
+          40
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 2,
+      "plies": 42,
+      "result": {
+        "winner": 0,
+        "reason": "full",
+        "cells": []
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 3,
+      "plies": 35,
+      "result": {
+        "winner": 1,
+        "reason": "four",
+        "cells": [
+          3,
+          9,
+          15,
+          21
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 4,
+      "plies": 38,
+      "result": {
+        "winner": -1,
+        "reason": "four",
+        "cells": [
+          18,
+          24,
+          30,
+          36
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 5,
+      "plies": 41,
+      "result": {
+        "winner": 1,
+        "reason": "four",
+        "cells": [
+          3,
+          11,
+          19,
+          27
+        ]
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 6,
+      "plies": 38,
+      "result": {
+        "winner": -1,
+        "reason": "four",
+        "cells": [
+          18,
+          24,
+          30,
+          36
+        ]
+      },
+      "legalEveryTurn": true
+    }
+  ],
+  "controller": {
+    "passed": true,
+    "count": 9,
+    "names": [
+      "human AI reply, locked turns, round undo and local single-turn undo",
+      "undo during AI cancels worker and ignores late result",
+      "reset and mode changes invalidate stale and rejected AI jobs",
+      "AI first move, legal fallback and terminal lock",
+      "save replay, history, settings, invalid saves and pending restore",
+      "actual UI board, click flow, worker reply, undo and save reload",
+      "actual UI confirms/cancels reset and setting changes; stale response ignored",
+      "actual UI keyboard, selection cancel, help and local undo",
+      "storage unavailable, malformed save, worker fallback and page lifecycle"
+    ],
+    "coverage": "Pure session plus actual app.js in lightweight DOM; not browser rendering verification"
+  }
+}
