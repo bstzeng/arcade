@@ -23,11 +23,11 @@ Each challenge provides truthful starting guesses and feedback jointly identifyi
 Run from repository root:
 
 ```
-python arcade/games/mastermind/generate.py
-node arcade/games/mastermind/verify.cjs
-node arcade/games/mastermind/controller-tests.cjs
+python games/mastermind/generate.py
+node games/mastermind/verify.cjs
+node games/mastermind/controller-tests.cjs
 ```
 
 Controls: `#level`, `#prev`, `#next`, `#submit`, `#undo`, `#reset`, `#hint`, `#solution`, `#modal`, `#cancel`, `#confirm`. Inputs use `#draft button` and `#palette button`. Reset has an explicit cancel/confirm dialog; solution and hints are non-mutating. Eight player guesses per attempt; undo permits recovery after failure. Saves validate lengths, domains, allowed repeats, guess count, and post-win truncation; malformed data resets safely. Keyboard directions choose a slot, 1–6 choose colors, Delete/Backspace clears, Enter submits. Home link is `../index.html`.
 
-Visual layout is coded for desktop 1180×757 and narrow/mobile screens, with scrollable history and a bounded rules panel. Browser visual QA was not performed by this worker because the assigned environment explicitly prohibited browser work; parent publication QA owns screenshots and live browser checks.
+Visual layout is coded for desktop 1180×757 and narrow/mobile screens, with scrollable history and a bounded rules panel. The DOM controller suite does not test browser rendering.
