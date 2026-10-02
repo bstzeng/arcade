@@ -142,6 +142,12 @@
 - **[水果快切](games/fruit-slice.html)**（FRUIT SLICE）：以實際拖曳軌跡切過拋起的水果，避開炸彈。
 - **[釣魚挑戰](games/fishing-challenge.html)**（FISHING CHALLENGE）：控制拋竿力度、抓準咬鉤時機，再交替收放線管理張力。
 
+### 上線後的顯示修正
+
+此修正以 `f03965d04c025c5219055bc9705a6a394d6810e1` 為基準：修正數字遊戲的高內容裁切、抽棒落球的方向圖示，一筆走橋的編號重疊與雙影迷宮的窄畫面棋盤重疊，以及經營遊戲在窄畫面的選關欄寬度。泡泡射擊的左右角度按鈕也改用可讀的中文字。規則引擎、關卡與證明資料維持原發布位元。`expansion-correction-manifest.json` 列出允許更動的檔案與前後雜湊；`expansion-correction-verification-report.json` 記錄本次受影響 UI 與整合檢查。
+
+執行 `node verify-corrections.cjs` 可在隔離副本重現這次範圍內的檢查。這不是重新執行全部 18 個套件。原 `expansion-aggregate-verification-report.json` 和 `expansion-independent-review.json` 保留發布時的結果與來源；未變動的來源逐一核對，顯示修正另有新的測試證據。後續執行 `node verify-all.cjs` 時，新完整結果寫入 `expansion-current-aggregate-verification-report.json`，保留原始完整報告。修正後的實際瀏覽器版面驗收由發布者另外記錄。
+
 ### 重現完整離線驗證
 
 需要 Node.js 18+、Python 3。西洋棋／將棋的獨立測試另需安裝其版本固定的測試依賴；遊戲執行時仍完全不需要外部套件或 CDN。

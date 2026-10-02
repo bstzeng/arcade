@@ -9,13 +9,26 @@ const hashText=text=>crypto.createHash('sha256').update(text).digest('hex');
 const preservation=JSON.parse(fs.readFileSync('expansion-preservation.json','utf8'));
 const expansion=JSON.parse(fs.readFileSync('expansion-manifest.json','utf8'));
 const independent=JSON.parse(fs.readFileSync('expansion-independent-review.json','utf8'));
-for(const [name,review]of Object.entries(independent.reviews)){assert.equal(review.status,'passed',name+' review incomplete');for(const [file,sha]of Object.entries(review.sourceFiles))assert.equal(hash(file),sha,name+' independent review source became stale: '+file);}
+const correctionGate=fs.existsSync('expansion-correction-manifest.json')?require('./verify-corrections.cjs').verifyBindings():null;
+for(const [name,review]of Object.entries(independent.reviews)){
+ assert.equal(review.status,'passed',name+' review incomplete');
+ for(const [file,sha]of Object.entries(review.sourceFiles)){
+  if(correctionGate?.manifest.excludedHistoricalLocalEvidence?.[file]===sha)continue;
+  if(hash(file)!==sha){
+  const correction=correctionGate?.manifest.changedGameFiles[file];
+  assert(correction,name+' independent review source became stale: '+file);
+  assert.equal(correction.beforeSHA256,sha);assert.equal(correction.afterSHA256,hash(file));
+  }
+ }
+}
+const aggregateOutput=correctionGate?'expansion-current-aggregate-verification-report.json':'expansion-aggregate-verification-report.json';
 assert.equal(expansion.games.length,80,'All 80 games must be integrated before the release audit');
 assert.equal(expansion.families.length,8);assert.equal(expansion.newChallengeCount,8000);
 const build=fs.readFileSync('app.js','utf8').match(/const GAME_BUILD = '([^']+)'/)[1];
 const report={schemaVersion:1,passed:false,scope:'Complete offline release audit; browser and hosted verification are separate',build,baseCommit:preservation.baseCommit,registryCount:150,newGames:80,newChallenges:8000,historicalContent:{games:70,gameAssets:782,cardDeals:250,puzzleLevels:2000,tabletopGames:12,airTrafficMaps:8},claims:{offlineRulesAndControllerTests:true,browserVisualTestingClaimed:false,mobileBrowserTestingClaimed:false,allNewChallengesUniquelySolved:false,allOpponentWinsForced:false,historicalEvidenceRegeneratedInIsolation:true,historicalPublishedReportsPreserved:false,frozenBuilderArtifactsPreserved:false},publicationReady:false,browserQA:{status:'not-run',required:'Actual desktop/narrow browser and hosted route verification by release owner'},sourceFiles:{},suites:[],failures:[]};
+if(correctionGate)report.presentationCorrectionBindings=correctionGate.independentAuditBindings;
 const started=Date.now();
-for(const file of ['app.js','index.html','styles.css','README.md','expansion-manifest.json','expansion-preservation.json','expansion-independent-review.json',...fs.readdirSync('.').filter(file=>/^verify-.*\.cjs$/.test(file)).sort()])report.sourceFiles[file]=hash(file);
+for(const file of ['app.js','index.html','styles.css','README.md','expansion-manifest.json','expansion-preservation.json','expansion-independent-review.json',...(correctionGate?['expansion-correction-manifest.json']:[]),...fs.readdirSync('.').filter(file=>/^verify-.*\.cjs$/.test(file)).sort()])report.sourceFiles[file]=hash(file);
 const exclude=/(?:^|\/)(?:\.git|\.venv|node_modules|__pycache__|screenshots|test-results|playwright-report)(?:\/|$)|\.(?:pyc|log|tmp)$|(?:^|\/)test-results\.txt$/;
 function executeSuite(id,commands,outputs=[],regeneration=null){
  const copy=fs.mkdtempSync(path.join(os.tmpdir(),'arcade150-audit-')),start=Date.now(),row={id,passed:false,commands:[],freshReports:{}};report.suites.push(row);
@@ -48,11 +61,11 @@ try{
  for(const [file,sha]of Object.entries(preservation.assets))assert.equal(hash(file),sha,'Original game asset changed: '+file);
  for(const [file,sha]of Object.entries(expansion.sourceFiles))assert.equal(hash(file),sha,'Frozen new source changed during audit: '+file);
  for(const [file,sha]of Object.entries(report.sourceFiles))assert.equal(hash(file),sha,'Root source changed during audit: '+file);
- report.independentReview=Object.fromEntries(Object.entries(independent.reviews).map(([name,review])=>[name,{status:review.status,games:review.games,sourceFilesVerified:Object.keys(review.sourceFiles).length}]));
+ report.independentReview=Object.fromEntries(Object.entries(independent.reviews).map(([name,review])=>[name,{status:review.status,games:review.games,sourceFilesVerified:Object.keys(review.sourceFiles).filter(file=>!correctionGate?.manifest.excludedHistoricalLocalEvidence?.[file]).length,...(correctionGate?{historicalUnshippedLogReferences:Object.keys(review.sourceFiles).filter(file=>correctionGate.manifest.excludedHistoricalLocalEvidence?.[file]).length}:{})}]));
  report.claims.historicalPublishedReportsPreserved=true;report.claims.frozenBuilderArtifactsPreserved=true;
  assert.equal(report.suites.length,18,'Eight legacy, eight expansion, common lifecycle and integration suites required');
- assert.equal(report.failures.length,0,'One or more suites failed; inspect expansion-aggregate-verification-report.json');
+ assert.equal(report.failures.length,0,'One or more suites failed; inspect '+aggregateOutput);
  report.passed=true;
 } catch(error){report.failures.push({suite:'release-preservation-or-completeness',error:String(error)});throw error;}
-finally{report.seconds=+((Date.now()-started)/1000).toFixed(3);fs.writeFileSync('expansion-aggregate-verification-report.json',JSON.stringify(report,null,2)+'\n');}
+finally{report.seconds=+((Date.now()-started)/1000).toFixed(3);fs.writeFileSync(aggregateOutput,JSON.stringify(report,null,2)+'\n');}
 console.log('PASS offline: 150 games; all 70 original records and 782 game assets preserved; 80 new games × 100 challenges; all eight historical and eight expansion suites rerun. Browser/hosted QA remains a separate gate.');

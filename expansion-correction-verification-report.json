@@ -1,0 +1,2163 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Focused presentation regressions and exact source-preservation checks after the 150-game release",
+  "baseCommit": "f03965d04c025c5219055bc9705a6a394d6810e1",
+  "fullHistoricalSuitesRerun": false,
+  "priorFullAggregate": {
+    "path": "expansion-aggregate-verification-report.json",
+    "sha256": "2f37fcadfc37cb7174b33299f4dc8e5b335c35aa8bae0b8813195079785b8f75",
+    "passed": true
+  },
+  "priorIndependentReview": {
+    "path": "expansion-independent-review.json",
+    "sha256": "268dd579327f33c70ce9c9e9b568215c4e645da5d17ac8627623a028b8a4f379"
+  },
+  "baselineFilesChecked": 1818,
+  "protectedRuleCorpusProofFiles": 419,
+  "independentAuditBindings": [
+    {
+      "review": "competitiveBoardsAndCards",
+      "unchangedSourceBindings": 180,
+      "correctedPresentationBindings": [],
+      "historicalLocalEvidence": [],
+      "originalReviewPreserved": true
+    },
+    {
+      "review": "numericClueSpatialAndPath",
+      "unchangedSourceBindings": 442,
+      "correctedPresentationBindings": [
+        {
+          "path": "games/alphametic/game-audit.json",
+          "previousSHA256": "1576ff2b4eea3c631372e7dea1658dfd06d975fa0791a0d833e4bc6599394f68",
+          "currentSHA256": "46f7b2ce7252b8437fd39c88918174f023f16ec40bee92ffff5045393b68e5a0",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/balance-weights/game-audit.json",
+          "previousSHA256": "4c2512eddefb5719173909cb2e44e325ac84a4e368e3d4071fa97d5250499849",
+          "currentSHA256": "26959e87cefdbd7ce245954850be80a2ee09e49530e92d3219fd82c6a3c2f5cd",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/difference-sequence/game-audit.json",
+          "previousSHA256": "6c7812254c38159544c4b3eaafb40d23cce7ef328e970acf35860ae95435958a",
+          "currentSHA256": "a4ffa60a0fe6cd6056cf491c2cd74c18a5af4a72d2d6b1502c5b8f22725a35bf",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/fraction-cup/game-audit.json",
+          "previousSHA256": "97daec8e3938d2e5581e228ef75359c16091e0a60dec1002dba49a8f73fff084",
+          "currentSHA256": "6a381407b4a8c5d2989ffeb819234d41f4d161e17b451129202ad8d078447571",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/magic-square/game-audit.json",
+          "previousSHA256": "b503a5e15e081afc7f79fde71761d780852b88612cf943edea718e7030738fb6",
+          "currentSHA256": "e4cef488a624fa01c0dc9bc72267f273abe71c974ffbb07531f8ec6e4fc2e54a",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/matchstick-equation/game-audit.json",
+          "previousSHA256": "826852700c91e6600d963b8d11eb28db6363551a757e35313d9e463c8bddbb26",
+          "currentSHA256": "7e7e5727bf2ce71662b7f1dd0b64c3eb28c1e02f2975f6462c471069347d91e4",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/misere-nim/game-audit.json",
+          "previousSHA256": "b908808ad4dbfafb59b2035466a663f4106a07d5ea2c06a5df2a19c454d067b6",
+          "currentSHA256": "d1babd7d98a8a99d67bd99b3fc064c18fba44ee9059f6e4b89ee3e6e36ad387b",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/numeric-common/README.md",
+          "previousSHA256": "3e8de5f5c1f2243cac504a3160c2ca26ca1d62375b16376b1340486dbbf99ce2",
+          "currentSHA256": "25f9605e98735c3ffca22810167e2817d2f38154318376dba10c2d9ff55e4eb0",
+          "kind": "documentation",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/numeric-common/style.css",
+          "previousSHA256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee",
+          "currentSHA256": "1adffc7e0a269ddf49fac20c0c10a59657ce38abbb82a715f9b1aa765050910b",
+          "kind": "presentation-runtime",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/prime-bins/game-audit.json",
+          "previousSHA256": "d98aa091dd7daddf758a7e1908ffe3370c8624d584f9af35ce01418bb544203d",
+          "currentSHA256": "e8b28db8b42c7f198f5690241b020657afdfdbcd99be2f288d347d40a9593d7d",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/remainder-code/game-audit.json",
+          "previousSHA256": "04bc017cce11cd439e8e98d6f8d27ad0260118eb30279bee16fee7502938d71e",
+          "currentSHA256": "efe070a3ba1396016b8e16970519fd40a5faab6c1ac826b064b6ac4658458add",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/twenty-four/game-audit.json",
+          "previousSHA256": "78c9f0c9fbc17a7214b21fc727da8b8d3f9cdbd6ba3cc84995bb01bb2daeeca3",
+          "currentSHA256": "6fc2b173c5217a7b79712faaefa6afb56101c49feb1e2dacb6e5caac393212bf",
+          "kind": "source-binding-metadata",
+          "correction": "numeric-layout-r2"
+        },
+        {
+          "path": "games/path-lab/app.js",
+          "previousSHA256": "ce68194e84d91d5d4592e881361c5007da17020ea6dfadd34850a2d7454545c8",
+          "currentSHA256": "6cf84bef894496a7c962538cde6ec15664e0f71253c6dc048bd817945f0e6ad5",
+          "kind": "presentation-runtime",
+          "correction": "path-presentation-corrections"
+        },
+        {
+          "path": "games/path-lab/style.css",
+          "previousSHA256": "66d6a9f388e19fb2325e8ad7c90e14c7ade393483499d99e62042fec75f3aa31",
+          "currentSHA256": "e70a7b4689c898c58df96c46abb3487f28e61567009b0ecd513b110de37888d6",
+          "kind": "presentation-runtime",
+          "correction": "path-presentation-corrections"
+        },
+        {
+          "path": "games/pin-and-ball/app.js",
+          "previousSHA256": "b0f19f5e7b1e22d4d6a8f5301b8a990566ffe808a50aaa9f8e5a800f836bd755",
+          "currentSHA256": "ef4292030988db5cc606612ae6c4adea70301855e99f0ee903f9a260e519b0d4",
+          "kind": "presentation-runtime",
+          "correction": "pin-and-ball-svg-arrows"
+        }
+      ],
+      "historicalLocalEvidence": [
+        {
+          "path": "games/spatial-common/dom-verification.log",
+          "sha256": "8b12e7da376c87a289ef0c1552753812f0f175f0d2ae8fbdb2afd90435b5792d",
+          "shippedInBaseline": false
+        },
+        {
+          "path": "games/spatial-common/static-verification.log",
+          "sha256": "7932c89a9230798061cf75614ca85d95def13c8d738a1ed8dcb22bcc23f5775f",
+          "shippedInBaseline": false
+        },
+        {
+          "path": "games/spatial-common/verification.log",
+          "sha256": "debfb191e9b9ae0e97cd68d422b5351c22a8f8a8de6431ea3e8605626a448b8e",
+          "shippedInBaseline": false
+        }
+      ],
+      "originalReviewPreserved": true
+    },
+    {
+      "review": "managementAndAction",
+      "unchangedSourceBindings": 129,
+      "correctedPresentationBindings": [
+        {
+          "path": "games/action-common/ui.js",
+          "previousSHA256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0",
+          "currentSHA256": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de",
+          "kind": "presentation-runtime",
+          "correction": "bubble-shooter-readable-labels"
+        },
+        {
+          "path": "games/management-common/style.css",
+          "previousSHA256": "082f87535a68f20938c011dfe430c71cc3554eaf5c5ac20443353523e2d74ef6",
+          "currentSHA256": "24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab",
+          "kind": "presentation-runtime",
+          "correction": "management-mobile-selector"
+        }
+      ],
+      "historicalLocalEvidence": [],
+      "originalReviewPreserved": true
+    }
+  ],
+  "corrections": [
+    {
+      "id": "numeric-layout-r2",
+      "summary": "Content-driven numeric layout fixes clipping and overlapping controls.",
+      "runtimeFiles": [
+        "games/numeric-common/style.css"
+      ],
+      "evidence": "games/numeric-common/layout-correction-report.json",
+      "freezeFiles": {
+        "games/misere-nim/game-audit.json": "d1babd7d98a8a99d67bd99b3fc064c18fba44ee9059f6e4b89ee3e6e36ad387b",
+        "games/prime-bins/game-audit.json": "e8b28db8b42c7f198f5690241b020657afdfdbcd99be2f288d347d40a9593d7d",
+        "games/remainder-code/game-audit.json": "efe070a3ba1396016b8e16970519fd40a5faab6c1ac826b064b6ac4658458add",
+        "games/numeric-common/README.md": "25f9605e98735c3ffca22810167e2817d2f38154318376dba10c2d9ff55e4eb0",
+        "games/numeric-common/layout-correction-report.json": "3e5191e9a7e4162716f931153c21915d73743dda9a15f8eea1e7b31f0fc20aca",
+        "games/numeric-common/style.css": "1adffc7e0a269ddf49fac20c0c10a59657ce38abbb82a715f9b1aa765050910b",
+        "games/numeric-common/layout-tests.cjs": "02a9e68f60197fc0adedf7f05d8a58fcf4a34f7ecb9905b520903d63d4c4a0cb",
+        "games/magic-square/game-audit.json": "e4cef488a624fa01c0dc9bc72267f273abe71c974ffbb07531f8ec6e4fc2e54a",
+        "games/alphametic/game-audit.json": "46f7b2ce7252b8437fd39c88918174f023f16ec40bee92ffff5045393b68e5a0",
+        "games/matchstick-equation/game-audit.json": "7e7e5727bf2ce71662b7f1dd0b64c3eb28c1e02f2975f6462c471069347d91e4",
+        "games/fraction-cup/game-audit.json": "6a381407b4a8c5d2989ffeb819234d41f4d161e17b451129202ad8d078447571",
+        "games/difference-sequence/game-audit.json": "a4ffa60a0fe6cd6056cf491c2cd74c18a5af4a72d2d6b1502c5b8f22725a35bf",
+        "games/balance-weights/game-audit.json": "26959e87cefdbd7ce245954850be80a2ee09e49530e92d3219fd82c6a3c2f5cd",
+        "games/twenty-four/game-audit.json": "6fc2b173c5217a7b79712faaefa6afb56101c49feb1e2dacb6e5caac393212bf"
+      }
+    },
+    {
+      "id": "pin-and-ball-svg-arrows",
+      "summary": "Replace unavailable font glyphs with direction-specific SVG paths.",
+      "runtimeFiles": [
+        "games/pin-and-ball/app.js"
+      ],
+      "evidence": "games/pin-and-ball/arrow-correction-test-report.json",
+      "freezeFiles": {
+        "games/spatial-common/source-freeze.json": "f77f1a8bff5d1e16e40ce237642913756fbe8530958a41841caeae01a493fffe",
+        "games/pin-and-ball/app.js": "ef4292030988db5cc606612ae6c4adea70301855e99f0ee903f9a260e519b0d4",
+        "games/pin-and-ball/verify-arrow-correction.cjs": "328151ecef6b6c95f0913d1b5b8f755831c1363b794fe014498f73e29e1ed112",
+        "games/pin-and-ball/arrow-correction-test-report.json": "d4b1bc5407b0f6a7aec98d426fe247d16d7c37d149636b494ce7a51fae5aebf6",
+        "games/pin-and-ball/arrow-correction.json": "d7f9a23f593698e06d4636c257cae211406644e65373fb2d387ba34c778bd5d1"
+      }
+    },
+    {
+      "id": "path-presentation-corrections",
+      "summary": "Separate Euler bridge labels and stack both Dual Shadow Maze boards at narrow widths.",
+      "runtimeFiles": [
+        "games/path-lab/app.js",
+        "games/path-lab/style.css"
+      ],
+      "evidence": "games/path-lab/presentation-correction-report.json",
+      "freezeFiles": {
+        "games/path-lab/app.js": "6cf84bef894496a7c962538cde6ec15664e0f71253c6dc048bd817945f0e6ad5",
+        "games/path-lab/presentation-correction-report.json": "5948dc881c94f7ddaa3ae4e1bd1dc7ef44594a53dc000e51f742ba6065d95b1c",
+        "games/path-lab/dual-layout-test-report.json": "36e24f8922630e7a460005a6e5d6a0c7d9de385453e828eedc8b836100612dea",
+        "games/path-lab/dual-layout.test.cjs": "8eed103ce3c46a688f4b4d609b59347eca44815251f3886d22f1fb4d0769d2a7",
+        "games/path-lab/style.css": "e70a7b4689c898c58df96c46abb3487f28e61567009b0ecd513b110de37888d6",
+        "games/path-lab/label-proof-preservation.json": "cb941b0a490ad31140cebccc19cbfe2828d04803096b951b1e5d2d7ef224e02b",
+        "games/path-lab/label-layout.test.cjs": "fc2ac9fac3f5ab3157d66f5574653a98e9c044f4055af056fff98b431a1529d2",
+        "games/path-lab/label-layout-test-report.json": "a6366f3779c127f97466bf4a50da082440dbcc8ff741a869ec9748f61a433353"
+      }
+    },
+    {
+      "id": "management-mobile-selector",
+      "summary": "Give the narrow-screen level selector a readable minimum width and its own label row.",
+      "runtimeFiles": [
+        "games/management-common/style.css"
+      ],
+      "evidence": "games/management-common/mobile-selector-correction-report.json",
+      "freezeFiles": {
+        "games/management-common/source-manifest.json": "54439f5fa4a61fae5d40cac5c22d7f3d2742312ee2e1b0ca6eb0d8ee397511ac",
+        "games/management-common/style.css": "24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab",
+        "games/management-common/mobile-selector-correction-manifest.json": "660bc8279bca5ef3f81970f95ef9705b9ae723f7f87c0164532243dc65d1f7e4",
+        "games/management-common/mobile-selector.test.cjs": "fdac1b6bfe79888c3adfd352229b073e553d69a42dc69a6d7e097e1c38ff4cf9",
+        "games/management-common/mobile-selector-correction-report.json": "1c5131aab12417dc2867bd90dc74e3bf57824a68a2ea2cad7d012f0f31a79b27"
+      }
+    },
+    {
+      "id": "bubble-shooter-readable-labels",
+      "summary": "Show Chinese words for angle controls without relying on unavailable diagonal-arrow glyphs.",
+      "runtimeFiles": [
+        "games/action-common/ui.js"
+      ],
+      "evidence": "games/action-common/bubble-label-correction-report.json",
+      "freezeFiles": {
+        "games/action-common/ui.js": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de",
+        "games/action-common/owned-files.json": "a0a964ceb7f224ca24377ecc1c045ad3f0db632eef865f8aa205fd832f839fcb",
+        "games/action-common/bubble-label-correction-report.json": "e2e870414a70670d54e5f2a6d90d08634c1519d9b4d37dae2990a1e2591aa912",
+        "games/action-common/bubble-labels.test.cjs": "2c3bda8eb0373b19e71e9828a50fbd2ef3e316afacb8183346b0a63ffb5fe5f2"
+      }
+    }
+  ],
+  "browserQA": {
+    "status": "corrective-retest-pending",
+    "claim": "The release owner must check the deployed corrected presentation in an actual browser; these static/DOM tests do not establish browser geometry."
+  },
+  "sourceFiles": {
+    "README.md": "8fb1cb1a58135ac868110c4dd57708bbf62d9776f188b0b08c10a6a07a50799a",
+    "verify-all.cjs": "fba3d687b8e8ecb55e0df4af963294730ad23e2813e99fc143f3907b85860ea1",
+    "verify-corrections.cjs": "85fe1cd3eb2677745fe2945b0b894bb12d6f97dfda29f4c738ccbc519042ee5c",
+    "verify-expansion.cjs": "bcaa36d353ccdc1dcb6479fa7e923b35bb55de7bb4da24782c01e4a31223ae2d",
+    "verify-integration-regressions.cjs": "65bf27847076e5931f2016068594e43f7e682cf75be06c2ed78dd21d5b251e82",
+    "expansion-manifest.json": "35ed1d1eb486baf8d005b0f64b48e02e669237e9fae4021f8cd084dcac68ec75",
+    "expansion-correction-manifest.json": "483a59030cca57e79e95b99e6a59aad8b0f5bb43ec338786433878fad76b3bc5",
+    "games/misere-nim/game-audit.json": "d1babd7d98a8a99d67bd99b3fc064c18fba44ee9059f6e4b89ee3e6e36ad387b",
+    "games/prime-bins/game-audit.json": "e8b28db8b42c7f198f5690241b020657afdfdbcd99be2f288d347d40a9593d7d",
+    "games/remainder-code/game-audit.json": "efe070a3ba1396016b8e16970519fd40a5faab6c1ac826b064b6ac4658458add",
+    "games/numeric-common/README.md": "25f9605e98735c3ffca22810167e2817d2f38154318376dba10c2d9ff55e4eb0",
+    "games/numeric-common/layout-correction-report.json": "3e5191e9a7e4162716f931153c21915d73743dda9a15f8eea1e7b31f0fc20aca",
+    "games/numeric-common/style.css": "1adffc7e0a269ddf49fac20c0c10a59657ce38abbb82a715f9b1aa765050910b",
+    "games/numeric-common/layout-tests.cjs": "02a9e68f60197fc0adedf7f05d8a58fcf4a34f7ecb9905b520903d63d4c4a0cb",
+    "games/magic-square/game-audit.json": "e4cef488a624fa01c0dc9bc72267f273abe71c974ffbb07531f8ec6e4fc2e54a",
+    "games/alphametic/game-audit.json": "46f7b2ce7252b8437fd39c88918174f023f16ec40bee92ffff5045393b68e5a0",
+    "games/matchstick-equation/game-audit.json": "7e7e5727bf2ce71662b7f1dd0b64c3eb28c1e02f2975f6462c471069347d91e4",
+    "games/fraction-cup/game-audit.json": "6a381407b4a8c5d2989ffeb819234d41f4d161e17b451129202ad8d078447571",
+    "games/difference-sequence/game-audit.json": "a4ffa60a0fe6cd6056cf491c2cd74c18a5af4a72d2d6b1502c5b8f22725a35bf",
+    "games/balance-weights/game-audit.json": "26959e87cefdbd7ce245954850be80a2ee09e49530e92d3219fd82c6a3c2f5cd",
+    "games/twenty-four/game-audit.json": "6fc2b173c5217a7b79712faaefa6afb56101c49feb1e2dacb6e5caac393212bf",
+    "games/spatial-common/source-freeze.json": "f77f1a8bff5d1e16e40ce237642913756fbe8530958a41841caeae01a493fffe",
+    "games/pin-and-ball/app.js": "ef4292030988db5cc606612ae6c4adea70301855e99f0ee903f9a260e519b0d4",
+    "games/pin-and-ball/verify-arrow-correction.cjs": "328151ecef6b6c95f0913d1b5b8f755831c1363b794fe014498f73e29e1ed112",
+    "games/pin-and-ball/arrow-correction-test-report.json": "d4b1bc5407b0f6a7aec98d426fe247d16d7c37d149636b494ce7a51fae5aebf6",
+    "games/pin-and-ball/arrow-correction.json": "d7f9a23f593698e06d4636c257cae211406644e65373fb2d387ba34c778bd5d1",
+    "games/path-lab/app.js": "6cf84bef894496a7c962538cde6ec15664e0f71253c6dc048bd817945f0e6ad5",
+    "games/path-lab/presentation-correction-report.json": "5948dc881c94f7ddaa3ae4e1bd1dc7ef44594a53dc000e51f742ba6065d95b1c",
+    "games/path-lab/dual-layout-test-report.json": "36e24f8922630e7a460005a6e5d6a0c7d9de385453e828eedc8b836100612dea",
+    "games/path-lab/dual-layout.test.cjs": "8eed103ce3c46a688f4b4d609b59347eca44815251f3886d22f1fb4d0769d2a7",
+    "games/path-lab/style.css": "e70a7b4689c898c58df96c46abb3487f28e61567009b0ecd513b110de37888d6",
+    "games/path-lab/label-proof-preservation.json": "cb941b0a490ad31140cebccc19cbfe2828d04803096b951b1e5d2d7ef224e02b",
+    "games/path-lab/label-layout.test.cjs": "fc2ac9fac3f5ab3157d66f5574653a98e9c044f4055af056fff98b431a1529d2",
+    "games/path-lab/label-layout-test-report.json": "a6366f3779c127f97466bf4a50da082440dbcc8ff741a869ec9748f61a433353",
+    "games/management-common/source-manifest.json": "54439f5fa4a61fae5d40cac5c22d7f3d2742312ee2e1b0ca6eb0d8ee397511ac",
+    "games/management-common/style.css": "24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab",
+    "games/management-common/mobile-selector-correction-manifest.json": "660bc8279bca5ef3f81970f95ef9705b9ae723f7f87c0164532243dc65d1f7e4",
+    "games/management-common/mobile-selector.test.cjs": "fdac1b6bfe79888c3adfd352229b073e553d69a42dc69a6d7e097e1c38ff4cf9",
+    "games/management-common/mobile-selector-correction-report.json": "1c5131aab12417dc2867bd90dc74e3bf57824a68a2ea2cad7d012f0f31a79b27",
+    "games/action-common/ui.js": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de",
+    "games/action-common/owned-files.json": "a0a964ceb7f224ca24377ecc1c045ad3f0db632eef865f8aa205fd832f839fcb",
+    "games/action-common/bubble-label-correction-report.json": "e2e870414a70670d54e5f2a6d90d08634c1519d9b4d37dae2990a1e2591aa912",
+    "games/action-common/bubble-labels.test.cjs": "2c3bda8eb0373b19e71e9828a50fbd2ef3e316afacb8183346b0a63ffb5fe5f2"
+  },
+  "suites": [
+    {
+      "id": "numeric-layout-and-1000-dom-challenges",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/layout-tests.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "6ac1fcb7921ba4ca0029d430058cee66aaa02f99ca8b8478eb10983958911e26",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\n  \"passed\": true,\n  \"kind\": \"static-css-regression\",\n  \"browserGeometryClaimed\": false,\n  \"cssSHA256\": \"1adffc7e0a269ddf49fac20c0c10a59657ce38abbb82a715f9b1aa765050910b\",\n  \"viewports\": [\n    {\n      \"width\": 1180,\n      \"height\": 757,\n      \"naturalDocumentFlow\": true,\n      \"boardAndChildrenCannotShrink\": true,\n      \"magicAndKeypadCapsPreserved\": true\n    },\n    {\n      \"width\": 1024,\n      \"height\": 600,\n      \"naturalDocumentFlow\": true,\n      \"boardAndChildrenCannotShrink\": true,\n      \"magicAndKeypadCapsPreserved\": true\n    },\n    {\n      \"width\": 1440,\n      \"height\": 900,\n      \"naturalDocumentFlow\": true,\n      \"boardAndChildrenCannotShrink\": true,\n      \"magicAndKeypadCapsPreserved\": true\n    },\n    {\n      \"width\": 851,\n      \"height\": 720,\n      \"naturalDocumentFlow\": true,\n      \"boardAndChildrenCannotShrink\": true,\n      \"magicAndKeypadCapsPreserved\": true\n    },\n    {\n      \"width\": 333,\n      \"height\": 740,\n      \"naturalDocumentFlow\": true,\n      \"boardAndChildrenCannotShrink\": true,\n      \"magicAndKeypadCapsPreserved\": true\n    },\n    {\n      \"width\": 390,\n      \"height\": 844,\n      \"naturalDocumentFlow\": true,\n      \"boardAndChildrenCannotShrink\": true,\n      \"magicAndKeypadCapsPreserved\": true\n    },\n    {\n      \"width\": 400,\n      \"height\": 844,\n      \"naturalDocumentFlow\": true,\n      \"boardAndChildrenCannotShrink\": true,\n      \"magicAndKeypadCapsPreserved\": true\n    }\n  ]\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "twenty-four"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "6101685cc6f9e5ab60a372ccfcf71292813d945ffaab70dc372f02a25a22054a",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS twenty-four: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"twenty-four\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "alphametic"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "d5d29a29e9aa7f44c57206330000e60163d5787549d2288309a023c484c3d3b2",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS alphametic: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"alphametic\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "magic-square"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "5611e6ccf5e097cce989f98ffbc4efaf1dd3ec24ed423610e922394ec104c38b",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS magic-square: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"magic-square\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "remainder-code"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "6522927087e63508a90994c01cf44d7fcef9cd76624cf114e0ab433e7ebb2ead",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS remainder-code: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"remainder-code\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "balance-weights"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "301847510f91e968c20ea271b76648232cd0e40b671a6f3de1db5374913e56cd",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS balance-weights: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"balance-weights\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "fraction-cup"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "217749b11d6ad87b32412721881f64e817a152913ca7f1b02540a28fe23c1c2b",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS fraction-cup: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"fraction-cup\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "difference-sequence"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "45826f3a7f8f39771138c8474db10bc9461c7f90e97ae749a634a3a4b5df9d89",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS difference-sequence: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"difference-sequence\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "prime-bins"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "291681421a3c2636906e27a5a3422719d5a4cfc1411ca4624b4ef5865df97809",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS prime-bins: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"prime-bins\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "matchstick-equation"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "a757458c0f9c81b3d9e332d724b9e76fd4ad29d1e72af3e8bbe5415d6e2af460",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS matchstick-equation: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"matchstick-equation\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/numeric-common/dom-tests.cjs",
+            "misere-nim"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "9e4529768bc2e59684c991c7178d4dc45d7a23a1d1c0447db354e3b10d00bdda",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "DOM PASS misere-nim: 100 rendered/chosen/replayed/completed, isolated previews, hints, undo, save/reload, cancelled navigation\n{\n  \"slug\": \"misere-nim\",\n  \"passed\": true,\n  \"simulatedDOM\": true,\n  \"browserVisualValidation\": false,\n  \"levelsRenderedAndCompleted\": 100,\n  \"previewIsolated\": 100,\n  \"completedViaGameSpecificControls\": 100,\n  \"restoreAndCancel\": true\n}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {}
+    },
+    {
+      "id": "pin-and-ball-svg-100-challenges",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/pin-and-ball/verify-arrow-correction.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "d4b1bc5407b0f6a7aec98d426fe247d16d7c37d149636b494ce7a51fae5aebf6",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\n  \"schemaVersion\": 1,\n  \"gameId\": \"pin-and-ball\",\n  \"status\": \"passed\",\n  \"scope\": \"SVG path rendering structure and shipped-app event simulation; live Linux Chrome recheck remains for the parent corrective release.\",\n  \"levelsCompleted\": 100,\n  \"legalWitnessesIndependentlyRechecked\": 100,\n  \"solutionReplays\": 100,\n  \"undoAndReplayRestoration\": 100,\n  \"gameActions\": 1604,\n  \"renderedViewsInspected\": 2004,\n  \"svgArrowPathsInspected\": 9689,\n  \"routerDirectionsAndAccessibleLabelsChecked\": true,\n  \"fontDependentDirectionGlyphsAbsent\": true,\n  \"engineAndBothCorpusCopiesUnchanged\": true,\n  \"source\": {\n    \"path\": \"games/pin-and-ball/app.js\",\n    \"sha256\": \"ef4292030988db5cc606612ae6c4adea70301855e99f0ee903f9a260e519b0d4\"\n  }\n}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/pin-and-ball/arrow-correction-test-report.json": {
+          "sha256": "d4b1bc5407b0f6a7aec98d426fe247d16d7c37d149636b494ce7a51fae5aebf6",
+          "result": {
+            "schemaVersion": 1,
+            "gameId": "pin-and-ball",
+            "status": "passed",
+            "scope": "SVG path rendering structure and shipped-app event simulation; live Linux Chrome recheck remains for the parent corrective release.",
+            "levelsCompleted": 100,
+            "legalWitnessesIndependentlyRechecked": 100,
+            "solutionReplays": 100,
+            "undoAndReplayRestoration": 100,
+            "gameActions": 1604,
+            "renderedViewsInspected": 2004,
+            "svgArrowPathsInspected": 9689,
+            "routerDirectionsAndAccessibleLabelsChecked": true,
+            "fontDependentDirectionGlyphsAbsent": true,
+            "engineAndBothCorpusCopiesUnchanged": true,
+            "source": {
+              "path": "games/pin-and-ball/app.js",
+              "sha256": "ef4292030988db5cc606612ae6c4adea70301855e99f0ee903f9a260e519b0d4"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "path-labels-dual-layout-and-1000-dom-levels",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/path-lab/label-layout.test.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "a6366f3779c127f97466bf4a50da082440dbcc8ff741a869ec9748f61a433353",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "fdd4cd42c61293825ea23a45d9fe7dccae0f7c77d66abb0bc\"\n    },\n    {\n      \"path\": \"games/energy-network/levels.js\",\n      \"sha256\": \"f1438954dcfc3af29e6e73c0482bbc379c259f7d8327a755fbea9de15fa47a0d\"\n    },\n    {\n      \"path\": \"games/single-teleport/levels.json\",\n      \"sha256\": \"24ded4e3d72c6a20c83ce4d8cad60b03e32fdc1a50f1084885fdc249eefaf5f4\"\n    },\n    {\n      \"path\": \"games/single-teleport/levels.js\",\n      \"sha256\": \"46d22bb986a1f75165e324c79ae966b2a3755a1051c0d1f6cde4512298d135c4\"\n    },\n    {\n      \"path\": \"games/color-gates/levels.json\",\n      \"sha256\": \"6898e1c24dfa6f84cb8b85a032144681066ce6cb21b05921bdca5f0f584586b0\"\n    },\n    {\n      \"path\": \"games/color-gates/levels.js\",\n      \"sha256\": \"f83dbbe9d503e6ad0be747424b799553f3d5a2c52b55f5b415ac3d05eb236532\"\n    },\n    {\n      \"path\": \"games/tether-maze/levels.json\",\n      \"sha256\": \"9da220196ddb5d025e3cdb53e7e092b44e56ea70d374da43eb7db76e9bcd8517\"\n    },\n    {\n      \"path\": \"games/tether-maze/levels.js\",\n      \"sha256\": \"d611f068c5a65f9c623bed78e95f80a415f8fc22d5250eeaf7dbb30a15f597b8\"\n    },\n    {\n      \"path\": \"games/reversible-stairs/levels.json\",\n      \"sha256\": \"7c5d4af1ae976fa3141189354cd3b30c15ded82ce2ddbfadc8e06ce69d1c1cab\"\n    },\n    {\n      \"path\": \"games/reversible-stairs/levels.js\",\n      \"sha256\": \"dc77b010ad201e1be34bec3367776673b7904d5ba69d85febe4143f3d1183b3e\"\n    },\n    {\n      \"path\": \"games/tour-route/levels.json\",\n      \"sha256\": \"5bbbde6cc03b075f4723e6de4a529969a1804c89aa02fba1c8f0fa71ba2db19b\"\n    },\n    {\n      \"path\": \"games/tour-route/levels.js\",\n      \"sha256\": \"da3deec08e9a9bde9b553fc6d0bcfd5c4d317d4af038004cc6da74978d988dcc\"\n    }\n  ],\n  \"scope\": \"Actual renderer geometry: all Euler badges distinct, bounded, node-clear and deterministic. Does not replace real-browser screenshot review.\"\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/path-lab/dual-layout.test.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "36e24f8922630e7a460005a6e5d6a0c7d9de385453e828eedc8b836100612dea",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\n  \"passed\": true,\n  \"assertions\": 13447,\n  \"levels\": 100,\n  \"viewportLayouts\": 700,\n  \"viewports\": [\n    333,\n    400,\n    600,\n    601,\n    720,\n    721,\n    1180\n  ],\n  \"minimumRenderedTileCSSPixels\": 43,\n  \"minimumAdjacentTileClearanceCSSPixels\": 3,\n  \"scope\": \"CSS-bound layout arithmetic for every dual-shadow level on both sides of responsive breakpoints; actual-app DOM rendering is a separate test, and real-browser confirmation remains required.\"\n}\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "games/path-lab/app.test.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "580d6e2b653fecdd95dc93396927635ce81cad122675427b3b78bb83f6fa4482",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "{\n  \"passed\": true,\n  \"assertions\": 2324,\n  \"actualAppScripts\": true,\n  \"simulatedDOM\": true,\n  \"browserQA\": false,\n  \"coverage\": [\n    \"all 1000 actual app level renders\",\n    \"interactive touch-style button dispatch\",\n    \"accessible labels and 100-level selector\",\n    \"hint nondestructive and assistance marking\",\n    \"independent solution replay, no completion credit\",\n    \"undo and modal cancel/Escape/stale navigation\",\n    \"manual witness completion\",\n    \"storage failure survival\",\n    \"mounted view cleanup\"\n  ],\n  \"results\": [\n    {\n      \"gameId\": \"euler-bridges\",\n      \"assertions\": 234,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"knight-tour\",\n      \"assertions\": 232,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"dual-shadow-maze\",\n      \"assertions\": 235,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"tidal-maze\",\n      \"assertions\": 231,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"energy-network\",\n      \"assertions\": 229,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"single-teleport\",\n      \"assertions\": 231,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"color-gates\",\n      \"assertions\": 231,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"tether-maze\",\n      \"assertions\": 240,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"reversible-stairs\",\n      \"assertions\": 232,\n      \"allLevelsRendered\": 100\n    },\n    {\n      \"gameId\": \"tour-route\",\n      \"assertions\": 229,\n      \"allLevelsRendered\": 100\n    }\n  ]\n}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/path-lab/label-layout-test-report.json": {
+          "sha256": "a6366f3779c127f97466bf4a50da082440dbcc8ff741a869ec9748f61a433353",
+          "result": {
+            "passed": true,
+            "assertions": 64616,
+            "levels": 100,
+            "viewportLayouts": 300,
+            "widths": [
+              1180,
+              400,
+              333
+            ],
+            "minimumCSSPixelGap": 2.87196153550254,
+            "maximumLeaderOffset": 195.71165286053878,
+            "minimumNarrowTextCSSPixels": 12.214285714285714,
+            "preserved": [
+              {
+                "path": "games/path-lab/engine.js",
+                "sha256": "8498d1eb1fab67dbabfcc8405206b7db3c5017d13592fe45a31c9efe8b7e6b62"
+              },
+              {
+                "path": "games/path-lab/oracle.cjs",
+                "sha256": "51f8f533fa20d16f207055f4e69caad6266c184d5ffe306668ce7bffa46271f1"
+              },
+              {
+                "path": "games/path-lab/generate.cjs",
+                "sha256": "564eceffc43b185f04aa480a37bd39180e64999623a75a46e3c7eacdf820f89c"
+              },
+              {
+                "path": "games/euler-bridges/levels.json",
+                "sha256": "b31938a5a822eba07495c5a50c84d87291930e44b7b0b5c2453ea7a6b333b95e"
+              },
+              {
+                "path": "games/euler-bridges/levels.js",
+                "sha256": "258f89576a6e9ad7f825f2f1a704ec1f6825cbfaef6f66feb5a23ba0b6760d2f"
+              },
+              {
+                "path": "games/knight-tour/levels.json",
+                "sha256": "35bc6a253063578ce58d012d449f9678e75af6f418c54b7a919caf011c2658de"
+              },
+              {
+                "path": "games/knight-tour/levels.js",
+                "sha256": "e239545aff01158818adc5f6043bda5426b3ab2fb5d7a44ada095f7a0bedfeec"
+              },
+              {
+                "path": "games/dual-shadow-maze/levels.json",
+                "sha256": "fb28b4331c9a732f469d1d4478c9e595f15075a8c3d446cfc23221b520fc8bcb"
+              },
+              {
+                "path": "games/dual-shadow-maze/levels.js",
+                "sha256": "caa34df6c1f4d758e5fa24b25b37fb728193be6017203891045c52139bef6dfc"
+              },
+              {
+                "path": "games/tidal-maze/levels.json",
+                "sha256": "d77b2e376c7f332fca8663f1891c9e1c711375596796f069cc25e764eaec6345"
+              },
+              {
+                "path": "games/tidal-maze/levels.js",
+                "sha256": "3510e538e7749166a14d9b3b530a5930107990c338cff7e8b6aae9e18456d6b1"
+              },
+              {
+                "path": "games/energy-network/levels.json",
+                "sha256": "e6411a32c9532a3fdd4cd42c61293825ea23a45d9fe7dccae0f7c77d66abb0bc"
+              },
+              {
+                "path": "games/energy-network/levels.js",
+                "sha256": "f1438954dcfc3af29e6e73c0482bbc379c259f7d8327a755fbea9de15fa47a0d"
+              },
+              {
+                "path": "games/single-teleport/levels.json",
+                "sha256": "24ded4e3d72c6a20c83ce4d8cad60b03e32fdc1a50f1084885fdc249eefaf5f4"
+              },
+              {
+                "path": "games/single-teleport/levels.js",
+                "sha256": "46d22bb986a1f75165e324c79ae966b2a3755a1051c0d1f6cde4512298d135c4"
+              },
+              {
+                "path": "games/color-gates/levels.json",
+                "sha256": "6898e1c24dfa6f84cb8b85a032144681066ce6cb21b05921bdca5f0f584586b0"
+              },
+              {
+                "path": "games/color-gates/levels.js",
+                "sha256": "f83dbbe9d503e6ad0be747424b799553f3d5a2c52b55f5b415ac3d05eb236532"
+              },
+              {
+                "path": "games/tether-maze/levels.json",
+                "sha256": "9da220196ddb5d025e3cdb53e7e092b44e56ea70d374da43eb7db76e9bcd8517"
+              },
+              {
+                "path": "games/tether-maze/levels.js",
+                "sha256": "d611f068c5a65f9c623bed78e95f80a415f8fc22d5250eeaf7dbb30a15f597b8"
+              },
+              {
+                "path": "games/reversible-stairs/levels.json",
+                "sha256": "7c5d4af1ae976fa3141189354cd3b30c15ded82ce2ddbfadc8e06ce69d1c1cab"
+              },
+              {
+                "path": "games/reversible-stairs/levels.js",
+                "sha256": "dc77b010ad201e1be34bec3367776673b7904d5ba69d85febe4143f3d1183b3e"
+              },
+              {
+                "path": "games/tour-route/levels.json",
+                "sha256": "5bbbde6cc03b075f4723e6de4a529969a1804c89aa02fba1c8f0fa71ba2db19b"
+              },
+              {
+                "path": "games/tour-route/levels.js",
+                "sha256": "da3deec08e9a9bde9b553fc6d0bcfd5c4d317d4af038004cc6da74978d988dcc"
+              }
+            ],
+            "scope": "Actual renderer geometry: all Euler badges distinct, bounded, node-clear and deterministic. Does not replace real-browser screenshot review."
+          }
+        },
+        "games/path-lab/dual-layout-test-report.json": {
+          "sha256": "36e24f8922630e7a460005a6e5d6a0c7d9de385453e828eedc8b836100612dea",
+          "result": {
+            "passed": true,
+            "assertions": 13447,
+            "levels": 100,
+            "viewportLayouts": 700,
+            "viewports": [
+              333,
+              400,
+              600,
+              601,
+              720,
+              721,
+              1180
+            ],
+            "minimumRenderedTileCSSPixels": 43,
+            "minimumAdjacentTileClearanceCSSPixels": 3,
+            "scope": "CSS-bound layout arithmetic for every dual-shadow level on both sides of responsive breakpoints; actual-app DOM rendering is a separate test, and real-browser confirmation remains required."
+          }
+        },
+        "games/path-lab/app-test-report.json": {
+          "sha256": "580d6e2b653fecdd95dc93396927635ce81cad122675427b3b78bb83f6fa4482",
+          "result": {
+            "passed": true,
+            "assertions": 2324,
+            "actualAppScripts": true,
+            "simulatedDOM": true,
+            "browserQA": false,
+            "coverage": [
+              "all 1000 actual app level renders",
+              "interactive touch-style button dispatch",
+              "accessible labels and 100-level selector",
+              "hint nondestructive and assistance marking",
+              "independent solution replay, no completion credit",
+              "undo and modal cancel/Escape/stale navigation",
+              "manual witness completion",
+              "storage failure survival",
+              "mounted view cleanup"
+            ],
+            "results": [
+              {
+                "gameId": "euler-bridges",
+                "assertions": 234,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "knight-tour",
+                "assertions": 232,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "dual-shadow-maze",
+                "assertions": 235,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "tidal-maze",
+                "assertions": 231,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "energy-network",
+                "assertions": 229,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "single-teleport",
+                "assertions": 231,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "color-gates",
+                "assertions": 231,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "tether-maze",
+                "assertions": 240,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "reversible-stairs",
+                "assertions": 232,
+                "allLevelsRendered": 100
+              },
+              {
+                "gameId": "tour-route",
+                "assertions": 229,
+                "allLevelsRendered": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "management-mobile-selector",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/management-common/mobile-selector.test.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "1c5131aab12417dc2867bd90dc74e3bf57824a68a2ea2cad7d012f0f31a79b27",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "  \"assertions\": 286,\n  \"exactCssSha256\": \"24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab\",\n  \"desktopCssUnchanged\": true,\n  \"onlyMobileMediaRuleChanged\": true,\n  \"mobileLayoutDeclarationChecks\": {\n    \"widths\": [\n      333,\n      400\n    ],\n    \"selectorFullRow\": true,\n    \"selectorFlexShrink\": 0,\n    \"labelSeparateRow\": true,\n    \"actualBrowserLayoutMeasurement\": false\n  },\n  \"protectedPriorFiles\": 125,\n  \"historicalReportsUnchanged\": true,\n  \"corpusUnchanged\": {\n    \"games\": 10,\n    \"missions\": 1000,\n    \"proofs\": 1000\n  },\n  \"isolatedController\": {\n    \"passed\": true,\n    \"assertions\": 2947,\n    \"manualClicks\": 1042,\n    \"manualWinLevels\": [\n      \"001\",\n      \"050\",\n      \"100\"\n    ],\n    \"games\": 10\n  },\n  \"isolatedRules\": {\n    \"passed\": true,\n    \"assertions\": 138201,\n    \"legalWitnesses\": 1000,\n    \"witnessActions\": 32240,\n    \"canonicalDistinct\": 1000\n  },\n  \"isolatedStatic\": {\n    \"passed\": true,\n    \"checks\": 574\n  },\n  \"commands\": [\n    {\n      \"argv\": [\n        \"node\",\n        \"games/management-common/controller-test.cjs\"\n      ],\n      \"exitCode\": 0,\n      \"execution\": \"isolated temporary copy; source-tree historical reports untouched\"\n    },\n    {\n      \"argv\": [\n        \"node\",\n        \"games/management-common/audit.cjs\"\n      ],\n      \"exitCode\": 0,\n      \"execution\": \"isolated temporary copy; source-tree historical reports untouched\"\n    },\n    {\n      \"argv\": [\n        \"node\",\n        \"games/management-common/static-test.cjs\"\n      ],\n      \"exitCode\": 0,\n      \"execution\": \"isolated temporary copy; source-tree historical reports untouched\"\n    }\n  ],\n  \"browserQA\": {\n    \"status\": \"pending\",\n    \"note\": \"333/400 declaration checks and simulated DOM do not measure rendered widths. Live QA evidence must be recorded separately.\"\n  }\n}\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/management-common/mobile-selector-correction-report.json": {
+          "sha256": "1c5131aab12417dc2867bd90dc74e3bf57824a68a2ea2cad7d012f0f31a79b27",
+          "result": {
+            "schemaVersion": 1,
+            "id": "management-mobile-level-selector",
+            "passed": true,
+            "scope": "CSS-only runtime correction for the shared selector used by all ten management games. No engine, corpus, witness, root lobby or desktop styling changes.",
+            "assertions": 286,
+            "exactCssSha256": "24385e16427781602ab58c3102d88e58d96dc58d5b4e60323f942ff0d24df2ab",
+            "desktopCssUnchanged": true,
+            "onlyMobileMediaRuleChanged": true,
+            "mobileLayoutDeclarationChecks": {
+              "widths": [
+                333,
+                400
+              ],
+              "selectorFullRow": true,
+              "selectorFlexShrink": 0,
+              "labelSeparateRow": true,
+              "actualBrowserLayoutMeasurement": false
+            },
+            "protectedPriorFiles": 125,
+            "historicalReportsUnchanged": true,
+            "corpusUnchanged": {
+              "games": 10,
+              "missions": 1000,
+              "proofs": 1000
+            },
+            "isolatedController": {
+              "passed": true,
+              "assertions": 2947,
+              "manualClicks": 1042,
+              "manualWinLevels": [
+                "001",
+                "050",
+                "100"
+              ],
+              "games": 10
+            },
+            "isolatedRules": {
+              "passed": true,
+              "assertions": 138201,
+              "legalWitnesses": 1000,
+              "witnessActions": 32240,
+              "canonicalDistinct": 1000
+            },
+            "isolatedStatic": {
+              "passed": true,
+              "checks": 574
+            },
+            "commands": [
+              {
+                "argv": [
+                  "node",
+                  "games/management-common/controller-test.cjs"
+                ],
+                "exitCode": 0,
+                "execution": "isolated temporary copy; source-tree historical reports untouched"
+              },
+              {
+                "argv": [
+                  "node",
+                  "games/management-common/audit.cjs"
+                ],
+                "exitCode": 0,
+                "execution": "isolated temporary copy; source-tree historical reports untouched"
+              },
+              {
+                "argv": [
+                  "node",
+                  "games/management-common/static-test.cjs"
+                ],
+                "exitCode": 0,
+                "execution": "isolated temporary copy; source-tree historical reports untouched"
+              }
+            ],
+            "browserQA": {
+              "status": "pending",
+              "note": "333/400 declaration checks and simulated DOM do not measure rendered widths. Live QA evidence must be recorded separately."
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bubble-shooter-readable-labels",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "--test",
+            "games/action-common/bubble-labels.test.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "feb2f9efb8b0dcfcbb08bde995faca80646b4ccc8787f4fe817f8a0ff686e07e",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "kout: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (85.908293ms)\n✔ snake: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (22.466635ms)\n✔ pinball: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (9.322406ms)\n✔ bubble-shooter: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (11.579659ms)\n✔ rhythm-drums: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (19.790395ms)\n✔ parkour-run: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (12.066979ms)\n✔ space-dodge: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (9.943236ms)\n✔ whack-a-mole: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (16.433602ms)\n✔ fruit-slice: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (56.68949ms)\n✔ fishing-challenge: actual HTML scripts, canvas draw, navigation, input, pause and demo isolation in simulated DOM (15.54579ms)\n✔ game-specific actual pointer and key handlers deliver proper controls (48.577708ms)\n✔ actual pointer cancellation and release stop space-dodge movement commands (11.095872ms)\n✔ fruit actual DOM: pointerdown alone never slices and non-cutting hover positioning works (59.358355ms)\n✔ Bubble Shooter uses readable labels with unchanged pointer/keyboard controls (3.606526ms)\n✔ All other action games retain their exact declared visible and accessible labels (89.099439ms)\nℹ tests 15\nℹ suites 0\nℹ pass 15\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 586.448504\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "games/action-common/bubble-label-correction-report.json": {
+          "sha256": "e2e870414a70670d54e5f2a6d90d08634c1519d9b4d37dae2990a1e2591aa912",
+          "result": {
+            "schemaVersion": 1,
+            "id": "bubble-shooter-readable-labels",
+            "scope": "Presentation labels in shared UI only",
+            "baseCommit": "f03965d04c025c5219055bc9705a6a394d6810e1",
+            "status": "offline-regressions-passed-awaiting-browser-retest",
+            "changedRuntime": [
+              "games/action-common/ui.js"
+            ],
+            "beforeSHA256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0",
+            "afterSHA256": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de",
+            "displayLabels": {
+              "left": "左轉",
+              "right": "右轉"
+            },
+            "controlBindingsUnchanged": true,
+            "visibleAndAccessibleLabelsMatch": true,
+            "otherNineGamesLabelsUnchanged": true,
+            "unchangedPriorOwnedFiles": 104,
+            "enginesCorporaAndCertificatesUnchanged": true,
+            "focusedTest": {
+              "argv": [
+                "node",
+                "--test",
+                "games/action-common/bubble-labels.test.cjs"
+              ],
+              "passed": true,
+              "tests": 15,
+              "includes": "Ten shipped-HTML DOM lifecycle tests, all game-specific pointer/key controls, cancellation regressions, readable-label and exact action-binding checks."
+            },
+            "sourceFiles": {
+              "games/action-common/ui.js": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de",
+              "games/action-common/bubble-labels.test.cjs": "2c3bda8eb0373b19e71e9828a50fbd2ef3e316afacb8183346b0a63ffb5fe5f2"
+            },
+            "fullHistoricalSuitesRerun": false,
+            "browserQA": "corrective-retest-pending"
+          }
+        }
+      }
+    },
+    {
+      "id": "150-game-integration-and-negative-regressions",
+      "passed": true,
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "verify-expansion.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "bc5abe8853ce56b45ab12c23bb1483e249bdb7b324773d1bc69b35d6faa1f2dc",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS: 1227 local HTML/CSS references across 236 files; no missing assets or navigation targets.\nPASS: 150 games including all 70 unchanged records, 80 distinct new illustrations, 782 preserved game assets, 8 primary categories, 461 search cases, grouped/keyboard/reset/history contracts and versioned links. Browser visual testing is separate.\nPASS: 80 new games × 100 selectable challenges with complete typed certificates; frozen source hashes, canonical counts, 150-game registry, categories, titles, old assets and local references. Run verify-all.cjs for fresh independent solver/controller evidence.\n",
+          "stderrTail": ""
+        },
+        {
+          "argv": [
+            "node",
+            "verify-integration-regressions.cjs"
+          ],
+          "exitCode": 0,
+          "stdoutSHA256": "cd81ee75d66027453f6b21951bb91b4891797b84b079bd850f69c0bc4dd8d242",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdoutTail": "PASS: 8 intentional integration corruptions rejected for the expected reason; original source untouched.\n",
+          "stderrTail": ""
+        }
+      ],
+      "freshReports": {
+        "expansion-lobby-verification-report.json": {
+          "sha256": "5c6809cdee7c13eded4816e228b91963f71409546118b2713f082bc0f0325558",
+          "result": {
+            "passed": true,
+            "build": "20261002-expansion80",
+            "baseCommit": "4867af6a1b114d79b57c19c727f571e2fc84741e",
+            "registryCount": 150,
+            "newGames": 80,
+            "newChallenges": 8000,
+            "primaryCategoryCounts": {
+              "tabletop": 22,
+              "cards": 16,
+              "numbers": 19,
+              "deduction": 24,
+              "spatial": 20,
+              "paths": 18,
+              "simulation": 17,
+              "quick": 14
+            },
+            "eachGameAssignedExactlyOnce": true,
+            "originalRegistryAndArtworkUnchanged": true,
+            "preservedGameAssets": 782,
+            "preservedHistoricalReports": 7,
+            "searchCases": 461,
+            "checks": [
+              "Eight prominent labeled category tiles and native selector",
+              "All 150 games in semantic groups with stable IDs and versioned links",
+              "Every title, English name and game ID searchable",
+              "NFKC/case/whitespace normalization and all-game search from other categories",
+              "Empty/reset, clear-search, Escape, Enter and repeated-interaction flows",
+              "Category/query deep links, refresh, Back/Forward and unrelated URL preservation",
+              "Semantic buttons/select, explicit responsive-safe selector name, focus return, polite status and responsive/reduced-motion source checks"
+            ],
+            "claims": {
+              "offlineRulesAndSimulatedDOM": true,
+              "browserVisualTestingClaimed": false,
+              "mobileBrowserTestingClaimed": false
+            },
+            "sourceFiles": {
+              "app.js": "288c1f123399f5e904aafb8dd4ca170294e32776890e10a939d7008bd1e2fac1",
+              "index.html": "af5efdedfd19a1fb09233933528b5b595250bc5d9fb335b3beaa9c0053ec0e46",
+              "styles.css": "d1eb17e232bff2ac72abd9c386c7751c853e66b85ca16ead893041ba73b42788",
+              "verify-lobby.cjs": "e45cf3f90a4bca1cdfe28a56faa3ab4b6b605ab9c5ffaa4f615042a75d0b3502",
+              "lobby-categories-preservation.json": "76f042a1be2d6b940ef0d0d493be0a7b26620befb6e6bf43ceeacc762e5cb87d",
+              "expansion-manifest.json": "35ed1d1eb486baf8d005b0f64b48e02e669237e9fae4021f8cd084dcac68ec75",
+              "expansion-preservation.json": "8eb674e3b6c1609073ab9fb13fb834096249a0fab6135a524975945577b3714f"
+            }
+          }
+        },
+        "expansion-verification-report.json": {
+          "sha256": "b650d2fb2755766f3e09317cd6ebf8cd84182547f2ab5cd8cbaff2f953e3efa7",
+          "result": {
+            "schemaVersion": 1,
+            "passed": true,
+            "scope": "Frozen-source structural integration and certificate coverage; each independent solver is rerun in the complete aggregate audit",
+            "build": "20261002-expansion80",
+            "baseCommit": "4867af6a1b114d79b57c19c727f571e2fc84741e",
+            "registryCount": 150,
+            "newGames": 80,
+            "newChallenges": 8000,
+            "proofs": 8000,
+            "canonicalDistinct": 8000,
+            "proofKindChallengeCounts": {
+              "forced-strategy": 300,
+              "local-tactic": 800,
+              "policy-witness": 1000,
+              "reachability": 2600,
+              "assignment": 2000,
+              "epistemic-proof": 200,
+              "real-time-witness": 1100
+            },
+            "primaryCategoryCounts": {
+              "tabletop": 22,
+              "cards": 16,
+              "numbers": 19,
+              "deduction": 24,
+              "spatial": 20,
+              "paths": 18,
+              "simulation": 17,
+              "quick": 14
+            },
+            "originalGameAssetsPreserved": 782,
+            "originalRecordsAndArtPreserved": 70,
+            "frozenExpansionFiles": 1011,
+            "localReferenceAudit": {
+              "files": 236,
+              "references": 1227
+            },
+            "games": [
+              {
+                "id": "chess",
+                "title": "西洋棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "forced-strategy",
+                "claim": "Every legal action independently enumerated; exactly one is immediate checkmate.",
+                "levelsSHA256": "44271c0be56e52f34d2238a84b76ddaadec8789f3ef5d2ffc4c536a315617df4",
+                "proofSHA256": "164074a5ed7eec7637b3ba9a10e205bcbedf1f31dc17bc60d70414fe3deb614f",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "go9",
+                "title": "圍棋（9路）",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "ee52e818abd4f6efdd77826ea44c0461d91807c3ec6fcf75a3fbe3d373d511e8",
+                "proofSHA256": "4f36c32506fb70768ada895c7a294932ecdae403c99d83d3c40768f60fccf857",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "shogi",
+                "title": "日本將棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "forced-strategy",
+                "claim": "Every legal action independently enumerated; exactly one is immediate checkmate.",
+                "levelsSHA256": "1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad",
+                "proofSHA256": "8a5e1ece075f72add34ad45d0cd5c01f33b9a47076c2628b1c57f91e1e1a4473",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "dou-shou-qi",
+                "title": "鬥獸棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "41aac8e0e6c92b46d266ada1486292d11a4880e39cd6d11b7833b3ffcd924270",
+                "proofSHA256": "19acdd1c6ae02d4aa9842382ebb80feed5b554cb202bb819820a118a85b47d7c",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "backgammon",
+                "title": "西洋雙陸棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "475b222c1114ace8d14ebaaa4b79081d014aa0de9b0bac0a1bf56dd7e37f53a9",
+                "proofSHA256": "a957e0d7203bce904b9899e01b08c319d38ad1435640076e32ab83c25dae56a7",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "hex",
+                "title": "六角連線棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "624cd59bd08663083211654d28b4cf23f6e22e94cef7007cab0c6d1001406eec",
+                "proofSHA256": "85f0f695e11de27709055df600b0428ec2690a43944de414a7105fff4439c0a4",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "dots-and-boxes",
+                "title": "圍方棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "75048e94224c3204c854e6a24399e24dee6a027fed6a68331fa8646f5be99e8f",
+                "proofSHA256": "3dd7c320018c51ffc77c296dbdab2cc54c6262e1ece6131eb9bea61b22c26e97",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "ataxx",
+                "title": "黑白翻轉棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "64b3be91755c857a9b7c5bc90b39937b28a43fd71b0a879e62d7910b3c476881",
+                "proofSHA256": "c8bbccdaaa26c15d7e8c65ae6f4896eb92b18caf36f1f239f7d5ad2185eeff86",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "amazons",
+                "title": "亞馬遜棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "ded332deea32faa99321665d194791f8a191fb7bcc4b4cb16ff2f2b154000ca6",
+                "proofSHA256": "8904a104feb9124c4c53db80d00d90b665360c5688bb560a2b7e89431fc69917",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "hnefatafl",
+                "title": "北歐國王逃脫棋",
+                "category": "tabletop",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "local-tactic",
+                "claim": "Witness proves the exact local objective, not a longer-game forced win. No fixed-opponent or hidden future action is needed.",
+                "levelsSHA256": "447b07f0e169afb26f4365b92d1817e2b4a06e9feebf85fad3da9ea8ec4c5e22",
+                "proofSHA256": "4e2045e877cd56e1f58088884549aa67c0b16472a6194565c87cb392c5600dfd",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "big-two",
+                "title": "大老二",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "0d639ec6ac4bbc7466465a30e83d605fab85b7e6d382d2448ebe5ead9de06fae",
+                "proofSHA256": "172ac936259f2d373cd134d3baac71425d682b64fc638b6c3213b3bcd4611864",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "dou-dizhu",
+                "title": "鬥地主",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "3e63b50f583f04c95374af8750952df890d26dd157a86b939f8bcbe26d4a3225",
+                "proofSHA256": "5422e034bc9ab11ad9575430c1d0a8fa9e8c58c7b7314ff98b5af282490c34a6",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "sevens",
+                "title": "排七",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "ee2c8f7d5c6fdcf63a49560c02d078334352113c401c8ede40a320de332894e5",
+                "proofSHA256": "771059072a6d24f1303400d795a3b5092c30839acdce0169927870ae8f8b2b35",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "chinese-poker",
+                "title": "十三支",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "af095999f262fc6beac483fc09fb1740e69f8ff04c89edf4df36f700e8cbefa1",
+                "proofSHA256": "d66da03b281548a7f0ae3114e908d894c60dd5b467faf315ac57ac77895168f7",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "hearts",
+                "title": "紅心大戰",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "01770ecde705db7cdd57531949594b3163c65d1f613b92b6d036b9f59994044a",
+                "proofSHA256": "cca4f5acdcb2d38b7499249d079412eb0ff1183aded2e615e2d45b9cb9121ca3",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "crazy-eights",
+                "title": "瘋狂八",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "58d5cc48c2d103fa3e141c5dae657292896556bd046caf81073bd5e9a9b9e0de",
+                "proofSHA256": "1fc292624d4ff09962dadf7c4c3cece731092633eaf54b0479925aa0e9f47652",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "gin-rummy",
+                "title": "金拉米",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "9f7c2c4eb97f5c82da1e4a125ea1a0abc78725827255a751086913b57ec4b017",
+                "proofSHA256": "1fe439f8e4ae3666075132c45878c58745215e4b5bbed1954d29bfc53dd4c1cf",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "spades",
+                "title": "黑桃",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "16d20e6958dbd96087ba580d4b22d262e9a44a48c4dabb680aa592fee973fccc",
+                "proofSHA256": "56eb73020e760a2dc9cd7d93e2bc83324ba06d443087f08f904f38b224a79fca",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "contract-bridge",
+                "title": "合約橋牌",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "2ded8d0e21a7ee14b3a4ff7054e7cf35c8fbd6e8b4ba6738c07db093587fdac5",
+                "proofSHA256": "d4998b2839687197231792284578c5e2dfac91ec9ea9b99586773c383d48113f",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "texas-holdem",
+                "title": "德州撲克",
+                "category": "cards",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "policy-witness",
+                "claim": "A complete open-hand witness reaches the declared result against fixed public-normal-v1 opponent policy and a fixed seeded deck. It does not prove a forced win against arbitrary opponents.",
+                "levelsSHA256": "5a203faa2333077269ff76fa572183cbc3a757932189cb94d984f6a2f162eaf7",
+                "proofSHA256": "4344f93cafd66d6e6c81690888532fa42bf2e841ea3d062ec8f02063205e8267",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "twenty-four",
+                "title": "24點",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "8cecac0cad570a9adea0d752b9ba0eb4aab47c94255fea8d2f3bdbc12d571507",
+                "proofSHA256": "81aa59573a998c9a32f24adb1e1e59e4ea5b7098d6aadfb77c65e16a4f94fb28",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "alphametic",
+                "title": "字母算式",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "bac6aca30af1edf3c90d01b0c909cb8e40b6aa29fb75bd5530336857d2158681",
+                "proofSHA256": "1833afe02b1cc25250615b6a698de9133b990643cb2f32a205c81ca60abaa1a7",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "magic-square",
+                "title": "魔方陣",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "c851bbfb05dcd5cdac8dd39f93048131a6ea1aca9590aecc917ad178a4c22b77",
+                "proofSHA256": "af938d371c7b4602785d6716e075dbe8351b70e145ab92cc35c003e2597c36bb",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "remainder-code",
+                "title": "餘數密碼",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "b8ad7b5844834c03eb530ae78fefa147c1a4eda7fec77ff07264e3163bd3cc6e",
+                "proofSHA256": "cb5da49c3df23e58a2d4db28cbdd2377393c0da92455b5d58d013a9949dafee8",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "balance-weights",
+                "title": "天平重量",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "3d91060b1d84aa85091018d84c750030010d287f9007cd4609d20478c12534e8",
+                "proofSHA256": "1fce371e0cfc258a71d6991068b8bab6fba11d7b3fd47c9747fe9f9da0bac509",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "fraction-cup",
+                "title": "分數滿杯",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "cb2ef46c1a9a05a8834d311a3ee5bc2fc22e2f45301d70984653038cccaa2462",
+                "proofSHA256": "745cdb26614df1a67a0d5527ab8ff49734eceeed0f52b49b20dfaf7b746234f8",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "difference-sequence",
+                "title": "差分數列",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "e891cce22604ff0fb7c29011831bbd0c752d85396c72cae8bca031682926bd61",
+                "proofSHA256": "516018e14e168e69c5a0cc6b3efab4002b2fc87b7182c06940c41e79d90eb3fb",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "prime-bins",
+                "title": "質因數分箱",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "befa81b12c25885719ec522f1ca0ccc7add361c80708bca2ad2ac893fa2365a8",
+                "proofSHA256": "f893d4f3a2de6b241f771a17b2e3f5299115ab58b6fd08e1139e9b6e399e5d87",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "matchstick-equation",
+                "title": "算式火柴",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent public-rule validation and legal witness replay establish at least one completion; uniqueness is claimed only in the game audit where explicitly counted.",
+                "levelsSHA256": "1e44abec369f1a820ef2e47bea5445622c7aa30b3a4de33733cd28f0b3b9d68f",
+                "proofSHA256": "0109959b14b598fe3289f6bb98abfaa598d22baf6c1a3cd99f2cbf43d10b01df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "misere-nim",
+                "title": "多堆取石",
+                "category": "numbers",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "forced-strategy",
+                "claim": "Independent all-reply minimax proves a winning strategy in the displayed misère rules.",
+                "levelsSHA256": "9ea14e4c0b4465f8b5093963983af89b80c33499b99f5a63a2cba8d0c46af085",
+                "proofSHA256": "90cfc5dc010515b025f2397fe2ad44347198051698dd9b2079c7ef7455fa483d",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "logic-grid",
+                "title": "邏輯配對",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "8d0adf103b5ea5f0de2207a709ad148e7b64eaf53b8b99fd636ea7b473f3fb30",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "truth-liars",
+                "title": "真話與謊言",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "d0bc7689a194dfff37d0dca09507f9af83f55eb3b5fb407ea24dbba5e23018ee",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "alibi-timeline",
+                "title": "時間線追兇",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "75dc88744ba349f380a12c1dc58358942985a8efcd21008197ac610f0bdc75c7",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "substitution-cipher",
+                "title": "替換密文",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "cd8479bdd92b70b4b737a10b4ff3576f1b634be2f1eda4d76c924a60389b4764",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "family-tree",
+                "title": "家譜追蹤",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "73b77d7f2c39c077d33d9c148309c9406d5008e08bccc7e0aa45f1a6a65f270c",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "hat-deduction",
+                "title": "帽色推理",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "epistemic-proof",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "e3d3b66dd11739953f50f265757d39d43413caabdb3392247d80b9ad770541cd",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "evidence-order",
+                "title": "物證因果",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "3836c6f0ae7f3d654550f8ba2c27af955b302f0faf529b2ca6944380955db817",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "rule-lab",
+                "title": "規則實驗室",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "epistemic-proof",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "6eb3ee612a108f1c7e5fffafb99823af1169fc0f8d69f2176a01ce619caa5bfb",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "landmark-location",
+                "title": "地圖定位",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "efc396980130cfd11e342fdb3d071049677e65d901b3ce76a0927c34f49e7ecc",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "escape-inventory",
+                "title": "密室道具",
+                "category": "deduction",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent enumeration of the visible constraints, finite hypotheses or reachable states checks each certificate; all rule-valid alternate answers are accepted.",
+                "levelsSHA256": "6863bc07e0a143fdb712fd57a02a79cafb74ceb15a0b48af7be19e078202d8fc",
+                "proofSHA256": "ced34eaf8dcad4d24d9db3c1eeea30ca9404f16c2266c3956aa5fcd1cd29b7df",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "jigsaw-workshop",
+                "title": "拼圖工坊",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "1965c5c97fd74aa50261330d4e1ba4d0056e13da3ab3f3c4b92b23d49a12e8c3",
+                "proofSHA256": "1965c5c97fd74aa50261330d4e1ba4d0056e13da3ab3f3c4b92b23d49a12e8c3",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "rolling-block",
+                "title": "滾方塊過橋",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "d0b092f1582df69f5d4b58534e9625e69a3d6ff61e0d255cb6d9a940718e120b",
+                "proofSHA256": "d0b092f1582df69f5d4b58534e9625e69a3d6ff61e0d255cb6d9a940718e120b",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "cube-nets",
+                "title": "立方體展開圖",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "1d44116f648350357e5fef23fa7b2c35d59a32724743bf06f7938f95211e64ea",
+                "proofSHA256": "1d44116f648350357e5fef23fa7b2c35d59a32724743bf06f7938f95211e64ea",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "shadow-sculpture",
+                "title": "光影雕塑",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "9e63549e6f8a9bdedf9b50dbb670a8ee33dec7876c32e9df443ff74dc1e7156c",
+                "proofSHA256": "9e63549e6f8a9bdedf9b50dbb670a8ee33dec7876c32e9df443ff74dc1e7156c",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "three-view-blocks",
+                "title": "三視圖積木",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "cc759e1d499b6a2dc49771b4c180d15e0790e1bb39df47b5ea8bb43a5e2661c0",
+                "proofSHA256": "cc759e1d499b6a2dc49771b4c180d15e0790e1bb39df47b5ea8bb43a5e2661c0",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "paper-fold",
+                "title": "摺紙剪影",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "37210aa957c8a79715352e94a06a52f861941fc9636214603d8703b139fe1259",
+                "proofSHA256": "37210aa957c8a79715352e94a06a52f861941fc9636214603d8703b139fe1259",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "gear-workshop",
+                "title": "齒輪工坊",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "9bc449ca611e66ed42f4d4baa9c2417ec369d6d36fc260ca5fe9fffba57dab24",
+                "proofSHA256": "9bc449ca611e66ed42f4d4baa9c2417ec369d6d36fc260ca5fe9fffba57dab24",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "overlay-colors",
+                "title": "透明片疊色",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "assignment",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "fdb6ad1c8d942de8aa9e062902d4b46369caa663cb97e46cff63ffea3c0bcd15",
+                "proofSHA256": "fdb6ad1c8d942de8aa9e062902d4b46369caa663cb97e46cff63ffea3c0bcd15",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "balance-builder",
+                "title": "重心建築師",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "5a2e3ec9fb4b08bca86c739e5ac6e7784557ee6b8ebbb0e0a179e5e3b9e164f9",
+                "proofSHA256": "5a2e3ec9fb4b08bca86c739e5ac6e7784557ee6b8ebbb0e0a179e5e3b9e164f9",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "pin-and-ball",
+                "title": "抽棒落球",
+                "category": "spatial",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "An independent geometric or discrete-model transition checker replays a legal completion; no unique-solution or unrestricted continuous-physics claim.",
+                "levelsSHA256": "64c379bedbe4a31ae5ee6f654cda48d7dcb777d97026528e434ec948dfe851a9",
+                "proofSHA256": "64c379bedbe4a31ae5ee6f654cda48d7dcb777d97026528e434ec948dfe851a9",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "euler-bridges",
+                "title": "一筆走橋",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "b31938a5a822eba07495c5a50c84d87291930e44b7b0b5c2453ea7a6b333b95e",
+                "proofSHA256": "b31938a5a822eba07495c5a50c84d87291930e44b7b0b5c2453ea7a6b333b95e",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "knight-tour",
+                "title": "騎士巡遊",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "35bc6a253063578ce58d012d449f9678e75af6f418c54b7a919caf011c2658de",
+                "proofSHA256": "35bc6a253063578ce58d012d449f9678e75af6f418c54b7a919caf011c2658de",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "dual-shadow-maze",
+                "title": "雙影迷宮",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "fb28b4331c9a732f469d1d4478c9e595f15075a8c3d446cfc23221b520fc8bcb",
+                "proofSHA256": "fb28b4331c9a732f469d1d4478c9e595f15075a8c3d446cfc23221b520fc8bcb",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "tidal-maze",
+                "title": "潮汐迷宮",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "d77b2e376c7f332fca8663f1891c9e1c711375596796f069cc25e764eaec6345",
+                "proofSHA256": "d77b2e376c7f332fca8663f1891c9e1c711375596796f069cc25e764eaec6345",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "energy-network",
+                "title": "能量路網",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "e6411a32c9532a3fdd4cd42c61293825ea23a45d9fe7dccae0f7c77d66abb0bc",
+                "proofSHA256": "e6411a32c9532a3fdd4cd42c61293825ea23a45d9fe7dccae0f7c77d66abb0bc",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "single-teleport",
+                "title": "單次傳送",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "24ded4e3d72c6a20c83ce4d8cad60b03e32fdc1a50f1084885fdc249eefaf5f4",
+                "proofSHA256": "24ded4e3d72c6a20c83ce4d8cad60b03e32fdc1a50f1084885fdc249eefaf5f4",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "color-gates",
+                "title": "變色通路",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "6898e1c24dfa6f84cb8b85a032144681066ce6cb21b05921bdca5f0f584586b0",
+                "proofSHA256": "6898e1c24dfa6f84cb8b85a032144681066ce6cb21b05921bdca5f0f584586b0",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "tether-maze",
+                "title": "牽繩迷宮",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "9da220196ddb5d025e3cdb53e7e092b44e56ea70d374da43eb7db76e9bcd8517",
+                "proofSHA256": "9da220196ddb5d025e3cdb53e7e092b44e56ea70d374da43eb7db76e9bcd8517",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "reversible-stairs",
+                "title": "倒轉階梯",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "7c5d4af1ae976fa3141189354cd3b30c15ded82ce2ddbfadc8e06ce69d1c1cab",
+                "proofSHA256": "7c5d4af1ae976fa3141189354cd3b30c15ded82ce2ddbfadc8e06ce69d1c1cab",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "tour-route",
+                "title": "巡迴路線",
+                "category": "paths",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent forward transition replay reaches the declared route objective. Canonicalization is game specific; optimality is claimed only where the per-game proof establishes it.",
+                "levelsSHA256": "5bbbde6cc03b075f4723e6de4a529969a1804c89aa02fba1c8f0fa71ba2db19b",
+                "proofSHA256": "5bbbde6cc03b075f4723e6de4a529969a1804c89aa02fba1c8f0fa71ba2db19b",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "hotel-manager",
+                "title": "旅館經理",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "11f66f1a7636d60474e299ac4b68c47248315cf7998ecdf7fe920b880175f2a4",
+                "proofSHA256": "ed24cec9f6bf2a0e9b156f7fccbd42c87bc69c9e23b5793cc6009754dc326449",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "repair-shop",
+                "title": "二手修理店",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "7b7e788e68d2b5f19530dfdc670564c74a024778f2be5f89a34d44dfd115f923",
+                "proofSHA256": "a2d8f9806598ad3c30cb1c9b50d38c567a6c7eea66dc46fb133b9703c4396f49",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "museum-curator",
+                "title": "博物館策展",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "b5b95e224ffc8366a18404001ce5717883f33302909b6a243f01c8f82b9424f9",
+                "proofSHA256": "5c2e5d98b6cc8f08f020580c6636affc7c4391fb9b7bff2cbb0ff2f7da6cef1c",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "theater-manager",
+                "title": "劇院經理",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "ee9376ac61d9050517814bdf84faf2bff0ef53ac0f73823599e1dd9deaacbdab",
+                "proofSHA256": "5d7f02c7a78bd0459102f6d1653529f1ae68d1b91b9689c38a78bfcb928b9563",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "caravan-trade",
+                "title": "商隊交易",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "19d51a801d7b253e65fae4698469aa9b369f669817e5db4076fc0abb6d2db44f",
+                "proofSHA256": "b9d4d5300ff3eb5ccd4d9131cc8dbb648aa9a5ce478971fc02af9d58a0c48c78",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "tower-defense",
+                "title": "塔防守城",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "aec8e264b74d143cc53effce92dda366e0e762929e7763b59f839bb808d4575a",
+                "proofSHA256": "c6b41eb907891d26786b2dadf1f99c152e063315497f46736663fe06c20b7ff4",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "deep-sea-treasure",
+                "title": "潛海尋寶",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "a48c50a9a6fa4b7a399e6b4282f28226aca3184bdc6cf340dc69452d3b580245",
+                "proofSHA256": "d430625e3727bb7d7bc87a2d32ac77b6967f9862e78e56c0d198402cc2bdb81e",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "time-loop-adventure",
+                "title": "時間循環探險",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "b41275820049a7764c673084666440b1355bc7c79ab0b47c19ec7cf7893977b3",
+                "proofSHA256": "cd8ec1959652ccd5211f4c8b302f7aea9470e452ecddcebf6b1e15592760bdc4",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "conservation-park",
+                "title": "生態保育園",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "e922ea20f686d8e749bc1503316ab763d0c6835f21f49cda416544644cf7f533",
+                "proofSHA256": "bb03d298c4829945576f100e38171a90140ada8c45f253ff03c5b319265e3174",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "alchemy-lab",
+                "title": "鍊金研究所",
+                "category": "simulation",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "reachability",
+                "claim": "Independent resource and transition replay reaches the public scenario objective; no unique-solution or optimality claim. Tower defense uses public fixed ticks with building between waves and manual stepping.",
+                "levelsSHA256": "bc6428ccb7db2446a7d0e07534548e66b9feabc81be278c008e873f4ca256c96",
+                "proofSHA256": "fc99b0a68bf98f5ad8870d6b63b7fe0e253ec6abf49a533435c849ab02363fa8",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "breakout",
+                "title": "打磚塊",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "e41a38fd4242b8f4c16eeac1a7fc2ce4cc2746125cfb96328c70774f9d8fa4cb",
+                "proofSHA256": "ba9bd500746b5ba5b3530ef3ebdefc35085ee554027e0efdd147e93b7efe9b30",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "snake",
+                "title": "貪吃蛇",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "b69fdd700f1c30e2bc0ff4d1b32b57c2feeaf8ab7ce8b14e0bc015ea94195a98",
+                "proofSHA256": "c9d5cf15b996b068b77db05ea09da6f4af12b4ea332a094278ebedcfd9890e5b",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "pinball",
+                "title": "彈珠台",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "48c0f9412bfde718f6005589f626f7b3f551a8cff14d64f4ae45059e05ee28d4",
+                "proofSHA256": "87a359ea0cd7fe92d767467b344ccace36a7e09ca5557b242908505548ba73c8",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "bubble-shooter",
+                "title": "泡泡射擊",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "6d15560120e3d758cbe9893b77902ed7aad08ce827f1acf3eb010d9d8875bff2",
+                "proofSHA256": "d15082357cb0732cf24362bcaf30ddc5a6e609bfd7b9bc93ffd4e1dbdfa19b11",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "rhythm-drums",
+                "title": "節拍鼓手",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "b823038037f48c5969d2b1f23c68c37d1dfcb8f8e0c40e46e24343ee04b6508b",
+                "proofSHA256": "983b3c85c6aa8d27f91a9b573323b8262134e78ca14a0a360ba70d65f865fd20",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "parkour-run",
+                "title": "跑酷衝刺",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "0f9c69ae1df027d88f496c626aef48465b5e86205e8dd2efef6be8ca4cd69b37",
+                "proofSHA256": "6e7e62faa839820e13b99d0b17671e4aff848de5b3da972a5b03367f85be0a35",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "space-dodge",
+                "title": "太空閃避",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "7bace5f428561bd7c8cd8584546ee4cde44812e3b9c893c78494772ed3608e01",
+                "proofSHA256": "0491104f8607b4bbde3df3b6344ae581c90c32a0de7de7e50801239a413d5185",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "whack-a-mole",
+                "title": "打地鼠",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "d84cf8fbc0a1b13b6bd207ae9b7f3fa78493091c35498109d5c47d959dcb57d9",
+                "proofSHA256": "8d6d1af2b0c9050adeaa6f1db252e9c365ce28db25663f71d824e260589d505e",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "fruit-slice",
+                "title": "水果快切",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "470b53026a88174b3daf417205b6930827b947045c87ebfad314820a5289b51f",
+                "proofSHA256": "7c2f56d068e8ddcba2730a91147d1400172e617a3a9acfc6673b89e9f7d79702",
+                "browserQA": "not-run"
+              },
+              {
+                "id": "fishing-challenge",
+                "title": "釣魚挑戰",
+                "category": "quick",
+                "challenges": 100,
+                "proofs": 100,
+                "canonicalDistinct": 100,
+                "proofKind": "real-time-witness",
+                "claim": "An actual bounded fixed-tick input replay reaches the displayed objective in the deterministic arcade model under the same movement limits as manual play; no unique-solution or optimal-play claim.",
+                "levelsSHA256": "b9c8218fdd0a8e4823137962678a25ea1020c4d55aa1d4448bd47af7d7fa3229",
+                "proofSHA256": "969a29283f316ffc07b2eec4e09b3acc20e0a3f6f25b7e79e78f288fe098f767",
+                "browserQA": "not-run"
+              }
+            ],
+            "claims": {
+              "allChallengesAreUniqueSolutionPuzzles": false,
+              "allChallengeWinsAreForced": false,
+              "realBrowserVerified": false
+            },
+            "sourceFiles": {
+              "verify-expansion.cjs": "bcaa36d353ccdc1dcb6479fa7e923b35bb55de7bb4da24782c01e4a31223ae2d",
+              "expansion-manifest.json": "35ed1d1eb486baf8d005b0f64b48e02e669237e9fae4021f8cd084dcac68ec75",
+              "expansion-preservation.json": "8eb674e3b6c1609073ab9fb13fb834096249a0fab6135a524975945577b3714f",
+              "app.js": "288c1f123399f5e904aafb8dd4ca170294e32776890e10a939d7008bd1e2fac1",
+              "index.html": "af5efdedfd19a1fb09233933528b5b595250bc5d9fb335b3beaa9c0053ec0e46",
+              "styles.css": "d1eb17e232bff2ac72abd9c386c7751c853e66b85ca16ead893041ba73b42788"
+            }
+          }
+        },
+        "expansion-integration-regression-report.json": {
+          "sha256": "7117243e894a8dfaccd58bd06e568b3844e9d20189ea6b2d4eb62533341a835d",
+          "result": {
+            "schemaVersion": 1,
+            "passed": true,
+            "scope": "Intentional corruption of disposable copies; no runtime/browser test claim",
+            "checks": [
+              {
+                "name": "Changed original registry record",
+                "passed": true,
+                "expectedFailure": "All 70 original records"
+              },
+              {
+                "name": "Changed original artwork",
+                "passed": true,
+                "expectedFailure": "Original artwork unchanged: tiles"
+              },
+              {
+                "name": "Changed original game asset",
+                "passed": true,
+                "expectedFailure": "Game asset changed: games\\/number-lab\\.html"
+              },
+              {
+                "name": "Lost new primary-category assignment",
+                "passed": true,
+                "expectedFailure": "149 !== 150"
+              },
+              {
+                "name": "Repeated new artwork",
+                "passed": true,
+                "expectedFailure": "Eighty distinct new game illustrations"
+              },
+              {
+                "name": "Missing game asset reference",
+                "passed": true,
+                "expectedFailure": "Missing local reference.*missing-expansion-test"
+              },
+              {
+                "name": "False forced-win label for card scenario",
+                "passed": true,
+                "expectedFailure": "Card scenarios cannot be promoted"
+              },
+              {
+                "name": "Missing proof with otherwise refreshed source hash",
+                "passed": true,
+                "expectedFailure": "twenty-four proof coverage"
+              }
+            ],
+            "sourceFiles": {
+              "verify-integration-regressions.cjs": "65bf27847076e5931f2016068594e43f7e682cf75be06c2ed78dd21d5b251e82",
+              "verify-lobby.cjs": "e45cf3f90a4bca1cdfe28a56faa3ab4b6b605ab9c5ffaa4f615042a75d0b3502",
+              "verify-expansion.cjs": "bcaa36d353ccdc1dcb6479fa7e923b35bb55de7bb4da24782c01e4a31223ae2d",
+              "app.js": "288c1f123399f5e904aafb8dd4ca170294e32776890e10a939d7008bd1e2fac1",
+              "expansion-manifest.json": "35ed1d1eb486baf8d005b0f64b48e02e669237e9fae4021f8cd084dcac68ec75",
+              "expansion-preservation.json": "8eb674e3b6c1609073ab9fb13fb834096249a0fab6135a524975945577b3714f"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "correction-scope-negative-regressions",
+      "passed": true,
+      "cases": [
+        {
+          "id": "unrelated-rule-edit",
+          "rejected": true
+        },
+        {
+          "id": "post-freeze-css-edit",
+          "rejected": true
+        },
+        {
+          "id": "historical-aggregate-edit",
+          "rejected": true
+        },
+        {
+          "id": "unlisted-new-file",
+          "rejected": true
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "seconds": 59.76
+}
