@@ -1,0 +1,19 @@
+{
+  "game": "hearts",
+  "status": "passed",
+  "kind": "deterministic DOM harness, not browser rendering",
+  "checks": [
+    "actual card and phase controls",
+    "100 levels",
+    "hint",
+    "undo/reset",
+    "certified replay completion",
+    "replay cancellation",
+    "demo vs manual completion",
+    "level switch",
+    "dialog open/close",
+    "local reveal/escape/reload/visibility privacy",
+    "AI observation payload",
+    "storage failure recovery"
+  ]
+}
