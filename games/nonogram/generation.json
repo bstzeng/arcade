@@ -1,0 +1,19 @@
+{
+  "count": 50,
+  "source": "Authored monochrome pixel icons in generate.py",
+  "rejected": [
+    {
+      "name": "水滴",
+      "reason": "symmetry duplicate"
+    },
+    {
+      "name": "飛碟",
+      "solutionsAtLeast": 2
+    },
+    {
+      "name": "鉛筆",
+      "solutionsAtLeast": 2
+    }
+  ],
+  "difficulty": "Ascending board area + total number of clue runs / 5 + 2*(proof search nodes - 1); 5 tiers of 10. Structural proxy, not a human rating."
+}
