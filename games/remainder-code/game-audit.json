@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "remainder-code",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "claimedUniquenessPassed": 100,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "remainder-code",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "assignment"
+  ],
+  "sources": [
+    {
+      "path": "games/remainder-code.html",
+      "sha256": "88b2a42f13836c813c4f0fd1930c928c4ccf230f5e35ebe0872438f4fd822e57"
+    },
+    {
+      "path": "games/remainder-code/README.md",
+      "sha256": "938b0e18d1fa76287c71e6607a86a0c6455d3084575e886dd276d265eec91372"
+    },
+    {
+      "path": "games/remainder-code/app.js",
+      "sha256": "faab152291e082608253912e85dbad9b6a253fde078ded98c8b6278cfa2b7f10"
+    },
+    {
+      "path": "games/remainder-code/boundary-tests.cjs",
+      "sha256": "d028e6717dfdd17f8e44ac9225c8651670eaa25c0bf5331750d35f5ec8fa8a8b"
+    },
+    {
+      "path": "games/remainder-code/controller-tests.cjs",
+      "sha256": "b7638ef1b0717f63fb57f508dc3345cba95255b661b3ca45391a0fe550ae38fb"
+    },
+    {
+      "path": "games/remainder-code/engine.js",
+      "sha256": "80d855f69b24fbd5eb4804158001f04fd2e64254a512bb028d6bc19610ab6b31"
+    },
+    {
+      "path": "games/remainder-code/generate.cjs",
+      "sha256": "7da24511ca29462597e6eb71e0a2d04491604d84c754cffd640d19ee5d900863"
+    },
+    {
+      "path": "games/remainder-code/levels.js",
+      "sha256": "02d52a13775edd542bfd18c9fea3bcf71439d9f8958456629084acc8c2809071"
+    },
+    {
+      "path": "games/remainder-code/levels.json",
+      "sha256": "b8ad7b5844834c03eb530ae78fefa147c1a4eda7fec77ff07264e3163bd3cc6e"
+    },
+    {
+      "path": "games/remainder-code/proof-claims.json",
+      "sha256": "12306e34a5faa7b7a25790d0268bbb4368af87f95247ffd0d99116e269962ffe"
+    },
+    {
+      "path": "games/remainder-code/proofs.json",
+      "sha256": "cb5da49c3df23e58a2d4db28cbdd2377393c0da92455b5d58d013a9949dafee8"
+    },
+    {
+      "path": "games/remainder-code/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/remainder-code/test.cjs",
+      "sha256": "0054b6c2c5bb363d927fc871195053993a2e6655862c1cfbe9600b0223cc36f0"
+    },
+    {
+      "path": "games/remainder-code/ui-test.cjs",
+      "sha256": "458bee0b930327b6dfac647550f775f9148bf1100c05e9f1545c2aac6640859d"
+    },
+    {
+      "path": "games/remainder-code/verify.cjs",
+      "sha256": "73c4fef6b84b89f914b0c6b2785f583c2453af663811bdc387f6501bf743985a"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release."
+  ]
+}
