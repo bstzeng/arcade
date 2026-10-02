@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "correction": "numeric-layout-r2",
+  "runtimeScope": "CSS only",
+  "changedRuntimeFiles": [
+    "games/numeric-common/style.css"
+  ],
+  "previousCSSSHA256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee",
+  "cssSHA256": "1adffc7e0a269ddf49fac20c0c10a59657ce38abbb82a715f9b1aa765050910b",
+  "baselineLiveFinding": {
+    "release": "f03965d",
+    "viewport": [
+      1180,
+      757
+    ],
+    "magicSquare100": {
+      "stageTop": 142.98,
+      "boardTitleTop": 35.2,
+      "gridTop": 77.59,
+      "keypadBottom": 803.78,
+      "statusTop": 640.81
+    },
+    "alphametic": "Clear key overlaps status."
+  },
+  "fix": [
+    "Remove fixed desktop viewport-height shell and nested stage scrolling.",
+    "Allow natural document scrolling and nonshrinking board/stage children.",
+    "Top-align board content and retain horizontal-only magic-square auto margins.",
+    "Keep five-digit match layout within 333px screens."
+  ],
+  "staticCSS": {
+    "passed": true,
+    "kind": "static-css-regression",
+    "browserGeometryClaimed": false,
+    "cssSHA256": "1adffc7e0a269ddf49fac20c0c10a59657ce38abbb82a715f9b1aa765050910b",
+    "viewports": [
+      {
+        "width": 1180,
+        "height": 757,
+        "naturalDocumentFlow": true,
+        "boardAndChildrenCannotShrink": true,
+        "magicAndKeypadCapsPreserved": true
+      },
+      {
+        "width": 1024,
+        "height": 600,
+        "naturalDocumentFlow": true,
+        "boardAndChildrenCannotShrink": true,
+        "magicAndKeypadCapsPreserved": true
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "naturalDocumentFlow": true,
+        "boardAndChildrenCannotShrink": true,
+        "magicAndKeypadCapsPreserved": true
+      },
+      {
+        "width": 851,
+        "height": 720,
+        "naturalDocumentFlow": true,
+        "boardAndChildrenCannotShrink": true,
+        "magicAndKeypadCapsPreserved": true
+      },
+      {
+        "width": 333,
+        "height": 740,
+        "naturalDocumentFlow": true,
+        "boardAndChildrenCannotShrink": true,
+        "magicAndKeypadCapsPreserved": true
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "naturalDocumentFlow": true,
+        "boardAndChildrenCannotShrink": true,
+        "magicAndKeypadCapsPreserved": true
+      },
+      {
+        "width": 400,
+        "height": 844,
+        "naturalDocumentFlow": true,
+        "boardAndChildrenCannotShrink": true,
+        "magicAndKeypadCapsPreserved": true
+      }
+    ]
+  },
+  "simulatedDOM": {
+    "passed": true,
+    "simulatedDOM": true,
+    "actualBrowser": false,
+    "results": [
+      {
+        "slug": "twenty-four",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "alphametic",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "magic-square",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "remainder-code",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "balance-weights",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "fraction-cup",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "difference-sequence",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "prime-bins",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "matchstick-equation",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      },
+      {
+        "slug": "misere-nim",
+        "passed": true,
+        "simulatedDOM": true,
+        "browserVisualValidation": false,
+        "levelsRenderedAndCompleted": 100,
+        "previewIsolated": 100,
+        "completedViaGameSpecificControls": 100,
+        "restoreAndCancel": true
+      }
+    ]
+  },
+  "unchangedRuleCorpusProofFilesVerified": 50,
+  "corporaAndEnginesUnchanged": true,
+  "actualBrowserRetest": {
+    "status": "pending",
+    "reason": "Root will publish the collected corrective QA batch before live geometric recheck."
+  },
+  "fullHistoricalSuitesRerun": false
+}
