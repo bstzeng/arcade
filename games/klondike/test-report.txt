@@ -1,0 +1,30 @@
+{
+  "game": "Klondike turn-one, unlimited unchanged-order stock recycling",
+  "certifiedDeals": 50,
+  "distinctExactStates": 50,
+  "distinctTableauRankLayouts": 50,
+  "totalReplayedActions": 11215,
+  "solutionActionRange": [
+    170,
+    275
+  ],
+  "minimumTableauTransfers": 13,
+  "hiddenCardsRevealed": 1050,
+  "draws": 6708,
+  "recycles": 406,
+  "multiCardRunMoves": 399,
+  "independentReplay": "PASS: every action independently audited and equal to gameplay engine",
+  "negativeRuleTests": "PASS",
+  "command": "node games/klondike/verify.cjs"
+}
+{
+  "candidateActionsAudited": 177816,
+  "legal": 3551,
+  "illegal": 174265,
+  "foundationReturnMoves": 672,
+  "multiCardMoves": 1290,
+  "emptyColumnKingMoves": 1154,
+  "immutableStates": "PASS",
+  "malformedStates": "PASS",
+  "fullSaveReplayAndUndoAll50": "PASS"
+}
