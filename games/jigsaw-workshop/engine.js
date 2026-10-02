@@ -1,0 +1,8 @@
+(function(root,factory){const U=typeof module==='object'&&module.exports?require('../spatial-common/util.js'):root.SpatialUtil;const E=factory(U);if(typeof module==='object'&&module.exports)module.exports=E;else root.SpatialEngine=E;})(globalThis,function(U){'use strict';
+
+function edges(p,r){return Array.from({length:4},(_,d)=>p.edges[(d-r+4)%4]);}
+function valid(l,s){return s&&Array.isArray(s.slots)&&s.slots.length===l.w*l.h&&s.slots.every(p=>p===null||(U.integer(p.i,0,l.pieces.length-1)&&U.integer(p.r,0,3)))&&new Set(s.slots.filter(Boolean).map(p=>p.i)).size===s.slots.filter(Boolean).length;}
+function faults(l,s){const errors=[];s.slots.forEach((p,k)=>{if(!p)return;const x=k%l.w,y=Math.floor(k/l.w),e=edges(l.pieces[p.i],p.r);for(let d=0;d<4;d++){const nx=x+[0,1,0,-1][d],ny=y+[-1,0,1,0][d];if(nx<0||ny<0||nx>=l.w||ny>=l.h){if(e[d]!==0)errors.push('外框不能有凸榫或凹槽');}else{const q=s.slots[ny*l.w+nx];if(e[d]===0)errors.push('內接縫不能是直邊');if(q&&e[d]!==-edges(l.pieces[q.i],q.r)[(d+2)%4])errors.push('相鄰榫槽的大小及凹凸必須吻合');}}});return [...new Set(errors)];}
+const E=U.wrapper('jigsaw-workshop',{edges,faults,createState:l=>({slots:Array(l.w*l.h).fill(null)}),validateState:valid,act(l,s,a){U.demand(U.integer(a.cell,0,s.slots.length-1));if(a.type==='remove'){s.slots[a.cell]=null;return s;}U.demand(a.type==='place'&&U.integer(a.piece,0,l.pieces.length-1)&&U.integer(a.r,0,3),'請選擇拼片及方向。');s.slots=s.slots.map(p=>p&&p.i===a.piece?null:p);s.slots[a.cell]={i:a.piece,r:a.r};return s;},inspect(l,s){const v=faults(l,s),won=s.slots.every(Boolean)&&!v.length;return{status:won?'won':'playing',goalMet:won,violations:v};},describe:(l,a)=>'將拼片 '+(a.piece+1)+' 旋轉 '+(a.r*90)+'°，放在第 '+(Math.floor(a.cell/l.w)+1)+' 列、第 '+(a.cell%l.w+1)+' 格。'});
+
+return E;});
