@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "gameId": "tether-maze",
+  "rulesRevision": "paths-1",
+  "contentRevision": "paths-1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Cloud browser localhost ERR_BLOCKED; local Chrome debugging socket denied. No real browser execution claimed."
+    ]
+  },
+  "proofKinds": [
+    "reachability"
+  ],
+  "sources": [
+    {
+      "path": "games/tether-maze.html",
+      "sha256": "8fdb812a4826fcac3e8abdddee8414cc6fea281849c3082e3c4ebdf63245178a"
+    },
+    {
+      "path": "games/tether-maze/README.md",
+      "sha256": "357c11f0ca9df6b46b3f7c0c457f7ce396c7647802a66566704aab360439c395"
+    },
+    {
+      "path": "games/tether-maze/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/tether-maze/generate.cjs",
+      "sha256": "3c72531a2d1f72be80d57cb197aa17e37a2971c28f1208a1e29e5d338c5c59e2"
+    },
+    {
+      "path": "games/tether-maze/levels.js",
+      "sha256": "d611f068c5a65f9c623bed78e95f80a415f8fc22d5250eeaf7dbb30a15f597b8"
+    },
+    {
+      "path": "games/tether-maze/levels.json",
+      "sha256": "9da220196ddb5d025e3cdb53e7e092b44e56ea70d374da43eb7db76e9bcd8517"
+    },
+    {
+      "path": "games/tether-maze/verify.cjs",
+      "sha256": "ec806a3124f84d824143c2b04696f7aff6b740ebed7c82fa8e1a2e4ac7407ef1"
+    },
+    {
+      "path": "games/path-lab/README.md",
+      "sha256": "0146a132294712581cd68ca20f55baf9e905ba2bc69925f43501d3ed4d7f6312"
+    },
+    {
+      "path": "games/path-lab/app.js",
+      "sha256": "ce68194e84d91d5d4592e881361c5007da17020ea6dfadd34850a2d7454545c8"
+    },
+    {
+      "path": "games/path-lab/app.test.cjs",
+      "sha256": "5e42b8a22bf3bec3c9dab5d1c4050486b3873c69ea64f75dffd7f4b1648fe44a"
+    },
+    {
+      "path": "games/path-lab/boundaries.cjs",
+      "sha256": "18dc3505e5fd55abddb57e76d5364833efa65298e3f3eb4d192a6fdc06982d4b"
+    },
+    {
+      "path": "games/path-lab/browser-qa.cjs",
+      "sha256": "93b14a54d13af71b32a2d8d8cd74e2a8bc7815304d8d801211a193a3c714a2f0"
+    },
+    {
+      "path": "games/path-lab/canonical.cjs",
+      "sha256": "3d28923e72ab602a6a6e22b2d6805d5c3b662f131677661fb6916efbbd1f5a65"
+    },
+    {
+      "path": "games/path-lab/canonical.test.cjs",
+      "sha256": "5e085ab534393213dda7239ac95b914f742e7ea583bc4dae86308464dc933346"
+    },
+    {
+      "path": "games/path-lab/config.js",
+      "sha256": "09e827e4d154970c8cd56ba134b1f9c4d50289e26353015e585b6f607b02f333"
+    },
+    {
+      "path": "games/path-lab/engine.js",
+      "sha256": "8498d1eb1fab67dbabfcc8405206b7db3c5017d13592fe45a31c9efe8b7e6b62"
+    },
+    {
+      "path": "games/path-lab/generate.cjs",
+      "sha256": "564eceffc43b185f04aa480a37bd39180e64999623a75a46e3c7eacdf820f89c"
+    },
+    {
+      "path": "games/path-lab/manifest.json",
+      "sha256": "2590ca6d23fd98b35fb52510585be89b600eee920b7cb26e4a9d48b709667d2e"
+    },
+    {
+      "path": "games/path-lab/oracle.cjs",
+      "sha256": "51f8f533fa20d16f207055f4e69caad6266c184d5ffe306668ce7bffa46271f1"
+    },
+    {
+      "path": "games/path-lab/style.css",
+      "sha256": "66d6a9f388e19fb2325e8ad7c90e14c7ade393483499d99e62042fec75f3aa31"
+    },
+    {
+      "path": "games/path-lab/verify-batch.cjs",
+      "sha256": "e5e654602463eac7840f256985d4edbf39e295e4a58621b5fa12b58a01aeccb0"
+    },
+    {
+      "path": "games/path-lab/verify.cjs",
+      "sha256": "2647ef778e38966c3500fd227398c93af9f58339b67bd5a4e46200f39a8a8853"
+    },
+    {
+      "path": "games/path-lab/write-docs.cjs",
+      "sha256": "bc8fad730104bff2a94cb941861ccf70e7b83936c49d4298e3719ae3bcbde146"
+    },
+    {
+      "path": "games/challenge-common/core.js",
+      "sha256": "2d835770fbff7932630a6ec9d9a445c4c7b706e6739fd46a61ba16736fbc565b"
+    },
+    {
+      "path": "games/challenge-common/ui.js",
+      "sha256": "60811f97ebbd3af5ada81e2279461763ffd0ec06305514bf537f4a5d27558467"
+    },
+    {
+      "path": "games/challenge-common/style.css",
+      "sha256": "782e4cafec511a2c5113e6d8560416b52b16b536854954d8b2446ded71b6cb6e"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/tether-maze/verify.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/tether-maze/verification-report.json"
+    }
+  ],
+  "limitations": [
+    "Actual desktop and narrow-touch browser QA remains a release gate.",
+    "Existence of a legal route is certified; solution uniqueness is not claimed."
+  ],
+  "metrics": {
+    "assertions": 72927,
+    "differentialStates": 5801,
+    "solutionLength": [
+      5,
+      15
+    ],
+    "durationMs": 999
+  }
+}
