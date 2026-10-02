@@ -1,0 +1,17 @@
+(function(r,f){if(typeof module==='object'&&module.exports)module.exports=f(require('../management-common/model.js'));else(r.ManagementGames||={})['museum-curator']={...(r.ManagementGames||{})['museum-curator'],engine:f(r.ManagementModel)};})(globalThis,function(M){'use strict';const {need,make}=M;
+const adj=(l,a,b)=>Math.abs(a%l.width-b%l.width)+Math.abs(Math.floor(a/l.width)-Math.floor(b/l.width))===1;
+return make({start:l=>({cash:l.cash,placed:l.exhibits.map(()=>-1),climate:[],benches:[],route:[l.entrance],phase:'design',tick:0,groups:l.groups.map(()=>({position:-1,score:0,fatigue:0,done:false,happy:false})),damage:0,failed:false,note:'配置展品、保護設施和參觀動線，再開館。'}),
+ status:(l,s)=>s.failed?'lost':s.phase==='closed'?(s.groups.every(g=>g.happy)&&s.damage===0&&s.placed.every(p=>p>=0&&s.route.includes(p))&&s.cash>=l.target?'won':'lost'):'playing',
+ step(l,s,a){if(['place','climate','bench','route','back'].includes(a.type))need(s.phase==='design','開館後不能變更展場。');
+ if(a.type==='place'){const e=l.exhibits[a.exhibit];need(e&&Number.isInteger(a.cell)&&a.cell>=0&&a.cell<l.cells.length&&!l.cells[a.cell].wall&&a.cell!==l.entrance&&a.cell!==l.exit,'這個位置不能展示。');need(!s.placed.some((p,i)=>p===a.cell&&i!==a.exhibit),'一間展廳只能陳列一件作品。');need(l.cells[a.cell].capacity>=e.size,'展廳承重不足。');if(s.placed[a.exhibit]<0){need(s.cash>=e.fee,'借展費不足。');s.cash-=e.fee;}s.placed[a.exhibit]=a.cell;s.note=e.name+'已安排到展廳 '+(a.cell+1);}
+ else if(a.type==='climate'||a.type==='bench'){const arr=a.type==='climate'?s.climate:s.benches,cost=a.type==='climate'?3:2;need(l.cells[a.cell]&&!l.cells[a.cell].wall&&!arr.includes(a.cell)&&s.cash>=cost,'已設置、位置不合適，或預算不足。');arr.push(a.cell);s.cash-=cost;s.note=a.type==='climate'?'恆溫遮光設備已安裝。':'休息長椅已安裝。';}
+ else if(a.type==='route'){need(l.cells[a.cell]&&!l.cells[a.cell].wall&&adj(l,s.route.at(-1),a.cell)&&!s.route.includes(a.cell)&&s.route.length<l.maxRoute,'動線必須沿相鄰展廳，不重複且不超過步數上限。');s.route.push(a.cell);s.note='動線已延伸。';}
+ else if(a.type==='back'){need(s.route.length>1,'入口不能移除。');s.route.pop();}
+ else if(a.type==='open'){need(s.phase==='design'&&s.route.at(-1)===l.exit&&s.placed.every(p=>p>=0),'先完成入口到出口的動線，並安放全部展品。');s.phase='open';s.note='開館！每一步是一組觀眾的行進時間。';}
+ else if(a.type==='tick'){need(s.phase==='open','請先開館。');for(let i=0;i<s.groups.length;i++){const g=s.groups[i],d=l.groups[i];if(g.done||s.tick<i)continue;g.position++;if(g.position>=s.route.length){g.done=true;g.happy=g.score>=d.target&&g.fatigue<=d.stamina;if(g.happy)s.cash+=d.ticket;continue;}const cell=s.route[g.position],e=s.placed.indexOf(cell);g.fatigue=Math.max(0,g.fatigue+1-(s.benches.includes(cell)?3:0));if(e>=0){g.score+=l.exhibits[e].theme===d.theme?3:1;if(l.exhibits[e].fragile&&l.cells[cell].light&&!s.climate.includes(cell))s.damage++;}if(g.fatigue>d.stamina)s.failed=true;}
+ s.tick++;if(s.groups.every(g=>g.done))s.phase='closed';s.note='觀眾正依動線參觀；喜歡的主題 +3 興趣，其他主題 +1。';}
+ else throw Error('未知策展動作。');},
+ actions(l,s){if(s.phase==='open')return [{type:'tick'}];const a=[{type:'open'},{type:'back'}];l.cells.forEach((c,cell)=>{a.push({type:'route',cell},{type:'climate',cell},{type:'bench',cell});l.exhibits.forEach((e,exhibit)=>a.push({type:'place',exhibit,cell}));});return a;},
+ describe:(l,a)=>a.type==='place'?'把'+l.exhibits[a.exhibit].name+'放到展廳 '+(a.cell+1):a.type==='route'?'延伸動線到 '+(a.cell+1):a.type==='climate'?'展廳 '+(a.cell+1)+'加裝恆溫遮光':a.type==='bench'?'展廳 '+(a.cell+1)+'設長椅':a.type==='back'?'撤回動線末端':a.type==='open'?'開館迎接觀眾':'觀眾前進一格',
+ tip:()=> '先規劃一條能經過全部展品的路線。脆弱文物不能在明亮展廳裸露；長椅可減少 3 點疲勞。預留預算給保護與休息設施，門票取決於觀眾滿意度。'
+});});

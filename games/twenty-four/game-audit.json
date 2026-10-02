@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "twenty-four",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "twenty-four",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "reachability"
+  ],
+  "sources": [
+    {
+      "path": "games/twenty-four.html",
+      "sha256": "053b71eead71cc0f63d576e487cbd3bf8e9ee769a0e615c39721c23c7f52d9e8"
+    },
+    {
+      "path": "games/twenty-four/README.md",
+      "sha256": "ba17582d8f61cbadf9effd4223937d771406c8e8a398299af41585f9325bc01d"
+    },
+    {
+      "path": "games/twenty-four/app.js",
+      "sha256": "cd92cd116e919a7296262faf5f105a7ae5bc38781f424567c54e14c899f88b6e"
+    },
+    {
+      "path": "games/twenty-four/boundary-tests.cjs",
+      "sha256": "67ff3b3975395be0e59ac74eee51187681b349e0c4af821ebb02bb5376262a39"
+    },
+    {
+      "path": "games/twenty-four/controller-tests.cjs",
+      "sha256": "5737f7b1422f9c23c9da14e9a7d9f0bd3c935774743cbb3741483695cbe0b92b"
+    },
+    {
+      "path": "games/twenty-four/engine.js",
+      "sha256": "89fd694f23b9b95711612bb58c7da6a561ec36b7c230c1a94822a24eddb8d217"
+    },
+    {
+      "path": "games/twenty-four/generate.cjs",
+      "sha256": "55a79e98adf20d0974bbd32d0c91f0e04932d93e797a91da7ecac5b7554dba6d"
+    },
+    {
+      "path": "games/twenty-four/levels.js",
+      "sha256": "5167e9077c9b5a7bb10c8b2ddf311f9bdce808715c5952c8495adda71db69d85"
+    },
+    {
+      "path": "games/twenty-four/levels.json",
+      "sha256": "8cecac0cad570a9adea0d752b9ba0eb4aab47c94255fea8d2f3bdbc12d571507"
+    },
+    {
+      "path": "games/twenty-four/proof-claims.json",
+      "sha256": "78a32a726126a8c9f0dc712a35f7a7275369494b699a91b20751eafd6609f385"
+    },
+    {
+      "path": "games/twenty-four/proofs.json",
+      "sha256": "81aa59573a998c9a32f24adb1e1e59e4ea5b7098d6aadfb77c65e16a4f94fb28"
+    },
+    {
+      "path": "games/twenty-four/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/twenty-four/test.cjs",
+      "sha256": "a5dbabdabed792089cb9d20a19dec0a74806be7812953500c7f0428b82f41b4b"
+    },
+    {
+      "path": "games/twenty-four/ui-test.cjs",
+      "sha256": "019be0fc1e0cec665bd0fe3242a205cc4a8800715415abf4f69be1417ae6738c"
+    },
+    {
+      "path": "games/twenty-four/verify.cjs",
+      "sha256": "4b48b27ec631030542e9c501e9d4f3ef04f6bd6b6e80e2821cbd678b7945d575"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release.",
+    "No uniqueness claim; alternative valid solutions are accepted."
+  ]
+}

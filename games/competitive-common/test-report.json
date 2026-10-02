@@ -1,0 +1,282 @@
+{
+  "generated": "2026-10-02T16:56:12.516Z",
+  "games": {
+    "chess": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 100,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 20,
+          "depth": 1,
+          "elapsedMs": 1
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 722,
+          "depth": 2,
+          "elapsedMs": 24
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 8394,
+          "depth": 2,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "5494a8fa4b11e791ec63f003eea736705bf946c5a39d2f10bd0d8645402eba26"
+    },
+    "go9": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 79,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 82,
+          "depth": 1,
+          "elapsedMs": 4
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 1882,
+          "depth": 2,
+          "elapsedMs": 69
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 5318,
+          "depth": 2,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "7318f5a15fa4b8aca991ee9b90be67966718b4889f0aefa71a5aade03cdd7cb2"
+    },
+    "shogi": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 100,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 30,
+          "depth": 1,
+          "elapsedMs": 3
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 912,
+          "depth": 2,
+          "elapsedMs": 64
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 2956,
+          "depth": 2,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f"
+    },
+    "dou-shou-qi": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 100,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 24,
+          "depth": 1,
+          "elapsedMs": 1
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 798,
+          "depth": 2,
+          "elapsedMs": 7
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 24573,
+          "depth": 3,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "38c8d47637b10a37e2e60266b27f85cc2b4dfab6c1fdb242bd28fb1c511fc361"
+    },
+    "backgammon": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 11,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 0,
+          "depth": 0,
+          "elapsedMs": 0
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 0,
+          "depth": 0,
+          "elapsedMs": 0
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 0,
+          "depth": 0,
+          "elapsedMs": 0
+        }
+      ],
+      "engineSha256": "d1211bceb3a333d8a1d14e04efd6d82541a2ad440257576fd3d7ae0882e9dbef"
+    },
+    "hex": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 100,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 121,
+          "depth": 1,
+          "elapsedMs": 59
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 339,
+          "depth": 1,
+          "elapsedMs": 201
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 407,
+          "depth": 1,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "b6844a0a82b1f71422adc18b59721eab376a59f4555f87e42cd9a538ace8f0b6"
+    },
+    "dots-and-boxes": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 40,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 40,
+          "depth": 1,
+          "elapsedMs": 1
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 1084,
+          "depth": 2,
+          "elapsedMs": 4
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 40001,
+          "depth": 3,
+          "elapsedMs": 94
+        }
+      ],
+      "engineSha256": "376543dd01412bd1c2dbfe6c965a9de2c01908a52c73ce8271ae68860cf9f795"
+    },
+    "ataxx": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 100,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 16,
+          "depth": 1,
+          "elapsedMs": 0
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 544,
+          "depth": 2,
+          "elapsedMs": 6
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 19836,
+          "depth": 3,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "60a8590cda4704b8a1d1b1da9f8e00aa23f2f6a029160163b2dba83e2df2a180"
+    },
+    "amazons": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 76,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 363,
+          "depth": 1,
+          "elapsedMs": 49
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 2303,
+          "depth": 1,
+          "elapsedMs": 200
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 2471,
+          "depth": 1,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "e284e5e98371147089fc123079ed578506a27ced0c7a98de7f7b74cf1692bab1"
+    },
+    "hnefatafl": {
+      "puzzles": 100,
+      "sessionReplayUndoRestoreCases": 100,
+      "legalSelfPlayActions": 100,
+      "ai": [
+        {
+          "difficulty": "easy",
+          "nodes": 116,
+          "depth": 1,
+          "elapsedMs": 6
+        },
+        {
+          "difficulty": "normal",
+          "nodes": 1490,
+          "depth": 2,
+          "elapsedMs": 108
+        },
+        {
+          "difficulty": "hard",
+          "nodes": 5843,
+          "depth": 2,
+          "elapsedMs": 200
+        }
+      ],
+      "engineSha256": "90e189cefadfb481f4414f305217edc07cbe6728b0cd0afaff1637b9a2d866a0"
+    }
+  },
+  "boundaryGroups": [
+    "Go liberties/capture/PSK/passes/area",
+    "Go suicide removal with positional-superko restriction",
+    "Hex transposed pie swap and six neighbors",
+    "Ataxx clone jump conversion and forced pass",
+    "Amazons vacated-source arrow and ray blocking",
+    "Dots double-box capture and extra turn",
+    "Jungle rank rat river leap trap den",
+    "Fetlar throne passage, restricted stop, edge king safety",
+    "Fetlar ordinary capture and king throne capture",
+    "Fetlar complete encirclement",
+    "Backgammon opening doubles cube acceptance and drop",
+    "Backgammon bar priority higher die maximum use",
+    "Backgammon larger bear-off disallowed with farther checker"
+  ],
+  "assertions": 12724,
+  "allPassed": true
+}

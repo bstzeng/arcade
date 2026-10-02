@@ -9,28 +9,42 @@ const registry=vm.runInNewContext(source.slice(0,source.indexOf('let activeCateg
 const normalize=value=>JSON.parse(JSON.stringify(value));
 const hash=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
 const preservation=JSON.parse(fs.readFileSync('lobby-categories-preservation.json','utf8'));
+const expansion=JSON.parse(fs.readFileSync('expansion-manifest.json','utf8'));
+const expansionPreservation=JSON.parse(fs.readFileSync('expansion-preservation.json','utf8'));
+assert.equal(expansion.sourceBaselineCommit,'4867af6a1b114d79b57c19c727f571e2fc84741e');
+assert.equal(expansion.newGames,80);assert.equal(expansion.newChallengeCount,8000);assert.equal(expansion.releaseGames,150);
+assert.equal(expansion.games.length,80);assert.equal(new Set(expansion.games.map(g=>g.id)).size,80);
+assert.equal(expansionPreservation.baseCommit,expansion.sourceBaselineCommit);
 assert.equal(preservation.baseCommit,'0c2a154416474e5d6257796b96f00016800a1dc7');
 assert.equal(preservation.originalGameCount,70);assert.equal(preservation.originalAssetCount,782);
-assert.equal(registry.games.length,70);assert.equal(new Set(registry.games.map(g=>g.id)).size,70);
-assert.deepEqual(normalize(registry.games),preservation.originalRegistry,'All original game metadata and order must stay unchanged');
-assert.deepEqual(normalize(registry.artMarkup),preservation.originalArt,'All original card artwork must stay unchanged');
+assert.equal(registry.games.length,150);assert.equal(new Set(registry.games.map(g=>g.id)).size,150);
+assert.equal(new Set(registry.games.map(g=>g.title.normalize('NFKC').replace(/\s+/g,''))).size,150,'Every title is distinct');
+assert.deepEqual(normalize(registry.games.slice(0,70)),preservation.originalRegistry,'All 70 original records and their relative order must stay unchanged');
+assert.deepEqual(normalize(registry.games.slice(0,70)),expansionPreservation.originalRegistry,'Exact immediate release baseline retained');
+assert.deepEqual(normalize(registry.games.slice(70).map(g=>g.id)),expansion.games.map(g=>g.id),'Exactly the authorized 80 expansion entries follow the preserved records');
+for(const [key,value] of Object.entries(preservation.originalArt))assert.equal(registry.artMarkup[key],value,'Original artwork unchanged: '+key);
+for(const [key,value] of Object.entries(expansionPreservation.originalArt))assert.equal(registry.artMarkup[key],value,'Immediate baseline artwork unchanged: '+key);
+assert.equal(new Set(registry.games.slice(70).map(g=>registry.artMarkup[g.art])).size,80,'Eighty distinct new game illustrations');
+for(const [file,sha]of Object.entries(expansionPreservation.historicalReports))assert.equal(hash(file),sha,'Published report changed: '+file);
 assert.equal(Object.keys(preservation.assets).length,782);
 for(const [file,sha]of Object.entries(preservation.assets))assert.equal(hash(file),sha,'Game asset changed: '+file);
 for(const [file,sha]of Object.entries(preservation.historicalReports))assert.equal(hash(file),sha,'Historical report changed: '+file);
-const expectedCounts={tabletop:12,cards:6,numbers:9,deduction:14,spatial:10,paths:8,simulation:7,quick:4};
+const expectedCounts={tabletop:22,cards:16,numbers:19,deduction:24,spatial:20,paths:18,simulation:17,quick:14};
+assert.deepEqual(expansion.categoryReleaseCounts,expectedCounts);
 assert.equal(registry.categories.length,8);
 assert.deepEqual(normalize(registry.categories.map(c=>c.id).sort()),Object.keys(expectedCounts).sort());
 const assigned=registry.categories.flatMap(c=>c.gameIds);
-assert.equal(assigned.length,70);assert.equal(new Set(assigned).size,70,'Each game must have exactly one primary browse category');
+assert.equal(assigned.length,150);assert.equal(new Set(assigned).size,150,'Each game must have exactly one primary browse category');
 assert.deepEqual([...assigned].sort(),normalize(registry.games.map(g=>g.id).sort()));
 for(const category of registry.categories){
  assert.equal(category.gameIds.length,expectedCounts[category.id],category.id+' count');
  assert(category.title&&category.description&&category.examples&&category.icon&&category.color,'Category discovery tile requires useful labels');
  for(const id of category.gameIds)assert.equal(registry.categoryByGameId[id].id,category.id,id+' lookup');
 }
+for(const game of expansion.games){assert.equal(registry.categoryByGameId[game.id].id,game.primaryCategory,game.id+' primary category');assert.equal(game.challenges,100,game.id+' challenges');}
 for(const [category,count]of Object.entries({puzzle:4,strategy:6,casual:3,cards:5,board:10,logic:10,classic:10,collection:10,tabletop:12}))assert.equal(registry.games.filter(g=>g.category===category).length,count,'Original release category metadata retained');
 for(const asset of ['app.js','styles.css'])assert(index.includes(asset+'?v='+registry.GAME_BUILD),'Stale cache key: '+asset);
-assert(index.includes('70 款遊戲'));assert(index.includes('2,000 關益智'));assert(index.includes('data-filter="cards"'));
+assert(index.includes('150 款遊戲'));assert(index.includes('8,000 關'));assert(index.includes('2,000 關益智'));assert(index.includes('data-filter="cards"'));
 assert.equal(new Set(registry.games.filter(g=>g.category==='tabletop').map(g=>registry.artMarkup[g.art])).size,12);
 for(const g of registry.games){
  assert.equal(g.status,'ready');assert(registry.artMarkup[g.art]);assert(registry.categoryNames[g.category]);
@@ -81,13 +95,13 @@ const app=boot(),{node}=app;
 const ids=()=>app.cards().map(card=>card.dataset.gameId);
 const expectedAll=registry.categories.flatMap(category=>registry.games.filter(game=>category.gameIds.includes(game.id)).map(game=>game.id));
 function expectCards(expected,reason){assert.deepEqual(ids().sort(),normalize(expected).sort(),reason);}
-function expectAll(){expectCards(registry.games.map(g=>g.id),'All 70 games must be discoverable');assert.equal(app.groups().length,8);assert.equal(node('#category-overview').hidden,false);assert.equal(node('#category-select').value,'all');}
+function expectAll(){expectCards(registry.games.map(g=>g.id),'All 150 games must be discoverable');assert.equal(app.groups().length,8);assert.equal(node('#category-overview').hidden,false);assert.equal(node('#category-select').value,'all');}
 function search(query){node('#search').value=query;node('#search').emit('input');}
 function normalizeQuery(value){return value.normalize('NFKC').toLocaleLowerCase('zh-Hant').replace(/\s+/g,' ').trim();}
 function searchMatches(query){const words=normalizeQuery(query).split(' ').filter(Boolean);return registry.games.filter(game=>{const category=registry.categoryByGameId[game.id];const haystack=normalizeQuery(`${game.id} ${game.title} ${game.description} ${game.note} ${game.word} ${category.title} ${registry.categoryNames[game.category]}`);return words.every(word=>haystack.includes(word));}).map(g=>g.id);}
 expectAll();assert.deepEqual(ids(),normalize(expectedAll),'Default groups follow stable category then original game order');
 assert.equal(node('#category-select').children.length,9);
-for(const option of node('#category-select').children){const category=registry.categories.find(c=>c.id===option.value);assert.equal(option.tagName,'option');assert.equal(option.textContent,`${category?category.title:'全部遊戲'}（${category?expectedCounts[category.id]:70}）`);}
+for(const option of node('#category-select').children){const category=registry.categories.find(c=>c.id===option.value);assert.equal(option.tagName,'option');assert.equal(option.textContent,`${category?category.title:'全部遊戲'}（${category?expectedCounts[category.id]:150}）`);}
 const tiles=app.document.querySelectorAll('[data-filter]').filter(button=>button.dataset.filter!=='all');assert.equal(tiles.length,8,'Eight prominent category buttons, not only tiny legacy filters');
 for(const category of registry.categories){
  const tile=tiles.find(t=>t.dataset.filter===category.id);assert(tile);assert.equal(tile.tagName,'button');assert.equal(tile.getAttribute('type'),'button');
@@ -118,7 +132,7 @@ for(let i=0;i<4;i++){tiles[i].emit('click');search('KLONDIKE');search('AIR TRAFF
 search('   ');expectAll();tiles.find(t=>t.dataset.filter==='cards').emit('click');assert.equal(node('#search').value,'');expectCards(registry.categories.find(c=>c.id==='cards').gameIds);
 node('#category-select').value='invalid-category';node('#category-select').emit('change');expectAll();
 node('#back-to-categories').emit('click');expectAll();
-// All 70 cards retain stable identity, accessible game titles, artwork and versioned links.
+// All 150 cards retain stable identity, accessible game titles, artwork and versioned links.
 for(const card of app.cards()){
  const game=registry.games.find(g=>g.id===card.dataset.gameId);assert(game);
  assert.equal(card.tagName,'article');assert.equal(card.querySelector('h4').textContent,game.title);
@@ -131,18 +145,18 @@ for(const group of app.groups()){assert.equal(group.tagName,'section');assert.eq
 // Refreshable category/search URLs, invalid inputs, and browser Back/Forward state restoration.
 for(const category of registry.categories){const linked=boot('https://example.test/arcade/?category='+category.id);assert.deepEqual(linked.cards().map(c=>c.dataset.gameId).sort(),normalize(category.gameIds).sort());assert.equal(linked.node('#category-select').value,category.id);}
 const linked=boot('https://example.test/arcade/?category=cards&q=AIR+TRAFFIC+CONTROL&source=test#games');assert.deepEqual(linked.cards().map(c=>c.dataset.gameId),['air-traffic']);assert.equal(linked.node('#category-select').value,'all');
-linked.node('#clear-search').emit('click');assert.equal(new URL(linked.location.href).searchParams.get('source'),'test');assert.equal(new URL(linked.location.href).hash,'#games');assert.equal(linked.cards().length,70);
-linked.pop('https://example.test/arcade/?category=spatial');assert.equal(linked.cards().length,10);assert.equal(linked.node('#category-select').value,'spatial');
+linked.node('#clear-search').emit('click');assert.equal(new URL(linked.location.href).searchParams.get('source'),'test');assert.equal(new URL(linked.location.href).hash,'#games');assert.equal(linked.cards().length,150);
+linked.pop('https://example.test/arcade/?category=spatial');assert.equal(linked.cards().length,20);assert.equal(linked.node('#category-select').value,'spatial');
 linked.pop('https://example.test/arcade/?q=KLONDIKE');assert.deepEqual(linked.cards().map(c=>c.dataset.gameId),['klondike']);assert.equal(linked.node('#search').value,'KLONDIKE');
-linked.pop('https://example.test/arcade/');assert.equal(linked.cards().length,70);assert.equal(linked.node('#search').value,'');assert.equal(linked.node('#category-overview').hidden,false);
-assert.equal(boot('https://example.test/arcade/?category=not-a-category').cards().length,70);
+linked.pop('https://example.test/arcade/');assert.equal(linked.cards().length,150);assert.equal(linked.node('#search').value,'');assert.equal(linked.node('#category-overview').hidden,false);
+assert.equal(boot('https://example.test/arcade/?category=not-a-category').cards().length,150);
 assert.equal(boot('https://example.test/arcade/?q=%3Cscript%3Ebad%3C%2Fscript%3E').cards().length,0);
 // Explicit accessible name remains present when the visible label is hidden by mobile CSS.
 assert.equal(app.node('#category-select').getAttribute('aria-label'),'瀏覽分類');
 assert.equal(app.node('#search').getAttribute('type'),'search');assert(app.node('#search').getAttribute('aria-label')||app.document.querySelector('label[for="search"]'));
 assert.equal(app.node('#browse-title').getAttribute('tabindex'),'-1');assert.equal(app.node('#category-title').getAttribute('tabindex'),'-1');assert.equal(app.node('#results').getAttribute('aria-live'),'polite');
 assert(css.includes(':focus-visible'),'Visible keyboard focus styles required');assert(/prefers-reduced-motion/.test(css),'Respect reduced motion');assert(/@media/.test(css),'Responsive breakpoint rules required');assert(css.includes('.category-overview')||css.includes('.category-grid'),'Responsive prominent category grid required');
-const report={passed:true,build:registry.GAME_BUILD,baseCommit:preservation.baseCommit,registryCount:70,primaryCategoryCounts:expectedCounts,eachGameAssignedExactlyOnce:true,originalRegistryAndArtworkUnchanged:true,preservedGameAssets:782,preservedHistoricalReports:Object.keys(preservation.historicalReports).length,searchCases,checks:['Eight prominent labeled category tiles and native selector','All 70 games in semantic groups with stable IDs and versioned links','Every title, English name and game ID searchable','NFKC/case/whitespace normalization and all-game search from other categories','Empty/reset, clear-search, Escape, Enter and repeated-interaction flows','Category/query deep links, refresh, Back/Forward and unrelated URL preservation','Semantic buttons/select, explicit responsive-safe selector name, focus return, polite status and responsive/reduced-motion source checks'],claims:{offlineRulesAndSimulatedDOM:true,browserVisualTestingClaimed:false,mobileBrowserTestingClaimed:false},sourceFiles:Object.fromEntries(['app.js','index.html','styles.css','verify-lobby.cjs','lobby-categories-preservation.json'].map(file=>[file,hash(file)]))};
-fs.writeFileSync('lobby-categories-verification-report.json',JSON.stringify(report,null,2)+'\n');
-console.log('PASS: 70 unchanged games, 782 preserved game assets, 8 primary categories, '+searchCases+' search cases, grouped/keyboard/reset/history contracts and versioned links. Browser visual testing is separate.');
+const report={passed:true,build:registry.GAME_BUILD,baseCommit:expansion.sourceBaselineCommit,registryCount:150,newGames:80,newChallenges:8000,primaryCategoryCounts:expectedCounts,eachGameAssignedExactlyOnce:true,originalRegistryAndArtworkUnchanged:true,preservedGameAssets:782,preservedHistoricalReports:Object.keys(preservation.historicalReports).length,searchCases,checks:['Eight prominent labeled category tiles and native selector','All 150 games in semantic groups with stable IDs and versioned links','Every title, English name and game ID searchable','NFKC/case/whitespace normalization and all-game search from other categories','Empty/reset, clear-search, Escape, Enter and repeated-interaction flows','Category/query deep links, refresh, Back/Forward and unrelated URL preservation','Semantic buttons/select, explicit responsive-safe selector name, focus return, polite status and responsive/reduced-motion source checks'],claims:{offlineRulesAndSimulatedDOM:true,browserVisualTestingClaimed:false,mobileBrowserTestingClaimed:false},sourceFiles:Object.fromEntries(['app.js','index.html','styles.css','verify-lobby.cjs','lobby-categories-preservation.json','expansion-manifest.json','expansion-preservation.json'].map(file=>[file,hash(file)]))};
+fs.writeFileSync('expansion-lobby-verification-report.json',JSON.stringify(report,null,2)+'\n');
+console.log('PASS: 150 games including all 70 unchanged records, 80 distinct new illustrations, 782 preserved game assets, 8 primary categories, '+searchCases+' search cases, grouped/keyboard/reset/history contracts and versioned links. Browser visual testing is separate.');
 module.exports=registry;

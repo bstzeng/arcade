@@ -18,7 +18,8 @@ function preserve(){
  for(const [key,art]of Object.entries(preservation.originalArt))assert.equal(registry.artMarkup[key],art,'Prior card artwork changed: '+key);
 }
 preserve();
-assert.equal(registry.games.length,70);
+assert.equal(registry.games.length,150);
+assert.deepEqual(normalize(registry.games.slice(0,70).map(g=>g.id)),JSON.parse(fs.readFileSync('expansion-preservation.json','utf8')).originalRegistry.map(g=>g.id));
 const entry=registry.games.find(game=>game.id==='air-traffic');
 assert.equal(entry.title,'空中指揮所');assert.equal(entry.category,'strategy');assert.equal(entry.url,'./games/air-traffic.html');
 assert.equal(entry.status,'ready');assert.equal(entry.art,'air-traffic');assert.equal(entry.word,'AIR TRAFFIC CONTROL');
@@ -38,7 +39,7 @@ for(const map of mapData.maps){
  for(const airport of map.airports){assert(Number.isFinite(airport.heading));assert(airport.x>0&&airport.x<mapData.width);assert(airport.y>0&&airport.y<mapData.height);}
 }
 
-const report={passed:false,build:registry.GAME_BUILD,registryCount:70,newGames:1,maps:mapData.maps.map(map=>({id:map.id,name:map.name,biome:map.biome,airports:map.airports.length})),preservedOriginalGames:69,preservedOriginalAssets:772,preservedOriginalCardsAndArtwork:true,baseCommit:preservation.baseCommit,unchangedContent:{puzzleLevels:2000,cardDeals:250,tabletopGames:12},claims:{realTimeGame:true,fixedPuzzleLevelCountNotApplicable:true,controllerTestsAreNotBrowserVisualTests:true,browserTestingClaimed:false},entrySHA256:hash('games/air-traffic.html'),files:before,suites:[]};
+const report={passed:false,build:registry.GAME_BUILD,registryCount:registry.games.length,newGames:1,maps:mapData.maps.map(map=>({id:map.id,name:map.name,biome:map.biome,airports:map.airports.length})),preservedOriginalGames:69,preservedOriginalAssets:772,preservedOriginalCardsAndArtwork:true,baseCommit:preservation.baseCommit,unchangedContent:{puzzleLevels:2000,cardDeals:250,tabletopGames:12},claims:{realTimeGame:true,fixedPuzzleLevelCountNotApplicable:true,controllerTestsAreNotBrowserVisualTests:true,browserTestingClaimed:false},entrySHA256:hash('games/air-traffic.html'),files:before,suites:[]};
 let temporary;
 try{
  temporary=fs.mkdtempSync(path.join(os.tmpdir(),'arcade-air-traffic-'));
@@ -60,4 +61,4 @@ try{
  if(temporary)fs.rmSync(temporary,{recursive:true,force:true});
  fs.writeFileSync('air-traffic-verification-report.json',JSON.stringify(report,null,2)+'\n');
 }
-console.log('\nPASS: Air Traffic Control rules and controller suites; 70 lobby entries; all 772 prior game assets and 69 prior cards/artwork unchanged.');
+console.log('\nPASS: Air Traffic Control rules and controller suites; 150 lobby entries; all 772 prior game assets and 69 prior cards/artwork unchanged.');

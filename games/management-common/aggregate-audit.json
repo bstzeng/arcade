@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "games": 10,
+  "challenges": 1000,
+  "legalWitnesses": 1000,
+  "witnessActions": 32240,
+  "assertions": 138201,
+  "controllerAssertions": 2947,
+  "controllerClicks": 1042,
+  "independentVerifier": "reference.cjs imports neither engine nor generator; derives state transitions and status from public rules, plus independent conservation equations",
+  "canonicalDistinct": 1000,
+  "generatorReproducible": true,
+  "browserQA": {
+    "status": "not-run"
+  },
+  "reports": [
+    {
+      "gameId": "hotel-manager",
+      "path": "games/hotel-manager/audit.json",
+      "sha256": "45143cb3113f637885668b8ba12ee66b693125f948e02ec563c4bbbfedc2bd8a"
+    },
+    {
+      "gameId": "repair-shop",
+      "path": "games/repair-shop/audit.json",
+      "sha256": "0a818b110c2c302351f6ddb3031424945b4d849e643f853590a7670564a525b5"
+    },
+    {
+      "gameId": "museum-curator",
+      "path": "games/museum-curator/audit.json",
+      "sha256": "7c6663f882651996c310f7aaa6ee18368d452abb52a2ce502a13bb5222cf296c"
+    },
+    {
+      "gameId": "theater-manager",
+      "path": "games/theater-manager/audit.json",
+      "sha256": "9e7ca4c03196145c02c54c468f926ff5f49f828cc6a1c6920766c65f1cbe44ab"
+    },
+    {
+      "gameId": "caravan-trade",
+      "path": "games/caravan-trade/audit.json",
+      "sha256": "5e6d720a668355072f219a2d79bd13867df06b1715ace307bc7cb994268d6f75"
+    },
+    {
+      "gameId": "tower-defense",
+      "path": "games/tower-defense/audit.json",
+      "sha256": "0d3b3aa2bd0c1be06fd4dc655537433d1f88eb4da2072ea82912addbe2ebb499"
+    },
+    {
+      "gameId": "deep-sea-treasure",
+      "path": "games/deep-sea-treasure/audit.json",
+      "sha256": "f3e2891f40876080e8ddac53f46f2db7e1dab52f0cdcbec1874ed16187316645"
+    },
+    {
+      "gameId": "time-loop-adventure",
+      "path": "games/time-loop-adventure/audit.json",
+      "sha256": "3c8fec7e1f9293466c1cd40937c0164376e8e6346add4e7958fc47b7216884ff"
+    },
+    {
+      "gameId": "conservation-park",
+      "path": "games/conservation-park/audit.json",
+      "sha256": "5dcc72e82acbbad203aa261270cca9bd4935720f30de11894118dd07ec485569"
+    },
+    {
+      "gameId": "alchemy-lab",
+      "path": "games/alchemy-lab/audit.json",
+      "sha256": "d5f36b5b8e39b1c6423893d9ca3e9720a590647cb00ea7d84aac3fbc3769e5ae"
+    }
+  ]
+}

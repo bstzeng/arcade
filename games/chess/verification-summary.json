@@ -1,0 +1,27 @@
+{
+  "game": "chess",
+  "engineSha256": "5494a8fa4b11e791ec63f003eea736705bf946c5a39d2f10bd0d8645402eba26",
+  "levelsSha256": "44271c0be56e52f34d2238a84b76ddaadec8789f3ef5d2ffc4c536a315617df4",
+  "puzzleCount": 100,
+  "uniqueAnswers": 100,
+  "independentOracle": "python-chess 1.999 / chess 1.11.2",
+  "independentLegalSetComparisons": 432,
+  "boundaryRegressionGroups": 19,
+  "browserUMD": true,
+  "sharedSession": {
+    "solved": 100,
+    "replayedWithoutMutation": 100,
+    "saveRestore": 100,
+    "undo": 100,
+    "wrongMoveFailure": 100,
+    "replayableClaims": true,
+    "replayableConsent": true
+  },
+  "aiDifficultiesAllReturnLegalMoves": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "scope": "engine, puzzles, and headless shared-session integration; visual browser QA belongs to shared UI task",
+  "sharedAIRegression": true
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Intentional corruption of disposable copies; no runtime/browser test claim",
+  "checks": [
+    {
+      "name": "Changed original registry record",
+      "passed": true,
+      "expectedFailure": "All 70 original records"
+    },
+    {
+      "name": "Changed original artwork",
+      "passed": true,
+      "expectedFailure": "Original artwork unchanged: tiles"
+    },
+    {
+      "name": "Changed original game asset",
+      "passed": true,
+      "expectedFailure": "Game asset changed: games\\/number-lab\\.html"
+    },
+    {
+      "name": "Lost new primary-category assignment",
+      "passed": true,
+      "expectedFailure": "149 !== 150"
+    },
+    {
+      "name": "Repeated new artwork",
+      "passed": true,
+      "expectedFailure": "Eighty distinct new game illustrations"
+    },
+    {
+      "name": "Missing game asset reference",
+      "passed": true,
+      "expectedFailure": "Missing local reference.*missing-expansion-test"
+    },
+    {
+      "name": "False forced-win label for card scenario",
+      "passed": true,
+      "expectedFailure": "Card scenarios cannot be promoted"
+    },
+    {
+      "name": "Missing proof with otherwise refreshed source hash",
+      "passed": true,
+      "expectedFailure": "twenty-four proof coverage"
+    }
+  ],
+  "sourceFiles": {
+    "verify-integration-regressions.cjs": "65bf27847076e5931f2016068594e43f7e682cf75be06c2ed78dd21d5b251e82",
+    "verify-lobby.cjs": "e45cf3f90a4bca1cdfe28a56faa3ab4b6b605ab9c5ffaa4f615042a75d0b3502",
+    "verify-expansion.cjs": "bcaa36d353ccdc1dcb6479fa7e923b35bb55de7bb4da24782c01e4a31223ae2d",
+    "app.js": "288c1f123399f5e904aafb8dd4ca170294e32776890e10a939d7008bd1e2fac1",
+    "expansion-manifest.json": "feb86a0f49bd162c2938336ae6d2f25a8b8459b0d5b2613edb3b1466e96a0bcc",
+    "expansion-preservation.json": "8eb674e3b6c1609073ab9fb13fb834096249a0fab6135a524975945577b3714f"
+  }
+}

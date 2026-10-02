@@ -1,0 +1,125 @@
+{
+  "gameId": "breakout",
+  "title": "打磚塊",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "proofKinds": [
+    "real-time-witness"
+  ],
+  "ticksAudited": 527160,
+  "eventsAudited": 4387,
+  "inputChanges": 43763,
+  "maxWitnessSeconds": 137.4,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": []
+  },
+  "schemaVersion": 1,
+  "rulesRevision": "action-1",
+  "contentRevision": "action-1",
+  "gameSpecificRulesPassed": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOMCanvasTestsPassed": true,
+  "sources": [
+    {
+      "path": "games/action-common/BROWSER-QA.md",
+      "sha256": "f1d4b73a133708da977b0bde4eb51d3be34c6ba28d0cd65d3ed55e9f9615fa51"
+    },
+    {
+      "path": "games/action-common/README.md",
+      "sha256": "af97aeb580efd5ce23ba29ff82815911e0269704fec979ff024c4ef7f3398850"
+    },
+    {
+      "path": "games/action-common/base.js",
+      "sha256": "ddd08da3344e8f1332a2c4f8349324a6a9f369f151c676a71e61c866415c4a90"
+    },
+    {
+      "path": "games/action-common/corpus.cjs",
+      "sha256": "06139d2e0c8fbba2b521ae99aad490472ed336027f3fcabd945954485816a0c6"
+    },
+    {
+      "path": "games/action-common/independent.cjs",
+      "sha256": "d2f6bd0dc91b017d2436136d35dcd005adb1facbae63a71ab6edae9214e36336"
+    },
+    {
+      "path": "games/action-common/rules.test.cjs",
+      "sha256": "0bc4b24f9cbb33b7cecb75f02c3cefe9f4004b0b3558d1beff660fa64b74b258"
+    },
+    {
+      "path": "games/action-common/session.js",
+      "sha256": "c0327404898ce4b8d8e7bd26c09d1438ec8c45f17bacdbbb243ff1ba8148808e"
+    },
+    {
+      "path": "games/action-common/session.test.cjs",
+      "sha256": "ee080dd71d39e0a57a64e047c4c3bd6929ab6ada77e688be61cb3b31a74956fe"
+    },
+    {
+      "path": "games/action-common/style.css",
+      "sha256": "c9adfc22377cc3ecada37017ca288e1013b9602e61f3cb09379c1c7c5edee30b"
+    },
+    {
+      "path": "games/action-common/ui.js",
+      "sha256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0"
+    },
+    {
+      "path": "games/action-common/ui.test.cjs",
+      "sha256": "9bf961951a6a687f310684ed378483e970ead8d5db7b5425dab66b4117e6e7ed"
+    },
+    {
+      "path": "games/action-common/verify-all.cjs",
+      "sha256": "c191f27e91c31b183f31634b811b51908af61f9439d40e7d6f9b5de0ebca27c6"
+    },
+    {
+      "path": "games/action-common/verify-game.cjs",
+      "sha256": "3281313584863de6b694a33497db5b28183f725931e3de57b695f515a36de9fe"
+    },
+    {
+      "path": "games/breakout.html",
+      "sha256": "74a0e5846f5b79945a62714e380e07101e62cf68b409d8f74819316349cf72cb"
+    },
+    {
+      "path": "games/breakout/certificates.js",
+      "sha256": "bf1afffb5a079ccd50b18c38e61e2ff68098643ae27bfbe3afbd40a05694dddd"
+    },
+    {
+      "path": "games/breakout/certificates.json",
+      "sha256": "ba9bd500746b5ba5b3530ef3ebdefc35085ee554027e0efdd147e93b7efe9b30"
+    },
+    {
+      "path": "games/breakout/engine.js",
+      "sha256": "f534217a6e818d95fe06b451278faf39b33520ffd5ddf66716c5d3ef26b23143"
+    },
+    {
+      "path": "games/breakout/levels.js",
+      "sha256": "9aec4d30a4f7da12900a4ee7c273522f7802cc08e3b1ec5e0fb1cd67c19bb075"
+    },
+    {
+      "path": "games/breakout/levels.json",
+      "sha256": "e41a38fd4242b8f4c16eeac1a7fc2ce4cc2746125cfb96328c70774f9d8fa4cb"
+    },
+    {
+      "path": "games/breakout/verify.cjs",
+      "sha256": "1161a5d4a46246a86a709e45eee2402ebab7c50bcc1242ca351f94bc808f5e10"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/action-common/verify-all.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/action-common/test-results.txt"
+    }
+  ],
+  "limitations": [
+    "Browser QA is not run. Simulated DOM/canvas checks are not real-browser visual or touch validation.",
+    "Physics are deterministic arcade rules, not a claim of physical accuracy.",
+    "Input transcripts demonstrate one bounded winning play; they do not prove unique solutions or success for every player."
+  ]
+}

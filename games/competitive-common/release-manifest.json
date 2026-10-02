@@ -1,0 +1,313 @@
+{
+  "batch": "competitive-board-expansion-v1",
+  "newGames": 10,
+  "newChallenges": 1000,
+  "published": false,
+  "browserVisualQA": "pending: local Chromium process socket unavailable; cloud browser blocks localhost preview. Simulated DOM coverage is reported separately.",
+  "games": [
+    {
+      "id": "chess",
+      "title": "西洋棋",
+      "path": "games/chess.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "fide-2023-casual-dead-position-agreement-v1",
+      "challengeSemantics": "exhaustive-unique-mate-in-one",
+      "sources": [
+        {
+          "title": "FIDE Laws of Chess (2023)",
+          "url": "https://handbook.fide.com/chapter/E012023"
+        }
+      ],
+      "files": {
+        "engine": "games/chess/engine.js",
+        "levels": "games/chess/levels.json",
+        "proof": "games/chess/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "go9",
+      "title": "九路圍棋",
+      "path": "games/go9.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "tromp-taylor-9x9-komi7.5-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "規則作者 John Tromp",
+          "https://tromp.github.io/go.html"
+        ]
+      ],
+      "files": {
+        "engine": "games/go9/engine.js",
+        "levels": "games/go9/levels.json",
+        "proof": "games/go9/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "shogi",
+      "title": "日本將棋",
+      "path": "games/shogi.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "jsa-2025-declaration31-v1",
+      "challengeSemantics": "exhaustive-unique-mate-in-one",
+      "sources": [
+        {
+          "title": "日本將棋聯盟對局規則",
+          "url": "https://www.shogi.or.jp/match/taikyoku_rules/"
+        },
+        {
+          "title": "2025 年 10 月規則修正",
+          "url": "https://www.shogi.or.jp/match/taikyoku_rules/taikyoku_rules_revision.pdf"
+        }
+      ],
+      "files": {
+        "engine": "games/shogi/engine.js",
+        "levels": "games/shogi/levels.json",
+        "proof": "games/shogi/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "dou-shou-qi",
+      "title": "鬥獸棋",
+      "path": "games/dou-shou-qi.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "jungle-leiden-rat-no-cross-capture-draw-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "Leiden University 鬥獸棋研究規則",
+          "https://liacs.leidenuniv.nl/~visjk/doushouqi/about.html"
+        ]
+      ],
+      "files": {
+        "engine": "games/dou-shou-qi/engine.js",
+        "levels": "games/dou-shou-qi/levels.json",
+        "proof": "games/dou-shou-qi/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "backgammon",
+      "title": "西洋雙陸棋",
+      "path": "games/backgammon.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "backgammon-single-game-virtual-cube-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "Backgammon Galore 標準規則",
+          "https://www.bkgm.com/rules.html"
+        ]
+      ],
+      "files": {
+        "engine": "games/backgammon/engine.js",
+        "levels": "games/backgammon/levels.json",
+        "proof": "games/backgammon/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "hex",
+      "title": "六角連線棋",
+      "path": "games/hex.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "hex-11x11-pie-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "Alberta Hex 研究團隊",
+          "https://webdocs.cs.ualberta.ca/~hayward/hex/"
+        ]
+      ],
+      "files": {
+        "engine": "games/hex/engine.js",
+        "levels": "games/hex/levels.json",
+        "proof": "games/hex/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "dots-and-boxes",
+      "title": "點線方格",
+      "path": "games/dots-and-boxes.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "dots-boxes-4x4-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "Gathering 4 Gardner 遊戲規則卡",
+          "https://www.gathering4gardner.org/wp-content/uploads/2021/03/CardDeckOfGames-English.pdf"
+        ]
+      ],
+      "files": {
+        "engine": "games/dots-and-boxes/engine.js",
+        "levels": "games/dots-and-boxes/levels.json",
+        "proof": "games/dots-and-boxes/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "ataxx",
+      "title": "同化棋",
+      "path": "games/ataxx.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "ataxx-7-open-threefold-quiet100-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "CodinGame Ataxx 公開規則",
+          "https://www.codingame.com/multiplayer/bot-programming/ataxx"
+        ]
+      ],
+      "files": {
+        "engine": "games/ataxx/engine.js",
+        "levels": "games/ataxx/levels.json",
+        "proof": "games/ataxx/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "amazons",
+      "title": "亞馬遜棋",
+      "path": "games/amazons.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "amazons-10-standard-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "Ludii 遊戲規則教學",
+          "https://github.com/Ludeme/LudiiTutorials/blob/master/docs/tutorial_amazons.rst"
+        ]
+      ],
+      "files": {
+        "engine": "games/amazons/engine.js",
+        "levels": "games/amazons/levels.json",
+        "proof": "games/amazons/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    },
+    {
+      "id": "hnefatafl",
+      "title": "維京王棋",
+      "path": "games/hnefatafl.html",
+      "category": "board",
+      "challenges": 100,
+      "ruleset": "fetlar-11x11-threefold-house-v1",
+      "challengeSemantics": "independent-tactical-witness",
+      "sources": [
+        [
+          "Fetlar 規則，Aage Nielsen",
+          "https://aagenielsen.dk/fetlar_rules_en.php"
+        ]
+      ],
+      "files": {
+        "engine": "games/hnefatafl/engine.js",
+        "levels": "games/hnefatafl/levels.json",
+        "proof": "games/hnefatafl/proof.json"
+      },
+      "modes": [
+        "specified-position challenge",
+        "same-device two-player full game",
+        "AI full game"
+      ],
+      "difficulty": [
+        "easy",
+        "normal",
+        "hard"
+      ]
+    }
+  ]
+}

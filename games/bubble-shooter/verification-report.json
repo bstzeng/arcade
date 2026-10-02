@@ -1,0 +1,125 @@
+{
+  "gameId": "bubble-shooter",
+  "title": "泡泡射擊",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "proofKinds": [
+    "real-time-witness"
+  ],
+  "ticksAudited": 97275,
+  "eventsAudited": 3020,
+  "inputChanges": 1002,
+  "maxWitnessSeconds": 44.6,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": []
+  },
+  "schemaVersion": 1,
+  "rulesRevision": "action-1",
+  "contentRevision": "action-1",
+  "gameSpecificRulesPassed": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOMCanvasTestsPassed": true,
+  "sources": [
+    {
+      "path": "games/action-common/BROWSER-QA.md",
+      "sha256": "f1d4b73a133708da977b0bde4eb51d3be34c6ba28d0cd65d3ed55e9f9615fa51"
+    },
+    {
+      "path": "games/action-common/README.md",
+      "sha256": "af97aeb580efd5ce23ba29ff82815911e0269704fec979ff024c4ef7f3398850"
+    },
+    {
+      "path": "games/action-common/base.js",
+      "sha256": "ddd08da3344e8f1332a2c4f8349324a6a9f369f151c676a71e61c866415c4a90"
+    },
+    {
+      "path": "games/action-common/corpus.cjs",
+      "sha256": "06139d2e0c8fbba2b521ae99aad490472ed336027f3fcabd945954485816a0c6"
+    },
+    {
+      "path": "games/action-common/independent.cjs",
+      "sha256": "d2f6bd0dc91b017d2436136d35dcd005adb1facbae63a71ab6edae9214e36336"
+    },
+    {
+      "path": "games/action-common/rules.test.cjs",
+      "sha256": "0bc4b24f9cbb33b7cecb75f02c3cefe9f4004b0b3558d1beff660fa64b74b258"
+    },
+    {
+      "path": "games/action-common/session.js",
+      "sha256": "c0327404898ce4b8d8e7bd26c09d1438ec8c45f17bacdbbb243ff1ba8148808e"
+    },
+    {
+      "path": "games/action-common/session.test.cjs",
+      "sha256": "ee080dd71d39e0a57a64e047c4c3bd6929ab6ada77e688be61cb3b31a74956fe"
+    },
+    {
+      "path": "games/action-common/style.css",
+      "sha256": "c9adfc22377cc3ecada37017ca288e1013b9602e61f3cb09379c1c7c5edee30b"
+    },
+    {
+      "path": "games/action-common/ui.js",
+      "sha256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0"
+    },
+    {
+      "path": "games/action-common/ui.test.cjs",
+      "sha256": "9bf961951a6a687f310684ed378483e970ead8d5db7b5425dab66b4117e6e7ed"
+    },
+    {
+      "path": "games/action-common/verify-all.cjs",
+      "sha256": "c191f27e91c31b183f31634b811b51908af61f9439d40e7d6f9b5de0ebca27c6"
+    },
+    {
+      "path": "games/action-common/verify-game.cjs",
+      "sha256": "3281313584863de6b694a33497db5b28183f725931e3de57b695f515a36de9fe"
+    },
+    {
+      "path": "games/bubble-shooter.html",
+      "sha256": "bf852e9a898d460183b789f14e803741ff4c9c2248c645395b2ee01b9da858f2"
+    },
+    {
+      "path": "games/bubble-shooter/certificates.js",
+      "sha256": "db6022e391ca2d0f0920dbe6a7d9b28597f2e20202cf5ece45c31c2adb2dfd6f"
+    },
+    {
+      "path": "games/bubble-shooter/certificates.json",
+      "sha256": "d15082357cb0732cf24362bcaf30ddc5a6e609bfd7b9bc93ffd4e1dbdfa19b11"
+    },
+    {
+      "path": "games/bubble-shooter/engine.js",
+      "sha256": "baee2126608daa89450c05b59cbba63105950584d473f5db69f5216982d89c7f"
+    },
+    {
+      "path": "games/bubble-shooter/levels.js",
+      "sha256": "45ccb3abf2edccb7713d00870b948127c9c406a239926934acff244d785d6251"
+    },
+    {
+      "path": "games/bubble-shooter/levels.json",
+      "sha256": "6d15560120e3d758cbe9893b77902ed7aad08ce827f1acf3eb010d9d8875bff2"
+    },
+    {
+      "path": "games/bubble-shooter/verify.cjs",
+      "sha256": "4dc1d2fe1bd28d6e41b25466a825467b188c27b7c94b15f526d380364c97e047"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/action-common/verify-all.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/action-common/test-results.txt"
+    }
+  ],
+  "limitations": [
+    "Browser QA is not run. Simulated DOM/canvas checks are not real-browser visual or touch validation.",
+    "Physics are deterministic arcade rules, not a claim of physical accuracy.",
+    "Input transcripts demonstrate one bounded winning play; they do not prove unique solutions or success for every player."
+  ]
+}

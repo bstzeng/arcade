@@ -1,0 +1,1 @@
+(function(root){const api=typeof module==='object'&&module.exports?require('../cards80-common/engine.js').create('chinese-poker'):root.CardEngines.create('chinese-poker');if(typeof module==='object'&&module.exports)module.exports=api;else root.GameEngine=api;})(typeof globalThis!=='undefined'?globalThis:this);

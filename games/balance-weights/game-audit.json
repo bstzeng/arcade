@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "balance-weights",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "claimedUniquenessPassed": 100,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "balance-weights",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "assignment"
+  ],
+  "sources": [
+    {
+      "path": "games/balance-weights.html",
+      "sha256": "958240b9c9edb91b932f531e3e6b80bbacf7905e71aa5fb816f73e78599a7c26"
+    },
+    {
+      "path": "games/balance-weights/README.md",
+      "sha256": "721b50c6c73fbbd3899de29a180b425ab9f81216a96dc55e628ad40c59d5eb56"
+    },
+    {
+      "path": "games/balance-weights/app.js",
+      "sha256": "242e9cbda4b0bd96caaad3948358b1d4b9168f60ba4a751794bc1f6ba1c50571"
+    },
+    {
+      "path": "games/balance-weights/boundary-tests.cjs",
+      "sha256": "5d36513a8841ace5f515956fee04f0c845678bb07a99298fa67882ce4e96cd52"
+    },
+    {
+      "path": "games/balance-weights/controller-tests.cjs",
+      "sha256": "c29d44a41f45d5134df44e07fd368fb5c8e12c08a2062c606b3bc63cdfb4d76c"
+    },
+    {
+      "path": "games/balance-weights/engine.js",
+      "sha256": "6c63f531835a6073c22902943a432cd5995b8933635506cbb9ade232bb1a59de"
+    },
+    {
+      "path": "games/balance-weights/generate.cjs",
+      "sha256": "eb14c56100f8adbf066a55eaa2c8b90f9998e65a6513a5c506fb5f58dca85a00"
+    },
+    {
+      "path": "games/balance-weights/levels.js",
+      "sha256": "a724a1518f5ea0dc221ec24bc6397561036b1904b718b9fde8ed8725e30cd5d8"
+    },
+    {
+      "path": "games/balance-weights/levels.json",
+      "sha256": "3d91060b1d84aa85091018d84c750030010d287f9007cd4609d20478c12534e8"
+    },
+    {
+      "path": "games/balance-weights/proof-claims.json",
+      "sha256": "5d79a01c002368ad8877fef8d63ee89f5b6c535893920755f2f2adb77c4d3483"
+    },
+    {
+      "path": "games/balance-weights/proofs.json",
+      "sha256": "1fce371e0cfc258a71d6991068b8bab6fba11d7b3fd47c9747fe9f9da0bac509"
+    },
+    {
+      "path": "games/balance-weights/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/balance-weights/test.cjs",
+      "sha256": "e2c9892c8be0fefa82a6a3fa21be6c198a90cb1e2cf5e0e74ea9e049bd65e8c8"
+    },
+    {
+      "path": "games/balance-weights/ui-test.cjs",
+      "sha256": "ea5cca7052e4114921eb98b6bf794f1895a5534dfc99cf681ee8b0c5e0b78832"
+    },
+    {
+      "path": "games/balance-weights/verify.cjs",
+      "sha256": "d9a076e0fdc82b1342719d47e53eef3d6477207ed90814547bd07f609ed49805"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release."
+  ]
+}

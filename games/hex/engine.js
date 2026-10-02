@@ -1,0 +1,9 @@
+(function(root){'use strict';const U=root.CompetitiveUtil||(typeof require==='function'?require('../competitive-common/core.js'):null),W=11,N=W*W,D=[[1,0],[-1,0],[0,1],[0,-1],[1,-1],[-1,1]];
+function initial(){return{board:Array(N).fill(0),turn:1,ply:0,swapAvailable:false};}
+function connected(s,p){const seen=new Set(),q=[];for(let i=0;i<N;i++)if(s.board[i]===p&&(p===1?Math.floor(i/W)===0:i%W===0)){seen.add(i);q.push(i);}for(let k=0;k<q.length;k++){const i=q[k];if(p===1?Math.floor(i/W)===W-1:i%W===W-1)return true;for(const j of U.neighbors(i,W,W,D))if(s.board[j]===p&&!seen.has(j)){seen.add(j);q.push(j);}}return false;}
+function legal(s){const a=[];if(s.swapAvailable)a.push({type:'swap'});s.board.forEach((v,to)=>{if(!v)a.push({to});});return a;}
+function apply(s,m){const b=s.board.slice();if(m.type==='swap'){const i=b.findIndex(x=>x===1);b[i]=0;b[(i%W)*W+Math.floor(i/W)]=-1;}else b[m.to]=s.turn;return{board:b,turn:-s.turn,ply:s.ply+1,swapAvailable:s.ply===0&&m.type!=='swap'};}
+function outcome(s){for(const p of[1,-1])if(connected(s,p))return{winner:p,reason:p===1?'紅方連通上下兩邊':'藍方連通左右兩邊'};return null;}
+function distance(s,p){const d=Array(N).fill(999),used=new Set();for(let i=0;i<N;i++)if(p===1?Math.floor(i/W)===0:i%W===0)d[i]=s.board[i]===-p?999:s.board[i]===p?0:1;for(let t=0;t<N;t++){let i=-1;for(let j=0;j<N;j++)if(!used.has(j)&&(i<0||d[j]<d[i]))i=j;if(i<0||d[i]>=999)break;if(p===1?Math.floor(i/W)===W-1:i%W===W-1)return d[i];used.add(i);for(const j of U.neighbors(i,W,W,D))if(s.board[j]!==-p)d[j]=Math.min(d[j],d[i]+(s.board[j]===p?0:1));}return 999;}
+const e=U.attach('hex',{width:W,height:W,initial,legal,apply,outcome,connected,distance,evaluate:(s,p)=>(distance(s,-p)-distance(s,p))*30,labels:{'1':'●','-1':'●'},names:{'1':'紅方（上下）','-1':'藍方（左右）'}});if(typeof module!=='undefined')module.exports=e;
+})(typeof globalThis!=='undefined'?globalThis:this);

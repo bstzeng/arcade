@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "batch": "paths10",
+  "passed": true,
+  "gameCount": 10,
+  "challengeCount": 1000,
+  "legalWitnesses": 1000,
+  "canonicalUniqueWithinEachTitle": 100,
+  "commands": [
+    {
+      "command": [
+        "node",
+        "games/path-lab/boundaries.cjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "games/path-lab/canonical.test.cjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "games/path-lab/app.test.cjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "command": [
+        "node",
+        "games/path-lab/verify.cjs"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "browserQA": {
+    "status": "not-run",
+    "reason": "Known cloud localhost ERR_BLOCKED and local Chrome debugging socket denial; simulated DOM is not real-browser QA."
+  },
+  "publicationReady": false,
+  "sources": [
+    {
+      "path": "games/color-gates.html",
+      "sha256": "16241b2813e322d380028e5a8dd4f3e642a54c79af984825d0cc98e53dc130d6"
+    },
+    {
+      "path": "games/color-gates/README.md",
+      "sha256": "1e433d786b51e58d6bcd024f9c63258a6df44b18e996ea315924c0ce473a7cfe"
+    },
+    {
+      "path": "games/color-gates/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/color-gates/generate.cjs",
+      "sha256": "5d9e319e0160bd4d2e388cd0f4221a3659ae7fdfd87d0aa98776ab57feacc6ca"
+    },
+    {
+      "path": "games/color-gates/levels.js",
+      "sha256": "f83dbbe9d503e6ad0be747424b799553f3d5a2c52b55f5b415ac3d05eb236532"
+    },
+    {
+      "path": "games/color-gates/levels.json",
+      "sha256": "6898e1c24dfa6f84cb8b85a032144681066ce6cb21b05921bdca5f0f584586b0"
+    },
+    {
+      "path": "games/color-gates/verify.cjs",
+      "sha256": "58cc4401fbd7233bff79603d5ac253b3c22529b7527c6db7710323073642cc95"
+    },
+    {
+      "path": "games/dual-shadow-maze.html",
+      "sha256": "cb02bc366cdfbd4f67a04a5a08df6a7313c0bf971742a2e376d043d623759f76"
+    },
+    {
+      "path": "games/dual-shadow-maze/README.md",
+      "sha256": "1d4102626800879dae5b71688a904dd295949d20a90c7085256ef743295ddd7f"
+    },
+    {
+      "path": "games/dual-shadow-maze/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/dual-shadow-maze/generate.cjs",
+      "sha256": "e987a30d0d027b6347ffad7c4f4633b10fb8022ea1abcedeabdd72643ccb9eea"
+    },
+    {
+      "path": "games/dual-shadow-maze/levels.js",
+      "sha256": "caa34df6c1f4d758e5fa24b25b37fb728193be6017203891045c52139bef6dfc"
+    },
+    {
+      "path": "games/dual-shadow-maze/levels.json",
+      "sha256": "fb28b4331c9a732f469d1d4478c9e595f15075a8c3d446cfc23221b520fc8bcb"
+    },
+    {
+      "path": "games/dual-shadow-maze/verify.cjs",
+      "sha256": "0f1a1a618cd8f114046f30e61a97d283b463b243df8cd6a0144578b884776906"
+    },
+    {
+      "path": "games/energy-network.html",
+      "sha256": "f08e95424ad131c0ddbed9230425e4613990d27785b91ac0c7b099141374931a"
+    },
+    {
+      "path": "games/energy-network/README.md",
+      "sha256": "db38d392552dab9faad10f4c03b6005156c3bdc66076a39d14cf80b8484e4b81"
+    },
+    {
+      "path": "games/energy-network/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/energy-network/generate.cjs",
+      "sha256": "e1463f98f7690b6c6c52a6a0e1e95447693f3212d6583bacb3724a125e470a62"
+    },
+    {
+      "path": "games/energy-network/levels.js",
+      "sha256": "f1438954dcfc3af29e6e73c0482bbc379c259f7d8327a755fbea9de15fa47a0d"
+    },
+    {
+      "path": "games/energy-network/levels.json",
+      "sha256": "e6411a32c9532a3fdd4cd42c61293825ea23a45d9fe7dccae0f7c77d66abb0bc"
+    },
+    {
+      "path": "games/energy-network/verify.cjs",
+      "sha256": "bec3a8a94156a3d99fd985f224bd77fb724c574772165bb3ab4351472a36201c"
+    },
+    {
+      "path": "games/euler-bridges.html",
+      "sha256": "52d98e8e8954ca40cf2d7159cae31241bd5423c89d62a98ef45bb7004de50209"
+    },
+    {
+      "path": "games/euler-bridges/README.md",
+      "sha256": "e086e819cd85e473a792000280c7681ae0472e8a992ebf52045f2e60b8a2e283"
+    },
+    {
+      "path": "games/euler-bridges/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/euler-bridges/generate.cjs",
+      "sha256": "692d57be1057752e61c4336596018c6a8620910769f340549775f19878268cbd"
+    },
+    {
+      "path": "games/euler-bridges/levels.js",
+      "sha256": "258f89576a6e9ad7f825f2f1a704ec1f6825cbfaef6f66feb5a23ba0b6760d2f"
+    },
+    {
+      "path": "games/euler-bridges/levels.json",
+      "sha256": "b31938a5a822eba07495c5a50c84d87291930e44b7b0b5c2453ea7a6b333b95e"
+    },
+    {
+      "path": "games/euler-bridges/verify.cjs",
+      "sha256": "a013ed8eea2726e3fa9cc404759e6bb0738e481882630fe6c1ac5ccc2233d386"
+    },
+    {
+      "path": "games/knight-tour.html",
+      "sha256": "6758a2ff65a4045b60eddbb0018e1121566c70778334db2a9dca5226a7fbeee2"
+    },
+    {
+      "path": "games/knight-tour/README.md",
+      "sha256": "d4c116ac144d3f7cf76466ae204e51ff7182a778c78ec6611743c13c8ac33cd1"
+    },
+    {
+      "path": "games/knight-tour/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/knight-tour/generate.cjs",
+      "sha256": "ebec42a46ed5af4f1d4c0b153f2fe3e5c73129a6f0060c0e9d14f3e4f3162423"
+    },
+    {
+      "path": "games/knight-tour/levels.js",
+      "sha256": "e239545aff01158818adc5f6043bda5426b3ab2fb5d7a44ada095f7a0bedfeec"
+    },
+    {
+      "path": "games/knight-tour/levels.json",
+      "sha256": "35bc6a253063578ce58d012d449f9678e75af6f418c54b7a919caf011c2658de"
+    },
+    {
+      "path": "games/knight-tour/verify.cjs",
+      "sha256": "fbdb5600c6b2f66fc242b3063685d4082323f48335ffc3dce9288dfe8901b4ac"
+    },
+    {
+      "path": "games/path-lab/README.md",
+      "sha256": "0146a132294712581cd68ca20f55baf9e905ba2bc69925f43501d3ed4d7f6312"
+    },
+    {
+      "path": "games/path-lab/app.js",
+      "sha256": "ce68194e84d91d5d4592e881361c5007da17020ea6dfadd34850a2d7454545c8"
+    },
+    {
+      "path": "games/path-lab/app.test.cjs",
+      "sha256": "5e42b8a22bf3bec3c9dab5d1c4050486b3873c69ea64f75dffd7f4b1648fe44a"
+    },
+    {
+      "path": "games/path-lab/boundaries.cjs",
+      "sha256": "18dc3505e5fd55abddb57e76d5364833efa65298e3f3eb4d192a6fdc06982d4b"
+    },
+    {
+      "path": "games/path-lab/browser-qa.cjs",
+      "sha256": "93b14a54d13af71b32a2d8d8cd74e2a8bc7815304d8d801211a193a3c714a2f0"
+    },
+    {
+      "path": "games/path-lab/canonical.cjs",
+      "sha256": "3d28923e72ab602a6a6e22b2d6805d5c3b662f131677661fb6916efbbd1f5a65"
+    },
+    {
+      "path": "games/path-lab/canonical.test.cjs",
+      "sha256": "5e085ab534393213dda7239ac95b914f742e7ea583bc4dae86308464dc933346"
+    },
+    {
+      "path": "games/path-lab/config.js",
+      "sha256": "09e827e4d154970c8cd56ba134b1f9c4d50289e26353015e585b6f607b02f333"
+    },
+    {
+      "path": "games/path-lab/engine.js",
+      "sha256": "8498d1eb1fab67dbabfcc8405206b7db3c5017d13592fe45a31c9efe8b7e6b62"
+    },
+    {
+      "path": "games/path-lab/generate.cjs",
+      "sha256": "564eceffc43b185f04aa480a37bd39180e64999623a75a46e3c7eacdf820f89c"
+    },
+    {
+      "path": "games/path-lab/manifest.json",
+      "sha256": "2590ca6d23fd98b35fb52510585be89b600eee920b7cb26e4a9d48b709667d2e"
+    },
+    {
+      "path": "games/path-lab/oracle.cjs",
+      "sha256": "51f8f533fa20d16f207055f4e69caad6266c184d5ffe306668ce7bffa46271f1"
+    },
+    {
+      "path": "games/path-lab/style.css",
+      "sha256": "66d6a9f388e19fb2325e8ad7c90e14c7ade393483499d99e62042fec75f3aa31"
+    },
+    {
+      "path": "games/path-lab/verify-batch.cjs",
+      "sha256": "e5e654602463eac7840f256985d4edbf39e295e4a58621b5fa12b58a01aeccb0"
+    },
+    {
+      "path": "games/path-lab/verify.cjs",
+      "sha256": "2647ef778e38966c3500fd227398c93af9f58339b67bd5a4e46200f39a8a8853"
+    },
+    {
+      "path": "games/path-lab/write-docs.cjs",
+      "sha256": "bc8fad730104bff2a94cb941861ccf70e7b83936c49d4298e3719ae3bcbde146"
+    },
+    {
+      "path": "games/reversible-stairs.html",
+      "sha256": "f7b5f88cc60b8ca91bbf18cf9a22298643e689efa510deeeb2c1ee9b6ee3f078"
+    },
+    {
+      "path": "games/reversible-stairs/README.md",
+      "sha256": "5761be912232b304a976a0f72fac949674743db2e8b8c4d9ac6cf005f7edbd67"
+    },
+    {
+      "path": "games/reversible-stairs/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/reversible-stairs/generate.cjs",
+      "sha256": "76056340133332949293ddd379ad201e2f7b4772bcf9146c21ab50c81b65db41"
+    },
+    {
+      "path": "games/reversible-stairs/levels.js",
+      "sha256": "dc77b010ad201e1be34bec3367776673b7904d5ba69d85febe4143f3d1183b3e"
+    },
+    {
+      "path": "games/reversible-stairs/levels.json",
+      "sha256": "7c5d4af1ae976fa3141189354cd3b30c15ded82ce2ddbfadc8e06ce69d1c1cab"
+    },
+    {
+      "path": "games/reversible-stairs/verify.cjs",
+      "sha256": "bda4b5cfe593f896dbf25d20ca1bf42e884eacbd39bb08034dbece335d31295b"
+    },
+    {
+      "path": "games/single-teleport.html",
+      "sha256": "397daa84c266c0a39a71ac2fee302829690900e124220b527494d0c7fbdb7485"
+    },
+    {
+      "path": "games/single-teleport/README.md",
+      "sha256": "febb520b2264fc9bcbec4525310ce1af467051d0ba27b4efc9db965a0330e2c7"
+    },
+    {
+      "path": "games/single-teleport/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/single-teleport/generate.cjs",
+      "sha256": "0e5a36ae2e01c2e58e5b5453f7a6267973b213915edcb322a839d304b3f52a5a"
+    },
+    {
+      "path": "games/single-teleport/levels.js",
+      "sha256": "46d22bb986a1f75165e324c79ae966b2a3755a1051c0d1f6cde4512298d135c4"
+    },
+    {
+      "path": "games/single-teleport/levels.json",
+      "sha256": "24ded4e3d72c6a20c83ce4d8cad60b03e32fdc1a50f1084885fdc249eefaf5f4"
+    },
+    {
+      "path": "games/single-teleport/verify.cjs",
+      "sha256": "b1ce468632aa24b97428175ba576c283149bd997da9412a06978f40205789154"
+    },
+    {
+      "path": "games/tether-maze.html",
+      "sha256": "8fdb812a4826fcac3e8abdddee8414cc6fea281849c3082e3c4ebdf63245178a"
+    },
+    {
+      "path": "games/tether-maze/README.md",
+      "sha256": "357c11f0ca9df6b46b3f7c0c457f7ce396c7647802a66566704aab360439c395"
+    },
+    {
+      "path": "games/tether-maze/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/tether-maze/generate.cjs",
+      "sha256": "3c72531a2d1f72be80d57cb197aa17e37a2971c28f1208a1e29e5d338c5c59e2"
+    },
+    {
+      "path": "games/tether-maze/levels.js",
+      "sha256": "d611f068c5a65f9c623bed78e95f80a415f8fc22d5250eeaf7dbb30a15f597b8"
+    },
+    {
+      "path": "games/tether-maze/levels.json",
+      "sha256": "9da220196ddb5d025e3cdb53e7e092b44e56ea70d374da43eb7db76e9bcd8517"
+    },
+    {
+      "path": "games/tether-maze/verify.cjs",
+      "sha256": "ec806a3124f84d824143c2b04696f7aff6b740ebed7c82fa8e1a2e4ac7407ef1"
+    },
+    {
+      "path": "games/tidal-maze.html",
+      "sha256": "931b438cdf7b980e2ed54ed31efc919858a72aa48a55fea12cd05053cc5e89b8"
+    },
+    {
+      "path": "games/tidal-maze/README.md",
+      "sha256": "20a84bf99b78dbbc74d383ca6484906e37c269137dcead9e5ac0c6ccfe8c88e0"
+    },
+    {
+      "path": "games/tidal-maze/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/tidal-maze/generate.cjs",
+      "sha256": "a49f1c4d43e8342f181ebb6b0fdfde474e41d45fa70213770cee17e4c5e029c7"
+    },
+    {
+      "path": "games/tidal-maze/levels.js",
+      "sha256": "3510e538e7749166a14d9b3b530a5930107990c338cff7e8b6aae9e18456d6b1"
+    },
+    {
+      "path": "games/tidal-maze/levels.json",
+      "sha256": "d77b2e376c7f332fca8663f1891c9e1c711375596796f069cc25e764eaec6345"
+    },
+    {
+      "path": "games/tidal-maze/verify.cjs",
+      "sha256": "5816f088b989301f04104e6bc3bf45704d3248d97320f543d0c8702c2598f12b"
+    },
+    {
+      "path": "games/tour-route.html",
+      "sha256": "6861fef76090fdbce7d0c97c6c296fb290968c4eae83e8568ae8c4e558254fee"
+    },
+    {
+      "path": "games/tour-route/README.md",
+      "sha256": "0b93bdf3e94ac60372acd8463834cc59d11c81901454727fb2c795309afa045e"
+    },
+    {
+      "path": "games/tour-route/engine.cjs",
+      "sha256": "2de7772f64e91944b9c3cb8bf2e409aceb279bb9d76560b19a7eaff6739a7065"
+    },
+    {
+      "path": "games/tour-route/generate.cjs",
+      "sha256": "7879894f904316f3c7f6124dbdd8f67260697d7f12993b8f81f3ee5b9e7d9d5a"
+    },
+    {
+      "path": "games/tour-route/levels.js",
+      "sha256": "da3deec08e9a9bde9b553fc6d0bcfd5c4d317d4af038004cc6da74978d988dcc"
+    },
+    {
+      "path": "games/tour-route/levels.json",
+      "sha256": "5bbbde6cc03b075f4723e6de4a529969a1804c89aa02fba1c8f0fa71ba2db19b"
+    },
+    {
+      "path": "games/tour-route/verify.cjs",
+      "sha256": "419ec18ded49b176f9bc3ce4f02806b96a226ceec63b7e7656c403ebb3b75412"
+    }
+  ],
+  "ownedPaths": [
+    "games/path-lab",
+    "games/euler-bridges",
+    "games/euler-bridges.html",
+    "games/knight-tour",
+    "games/knight-tour.html",
+    "games/dual-shadow-maze",
+    "games/dual-shadow-maze.html",
+    "games/tidal-maze",
+    "games/tidal-maze.html",
+    "games/energy-network",
+    "games/energy-network.html",
+    "games/single-teleport",
+    "games/single-teleport.html",
+    "games/color-gates",
+    "games/color-gates.html",
+    "games/tether-maze",
+    "games/tether-maze.html",
+    "games/reversible-stairs",
+    "games/reversible-stairs.html",
+    "games/tour-route",
+    "games/tour-route.html"
+  ]
+}

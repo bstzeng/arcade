@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "gameId": "museum-curator",
+  "rulesRevision": "management-rules-1",
+  "contentRevision": "management-content-1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": []
+  },
+  "proofKinds": [
+    "reachability"
+  ],
+  "witnessActions": 3634,
+  "independentFieldComparisons": 3634,
+  "offWitnessTransitions": 270,
+  "invalidActionCases": 900,
+  "namedBoundaryFixtures": 3,
+  "alternateLegalPlanAccepted": true,
+  "structurallyDistinctStarts": 100,
+  "canonicalNormalization": "Enumerate eight orthogonal grid symmetries and all three theme-label permutations; transform entrance/exit, light, capacity and walls; sort exhibit and visitor profiles. Visitor arrival order is conservatively normalized away.",
+  "witnessLengths": {
+    "min": 26,
+    "median": 36,
+    "max": 48
+  },
+  "sources": [
+    {
+      "path": "games/museum-curator.html",
+      "sha256": "a33d3fb84429aced964a88bd4e6cf5113191c5ca63436dc38fe39c8ea9945087"
+    },
+    {
+      "path": "games/museum-curator/engine.js",
+      "sha256": "5333d26a803a2bc9d5cf1f55939e23c21ffe1c49f322eb74f7b1b6de8cef047d"
+    },
+    {
+      "path": "games/museum-curator/view.js",
+      "sha256": "94be54ac2346a710f4e73ae53891453c115f8d79d8f9e7ec16943eb1f5138905"
+    },
+    {
+      "path": "games/museum-curator/data.js",
+      "sha256": "121e363d0ccd243df427586cf2f4d667b3c8c3e2e76218c6e58e44b7818f49ae"
+    },
+    {
+      "path": "games/museum-curator/levels.json",
+      "sha256": "b5b95e224ffc8366a18404001ce5717883f33302909b6a243f01c8f82b9424f9"
+    },
+    {
+      "path": "games/museum-curator/witnesses.json",
+      "sha256": "5c2e5d98b6cc8f08f020580c6636affc7c4391fb9b7bff2cbb0ff2f7da6cef1c"
+    },
+    {
+      "path": "games/management-common/model.js",
+      "sha256": "b61ad81b017c2be9f976767ab4af4d33f677c6f925ccc1e918a85ccb26bbd6fb"
+    },
+    {
+      "path": "games/management-common/ui.js",
+      "sha256": "4b0f63297d6a4adcb31822b55b59dfc858d821e5cd5a4a4fce13d4273c8a11c6"
+    },
+    {
+      "path": "games/management-common/bootstrap.js",
+      "sha256": "ca83a40248f0b5a5c620134b2dd8c0ef69bdaea28c2f3a1a83175fd3b5e9c4c0"
+    },
+    {
+      "path": "games/management-common/style.css",
+      "sha256": "082f87535a68f20938c011dfe430c71cc3554eaf5c5ac20443353523e2d74ef6"
+    },
+    {
+      "path": "games/management-common/generate.cjs",
+      "sha256": "df9435854bdce8914d085d9a9e054582b7d36b8b5ee9d2c1b95340e8950b30f4"
+    },
+    {
+      "path": "games/management-common/reference.cjs",
+      "sha256": "aaefdce6a9e4a74fa5668c2dabdde0097d41c5c2299e75b9dbc32d5f68377ae9"
+    },
+    {
+      "path": "games/management-common/canonical.cjs",
+      "sha256": "6e4d41a5744d7114053839d871881f347df5c0c49ac325fe22a4ff66ecde853c"
+    },
+    {
+      "path": "games/management-common/audit.cjs",
+      "sha256": "c3ac7a36a2786ffac7aedb026b7647b28b45e470fe2981e64429fdf048959662"
+    },
+    {
+      "path": "games/management-common/controller-test.cjs",
+      "sha256": "0383e890c1778ae3fa2f201e98adf1f298d7b3f54681a39749e637a3ef0f5cb9"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/management-common/generate.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/museum-curator/witnesses.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/controller-test.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/museum-curator/controller-report.json"
+    },
+    {
+      "argv": [
+        "node",
+        "games/management-common/audit.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/museum-curator/audit.json"
+    }
+  ],
+  "limitations": [
+    "Browser visual and real pointer/touch QA not run; unavailable local preview must be resolved before final release.",
+    "Witnesses establish solvability from the fixed start, not uniqueness, shortest solutions or arbitrary mid-game recoverability."
+  ]
+}

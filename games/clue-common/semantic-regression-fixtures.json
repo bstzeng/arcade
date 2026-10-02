@@ -1,0 +1,233 @@
+{
+  "source": "Independent audit: original logic-grid-010/014/015. These three public starts are semantically equivalent under gap(0)=equality and existing symmetries.",
+  "equivalentLogicStarts": [
+    {
+      "kind": "logic",
+      "n": 3,
+      "people": [
+        "安禾",
+        "柏辰",
+        "采寧"
+      ],
+      "jobs": [
+        "畫師",
+        "園丁",
+        "陶匠"
+      ],
+      "drinks": [
+        "紅茶",
+        "可可",
+        "牛奶"
+      ],
+      "clues": [
+        {
+          "a": [
+            1,
+            0
+          ],
+          "b": [
+            2,
+            2
+          ],
+          "op": "gap",
+          "d": 2
+        },
+        {
+          "a": [
+            0,
+            2
+          ],
+          "b": [
+            2,
+            0
+          ],
+          "op": "eq"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "b": [
+            1,
+            2
+          ],
+          "op": "eq"
+        }
+      ],
+      "solution": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          1,
+          0
+        ]
+      ],
+      "certificate": {
+        "solutions": 1,
+        "worlds": 36
+      },
+      "canonicalSha256": "d6f320e6807e8e085c8ca4689a485a4d282519bf397c009c106595fb4e009963",
+      "id": "logic-grid-010",
+      "tier": 1,
+      "title": "初探 10"
+    },
+    {
+      "kind": "logic",
+      "n": 3,
+      "people": [
+        "安禾",
+        "柏辰",
+        "采寧"
+      ],
+      "jobs": [
+        "畫師",
+        "園丁",
+        "陶匠"
+      ],
+      "drinks": [
+        "紅茶",
+        "可可",
+        "牛奶"
+      ],
+      "clues": [
+        {
+          "a": [
+            1,
+            1
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "op": "gap",
+          "d": 2
+        },
+        {
+          "a": [
+            0,
+            2
+          ],
+          "b": [
+            2,
+            0
+          ],
+          "op": "gap",
+          "d": 0
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "b": [
+            1,
+            0
+          ],
+          "op": "gap",
+          "d": 0
+        }
+      ],
+      "solution": [
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          1,
+          2,
+          0
+        ]
+      ],
+      "certificate": {
+        "solutions": 1,
+        "worlds": 36
+      },
+      "canonicalSha256": "8acf83a32964a946166ab66c9c2839afc4336805f6a700a7d5caadd61710473e",
+      "id": "logic-grid-014",
+      "tier": 1,
+      "title": "初探 14"
+    },
+    {
+      "kind": "logic",
+      "n": 3,
+      "people": [
+        "安禾",
+        "柏辰",
+        "采寧"
+      ],
+      "jobs": [
+        "畫師",
+        "園丁",
+        "陶匠"
+      ],
+      "drinks": [
+        "紅茶",
+        "可可",
+        "牛奶"
+      ],
+      "clues": [
+        {
+          "a": [
+            1,
+            1
+          ],
+          "b": [
+            2,
+            1
+          ],
+          "op": "gap",
+          "d": 2
+        },
+        {
+          "a": [
+            0,
+            0
+          ],
+          "b": [
+            2,
+            2
+          ],
+          "op": "eq"
+        },
+        {
+          "a": [
+            0,
+            1
+          ],
+          "b": [
+            1,
+            2
+          ],
+          "op": "gap",
+          "d": 0
+        }
+      ],
+      "solution": [
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ],
+      "certificate": {
+        "solutions": 1,
+        "worlds": 36
+      },
+      "canonicalSha256": "e896b3f8f068e03b709dfdd0ee02aef1282753c887128ff588c6773ea5b8d460",
+      "id": "logic-grid-015",
+      "tier": 1,
+      "title": "初探 15"
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "revision": "cards80-v1",
+  "freezeCheckedAt": "2026-10-02T18:20:55.624Z",
+  "files": [
+    {
+      "path": "games/big-two.html",
+      "sha256": "831839374b162f91ca786cceae586bc97827fdb8cf20172bfa85ff28cbf6f1a3"
+    },
+    {
+      "path": "games/big-two/README.md",
+      "sha256": "091d7d0102c924388cf976d4e59fab96b19461bee8ce2e407ceca2c6d33ac915"
+    },
+    {
+      "path": "games/big-two/app.js",
+      "sha256": "89ccc416ee23a8e4d68683ebf5a72c6090eb084eaf13240f183e74495dcfbfc1"
+    },
+    {
+      "path": "games/big-two/controller-tests.cjs",
+      "sha256": "f980ef01c652451f91999db3c3f00d18542978a2450e8cb0e5b0d10f0d23a291"
+    },
+    {
+      "path": "games/big-two/engine.js",
+      "sha256": "9db5417372770a6b3170eb683b34fcf5c1063095f7308e5b58a77d97c81f8405"
+    },
+    {
+      "path": "games/big-two/levels.js",
+      "sha256": "5266a98c6d4a95ab2bb6a5dd9e33ee496ff4d756128f8f214fe7d7e24504160e"
+    },
+    {
+      "path": "games/big-two/levels.json",
+      "sha256": "0d639ec6ac4bbc7466465a30e83d605fab85b7e6d382d2448ebe5ead9de06fae"
+    },
+    {
+      "path": "games/big-two/proofs.json",
+      "sha256": "172ac936259f2d373cd134d3baac71425d682b64fc638b6c3213b3bcd4611864"
+    },
+    {
+      "path": "games/big-two/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/big-two/test.cjs",
+      "sha256": "898e3fb2a41cf1c8e623aa3632a1169debf7ec319ae43b5bac703aea20b0fc4d"
+    },
+    {
+      "path": "games/big-two/ui-verification-report.json",
+      "sha256": "a58a8af61a5b32d72d9808060518f19070a3d01ee22869cb4a36d9d5eb1b63c4"
+    },
+    {
+      "path": "games/big-two/verification-report.json",
+      "sha256": "412bc5cbde6cb4972f28170f6a5b550719d40176798236c72068c7602e37d979"
+    },
+    {
+      "path": "games/big-two/verify.cjs",
+      "sha256": "52e3ef2b3a00ca7563e9a940556951b68df535b2bc5d8bb624782c901d1b86d1"
+    },
+    {
+      "path": "games/cards80-common/app.js",
+      "sha256": "5c418c4ba9bacdfcd692be8f763bc6e96d55f92b985891da14a3ae0d7dcfac09"
+    },
+    {
+      "path": "games/cards80-common/assistance-tests.cjs",
+      "sha256": "3cd4ac9a6f7e7bb5b448cc19f5113de00d1a60da5aae74a5a79831701ff1ff92"
+    },
+    {
+      "path": "games/cards80-common/assistance-verification-report.json",
+      "sha256": "c73af3069f71f17b2b9937cce8181ed6f42e45087cbe19ddead6cd7ba0047133"
+    },
+    {
+      "path": "games/cards80-common/browser-tests.cjs",
+      "sha256": "adc1c41d89c760ee50b241738d4b86b99b264acc863fefa8f6accc5ab006ea6b"
+    },
+    {
+      "path": "games/cards80-common/browser-verification-report.json",
+      "sha256": "96ca9a257a009905ea87808cbfae9801d5cc9eec3294f9423bebd27fc98b2787"
+    },
+    {
+      "path": "games/cards80-common/climbing.js",
+      "sha256": "f674de0f444d5c69ccbda1c6dd6f98ed265276ec12b51a1e465b53cd76193fdf"
+    },
+    {
+      "path": "games/cards80-common/common.js",
+      "sha256": "8ff4d36828ecb5be4619e62481ead682e254aeb32f48c9d277e67455904c411c"
+    },
+    {
+      "path": "games/cards80-common/controller-tests.cjs",
+      "sha256": "0ba0fd76cd56ab1e4213995beb4957c438f6862630e26e82331a0354a8cabaa8"
+    },
+    {
+      "path": "games/cards80-common/dom-harness.cjs",
+      "sha256": "509875c5e675acfc87285a7a58a9a5cd4a16cc95c234da658c39f71a08788400"
+    },
+    {
+      "path": "games/cards80-common/engine.js",
+      "sha256": "cc5f1e6f2d94fe36ad41d3f48ed1423fec55fb25b58b3a740e416c183708a641"
+    },
+    {
+      "path": "games/cards80-common/finalize.cjs",
+      "sha256": "b48d482949adf45997528c4597a7fba3323495796f8f6681685cf659c5f4b011"
+    },
+    {
+      "path": "games/cards80-common/generate.cjs",
+      "sha256": "c511169374fe0fc561e067cdf05e934b7155c5a28d08e1077b765bd28181400d"
+    },
+    {
+      "path": "games/cards80-common/independent.cjs",
+      "sha256": "124ba712e8b4ced477a65b9efd2d2b9820050ccdee134d955fb2d49d18532861"
+    },
+    {
+      "path": "games/cards80-common/meta.js",
+      "sha256": "4fd8a026645e24e7c75b809d1b00b79980cd7f29ceaf054ffcfa496943957254"
+    },
+    {
+      "path": "games/cards80-common/poker.js",
+      "sha256": "ee6febcb72d68189f27fc13bc2a67a96a49b54788f535479578c7753a33be5fe"
+    },
+    {
+      "path": "games/cards80-common/release-manifest.json",
+      "sha256": "a99567d7df117b3ea895e68a1e9de3eecfa8e1dcd34f883b9aea2bb280ddaf41"
+    },
+    {
+      "path": "games/cards80-common/rule-tests.cjs",
+      "sha256": "df69649c437458600853cf3635b726e73b904addf6b5f2e5bf496de8bf94f3eb"
+    },
+    {
+      "path": "games/cards80-common/rummy.js",
+      "sha256": "8bb87318b7e0c81d874929bdbc96a764d38b9fc41c77c8da4579621673c3f79b"
+    },
+    {
+      "path": "games/cards80-common/scaffold.cjs",
+      "sha256": "23ff369f88e84d49a2265a5675c321120cc18d3a61701b7f6cba0b893064efb2"
+    },
+    {
+      "path": "games/cards80-common/session.js",
+      "sha256": "a9199b6b9ac2bcc425a9307842d0eeb9ba07c3410041256b9e1ec8c467ed707f"
+    },
+    {
+      "path": "games/cards80-common/shedding.js",
+      "sha256": "fb96e7599585517ce69dd86c975321306d63b0ff6cf175e04b572bd6e5755f13"
+    },
+    {
+      "path": "games/cards80-common/smoke.cjs",
+      "sha256": "aae57b9050a65047bada27422184b93b87e1f59438189570d3e0c46e8e30fd47"
+    },
+    {
+      "path": "games/cards80-common/style.css",
+      "sha256": "dc5ab8f04ce1f709da3934f8263103dc992ae81067f526d7f3a08ccbe6591c21"
+    },
+    {
+      "path": "games/cards80-common/test-all.cjs",
+      "sha256": "825130327bd9bf56fe74ab5bb541a3fd45f1f8e8e965ce357a6d0c3d7b2ccba0"
+    },
+    {
+      "path": "games/cards80-common/tricks.js",
+      "sha256": "24375c1d29a175dbbead227cab608fa9488595920d35afa2c1674ac8ad01e3fa"
+    },
+    {
+      "path": "games/cards80-common/ui-tests.cjs",
+      "sha256": "cc025063f2b4c9ac13c6178eddf282b0adabe0d1292d911af5c15e3cf29b5fb8"
+    },
+    {
+      "path": "games/cards80-common/verification-report.json",
+      "sha256": "c04739683b607d66d31596be6d2d4470108aa83c601897ee5f45cfd8d89d29cf"
+    },
+    {
+      "path": "games/cards80-common/verify.cjs",
+      "sha256": "d4505dd43997a0d89e3182f79edcdfd3bf11e03ec23584fbfa3427eb197bd75a"
+    },
+    {
+      "path": "games/cards80-common/worker.js",
+      "sha256": "73a6effdfc3737dd5c37c9b7823d80d6d726271c1067010127c0dc246a3d826b"
+    },
+    {
+      "path": "games/chinese-poker.html",
+      "sha256": "85794664ca901f3429a0e71fbbfc44f539ba9238ae9ce14d820d2733d79f7290"
+    },
+    {
+      "path": "games/chinese-poker/README.md",
+      "sha256": "770b8a1d75083a694ae06887e3b238b44cae07140a8b90b19341f75ee9f5f2bb"
+    },
+    {
+      "path": "games/chinese-poker/app.js",
+      "sha256": "fe797449c36e88ce616d3d54b22dbc845a018a76553b8e74be028a3a8636707d"
+    },
+    {
+      "path": "games/chinese-poker/controller-tests.cjs",
+      "sha256": "0449b3bf5499af4fdfc3725d1f2563229d4f9da23a26581debf671ecd1ba6267"
+    },
+    {
+      "path": "games/chinese-poker/engine.js",
+      "sha256": "790a551d02019d9ea88e23b5ecd82bd24f67671d4ee5c96bb8fb7a02e45d69ab"
+    },
+    {
+      "path": "games/chinese-poker/levels.js",
+      "sha256": "ea508de262bd651f5d6851b5e1141883c7172bdab1e3e5541239b0caada43bdf"
+    },
+    {
+      "path": "games/chinese-poker/levels.json",
+      "sha256": "af095999f262fc6beac483fc09fb1740e69f8ff04c89edf4df36f700e8cbefa1"
+    },
+    {
+      "path": "games/chinese-poker/proofs.json",
+      "sha256": "d66da03b281548a7f0ae3114e908d894c60dd5b467faf315ac57ac77895168f7"
+    },
+    {
+      "path": "games/chinese-poker/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/chinese-poker/test.cjs",
+      "sha256": "546e8b1a235a8ad936e4cbc615e470a97f0ddc9fba33aa07d7d8708f6addf41a"
+    },
+    {
+      "path": "games/chinese-poker/ui-verification-report.json",
+      "sha256": "ab9655daed89c175493b886e001d395a7f929e09bc39eed413c1451f8dd9efaf"
+    },
+    {
+      "path": "games/chinese-poker/verification-report.json",
+      "sha256": "61132521ecc409f520da233e2f2d4faf15fa9cacb54377c11f7f13ceb1243100"
+    },
+    {
+      "path": "games/chinese-poker/verify.cjs",
+      "sha256": "8ef38279f88a8fb57b5fd9b0fba26fdcb0b2f1ef57c5413134ca87cb01c8d104"
+    },
+    {
+      "path": "games/contract-bridge.html",
+      "sha256": "b0c20bdb2b1322a7f6d676a4b5679acba3789c84bf6f371b41e11016325d4b4e"
+    },
+    {
+      "path": "games/contract-bridge/README.md",
+      "sha256": "54cd55e7f7cc4b6bd5ae1132411657a90a0dce1bc3fa97a56df27b964f944561"
+    },
+    {
+      "path": "games/contract-bridge/app.js",
+      "sha256": "9669244c88a04725c674aa939dc74bea6ed6bea1dec8ffa9d6f3a855d8aaaf20"
+    },
+    {
+      "path": "games/contract-bridge/controller-tests.cjs",
+      "sha256": "d0ef791c23367caa03a6d3851813afc9ec84bbe7774212ff6ae09136263de538"
+    },
+    {
+      "path": "games/contract-bridge/engine.js",
+      "sha256": "d39cf98bf84da545e0dd4e57b753a3ff1450b410ac0bc6abcc9c9cb466bb4744"
+    },
+    {
+      "path": "games/contract-bridge/levels.js",
+      "sha256": "036f2baa3c46992a6eef8ef3357ffb408b528166c7372a6c37175425d724f839"
+    },
+    {
+      "path": "games/contract-bridge/levels.json",
+      "sha256": "2ded8d0e21a7ee14b3a4ff7054e7cf35c8fbd6e8b4ba6738c07db093587fdac5"
+    },
+    {
+      "path": "games/contract-bridge/proofs.json",
+      "sha256": "d4998b2839687197231792284578c5e2dfac91ec9ea9b99586773c383d48113f"
+    },
+    {
+      "path": "games/contract-bridge/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/contract-bridge/test.cjs",
+      "sha256": "82f5608a6c29b587e06c3d21902c2a38747382654ff22e52c83635af5b3f46dd"
+    },
+    {
+      "path": "games/contract-bridge/ui-verification-report.json",
+      "sha256": "a257661c98f9b21067a9a65171db915f8ea9bc4892c44d610ec48ef1953f35a0"
+    },
+    {
+      "path": "games/contract-bridge/verification-report.json",
+      "sha256": "3516f51c9e4975ed64c8472337e3778f66de205dc032c92a03a2a0763ba86b81"
+    },
+    {
+      "path": "games/contract-bridge/verify.cjs",
+      "sha256": "e85e98d40860badf14156f0e48cbf70fd33e4e6817963fcddc92d0c542d2b10a"
+    },
+    {
+      "path": "games/crazy-eights.html",
+      "sha256": "f8892f2e91b1e3f78d2027c45aa7bcea23f4778f39cafce2ab5741816485612a"
+    },
+    {
+      "path": "games/crazy-eights/README.md",
+      "sha256": "fa717e3b6dc2a67e626bbd943e8321fd1c2322755f3dcf5092e9a5024739c8a8"
+    },
+    {
+      "path": "games/crazy-eights/app.js",
+      "sha256": "ff5acdd9980da9cda3c7418e674bc84db287b52bc2a17b18b0494b723bd03b78"
+    },
+    {
+      "path": "games/crazy-eights/controller-tests.cjs",
+      "sha256": "c00e340336c811099066a308e2c911b6122033e8e1d5881b6f7f7adf4f1cbb09"
+    },
+    {
+      "path": "games/crazy-eights/engine.js",
+      "sha256": "9b645d69f325cc48670a673ba540c0e077f2d46e2d9968f584368e1c8ff9fb82"
+    },
+    {
+      "path": "games/crazy-eights/levels.js",
+      "sha256": "4c05001a88e0315c146a088c75e91f931cfdcf791e7ca2500ea70fe7dca1cd36"
+    },
+    {
+      "path": "games/crazy-eights/levels.json",
+      "sha256": "58d5cc48c2d103fa3e141c5dae657292896556bd046caf81073bd5e9a9b9e0de"
+    },
+    {
+      "path": "games/crazy-eights/proofs.json",
+      "sha256": "1fc292624d4ff09962dadf7c4c3cece731092633eaf54b0479925aa0e9f47652"
+    },
+    {
+      "path": "games/crazy-eights/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/crazy-eights/test.cjs",
+      "sha256": "691d75669d2ae6603104a6aad1bc22c586204de3da5bc87ffe49ab766e7f4980"
+    },
+    {
+      "path": "games/crazy-eights/ui-verification-report.json",
+      "sha256": "eb4c6b7716f2c2051198339666ff475af4da7b56c040fef8e8eecfbff978daba"
+    },
+    {
+      "path": "games/crazy-eights/verification-report.json",
+      "sha256": "5fb1e052874b2e16fe2f6f5b14b6deb8c4ac82b5e160681f968403d93eba7dfc"
+    },
+    {
+      "path": "games/crazy-eights/verify.cjs",
+      "sha256": "aa04115ff786bffe74e2aea480f51c3aaafcb7d237e0050331db10ae84b08324"
+    },
+    {
+      "path": "games/dou-dizhu.html",
+      "sha256": "baeeeec548cfffa0d81b216ae07f245ffc912010636566841118d1be13a179b8"
+    },
+    {
+      "path": "games/dou-dizhu/README.md",
+      "sha256": "4d8e4d901153629bae72100d431fd0b998e3490af35a24b6bbb8aa876cbe78a8"
+    },
+    {
+      "path": "games/dou-dizhu/app.js",
+      "sha256": "9ec7526900b4c93b4c12da7d9380c5a2b6ce4ebf89cb84f3e274f0fc520f2971"
+    },
+    {
+      "path": "games/dou-dizhu/controller-tests.cjs",
+      "sha256": "4d088dd66d89330470b19d73c10710e246382a63c7f3c101d1860da060f7699a"
+    },
+    {
+      "path": "games/dou-dizhu/engine.js",
+      "sha256": "bff147664aa0607913b920692fa96511faad08abd1e870609a8e1c260def9aa3"
+    },
+    {
+      "path": "games/dou-dizhu/levels.js",
+      "sha256": "5cee842c692822fdc3193c2d9b5f7993117efd23bfd0c90cc60ac0898641187b"
+    },
+    {
+      "path": "games/dou-dizhu/levels.json",
+      "sha256": "3e63b50f583f04c95374af8750952df890d26dd157a86b939f8bcbe26d4a3225"
+    },
+    {
+      "path": "games/dou-dizhu/proofs.json",
+      "sha256": "5422e034bc9ab11ad9575430c1d0a8fa9e8c58c7b7314ff98b5af282490c34a6"
+    },
+    {
+      "path": "games/dou-dizhu/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/dou-dizhu/test.cjs",
+      "sha256": "f80a228af07446b9d5016fe148ff59be31050f004a7a35dce52875ff7ff160fe"
+    },
+    {
+      "path": "games/dou-dizhu/ui-verification-report.json",
+      "sha256": "b124ecb74270b4d3bc5a70331bb0423a0dd2f49709419e333a78cc9b5a93418c"
+    },
+    {
+      "path": "games/dou-dizhu/verification-report.json",
+      "sha256": "5f912e03006654db778b3ba0d407aa7ca0cb99dc119051a7efd1aa73cda7826e"
+    },
+    {
+      "path": "games/dou-dizhu/verify.cjs",
+      "sha256": "1fc0486fe92a123538d70693956101b54ba4499b7e23de110234a543cfefb913"
+    },
+    {
+      "path": "games/gin-rummy.html",
+      "sha256": "02890aa4d8770c98593af9927fc3e173155c217986b786267ab30d254b2a091e"
+    },
+    {
+      "path": "games/gin-rummy/README.md",
+      "sha256": "c1ca23a3d126723fb1bf6a6ce0ebfed70951639bcf2cbdad845faaddb8be34e1"
+    },
+    {
+      "path": "games/gin-rummy/app.js",
+      "sha256": "c2f1cef8c70057e8171297f6dc48b42e60ca911a509be7640c43b31b1063ac33"
+    },
+    {
+      "path": "games/gin-rummy/controller-tests.cjs",
+      "sha256": "62982ab177920b00be966a02f0ffeade68dd5960f92496e58013baef172f6519"
+    },
+    {
+      "path": "games/gin-rummy/engine.js",
+      "sha256": "d1c6071b3e047b0d7ad7ad7df31c8565ecbd5d2f02e7bdd198f2927169299043"
+    },
+    {
+      "path": "games/gin-rummy/levels.js",
+      "sha256": "ffa397a86f2c62b2f7871eb4fc6b3e641e3b386527eecef0cf98fdb49ebf9665"
+    },
+    {
+      "path": "games/gin-rummy/levels.json",
+      "sha256": "9f7c2c4eb97f5c82da1e4a125ea1a0abc78725827255a751086913b57ec4b017"
+    },
+    {
+      "path": "games/gin-rummy/proofs.json",
+      "sha256": "1fe439f8e4ae3666075132c45878c58745215e4b5bbed1954d29bfc53dd4c1cf"
+    },
+    {
+      "path": "games/gin-rummy/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/gin-rummy/test.cjs",
+      "sha256": "9110da3dcb47cdd9a4554bc58167160516ad808424c4f868c4b526333df7d0c4"
+    },
+    {
+      "path": "games/gin-rummy/ui-verification-report.json",
+      "sha256": "3f54a2f2a8585eff8f4039c2b4a60dc83bc1e0bad8591959834346e7528cc5d9"
+    },
+    {
+      "path": "games/gin-rummy/verification-report.json",
+      "sha256": "e5afcbec5803079068cb354080692a2e58789b9916eaa0e91a7b2a788b671a58"
+    },
+    {
+      "path": "games/gin-rummy/verify.cjs",
+      "sha256": "bda5d1392e70c42e0bccaea4a94ed86d784ab576bf7d2ac1c4db3f590221fd73"
+    },
+    {
+      "path": "games/hearts.html",
+      "sha256": "73ff70e2bbd962034251a9fa57b6cba92d69cc0fcb10dc21656599a12e7094b4"
+    },
+    {
+      "path": "games/hearts/README.md",
+      "sha256": "ca5c9d257f28eb42da3113229b8849a4f9df8ad3ced2950b6e88673bec1aa68c"
+    },
+    {
+      "path": "games/hearts/app.js",
+      "sha256": "4788173ddb2ff05f33b8ec573b98ddffa0d265b572cae0489b6ee22e3d4e695a"
+    },
+    {
+      "path": "games/hearts/controller-tests.cjs",
+      "sha256": "8f0fde1b15619d0dae01cef1ec9dccd4952108456316dd82ba214cdf59ff9f9b"
+    },
+    {
+      "path": "games/hearts/engine.js",
+      "sha256": "bdf4868428e73ad3fa6d354ff7eaa721bd938ccb354817b6c08decf7b0896ba9"
+    },
+    {
+      "path": "games/hearts/levels.js",
+      "sha256": "8c06427dc94c9fe1680269dc482d8d9df81d685233bb7886b45db5489711fc6b"
+    },
+    {
+      "path": "games/hearts/levels.json",
+      "sha256": "01770ecde705db7cdd57531949594b3163c65d1f613b92b6d036b9f59994044a"
+    },
+    {
+      "path": "games/hearts/proofs.json",
+      "sha256": "cca4f5acdcb2d38b7499249d079412eb0ff1183aded2e615e2d45b9cb9121ca3"
+    },
+    {
+      "path": "games/hearts/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/hearts/test.cjs",
+      "sha256": "8afd6eae4718b03be8792c9bc0ad701e85eb942476fd382f9233ad0c290bacaf"
+    },
+    {
+      "path": "games/hearts/ui-verification-report.json",
+      "sha256": "4485bec11a67ce9124aee6ccbd046598a434785dec818909c2bedfce58aebb0e"
+    },
+    {
+      "path": "games/hearts/verification-report.json",
+      "sha256": "72580e41fe25f7aed1c6b0f20f21a77b4a9ddb4d20f5cff09d876a8642ac4fab"
+    },
+    {
+      "path": "games/hearts/verify.cjs",
+      "sha256": "6385250ea2def32a2a23833c8494db21273be73e7f86d3c5f20be8ab63920657"
+    },
+    {
+      "path": "games/sevens.html",
+      "sha256": "21d27ad3718b836efe10cb0669c1213147613c6c86b8525f14eb1ec8dc5e7273"
+    },
+    {
+      "path": "games/sevens/README.md",
+      "sha256": "01ffa0276a0762488e8dc20cb447c641a81703bb9d9cb47cbc2f03ad901d6ea0"
+    },
+    {
+      "path": "games/sevens/app.js",
+      "sha256": "ae51a3c4e4850f343ef2a40be70f1b37a47c872f3cbffd0b57c0f592b2585cef"
+    },
+    {
+      "path": "games/sevens/controller-tests.cjs",
+      "sha256": "dc72df3ff61b7a274fce17e0698e57426bffcc2e3f43a131c8765b1a37f05e88"
+    },
+    {
+      "path": "games/sevens/engine.js",
+      "sha256": "77bbd21b083a2da9e7c7da1ab1d691cb700a4ba6aee112a59f223b80996356c7"
+    },
+    {
+      "path": "games/sevens/levels.js",
+      "sha256": "a5f0ffaed951e097a21cbfcfd1ed285ac9352aed9fe38d356d4bfd17f8955cbc"
+    },
+    {
+      "path": "games/sevens/levels.json",
+      "sha256": "ee2c8f7d5c6fdcf63a49560c02d078334352113c401c8ede40a320de332894e5"
+    },
+    {
+      "path": "games/sevens/proofs.json",
+      "sha256": "771059072a6d24f1303400d795a3b5092c30839acdce0169927870ae8f8b2b35"
+    },
+    {
+      "path": "games/sevens/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/sevens/test.cjs",
+      "sha256": "02667198e1aba23e69739ab59bbb151d0e18633314ec2f5e3e569db49cc0570a"
+    },
+    {
+      "path": "games/sevens/ui-verification-report.json",
+      "sha256": "26de8656c3c65316435ee4f3fc01f2e657bffb52fb609c0d0854ca44358c8c9f"
+    },
+    {
+      "path": "games/sevens/verification-report.json",
+      "sha256": "6cfa2466a3512848deef4fa1a23cee2e0665e94f1d5c044bd5a5e8bacebef051"
+    },
+    {
+      "path": "games/sevens/verify.cjs",
+      "sha256": "c7ce2a3a765d0118495a7bc5e0d195bd879ec2a3b7a2fbbd61e61ebffd15bf9b"
+    },
+    {
+      "path": "games/spades.html",
+      "sha256": "335035ad8b028f857a4f9fe95571808e89583811e84b20af35c9839226795f2b"
+    },
+    {
+      "path": "games/spades/README.md",
+      "sha256": "28e7c84355ef8a25e0275f7973dccfd13a5bfb60db8aa0786b8f225f0e22a261"
+    },
+    {
+      "path": "games/spades/app.js",
+      "sha256": "6f09de913be71ce0311c948757d5e78d4008857b58a74dd7bd8b78e068d3f654"
+    },
+    {
+      "path": "games/spades/controller-tests.cjs",
+      "sha256": "f1b1e92d5a397f0ec7fcadac34bf9f7840a9c857495136f9546cb6d63c4241c1"
+    },
+    {
+      "path": "games/spades/engine.js",
+      "sha256": "8d79b28efbcef11eadc62e6d800b6378ed4eef05e9cf7ca2d9c16a2e0871eaa9"
+    },
+    {
+      "path": "games/spades/levels.js",
+      "sha256": "a56c0c143af9f7f74e33abb2d2484d4657ca446723c001185319f161b7bb50aa"
+    },
+    {
+      "path": "games/spades/levels.json",
+      "sha256": "16d20e6958dbd96087ba580d4b22d262e9a44a48c4dabb680aa592fee973fccc"
+    },
+    {
+      "path": "games/spades/proofs.json",
+      "sha256": "56eb73020e760a2dc9cd7d93e2bc83324ba06d443087f08f904f38b224a79fca"
+    },
+    {
+      "path": "games/spades/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/spades/test.cjs",
+      "sha256": "cee4adcedcf63c5feb13f5d2c65f5ed8d741584413e454371f631bc0d0d71256"
+    },
+    {
+      "path": "games/spades/ui-verification-report.json",
+      "sha256": "2b7357f01a3e1dbd6d29b811205957d5f6a1b6b3bed69c414efc6161ee6d471e"
+    },
+    {
+      "path": "games/spades/verification-report.json",
+      "sha256": "836c696c3a42147d46c14e40c6cc7dd8e119b173a60ff37cd86be3a592655224"
+    },
+    {
+      "path": "games/spades/verify.cjs",
+      "sha256": "af8b765723022dbafda4c001ced908aefe176c7acd19dac1916dd9edb7396bdf"
+    },
+    {
+      "path": "games/texas-holdem.html",
+      "sha256": "a48288b2e46b28eb487545f81f3d1da391b774ff7b18fdcfd729506f551a79c6"
+    },
+    {
+      "path": "games/texas-holdem/README.md",
+      "sha256": "1a5026eddcce736741725b2d88aa59ddc3371f0657fb25646152fb8e5a9d5e1a"
+    },
+    {
+      "path": "games/texas-holdem/app.js",
+      "sha256": "39f149f37fa092c1719ab5034d4ecb75eedaf7f6b3697cc2d31e5d252936e515"
+    },
+    {
+      "path": "games/texas-holdem/controller-tests.cjs",
+      "sha256": "73bfedcd7ec699cc7064d323df14b668915abb786f99be180849cfb2fc2ffa17"
+    },
+    {
+      "path": "games/texas-holdem/engine.js",
+      "sha256": "7a66819561a225225f105037bddabc7e86c6524a640f37bba082f82433b1ce01"
+    },
+    {
+      "path": "games/texas-holdem/levels.js",
+      "sha256": "83ac5accdb6e1201006d9d372d3ea520dba167e571b1cfcb7fcbca6433ae7a08"
+    },
+    {
+      "path": "games/texas-holdem/levels.json",
+      "sha256": "5a203faa2333077269ff76fa572183cbc3a757932189cb94d984f6a2f162eaf7"
+    },
+    {
+      "path": "games/texas-holdem/proofs.json",
+      "sha256": "4344f93cafd66d6e6c81690888532fa42bf2e841ea3d062ec8f02063205e8267"
+    },
+    {
+      "path": "games/texas-holdem/style.css",
+      "sha256": "1289b75cf060e063b5d861ff39091ec42c08d33d51a3a2eb7921742ac7dbb590"
+    },
+    {
+      "path": "games/texas-holdem/test.cjs",
+      "sha256": "3246740403541f99b2dbe3e7fe3f399c1a76688e35670bf3fa3d359eda8a67fa"
+    },
+    {
+      "path": "games/texas-holdem/ui-verification-report.json",
+      "sha256": "c97835a8276a44b1a6de52eff1761c6082387b710609f54b3a508011f9d85680"
+    },
+    {
+      "path": "games/texas-holdem/verification-report.json",
+      "sha256": "b8c9c73ebbd5695814daca24c0186fe6d4cf2cc28bd801779d7abfffea5b4ed3"
+    },
+    {
+      "path": "games/texas-holdem/verify.cjs",
+      "sha256": "0ebb883c6bb45957a32949c29bac78d6e4a786e7dcc0bcb2a3433da8b4dc04d5"
+    }
+  ]
+}

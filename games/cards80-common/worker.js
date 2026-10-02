@@ -1,0 +1,1 @@
+'use strict';importScripts('common.js','climbing.js','shedding.js','tricks.js','rummy.js','poker.js','engine.js');onmessage=event=>{const {game,observation,level}=event.data;const e=CardEngines.create(game);postMessage({action:e.ai(observation,level)});};

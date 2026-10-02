@@ -1,0 +1,125 @@
+{
+  "gameId": "space-dodge",
+  "title": "太空閃避",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "proofKinds": [
+    "real-time-witness"
+  ],
+  "ticksAudited": 131801,
+  "eventsAudited": 1506,
+  "inputChanges": 1370,
+  "maxWitnessSeconds": 27.7,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": []
+  },
+  "schemaVersion": 1,
+  "rulesRevision": "action-1",
+  "contentRevision": "action-1",
+  "gameSpecificRulesPassed": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOMCanvasTestsPassed": true,
+  "sources": [
+    {
+      "path": "games/action-common/BROWSER-QA.md",
+      "sha256": "f1d4b73a133708da977b0bde4eb51d3be34c6ba28d0cd65d3ed55e9f9615fa51"
+    },
+    {
+      "path": "games/action-common/README.md",
+      "sha256": "af97aeb580efd5ce23ba29ff82815911e0269704fec979ff024c4ef7f3398850"
+    },
+    {
+      "path": "games/action-common/base.js",
+      "sha256": "ddd08da3344e8f1332a2c4f8349324a6a9f369f151c676a71e61c866415c4a90"
+    },
+    {
+      "path": "games/action-common/corpus.cjs",
+      "sha256": "06139d2e0c8fbba2b521ae99aad490472ed336027f3fcabd945954485816a0c6"
+    },
+    {
+      "path": "games/action-common/independent.cjs",
+      "sha256": "d2f6bd0dc91b017d2436136d35dcd005adb1facbae63a71ab6edae9214e36336"
+    },
+    {
+      "path": "games/action-common/rules.test.cjs",
+      "sha256": "0bc4b24f9cbb33b7cecb75f02c3cefe9f4004b0b3558d1beff660fa64b74b258"
+    },
+    {
+      "path": "games/action-common/session.js",
+      "sha256": "c0327404898ce4b8d8e7bd26c09d1438ec8c45f17bacdbbb243ff1ba8148808e"
+    },
+    {
+      "path": "games/action-common/session.test.cjs",
+      "sha256": "ee080dd71d39e0a57a64e047c4c3bd6929ab6ada77e688be61cb3b31a74956fe"
+    },
+    {
+      "path": "games/action-common/style.css",
+      "sha256": "c9adfc22377cc3ecada37017ca288e1013b9602e61f3cb09379c1c7c5edee30b"
+    },
+    {
+      "path": "games/action-common/ui.js",
+      "sha256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0"
+    },
+    {
+      "path": "games/action-common/ui.test.cjs",
+      "sha256": "9bf961951a6a687f310684ed378483e970ead8d5db7b5425dab66b4117e6e7ed"
+    },
+    {
+      "path": "games/action-common/verify-all.cjs",
+      "sha256": "c191f27e91c31b183f31634b811b51908af61f9439d40e7d6f9b5de0ebca27c6"
+    },
+    {
+      "path": "games/action-common/verify-game.cjs",
+      "sha256": "3281313584863de6b694a33497db5b28183f725931e3de57b695f515a36de9fe"
+    },
+    {
+      "path": "games/space-dodge.html",
+      "sha256": "6ac3d9b00c58f045c47cfb913d589d4f1fe86d3210d3fbbd8a2bb3ae5ba9f2c6"
+    },
+    {
+      "path": "games/space-dodge/certificates.js",
+      "sha256": "a5598c928d4626d17bc4fde119d80d9bb98dd060ea37623dfb6d443e08c7f0b7"
+    },
+    {
+      "path": "games/space-dodge/certificates.json",
+      "sha256": "0491104f8607b4bbde3df3b6344ae581c90c32a0de7de7e50801239a413d5185"
+    },
+    {
+      "path": "games/space-dodge/engine.js",
+      "sha256": "c329169aa2dc166d13e112ddefdf5b2f19ebe7b4d3a9ce9f42a5fd2f6454359b"
+    },
+    {
+      "path": "games/space-dodge/levels.js",
+      "sha256": "6f06ed593a7a7403e4279383112d660c01f37c93ec61d7a6b779479b1aa800d7"
+    },
+    {
+      "path": "games/space-dodge/levels.json",
+      "sha256": "7bace5f428561bd7c8cd8584546ee4cde44812e3b9c893c78494772ed3608e01"
+    },
+    {
+      "path": "games/space-dodge/verify.cjs",
+      "sha256": "e6325ab587d94b8ed31bd2c4182898e05ba06ef29fb35637390717e986f46bf3"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/action-common/verify-all.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/action-common/test-results.txt"
+    }
+  ],
+  "limitations": [
+    "Browser QA is not run. Simulated DOM/canvas checks are not real-browser visual or touch validation.",
+    "Physics are deterministic arcade rules, not a claim of physical accuracy.",
+    "Input transcripts demonstrate one bounded winning play; they do not prove unique solutions or success for every player."
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "gameId": "parkour-run",
+  "title": "跑酷衝刺",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "proofKinds": [
+    "real-time-witness"
+  ],
+  "ticksAudited": 136542,
+  "eventsAudited": 999,
+  "inputChanges": 2852,
+  "maxWitnessSeconds": 31,
+  "browserQA": {
+    "status": "not-run",
+    "evidence": []
+  },
+  "schemaVersion": 1,
+  "rulesRevision": "action-1",
+  "contentRevision": "action-1",
+  "gameSpecificRulesPassed": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOMCanvasTestsPassed": true,
+  "sources": [
+    {
+      "path": "games/action-common/BROWSER-QA.md",
+      "sha256": "f1d4b73a133708da977b0bde4eb51d3be34c6ba28d0cd65d3ed55e9f9615fa51"
+    },
+    {
+      "path": "games/action-common/README.md",
+      "sha256": "af97aeb580efd5ce23ba29ff82815911e0269704fec979ff024c4ef7f3398850"
+    },
+    {
+      "path": "games/action-common/base.js",
+      "sha256": "ddd08da3344e8f1332a2c4f8349324a6a9f369f151c676a71e61c866415c4a90"
+    },
+    {
+      "path": "games/action-common/corpus.cjs",
+      "sha256": "06139d2e0c8fbba2b521ae99aad490472ed336027f3fcabd945954485816a0c6"
+    },
+    {
+      "path": "games/action-common/independent.cjs",
+      "sha256": "d2f6bd0dc91b017d2436136d35dcd005adb1facbae63a71ab6edae9214e36336"
+    },
+    {
+      "path": "games/action-common/rules.test.cjs",
+      "sha256": "0bc4b24f9cbb33b7cecb75f02c3cefe9f4004b0b3558d1beff660fa64b74b258"
+    },
+    {
+      "path": "games/action-common/session.js",
+      "sha256": "c0327404898ce4b8d8e7bd26c09d1438ec8c45f17bacdbbb243ff1ba8148808e"
+    },
+    {
+      "path": "games/action-common/session.test.cjs",
+      "sha256": "ee080dd71d39e0a57a64e047c4c3bd6929ab6ada77e688be61cb3b31a74956fe"
+    },
+    {
+      "path": "games/action-common/style.css",
+      "sha256": "c9adfc22377cc3ecada37017ca288e1013b9602e61f3cb09379c1c7c5edee30b"
+    },
+    {
+      "path": "games/action-common/ui.js",
+      "sha256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0"
+    },
+    {
+      "path": "games/action-common/ui.test.cjs",
+      "sha256": "9bf961951a6a687f310684ed378483e970ead8d5db7b5425dab66b4117e6e7ed"
+    },
+    {
+      "path": "games/action-common/verify-all.cjs",
+      "sha256": "c191f27e91c31b183f31634b811b51908af61f9439d40e7d6f9b5de0ebca27c6"
+    },
+    {
+      "path": "games/action-common/verify-game.cjs",
+      "sha256": "3281313584863de6b694a33497db5b28183f725931e3de57b695f515a36de9fe"
+    },
+    {
+      "path": "games/parkour-run.html",
+      "sha256": "10dfecc26849539f98be176892290dc1149bad22c99180dfbca9d8864049b485"
+    },
+    {
+      "path": "games/parkour-run/certificates.js",
+      "sha256": "2a14372106da766c49fd67e508e37c1cb856212e48a8670bcfd6f35b901a1a7f"
+    },
+    {
+      "path": "games/parkour-run/certificates.json",
+      "sha256": "6e7e62faa839820e13b99d0b17671e4aff848de5b3da972a5b03367f85be0a35"
+    },
+    {
+      "path": "games/parkour-run/engine.js",
+      "sha256": "44ded1d023c4bbffb73549ba7af16f9e4040025c96d5abc9498ceb55456fb0d0"
+    },
+    {
+      "path": "games/parkour-run/levels.js",
+      "sha256": "3c1359747c285681e58b6241e438ca984ddf4aba8a54dd82ee5b6932a4bc80f5"
+    },
+    {
+      "path": "games/parkour-run/levels.json",
+      "sha256": "0f9c69ae1df027d88f496c626aef48465b5e86205e8dd2efef6be8ca4cd69b37"
+    },
+    {
+      "path": "games/parkour-run/verify.cjs",
+      "sha256": "a19b2c55651be7bce74516c0c78b9425e5b04e997fd4fe9f6975341df3de07e2"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/action-common/verify-all.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/action-common/test-results.txt"
+    }
+  ],
+  "limitations": [
+    "Browser QA is not run. Simulated DOM/canvas checks are not real-browser visual or touch validation.",
+    "Physics are deterministic arcade rules, not a claim of physical accuracy.",
+    "Input transcripts demonstrate one bounded winning play; they do not prove unique solutions or success for every player."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "game": "texas-holdem",
+  "checkedAt": "2026-10-02T17:26:04.763Z",
+  "status": "passed",
+  "levels": 100,
+  "uniquePositions": 100,
+  "distinctRankDistributions": 100,
+  "certificateActions": 864,
+  "heroDecisions": 359,
+  "minCertificateActions": 4,
+  "maxCertificateActions": 18,
+  "independentCardAndLegalityChecks": true,
+  "deterministicOpponentChecks": true,
+  "selfPlayRounds": 24,
+  "hiddenInformationInvarianceCases": 12,
+  "elapsedMs": 215,
+  "scope": "Complete open-hand fixed-opponent scenario witnesses; no claim of arbitrary-opponent forced wins."
+}

@@ -1,0 +1,176 @@
+{
+  "games": {
+    "logic-grid": {
+      "levels": 100,
+      "solutionMoves": 820,
+      "hintSteps": 820,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "truth-liars": {
+      "levels": 100,
+      "solutionMoves": 600,
+      "hintSteps": 600,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "alibi-timeline": {
+      "levels": 100,
+      "solutionMoves": 598,
+      "hintSteps": 598,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "substitution-cipher": {
+      "levels": 100,
+      "solutionMoves": 1298,
+      "hintSteps": 1298,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "family-tree": {
+      "levels": 100,
+      "solutionMoves": 589,
+      "hintSteps": 589,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "hat-deduction": {
+      "levels": 100,
+      "solutionMoves": 500,
+      "hintSteps": 500,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "evidence-order": {
+      "levels": 100,
+      "solutionMoves": 654,
+      "hintSteps": 654,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "rule-lab": {
+      "levels": 100,
+      "solutionMoves": 600,
+      "hintSteps": 1414,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "landmark-location": {
+      "levels": 100,
+      "solutionMoves": 200,
+      "hintSteps": 200,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    },
+    "escape-inventory": {
+      "levels": 100,
+      "solutionMoves": 727,
+      "hintSteps": 727,
+      "flows": [
+        "initial unsolved",
+        "solution replay",
+        "immutable reducers",
+        "hint convergence",
+        "undo",
+        "reset",
+        "level selection",
+        "save/reload",
+        "corrupt save",
+        "storage denied"
+      ]
+    }
+  },
+  "assertions": 33002,
+  "passed": true
+}

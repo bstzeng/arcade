@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "matchstick-equation",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "matchstick-equation",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "reachability"
+  ],
+  "sources": [
+    {
+      "path": "games/matchstick-equation.html",
+      "sha256": "05f0bd9a9e87bee89cf3d1d105c090993d6e9afb9642367bddf958e4ff393343"
+    },
+    {
+      "path": "games/matchstick-equation/README.md",
+      "sha256": "cdffccbb66f7fbbc571a2aafe62255bdcf78602c076e1de4a809d74cedab9625"
+    },
+    {
+      "path": "games/matchstick-equation/app.js",
+      "sha256": "067ca4960c1d655dc2c14e503d24fef6d33ad932c46f8f3c9bc291488b5b58ed"
+    },
+    {
+      "path": "games/matchstick-equation/boundary-tests.cjs",
+      "sha256": "d474f3e99d3a5d44cd3e8f09c69c03a4685c5e2c01ba5141faecd17edfa42374"
+    },
+    {
+      "path": "games/matchstick-equation/controller-tests.cjs",
+      "sha256": "cb82e83e5e5e8bb52e89dcb1290bc042932015fc502b23b3f511ea0264fde175"
+    },
+    {
+      "path": "games/matchstick-equation/engine.js",
+      "sha256": "23bdefc35d1266056b22914ccce0607f125ad5630f886a01d14a5e12b50c34a8"
+    },
+    {
+      "path": "games/matchstick-equation/generate.cjs",
+      "sha256": "85938288b40e2fb84d93c1822891557f912684ba2da056322e249e07709bfe24"
+    },
+    {
+      "path": "games/matchstick-equation/levels.js",
+      "sha256": "3d3a72dc25d42096cbf14d8d5b1a858e84afeb2fbef269d990ac917f89d7c8b7"
+    },
+    {
+      "path": "games/matchstick-equation/levels.json",
+      "sha256": "1e44abec369f1a820ef2e47bea5445622c7aa30b3a4de33733cd28f0b3b9d68f"
+    },
+    {
+      "path": "games/matchstick-equation/proof-claims.json",
+      "sha256": "02196cadafac532cb49e85b051ee7ac2a86a9fc8059bbda51ebea34fb968a0e1"
+    },
+    {
+      "path": "games/matchstick-equation/proofs.json",
+      "sha256": "0109959b14b598fe3289f6bb98abfaa598d22baf6c1a3cd99f2cbf43d10b01df"
+    },
+    {
+      "path": "games/matchstick-equation/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/matchstick-equation/test.cjs",
+      "sha256": "d700e7222478de579affbb35d3c0b17170f4942f0aa2af0394fbaae77f8949d4"
+    },
+    {
+      "path": "games/matchstick-equation/ui-test.cjs",
+      "sha256": "1586a3f70c0f3074b377aee52eeab06b9a9376fe1079bfdb6094e46efb01f09d"
+    },
+    {
+      "path": "games/matchstick-equation/verify.cjs",
+      "sha256": "76af85dd96a4939217cc5e914a083029a771d90ec47c43dffe4b9c9aa8c73dee"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release.",
+    "No uniqueness claim; alternative valid solutions are accepted."
+  ]
+}

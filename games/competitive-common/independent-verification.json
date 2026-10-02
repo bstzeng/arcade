@@ -1,0 +1,62 @@
+{
+  "checker": "Independent Python move geometry, capture, dice sequencing, and objective implementation; no JS engine imports",
+  "games": {
+    "go9": {
+      "puzzles": 100,
+      "witnessMoves": 100,
+      "canonicalUnique": 100,
+      "engineSha256": "7318f5a15fa4b8aca991ee9b90be67966718b4889f0aefa71a5aade03cdd7cb2",
+      "levelsSha256": "ee52e818abd4f6efdd77826ea44c0461d91807c3ec6fcf75a3fbe3d373d511e8"
+    },
+    "hex": {
+      "puzzles": 100,
+      "witnessMoves": 100,
+      "canonicalUnique": 100,
+      "engineSha256": "b6844a0a82b1f71422adc18b59721eab376a59f4555f87e42cd9a538ace8f0b6",
+      "levelsSha256": "624cd59bd08663083211654d28b4cf23f6e22e94cef7007cab0c6d1001406eec"
+    },
+    "ataxx": {
+      "puzzles": 100,
+      "witnessMoves": 100,
+      "canonicalUnique": 100,
+      "engineSha256": "60a8590cda4704b8a1d1b1da9f8e00aa23f2f6a029160163b2dba83e2df2a180",
+      "levelsSha256": "64b3be91755c857a9b7c5bc90b39937b28a43fd71b0a879e62d7910b3c476881"
+    },
+    "amazons": {
+      "puzzles": 100,
+      "witnessMoves": 100,
+      "canonicalUnique": 100,
+      "engineSha256": "e284e5e98371147089fc123079ed578506a27ced0c7a98de7f7b74cf1692bab1",
+      "levelsSha256": "ded332deea32faa99321665d194791f8a191fb7bcc4b4cb16ff2f2b154000ca6"
+    },
+    "dots-and-boxes": {
+      "puzzles": 100,
+      "witnessMoves": 100,
+      "canonicalUnique": 100,
+      "engineSha256": "376543dd01412bd1c2dbfe6c965a9de2c01908a52c73ce8271ae68860cf9f795",
+      "levelsSha256": "75048e94224c3204c854e6a24399e24dee6a027fed6a68331fa8646f5be99e8f"
+    },
+    "dou-shou-qi": {
+      "puzzles": 100,
+      "witnessMoves": 100,
+      "canonicalUnique": 100,
+      "engineSha256": "38c8d47637b10a37e2e60266b27f85cc2b4dfab6c1fdb242bd28fb1c511fc361",
+      "levelsSha256": "41aac8e0e6c92b46d266ada1486292d11a4880e39cd6d11b7833b3ffcd924270"
+    },
+    "hnefatafl": {
+      "puzzles": 100,
+      "witnessMoves": 100,
+      "canonicalUnique": 100,
+      "engineSha256": "90e189cefadfb481f4414f305217edc07cbe6728b0cd0afaff1637b9a2d866a0",
+      "levelsSha256": "447b07f0e169afb26f4365b92d1817e2b4a06e9feebf85fad3da9ea8ec4c5e22"
+    },
+    "backgammon": {
+      "puzzles": 100,
+      "witnessMoves": 238,
+      "canonicalUnique": 100,
+      "engineSha256": "d1211bceb3a333d8a1d14e04efd6d82541a2ad440257576fd3d7ae0882e9dbef",
+      "levelsSha256": "475b222c1114ace8d14ebaaa4b79081d014aa0de9b0bac0a1bf56dd7e37f53a9"
+    }
+  },
+  "allPassed": true
+}

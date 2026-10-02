@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-02T17:05:02.647Z",
+  "status": "pending",
+  "executed": false,
+  "reason": "Executor Chromium denied required Unix socket even after reviewed retry; cloud browser rejects localhost. Deterministic DOM UI suite passed; real renderer and touchscreen QA must run on the supported release preview.",
+  "plannedViewports": [
+    [
+      1360,
+      1000
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      720
+    ]
+  ],
+  "suite": "games/cards80-common/browser-tests.cjs"
+}

@@ -1,0 +1,512 @@
+{
+  "game": "shogi",
+  "oracle": "python-shogi 1.1.1",
+  "puzzles": 100,
+  "uniqueMatePuzzles": 100,
+  "differentialPositions": 540,
+  "allLegalMoveSetsAgree": true,
+  "levelsSha256": "1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad",
+  "engineSha256": "0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f",
+  "records": [
+    {
+      "id": 1,
+      "legalMoves": 89,
+      "uniqueMate": "R*2b"
+    },
+    {
+      "id": 2,
+      "legalMoves": 111,
+      "uniqueMate": "G*3h"
+    },
+    {
+      "id": 3,
+      "legalMoves": 91,
+      "uniqueMate": "R*3a"
+    },
+    {
+      "id": 4,
+      "legalMoves": 110,
+      "uniqueMate": "G*4i"
+    },
+    {
+      "id": 5,
+      "legalMoves": 103,
+      "uniqueMate": "R*2a"
+    },
+    {
+      "id": 6,
+      "legalMoves": 111,
+      "uniqueMate": "G*7g"
+    },
+    {
+      "id": 7,
+      "legalMoves": 96,
+      "uniqueMate": "G*4b"
+    },
+    {
+      "id": 8,
+      "legalMoves": 101,
+      "uniqueMate": "G*3h"
+    },
+    {
+      "id": 9,
+      "legalMoves": 97,
+      "uniqueMate": "G*3b"
+    },
+    {
+      "id": 10,
+      "legalMoves": 108,
+      "uniqueMate": "G*2g"
+    },
+    {
+      "id": 11,
+      "legalMoves": 99,
+      "uniqueMate": "R*9c"
+    },
+    {
+      "id": 12,
+      "legalMoves": 108,
+      "uniqueMate": "S*2h"
+    },
+    {
+      "id": 13,
+      "legalMoves": 99,
+      "uniqueMate": "S*3b"
+    },
+    {
+      "id": 14,
+      "legalMoves": 105,
+      "uniqueMate": "R*2i"
+    },
+    {
+      "id": 15,
+      "legalMoves": 119,
+      "uniqueMate": "G*5b"
+    },
+    {
+      "id": 16,
+      "legalMoves": 91,
+      "uniqueMate": "N*7g"
+    },
+    {
+      "id": 17,
+      "legalMoves": 117,
+      "uniqueMate": "G*5b"
+    },
+    {
+      "id": 18,
+      "legalMoves": 134,
+      "uniqueMate": "G*4f"
+    },
+    {
+      "id": 19,
+      "legalMoves": 100,
+      "uniqueMate": "R*8a"
+    },
+    {
+      "id": 20,
+      "legalMoves": 98,
+      "uniqueMate": "R*1g"
+    },
+    {
+      "id": 21,
+      "legalMoves": 117,
+      "uniqueMate": "R*8c"
+    },
+    {
+      "id": 22,
+      "legalMoves": 112,
+      "uniqueMate": "G*5h"
+    },
+    {
+      "id": 23,
+      "legalMoves": 120,
+      "uniqueMate": "R*4a"
+    },
+    {
+      "id": 24,
+      "legalMoves": 103,
+      "uniqueMate": "R*3i"
+    },
+    {
+      "id": 25,
+      "legalMoves": 87,
+      "uniqueMate": "G*2b"
+    },
+    {
+      "id": 26,
+      "legalMoves": 93,
+      "uniqueMate": "G*6h"
+    },
+    {
+      "id": 27,
+      "legalMoves": 89,
+      "uniqueMate": "L*1d"
+    },
+    {
+      "id": 28,
+      "legalMoves": 97,
+      "uniqueMate": "R*7i"
+    },
+    {
+      "id": 29,
+      "legalMoves": 88,
+      "uniqueMate": "G*2b"
+    },
+    {
+      "id": 30,
+      "legalMoves": 118,
+      "uniqueMate": "G*8f"
+    },
+    {
+      "id": 31,
+      "legalMoves": 105,
+      "uniqueMate": "G*5b"
+    },
+    {
+      "id": 32,
+      "legalMoves": 103,
+      "uniqueMate": "G*7h"
+    },
+    {
+      "id": 33,
+      "legalMoves": 127,
+      "uniqueMate": "G*5b"
+    },
+    {
+      "id": 34,
+      "legalMoves": 90,
+      "uniqueMate": "G*6h"
+    },
+    {
+      "id": 35,
+      "legalMoves": 108,
+      "uniqueMate": "R*1c"
+    },
+    {
+      "id": 36,
+      "legalMoves": 94,
+      "uniqueMate": "R*7g"
+    },
+    {
+      "id": 37,
+      "legalMoves": 93,
+      "uniqueMate": "G*2b"
+    },
+    {
+      "id": 38,
+      "legalMoves": 96,
+      "uniqueMate": "G*3h"
+    },
+    {
+      "id": 39,
+      "legalMoves": 104,
+      "uniqueMate": "G*4b"
+    },
+    {
+      "id": 40,
+      "legalMoves": 102,
+      "uniqueMate": "G*4h"
+    },
+    {
+      "id": 41,
+      "legalMoves": 81,
+      "uniqueMate": "4d4b+"
+    },
+    {
+      "id": 42,
+      "legalMoves": 75,
+      "uniqueMate": "1f2h+"
+    },
+    {
+      "id": 43,
+      "legalMoves": 111,
+      "uniqueMate": "4a2a+"
+    },
+    {
+      "id": 44,
+      "legalMoves": 100,
+      "uniqueMate": "9e7g+"
+    },
+    {
+      "id": 45,
+      "legalMoves": 123,
+      "uniqueMate": "8a8b+"
+    },
+    {
+      "id": 46,
+      "legalMoves": 26,
+      "uniqueMate": "9g9h+"
+    },
+    {
+      "id": 47,
+      "legalMoves": 45,
+      "uniqueMate": "1c2b+"
+    },
+    {
+      "id": 48,
+      "legalMoves": 38,
+      "uniqueMate": "2f2g+"
+    },
+    {
+      "id": 49,
+      "legalMoves": 104,
+      "uniqueMate": "9d8c+"
+    },
+    {
+      "id": 50,
+      "legalMoves": 35,
+      "uniqueMate": "3g2h+"
+    },
+    {
+      "id": 51,
+      "legalMoves": 106,
+      "uniqueMate": "2b2a+"
+    },
+    {
+      "id": 52,
+      "legalMoves": 10,
+      "uniqueMate": "9g9h+"
+    },
+    {
+      "id": 53,
+      "legalMoves": 23,
+      "uniqueMate": "1c1b+"
+    },
+    {
+      "id": 54,
+      "legalMoves": 27,
+      "uniqueMate": "4i2g+"
+    },
+    {
+      "id": 55,
+      "legalMoves": 62,
+      "uniqueMate": "3d6a+"
+    },
+    {
+      "id": 56,
+      "legalMoves": 111,
+      "uniqueMate": "5g3g+"
+    },
+    {
+      "id": 57,
+      "legalMoves": 79,
+      "uniqueMate": "2e3c+"
+    },
+    {
+      "id": 58,
+      "legalMoves": 50,
+      "uniqueMate": "8h8g+"
+    },
+    {
+      "id": 59,
+      "legalMoves": 73,
+      "uniqueMate": "1c1b+"
+    },
+    {
+      "id": 60,
+      "legalMoves": 80,
+      "uniqueMate": "9f8g+"
+    },
+    {
+      "id": 61,
+      "legalMoves": 47,
+      "uniqueMate": "9b7b+"
+    },
+    {
+      "id": 62,
+      "legalMoves": 54,
+      "uniqueMate": "9h8h+"
+    },
+    {
+      "id": 63,
+      "legalMoves": 109,
+      "uniqueMate": "4d5b+"
+    },
+    {
+      "id": 64,
+      "legalMoves": 117,
+      "uniqueMate": "6h8h+"
+    },
+    {
+      "id": 65,
+      "legalMoves": 33,
+      "uniqueMate": "1b2a+"
+    },
+    {
+      "id": 66,
+      "legalMoves": 47,
+      "uniqueMate": "4f4g+"
+    },
+    {
+      "id": 67,
+      "legalMoves": 110,
+      "uniqueMate": "3b3a+"
+    },
+    {
+      "id": 68,
+      "legalMoves": 42,
+      "uniqueMate": "1f3h+"
+    },
+    {
+      "id": 69,
+      "legalMoves": 26,
+      "uniqueMate": "2e2a+"
+    },
+    {
+      "id": 70,
+      "legalMoves": 100,
+      "uniqueMate": "6i8g+"
+    },
+    {
+      "id": 71,
+      "legalMoves": 98,
+      "uniqueMate": "8f9e"
+    },
+    {
+      "id": 72,
+      "legalMoves": 116,
+      "uniqueMate": "2g3g"
+    },
+    {
+      "id": 73,
+      "legalMoves": 104,
+      "uniqueMate": "4c3b"
+    },
+    {
+      "id": 74,
+      "legalMoves": 32,
+      "uniqueMate": "1c2e"
+    },
+    {
+      "id": 75,
+      "legalMoves": 110,
+      "uniqueMate": "7c4c"
+    },
+    {
+      "id": 76,
+      "legalMoves": 22,
+      "uniqueMate": "7i8i"
+    },
+    {
+      "id": 77,
+      "legalMoves": 37,
+      "uniqueMate": "9e8d"
+    },
+    {
+      "id": 78,
+      "legalMoves": 45,
+      "uniqueMate": "3h4g"
+    },
+    {
+      "id": 79,
+      "legalMoves": 121,
+      "uniqueMate": "3f3b"
+    },
+    {
+      "id": 80,
+      "legalMoves": 103,
+      "uniqueMate": "9g9h"
+    },
+    {
+      "id": 81,
+      "legalMoves": 55,
+      "uniqueMate": "9e8d"
+    },
+    {
+      "id": 82,
+      "legalMoves": 45,
+      "uniqueMate": "8i6i"
+    },
+    {
+      "id": 83,
+      "legalMoves": 114,
+      "uniqueMate": "4c6a"
+    },
+    {
+      "id": 84,
+      "legalMoves": 26,
+      "uniqueMate": "9g9h"
+    },
+    {
+      "id": 85,
+      "legalMoves": 97,
+      "uniqueMate": "4a3b"
+    },
+    {
+      "id": 86,
+      "legalMoves": 106,
+      "uniqueMate": "7e7i"
+    },
+    {
+      "id": 87,
+      "legalMoves": 23,
+      "uniqueMate": "4c4b"
+    },
+    {
+      "id": 88,
+      "legalMoves": 30,
+      "uniqueMate": "4i3i"
+    },
+    {
+      "id": 89,
+      "legalMoves": 43,
+      "uniqueMate": "6c5b"
+    },
+    {
+      "id": 90,
+      "legalMoves": 55,
+      "uniqueMate": "9e7g"
+    },
+    {
+      "id": 91,
+      "legalMoves": 25,
+      "uniqueMate": "1c1b"
+    },
+    {
+      "id": 92,
+      "legalMoves": 31,
+      "uniqueMate": "4g3h"
+    },
+    {
+      "id": 93,
+      "legalMoves": 21,
+      "uniqueMate": "1d2c"
+    },
+    {
+      "id": 94,
+      "legalMoves": 81,
+      "uniqueMate": "1g1h"
+    },
+    {
+      "id": 95,
+      "legalMoves": 29,
+      "uniqueMate": "3e2c"
+    },
+    {
+      "id": 96,
+      "legalMoves": 86,
+      "uniqueMate": "9i8h"
+    },
+    {
+      "id": 97,
+      "legalMoves": 43,
+      "uniqueMate": "9e9d"
+    },
+    {
+      "id": 98,
+      "legalMoves": 90,
+      "uniqueMate": "5i6i"
+    },
+    {
+      "id": 99,
+      "legalMoves": 43,
+      "uniqueMate": "8b7c"
+    },
+    {
+      "id": 100,
+      "legalMoves": 58,
+      "uniqueMate": "7f8g"
+    }
+  ]
+}

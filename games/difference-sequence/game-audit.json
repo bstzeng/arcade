@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "difference-sequence",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "claimedUniquenessPassed": 100,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "difference-sequence",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "assignment"
+  ],
+  "sources": [
+    {
+      "path": "games/difference-sequence.html",
+      "sha256": "1a5ec9ef9b9b3525f1a99061f8c0815529e4ec341ee51278e7f63e674a038596"
+    },
+    {
+      "path": "games/difference-sequence/README.md",
+      "sha256": "6158e9a63a938c40f4b0bc889993dd7549251fd228235d40eb9dad492634fc8f"
+    },
+    {
+      "path": "games/difference-sequence/app.js",
+      "sha256": "363b1acdc1f02faf1afc65f04ec50035c28868b1964736bb0478f89d21bd5bf4"
+    },
+    {
+      "path": "games/difference-sequence/boundary-tests.cjs",
+      "sha256": "447820e07b081c6a447d73e74932136e1197c4f630835a2fad34db2a2b1a4b89"
+    },
+    {
+      "path": "games/difference-sequence/controller-tests.cjs",
+      "sha256": "815b1a9a4474a9605ffac5f5cb9c674e52aaf0437ac5be3cc68ee84377f4afb8"
+    },
+    {
+      "path": "games/difference-sequence/engine.js",
+      "sha256": "b0f40b85727000d78296deae7272d103a72737e671510fc1a121841c4a97be32"
+    },
+    {
+      "path": "games/difference-sequence/generate.cjs",
+      "sha256": "d28509d0df407e73f239d1a9131b9f08e71055b4ee0e450434017db7a630b16e"
+    },
+    {
+      "path": "games/difference-sequence/levels.js",
+      "sha256": "90590a6565ecb95fc0be128c573762c0fba5e7d9defc26d72c7c69498aaf4b9a"
+    },
+    {
+      "path": "games/difference-sequence/levels.json",
+      "sha256": "e891cce22604ff0fb7c29011831bbd0c752d85396c72cae8bca031682926bd61"
+    },
+    {
+      "path": "games/difference-sequence/proof-claims.json",
+      "sha256": "a6d15b39b6d72ed7aa0f0e9237e051db2a84fac84ba176331327d34c69f4f4f2"
+    },
+    {
+      "path": "games/difference-sequence/proofs.json",
+      "sha256": "516018e14e168e69c5a0cc6b3efab4002b2fc87b7182c06940c41e79d90eb3fb"
+    },
+    {
+      "path": "games/difference-sequence/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/difference-sequence/test.cjs",
+      "sha256": "242cb72fb5446e2b51b2913ebe0472bd7869fefdfef4e82e2dc6743e2f0e1844"
+    },
+    {
+      "path": "games/difference-sequence/ui-test.cjs",
+      "sha256": "cf57178eb12bd0987ac096aa3983aa45eeb4ceff5fbe068a0b979fd14c048849"
+    },
+    {
+      "path": "games/difference-sequence/verify.cjs",
+      "sha256": "690778fa2b4b764c4fb300e39371e576e36853fbe225a2adc4863ef7bce4878e"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release."
+  ]
+}

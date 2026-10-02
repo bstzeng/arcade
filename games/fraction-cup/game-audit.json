@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "gameId": "fraction-cup",
+  "rulesRevision": "numeric-20261002-r1",
+  "contentRevision": "numeric100-r1",
+  "expectedChallenges": 100,
+  "actualChallenges": 100,
+  "uniqueCanonicalChallenges": 100,
+  "gameSpecificRulesPassed": true,
+  "legalWitnessesPassed": 100,
+  "independentVerifierPassed": true,
+  "generatorReproducible": true,
+  "ruleBoundaryTestsPassed": true,
+  "controllerTestsPassed": true,
+  "simulatedDOM": {
+    "slug": "fraction-cup",
+    "passed": true,
+    "simulatedDOM": true,
+    "browserVisualValidation": false,
+    "levelsRenderedAndCompleted": 100,
+    "previewIsolated": 100,
+    "completedViaGameSpecificControls": 100,
+    "restoreAndCancel": true
+  },
+  "browserQA": {
+    "status": "not-run",
+    "evidence": [
+      "Local Chromium IPC socket unavailable; cloud browser file protocol unavailable. Coordinated release browser QA pending."
+    ]
+  },
+  "proofKinds": [
+    "assignment"
+  ],
+  "sources": [
+    {
+      "path": "games/fraction-cup.html",
+      "sha256": "825cf2ac62238f447d44f1c64d5f5cc4914557c01b405e879780c7fc22b54a52"
+    },
+    {
+      "path": "games/fraction-cup/README.md",
+      "sha256": "4e90f135df6856b8495ebec955876f12db07c5c884d053e5bc2e72a435727f83"
+    },
+    {
+      "path": "games/fraction-cup/app.js",
+      "sha256": "ed771b92c137c371ef6a6d77939fb693ea4682eb72e9b411971f11c5ae17b4af"
+    },
+    {
+      "path": "games/fraction-cup/boundary-tests.cjs",
+      "sha256": "af354a21b6638a28d2ee779b51d8c969c992f69a01ee84ee6d36f747e41e9836"
+    },
+    {
+      "path": "games/fraction-cup/controller-tests.cjs",
+      "sha256": "13e35e6ac1b573b703b08753ddf07a64e120a8680af3b26655296a5b5af3cd6b"
+    },
+    {
+      "path": "games/fraction-cup/engine.js",
+      "sha256": "9063e8f9c28d34eee0d3347c96d84c61bc901ed0c3bfac7000addb632041e255"
+    },
+    {
+      "path": "games/fraction-cup/generate.cjs",
+      "sha256": "e98b01b16a0dca30da98524a25efaad99dc61570b787fae9d796dc825c3f4f74"
+    },
+    {
+      "path": "games/fraction-cup/levels.js",
+      "sha256": "b920e15a46cd03c5af09fd22732954ce0eb3a31e7de659fea75281693d96ebbc"
+    },
+    {
+      "path": "games/fraction-cup/levels.json",
+      "sha256": "cb2ef46c1a9a05a8834d311a3ee5bc2fc22e2f45301d70984653038cccaa2462"
+    },
+    {
+      "path": "games/fraction-cup/proof-claims.json",
+      "sha256": "6520edd2ef8fcbce1a30586c68b8a14e6ad5d0bfcd8fd7fafac1ea4e4590a536"
+    },
+    {
+      "path": "games/fraction-cup/proofs.json",
+      "sha256": "745cdb26614df1a67a0d5527ab8ff49734eceeed0f52b49b20dfaf7b746234f8"
+    },
+    {
+      "path": "games/fraction-cup/style.css",
+      "sha256": "cd67d17c98a7bf6d94e03aee9b56b9c1b988ac6fad54fc280a5a6f4987cf6edd"
+    },
+    {
+      "path": "games/fraction-cup/test.cjs",
+      "sha256": "2a56ac15231a0e3afd9b12f0303ee76889b1fd066d60f2bf430bdcca69f627cd"
+    },
+    {
+      "path": "games/fraction-cup/ui-test.cjs",
+      "sha256": "7a1e54bec9f7e0cd1b87f6a5779c513e61fd0afd0d4887fddb9a6bdb4ee4320f"
+    },
+    {
+      "path": "games/fraction-cup/verify.cjs",
+      "sha256": "f1b57da4421a63ba34bd320954af353a31af2598e0d8b4de0bc39388620e7f8d"
+    },
+    {
+      "path": "games/numeric-common/util.js",
+      "sha256": "7c1c0c608f071745ea495483acf981a1aba73b723a01c70ffb41ee60aae5865f"
+    },
+    {
+      "path": "games/numeric-common/session.js",
+      "sha256": "d8450f57677aea070bc1c5f42f46df6d61dc76eaa3a37e7ade5207c62e1c71ed"
+    },
+    {
+      "path": "games/numeric-common/ui.js",
+      "sha256": "d5e49e073da22c762af49088ceadccfda9a1db90679d880ae58669bed5127143"
+    },
+    {
+      "path": "games/numeric-common/style.css",
+      "sha256": "d014bdcc8a3f522fe35d2ac9daadbb64b148bcc4fd8a48ed8de34b4a22275aee"
+    },
+    {
+      "path": "games/numeric-common/verify.cjs",
+      "sha256": "d3b37af1bffa87a0bacba41f166b09b30b9da1d531ce3a3a6d522ea23db9db88"
+    },
+    {
+      "path": "games/numeric-common/boundary-tests.cjs",
+      "sha256": "3f0e53dc78e689ccf97499f47a80fb3168a6c5f15a439ea44ab5c69e523b47a5"
+    },
+    {
+      "path": "games/numeric-common/dom-tests.cjs",
+      "sha256": "6f8c05a108448b1a4d6ed29fdb7190c19fd4379fab82d75c9d6164f77f2ca526"
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "arcade/games/numeric-common/verify-batch.cjs"
+      ],
+      "exitCode": 0,
+      "evidencePath": "games/numeric-common/batch-verification-report.json"
+    }
+  ],
+  "limitations": [
+    "No minimality claim.",
+    "Browser visual QA pending coordinated release.",
+    "No uniqueness claim; alternative valid solutions are accepted."
+  ]
+}

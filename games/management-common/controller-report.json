@@ -1,0 +1,330 @@
+{
+  "passed": true,
+  "games": 10,
+  "assertions": 2947,
+  "clicks": 1042,
+  "reports": [
+    {
+      "gameId": "hotel-manager",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 103,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "repair-shop",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 101,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "museum-curator",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 107,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "theater-manager",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 75,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "caravan-trade",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 65,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "tower-defense",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 291,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller",
+        "autoplay fixed-tick dispatch",
+        "autoplay cancellation on navigation"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "deep-sea-treasure",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 75,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "time-loop-adventure",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 94,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "conservation-park",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 46,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    },
+    {
+      "gameId": "alchemy-lab",
+      "passed": true,
+      "manualWinLevels": [
+        "001",
+        "050",
+        "100"
+      ],
+      "manualActionClicks": 22,
+      "levelCount": 100,
+      "scope": "Actual per-game renderer and shared lifecycle in simulated DOM. Not a real browser or visual-layout pass.",
+      "coverage": [
+        "100-entry selector",
+        "three complete manual UI wins",
+        "selection and map clicks",
+        "stale control invalidation",
+        "hint nonmutation and assistance",
+        "separate proof replay without progress grant",
+        "reset confirm/cancel/Escape/repeated callback",
+        "invalid action atomicity",
+        "saved-state reload",
+        "corrupt and denied storage",
+        "DOM status labels",
+        "listener cleanup",
+        "actual bootstrap blur and pagehide lifecycle",
+        "bfcache pause/save retains usable controller"
+      ],
+      "browserQA": {
+        "status": "not-run",
+        "reason": "Local browser preview is unavailable; simulated DOM is not visual QA."
+      }
+    }
+  ]
+}

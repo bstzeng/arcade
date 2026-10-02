@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "assertions": 2324,
+  "actualAppScripts": true,
+  "simulatedDOM": true,
+  "browserQA": false,
+  "coverage": [
+    "all 1000 actual app level renders",
+    "interactive touch-style button dispatch",
+    "accessible labels and 100-level selector",
+    "hint nondestructive and assistance marking",
+    "independent solution replay, no completion credit",
+    "undo and modal cancel/Escape/stale navigation",
+    "manual witness completion",
+    "storage failure survival",
+    "mounted view cleanup"
+  ],
+  "results": [
+    {
+      "gameId": "euler-bridges",
+      "assertions": 234,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "knight-tour",
+      "assertions": 232,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "dual-shadow-maze",
+      "assertions": 235,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "tidal-maze",
+      "assertions": 231,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "energy-network",
+      "assertions": 229,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "single-teleport",
+      "assertions": 231,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "color-gates",
+      "assertions": 231,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "tether-maze",
+      "assertions": 240,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "reversible-stairs",
+      "assertions": 232,
+      "allLevelsRendered": 100
+    },
+    {
+      "gameId": "tour-route",
+      "assertions": 229,
+      "allLevelsRendered": 100
+    }
+  ]
+}

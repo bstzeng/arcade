@@ -1,0 +1,573 @@
+{
+  "schemaVersion": 1,
+  "status": "frozen",
+  "games": 10,
+  "challenges": 1000,
+  "assets": 108,
+  "commands": [
+    {
+      "argv": [
+        "node",
+        "games/spatial-common/static-checks.cjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "argv": [
+        "node",
+        "games/spatial-common/dom-tests.cjs"
+      ],
+      "exitCode": 0
+    },
+    {
+      "argv": [
+        "node",
+        "games/spatial-common/verify.cjs"
+      ],
+      "exitCode": 0
+    }
+  ],
+  "browserStatus": "not-run",
+  "sources": [
+    {
+      "path": "games/balance-builder.html",
+      "bytes": 2415,
+      "sha256": "16820fa31863672e2dc8c208bd0ef25838c3cdc9fe38ca77cdf263e114e4ad74"
+    },
+    {
+      "path": "games/balance-builder/README.md",
+      "bytes": 3490,
+      "sha256": "3b3cfd851b1ce91e4b093accfff1309318d1f138b69ffd1bfc8336bb94480688"
+    },
+    {
+      "path": "games/balance-builder/app.js",
+      "bytes": 2991,
+      "sha256": "4a8bd4b9a6bc9dcc1bcad46db0020f7989ec7c72ce90a53b910ca79bf4714b63"
+    },
+    {
+      "path": "games/balance-builder/audit.json",
+      "bytes": 5156,
+      "sha256": "b284774acf1998ce24e4a06c2c47dfdf283bafc2bed2d6ca50547c97bbad4986"
+    },
+    {
+      "path": "games/balance-builder/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/balance-builder/dom-qa.json",
+      "bytes": 448,
+      "sha256": "a70d3e853c5ef6a2e932a56b8525e67ba59917b589e624be1ce1c9759df781ee"
+    },
+    {
+      "path": "games/balance-builder/engine.js",
+      "bytes": 2137,
+      "sha256": "102eaf3c0cdf4ece89f219ae83ceeed3c67997a8156902abd712a000c8cf8ccd"
+    },
+    {
+      "path": "games/balance-builder/levels.js",
+      "bytes": 104248,
+      "sha256": "79c3cbd90ff1f574d381a2ba252eb4a812322626bfa30c2191e17e96b63a6c00"
+    },
+    {
+      "path": "games/balance-builder/levels.json",
+      "bytes": 104106,
+      "sha256": "5a2e3ec9fb4b08bca86c739e5ac6e7784557ee6b8ebbb0e0a179e5e3b9e164f9"
+    },
+    {
+      "path": "games/cube-nets.html",
+      "bytes": 2411,
+      "sha256": "18f6a04464340200302c3f86e7138198f03e3d5619c727f1b58a7cca24661994"
+    },
+    {
+      "path": "games/cube-nets/README.md",
+      "bytes": 3455,
+      "sha256": "67e063717dbbab92fe69c7b46cbd153d3dd92b1e81c78e7f31afad5e389969f9"
+    },
+    {
+      "path": "games/cube-nets/app.js",
+      "bytes": 2682,
+      "sha256": "9bc2c137d0297474b880852910f17cd94780ac0bdde5df8570bd6627a0c55341"
+    },
+    {
+      "path": "games/cube-nets/audit.json",
+      "bytes": 5094,
+      "sha256": "7c0f85a78420334af658d433f1fd27950a89e95db2e2fd1243bf7a33797476b1"
+    },
+    {
+      "path": "games/cube-nets/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/cube-nets/dom-qa.json",
+      "bytes": 442,
+      "sha256": "ef72e9cbc6ed06bbc098e3c983c7b04c719cabb7f20992ad52383a567ee07727"
+    },
+    {
+      "path": "games/cube-nets/engine.js",
+      "bytes": 2604,
+      "sha256": "da5010167464174dbb05f59db88c62fa47e4c7a4d6068ee2de5bbeda21377a66"
+    },
+    {
+      "path": "games/cube-nets/levels.js",
+      "bytes": 113654,
+      "sha256": "7b070a00d51c794d2994169b0e4377a310b6155e5536dceea70e2152c0174b0e"
+    },
+    {
+      "path": "games/cube-nets/levels.json",
+      "bytes": 113512,
+      "sha256": "1d44116f648350357e5fef23fa7b2c35d59a32724743bf06f7938f95211e64ea"
+    },
+    {
+      "path": "games/gear-workshop.html",
+      "bytes": 2400,
+      "sha256": "2d0ddfc098ee9e35c5397e40e78ffd68af34c662163b30535b205168f40a93dd"
+    },
+    {
+      "path": "games/gear-workshop/README.md",
+      "bytes": 3399,
+      "sha256": "ced8597845f1f1e3aca99597de8fb05743099c9880c2fbbeb0ee9009fc697422"
+    },
+    {
+      "path": "games/gear-workshop/app.js",
+      "bytes": 2958,
+      "sha256": "1f2e682e94d62d2e4a27a65b7e895e7d9ce50ba6c05339778702a290a3a7c49c"
+    },
+    {
+      "path": "games/gear-workshop/audit.json",
+      "bytes": 5134,
+      "sha256": "fadf31307e98abe3df36e362576503ed65cd77242dbab29ef8b09c9f2dd7b340"
+    },
+    {
+      "path": "games/gear-workshop/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/gear-workshop/dom-qa.json",
+      "bytes": 446,
+      "sha256": "e93d914235ddc5e7c3e42fe19d6e6829db30467761e853117ea8dceb34aa4d35"
+    },
+    {
+      "path": "games/gear-workshop/engine.js",
+      "bytes": 2384,
+      "sha256": "c307d188b52dbcbd0f9bbd2bf2a0e6eae150d1e2dee9d42a41f4726f7ad25a94"
+    },
+    {
+      "path": "games/gear-workshop/levels.js",
+      "bytes": 110605,
+      "sha256": "5c9b8f9402481e4f95e494258496ec09cbad21e7bf00658f993bbe43139b5e82"
+    },
+    {
+      "path": "games/gear-workshop/levels.json",
+      "bytes": 110463,
+      "sha256": "9bc449ca611e66ed42f4d4baa9c2417ec369d6d36fc260ca5fe9fffba57dab24"
+    },
+    {
+      "path": "games/jigsaw-workshop.html",
+      "bytes": 2349,
+      "sha256": "1db3e125d106bee25db8f702202024e9c60b1dd4504c40abb28afde335774ec3"
+    },
+    {
+      "path": "games/jigsaw-workshop/README.md",
+      "bytes": 3361,
+      "sha256": "70392f018e6939b3e7fcb7e88cc0cef11faa4e0895d53b2a652bcec65923213f"
+    },
+    {
+      "path": "games/jigsaw-workshop/app.js",
+      "bytes": 2876,
+      "sha256": "d1189cf388ec4a2027748bec914d2943280bf7088d9d85eb612d27f212dc16ba"
+    },
+    {
+      "path": "games/jigsaw-workshop/audit.json",
+      "bytes": 5155,
+      "sha256": "5a337a40099ff6dd248fed748982caa701b8a40704130325a11a5499f8d359c6"
+    },
+    {
+      "path": "games/jigsaw-workshop/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/jigsaw-workshop/dom-qa.json",
+      "bytes": 448,
+      "sha256": "c2c403af699ad55c4767567f5ba3ca0641075807c643712c37320887e6050d09"
+    },
+    {
+      "path": "games/jigsaw-workshop/engine.js",
+      "bytes": 1857,
+      "sha256": "8ba79018e6e83ae5609156e12a2fc110879f10c7f460745e2c5ea59a2e6b7422"
+    },
+    {
+      "path": "games/jigsaw-workshop/levels.js",
+      "bytes": 158619,
+      "sha256": "49159117b396d2cb2bf3fa875c328f232120885312ce718c199dbe4450e67e29"
+    },
+    {
+      "path": "games/jigsaw-workshop/levels.json",
+      "bytes": 158477,
+      "sha256": "1965c5c97fd74aa50261330d4e1ba4d0056e13da3ab3f3c4b92b23d49a12e8c3"
+    },
+    {
+      "path": "games/overlay-colors.html",
+      "bytes": 2360,
+      "sha256": "f653bbc9f5f9592a959f4beeadd89803a9345de25aecada820d22c4e840a514d"
+    },
+    {
+      "path": "games/overlay-colors/README.md",
+      "bytes": 3328,
+      "sha256": "f41f16bce0a7a78ea0ec4ccd93be4bd52b780a8e8e3186a3e4be7de3cd7b125e"
+    },
+    {
+      "path": "games/overlay-colors/app.js",
+      "bytes": 2948,
+      "sha256": "efe81e179d68470dea6a46ac38d02f3ddc2e9af7439a9520920a8807931a0ee8"
+    },
+    {
+      "path": "games/overlay-colors/audit.json",
+      "bytes": 5144,
+      "sha256": "105552b8de71f1f11bd6c8faa0cd083d1e4f273be8ba4e2d4e2d219fe8f8416a"
+    },
+    {
+      "path": "games/overlay-colors/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/overlay-colors/dom-qa.json",
+      "bytes": 447,
+      "sha256": "48d6d43428c22220487cf3ae79a652ce31715b76c064c5f03f3c50d98ad87941"
+    },
+    {
+      "path": "games/overlay-colors/engine.js",
+      "bytes": 1922,
+      "sha256": "7271af946651f942ed1456397b564d41f42f8fd9259cd254d48a3adc9006f980"
+    },
+    {
+      "path": "games/overlay-colors/levels.js",
+      "bytes": 135432,
+      "sha256": "b927229034b349b99605a9a1f243a3675aeb18517093e68cccd01df128f6d6d7"
+    },
+    {
+      "path": "games/overlay-colors/levels.json",
+      "bytes": 135290,
+      "sha256": "fdb6ad1c8d942de8aa9e062902d4b46369caa663cb97e46cff63ffea3c0bcd15"
+    },
+    {
+      "path": "games/paper-fold.html",
+      "bytes": 2376,
+      "sha256": "7ea8c0570f3b4f272a06d95265f60d39788b7a4c6b8953a4eede93f9c425748c"
+    },
+    {
+      "path": "games/paper-fold/README.md",
+      "bytes": 3302,
+      "sha256": "4a937f56312e90374fa83c0087bc61b6ccf9bb6c9ad301669092bfa3077118f6"
+    },
+    {
+      "path": "games/paper-fold/app.js",
+      "bytes": 2227,
+      "sha256": "69ca60c08b71191eec7d061617b06a437cd2e4794cf2edee6237db7e408abc77"
+    },
+    {
+      "path": "games/paper-fold/audit.json",
+      "bytes": 5108,
+      "sha256": "f56f6bf388a43e290fc43c6e57b698982d08d805c4308a413b6c6f6204118864"
+    },
+    {
+      "path": "games/paper-fold/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/paper-fold/dom-qa.json",
+      "bytes": 443,
+      "sha256": "bb56d95d12ebc48032e3f1c65cd182925180fb4e48139e07622e3ca374e7c513"
+    },
+    {
+      "path": "games/paper-fold/engine.js",
+      "bytes": 2294,
+      "sha256": "9862d735f69c44ac16355b21170e0bccc31c1d8cc376d8b869a36da2410ef92c"
+    },
+    {
+      "path": "games/paper-fold/levels.js",
+      "bytes": 108907,
+      "sha256": "4aa9907dacbfa7f2c6d14dfda92da233cd0dcfbd39c29496ed8a9dbd5a35d593"
+    },
+    {
+      "path": "games/paper-fold/levels.json",
+      "bytes": 108765,
+      "sha256": "37210aa957c8a79715352e94a06a52f861941fc9636214603d8703b139fe1259"
+    },
+    {
+      "path": "games/pin-and-ball.html",
+      "bytes": 2391,
+      "sha256": "a919181ff41f4bb934e77b283d4ac4621ac31fe36c36559e3336df7231da1b23"
+    },
+    {
+      "path": "games/pin-and-ball/README.md",
+      "bytes": 3453,
+      "sha256": "9e2cc7ff1c5594a2b305f73d862886f832220ced648f21a8e41ccf49ad00002e"
+    },
+    {
+      "path": "games/pin-and-ball/app.js",
+      "bytes": 3538,
+      "sha256": "b0f19f5e7b1e22d4d6a8f5301b8a990566ffe808a50aaa9f8e5a800f836bd755"
+    },
+    {
+      "path": "games/pin-and-ball/audit.json",
+      "bytes": 5129,
+      "sha256": "e94246a907cf3d63e4f225712b95fd973cf8eba39c09f6298cc071ec8593123f"
+    },
+    {
+      "path": "games/pin-and-ball/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/pin-and-ball/dom-qa.json",
+      "bytes": 446,
+      "sha256": "edcbdb1d940034df54bdb54af5acdb31b73258d0656d7bb9ac614322bbabb6cf"
+    },
+    {
+      "path": "games/pin-and-ball/engine.js",
+      "bytes": 1863,
+      "sha256": "63da235c68768e7860570a1be78b27be8f80f39e2e0bf4c374b591c726dd207f"
+    },
+    {
+      "path": "games/pin-and-ball/levels.js",
+      "bytes": 266619,
+      "sha256": "880cb423ea8cee97878a42c15498a141616360910efb9478fe72d856c545e298"
+    },
+    {
+      "path": "games/pin-and-ball/levels.json",
+      "bytes": 266477,
+      "sha256": "64c379bedbe4a31ae5ee6f654cda48d7dcb777d97026528e434ec948dfe851a9"
+    },
+    {
+      "path": "games/rolling-block.html",
+      "bytes": 2398,
+      "sha256": "53bbb87001393068159bd19452b75a4a0dcdc326d12101c43d62514d7fdc6fca"
+    },
+    {
+      "path": "games/rolling-block/README.md",
+      "bytes": 3353,
+      "sha256": "bdac8b36f5b5148f00bdcebb78e800edd657b63fcbdb17c3bde0f5b412236667"
+    },
+    {
+      "path": "games/rolling-block/app.js",
+      "bytes": 2531,
+      "sha256": "4dccd422e8f643da3e9bf028a8e3d162e79ec4127f9a31c5d3392dd98a3f7ed5"
+    },
+    {
+      "path": "games/rolling-block/audit.json",
+      "bytes": 5140,
+      "sha256": "e680f761c57ae1b8e096d7fb29b4cd7c81e186de217108167b383ce16b58b296"
+    },
+    {
+      "path": "games/rolling-block/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/rolling-block/dom-qa.json",
+      "bytes": 447,
+      "sha256": "575cf69d5b576ac607086c3dbe626953ecec1bf49b11af1d1449a843570a0c7f"
+    },
+    {
+      "path": "games/rolling-block/engine.js",
+      "bytes": 1906,
+      "sha256": "a36cea554ee5fba3793ef3b8d0f27ba440b06cb15945526b996c9c2d4bdd371b"
+    },
+    {
+      "path": "games/rolling-block/levels.js",
+      "bytes": 272181,
+      "sha256": "cc097457f3df69ac88a9bcccd28aa29fe0345f6294b1ee5af0eb0bd4fc15be18"
+    },
+    {
+      "path": "games/rolling-block/levels.json",
+      "bytes": 272039,
+      "sha256": "d0b092f1582df69f5d4b58534e9625e69a3d6ff61e0d255cb6d9a940718e120b"
+    },
+    {
+      "path": "games/shadow-sculpture.html",
+      "bytes": 2377,
+      "sha256": "e8c383cf3366de6c9b4ccf28eed938664bc149d456c7d053c2f1262bb4439eac"
+    },
+    {
+      "path": "games/shadow-sculpture/README.md",
+      "bytes": 3413,
+      "sha256": "271945317641d645ea82afa21c99c084f1aa13e17479392eac83da85e01545df"
+    },
+    {
+      "path": "games/shadow-sculpture/app.js",
+      "bytes": 2562,
+      "sha256": "a7a5117dd5c6b5f5ea6ec6bdf125adbe2245290781e2edae38e0e36f83d8e21f"
+    },
+    {
+      "path": "games/shadow-sculpture/audit.json",
+      "bytes": 5164,
+      "sha256": "31c72c14b4b537e9b556175d0f0610311a6debbc0131f33d55a97db8589c662d"
+    },
+    {
+      "path": "games/shadow-sculpture/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/shadow-sculpture/dom-qa.json",
+      "bytes": 449,
+      "sha256": "981db63eee3a651db647659c1b6d0a0a34c9dc3d754de328d8e53f6ef5397c8d"
+    },
+    {
+      "path": "games/shadow-sculpture/engine.js",
+      "bytes": 2134,
+      "sha256": "f77a09bad2f74f55b4483bb39e124ec93fa487417a172451d8da45f4dc16a936"
+    },
+    {
+      "path": "games/shadow-sculpture/levels.js",
+      "bytes": 122126,
+      "sha256": "0b5e949486f7dddcbc895d578145a935fb7c2db51f8a931e750b8eb2805b648e"
+    },
+    {
+      "path": "games/shadow-sculpture/levels.json",
+      "bytes": 121984,
+      "sha256": "9e63549e6f8a9bdedf9b50dbb670a8ee33dec7876c32e9df443ff74dc1e7156c"
+    },
+    {
+      "path": "games/spatial-common/README.md",
+      "bytes": 1349,
+      "sha256": "f0c84adbc86816f022f5db8fdd6c1110087aaf6122a817f6684e4bc17300b946"
+    },
+    {
+      "path": "games/spatial-common/app.js",
+      "bytes": 4538,
+      "sha256": "a9a14fc1154243ca32e8c7c7783260d8fd0d804c0bd95ac463fb7400b8aecd9b"
+    },
+    {
+      "path": "games/spatial-common/browser-qa.cjs",
+      "bytes": 6470,
+      "sha256": "0f34f011bf88064a8c67dcecc8b8181cbd2c51ae27ded6723bb6dae282617280"
+    },
+    {
+      "path": "games/spatial-common/dom-harness.cjs",
+      "bytes": 5315,
+      "sha256": "cca975b8db1200d712cb4f22fcaa708378e83c86ac3c25a0358c653265d801a9"
+    },
+    {
+      "path": "games/spatial-common/dom-tests.cjs",
+      "bytes": 4806,
+      "sha256": "720f52c56077acaca4e1888c08931e08f3ff05533d5cb8316e972c339e70cd08"
+    },
+    {
+      "path": "games/spatial-common/dom-verification-report.json",
+      "bytes": 5168,
+      "sha256": "3abe71aaedd5b115bf73084342ae4bfac736b902e2458011d18e0ea49adb87a1"
+    },
+    {
+      "path": "games/spatial-common/dom-verification.log",
+      "bytes": 984,
+      "sha256": "8b12e7da376c87a289ef0c1552753812f0f175f0d2ae8fbdb2afd90435b5792d"
+    },
+    {
+      "path": "games/spatial-common/generate.cjs",
+      "bytes": 15221,
+      "sha256": "bac19e3f9a769de01cfb3986ecdfe1b438ce9bb038546114118eafe19b9cd5b9"
+    },
+    {
+      "path": "games/spatial-common/oracle.cjs",
+      "bytes": 13949,
+      "sha256": "6140acd140fa54d42fef3c1be53432a751436cd472ab18d2ec6a635af12724a8"
+    },
+    {
+      "path": "games/spatial-common/release-manifest.json",
+      "bytes": 14425,
+      "sha256": "326e866bbe8c7342ac23dde5134b05695b6535ddf12fea9511573d2f3f9e80a9"
+    },
+    {
+      "path": "games/spatial-common/static-checks.cjs",
+      "bytes": 2370,
+      "sha256": "3be7f085e63f613f7bda833235c0d2b354ef7934fbc40636df3b96ca79e932e6"
+    },
+    {
+      "path": "games/spatial-common/static-verification-report.json",
+      "bytes": 3877,
+      "sha256": "e0ace40ea190253dcffaab0971b68cddd73c1fb4112786070f8b0a53812be7fa"
+    },
+    {
+      "path": "games/spatial-common/static-verification.log",
+      "bytes": 264,
+      "sha256": "7932c89a9230798061cf75614ca85d95def13c8d738a1ed8dcb22bcc23f5775f"
+    },
+    {
+      "path": "games/spatial-common/style.css",
+      "bytes": 4685,
+      "sha256": "4d91d76ec264f31870c53cb906fb449622859ff688a70ae9d471b092769af993"
+    },
+    {
+      "path": "games/spatial-common/util.js",
+      "bytes": 2530,
+      "sha256": "2cc20499db9f64241f7e3800e41b9eab9fa8e0dfe0d1fe56b177cfd1784fba77"
+    },
+    {
+      "path": "games/spatial-common/verification-report.json",
+      "bytes": 6996,
+      "sha256": "9bc9ade2f7689ba34611e8ce2cb7d7bad917f0e3c708399dd692ff308dd66858"
+    },
+    {
+      "path": "games/spatial-common/verification.log",
+      "bytes": 1283,
+      "sha256": "debfb191e9b9ae0e97cd68d422b5351c22a8f8a8de6431ea3e8605626a448b8e"
+    },
+    {
+      "path": "games/spatial-common/verify.cjs",
+      "bytes": 11474,
+      "sha256": "f852d63f3f81631e122994d79dfe5daf5e8cfa84f04c33a086529e4042b4f37c"
+    },
+    {
+      "path": "games/three-view-blocks.html",
+      "bytes": 2410,
+      "sha256": "6ee73088dc8a204cdcd1f694a35ea1993d6be26cc3c75185672b88c681bc3458"
+    },
+    {
+      "path": "games/three-view-blocks/README.md",
+      "bytes": 3336,
+      "sha256": "33eab03f70cee8c969cfe96096ec7bbc741d3bad29f68f94a0d9467874ee22ea"
+    },
+    {
+      "path": "games/three-view-blocks/app.js",
+      "bytes": 1871,
+      "sha256": "3f71099db616a8dfe0e459ae36a87754dcc7f48e3840df7d4c231ae7c5a331b7"
+    },
+    {
+      "path": "games/three-view-blocks/audit.json",
+      "bytes": 5178,
+      "sha256": "6ee55dd783ec83e03820cc72809d9a14044494f10accf44904c73b66299aa2b1"
+    },
+    {
+      "path": "games/three-view-blocks/browser-qa.json",
+      "bytes": 400,
+      "sha256": "35251fef10a5f87730dda7b412a1df49b09b8fa257e1ccc0731924ba9713aaf1"
+    },
+    {
+      "path": "games/three-view-blocks/dom-qa.json",
+      "bytes": 451,
+      "sha256": "14a950d9386751a4748fc905587b8a9e584766514b7f9807fa926aa61d4f2954"
+    },
+    {
+      "path": "games/three-view-blocks/engine.js",
+      "bytes": 1275,
+      "sha256": "9450b1411980d3236e625f1f215f248eedfcdf3666e6fea4a32f249211242a73"
+    },
+    {
+      "path": "games/three-view-blocks/levels.js",
+      "bytes": 164246,
+      "sha256": "3ef833ec3a0216a47459124505f9fd91aa67107183e4bf739471736b13523cfd"
+    },
+    {
+      "path": "games/three-view-blocks/levels.json",
+      "bytes": 164104,
+      "sha256": "cc759e1d499b6a2dc49771b4c180d15e0790e1bb39df47b5ea8bb43a5e2661c0"
+    }
+  ]
+}

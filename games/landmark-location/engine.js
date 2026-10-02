@@ -1,0 +1,1 @@
+(function(g){if(typeof module==='object'&&module.exports)module.exports=require('../clue-common/engine.js');else if(!g.ClueEngine)throw Error('Load clue-common engine first');})(typeof globalThis==='undefined'?this:globalThis);

@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "count": 105,
+  "bytes": 12457997,
+  "exclusions": [
+    "games/action-common/test-results.txt"
+  ],
+  "files": [
+    {
+      "path": "games/action-common/BROWSER-QA.md",
+      "bytes": 2607,
+      "sha256": "f1d4b73a133708da977b0bde4eb51d3be34c6ba28d0cd65d3ed55e9f9615fa51"
+    },
+    {
+      "path": "games/action-common/README.md",
+      "bytes": 2925,
+      "sha256": "af97aeb580efd5ce23ba29ff82815911e0269704fec979ff024c4ef7f3398850"
+    },
+    {
+      "path": "games/action-common/base.js",
+      "bytes": 3492,
+      "sha256": "ddd08da3344e8f1332a2c4f8349324a6a9f369f151c676a71e61c866415c4a90"
+    },
+    {
+      "path": "games/action-common/corpus.cjs",
+      "bytes": 5280,
+      "sha256": "06139d2e0c8fbba2b521ae99aad490472ed336027f3fcabd945954485816a0c6"
+    },
+    {
+      "path": "games/action-common/independent.cjs",
+      "bytes": 10286,
+      "sha256": "d2f6bd0dc91b017d2436136d35dcd005adb1facbae63a71ab6edae9214e36336"
+    },
+    {
+      "path": "games/action-common/release-manifest.json",
+      "bytes": 6181,
+      "sha256": "a31d39eb0db5a94a82bf3f916ab89cbb661ea135da58f95f778482d6ad59cdff"
+    },
+    {
+      "path": "games/action-common/rules.test.cjs",
+      "bytes": 9619,
+      "sha256": "0bc4b24f9cbb33b7cecb75f02c3cefe9f4004b0b3558d1beff660fa64b74b258"
+    },
+    {
+      "path": "games/action-common/session.js",
+      "bytes": 4186,
+      "sha256": "c0327404898ce4b8d8e7bd26c09d1438ec8c45f17bacdbbb243ff1ba8148808e"
+    },
+    {
+      "path": "games/action-common/session.test.cjs",
+      "bytes": 3437,
+      "sha256": "ee080dd71d39e0a57a64e047c4c3bd6929ab6ada77e688be61cb3b31a74956fe"
+    },
+    {
+      "path": "games/action-common/style.css",
+      "bytes": 3261,
+      "sha256": "c9adfc22377cc3ecada37017ca288e1013b9602e61f3cb09379c1c7c5edee30b"
+    },
+    {
+      "path": "games/action-common/ui.js",
+      "bytes": 8615,
+      "sha256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0"
+    },
+    {
+      "path": "games/action-common/ui.test.cjs",
+      "bytes": 6624,
+      "sha256": "9bf961951a6a687f310684ed378483e970ead8d5db7b5425dab66b4117e6e7ed"
+    },
+    {
+      "path": "games/action-common/verification-report.json",
+      "bytes": 2423,
+      "sha256": "480f84b7872786e44a83e5c62203638d67adf2d1a33f0141fa728cd933d08308"
+    },
+    {
+      "path": "games/action-common/verify-all.cjs",
+      "bytes": 2714,
+      "sha256": "c191f27e91c31b183f31634b811b51908af61f9439d40e7d6f9b5de0ebca27c6"
+    },
+    {
+      "path": "games/action-common/verify-game.cjs",
+      "bytes": 3015,
+      "sha256": "3281313584863de6b694a33497db5b28183f725931e3de57b695f515a36de9fe"
+    },
+    {
+      "path": "games/breakout/README.md",
+      "bytes": 3405,
+      "sha256": "7051bfc6099cd9f6a71a9a8707f5779c73e927d014f615f8ecf512d09a9aec19"
+    },
+    {
+      "path": "games/breakout/certificates.js",
+      "bytes": 1119087,
+      "sha256": "bf1afffb5a079ccd50b18c38e61e2ff68098643ae27bfbe3afbd40a05694dddd"
+    },
+    {
+      "path": "games/breakout/certificates.json",
+      "bytes": 1119006,
+      "sha256": "ba9bd500746b5ba5b3530ef3ebdefc35085ee554027e0efdd147e93b7efe9b30"
+    },
+    {
+      "path": "games/breakout/engine.js",
+      "bytes": 3820,
+      "sha256": "f534217a6e818d95fe06b451278faf39b33520ffd5ddf66716c5d3ef26b23143"
+    },
+    {
+      "path": "games/breakout/levels.js",
+      "bytes": 124000,
+      "sha256": "9aec4d30a4f7da12900a4ee7c273522f7802cc08e3b1ec5e0fb1cd67c19bb075"
+    },
+    {
+      "path": "games/breakout/levels.json",
+      "bytes": 257536,
+      "sha256": "e41a38fd4242b8f4c16eeac1a7fc2ce4cc2746125cfb96328c70774f9d8fa4cb"
+    },
+    {
+      "path": "games/breakout/verification-report.json",
+      "bytes": 4119,
+      "sha256": "d9b36c772989f0b61765e9e5868a934e4f6f0ec09e41daaf7c2fef3eee58c96f"
+    },
+    {
+      "path": "games/breakout/verify.cjs",
+      "bytes": 114,
+      "sha256": "1161a5d4a46246a86a709e45eee2402ebab7c50bcc1242ca351f94bc808f5e10"
+    },
+    {
+      "path": "games/breakout.html",
+      "bytes": 2962,
+      "sha256": "74a0e5846f5b79945a62714e380e07101e62cf68b409d8f74819316349cf72cb"
+    },
+    {
+      "path": "games/bubble-shooter/README.md",
+      "bytes": 3470,
+      "sha256": "406f2f797d7bb77920f59f2a81bf05fa92eb4b364e3a1b8c73a449882c67ea70"
+    },
+    {
+      "path": "games/bubble-shooter/certificates.js",
+      "bytes": 129656,
+      "sha256": "db6022e391ca2d0f0920dbe6a7d9b28597f2e20202cf5ece45c31c2adb2dfd6f"
+    },
+    {
+      "path": "games/bubble-shooter/certificates.json",
+      "bytes": 129569,
+      "sha256": "d15082357cb0732cf24362bcaf30ddc5a6e609bfd7b9bc93ffd4e1dbdfa19b11"
+    },
+    {
+      "path": "games/bubble-shooter/engine.js",
+      "bytes": 5366,
+      "sha256": "baee2126608daa89450c05b59cbba63105950584d473f5db69f5216982d89c7f"
+    },
+    {
+      "path": "games/bubble-shooter/levels.js",
+      "bytes": 71305,
+      "sha256": "45ccb3abf2edccb7713d00870b948127c9c406a239926934acff244d785d6251"
+    },
+    {
+      "path": "games/bubble-shooter/levels.json",
+      "bytes": 202623,
+      "sha256": "6d15560120e3d758cbe9893b77902ed7aad08ce827f1acf3eb010d9d8875bff2"
+    },
+    {
+      "path": "games/bubble-shooter/verification-report.json",
+      "bytes": 4167,
+      "sha256": "cb61fa1d81d4465eeca495769fe1586bdda3c2b55086118a2eddc4f979037c2f"
+    },
+    {
+      "path": "games/bubble-shooter/verify.cjs",
+      "bytes": 120,
+      "sha256": "4dc1d2fe1bd28d6e41b25466a825467b188c27b7c94b15f526d380364c97e047"
+    },
+    {
+      "path": "games/bubble-shooter.html",
+      "bytes": 2992,
+      "sha256": "bf852e9a898d460183b789f14e803741ff4c9c2248c645395b2ee01b9da858f2"
+    },
+    {
+      "path": "games/fishing-challenge/README.md",
+      "bytes": 3429,
+      "sha256": "3c94e618997eaf6932c69601c000d915be4b6eb96f609f0e56fe65e9abb12f11"
+    },
+    {
+      "path": "games/fishing-challenge/certificates.js",
+      "bytes": 212094,
+      "sha256": "34ed72dd27e9b181c65eaf723e17b485f6d56998061727e1b58a6d813aeb1e9a"
+    },
+    {
+      "path": "games/fishing-challenge/certificates.json",
+      "bytes": 212004,
+      "sha256": "969a29283f316ffc07b2eec4e09b3acc20e0a3f6f25b7e79e78f288fe098f767"
+    },
+    {
+      "path": "games/fishing-challenge/engine.js",
+      "bytes": 5104,
+      "sha256": "b09d2e36b6969b224962842bb938a563cfebea13f897ccabdf8da3894bbe7ed8"
+    },
+    {
+      "path": "games/fishing-challenge/levels.js",
+      "bytes": 92011,
+      "sha256": "05dc1c0d94e8bfe2fa0cb77ddb37680d4b00af7a46db144811d13a42512c8dc2"
+    },
+    {
+      "path": "games/fishing-challenge/levels.json",
+      "bytes": 224224,
+      "sha256": "b9c8218fdd0a8e4823137962678a25ea1020c4d55aa1d4448bd47af7d7fa3229"
+    },
+    {
+      "path": "games/fishing-challenge/verification-report.json",
+      "bytes": 4191,
+      "sha256": "9e7cecd95fad39cdb5de0eac662ac458bcc721ca0c2eb5ed1ae9cda52cbfd45f"
+    },
+    {
+      "path": "games/fishing-challenge/verify.cjs",
+      "bytes": 123,
+      "sha256": "e598277bbd9a45220f4669b991f617268f9ba3181c309b895ac8d9cc9095807b"
+    },
+    {
+      "path": "games/fishing-challenge.html",
+      "bytes": 3004,
+      "sha256": "0aab73dbb6ff1c820a8da2f0b0cad84e35e825527fbbe864409d5abadb077b43"
+    },
+    {
+      "path": "games/fruit-slice/README.md",
+      "bytes": 3649,
+      "sha256": "3ce2c642736103441fe3eb4d2516088bde04f118f1415f284c23bf0274502e00"
+    },
+    {
+      "path": "games/fruit-slice/certificates.js",
+      "bytes": 1260771,
+      "sha256": "6f7b05f973ffbd286f7018b0bcc5d0ebc74b5316e3b5c511dc989b8e8763119c"
+    },
+    {
+      "path": "games/fruit-slice/certificates.json",
+      "bytes": 1260687,
+      "sha256": "7c2f56d068e8ddcba2730a91147d1400172e617a3a9acfc6673b89e9f7d79702"
+    },
+    {
+      "path": "games/fruit-slice/engine.js",
+      "bytes": 4094,
+      "sha256": "e12a361d371b2a3bcb4297bc7079768fa33a1d132b0a45f27a0c17526a35f889"
+    },
+    {
+      "path": "games/fruit-slice/levels.js",
+      "bytes": 208891,
+      "sha256": "f3fa959a1b7e2ba6f2cd0bdcdb8d987fca07098f53af20542c0c887b7aeb477a"
+    },
+    {
+      "path": "games/fruit-slice/levels.json",
+      "bytes": 445528,
+      "sha256": "470b53026a88174b3daf417205b6930827b947045c87ebfad314820a5289b51f"
+    },
+    {
+      "path": "games/fruit-slice/verification-report.json",
+      "bytes": 4145,
+      "sha256": "df30366b67303dff5ef3d5a6accc123e3b063395b61db69ae52c09e09d4046e2"
+    },
+    {
+      "path": "games/fruit-slice/verify.cjs",
+      "bytes": 117,
+      "sha256": "c48d635804f5f8799f3038e324566190e91ee034558caf6bf0652afee752e984"
+    },
+    {
+      "path": "games/fruit-slice.html",
+      "bytes": 2980,
+      "sha256": "fe54326af8e2c5a53c4790ce61e8a05e25fa7ff3d8f0e243e85dbae42e932711"
+    },
+    {
+      "path": "games/parkour-run/README.md",
+      "bytes": 3386,
+      "sha256": "349d175a5b723a41959b6e1565425e374ed11f9434d181063f79f7bdf87de797"
+    },
+    {
+      "path": "games/parkour-run/certificates.js",
+      "bytes": 203901,
+      "sha256": "2a14372106da766c49fd67e508e37c1cb856212e48a8670bcfd6f35b901a1a7f"
+    },
+    {
+      "path": "games/parkour-run/certificates.json",
+      "bytes": 203817,
+      "sha256": "6e7e62faa839820e13b99d0b17671e4aff848de5b3da972a5b03367f85be0a35"
+    },
+    {
+      "path": "games/parkour-run/engine.js",
+      "bytes": 3580,
+      "sha256": "44ded1d023c4bbffb73549ba7af16f9e4040025c96d5abc9498ceb55456fb0d0"
+    },
+    {
+      "path": "games/parkour-run/levels.js",
+      "bytes": 97025,
+      "sha256": "3c1359747c285681e58b6241e438ca984ddf4aba8a54dd82ee5b6932a4bc80f5"
+    },
+    {
+      "path": "games/parkour-run/levels.json",
+      "bytes": 190318,
+      "sha256": "0f9c69ae1df027d88f496c626aef48465b5e86205e8dd2efef6be8ca4cd69b37"
+    },
+    {
+      "path": "games/parkour-run/verification-report.json",
+      "bytes": 4141,
+      "sha256": "4bff8b89ef751532c5f96ec7487843ce64f5694ff0112c1b089a732365ded746"
+    },
+    {
+      "path": "games/parkour-run/verify.cjs",
+      "bytes": 117,
+      "sha256": "a19b2c55651be7bce74516c0c78b9425e5b04e997fd4fe9f6975341df3de07e2"
+    },
+    {
+      "path": "games/parkour-run.html",
+      "bytes": 2980,
+      "sha256": "10dfecc26849539f98be176892290dc1149bad22c99180dfbca9d8864049b485"
+    },
+    {
+      "path": "games/pinball/README.md",
+      "bytes": 3623,
+      "sha256": "5626f4b54a96d8156819278f3febbf36e3f3485f25be10728a64afda1d6bafdf"
+    },
+    {
+      "path": "games/pinball/certificates.js",
+      "bytes": 163603,
+      "sha256": "87068f08f74c03792af255154f31f61408920d4698113d3b1cdf3a97f0b4a638"
+    },
+    {
+      "path": "games/pinball/certificates.json",
+      "bytes": 163523,
+      "sha256": "87a359ea0cd7fe92d767467b344ccace36a7e09ca5557b242908505548ba73c8"
+    },
+    {
+      "path": "games/pinball/engine.js",
+      "bytes": 5146,
+      "sha256": "efe5a19301e687bc98684e08b7d2f0bc2766f60058192e38432365390195fc25"
+    },
+    {
+      "path": "games/pinball/levels.js",
+      "bytes": 23037,
+      "sha256": "2aa7de412224df35dbe1e2ddf04a85eebe463ed75e220d1d71bfe6b375aae50f"
+    },
+    {
+      "path": "games/pinball/levels.json",
+      "bytes": 46982,
+      "sha256": "48c0f9412bfde718f6005589f626f7b3f551a8cff14d64f4ae45059e05ee28d4"
+    },
+    {
+      "path": "games/pinball/verification-report.json",
+      "bytes": 4108,
+      "sha256": "d1a01fab3c1b50474849a6f3ce3c6c437b1583be6c63d31b55efde71d9f625c5"
+    },
+    {
+      "path": "games/pinball/verify.cjs",
+      "bytes": 113,
+      "sha256": "6fe925649f18ff3ed8e442aa6c711dec25c180809ebccfcc97e994ff5a051172"
+    },
+    {
+      "path": "games/pinball.html",
+      "bytes": 2958,
+      "sha256": "be1e48852a2116f146f1caefacee72ef5ed764c9391777f99f17fa527382e0cc"
+    },
+    {
+      "path": "games/rhythm-drums/README.md",
+      "bytes": 3375,
+      "sha256": "c92530425edbbb0e6a2cc2f93740baf649bced767192936a5c0df3fc84d2785b"
+    },
+    {
+      "path": "games/rhythm-drums/certificates.js",
+      "bytes": 243830,
+      "sha256": "0f848568cd673050e763999878e1fe59eff06025926bc84957db9190fc4075f5"
+    },
+    {
+      "path": "games/rhythm-drums/certificates.json",
+      "bytes": 243745,
+      "sha256": "983b3c85c6aa8d27f91a9b573323b8262134e78ca14a0a360ba70d65f865fd20"
+    },
+    {
+      "path": "games/rhythm-drums/engine.js",
+      "bytes": 3849,
+      "sha256": "d2f36dcfa88fdd0de15c628625ebc3925449c8415167dc2bcc8e4f7e24ad7f1f"
+    },
+    {
+      "path": "games/rhythm-drums/levels.js",
+      "bytes": 137978,
+      "sha256": "25fe19ef2d8824a197ebda4ad641725f0ac2c08dd76238560cda34a0b17aad7e"
+    },
+    {
+      "path": "games/rhythm-drums/levels.json",
+      "bytes": 311638,
+      "sha256": "b823038037f48c5969d2b1f23c68c37d1dfcb8f8e0c40e46e24343ee04b6508b"
+    },
+    {
+      "path": "games/rhythm-drums/verification-report.json",
+      "bytes": 4152,
+      "sha256": "3125471ec9f66dc9f7fa08858c279dee227703251daa21283d4cb39bd130ee16"
+    },
+    {
+      "path": "games/rhythm-drums/verify.cjs",
+      "bytes": 118,
+      "sha256": "0f3c48e2c60f0efa8e681851e237cc7733538567e2c2a4d018744c66c43594c9"
+    },
+    {
+      "path": "games/rhythm-drums.html",
+      "bytes": 2984,
+      "sha256": "33aec0c9eda3617e399bd24d14bb731c75c1dc4eab34abd1ab6b1583a5a71ba3"
+    },
+    {
+      "path": "games/snake/README.md",
+      "bytes": 3442,
+      "sha256": "82ba758fe9b7fbab608aa8acc6862ee35467c60b3549ed1ec7b6559c89dcd923"
+    },
+    {
+      "path": "games/snake/certificates.js",
+      "bytes": 130083,
+      "sha256": "ff60c5c1ac5a84828f1027c774f0b31579af2047227a10a3e3708a87842f4126"
+    },
+    {
+      "path": "games/snake/certificates.json",
+      "bytes": 130005,
+      "sha256": "c9d5cf15b996b068b77db05ea09da6f4af12b4ea332a094278ebedcfd9890e5b"
+    },
+    {
+      "path": "games/snake/engine.js",
+      "bytes": 3448,
+      "sha256": "7149f26854e4d3195927e9619737b49cd76527f0dbcbce1e031442e9c474b58e"
+    },
+    {
+      "path": "games/snake/levels.js",
+      "bytes": 312979,
+      "sha256": "3cc954e32bfbd61c229820dcd28339f06d31d46af4ce59f1ea869a9a3c72fb8f"
+    },
+    {
+      "path": "games/snake/levels.json",
+      "bytes": 1020598,
+      "sha256": "b69fdd700f1c30e2bc0ff4d1b32b57c2feeaf8ab7ce8b14e0bc015ea94195a98"
+    },
+    {
+      "path": "games/snake/verification-report.json",
+      "bytes": 4092,
+      "sha256": "17526c30c8386dbd6da30ef14d8584acc3e6f0226976764d5b9c4c9747f08ce9"
+    },
+    {
+      "path": "games/snake/verify.cjs",
+      "bytes": 111,
+      "sha256": "bc93310af54e4f318b7a0e8ac969ce98c97431ce70f62c2a478398ee7cb0a053"
+    },
+    {
+      "path": "games/snake.html",
+      "bytes": 2950,
+      "sha256": "881cfee6c738d4547c929c9e57a357e09685c819150c4f3954be5e5a4f89dfa9"
+    },
+    {
+      "path": "games/space-dodge/README.md",
+      "bytes": 3409,
+      "sha256": "f7ebe1f0da5c48927ab8db7ba15747973c3aa7f2721859cbb45870542fd09e2f"
+    },
+    {
+      "path": "games/space-dodge/certificates.js",
+      "bytes": 145050,
+      "sha256": "a5598c928d4626d17bc4fde119d80d9bb98dd060ea37623dfb6d443e08c7f0b7"
+    },
+    {
+      "path": "games/space-dodge/certificates.json",
+      "bytes": 144966,
+      "sha256": "0491104f8607b4bbde3df3b6344ae581c90c32a0de7de7e50801239a413d5185"
+    },
+    {
+      "path": "games/space-dodge/engine.js",
+      "bytes": 3823,
+      "sha256": "c329169aa2dc166d13e112ddefdf5b2f19ebe7b4d3a9ce9f42a5fd2f6454359b"
+    },
+    {
+      "path": "games/space-dodge/levels.js",
+      "bytes": 108051,
+      "sha256": "6f06ed593a7a7403e4279383112d660c01f37c93ec61d7a6b779479b1aa800d7"
+    },
+    {
+      "path": "games/space-dodge/levels.json",
+      "bytes": 216724,
+      "sha256": "7bace5f428561bd7c8cd8584546ee4cde44812e3b9c893c78494772ed3608e01"
+    },
+    {
+      "path": "games/space-dodge/verification-report.json",
+      "bytes": 4144,
+      "sha256": "013244b888c25418df07ad26f035601c4530a0f793c5bdadadae82409d72d556"
+    },
+    {
+      "path": "games/space-dodge/verify.cjs",
+      "bytes": 117,
+      "sha256": "e6325ab587d94b8ed31bd2c4182898e05ba06ef29fb35637390717e986f46bf3"
+    },
+    {
+      "path": "games/space-dodge.html",
+      "bytes": 2980,
+      "sha256": "6ac3d9b00c58f045c47cfb913d589d4f1fe86d3210d3fbbd8a2bb3ae5ba9f2c6"
+    },
+    {
+      "path": "games/whack-a-mole/README.md",
+      "bytes": 3393,
+      "sha256": "398963cd8ac4ae9e077d0a6ba308a085518c658cddf76c6527384929dc8d35a3"
+    },
+    {
+      "path": "games/whack-a-mole/certificates.js",
+      "bytes": 180839,
+      "sha256": "f191027a53cb36c21ce906e55fb5d9752abe40c9d050f58154c4bb09440a84d0"
+    },
+    {
+      "path": "games/whack-a-mole/certificates.json",
+      "bytes": 180754,
+      "sha256": "8d6d1af2b0c9050adeaa6f1db252e9c365ce28db25663f71d824e260589d505e"
+    },
+    {
+      "path": "games/whack-a-mole/engine.js",
+      "bytes": 3323,
+      "sha256": "244a09f10c067e0f1bb9d9c4edebe4f7a1056288295740e1120ad36e06ce7b38"
+    },
+    {
+      "path": "games/whack-a-mole/levels.js",
+      "bytes": 183235,
+      "sha256": "21574e3be5b12f80acf424ab0f9c0ae5a4cc18b2f068721633a36c4856175585"
+    },
+    {
+      "path": "games/whack-a-mole/levels.json",
+      "bytes": 383181,
+      "sha256": "d84cf8fbc0a1b13b6bd207ae9b7f3fa78493091c35498109d5c47d959dcb57d9"
+    },
+    {
+      "path": "games/whack-a-mole/verification-report.json",
+      "bytes": 4149,
+      "sha256": "4ffaddaab15200f495d9be3e72b49b35ef02d4aa728c70824f463b69aaf851ef"
+    },
+    {
+      "path": "games/whack-a-mole/verify.cjs",
+      "bytes": 118,
+      "sha256": "f47fb0d44ab967c33b1b6814f6d462db59077ea7738d6c9c7474338e1be210a4"
+    },
+    {
+      "path": "games/whack-a-mole.html",
+      "bytes": 2978,
+      "sha256": "23b6a9294e5561ae4903aad31a03ae9ad222ff28b7d41774aa67dbb620a4f647"
+    }
+  ]
+}

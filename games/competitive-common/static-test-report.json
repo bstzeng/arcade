@@ -1,0 +1,88 @@
+{
+  "allPassed": true,
+  "checks": 238,
+  "games": [
+    {
+      "id": "chess",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "fide-2023-casual-dead-position-agreement-v1"
+    },
+    {
+      "id": "go9",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "tromp-taylor-9x9-komi7.5-v1"
+    },
+    {
+      "id": "shogi",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "jsa-2025-declaration31-v1"
+    },
+    {
+      "id": "dou-shou-qi",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "jungle-leiden-rat-no-cross-capture-draw-v1"
+    },
+    {
+      "id": "backgammon",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "backgammon-single-game-virtual-cube-v1"
+    },
+    {
+      "id": "hex",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "hex-11x11-pie-v1"
+    },
+    {
+      "id": "dots-and-boxes",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "dots-boxes-4x4-v1"
+    },
+    {
+      "id": "ataxx",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "ataxx-7-open-threefold-quiet100-v1"
+    },
+    {
+      "id": "amazons",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "amazons-10-standard-v1"
+    },
+    {
+      "id": "hnefatafl",
+      "pagesAndReferences": true,
+      "syntax": true,
+      "browserLevelParity": true,
+      "proofHashes": true,
+      "ruleset": "fetlar-11x11-threefold-house-v1"
+    }
+  ],
+  "layoutScope": "Responsive CSS source checks only; no rendered browser/layout claim.",
+  "browserQA": "pending"
+}

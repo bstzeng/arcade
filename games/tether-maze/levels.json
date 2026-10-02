@@ -1,0 +1,8395 @@
+{
+  "schemaVersion": 1,
+  "gameId": "tether-maze",
+  "title": "牽繩迷宮",
+  "rulesRevision": "paths-1",
+  "contentRevision": "paths-1",
+  "levels": [
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        10,
+        11
+      ],
+      "goal": [
+        5,
+        13
+      ],
+      "id": "001",
+      "title": "起步觀察 · 001",
+      "difficulty": 1,
+      "canonical": "a807111b0d1ed97e2fbbc0f9d912600b72791580156df7aca0c126378e3e71da",
+      "solutionLength": 15,
+      "searchStates": 68
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        1,
+        5
+      ],
+      "goal": [
+        9,
+        11
+      ],
+      "id": "002",
+      "title": "起步觀察 · 002",
+      "difficulty": 1,
+      "canonical": "99d2e870d88a27516ff57b8189f0f08b2913c6a4c4df68032c4f213fc12493c2",
+      "solutionLength": 5,
+      "searchStates": 94
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        8,
+        9
+      ],
+      "goal": [
+        5,
+        7
+      ],
+      "id": "003",
+      "title": "起步觀察 · 003",
+      "difficulty": 1,
+      "canonical": "4f6e4308017c9a18450b9edbbdbe679fd59cbe04c2f9068564875b67be0fbc81",
+      "solutionLength": 5,
+      "searchStates": 211
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        10,
+        6
+      ],
+      "goal": [
+        1,
+        9
+      ],
+      "id": "004",
+      "title": "起步觀察 · 004",
+      "difficulty": 1,
+      "canonical": "233470ccd66571e90bcd50ba1e45acfd3a5515b0b02b24e9c642ed5dbe53e936",
+      "solutionLength": 7,
+      "searchStates": 315
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        11,
+        10
+      ],
+      "goal": [
+        1,
+        3
+      ],
+      "id": "005",
+      "title": "起步觀察 · 005",
+      "difficulty": 1,
+      "canonical": "62610936245d3860b1e1f7eac3596ddb8e8b3ed471f713d1fae72c99bb05e13e",
+      "solutionLength": 7,
+      "searchStates": 339
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        0,
+        4
+      ],
+      "goal": [
+        7,
+        5
+      ],
+      "id": "006",
+      "title": "起步觀察 · 006",
+      "difficulty": 1,
+      "canonical": "011e678d50aadb4ff07439b997e38925135d1a5c7f367f93ec6d33eb6f4abcbc",
+      "solutionLength": 7,
+      "searchStates": 156
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        13,
+        12
+      ],
+      "goal": [
+        9,
+        11
+      ],
+      "id": "007",
+      "title": "起步觀察 · 007",
+      "difficulty": 1,
+      "canonical": "7ffd489cbb005626f9aa3dcba42165bc25291cc5cf5e0e1942237e5a4b8b0255",
+      "solutionLength": 5,
+      "searchStates": 84
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        6,
+        7
+      ],
+      "goal": [
+        14,
+        6
+      ],
+      "id": "008",
+      "title": "起步觀察 · 008",
+      "difficulty": 1,
+      "canonical": "0cff65e1bd75071e5e5a5eb73b150454f5a7e3d44ca6325cd54ffb4d04db196e",
+      "solutionLength": 5,
+      "searchStates": 160
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        11,
+        7
+      ],
+      "goal": [
+        10,
+        8
+      ],
+      "id": "009",
+      "title": "起步觀察 · 009",
+      "difficulty": 1,
+      "canonical": "78e49ca22950e996bfbecd6c4e4e327041291ea00bab3f8bea223ced7d81d647",
+      "solutionLength": 7,
+      "searchStates": 74
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        2,
+        6
+      ],
+      "goal": [
+        8,
+        10
+      ],
+      "id": "010",
+      "title": "起步觀察 · 010",
+      "difficulty": 1,
+      "canonical": "4f7b1e7d07c225d1788ef8ec8ae09cde43106822d91b568901971ee1961e993a",
+      "solutionLength": 5,
+      "searchStates": 125
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        1,
+        5
+      ],
+      "goal": [
+        15,
+        13
+      ],
+      "id": "011",
+      "title": "起步觀察 · 011",
+      "difficulty": 1,
+      "canonical": "0334274a7a157efed8ffe2a341ab345aa5e0301b8efdceedb512cb8f6ed0b8fa",
+      "solutionLength": 7,
+      "searchStates": 338
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        1,
+        5
+      ],
+      "goal": [
+        9,
+        11
+      ],
+      "id": "012",
+      "title": "起步觀察 · 012",
+      "difficulty": 1,
+      "canonical": "292a900f664e7967524ef560b775f7bf13d92815525fb1f4525f19f55c67eb5c",
+      "solutionLength": 5,
+      "searchStates": 199
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        8,
+        4
+      ],
+      "goal": [
+        4,
+        6
+      ],
+      "id": "013",
+      "title": "起步觀察 · 013",
+      "difficulty": 1,
+      "canonical": "c33894a20e2b0923ab4b5fd6cf4d2b026f5d1e53115ef44b3233b30a9f86634c",
+      "solutionLength": 5,
+      "searchStates": 26
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        2,
+        6
+      ],
+      "goal": [
+        14,
+        12
+      ],
+      "id": "014",
+      "title": "起步觀察 · 014",
+      "difficulty": 1,
+      "canonical": "bc067c151b43632ff0a2d6608a309a383e3d2c7f35383512fbf44c42e1b3f7cb",
+      "solutionLength": 7,
+      "searchStates": 336
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        10,
+        14
+      ],
+      "goal": [
+        3,
+        11
+      ],
+      "id": "015",
+      "title": "起步觀察 · 015",
+      "difficulty": 1,
+      "canonical": "b8d04a603a8b8140ae8892f29cb66ade74fefe0ee27ff466f8ed0fbb47b0e334",
+      "solutionLength": 5,
+      "searchStates": 242
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        9,
+        13
+      ],
+      "goal": [
+        4,
+        6
+      ],
+      "id": "016",
+      "title": "起步觀察 · 016",
+      "difficulty": 1,
+      "canonical": "072e0fc7806bfa8ff9dbb98ae89dcc7d4de1f2a301e27b78298c570f67df3465",
+      "solutionLength": 5,
+      "searchStates": 114
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        3,
+        7
+      ],
+      "goal": [
+        10,
+        8
+      ],
+      "id": "017",
+      "title": "起步觀察 · 017",
+      "difficulty": 1,
+      "canonical": "5428e4690ca98f2fb744dd977ef14559264e710b916fcb1f7d49043baf5534ca",
+      "solutionLength": 9,
+      "searchStates": 199
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        4,
+        5
+      ],
+      "goal": [
+        2,
+        0
+      ],
+      "id": "018",
+      "title": "起步觀察 · 018",
+      "difficulty": 1,
+      "canonical": "dfd390bfec0954b410bc1df83c8f2031b94532989d0755283facd9aad1d71d66",
+      "solutionLength": 7,
+      "searchStates": 397
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        12,
+        13
+      ],
+      "goal": [
+        4,
+        12
+      ],
+      "id": "019",
+      "title": "起步觀察 · 019",
+      "difficulty": 1,
+      "canonical": "48456c0ca55bac42d2f65149d5def6a9b5074f96662b16f0798acffde62f7c8d",
+      "solutionLength": 7,
+      "searchStates": 283
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        11,
+        7
+      ],
+      "goal": [
+        9,
+        1
+      ],
+      "id": "020",
+      "title": "起步觀察 · 020",
+      "difficulty": 1,
+      "canonical": "8b20f7bd89669ea512c97541e483055add46c9045e4cfa00fc002673b25ab5db",
+      "solutionLength": 7,
+      "searchStates": 243
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        8,
+        12
+      ],
+      "goal": [
+        13,
+        15
+      ],
+      "id": "021",
+      "title": "分岔選擇 · 021",
+      "difficulty": 2,
+      "canonical": "7ecb50108e396309c4d4101c7e00357e481bb5925451fd73c212eddc499df44c",
+      "solutionLength": 7,
+      "searchStates": 289
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        12,
+        8
+      ],
+      "goal": [
+        8,
+        10
+      ],
+      "id": "022",
+      "title": "分岔選擇 · 022",
+      "difficulty": 2,
+      "canonical": "d0ccde7e088800187aac36534e2313b38985b979f5aee16dc08c3112d3ff5c0d",
+      "solutionLength": 5,
+      "searchStates": 22
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        7,
+        3
+      ],
+      "goal": [
+        8,
+        10
+      ],
+      "id": "023",
+      "title": "分岔選擇 · 023",
+      "difficulty": 2,
+      "canonical": "c840d0e02641b2986fae223590cdf420b39b2200dd838b640f2473ac00789960",
+      "solutionLength": 7,
+      "searchStates": 326
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        2,
+        6
+      ],
+      "goal": [
+        0,
+        2
+      ],
+      "id": "024",
+      "title": "分岔選擇 · 024",
+      "difficulty": 2,
+      "canonical": "8bb922af260e96a06cec612be7c776d0f763e2d2f5230b9235ba5d633ad2d878",
+      "solutionLength": 7,
+      "searchStates": 104
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 4,
+      "rope": [
+        15,
+        11
+      ],
+      "goal": [
+        2,
+        10
+      ],
+      "id": "025",
+      "title": "分岔選擇 · 025",
+      "difficulty": 2,
+      "canonical": "4a25a33fbc74b042176a45bcbcbb4d65e960b5207cef22b690ab8e4e32715c7c",
+      "solutionLength": 5,
+      "searchStates": 51
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        15,
+        14
+      ],
+      "goal": [
+        7,
+        15
+      ],
+      "id": "026",
+      "title": "分岔選擇 · 026",
+      "difficulty": 2,
+      "canonical": "a876853d8187a78eb1324c6fd1c2aab11146e089f65e338b3447920defa66e47",
+      "solutionLength": 7,
+      "searchStates": 509
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        10,
+        11
+      ],
+      "goal": [
+        1,
+        13
+      ],
+      "id": "027",
+      "title": "分岔選擇 · 027",
+      "difficulty": 2,
+      "canonical": "11cb744dc844822d85757863fce386f05fe97ec789b17780c047b79d86467e90",
+      "solutionLength": 6,
+      "searchStates": 311
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        8,
+        12
+      ],
+      "goal": [
+        4,
+        7
+      ],
+      "id": "028",
+      "title": "分岔選擇 · 028",
+      "difficulty": 2,
+      "canonical": "2f90ff0f1713bdd9f5fce75186e1bbb084a5c670528b0da3ae8da47ee6cf4896",
+      "solutionLength": 6,
+      "searchStates": 54
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        5,
+        1
+      ],
+      "goal": [
+        7,
+        5
+      ],
+      "id": "029",
+      "title": "分岔選擇 · 029",
+      "difficulty": 2,
+      "canonical": "ef13a2cc0331548ef0d677f2c36f4d254a183077004faca1a95849f88eff18be",
+      "solutionLength": 7,
+      "searchStates": 30
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        2,
+        3
+      ],
+      "goal": [
+        15,
+        12
+      ],
+      "id": "030",
+      "title": "分岔選擇 · 030",
+      "difficulty": 2,
+      "canonical": "2a0ea804e256bebb9ba2e3a35d66e0cdf29394675ec31291003b77860a954727",
+      "solutionLength": 10,
+      "searchStates": 349
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        11,
+        7
+      ],
+      "goal": [
+        8,
+        11
+      ],
+      "id": "031",
+      "title": "分岔選擇 · 031",
+      "difficulty": 2,
+      "canonical": "431c458b0266b78593514bdaaa07c66f157eb072985ebe5fbf6baa9d31c145cd",
+      "solutionLength": 8,
+      "searchStates": 187
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        6,
+        5
+      ],
+      "goal": [
+        13,
+        6
+      ],
+      "id": "032",
+      "title": "分岔選擇 · 032",
+      "difficulty": 2,
+      "canonical": "b7eb69dbe5eb766d90da50fb373cbfb3cf6b2f7f5aa223c16f02421eed848185",
+      "solutionLength": 8,
+      "searchStates": 96
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        4,
+        0
+      ],
+      "goal": [
+        3,
+        1
+      ],
+      "id": "033",
+      "title": "分岔選擇 · 033",
+      "difficulty": 2,
+      "canonical": "aeb592704c4a44d8c0f3a1b243cde515a8ad9df70f7e5643b4dfd34d8167d580",
+      "solutionLength": 7,
+      "searchStates": 483
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        13,
+        14
+      ],
+      "goal": [
+        8,
+        10
+      ],
+      "id": "034",
+      "title": "分岔選擇 · 034",
+      "difficulty": 2,
+      "canonical": "21d152f31e4b7679006b3cb997ae2ceccf07209462de1d9375a217d26aebc095",
+      "solutionLength": 9,
+      "searchStates": 452
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        15,
+        11
+      ],
+      "goal": [
+        13,
+        15
+      ],
+      "id": "035",
+      "title": "分岔選擇 · 035",
+      "difficulty": 2,
+      "canonical": "51e57e1aae0276ac95b09967f9a443a8c836cabc42688f4ccbd18c42b3fec31b",
+      "solutionLength": 7,
+      "searchStates": 393
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        7,
+        11
+      ],
+      "goal": [
+        4,
+        13
+      ],
+      "id": "036",
+      "title": "分岔選擇 · 036",
+      "difficulty": 2,
+      "canonical": "9598a40051178857c3dedc4a61d465ee0b096ea2bffd55f4bbb340715871d1ad",
+      "solutionLength": 8,
+      "searchStates": 238
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        8,
+        12
+      ],
+      "goal": [
+        1,
+        3
+      ],
+      "id": "037",
+      "title": "分岔選擇 · 037",
+      "difficulty": 2,
+      "canonical": "7ab116ef54da76ab839e6c6403a90392d77d7b5d9a32b7a0b5187465e99cfc00",
+      "solutionLength": 9,
+      "searchStates": 607
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        13,
+        12
+      ],
+      "goal": [
+        8,
+        11
+      ],
+      "id": "038",
+      "title": "分岔選擇 · 038",
+      "difficulty": 2,
+      "canonical": "272abf64e12dab73df497fb10c4ff2c099f445432fe5f90d4f81040c80cae0ff",
+      "solutionLength": 6,
+      "searchStates": 158
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        0,
+        4
+      ],
+      "goal": [
+        3,
+        0
+      ],
+      "id": "039",
+      "title": "分岔選擇 · 039",
+      "difficulty": 2,
+      "canonical": "d12c1a571fc73f0975389ceae10167043c44a527f3970d3d61f21442e69b3015",
+      "solutionLength": 10,
+      "searchStates": 256
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        3,
+        7
+      ],
+      "goal": [
+        7,
+        4
+      ],
+      "id": "040",
+      "title": "分岔選擇 · 040",
+      "difficulty": 2,
+      "canonical": "269473f2dc4a129153708fc698af19c28eb58d03c3bb4db36a13f63055a6f46f",
+      "solutionLength": 6,
+      "searchStates": 90
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        8,
+        12
+      ],
+      "goal": [
+        3,
+        1
+      ],
+      "id": "041",
+      "title": "規則交互 · 041",
+      "difficulty": 3,
+      "canonical": "f5cebf98c2b7b9b6b333044f671f7de2cd0d2e999dcf7d6bdd86e1b2505d3bb2",
+      "solutionLength": 9,
+      "searchStates": 103
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        1,
+        2
+      ],
+      "goal": [
+        7,
+        5
+      ],
+      "id": "042",
+      "title": "規則交互 · 042",
+      "difficulty": 3,
+      "canonical": "61a40ba23986c18dc4a2264e3e12041580686b0a8e3023c1977e374d7cc35d23",
+      "solutionLength": 7,
+      "searchStates": 124
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        13,
+        12
+      ],
+      "goal": [
+        5,
+        11
+      ],
+      "id": "043",
+      "title": "規則交互 · 043",
+      "difficulty": 3,
+      "canonical": "ac2062d525841154a379ed2cb03af9fb8cfc11752012b29ab67e90de3f3aba02",
+      "solutionLength": 12,
+      "searchStates": 315
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        2,
+        6
+      ],
+      "goal": [
+        15,
+        3
+      ],
+      "id": "044",
+      "title": "規則交互 · 044",
+      "difficulty": 3,
+      "canonical": "ce95a00a7c0774946043d3fdd56c189a6df6a2e3e281cce5fd4bc0816c08b85c",
+      "solutionLength": 8,
+      "searchStates": 523
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        9,
+        10
+      ],
+      "goal": [
+        0,
+        2
+      ],
+      "id": "045",
+      "title": "規則交互 · 045",
+      "difficulty": 3,
+      "canonical": "42a501efc19806029ac65d6c0d95274b6c8aacfe784d227beee74507de39b3fb",
+      "solutionLength": 7,
+      "searchStates": 352
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        1,
+        5
+      ],
+      "goal": [
+        3,
+        1
+      ],
+      "id": "046",
+      "title": "規則交互 · 046",
+      "difficulty": 3,
+      "canonical": "492c8c79aae5aeb9c9b277a44b2eeccd2733bb8d6edce0e4d6b5bf622e8038c8",
+      "solutionLength": 7,
+      "searchStates": 488
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        7,
+        11
+      ],
+      "goal": [
+        5,
+        3
+      ],
+      "id": "047",
+      "title": "規則交互 · 047",
+      "difficulty": 3,
+      "canonical": "12ec9ec7d7785744e6a7d58c73b6530b7910e1ba99976bde937e2b5448c4e521",
+      "solutionLength": 8,
+      "searchStates": 395
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        9,
+        8
+      ],
+      "goal": [
+        14,
+        6
+      ],
+      "id": "048",
+      "title": "規則交互 · 048",
+      "difficulty": 3,
+      "canonical": "26cf1f32b917de01219dedaa2695fbdca24e68c6207dc97df75438aeb8f254a2",
+      "solutionLength": 11,
+      "searchStates": 96
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        5,
+        4
+      ],
+      "goal": [
+        4,
+        12
+      ],
+      "id": "049",
+      "title": "規則交互 · 049",
+      "difficulty": 3,
+      "canonical": "7d4c83b7f7775c6d8ad732823f0866b0205617515aec93a4a1c5709f7e936df6",
+      "solutionLength": 7,
+      "searchStates": 328
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 5,
+      "rope": [
+        7,
+        11
+      ],
+      "goal": [
+        15,
+        12
+      ],
+      "id": "050",
+      "title": "規則交互 · 050",
+      "difficulty": 3,
+      "canonical": "af55c30ebccf8fb01140de569dad8f1264660e3151e60bc14c9f48a95d129af3",
+      "solutionLength": 6,
+      "searchStates": 59
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        14,
+        15
+      ],
+      "goal": [
+        10,
+        3
+      ],
+      "id": "051",
+      "title": "規則交互 · 051",
+      "difficulty": 3,
+      "canonical": "cac56cb12b3b013947e025f503c2c599d9519da1ec5b79c42e8eca3128c99baf",
+      "solutionLength": 10,
+      "searchStates": 295
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        9,
+        5
+      ],
+      "goal": [
+        2,
+        14
+      ],
+      "id": "052",
+      "title": "規則交互 · 052",
+      "difficulty": 3,
+      "canonical": "459ff78c9f6ee40e0d367ea6234401f57a6118fb0f97b7b01d20fd44cf542d3a",
+      "solutionLength": 8,
+      "searchStates": 139
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        4,
+        0
+      ],
+      "goal": [
+        14,
+        12
+      ],
+      "id": "053",
+      "title": "規則交互 · 053",
+      "difficulty": 3,
+      "canonical": "6f48a576b12002ef5f1070542c270423c79c97b8a205246b347df9b32634b9b2",
+      "solutionLength": 7,
+      "searchStates": 586
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        12,
+        8
+      ],
+      "goal": [
+        9,
+        3
+      ],
+      "id": "054",
+      "title": "規則交互 · 054",
+      "difficulty": 3,
+      "canonical": "97626ab674134032137de069f7a71d86fe67cb92fa0fad7bea4d8ac1b3aff463",
+      "solutionLength": 7,
+      "searchStates": 114
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        7,
+        11
+      ],
+      "goal": [
+        0,
+        2
+      ],
+      "id": "055",
+      "title": "規則交互 · 055",
+      "difficulty": 3,
+      "canonical": "d70eef8b3ca5034c91a2a56b7eba3889d5d77bc952659a2277a7e84d3c6ded05",
+      "solutionLength": 7,
+      "searchStates": 348
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        7,
+        6
+      ],
+      "goal": [
+        2,
+        8
+      ],
+      "id": "056",
+      "title": "規則交互 · 056",
+      "difficulty": 3,
+      "canonical": "5c25e2c704ec338a314f81e7d291a8ecbb3d498731fa10f391301537a06b728b",
+      "solutionLength": 7,
+      "searchStates": 61
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        8,
+        9
+      ],
+      "goal": [
+        0,
+        8
+      ],
+      "id": "057",
+      "title": "規則交互 · 057",
+      "difficulty": 3,
+      "canonical": "746c939edd7f24a6177cb5a2f72f932d70962d809cd5358ea6fc488796130e74",
+      "solutionLength": 7,
+      "searchStates": 540
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        6,
+        10
+      ],
+      "goal": [
+        8,
+        1
+      ],
+      "id": "058",
+      "title": "規則交互 · 058",
+      "difficulty": 3,
+      "canonical": "c8595f15e0591ce21cc5d7cfff42492ae6eb79e17d3a459e443664b50418e52b",
+      "solutionLength": 8,
+      "searchStates": 281
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        6,
+        2
+      ],
+      "goal": [
+        3,
+        0
+      ],
+      "id": "059",
+      "title": "規則交互 · 059",
+      "difficulty": 3,
+      "canonical": "b6d7f3d3b2771289c328ad5d6502d0c99ce2e263ce4bec1364e8010cd9f2e9a7",
+      "solutionLength": 8,
+      "searchStates": 370
+    },
+    {
+      "w": 4,
+      "h": 4,
+      "cells": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        8,
+        9
+      ],
+      "goal": [
+        15,
+        12
+      ],
+      "id": "060",
+      "title": "規則交互 · 060",
+      "difficulty": 3,
+      "canonical": "51958ead8bfed565a83521f8de1874ceb3209098dff635261ae6eda108fc172d",
+      "solutionLength": 10,
+      "searchStates": 228
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        0,
+        5
+      ],
+      "goal": [
+        7,
+        22
+      ],
+      "id": "061",
+      "title": "深入規劃 · 061",
+      "difficulty": 4,
+      "canonical": "823eedf31222201f554eb77c233cc9e197d42122c59d88b6e7e3a80580806b72",
+      "solutionLength": 8,
+      "searchStates": 1104
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        17,
+        18
+      ],
+      "goal": [
+        22,
+        6
+      ],
+      "id": "062",
+      "title": "深入規劃 · 062",
+      "difficulty": 4,
+      "canonical": "deb1d17616afe24d788d051ad80af2ebd3aabbb0d09ef934c65eae3dbc1e5c7a",
+      "solutionLength": 11,
+      "searchStates": 340
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        7,
+        2
+      ],
+      "goal": [
+        0,
+        4
+      ],
+      "id": "063",
+      "title": "深入規劃 · 063",
+      "difficulty": 4,
+      "canonical": "463d578659831df92d7d204276899df7b77f76878c73942180049fd8a7afe6ff",
+      "solutionLength": 7,
+      "searchStates": 2038
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        3,
+        8
+      ],
+      "goal": [
+        0,
+        2
+      ],
+      "id": "064",
+      "title": "深入規劃 · 064",
+      "difficulty": 4,
+      "canonical": "7881f402d334ab339358c8600203444ee61fc33eff2ea06e3421c2e2e515d2dd",
+      "solutionLength": 7,
+      "searchStates": 2195
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        1,
+        6
+      ],
+      "goal": [
+        3,
+        1
+      ],
+      "id": "065",
+      "title": "深入規劃 · 065",
+      "difficulty": 4,
+      "canonical": "ee184130df7b2ca411515a99d4027613babbd07a18b842e12cf4ffd078ded7eb",
+      "solutionLength": 7,
+      "searchStates": 1882
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        12,
+        13
+      ],
+      "goal": [
+        21,
+        1
+      ],
+      "id": "066",
+      "title": "深入規劃 · 066",
+      "difficulty": 4,
+      "canonical": "f38cef8671656813c78d0f15f28850fb6d0fa6cf285e99ff6e6cd8f8382d8500",
+      "solutionLength": 7,
+      "searchStates": 1695
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        23,
+        24
+      ],
+      "goal": [
+        24,
+        4
+      ],
+      "id": "067",
+      "title": "深入規劃 · 067",
+      "difficulty": 4,
+      "canonical": "92dcecd028e32d5a692b890f8fd546a6e9b5dbf92425881118035780c9132fb1",
+      "solutionLength": 9,
+      "searchStates": 1646
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        22,
+        23
+      ],
+      "goal": [
+        12,
+        10
+      ],
+      "id": "068",
+      "title": "深入規劃 · 068",
+      "difficulty": 4,
+      "canonical": "4b1141eb66d2c698502b4a952e8324d3fc1b63a9779bb1ada990a77db1c75945",
+      "solutionLength": 7,
+      "searchStates": 92
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        3,
+        2
+      ],
+      "goal": [
+        8,
+        23
+      ],
+      "id": "069",
+      "title": "深入規劃 · 069",
+      "difficulty": 4,
+      "canonical": "a2a8bd41b852d63c3b25f9447da8170e5259ab78a820d82f88128d645693704d",
+      "solutionLength": 8,
+      "searchStates": 1608
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        21,
+        16
+      ],
+      "goal": [
+        13,
+        21
+      ],
+      "id": "070",
+      "title": "深入規劃 · 070",
+      "difficulty": 4,
+      "canonical": "c760260e61c791b8d60760ea2fe5ffbafbeeb6943a0efe7036b36bbeec7aedb1",
+      "solutionLength": 7,
+      "searchStates": 494
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        3,
+        8
+      ],
+      "goal": [
+        12,
+        10
+      ],
+      "id": "071",
+      "title": "深入規劃 · 071",
+      "difficulty": 4,
+      "canonical": "99f7a8bcd4ec223d24aa6de47f84baf867722a5923aa681e6bb352e13507ccbb",
+      "solutionLength": 9,
+      "searchStates": 2096
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        19,
+        24
+      ],
+      "goal": [
+        20,
+        0
+      ],
+      "id": "072",
+      "title": "深入規劃 · 072",
+      "difficulty": 4,
+      "canonical": "e6c8bd346deadac52e0a078f7543c9b8523a2ea4c6dfbca32539e654822a6943",
+      "solutionLength": 15,
+      "searchStates": 2250
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        4,
+        3
+      ],
+      "goal": [
+        13,
+        10
+      ],
+      "id": "073",
+      "title": "深入規劃 · 073",
+      "difficulty": 4,
+      "canonical": "bdd588804c29c0c1469a8b4e07e176b436900b4fcafcbfd709d87568534badcb",
+      "solutionLength": 8,
+      "searchStates": 1032
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        22,
+        23
+      ],
+      "goal": [
+        19,
+        3
+      ],
+      "id": "074",
+      "title": "深入規劃 · 074",
+      "difficulty": 4,
+      "canonical": "af40afb7b0955990023af4897d88ee72df887cfba1ac8de610ae050fea855f97",
+      "solutionLength": 9,
+      "searchStates": 493
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 6,
+      "rope": [
+        8,
+        7
+      ],
+      "goal": [
+        2,
+        4
+      ],
+      "id": "075",
+      "title": "深入規劃 · 075",
+      "difficulty": 4,
+      "canonical": "6dd9e77d057656c49f35c175dddb6e3a077444693a246cefeb6c015d3790e786",
+      "solutionLength": 7,
+      "searchStates": 1699
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        16,
+        11
+      ],
+      "goal": [
+        9,
+        0
+      ],
+      "id": "076",
+      "title": "深入規劃 · 076",
+      "difficulty": 4,
+      "canonical": "c94973e0db5b8d73703c334d51e25b1c664accc2039a52fd25659da91c69a307",
+      "solutionLength": 8,
+      "searchStates": 1346
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        24,
+        23
+      ],
+      "goal": [
+        20,
+        22
+      ],
+      "id": "077",
+      "title": "深入規劃 · 077",
+      "difficulty": 4,
+      "canonical": "6bd125c002c09973b7aca81051c24a7ebc216e67ace31a2f7a4709c1da1f9527",
+      "solutionLength": 11,
+      "searchStates": 2931
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        19,
+        14
+      ],
+      "goal": [
+        20,
+        10
+      ],
+      "id": "078",
+      "title": "深入規劃 · 078",
+      "difficulty": 4,
+      "canonical": "cfc097d65461ed057506a9cbf9885c40145213a5d89e618cf2fb01cea5c504fb",
+      "solutionLength": 11,
+      "searchStates": 7651
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        20,
+        21
+      ],
+      "goal": [
+        0,
+        20
+      ],
+      "id": "079",
+      "title": "深入規劃 · 079",
+      "difficulty": 4,
+      "canonical": "4e1351aab09ba3c6464edf9d548e8f90e01be358b1a360b635ae6671d0dcf61d",
+      "solutionLength": 9,
+      "searchStates": 3963
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        12,
+        7
+      ],
+      "goal": [
+        7,
+        10
+      ],
+      "id": "080",
+      "title": "深入規劃 · 080",
+      "difficulty": 4,
+      "canonical": "d4633aba1b20688fb508718cddf5fe45b39dc88f63eb8a3e413f410f01d25a80",
+      "solutionLength": 10,
+      "searchStates": 1013
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        10,
+        11
+      ],
+      "goal": [
+        1,
+        22
+      ],
+      "id": "081",
+      "title": "路線大師 · 081",
+      "difficulty": 5,
+      "canonical": "3447b6525bc742ce63e6817f8e8a5b7510b84324df8dce3e3d659af671a7a62a",
+      "solutionLength": 8,
+      "searchStates": 214
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        0,
+        1
+      ],
+      "goal": [
+        1,
+        21
+      ],
+      "id": "082",
+      "title": "路線大師 · 082",
+      "difficulty": 5,
+      "canonical": "e07b5775f3a9e47b9f39b64f8c5ef8e3d43a782786d6669eed5633abc86d92ea",
+      "solutionLength": 13,
+      "searchStates": 960
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        10,
+        15
+      ],
+      "goal": [
+        23,
+        2
+      ],
+      "id": "083",
+      "title": "路線大師 · 083",
+      "difficulty": 5,
+      "canonical": "bac112cefbea288035827c206f0d5a052baf17d45f91eb91f4ca5b06cf31af06",
+      "solutionLength": 10,
+      "searchStates": 5072
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        13,
+        18
+      ],
+      "goal": [
+        19,
+        4
+      ],
+      "id": "084",
+      "title": "路線大師 · 084",
+      "difficulty": 5,
+      "canonical": "40f0b7a44189a235475993d359b8f28929c9d1b3420ac0a23c7f1e6448e9ada5",
+      "solutionLength": 8,
+      "searchStates": 5840
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        18,
+        23
+      ],
+      "goal": [
+        2,
+        16
+      ],
+      "id": "085",
+      "title": "路線大師 · 085",
+      "difficulty": 5,
+      "canonical": "4892827dca51f52ad74e490905206d8e5bb78e8deba7ed12cae4369cee5a2638",
+      "solutionLength": 11,
+      "searchStates": 1760
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        1,
+        2
+      ],
+      "goal": [
+        21,
+        24
+      ],
+      "id": "086",
+      "title": "路線大師 · 086",
+      "difficulty": 5,
+      "canonical": "b18063959113e6c07470503f25384615cb2450fd4bb8127f43749588411c5e60",
+      "solutionLength": 12,
+      "searchStates": 8522
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        8,
+        3
+      ],
+      "goal": [
+        0,
+        9
+      ],
+      "id": "087",
+      "title": "路線大師 · 087",
+      "difficulty": 5,
+      "canonical": "dfeb2bee1d221ea6bc6c358b3e71c6dd7efe835c1c656c9309f9900effddfffd",
+      "solutionLength": 8,
+      "searchStates": 1089
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        16,
+        21
+      ],
+      "goal": [
+        14,
+        12
+      ],
+      "id": "088",
+      "title": "路線大師 · 088",
+      "difficulty": 5,
+      "canonical": "5b154e51a2a299a976444b1023a95dc143734034cb98d52b30aa735a70a30082",
+      "solutionLength": 9,
+      "searchStates": 1626
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        14,
+        19
+      ],
+      "goal": [
+        22,
+        6
+      ],
+      "id": "089",
+      "title": "路線大師 · 089",
+      "difficulty": 5,
+      "canonical": "17e8a04d368e912c2a53a8251314ce1a9b780637c54bc3758d4a3f1887b40e0c",
+      "solutionLength": 9,
+      "searchStates": 1095
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        4,
+        3
+      ],
+      "goal": [
+        17,
+        15
+      ],
+      "id": "090",
+      "title": "路線大師 · 090",
+      "difficulty": 5,
+      "canonical": "3fdcb4fbcada0937829cdd1dcb1b21556e919f2ec6c069619ad53a51de50adc5",
+      "solutionLength": 13,
+      "searchStates": 2075
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        10,
+        11
+      ],
+      "goal": [
+        3,
+        19
+      ],
+      "id": "091",
+      "title": "路線大師 · 091",
+      "difficulty": 5,
+      "canonical": "a02fcf5b654a1c30240d0a2181663791446b0e9686bd704185810cfb70d799a5",
+      "solutionLength": 9,
+      "searchStates": 4653
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        6,
+        7
+      ],
+      "goal": [
+        15,
+        18
+      ],
+      "id": "092",
+      "title": "路線大師 · 092",
+      "difficulty": 5,
+      "canonical": "fd74182567a3e98fc282bbb99233972b5dd35038b7535c7b494597c5d92d2675",
+      "solutionLength": 10,
+      "searchStates": 647
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        5,
+        0
+      ],
+      "goal": [
+        8,
+        23
+      ],
+      "id": "093",
+      "title": "路線大師 · 093",
+      "difficulty": 5,
+      "canonical": "60bbd0f9e6d4e158f6b8e51ec0fef458121cf8f08bffbfbc70a7c8cae311fe75",
+      "solutionLength": 10,
+      "searchStates": 2004
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        15,
+        20
+      ],
+      "goal": [
+        19,
+        4
+      ],
+      "id": "094",
+      "title": "路線大師 · 094",
+      "difficulty": 5,
+      "canonical": "01703a12c86f0a2a78c19559783462755b39b2749c39afabd1090ceca91109a8",
+      "solutionLength": 12,
+      "searchStates": 9435
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        11,
+        6
+      ],
+      "goal": [
+        19,
+        16
+      ],
+      "id": "095",
+      "title": "路線大師 · 095",
+      "difficulty": 5,
+      "canonical": "5fcd4904166f21d195c8d0aabad7da62a1dbf2009e90e5dec4fb0c023f91d1df",
+      "solutionLength": 8,
+      "searchStates": 1245
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        3,
+        8
+      ],
+      "goal": [
+        16,
+        19
+      ],
+      "id": "096",
+      "title": "路線大師 · 096",
+      "difficulty": 5,
+      "canonical": "7a969915be982de2293a9b28137dc87a1b99b04db6dcc7eb839dde510668524d",
+      "solutionLength": 12,
+      "searchStates": 5174
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        5,
+        6
+      ],
+      "goal": [
+        13,
+        24
+      ],
+      "id": "097",
+      "title": "路線大師 · 097",
+      "difficulty": 5,
+      "canonical": "aea79607972d836443ae1018db3d74e09aa4e28ff5f52878ff9993b4b7401700",
+      "solutionLength": 10,
+      "searchStates": 380
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        21,
+        20
+      ],
+      "goal": [
+        12,
+        14
+      ],
+      "id": "098",
+      "title": "路線大師 · 098",
+      "difficulty": 5,
+      "canonical": "2f8456604e179d1dbd14abe4270f402952b4e027271fa218722c33849442e076",
+      "solutionLength": 9,
+      "searchStates": 2156
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        8,
+        13
+      ],
+      "goal": [
+        21,
+        10
+      ],
+      "id": "099",
+      "title": "路線大師 · 099",
+      "difficulty": 5,
+      "canonical": "5789614448bc59dad97966ca8af6e3a4484abdc64e5004812c2e3e6c08d8f344",
+      "solutionLength": 10,
+      "searchStates": 1195
+    },
+    {
+      "w": 5,
+      "h": 5,
+      "cells": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "tether",
+      "length": 7,
+      "rope": [
+        0,
+        5
+      ],
+      "goal": [
+        6,
+        21
+      ],
+      "id": "100",
+      "title": "路線大師 · 100",
+      "difficulty": 5,
+      "canonical": "14404791fac4d5221d4514752d5872239a89b3f00e2fdd3dbbd99a61d6a3cc7a",
+      "solutionLength": 8,
+      "searchStates": 774
+    }
+  ],
+  "proofs": [
+    {
+      "id": "001",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        1,
+        4,
+        0,
+        7,
+        0,
+        7,
+        3,
+        6,
+        3,
+        7,
+        2,
+        6,
+        6,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "6d8449fa17fe1c9220712109f6b0caefbae0ec24f1ceaa5742f3fd2280fa6b2b",
+      "goal": {
+        "positions": [
+          5,
+          13
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          1,
+          4,
+          0,
+          7,
+          0,
+          7,
+          3,
+          6,
+          3,
+          7,
+          2,
+          6,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "id": "002",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        2,
+        2,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "f5683210f9b2c04694ed21bf8c00a267c28480a72945c100cea30a22abdc9d4c",
+      "goal": {
+        "positions": [
+          9,
+          11
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          2,
+          2,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "003",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        1,
+        0,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "6222ff5cbe0d303fb71a249f177f4cd4926f4f7c16c2a826056b63e7ebc3d0b0",
+      "goal": {
+        "positions": [
+          5,
+          7
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          1,
+          0,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "004",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        3,
+        0,
+        6,
+        0,
+        7,
+        1
+      ],
+      "optimal": false,
+      "startStateHash": "6f2ad7ba89c1f98a130631a5b0a362e6e6792c6ae3cdd1d9ef746373526fd910",
+      "goal": {
+        "positions": [
+          1,
+          9
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          3,
+          0,
+          6,
+          0,
+          7,
+          1
+        ]
+      }
+    },
+    {
+      "id": "005",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        3,
+        3,
+        5,
+        0,
+        4,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "917f42fa20076b6d81f2dcf7f00301fb6bf5cb81b678f31deadb2e22474f3b5e",
+      "goal": {
+        "positions": [
+          1,
+          3
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          3,
+          3,
+          5,
+          0,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "006",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        1,
+        1,
+        4,
+        2,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "b134985bf32ee76174d7cbc278de06f053d1611fba9e7c6437dcafdbe9eea94e",
+      "goal": {
+        "positions": [
+          7,
+          5
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          1,
+          1,
+          4,
+          2,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "007",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        5,
+        5,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "d0a386da484d074eb24db1355b5c17d3e4407a2183e78eecf22facc60fd9e360",
+      "goal": {
+        "positions": [
+          9,
+          11
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "008",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        2,
+        2,
+        7,
+        1
+      ],
+      "optimal": false,
+      "startStateHash": "b915ca95c164307f0d122c5948f1aca4523218d3a1b246a4e5e690ebfc256d80",
+      "goal": {
+        "positions": [
+          14,
+          6
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          2,
+          2,
+          7,
+          1
+        ]
+      }
+    },
+    {
+      "id": "009",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        7,
+        0,
+        7,
+        3,
+        2,
+        7,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "0debffaef5d386e679870c04685501ae9bce8a956b06f67de87451fc61d5f418",
+      "goal": {
+        "positions": [
+          10,
+          8
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          7,
+          0,
+          7,
+          3,
+          2,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "id": "010",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        3,
+        3,
+        2
+      ],
+      "optimal": false,
+      "startStateHash": "4b4ed9fc73ea93b37aef56c2173636a7776136bd67be957e802f2f93e06f87f4",
+      "goal": {
+        "positions": [
+          8,
+          10
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          3,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "011",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        6,
+        2,
+        1,
+        1,
+        2
+      ],
+      "optimal": false,
+      "startStateHash": "f5683210f9b2c04694ed21bf8c00a267c28480a72945c100cea30a22abdc9d4c",
+      "goal": {
+        "positions": [
+          15,
+          13
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          6,
+          2,
+          1,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "012",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        2,
+        2,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "f5683210f9b2c04694ed21bf8c00a267c28480a72945c100cea30a22abdc9d4c",
+      "goal": {
+        "positions": [
+          9,
+          11
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          2,
+          2,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "013",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        0,
+        5,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "00dad49a2d41e79ceedce08d602f15ed599f05c6979dac23c13fa156fde8d8aa",
+      "goal": {
+        "positions": [
+          4,
+          6
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          0,
+          5,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "014",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        7,
+        2,
+        2,
+        7,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "4b4ed9fc73ea93b37aef56c2173636a7776136bd67be957e802f2f93e06f87f4",
+      "goal": {
+        "positions": [
+          14,
+          12
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          7,
+          2,
+          2,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "id": "015",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        0,
+        1,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "ae1f14dc310b3d58538b3ad184a51c23e630771d88fb4d34807458eaa9e03b65",
+      "goal": {
+        "positions": [
+          3,
+          11
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          0,
+          1,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "016",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        0,
+        4,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "b61a4b286ee6825f36ed4e36f1b31882f4ccb07e9157efdfc1c20a1788a7542c",
+      "goal": {
+        "positions": [
+          4,
+          6
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          0,
+          4,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "017",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        7,
+        2,
+        6,
+        3,
+        7,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "1e5bab8f8bf61be18e7e9b6d19e38070afc5d1cb9846c0a501e69e2f942e93bf",
+      "goal": {
+        "positions": [
+          10,
+          8
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          7,
+          2,
+          6,
+          3,
+          7,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "018",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        1,
+        1,
+        0,
+        4,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "330da37c3eaaa5f0127d8bf73cf847e687b4cad7df5019a351c40bac7766879e",
+      "goal": {
+        "positions": [
+          2,
+          0
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          1,
+          1,
+          0,
+          4,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "019",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        1,
+        0,
+        0,
+        3,
+        7,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "0d2a0628873762b513f0254e4e5825a4eedff92ee776b49519ac6580e1f2e236",
+      "goal": {
+        "positions": [
+          4,
+          12
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          1,
+          0,
+          0,
+          3,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "020",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        3,
+        6,
+        7,
+        4,
+        4,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "0debffaef5d386e679870c04685501ae9bce8a956b06f67de87451fc61d5f418",
+      "goal": {
+        "positions": [
+          9,
+          1
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          3,
+          6,
+          7,
+          4,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "id": "021",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        2,
+        4,
+        5,
+        5,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "122cf7a7d336ab77c9976eb909a60e8af7bdbf2303521f6562e640bfb66a93d5",
+      "goal": {
+        "positions": [
+          13,
+          15
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          2,
+          4,
+          5,
+          5,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "022",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        0,
+        5,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "94046bff0aa93ee7c8bfb4cf1c1064ba9fb4f0e9acc69cdcb96058c1a228e948",
+      "goal": {
+        "positions": [
+          8,
+          10
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          0,
+          5,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "023",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        3,
+        3,
+        6,
+        2,
+        7,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "2a77edae21ef9c3e4db61ec870be7ccb11db9c768a4fec725f0d21bd54e599b3",
+      "goal": {
+        "positions": [
+          8,
+          10
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          3,
+          3,
+          6,
+          2,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "id": "024",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        2,
+        3,
+        3,
+        0,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "4b4ed9fc73ea93b37aef56c2173636a7776136bd67be957e802f2f93e06f87f4",
+      "goal": {
+        "positions": [
+          0,
+          2
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          2,
+          3,
+          3,
+          0,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "025",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        7,
+        0,
+        0,
+        0,
+        3
+      ],
+      "optimal": false,
+      "startStateHash": "e23feecf8070912d7c4c4827d6abd35a3ae46bb14b1c5882d0b783b7e2528a22",
+      "goal": {
+        "positions": [
+          2,
+          10
+        ],
+        "maximumRopeLength": 4
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          7,
+          0,
+          0,
+          0,
+          3
+        ]
+      }
+    },
+    {
+      "id": "026",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        7,
+        3,
+        0,
+        0,
+        1,
+        5,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "d7fabd561ae420d8f9d11debfee446483b703498c8df72c440f2a86ec66ae99b",
+      "goal": {
+        "positions": [
+          7,
+          15
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          7,
+          3,
+          0,
+          0,
+          1,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "027",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        0,
+        3,
+        7,
+        6,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "6d8449fa17fe1c9220712109f6b0caefbae0ec24f1ceaa5742f3fd2280fa6b2b",
+      "goal": {
+        "positions": [
+          1,
+          13
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          0,
+          3,
+          7,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "028",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        4,
+        5,
+        5,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "122cf7a7d336ab77c9976eb909a60e8af7bdbf2303521f6562e640bfb66a93d5",
+      "goal": {
+        "positions": [
+          4,
+          7
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "029",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        7,
+        0,
+        1,
+        1,
+        2,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "230d41d31a93c8d3867bb55aea7571950953689dea159367c07a9f649d6286a4",
+      "goal": {
+        "positions": [
+          7,
+          5
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          7,
+          0,
+          1,
+          1,
+          2,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "030",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        2,
+        1,
+        2,
+        7,
+        6,
+        6,
+        7,
+        7,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "4c198af64b6f43229c4c56a60deb8bb45d9e63c42d34684aac9f38811f33e522",
+      "goal": {
+        "positions": [
+          15,
+          12
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          2,
+          1,
+          2,
+          7,
+          6,
+          6,
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "id": "031",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        0,
+        3,
+        3,
+        3,
+        2,
+        6,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "0debffaef5d386e679870c04685501ae9bce8a956b06f67de87451fc61d5f418",
+      "goal": {
+        "positions": [
+          8,
+          11
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          0,
+          3,
+          3,
+          3,
+          2,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "032",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        3,
+        3,
+        2,
+        2,
+        1,
+        6,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "0374e9a31f40833b074db9f5772c28e65236ece2ca5479ced365e9de95d77e89",
+      "goal": {
+        "positions": [
+          13,
+          6
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          3,
+          3,
+          2,
+          2,
+          1,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "id": "033",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        1,
+        1,
+        0,
+        6,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "e24d2d3a3b45e79331a34963d638b4a8f739f11905ac5dde17a4a9c825f9397b",
+      "goal": {
+        "positions": [
+          3,
+          1
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          1,
+          1,
+          0,
+          6,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "034",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        1,
+        5,
+        0,
+        0,
+        3,
+        3,
+        2,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "530d5a68967b49747cfcea770f622eae92bbc879fc637f942b90d3da03d01ff7",
+      "goal": {
+        "positions": [
+          8,
+          10
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          1,
+          5,
+          0,
+          0,
+          3,
+          3,
+          2,
+          7
+        ]
+      }
+    },
+    {
+      "id": "035",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        0,
+        3,
+        3,
+        2,
+        6,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "e23feecf8070912d7c4c4827d6abd35a3ae46bb14b1c5882d0b783b7e2528a22",
+      "goal": {
+        "positions": [
+          13,
+          15
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          0,
+          3,
+          3,
+          2,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "036",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        3,
+        3,
+        4,
+        7,
+        6,
+        6,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "820a4a71fb773017d8b4b5cea356422dc26a766cf0359cab88118c95de9d1703",
+      "goal": {
+        "positions": [
+          4,
+          13
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          3,
+          3,
+          4,
+          7,
+          6,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "037",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        0,
+        0,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "122cf7a7d336ab77c9976eb909a60e8af7bdbf2303521f6562e640bfb66a93d5",
+      "goal": {
+        "positions": [
+          1,
+          3
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          0,
+          0,
+          4,
+          5,
+          4,
+          5,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "038",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        3,
+        5,
+        5,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "d0a386da484d074eb24db1355b5c17d3e4407a2183e78eecf22facc60fd9e360",
+      "goal": {
+        "positions": [
+          8,
+          11
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          3,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "039",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        2,
+        6,
+        1,
+        1,
+        0,
+        1,
+        4,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "b134985bf32ee76174d7cbc278de06f053d1611fba9e7c6437dcafdbe9eea94e",
+      "goal": {
+        "positions": [
+          3,
+          0
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          2,
+          6,
+          1,
+          1,
+          0,
+          1,
+          4,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "040",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        7,
+        7,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "1e5bab8f8bf61be18e7e9b6d19e38070afc5d1cb9846c0a501e69e2f942e93bf",
+      "goal": {
+        "positions": [
+          7,
+          4
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          7,
+          7,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "041",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        0,
+        1,
+        1,
+        4,
+        0,
+        5,
+        4,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "122cf7a7d336ab77c9976eb909a60e8af7bdbf2303521f6562e640bfb66a93d5",
+      "goal": {
+        "positions": [
+          3,
+          1
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          0,
+          1,
+          1,
+          4,
+          0,
+          5,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "042",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        7,
+        6,
+        1,
+        1,
+        1,
+        2
+      ],
+      "optimal": false,
+      "startStateHash": "5d704a4cb8090ca250f3861191645a0f311f4158b606f341ca038a99d5fe403d",
+      "goal": {
+        "positions": [
+          7,
+          5
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          7,
+          6,
+          1,
+          1,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "043",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        0,
+        3,
+        5,
+        4,
+        4,
+        4,
+        1,
+        5,
+        5,
+        6,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "d0a386da484d074eb24db1355b5c17d3e4407a2183e78eecf22facc60fd9e360",
+      "goal": {
+        "positions": [
+          5,
+          11
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          0,
+          3,
+          5,
+          4,
+          4,
+          4,
+          1,
+          5,
+          5,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "044",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        4,
+        5,
+        1,
+        2,
+        2,
+        1,
+        2
+      ],
+      "optimal": false,
+      "startStateHash": "4b4ed9fc73ea93b37aef56c2173636a7776136bd67be957e802f2f93e06f87f4",
+      "goal": {
+        "positions": [
+          15,
+          3
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          4,
+          5,
+          1,
+          2,
+          2,
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "id": "045",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        3,
+        0,
+        7,
+        4,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "fc6c23afe54a0f2902c61080511aa1c73170146f2973f4d35ff18507880d56f4",
+      "goal": {
+        "positions": [
+          0,
+          2
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          3,
+          0,
+          7,
+          4,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "046",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        1,
+        1,
+        0,
+        4,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "f5683210f9b2c04694ed21bf8c00a267c28480a72945c100cea30a22abdc9d4c",
+      "goal": {
+        "positions": [
+          3,
+          1
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          1,
+          1,
+          0,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "047",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        3,
+        3,
+        0,
+        4,
+        4,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "820a4a71fb773017d8b4b5cea356422dc26a766cf0359cab88118c95de9d1703",
+      "goal": {
+        "positions": [
+          5,
+          3
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          3,
+          3,
+          0,
+          4,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "048",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        3,
+        5,
+        6,
+        5,
+        1,
+        5,
+        1,
+        4,
+        4,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "da4abd1c473b7566efff553471eeef088dd9494c908c34521c5a0d882c969d13",
+      "goal": {
+        "positions": [
+          14,
+          6
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          3,
+          5,
+          6,
+          5,
+          1,
+          5,
+          1,
+          4,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "id": "049",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        5,
+        6,
+        2,
+        3,
+        6,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "5ec2c72b5fd2bc205c8fd8984d294f5075b4fcdc342fed0a34dc6ec988759a99",
+      "goal": {
+        "positions": [
+          4,
+          12
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          5,
+          6,
+          2,
+          3,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "050",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        7,
+        2,
+        2,
+        7,
+        6,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "820a4a71fb773017d8b4b5cea356422dc26a766cf0359cab88118c95de9d1703",
+      "goal": {
+        "positions": [
+          15,
+          12
+        ],
+        "maximumRopeLength": 5
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          7,
+          2,
+          2,
+          7,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "051",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        0,
+        1,
+        7,
+        7,
+        4,
+        4,
+        4,
+        5,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "67fcff48e07bfb47f083175fcaf7fe0f8c845de19798e3e84ad533c582ab69f5",
+      "goal": {
+        "positions": [
+          10,
+          3
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          0,
+          1,
+          7,
+          7,
+          4,
+          4,
+          4,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "052",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        7,
+        0,
+        0,
+        1,
+        5,
+        6,
+        6,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "645dfe5518c2f4785f720a5d1d178946ebbc9b2aa69f5e78a92d8535010d5f2e",
+      "goal": {
+        "positions": [
+          2,
+          14
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          7,
+          0,
+          0,
+          1,
+          5,
+          6,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "id": "053",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        1,
+        2,
+        2,
+        6,
+        6,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "e24d2d3a3b45e79331a34963d638b4a8f739f11905ac5dde17a4a9c825f9397b",
+      "goal": {
+        "positions": [
+          14,
+          12
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          1,
+          2,
+          2,
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "054",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        0,
+        1,
+        4,
+        5,
+        5,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "94046bff0aa93ee7c8bfb4cf1c1064ba9fb4f0e9acc69cdcb96058c1a228e948",
+      "goal": {
+        "positions": [
+          9,
+          3
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          0,
+          1,
+          4,
+          5,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "055",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        3,
+        3,
+        0,
+        4,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "820a4a71fb773017d8b4b5cea356422dc26a766cf0359cab88118c95de9d1703",
+      "goal": {
+        "positions": [
+          0,
+          2
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          3,
+          3,
+          0,
+          4,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "056",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        3,
+        0,
+        6,
+        7,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "de427a0a83776ec7a63c5711e0a06030187fa26127c61c3e25ce2abf4ac9d8f0",
+      "goal": {
+        "positions": [
+          2,
+          8
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          3,
+          0,
+          6,
+          7,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "057",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        1,
+        0,
+        0,
+        3,
+        7,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "6222ff5cbe0d303fb71a249f177f4cd4926f4f7c16c2a826056b63e7ebc3d0b0",
+      "goal": {
+        "positions": [
+          0,
+          8
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          1,
+          0,
+          0,
+          3,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "058",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        4,
+        4,
+        3,
+        2,
+        3,
+        3,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "ee1cbf8f48cdc14e5befbb56dd8ce4a536cbeec9c9ebe7cc79ab48a094740e82",
+      "goal": {
+        "positions": [
+          8,
+          1
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          4,
+          4,
+          3,
+          2,
+          3,
+          3,
+          7
+        ]
+      }
+    },
+    {
+      "id": "059",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        6,
+        7,
+        0,
+        0,
+        1,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "86a79257e4fe15e6c2091f3226f9a8cf6f1147fbec4113803eddbdc16bf4f706",
+      "goal": {
+        "positions": [
+          3,
+          0
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          6,
+          7,
+          0,
+          0,
+          1,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "060",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        1,
+        4,
+        1,
+        1,
+        2,
+        6,
+        7,
+        7,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "6222ff5cbe0d303fb71a249f177f4cd4926f4f7c16c2a826056b63e7ebc3d0b0",
+      "goal": {
+        "positions": [
+          15,
+          12
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          1,
+          4,
+          1,
+          1,
+          2,
+          6,
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "id": "061",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        2,
+        6,
+        1,
+        1,
+        6,
+        6,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "d33b5883fd23d5f2b826eff3ff368882a09d6dc65de61b6066eebd592f0c76ee",
+      "goal": {
+        "positions": [
+          7,
+          22
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          2,
+          6,
+          1,
+          1,
+          6,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "id": "062",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        1,
+        7,
+        6,
+        7,
+        3,
+        7,
+        4,
+        4,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "76c97b7748bb9de09e7ff3f03997255ea0980c6be16ec6b4b124b89fff277b01",
+      "goal": {
+        "positions": [
+          22,
+          6
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          1,
+          7,
+          6,
+          7,
+          3,
+          7,
+          4,
+          4,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "063",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        0,
+        3,
+        6,
+        5,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "f40c6659c246008c6f956eadf6e9cbdea80eebcbd83d13485513a7d22b54dbb8",
+      "goal": {
+        "positions": [
+          0,
+          4
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          0,
+          3,
+          6,
+          5,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "064",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        2,
+        3,
+        3,
+        0,
+        4,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "8ee34c7a8eaf93dabd1cb01820fbba878b03e57264554163e22f5219d0379f6e",
+      "goal": {
+        "positions": [
+          0,
+          2
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          2,
+          3,
+          3,
+          0,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "id": "065",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        1,
+        1,
+        0,
+        4,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "00bdc7d581290adfc5c108db802323fe8c6d955418c8a9d4e0e1a372c1c40adb",
+      "goal": {
+        "positions": [
+          3,
+          1
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          1,
+          1,
+          0,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "066",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        2,
+        3,
+        7,
+        4,
+        4,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "0d2a0628873762b513f0254e4e5825a4eedff92ee776b49519ac6580e1f2e236",
+      "goal": {
+        "positions": [
+          21,
+          1
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          2,
+          3,
+          7,
+          4,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "id": "067",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        7,
+        4,
+        1,
+        1,
+        4,
+        4,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "576174df59d6bdaf460a78c84e0a6caa55f75cfe6dd1a9354a2a58dd9fd4056a",
+      "goal": {
+        "positions": [
+          24,
+          4
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          7,
+          4,
+          1,
+          1,
+          4,
+          4,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "068",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        0,
+        7,
+        4,
+        7,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "41e7c0c1b2bc54c1fddfe0d337e2a4dff54887730b5778ba812bcec28a161f2e",
+      "goal": {
+        "positions": [
+          12,
+          10
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          0,
+          7,
+          4,
+          7,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "069",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        3,
+        6,
+        2,
+        1,
+        6,
+        6,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "2a222e9afc30918e0fab5f3d5a2810ce47cc20d07d4c939f9eb1e958bc3a1e7b",
+      "goal": {
+        "positions": [
+          8,
+          23
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          3,
+          6,
+          2,
+          1,
+          6,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "id": "070",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        6,
+        3
+      ],
+      "optimal": false,
+      "startStateHash": "e75542f568213d16c8fb885c55dcc42b401bdebbb7f7601fd067e692d28ad66b",
+      "goal": {
+        "positions": [
+          13,
+          21
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          6,
+          3
+        ]
+      }
+    },
+    {
+      "id": "071",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        6,
+        2,
+        3,
+        7,
+        7,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "8ee34c7a8eaf93dabd1cb01820fbba878b03e57264554163e22f5219d0379f6e",
+      "goal": {
+        "positions": [
+          12,
+          10
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          6,
+          2,
+          3,
+          7,
+          7,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "072",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        3,
+        3,
+        3,
+        2,
+        4,
+        3,
+        4,
+        2,
+        7,
+        7,
+        7,
+        4,
+        4,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "d8b2d8b1350cb4d4618a96e889b1be53c3a2e8bea9e7bcd02d49740f0851c253",
+      "goal": {
+        "positions": [
+          20,
+          0
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          3,
+          3,
+          3,
+          2,
+          4,
+          3,
+          4,
+          2,
+          7,
+          7,
+          7,
+          4,
+          4,
+          7
+        ]
+      }
+    },
+    {
+      "id": "073",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        3,
+        7,
+        2,
+        2,
+        7,
+        6,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "bd6cd69e454283115668b2ea61c87a219ced46b86acf46e52106a800460849c4",
+      "goal": {
+        "positions": [
+          13,
+          10
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          3,
+          7,
+          2,
+          2,
+          7,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "id": "074",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        1,
+        1,
+        7,
+        4,
+        4,
+        4,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "41e7c0c1b2bc54c1fddfe0d337e2a4dff54887730b5778ba812bcec28a161f2e",
+      "goal": {
+        "positions": [
+          19,
+          3
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          1,
+          1,
+          7,
+          4,
+          4,
+          4,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "075",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        3,
+        5,
+        0,
+        0,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "97f18278927b0cfd8664e3057c49580ab8c0d9e8ae96726f49ca83798e75dd79",
+      "goal": {
+        "positions": [
+          2,
+          4
+        ],
+        "maximumRopeLength": 6
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          3,
+          5,
+          0,
+          0,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "076",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        7,
+        0,
+        1,
+        0,
+        1,
+        1,
+        4,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "9b362a41eac57ff5a43ab89e3f977036ef6003d8a49150d1de824278b237808f",
+      "goal": {
+        "positions": [
+          9,
+          0
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          7,
+          0,
+          1,
+          0,
+          1,
+          1,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "077",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        4,
+        3,
+        3,
+        0,
+        0,
+        3,
+        3,
+        2,
+        6,
+        2,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "8174cb78cec43422d4db9890cb5ec21f8e4c81b22b70c3a3b9304d0e4a8a9a7f",
+      "goal": {
+        "positions": [
+          20,
+          22
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          4,
+          3,
+          3,
+          0,
+          0,
+          3,
+          3,
+          2,
+          6,
+          2,
+          7
+        ]
+      }
+    },
+    {
+      "id": "078",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        3,
+        2,
+        3,
+        3,
+        6,
+        7,
+        7,
+        4,
+        7,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "36f2bc36dc48249872b8a48cf8bf5ee98594469a5c51341d045a647fccd3a1ff",
+      "goal": {
+        "positions": [
+          20,
+          10
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          3,
+          2,
+          3,
+          3,
+          6,
+          7,
+          7,
+          4,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "079",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        3,
+        7,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "b0e3b4a1b208d92e976578dfbf30f3b61f481778ffb9c0a79eaf29d4d58f48e9",
+      "goal": {
+        "positions": [
+          0,
+          20
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          1,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "080",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        6,
+        6,
+        3,
+        0,
+        6,
+        7,
+        7,
+        4,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "bc89626da685808ca0b58e6bedf4abb94c900029cabbca7ffbb35aa497f5ed56",
+      "goal": {
+        "positions": [
+          7,
+          10
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          6,
+          6,
+          3,
+          0,
+          6,
+          7,
+          7,
+          4,
+          4
+        ]
+      }
+    },
+    {
+      "id": "081",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        1,
+        0,
+        7,
+        6,
+        6,
+        5,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "6d8449fa17fe1c9220712109f6b0caefbae0ec24f1ceaa5742f3fd2280fa6b2b",
+      "goal": {
+        "positions": [
+          1,
+          22
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          1,
+          0,
+          7,
+          6,
+          6,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "082",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        2,
+        1,
+        7,
+        6,
+        6,
+        6,
+        3,
+        0,
+        0,
+        1,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "e74de48fbdfb7dd42a854781d93a403c8a7362ff725762e2f06bdfa478d34ba4",
+      "goal": {
+        "positions": [
+          1,
+          21
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          2,
+          1,
+          7,
+          6,
+          6,
+          6,
+          3,
+          0,
+          0,
+          1,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "083",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        4,
+        5,
+        4,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "4f9b08d033bc61c5ddf3f177e049028c324e249f758b54ef5053c9abad72ab3a",
+      "goal": {
+        "positions": [
+          23,
+          2
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          2,
+          2,
+          1,
+          1,
+          4,
+          5,
+          4,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "084",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        2,
+        4,
+        1,
+        1,
+        4,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "f8c39f789623e0bb196bec5eeacbd7ee8ea236b805c8dfdfef1f6404c1948440",
+      "goal": {
+        "positions": [
+          19,
+          4
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          2,
+          4,
+          1,
+          1,
+          4,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "085",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        3,
+        0,
+        3,
+        0,
+        0,
+        4,
+        1,
+        7,
+        1,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "2883eb82f51ff38fa3f5be3c2a33c0258a94a8aefc9931630d23f830fb295395",
+      "goal": {
+        "positions": [
+          2,
+          16
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          3,
+          0,
+          3,
+          0,
+          0,
+          4,
+          1,
+          7,
+          1,
+          7
+        ]
+      }
+    },
+    {
+      "id": "086",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        2,
+        2,
+        2,
+        7,
+        6,
+        6,
+        5,
+        5,
+        5,
+        6,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "5d704a4cb8090ca250f3861191645a0f311f4158b606f341ca038a99d5fe403d",
+      "goal": {
+        "positions": [
+          21,
+          24
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          2,
+          2,
+          2,
+          7,
+          6,
+          6,
+          5,
+          5,
+          5,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "087",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        6,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "957f82602d3741136d30b614e5e73e8ccc575217ecdb0d2d27e1a897a4171836",
+      "goal": {
+        "positions": [
+          0,
+          9
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          3,
+          3,
+          3,
+          0,
+          0,
+          6,
+          5
+        ]
+      }
+    },
+    {
+      "id": "088",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        2,
+        4,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "612e61e706c6ed3e3292e853849dfbfa991dd03c6d661d8c6805ad87ad5bd998",
+      "goal": {
+        "positions": [
+          14,
+          12
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          4,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "089",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        2,
+        2,
+        3,
+        4,
+        7,
+        4,
+        7,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "61a6a31713bd5886679410e1c38b46f6297c29edc882dcb06607a4984da8c029",
+      "goal": {
+        "positions": [
+          22,
+          6
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          2,
+          2,
+          3,
+          4,
+          7,
+          4,
+          7,
+          7
+        ]
+      }
+    },
+    {
+      "id": "090",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        3,
+        6,
+        2,
+        7,
+        2,
+        6,
+        3,
+        6,
+        2,
+        7,
+        7,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "bd6cd69e454283115668b2ea61c87a219ced46b86acf46e52106a800460849c4",
+      "goal": {
+        "positions": [
+          17,
+          15
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          3,
+          6,
+          2,
+          7,
+          2,
+          6,
+          3,
+          6,
+          2,
+          7,
+          7,
+          4
+        ]
+      }
+    },
+    {
+      "id": "091",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        1,
+        5,
+        1,
+        0,
+        0,
+        1,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "6d8449fa17fe1c9220712109f6b0caefbae0ec24f1ceaa5742f3fd2280fa6b2b",
+      "goal": {
+        "positions": [
+          3,
+          19
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          1,
+          5,
+          1,
+          0,
+          0,
+          1,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "092",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        1,
+        6,
+        2,
+        5,
+        2,
+        2,
+        3,
+        3,
+        0
+      ],
+      "optimal": false,
+      "startStateHash": "b915ca95c164307f0d122c5948f1aca4523218d3a1b246a4e5e690ebfc256d80",
+      "goal": {
+        "positions": [
+          15,
+          18
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          1,
+          6,
+          2,
+          5,
+          2,
+          2,
+          3,
+          3,
+          0
+        ]
+      }
+    },
+    {
+      "id": "093",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        1,
+        1,
+        6,
+        5,
+        5,
+        6,
+        6,
+        5,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "960165c13df380295c38257f0ff4131fa5b7173cbf91059539291c74b06ace07",
+      "goal": {
+        "positions": [
+          8,
+          23
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          1,
+          1,
+          6,
+          5,
+          5,
+          6,
+          6,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "id": "094",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        1,
+        1,
+        1,
+        1,
+        4,
+        5,
+        5,
+        4,
+        4,
+        5,
+        4,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "0ff088b0800a91108df467d902d796c624d69b0eb5480ac59a0cadcc21aeb127",
+      "goal": {
+        "positions": [
+          19,
+          4
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          1,
+          1,
+          1,
+          1,
+          4,
+          5,
+          5,
+          4,
+          4,
+          5,
+          4,
+          5
+        ]
+      }
+    },
+    {
+      "id": "095",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        2,
+        2,
+        1,
+        1,
+        0,
+        1,
+        6,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "0321fd74550332a5b2b3ce087cac5e815ce18c44c30459bb6b38fb664bad98f5",
+      "goal": {
+        "positions": [
+          19,
+          16
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          2,
+          2,
+          1,
+          1,
+          0,
+          1,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "id": "096",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        6,
+        2,
+        7,
+        2,
+        6,
+        3,
+        3,
+        2,
+        6,
+        5,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "8ee34c7a8eaf93dabd1cb01820fbba878b03e57264554163e22f5219d0379f6e",
+      "goal": {
+        "positions": [
+          16,
+          19
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          6,
+          2,
+          7,
+          2,
+          6,
+          3,
+          3,
+          2,
+          6,
+          5,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "097",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        1,
+        6,
+        1,
+        6,
+        2,
+        1,
+        6,
+        5,
+        5
+      ],
+      "optimal": false,
+      "startStateHash": "2ce502e0c64ff26917ef429e84cf03e353224be53b1f4d5b0ce4b1d45053a4f7",
+      "goal": {
+        "positions": [
+          13,
+          24
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          1,
+          6,
+          1,
+          6,
+          2,
+          1,
+          6,
+          5,
+          5
+        ]
+      }
+    },
+    {
+      "id": "098",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        0,
+        0,
+        1,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4
+      ],
+      "optimal": false,
+      "startStateHash": "67a616715148c225a56b23488edc4569797e0a2c61f4fa90e3ee1b4f3b2a0f5f",
+      "goal": {
+        "positions": [
+          12,
+          14
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          0,
+          0,
+          1,
+          5,
+          4,
+          5,
+          5,
+          5,
+          4
+        ]
+      }
+    },
+    {
+      "id": "099",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        3,
+        2,
+        2,
+        3,
+        2,
+        4,
+        7,
+        7,
+        7,
+        6
+      ],
+      "optimal": false,
+      "startStateHash": "fdeb2dd952a239050efe778a235a9a31cc506c96d79ad51c896f11703f44e541",
+      "goal": {
+        "positions": [
+          21,
+          10
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          3,
+          2,
+          2,
+          3,
+          2,
+          4,
+          7,
+          7,
+          7,
+          6
+        ]
+      }
+    },
+    {
+      "id": "100",
+      "kind": "reachability",
+      "claim": "legal goal-reaching route; no unique-solution claim",
+      "rulesRevision": "paths-1",
+      "actions": [
+        5,
+        2,
+        6,
+        1,
+        5,
+        6,
+        6,
+        7
+      ],
+      "optimal": false,
+      "startStateHash": "d33b5883fd23d5f2b826eff3ff368882a09d6dc65de61b6066eebd592f0c76ee",
+      "goal": {
+        "positions": [
+          6,
+          21
+        ],
+        "maximumRopeLength": 7
+      },
+      "uniqueness": {
+        "claimed": false,
+        "count": null,
+        "method": null
+      },
+      "certificate": {
+        "actions": [
+          5,
+          2,
+          6,
+          1,
+          5,
+          6,
+          6,
+          7
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+'use strict';
+/* Independent reference transition system. Does not import the shipped engine. */
+const D=[[0,-1],[1,0],[0,1],[-1,0]], ALL=n=>2**n-1;
+function move(l,p,a){if(a<0||a>3)return -1;const [dx,dy]=D[a],x=p%l.w+dx,y=Math.floor(p/l.w)+dy;return x<0||y<0||x>=l.w||y>=l.h?-1:x+y*l.w;}
+function begin(l){if(l.kind==='euler')return[l.start,0];if(l.kind==='knight')return[l.start,1<<l.cells.indexOf(l.start)];if(l.kind==='dual')return l.start.slice();if(l.kind==='tidal')return[l.start,0];if(l.kind==='energy')return[l.start,l.energy,0];if(l.kind==='portal')return[l.start,0];if(l.kind==='color')return[l.start,l.color];if(l.kind==='tether')return l.rope.slice();if(l.kind==='stairs')return[l.start,0,l.start===l.key?1:0];if(l.kind==='tour')return[0,1,0];}
+function won(l,s){if(l.kind==='euler')return s[0]===l.goal&&s[1]===ALL(l.edges.length);if(l.kind==='knight'){let a=s[0],b=l.start;return s[1]===ALL(l.cells.length)&&(!l.closed||Math.abs(a%l.w-b%l.w)*Math.abs(Math.floor(a/l.w)-Math.floor(b/l.w))===2);}if(l.kind==='dual')return s[0]===l.goal[0]&&s[1]===l.goal[1];if(l.kind==='energy')return s[0]===l.goal&&s[1]>=l.reserve;if(l.kind==='tether')return s[0]===l.goal[0]&&s.at(-1)===l.goal[1];if(l.kind==='stairs')return s[0]===l.goal&&s[2]===1;if(l.kind==='tour')return s[0]===0&&s[1]===ALL(l.points.length)&&s[2]<=l.optimum;return s[0]===l.goal;}
+function transitions(l,s){let out=[],p=s[0];const free=(q,m)=>q>=0&&!!(m||l.cells)[q];
+if(l.kind==='euler'){l.edges.forEach(([a,b],i)=>{if(!(s[1]&(1<<i))&&(a===p||b===p))out.push([i,[a===p?b:a,s[1]|1<<i]]);});}
+else if(l.kind==='knight'){l.cells.forEach((q,i)=>{if(!(s[1]&(1<<i))&&Math.abs(p%l.w-q%l.w)*Math.abs(Math.floor(p/l.w)-Math.floor(q/l.w))===2)out.push([q,[q,s[1]|1<<i]]);});}
+else if(l.kind==='energy'){l.edges.forEach((e,i)=>{if(e.a!==p||s[1]<e.cost||s[1]>e.capacity)return;let q=e.b,v=s[1]-e.cost,m=s[2];l.chargers.forEach((c,j)=>{if(c.p===q&&!(m&(1<<j))){v=Math.min(l.capacity,v+c.amount);m|=1<<j;}});out.push([i,[q,v,m]]);});}
+else if(l.kind==='stairs'){l.edges.forEach(([a,b,z],i)=>{if(a!==p&&b!==p)return;if(z&&p!==((s[1]&(1<<i))?b:a))return;let q=p===a?b:a,m=s[1];l.edges.forEach(([c,d,t],j)=>{if(t&&(c===q||d===q))m^=1<<j;});out.push([i,[q,m,s[2]||+(q===l.key)]]);});}
+else if(l.kind==='tour'){l.points.forEach((_,q)=>{let v=s[2]+l.distance[p][q];if(q!==p&&v<=l.optimum)out.push([q,[q,s[1]|1<<q,v]]);});}
+else if(l.kind==='tether'){for(let endpoint=0;endpoint<2;endpoint++)for(let d=0;d<4;d++){let i=endpoint?s.length-1:0,q=move(l,s[i],d);if(!free(q))continue;let t=s.slice(),near=s[endpoint?s.length-2:1];if(q===near){if(t.length===2)continue;endpoint?t.pop():t.shift();}else{if(t.includes(q)||t.length-1>=l.length)continue;endpoint?t.push(q):t.unshift(q);}out.push([endpoint*4+d,t]);}}
+else for(let d=0;d<(l.kind==='tidal'||l.kind==='portal'?5:4);d++){
+if(l.kind==='dual'){let a=move(l,s[0],d),b=move(l,s[1],l.mirror?[0,3,2,1][d]:d);a=free(a,l.maps[0])?a:s[0];b=free(b,l.maps[1])?b:s[1];if(a!==s[0]||b!==s[1])out.push([d,[a,b]]);continue;}
+if(l.kind==='tidal'){let q=d===4?p:move(l,p,d),t=(s[1]+1)%l.period;if(free(q)&&(l.cells[q]&(1<<t)))out.push([d,[q,t]]);continue;}
+if(l.kind==='portal'&&d===4){if(!s[1]&&l.portals.includes(p))out.push([d,[l.portals[0]===p?l.portals[1]:l.portals[0],1]]);continue;}
+let q=move(l,p,d);if(!free(q))continue;if(l.kind==='color'){let tile=l.cells[q];if(tile>=2&&tile<=4&&tile-2!==s[1])continue;out.push([d,[q,tile>=5?tile-5:s[1]]]);}else out.push([d,[q,s[1]]]);}
+return out;}
+function search(l,start=begin(l),limit=160000){let q=[start],prev=[-1],act=[-1],seen=new Map([[start.join(','),0]]);for(let h=0;h<q.length&&q.length<=limit;h++){if(won(l,q[h])){let route=[];for(let i=h;prev[i]>=0;i=prev[i])route.push(act[i]);return{actions:route.reverse(),states:q.length,depth:route.length};}for(const[a,t]of transitions(l,q[h])){let k=t.join(',');if(!seen.has(k)){seen.set(k,q.length);q.push(t);prev.push(h);act.push(a);}}}return null;}
+function replay(l,route){let s=begin(l),trace=[s];for(let a of route){const pair=transitions(l,s).find(x=>x[0]===a);if(!pair)throw Error(l.id+': illegal witness action '+a);s=pair[1];trace.push(s);}if(!won(l,s))throw Error(l.id+': witness missed goal');return trace;}
+function project(l,s){switch(l.kind){case'euler':return[s.p,s.used];case'knight':return[s.p,s.seen];case'dual':return[s.a,s.b];case'tidal':return[s.p,s.t];case'energy':return[s.p,s.e,s.used];case'portal':return[s.p,s.used];case'color':return[s.p,s.c];case'tether':return s.rope;case'stairs':return[s.p,s.mask,+s.key];case'tour':return[s.p,s.seen,s.cost];}}
+module.exports={begin,won,transitions,search,replay,project,move};
