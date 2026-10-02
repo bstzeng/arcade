@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "batch": "action-challenges",
+  "games": 10,
+  "challenges": 1000,
+  "legalWitnessesPassed": 1000,
+  "uniqueCanonicalChallenges": 1000,
+  "ruleTests": 22,
+  "sessionTests": 22,
+  "simulatedDOMTests": 13,
+  "browserQA": {
+    "status": "not-run",
+    "reason": "Cloud localhost preview and local Chrome socket unavailable in this task; final real-browser release gate remains open."
+  },
+  "reports": [
+    {
+      "gameId": "breakout",
+      "path": "games/breakout/verification-report.json",
+      "sha256": "d9b36c772989f0b61765e9e5868a934e4f6f0ec09e41daaf7c2fef3eee58c96f"
+    },
+    {
+      "gameId": "snake",
+      "path": "games/snake/verification-report.json",
+      "sha256": "17526c30c8386dbd6da30ef14d8584acc3e6f0226976764d5b9c4c9747f08ce9"
+    },
+    {
+      "gameId": "pinball",
+      "path": "games/pinball/verification-report.json",
+      "sha256": "d1a01fab3c1b50474849a6f3ce3c6c437b1583be6c63d31b55efde71d9f625c5"
+    },
+    {
+      "gameId": "bubble-shooter",
+      "path": "games/bubble-shooter/verification-report.json",
+      "sha256": "cb61fa1d81d4465eeca495769fe1586bdda3c2b55086118a2eddc4f979037c2f"
+    },
+    {
+      "gameId": "rhythm-drums",
+      "path": "games/rhythm-drums/verification-report.json",
+      "sha256": "3125471ec9f66dc9f7fa08858c279dee227703251daa21283d4cb39bd130ee16"
+    },
+    {
+      "gameId": "parkour-run",
+      "path": "games/parkour-run/verification-report.json",
+      "sha256": "4bff8b89ef751532c5f96ec7487843ce64f5694ff0112c1b089a732365ded746"
+    },
+    {
+      "gameId": "space-dodge",
+      "path": "games/space-dodge/verification-report.json",
+      "sha256": "013244b888c25418df07ad26f035601c4530a0f793c5bdadadae82409d72d556"
+    },
+    {
+      "gameId": "whack-a-mole",
+      "path": "games/whack-a-mole/verification-report.json",
+      "sha256": "4ffaddaab15200f495d9be3e72b49b35ef02d4aa728c70824f463b69aaf851ef"
+    },
+    {
+      "gameId": "fruit-slice",
+      "path": "games/fruit-slice/verification-report.json",
+      "sha256": "df30366b67303dff5ef3d5a6accc123e3b063395b61db69ae52c09e09d4046e2"
+    },
+    {
+      "gameId": "fishing-challenge",
+      "path": "games/fishing-challenge/verification-report.json",
+      "sha256": "9e7cecd95fad39cdb5de0eac662ac458bcc721ca0c2eb5ed1ae9cda52cbfd45f"
+    }
+  ],
+  "totals": {
+    "ticks": 1669885,
+    "events": 22902
+  },
+  "publication": "No upload, merge or publication performed."
+}

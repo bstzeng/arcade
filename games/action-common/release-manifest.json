@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "batch": "action-challenges",
+  "status": "offline-verified-awaiting-browser-qa",
+  "primaryCategory": "quick",
+  "games": [
+    {
+      "id": "breakout",
+      "title": "打磚塊",
+      "description": "移動球板接球，利用不同反射角清除多層耐久磚塊。",
+      "entry": "games/breakout.html",
+      "directory": "games/breakout",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/breakout/levels.json",
+      "certificates": "games/breakout/certificates.json",
+      "verification": "games/breakout/verification-report.json"
+    },
+    {
+      "id": "snake",
+      "title": "貪吃蛇",
+      "description": "在迷宮走廊中即時轉彎，依序吃果實並避開越來越長的身體。",
+      "entry": "games/snake.html",
+      "directory": "games/snake",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/snake/levels.json",
+      "certificates": "games/snake/certificates.json",
+      "verification": "games/snake/verification-report.json"
+    },
+    {
+      "id": "pinball",
+      "title": "彈珠台",
+      "description": "發射彈珠、操作左右球拍，撞擊彈跳球累積目標分數。",
+      "entry": "games/pinball.html",
+      "directory": "games/pinball",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/pinball/levels.json",
+      "certificates": "games/pinball/certificates.json",
+      "verification": "games/pinball/verification-report.json"
+    },
+    {
+      "id": "bubble-shooter",
+      "title": "泡泡射擊",
+      "description": "瞄準並反射彩球，組成三連並讓失去頂端連接的球群掉落。",
+      "entry": "games/bubble-shooter.html",
+      "directory": "games/bubble-shooter",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/bubble-shooter/levels.json",
+      "certificates": "games/bubble-shooter/certificates.json",
+      "verification": "games/bubble-shooter/verification-report.json"
+    },
+    {
+      "id": "rhythm-drums",
+      "title": "節拍鼓手",
+      "description": "在判定窗內擊打四條音符軌，處理雙音與按住音符。",
+      "entry": "games/rhythm-drums.html",
+      "directory": "games/rhythm-drums",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/rhythm-drums/levels.json",
+      "certificates": "games/rhythm-drums/certificates.json",
+      "verification": "games/rhythm-drums/verification-report.json"
+    },
+    {
+      "id": "parkour-run",
+      "title": "跑酷衝刺",
+      "description": "自動加速奔跑，跳過矮障與地洞、滑過懸樑，安全到終點。",
+      "entry": "games/parkour-run.html",
+      "directory": "games/parkour-run",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/parkour-run/levels.json",
+      "certificates": "games/parkour-run/certificates.json",
+      "verification": "games/parkour-run/verification-report.json"
+    },
+    {
+      "id": "space-dodge",
+      "title": "太空閃避",
+      "description": "移動太空船穿過連續星雨空隙，必要時使用一次性防護罩。",
+      "entry": "games/space-dodge.html",
+      "directory": "games/space-dodge",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/space-dodge/levels.json",
+      "certificates": "games/space-dodge/certificates.json",
+      "verification": "games/space-dodge/verification-report.json"
+    },
+    {
+      "id": "whack-a-mole",
+      "title": "打地鼠",
+      "description": "在限時內擊中真地鼠，辨別並避開紫色叉號陷阱。",
+      "entry": "games/whack-a-mole.html",
+      "directory": "games/whack-a-mole",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/whack-a-mole/levels.json",
+      "certificates": "games/whack-a-mole/certificates.json",
+      "verification": "games/whack-a-mole/verification-report.json"
+    },
+    {
+      "id": "fruit-slice",
+      "title": "水果快切",
+      "description": "以實際拖曳軌跡切過拋起的水果，避開炸彈。",
+      "entry": "games/fruit-slice.html",
+      "directory": "games/fruit-slice",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/fruit-slice/levels.json",
+      "certificates": "games/fruit-slice/certificates.json",
+      "verification": "games/fruit-slice/verification-report.json"
+    },
+    {
+      "id": "fishing-challenge",
+      "title": "釣魚挑戰",
+      "description": "控制拋竿力度、抓準咬鉤時機，再交替收放線管理張力。",
+      "entry": "games/fishing-challenge.html",
+      "directory": "games/fishing-challenge",
+      "levelCount": 100,
+      "proofKind": "real-time-witness",
+      "levels": "games/fishing-challenge/levels.json",
+      "certificates": "games/fishing-challenge/certificates.json",
+      "verification": "games/fishing-challenge/verification-report.json"
+    }
+  ],
+  "commands": [
+    "node games/action-common/verify-all.cjs"
+  ],
+  "browserQA": "not-run",
+  "publication": "not performed",
+  "verificationReport": "games/action-common/verification-report.json",
+  "verifiedChallenges": 1000,
+  "canonicalDistinctChallenges": 1000,
+  "independentlyAuditedTicks": 1669885,
+  "independentlyAuditedEvents": 22902,
+  "focusedTests": 57,
+  "ownedSharedDirectory": "games/action-common",
+  "notes": [
+    "No legacy assets, root lobby files, or publication state changed.",
+    "Browser QA remains not-run and is a required final release gate."
+  ],
+  "corrections": [
+    "Viewing a solution demo immediately marks the current manual attempt assisted and persists through reload; reset starts a fresh independent attempt.",
+    "Pointer release/cancel/lost-capture stops space-dodge drag movement.",
+    "Pinball requires a recent flipper press within a 12-tick power window; constant-held launch and both flippers fail all 100 goals.",
+    "A new fruit pointer gesture rebases without cutting; mouse hover or lifted touch allows non-cutting positioning, while actual subsequent movement slices."
+  ]
+}
