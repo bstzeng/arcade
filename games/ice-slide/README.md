@@ -22,7 +22,7 @@ other robots are movable blockers. No-op moves are ignored and do not count.
 - Full solution playback can be stopped by normal controls, changing level,
   opening help, leaving the window, or the stop button
 - Completion and unassisted personal-best move counts use guarded localStorage
-  under `arcade.ice-slide.v1`. Corrupt, incompatible or denied storage never blocks
+  under `arcade.ice-slide.v1`. Only completion, best scores and the last selected level are saved; reloading starts that level again rather than resuming mid-level positions. Corrupt, incompatible or denied storage never blocks
   gameplay. Assisted completion does not overwrite an unassisted best. Restart
   begins a new unassisted attempt; undo does not erase assistance already used.
 
