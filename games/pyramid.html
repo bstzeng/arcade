@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#102a28"><title>金字塔接龍 · Arcade</title>
+<link rel="stylesheet" href="pyramid/style.css?v=20261002-certified-cards">
+</head>
+<body>
+<main class="shell">
+<header class="head"><div class="identity"><a href="../index.html">← 返回遊戲大廳</a><h1><span aria-hidden="true">♠</span> 金字塔接龍</h1></div><button id="help" class="quiet">玩法與驗證</button></header>
+<section class="scorebar" aria-label="本局資訊"><div><span>已清除</span><strong id="cleared">0<small> / 28</small></strong></div><div><span>操作步數</span><strong id="moves">0</strong></div><div><span>本局時間</span><strong id="time">0:00</strong></div><div><span>可再循環</span><strong id="cycles">2<small> 次</small></strong></div></section>
+<div class="layout">
+<section class="table" aria-label="金字塔牌桌"><div class="table-top"><span id="dealLabel">牌局 01</span><span id="certified">◆ 已驗證有解</span></div><div id="pyramid" class="pyramid" aria-label="七層金字塔"></div>
+<div class="stock-area"><div class="pile"><span>牌庫 <b id="stockCount">24</b></span><button id="stock" class="stock-card" aria-label="翻出牌庫下一張"><span aria-hidden="true">✦</span><small id="drawLabel">翻一張</small></button></div><div class="pile"><span>廢牌 <b id="wasteCount">0</b></span><div id="waste" class="waste-slot"></div></div><div class="table-note"><strong>兩張合計 13</strong><span>A ＋ Q · 2 ＋ J · 3 ＋ 10</span><span>4 ＋ 9 · 5 ＋ 8 · 6 ＋ 7</span><small>K 可以單獨移除</small></div></div>
+<div id="win" class="win" hidden><strong id="winTitle">金字塔清空了！</strong><span id="winDetail"></span></div>
+<p id="status" class="status" role="status" aria-live="polite">從最下層開始，找到合計 13 的兩張牌</p></section>
+<aside class="sidebar"><section class="deal-panel"><span class="eyebrow">每一局，都有一條出路</span><label for="deal">選擇已驗證牌局</label><select id="deal" aria-label="選擇牌局"></select><div class="deal-actions"><button id="restart">重玩本局</button><button id="next">下一局 →</button></div></section>
+<section class="control-panel"><button id="undo"><span aria-hidden="true">↶</span> 撤銷</button><button id="hint" class="primary"><span aria-hidden="true">✧</span> 下一步提示</button><button id="solution" class="wide">▶ 播放完整解答</button></section>
+<section class="guide-panel"><h2>慢慢來，想清楚再配</h2><p>只有完全露出的牌和最上方廢牌可以配對。先看看哪一組能揭開更多上層牌。</p><div class="certificate"><span>50</span><p>不同數值牌局<br>完整合法解答驗證</p></div><p class="fine">保證初始牌局有解；任意走法不一定能完成。提示偏離時會先詢問是否退回已知可解位置。</p><span id="saveStatus" class="save-status">進度保存在此瀏覽器</span></section></aside>
+</div>
+</main>
+<dialog id="helpDialog" aria-labelledby="helpTitle"><div class="dialog-head"><h2 id="helpTitle">玩法與有解驗證</h2><button id="closeHelp" aria-label="關閉說明">✕</button></div><div class="dialog-content"><h3>目標：清空金字塔</h3><p>使用一副不含鬼牌的標準 52 張牌。28 張正面朝上排成七層，剩餘 24 張放進牌庫。清除金字塔全部 28 張即獲勝，不必清空牌庫與廢牌。</p><h3>合計 13，才能移除</h3><p>A＝1、J＝11、Q＝12、K＝13。點兩張合計 13 的可用牌配對；K 只需點一次。花色不影響配對。金字塔牌必須下方兩張覆蓋牌都已移除，才算可用；不能把尚未露出的牌和覆蓋它的牌同時配對。</p><h3>本版牌庫規則</h3><p>每次翻出一張到廢牌，只能使用最上方廢牌；牌庫頂牌背面朝上，不能直接配對。可把廢牌頂牌與露出的金字塔牌配對，或移除廢牌上的 K。牌庫空時，可按「重新循環」將剩餘廢牌按原順序翻回牌庫，最多兩次，合計最多三輪。無時間限制。</p><h3>提示與完整解答</h3><p>50 局由合法移除次序構造，每局的金字塔數值和牌庫次序皆不同；不把換花色或左右鏡像算成新牌局。每局保存完整的翻牌、配對解答，已由實際遊戲引擎及另一套獨立驗證器逐步檢查。</p><p>「提示」指出驗證路徑的下一步，不會偷改牌。走到不同路線時，會先詢問是否撤銷到最近的已知可解位置。「播放完整解答」會先詢問、重開本局，再逐步示範；可以隨時停止並接手。使用過提示或播放會標示「輔助」。</p><h3>操作與存檔</h3><p>滑鼠、觸控，或 Tab 搭配 Enter／空白鍵都能操作。點已選牌可取消選取。每次翻牌、配對、循環計一步。可不限次數撤銷本局操作。重玩或換局會清除本局紀錄。時間只累計頁面可見且遊戲未完成的秒數。</p><p>進度只保存在目前瀏覽器；重新開啟會重播並驗證存檔的每一步。儲存不可用時仍可遊玩，但不會保存。離開前可能無法保存最後幾秒。</p><p class="fine">基本配對、覆蓋、目標與三輪循環參照發行商 <a href="https://support.arkadium.com/en/support/solutions/articles/44001851079--pyramid-solitaire-how-to-play-tips-scoring" target="_blank" rel="noopener noreferrer">Arkadium 規則</a>及 <a href="https://brainium.helpshift.com/hc/en/9-pyramid-solitaire/faq/269-how-do-i-play-pyramid/" target="_blank" rel="noopener noreferrer">Brainium 規則</a>。不同產品的牌庫可配對方式有差異，本版以此處明列規則為準。</p></div></dialog>
+<dialog id="confirmDialog" aria-labelledby="confirmTitle"><h2 id="confirmTitle">確認操作</h2><p id="confirmText"></p><div class="dialog-actions"><button id="cancelConfirm">先不要</button><button id="acceptConfirm" class="primary">繼續</button></div></dialog>
+<noscript><p>請啟用 JavaScript 以開始金字塔接龍。</p></noscript>
+<script src="pyramid/engine.js?v=20261002-certified-cards"></script><script src="pyramid/deals.js?v=20261002-certified-cards"></script><script src="pyramid/app.js?v=20261002-certified-cards"></script>
+</body></html>
