@@ -1,0 +1,1 @@
+'use strict';importScripts('engine.js');self.onmessage=function(event){const {token,state,difficulty}=event.data;try{self.postMessage({token,...GameEngine.choose(state,difficulty)});}catch(error){self.postMessage({token,error:String(error)});}};

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "game": "nine-mens-morris",
+  "checks": 17,
+  "actualClient": true,
+  "harness": "dependency-free DOM/event simulation; does not render browser layout",
+  "coverage": [
+    "human-AI round undo",
+    "local two-player",
+    "side choice",
+    "three difficulty settings",
+    "restart accept/cancel",
+    "replay validated saves",
+    "corruption",
+    "blocked storage",
+    "stale worker token",
+    "undo/mode/side/reset/help/visibility cancellation",
+    "fallback worker absence",
+    "keyboard"
+  ]
+}

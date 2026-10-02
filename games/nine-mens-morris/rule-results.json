@@ -1,0 +1,134 @@
+{
+  "passed": true,
+  "game": "nine-mens-morris",
+  "difficultyLevels": [
+    "easy",
+    "normal",
+    "hard"
+  ],
+  "rules": {
+    "passed": true,
+    "fixtures": 11
+  },
+  "tactics": [
+    {
+      "level": "easy",
+      "fixture": "mill-and-capture",
+      "move": {
+        "to": 2
+      },
+      "depth": 1
+    },
+    {
+      "level": "normal",
+      "fixture": "mill-and-capture",
+      "move": {
+        "to": 2
+      },
+      "depth": 3
+    },
+    {
+      "level": "hard",
+      "fixture": "mill-and-capture",
+      "move": {
+        "to": 2
+      },
+      "depth": 4
+    }
+  ],
+  "selfPlay": [
+    {
+      "kind": "seeded-random",
+      "seed": 0,
+      "actions": 179,
+      "result": "quiet"
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 1,
+      "actions": 191,
+      "result": "repetition"
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 2,
+      "actions": 76,
+      "result": 1
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 3,
+      "actions": 150,
+      "result": 0
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 4,
+      "actions": 108,
+      "result": 1
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 5,
+      "actions": 171,
+      "result": 0
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 6,
+      "actions": 158,
+      "result": 1
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 7,
+      "actions": 89,
+      "result": 0
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 8,
+      "actions": 250,
+      "result": "quiet"
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 9,
+      "actions": 129,
+      "result": 0
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 10,
+      "actions": 164,
+      "result": "quiet"
+    },
+    {
+      "kind": "seeded-random",
+      "seed": 11,
+      "actions": 231,
+      "result": 1
+    }
+  ],
+  "ai": [
+    {
+      "level": "easy",
+      "actions": 67,
+      "result": 1,
+      "budget": "reduced test budget; real level configuration tested in tactics"
+    },
+    {
+      "level": "normal",
+      "actions": 64,
+      "result": 0,
+      "budget": "reduced test budget; real level configuration tested in tactics"
+    },
+    {
+      "level": "hard",
+      "actions": 64,
+      "result": 0,
+      "budget": "reduced test budget; real level configuration tested in tactics"
+    }
+  ],
+  "checks": 30
+}
