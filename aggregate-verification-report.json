@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "build": "20261002-air-traffic",
+  "build": "20261002-categories",
   "registryCount": 70,
   "cardDeals": 250,
   "puzzleLevels": 2000,
@@ -13,70 +13,92 @@
     "historicalPublishedReportsPreserved": true
   },
   "sourceFiles": {
-    "app.js": "8a9ed25e530c6d38493757efaea68d1499d532204abfd815319819df6f45a554",
-    "index.html": "b5ce349ff92356dd7d1909edc70c328c026333988ee2adbecff2772ac3edbcb9",
-    "styles.css": "709b4ffd87aec8a888bda37c308b6e6f142acb9e30ff49da3ffe703ab378dc26",
-    "verify-all.cjs": "c1a7ac517938836db392e74b675415da92ad0629aa41c839539fe6a0f8f23f43",
-    "verify-lobby.cjs": "4c47abaad66cea13d01fd9d9259bc0ffb96ab38913c5056be4a8dc4757c8ced2",
+    "app.js": "c3fd7dafbfe01a6ab82b44e39fc926fccee99822061f44978ed0431326ca70a8",
+    "index.html": "2b91887c17645013f1c7d65fab47014ccc28054fe324ec231feb4521a63b35ae",
+    "styles.css": "7862c8b0c38ea4321dec9fee227b6167a0d7a112451309d5799ab7c35bfa7870",
+    "README.md": "f100c2990164b441679025159e997affad33906c5aca0bffc4a1ac96f1828edb",
+    "lobby-categories-preservation.json": "76f042a1be2d6b940ef0d0d493be0a7b26620befb6e6bf43ceeacc762e5cb87d",
     "verify-air-traffic.cjs": "ecb1507a10f15eb0fb77c8e7ec889aeb1126dc034fd5e50c7032b71847bf5e5c",
-    "air-traffic-preservation.json": "4ed680be7976e3eaddd156559b2ad7d3396e0d98ae4e1fbec81cd2436096850b"
+    "verify-all.cjs": "e5046d9a9d311469ead80ff3d169fd2299185014910d4d2e5217b2632e56b1e8",
+    "verify-cards.cjs": "e380242ad06764a4f62b047140dbbee05f6a6856aafb18fa183989a76a7e9b6c",
+    "verify-chinese-chess.cjs": "2f7d492b0e54d8e5f9f5273d52f045b58419bc1731c26d1b813f304e98b0eed1",
+    "verify-classics.cjs": "b3151f2ca90f3db0fa5b1eef461e20368973452fcf93897ad55b2970d399f05d",
+    "verify-collection.cjs": "55cfc54c6a777cf62f00d40ef31cc57a829fbb91ed11a37842623597627d2720",
+    "verify-lobby.cjs": "28e8bfe8e7b86435ba79af68dadc9ccd416f3e41d27c1a2b9974d43455f87737",
+    "verify-logic.cjs": "ccfe845f8e4fde4b093ad3a17a961bd9a0f171e6757b1b4294470170c3d943c4",
+    "verify-puzzles.cjs": "edc66ddabab53e41932c15e381266bbbe294f50a0bf001ae9a798d0950089fdc",
+    "verify-static.cjs": "a6ac4ba046c3f56c5bfa02e9ff91ba27e115c776272d7d8d5bdeff72c8570d52",
+    "verify-tabletop.cjs": "2555b509e3cdef3d289bbd9a3a69238fca1aff9addf3ae6fe7582eccb3676df2"
   },
   "suites": [
     {
       "command": "node verify-cards.cjs",
       "passed": true,
-      "seconds": 32.511,
-      "verifierSHA256": "fef26f1c9b47926ddbaab559f307297e488709b21be3fc0c2dfa34224bc8c405"
+      "seconds": 29.274,
+      "verifierSHA256": "e380242ad06764a4f62b047140dbbee05f6a6856aafb18fa183989a76a7e9b6c"
     },
     {
       "command": "node verify-puzzles.cjs",
       "passed": true,
-      "seconds": 52.692,
-      "verifierSHA256": "beaff383c203d93857f552eaae59aedac2a5a45e7f3db4875a769956f263b0ac",
-      "freshReportSHA256": "9133d98693bd5200a28a162bda87476b91ee47e599d34df868b8b975319b9b97"
+      "seconds": 45.936,
+      "verifierSHA256": "edc66ddabab53e41932c15e381266bbbe294f50a0bf001ae9a798d0950089fdc",
+      "freshReportSHA256": "4a7493d9579e120675a23449bd73125ce8f6266f8bfec6499a1c835356158bd2",
+      "historicalPublishedReportPreserved": "puzzle-verification-report.json"
     },
     {
       "command": "node verify-logic.cjs",
       "passed": true,
-      "seconds": 119.315,
-      "verifierSHA256": "63c60d50dbc664c851c35b10855577bfc795fa49e928e103ca36b978a5823624",
-      "freshReportSHA256": "a4a08cdae7ea52832b7c703cd686cbe1a6b5b35b149d7a1150b246825fa066c1"
+      "seconds": 107.733,
+      "verifierSHA256": "ccfe845f8e4fde4b093ad3a17a961bd9a0f171e6757b1b4294470170c3d943c4",
+      "freshReportSHA256": "48d1895d8be7bbecadbac44e979c8ef871797082bcb89975753462da8edd43a6",
+      "historicalPublishedReportPreserved": "logic-verification-report.json"
     },
     {
       "command": "node verify-classics.cjs",
       "passed": true,
-      "seconds": 34.808,
+      "seconds": 27.932,
       "verifierSHA256": "b3151f2ca90f3db0fa5b1eef461e20368973452fcf93897ad55b2970d399f05d",
-      "freshReportSHA256": "693cebc93735416df2b10e1cab7e389f6522a4df5fe682ec116c548c2d902a02"
+      "freshReportSHA256": "74e13ecad7e5b623b44718cf74977574f3c7484170265ef1a2013987068b2816",
+      "historicalPublishedReportPreserved": "classics-verification-report.json"
     },
     {
       "command": "node verify-collection.cjs",
       "passed": true,
-      "seconds": 44.333,
+      "seconds": 44.454,
       "verifierSHA256": "55cfc54c6a777cf62f00d40ef31cc57a829fbb91ed11a37842623597627d2720",
-      "freshReportSHA256": "e92a15b946f7158c4177089fc9505a4e4c24a1f7af3f91063535e96708204490"
+      "freshReportSHA256": "40819f5a1a3229a28774df2c0c66bd1bfefd791b35e6a49130abc6cad8868d55",
+      "historicalPublishedReportPreserved": "collection-verification-report.json"
     },
     {
       "command": "node verify-tabletop.cjs",
       "passed": true,
-      "seconds": 39.809,
+      "seconds": 38.917,
       "verifierSHA256": "2555b509e3cdef3d289bbd9a3a69238fca1aff9addf3ae6fe7582eccb3676df2",
-      "freshReportSHA256": "895a9dff14cb6b9ef91c8e3ab5df2e01f2a9303ade05e602962c874d86c0c0c7"
+      "freshReportSHA256": "1f16762373d4e43e19d98b42b87e7aa47fd060b6116a63db698d65d24567d8db",
+      "historicalPublishedReportPreserved": "tabletop-verification-report.json"
     },
     {
       "command": "node verify-chinese-chess.cjs",
       "passed": true,
-      "seconds": 42.117,
+      "seconds": 31.609,
       "verifierSHA256": "2f7d492b0e54d8e5f9f5273d52f045b58419bc1731c26d1b813f304e98b0eed1",
-      "freshReportSHA256": "9248f2617077c4934c4d67276a653c4e5f5e514fe0a487d3e1b758db7ab87340"
+      "freshReportSHA256": "106d639b6d10bb4c72b695d970299472b6ca2e2005cd75f7c73ce56f03c87771",
+      "historicalPublishedReportPreserved": "chinese-chess-verification-report.json"
     },
     {
       "command": "node verify-air-traffic.cjs",
       "passed": true,
-      "seconds": 10.219,
+      "seconds": 10.812,
       "verifierSHA256": "ecb1507a10f15eb0fb77c8e7ec889aeb1126dc034fd5e50c7032b71847bf5e5c",
-      "freshReportSHA256": "a54cbb63a870922db3430616d11cddde4bea7b76eab3cfcf718da6b26a3754bb",
-      "publishedReport": "air-traffic-verification-report.json"
+      "freshReportSHA256": "94ce32bb418248256e6db51cb2bf7b70cb7a02238536413a29dd0d64d4f327b0",
+      "historicalPublishedReportPreserved": "air-traffic-verification-report.json"
     }
-  ]
+  ],
+  "lobbyPreservation": {
+    "baseCommit": "0c2a154416474e5d6257796b96f00016800a1dc7",
+    "games": 70,
+    "gameAssets": 782,
+    "discoveryCategories": 8,
+    "historicalReports": 7
+  }
 }

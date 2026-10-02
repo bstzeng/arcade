@@ -38,25 +38,9 @@ for(const game of data.games){
     }else if(!/type=["']application\//.test(m[1]))new vm.Script(m[2],{filename:game.url});
   }
 }
-// Lightweight DOM contract test for registry rendering, search, category intersection and reset.
-class Node {
-  constructor(tag='div'){this.tagName=tag;this.children=[];this.attributes={};this.events={};this.style={setProperty(){}};this.value='';this.dataset={};this.focused=false;}
-  append(...nodes){this.children.push(...nodes);} replaceChildren(...nodes){this.children=nodes;}
-  setAttribute(key,value){this.attributes[key]=value;} addEventListener(key,fn){this.events[key]=fn;}
-  querySelector(){return this.span||(this.span=new Node('span'));} focus(){this.focused=true;}
-}
-const nodes=Object.fromEntries(['#game-grid','#search','#empty','#results','#reset'].map(k=>[k,new Node()]));
-const filters=['all','puzzle','strategy','casual','cards','board','logic'].map(category=>{const n=new Node('button');n.dataset.filter=category;return n;});
-const doc={querySelector:s=>nodes[s],querySelectorAll:()=>filters,createElement:tag=>new Node(tag)};
-vm.runInNewContext(source,{document:doc});
-assert.equal(nodes['#game-grid'].children.length,currentRegistryCount);
-filters[5].events.click();assert.equal(nodes['#game-grid'].children.length,10);
-filters[4].events.click();assert.equal(nodes['#game-grid'].children.length,5);
-nodes['#search'].value='KLONDIKE';nodes['#search'].events.input();assert.equal(nodes['#game-grid'].children.length,1);
-nodes['#search'].value='鐵道';nodes['#search'].events.input();assert.equal(nodes['#game-grid'].children.length,0);assert.equal(nodes['#empty'].hidden,false);
-nodes['#reset'].events.click();assert.equal(nodes['#game-grid'].children.length,currentRegistryCount);assert(nodes['#search'].focused);
-for(const card of nodes['#game-grid'].children){const link=card.children[1].children[3].children[1];assert.equal(link.tagName,'a');assert(link.href.endsWith('?v='+data.GAME_BUILD));}
-console.log('PASS: registry DOM contract for all/category/search/empty/reset and current versioned play links.');
+// The current lobby's grouped rendering, discovery categories, cross-category search,
+// empty/reset flows and versioned links are exhaustively exercised by verify-lobby
+// above. Keep card-specific registry, assets and all 250-deal rule/proof tests here.
 console.log('PASS: Current unique ready games, 5 card tables, safe existing links, matching asset cache keys, scripts parse.');
 run(process.execPath,['games/klondike/test.cjs']);
 run('python3',['games/freecell/verify.py']);

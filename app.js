@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261002-air-traffic';
+const GAME_BUILD = '20261002-categories';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -144,10 +144,33 @@ const artMarkup = {
   'card-pyramid': '<div class="playing-art pyramid-cards"><i><b>K</b><span>♦</span></i><i><b>6</b><span>♠</span></i><i><b>7</b><span>♥</span></i></div>',
   'card-tripeaks': '<div class="playing-art peaks-cards"><i><b>4</b><span>♠</span></i><i><b>5</b><span>♥</span></i><i><b>6</b><span>♣</span></i><em>↗</em></div>'
 };
+// Browse by how a game plays, independently of the historical release collection.
+// Every game has exactly one primary category; retain its original registry metadata.
+const categories = [
+  { id: 'tabletop', title: '棋類對戰', description: '找個朋友，或挑戰三種難度的 AI。', examples: '象棋・五子棋・黑白棋', icon: '♟', color: '#edc47e', gameIds: ['reversi', 'gomoku', 'connect-four', 'checkers', 'chinese-checkers', 'aeroplane-chess', 'kalah', 'nine-mens-morris', 'quoridor', 'quarto', 'xiangqi', 'banqi'] },
+  { id: 'cards', title: '牌桌接龍', description: '整理牌序、配對牌面，慢慢清空牌桌。', examples: '經典接龍・蜘蛛・麻將', icon: '♠', color: '#95d7ba', gameIds: ['klondike', 'freecell', 'spider', 'pyramid', 'tripeaks', 'mahjong-solitaire'] },
+  { id: 'numbers', title: '數字推理', description: '從加總、排序到數獨，找出數字的規律。', examples: '數獨・2048・算術方格', icon: '123', color: '#c5b3f5', gameIds: ['number-lab', 'futoshiki', 'kakuro', 'skyscrapers', 'sudoku', 'hitori', 'dominosa', 'unruly', 'keen'] },
+  { id: 'deduction', title: '線索解謎', description: '觀察提示、排除可能，一步步推理答案。', examples: '踩地雷・數繪・猜密碼', icon: '◎', color: '#e2a8c5', gameIds: ['nonogram', 'nurikabe', 'magnets', 'battleships', 'black-box', 'minesweeper', 'mastermind', 'akari', 'shikaku', 'star-battle', 'galaxies', 'fillomino', 'tents', 'lights-out'] },
+  { id: 'spatial', title: '空間拼圖', description: '滑動、旋轉與搬移，替每一塊找到位置。', examples: '華容道・推箱子・七巧板', icon: '▧', color: '#e6a396', gameIds: ['traffic-jam', 'sliding-blocks', 'sokoban', 'peg-solitaire', 'ice-slide', 'polyomino', 'fifteen-puzzle', 'hanoi', 'tangram', 'untangle'] },
+  { id: 'paths', title: '連線迷宮', description: '接好線路、走出迷宮，讓路徑完整相連。', examples: '迷宮・水管・數字連線', icon: '⌁', color: '#9ac8f3', gameIds: ['maze-walk', 'logic-lab', 'bridges', 'slitherlink', 'masyu', 'net', 'numberlink', 'signpost'] },
+  { id: 'simulation', title: '經營冒險', description: '規劃資源、探索世界，或即時指揮航線。', examples: '鐵道・餐廳・空中指揮所', icon: '✈', color: '#a8d9d2', gameIds: ['tiny-orbit', 'railway-town', 'merge-bistro', 'space-rescue', 'backpack-dungeon', 'island-colony', 'air-traffic'] },
+  { id: 'quick', title: '休閒反應', description: '配對、消除、練反應，空閒時輕鬆玩一局。', examples: '記憶配對・反應・消除', icon: '✦', color: '#d2f86a', gameIds: ['block-plan', 'memory-match', 'quick-spark', 'samegame'] }
+];
+const categoryByGameId = Object.fromEntries(categories.flatMap(category => category.gameIds.map(id => [id, category])));
+const categoryCounts = Object.fromEntries(categories.map(category => [category.id, games.filter(game => categoryByGameId[game.id] === category).length]));
+
 let activeCategory = 'all';
 const grid = document.querySelector('#game-grid');
 const search = document.querySelector('#search');
 const filters = [...document.querySelectorAll('[data-filter]')];
+const categorySelect = document.querySelector('#category-select');
+const overview = document.querySelector('#category-overview');
+const overviewHeading = document.querySelector('#category-title');
+const clearSearch = document.querySelector('#clear-search');
+const backToCategories = document.querySelector('#back-to-categories');
+const resultsTitle = document.querySelector('#browse-title');
+const resultsDescription = document.querySelector('#browse-description');
+const resultsRegion = document.querySelector('#browse-results');
 function element(tag, className, text) {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -156,6 +179,7 @@ function element(tag, className, text) {
 }
 function gameCard(game, index) {
   const card = element('article', 'card');
+  card.dataset.gameId = game.id;
   card.style.setProperty('--art-color', game.color);
   card.style.setProperty('--art-bg', game.background);
   const art = element('div', 'card-art');
@@ -168,7 +192,7 @@ function gameCard(game, index) {
   visual.innerHTML = artMarkup[game.art] || artMarkup.blocks;
   art.append(visual, element('span', 'art-word', game.word));
   const content = element('div', 'card-content');
-  content.append(element('span', 'category', categoryNames[game.category] || '其他遊戲'), element('h3', '', game.title), element('p', '', game.description));
+  content.append(element('span', 'category', categoryByGameId[game.id].title), element('h4', '', game.title), element('p', '', game.description));
   const bottom = element('div', 'card-bottom');
   bottom.append(element('small', '', game.note));
   if (isReady) {
@@ -187,16 +211,121 @@ function gameCard(game, index) {
   card.append(art, content);
   return card;
 }
-function render() {
-  const query = search.value.trim().toLocaleLowerCase('zh-Hant');
-  const visible = games.filter(game => (activeCategory === 'all' || game.category === activeCategory) && `${game.title} ${game.description} ${game.note} ${game.word} ${categoryNames[game.category]}`.toLocaleLowerCase('zh-Hant').includes(query));
-  grid.replaceChildren(...visible.map(game => gameCard(game, games.indexOf(game))));
-  document.querySelector('#empty').hidden = visible.length > 0;
-  document.querySelector('#results').textContent = `顯示 ${visible.length} 款遊戲 · 隨選隨玩`;
-  filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === activeCategory)));
-  filters[0].querySelector('span').textContent = String(games.length).padStart(2, '0');
+function normalized(value) {
+  return value.normalize('NFKC').toLocaleLowerCase('zh-Hant').replace(/\s+/g, ' ').trim();
 }
-filters.forEach(button => button.addEventListener('click', () => { activeCategory = button.dataset.filter; render(); }));
-search.addEventListener('input', render);
-document.querySelector('#reset').addEventListener('click', () => { activeCategory = 'all'; search.value = ''; render(); search.focus(); });
-render();
+function matchingGames() {
+  const words = normalized(search.value).split(' ').filter(Boolean);
+  return games.filter(game => {
+    const category = categoryByGameId[game.id];
+    const haystack = normalized(`${game.id} ${game.title} ${game.description} ${game.note} ${game.word} ${category.title} ${categoryNames[game.category]}`);
+    return (activeCategory === 'all' || category.id === activeCategory) && words.every(word => haystack.includes(word));
+  });
+}
+function render() {
+  const query = search.value.trim();
+  const visible = matchingGames();
+  const selected = categories.find(category => category.id === activeCategory);
+  const groups = categories.flatMap(category => {
+    const members = visible.filter(game => categoryByGameId[game.id] === category);
+    if (!members.length) return [];
+    const group = element('section', 'game-group');
+    group.dataset.category = category.id;
+    group.style.setProperty('--category-color', category.color);
+    group.setAttribute('aria-labelledby', `group-${category.id}`);
+    const heading = element('div', 'game-group-heading');
+    const title = element('h3', '', category.title);
+    title.id = `group-${category.id}`;
+    title.append(element('span', 'group-count', `${members.length} 款`));
+    heading.append(title, element('p', '', category.description));
+    const cards = element('div', 'game-grid');
+    cards.append(...members.map(game => gameCard(game, games.indexOf(game))));
+    group.append(heading, cards);
+    return [group];
+  });
+  grid.replaceChildren(...groups);
+  overview.hidden = Boolean(query) || activeCategory !== 'all';
+  document.querySelector('#category-intro').hidden = overview.hidden;
+  document.querySelector('#empty').hidden = visible.length > 0;
+  clearSearch.hidden = search.value.length === 0;
+  backToCategories.hidden = !overview.hidden;
+  resultsTitle.textContent = query ? '搜尋結果' : selected ? selected.title : '全部遊戲';
+  resultsDescription.textContent = query ? `搜尋「${query}」，範圍包含全部 ${games.length} 款遊戲。` : selected ? selected.description : '依玩法分組，找到喜歡的就開始吧。';
+  document.querySelector('#results').textContent = query ? `找到 ${visible.length} 款遊戲` : `共 ${visible.length} 款遊戲${selected ? '' : ' · ' + categories.length + ' 個分類'}`;
+  categorySelect.value = activeCategory;
+  filters.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === activeCategory)));
+}
+function saveLocation(push = false) {
+  const url = new URL(window.location.href);
+  url.searchParams.delete('category');
+  url.searchParams.delete('q');
+  if (activeCategory !== 'all') url.searchParams.set('category', activeCategory);
+  if (search.value.trim()) url.searchParams.set('q', search.value.trim());
+  // Preserve unrelated URL parameters and the existing page anchor.
+  const next = url.pathname + url.search + url.hash;
+  const current = window.location.pathname + window.location.search + window.location.hash;
+  if (next !== current) window.history[push ? 'pushState' : 'replaceState'](null, '', next);
+}
+function readLocation() {
+  const params = new URL(window.location.href).searchParams;
+  const requested = params.get('category');
+  search.value = params.get('q') || '';
+  activeCategory = search.value.trim() ? 'all' : categories.some(category => category.id === requested) ? requested : 'all';
+  render();
+}
+function focusResults() {
+  resultsTitle.focus({ preventScroll: true });
+  resultsRegion.scrollIntoView({ block: 'start' });
+}
+function chooseCategory(id) {
+  activeCategory = categories.some(category => category.id === id) ? id : 'all';
+  search.value = '';
+  saveLocation(true);
+  render();
+  focusResults();
+}
+function resetCatalog({ returnToCategories = false } = {}) {
+  activeCategory = 'all';
+  search.value = '';
+  saveLocation(true);
+  render();
+  if (returnToCategories) {
+    overviewHeading.focus({ preventScroll: true });
+    overviewHeading.scrollIntoView({ block: 'start' });
+  } else {
+    search.focus({ preventScroll: true });
+  }
+}
+filters.forEach(button => {
+  const category = categories.find(item => item.id === button.dataset.filter);
+  button.querySelector('[data-category-count]').textContent = String(category ? categoryCounts[category.id] : games.length);
+  button.addEventListener('click', () => chooseCategory(button.dataset.filter));
+});
+categorySelect.replaceChildren(...[{ id: 'all', title: '全部遊戲' }, ...categories].map(category => {
+  const option = element('option', '', `${category.title}（${category.id === 'all' ? games.length : categoryCounts[category.id]}）`);
+  option.value = category.id;
+  return option;
+}));
+categorySelect.addEventListener('change', () => chooseCategory(categorySelect.value));
+search.addEventListener('input', () => {
+  activeCategory = 'all';
+  saveLocation();
+  render();
+});
+search.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && search.value) {
+    event.preventDefault();
+    resetCatalog();
+  } else if (event.key === 'Enter' && search.value.trim()) {
+    event.preventDefault();
+    focusResults();
+  }
+});
+clearSearch.addEventListener('click', () => resetCatalog());
+document.querySelector('#reset').addEventListener('click', () => resetCatalog({ returnToCategories: true }));
+backToCategories.addEventListener('click', () => resetCatalog({ returnToCategories: true }));
+window.addEventListener('popstate', () => {
+  readLocation();
+  // Keep the user's scroll position on browser Back/Forward; only restore view state.
+});
+readLocation();

@@ -25,7 +25,9 @@ assert.equal(new Set(registry.games.map(g=>g.id)).size,currentRegistryCount);
 assert.equal(registry.games.filter(g=>g.category==='board').length,10);
 assert.equal(registry.games.filter(g=>g.category==='cards').length,5);
 const index = fs.readFileSync('index.html','utf8');
-assert(index.includes('data-filter="board"'));
+// Each historical board game remains reachable through its current primary category.
+const browse=require('./verify-lobby.cjs');
+for(const game of registry.games.filter(g=>g.category==='board'))assert(index.includes('data-filter="'+browse.categoryByGameId[game.id].id+'"'));
 for (const asset of ['app.js','styles.css']) assert(index.includes(asset+'?v='+registry.GAME_BUILD));
 for (const g of registry.games) {
  assert.equal(g.status,'ready');assert(registry.artMarkup[g.art]);
