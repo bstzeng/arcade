@@ -35,8 +35,44 @@ function pause(){if(!started||state.status!=='running')return;cancelDrawing();if
 function askRestart(){if(!started)return;cancelDrawing();confirmReturn=$('pauseDialog').open?'pause':null;closeAll();open('confirmDialog');}
 function cancelRestart(){close('confirmDialog');if(confirmReturn==='pause')open('pauseDialog');last=performance.now();}
 function point(event){const r=canvas.getBoundingClientRect();return{x:Math.max(-40,Math.min(W+40,(event.clientX-r.left)/r.width*W)),y:Math.max(-40,Math.min(H+40,(event.clientY-r.top)/r.height*H))};}
-function assistedRoute(a,points){if(!points.length||a.kind!=='arrival')return{points,snap:null};const ap=state.map.airports.find(p=>p.id===a.airportId),lastPoint=points[points.length-1];if(a.type==='helicopter'){if(Math.hypot(lastPoint.x-ap.helipad.x,lastPoint.y-ap.helipad.y)<37){return{points:points.slice(0,-1).concat([{x:ap.helipad.x,y:ap.helipad.y}]),snap:ap};}return{points,snap:null};}
-const local=E.runwayCoordinates(ap,lastPoint),from=points.length>3?points[Math.max(0,points.length-4)]:a,heading=Math.atan2(lastPoint.y-from.y,lastPoint.x-from.x),aligned=Math.abs(E.angleDifference(heading,ap.heading))<Math.PI*.39;if(local.along>=-ap.length/2-140&&local.along<=ap.length/2+20&&Math.abs(local.across)<37&&aligned){const c=Math.cos(ap.heading),s=Math.sin(ap.heading),make=along=>({x:ap.x+c*along,y:ap.y+s*along});let trimmed=points.slice();while(trimmed.length&&E.runwayCoordinates(ap,trimmed[trimmed.length-1]).along>-ap.length/2-65)trimmed.pop();const route=trimmed.concat([make(-ap.length/2-70),make(-ap.length/2-25),make(ap.length/2+15)]);return{points:route,snap:ap};}return{points,snap:null};}
+function assistedRoute(a,points){
+if(!points.length||a.kind!=='arrival')return{points,snap:null};
+const ap=state.map.airports.find(p=>p.id===a.airportId),lastPoint=points[points.length-1];
+// Drawn points belong to the player. Assistance may append a short final approach,
+// but must never trim a curve, move an existing point, or route backwards to a gate.
+if(a.type==='helicopter'){
+if(Math.hypot(lastPoint.x-ap.helipad.x,lastPoint.y-ap.helipad.y)<37)return{points:points.concat([{x:ap.helipad.x,y:ap.helipad.y}]),snap:ap};
+return{points,snap:null};
+}
+const local=E.runwayCoordinates(ap,lastPoint),threshold=-ap.length/2;
+let from=a;for(let i=points.length-2;i>=0;i--){if(Math.hypot(lastPoint.x-points[i].x,lastPoint.y-points[i].y)>=24){from=points[i];break;}}
+const heading=Math.atan2(lastPoint.y-from.y,lastPoint.x-from.x);
+if(local.along<threshold-140||local.along>ap.length/2+20||Math.abs(local.across)>=37||Math.abs(E.angleDifference(heading,ap.heading))>35*Math.PI/180)return{points,snap:null};
+const c=Math.cos(ap.heading),s=Math.sin(ap.heading),make=along=>({x:ap.x+c*along,y:ap.y+s*along});
+if(local.along>threshold){
+// A stroke ending on the runway must already cross its threshold correctly.
+// Never repair a missed/sideways entry by deleting the route and turning back.
+const trail=[a,...points];let validCrossing=false;
+for(let i=1;i<trail.length;i++){
+const previous=E.runwayCoordinates(ap,trail[i-1]),current=E.runwayCoordinates(ap,trail[i]);
+if(previous.along<=threshold&&current.along>threshold){
+const t=(threshold-previous.along)/(current.along-previous.along),across=previous.across+(current.across-previous.across)*t;
+const direction=Math.atan2(trail[i].y-trail[i-1].y,trail[i].x-trail[i-1].x);
+validCrossing=Math.abs(across)<=15&&Math.abs(E.angleDifference(direction,ap.heading))<=25*Math.PI/180;
+}else if(validCrossing&&(Math.abs(current.across)>20||current.along<previous.along))validCrossing=false;
+}
+if(!validCrossing)return{points,snap:null};
+}
+const tail=[];
+if(Math.abs(local.across)>10){
+const joinAlong=threshold-55;
+if(local.along>threshold-90||Math.abs(local.across)>Math.tan(35*Math.PI/180)*(joinAlong-local.along))return{points,snap:null};
+tail.push(make(joinAlong));
+}
+const finishAlong=ap.length/2+30;
+if(local.along<finishAlong-3)tail.push(make(finishAlong));
+return{points:points.concat(tail),snap:ap};
+}
 function updateDrawing(event){if(!drawing||event.pointerId!==drawing.pointerId)return;const p=point(event),a=state.aircraft.find(a=>a.id===drawing.id);if(!a)return;const prev=drawing.raw[drawing.raw.length-1]||a;if(Math.hypot(p.x-prev.x,p.y-prev.y)>=7&&drawing.raw.length<390)drawing.raw.push(p);drawing.moved=drawing.moved||Math.hypot(p.x-drawing.start.x,p.y-drawing.start.y)*scale>6;const assist=assistedRoute(a,drawing.raw);drawing.points=assist.points;drawing.snap=assist.snap;render();}
 function cancelDrawing(){if(!drawing)return;const id=drawing.pointerId;drawing=null;$('drawBadge').hidden=true;try{if(canvas.hasPointerCapture(id))canvas.releasePointerCapture(id);}catch(_){}render();}
 canvas.addEventListener('pointerdown',event=>{if(event.button!==undefined&&event.button!==0||!started||state.status!=='running'||modalOpen()||drawing)return;const p=point(event),radius=Math.max(27,24/scale);const nearest=state.aircraft.map(a=>({a,d:Math.hypot(a.x-p.x,a.y-p.y)})).filter(o=>o.d<radius).sort((a,b)=>a.d-b.d)[0];if(!nearest){selected=null;syncHUD();render();return;}event.preventDefault();selected=nearest.a.id;drawing={id:selected,pointerId:event.pointerId,start:p,raw:[],points:[],moved:false,snap:null};canvas.setPointerCapture(event.pointerId);$('drawBadge').hidden=false;syncHUD();render();});
