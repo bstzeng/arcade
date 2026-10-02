@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "bubble-shooter-readable-labels",
+  "scope": "Presentation labels in shared UI only",
+  "baseCommit": "f03965d04c025c5219055bc9705a6a394d6810e1",
+  "status": "offline-regressions-passed-awaiting-browser-retest",
+  "changedRuntime": [
+    "games/action-common/ui.js"
+  ],
+  "beforeSHA256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0",
+  "afterSHA256": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de",
+  "displayLabels": {
+    "left": "左轉",
+    "right": "右轉"
+  },
+  "controlBindingsUnchanged": true,
+  "visibleAndAccessibleLabelsMatch": true,
+  "otherNineGamesLabelsUnchanged": true,
+  "unchangedPriorOwnedFiles": 104,
+  "enginesCorporaAndCertificatesUnchanged": true,
+  "focusedTest": {
+    "argv": [
+      "node",
+      "--test",
+      "games/action-common/bubble-labels.test.cjs"
+    ],
+    "passed": true,
+    "tests": 15,
+    "includes": "Ten shipped-HTML DOM lifecycle tests, all game-specific pointer/key controls, cancellation regressions, readable-label and exact action-binding checks."
+  },
+  "sourceFiles": {
+    "games/action-common/ui.js": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de",
+    "games/action-common/bubble-labels.test.cjs": "2c3bda8eb0373b19e71e9828a50fbd2ef3e316afacb8183346b0a63ffb5fe5f2"
+  },
+  "fullHistoricalSuitesRerun": false,
+  "browserQA": "corrective-retest-pending"
+}

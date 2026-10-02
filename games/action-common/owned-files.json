@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "count": 105,
-  "bytes": 12457997,
+  "count": 107,
+  "bytes": 12461097,
   "exclusions": [
     "games/action-common/test-results.txt"
   ],
@@ -20,6 +20,16 @@
       "path": "games/action-common/base.js",
       "bytes": 3492,
       "sha256": "ddd08da3344e8f1332a2c4f8349324a6a9f369f151c676a71e61c866415c4a90"
+    },
+    {
+      "path": "games/action-common/bubble-label-correction-report.json",
+      "bytes": 1407,
+      "sha256": "e2e870414a70670d54e5f2a6d90d08634c1519d9b4d37dae2990a1e2591aa912"
+    },
+    {
+      "path": "games/action-common/bubble-labels.test.cjs",
+      "bytes": 1617,
+      "sha256": "2c3bda8eb0373b19e71e9828a50fbd2ef3e316afacb8183346b0a63ffb5fe5f2"
     },
     {
       "path": "games/action-common/corpus.cjs",
@@ -58,8 +68,8 @@
     },
     {
       "path": "games/action-common/ui.js",
-      "bytes": 8615,
-      "sha256": "ca223ad342481ecd90dc6849342d4d0ebb9ef5fcfd8106b932d57feaa9a713f0"
+      "bytes": 8691,
+      "sha256": "404a2c1fc0f37597c7683b6149d030d235e7dc8dee5d458438ccca7df352b4de"
     },
     {
       "path": "games/action-common/ui.test.cjs",
@@ -80,6 +90,11 @@
       "path": "games/action-common/verify-game.cjs",
       "bytes": 3015,
       "sha256": "3281313584863de6b694a33497db5b28183f725931e3de57b695f515a36de9fe"
+    },
+    {
+      "path": "games/breakout.html",
+      "bytes": 2962,
+      "sha256": "74a0e5846f5b79945a62714e380e07101e62cf68b409d8f74819316349cf72cb"
     },
     {
       "path": "games/breakout/README.md",
@@ -122,9 +137,9 @@
       "sha256": "1161a5d4a46246a86a709e45eee2402ebab7c50bcc1242ca351f94bc808f5e10"
     },
     {
-      "path": "games/breakout.html",
-      "bytes": 2962,
-      "sha256": "74a0e5846f5b79945a62714e380e07101e62cf68b409d8f74819316349cf72cb"
+      "path": "games/bubble-shooter.html",
+      "bytes": 2992,
+      "sha256": "bf852e9a898d460183b789f14e803741ff4c9c2248c645395b2ee01b9da858f2"
     },
     {
       "path": "games/bubble-shooter/README.md",
@@ -167,9 +182,9 @@
       "sha256": "4dc1d2fe1bd28d6e41b25466a825467b188c27b7c94b15f526d380364c97e047"
     },
     {
-      "path": "games/bubble-shooter.html",
-      "bytes": 2992,
-      "sha256": "bf852e9a898d460183b789f14e803741ff4c9c2248c645395b2ee01b9da858f2"
+      "path": "games/fishing-challenge.html",
+      "bytes": 3004,
+      "sha256": "0aab73dbb6ff1c820a8da2f0b0cad84e35e825527fbbe864409d5abadb077b43"
     },
     {
       "path": "games/fishing-challenge/README.md",
@@ -212,9 +227,9 @@
       "sha256": "e598277bbd9a45220f4669b991f617268f9ba3181c309b895ac8d9cc9095807b"
     },
     {
-      "path": "games/fishing-challenge.html",
-      "bytes": 3004,
-      "sha256": "0aab73dbb6ff1c820a8da2f0b0cad84e35e825527fbbe864409d5abadb077b43"
+      "path": "games/fruit-slice.html",
+      "bytes": 2980,
+      "sha256": "fe54326af8e2c5a53c4790ce61e8a05e25fa7ff3d8f0e243e85dbae42e932711"
     },
     {
       "path": "games/fruit-slice/README.md",
@@ -257,9 +272,9 @@
       "sha256": "c48d635804f5f8799f3038e324566190e91ee034558caf6bf0652afee752e984"
     },
     {
-      "path": "games/fruit-slice.html",
+      "path": "games/parkour-run.html",
       "bytes": 2980,
-      "sha256": "fe54326af8e2c5a53c4790ce61e8a05e25fa7ff3d8f0e243e85dbae42e932711"
+      "sha256": "10dfecc26849539f98be176892290dc1149bad22c99180dfbca9d8864049b485"
     },
     {
       "path": "games/parkour-run/README.md",
@@ -302,9 +317,9 @@
       "sha256": "a19b2c55651be7bce74516c0c78b9425e5b04e997fd4fe9f6975341df3de07e2"
     },
     {
-      "path": "games/parkour-run.html",
-      "bytes": 2980,
-      "sha256": "10dfecc26849539f98be176892290dc1149bad22c99180dfbca9d8864049b485"
+      "path": "games/pinball.html",
+      "bytes": 2958,
+      "sha256": "be1e48852a2116f146f1caefacee72ef5ed764c9391777f99f17fa527382e0cc"
     },
     {
       "path": "games/pinball/README.md",
@@ -347,9 +362,9 @@
       "sha256": "6fe925649f18ff3ed8e442aa6c711dec25c180809ebccfcc97e994ff5a051172"
     },
     {
-      "path": "games/pinball.html",
-      "bytes": 2958,
-      "sha256": "be1e48852a2116f146f1caefacee72ef5ed764c9391777f99f17fa527382e0cc"
+      "path": "games/rhythm-drums.html",
+      "bytes": 2984,
+      "sha256": "33aec0c9eda3617e399bd24d14bb731c75c1dc4eab34abd1ab6b1583a5a71ba3"
     },
     {
       "path": "games/rhythm-drums/README.md",
@@ -392,9 +407,9 @@
       "sha256": "0f3c48e2c60f0efa8e681851e237cc7733538567e2c2a4d018744c66c43594c9"
     },
     {
-      "path": "games/rhythm-drums.html",
-      "bytes": 2984,
-      "sha256": "33aec0c9eda3617e399bd24d14bb731c75c1dc4eab34abd1ab6b1583a5a71ba3"
+      "path": "games/snake.html",
+      "bytes": 2950,
+      "sha256": "881cfee6c738d4547c929c9e57a357e09685c819150c4f3954be5e5a4f89dfa9"
     },
     {
       "path": "games/snake/README.md",
@@ -437,9 +452,9 @@
       "sha256": "bc93310af54e4f318b7a0e8ac969ce98c97431ce70f62c2a478398ee7cb0a053"
     },
     {
-      "path": "games/snake.html",
-      "bytes": 2950,
-      "sha256": "881cfee6c738d4547c929c9e57a357e09685c819150c4f3954be5e5a4f89dfa9"
+      "path": "games/space-dodge.html",
+      "bytes": 2980,
+      "sha256": "6ac3d9b00c58f045c47cfb913d589d4f1fe86d3210d3fbbd8a2bb3ae5ba9f2c6"
     },
     {
       "path": "games/space-dodge/README.md",
@@ -482,9 +497,9 @@
       "sha256": "e6325ab587d94b8ed31bd2c4182898e05ba06ef29fb35637390717e986f46bf3"
     },
     {
-      "path": "games/space-dodge.html",
-      "bytes": 2980,
-      "sha256": "6ac3d9b00c58f045c47cfb913d589d4f1fe86d3210d3fbbd8a2bb3ae5ba9f2c6"
+      "path": "games/whack-a-mole.html",
+      "bytes": 2978,
+      "sha256": "23b6a9294e5561ae4903aad31a03ae9ad222ff28b7d41774aa67dbb620a4f647"
     },
     {
       "path": "games/whack-a-mole/README.md",
@@ -525,11 +540,11 @@
       "path": "games/whack-a-mole/verify.cjs",
       "bytes": 118,
       "sha256": "f47fb0d44ab967c33b1b6814f6d462db59077ea7738d6c9c7474338e1be210a4"
-    },
-    {
-      "path": "games/whack-a-mole.html",
-      "bytes": 2978,
-      "sha256": "23b6a9294e5561ae4903aad31a03ae9ad222ff28b7d41774aa67dbb620a4f647"
     }
-  ]
+  ],
+  "correction": {
+    "id": "bubble-shooter-readable-labels",
+    "report": "games/action-common/bubble-label-correction-report.json",
+    "fullHistoricalSuitesRerun": false
+  }
 }
