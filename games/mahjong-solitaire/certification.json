@@ -1,0 +1,408 @@
+{
+  "game": "mahjong-solitaire",
+  "count": 50,
+  "uniqueLayouts": 50,
+  "method": "Independent geometric blocker checks and full pair-removal witness replay",
+  "levels": [
+    {
+      "id": 1,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "dfc734b06597d865adfd64f2dd936028bf1ffe3bdd6d094b6dce3ffaa5399ffc"
+    },
+    {
+      "id": 2,
+      "tiles": 18,
+      "layers": 2,
+      "moves": 9,
+      "solvable": true,
+      "canonical": "77bab6f137ffd18ac91ceb46cca136529402555232abe0cd28c0e903a35e317f"
+    },
+    {
+      "id": 3,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "fccdf7071278b66bda6ff55fe8a0e56c1f5a052df0773a2ddc73002d29ece1d9"
+    },
+    {
+      "id": 4,
+      "tiles": 18,
+      "layers": 2,
+      "moves": 9,
+      "solvable": true,
+      "canonical": "23043164b05ad56c1e35e2e3c12c9d700932052e4c85d91c3b053c3b7ff3509f"
+    },
+    {
+      "id": 5,
+      "tiles": 20,
+      "layers": 2,
+      "moves": 10,
+      "solvable": true,
+      "canonical": "28e77b6af20145dcdc6eb731f1e091bb51ef6a7ea74bce3efc9f04d92f4bb75b"
+    },
+    {
+      "id": 6,
+      "tiles": 20,
+      "layers": 2,
+      "moves": 10,
+      "solvable": true,
+      "canonical": "10c69e17112a9bcd792a73970865b1dadeeac9e9f046d6b21c1d9fd0df96ba0d"
+    },
+    {
+      "id": 7,
+      "tiles": 18,
+      "layers": 2,
+      "moves": 9,
+      "solvable": true,
+      "canonical": "4c3c5715347d18834bf8f91715704301990229b87b10d4f3bceaa85ddfc29bf9"
+    },
+    {
+      "id": 8,
+      "tiles": 18,
+      "layers": 2,
+      "moves": 9,
+      "solvable": true,
+      "canonical": "cf54a40eb39a4aad706c466c43293a3e7e153f834f68d41e2995bde6bc733657"
+    },
+    {
+      "id": 9,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "fbd93661bb00bb4e44a0cf3afb27c32a311dd95d5c2814a39aa0adb84318e4e3"
+    },
+    {
+      "id": 10,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "2480dc920a1ad07dce966bf26865ee5a94f7f9dd117e1095b99c64907b218fe5"
+    },
+    {
+      "id": 11,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "705ba26e6fccecdc2efecafe0fcca70a9c66e21b6962dfbe4d756638e10c321e"
+    },
+    {
+      "id": 12,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "cbcfb1ffc6d7710e733d3242bc01378cc58ac672dbc02a332bc747abbaeb3877"
+    },
+    {
+      "id": 13,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "e14ddad80f3e52932b8fa148554194bf506bcb9a333d284f42f236c7df03b7f1"
+    },
+    {
+      "id": 14,
+      "tiles": 18,
+      "layers": 2,
+      "moves": 9,
+      "solvable": true,
+      "canonical": "1e7d4f9d66ed5802835a705355c51706ae658e14888300d75240093f606ab3f1"
+    },
+    {
+      "id": 15,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "b17a9d1b6e4d0513414506f31437d35dbe0f03251c27f7c25da5b310594ec151"
+    },
+    {
+      "id": 16,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "81d2341c013070ed3570479a8f54ac8d0f2116c056d701ffd38d658cfe6e23db"
+    },
+    {
+      "id": 17,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "c4008efc90a7293a9a5fc438367347679814284a38506141baf3c6be5cb01e16"
+    },
+    {
+      "id": 18,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "b6c876df8c8675a1d8e454d4620e2362aa087da2f7667b40c69e71419aa84db6"
+    },
+    {
+      "id": 19,
+      "tiles": 26,
+      "layers": 2,
+      "moves": 13,
+      "solvable": true,
+      "canonical": "8bde8fc71147e280097f2416b8b6964780a74c8284e30c1d98415b7ecb0d8cec"
+    },
+    {
+      "id": 20,
+      "tiles": 34,
+      "layers": 3,
+      "moves": 17,
+      "solvable": true,
+      "canonical": "136ede1ad4a69d710e44ccb659e596d36f6d3f9f3afde18a8fc528a6a5ba3056"
+    },
+    {
+      "id": 21,
+      "tiles": 42,
+      "layers": 3,
+      "moves": 21,
+      "solvable": true,
+      "canonical": "3bd7fef456688eb547284e9d858a8b4ecd40d8f7bf45ca4e15651971f07efd00"
+    },
+    {
+      "id": 22,
+      "tiles": 22,
+      "layers": 3,
+      "moves": 11,
+      "solvable": true,
+      "canonical": "aa8a3c5b5ca2bd90418d9e471388bd2a8869fc951065895ae5b39764991f6c5d"
+    },
+    {
+      "id": 23,
+      "tiles": 26,
+      "layers": 3,
+      "moves": 13,
+      "solvable": true,
+      "canonical": "1eba35d58973c07b1a2d5747a94b63f1a3b3205e0537497750f1c1bbecc00313"
+    },
+    {
+      "id": 24,
+      "tiles": 34,
+      "layers": 3,
+      "moves": 17,
+      "solvable": true,
+      "canonical": "b8d588947eae032b4fb648b15855e903b5a9bb7ec1421b2a12ff435b4c5e8173"
+    },
+    {
+      "id": 25,
+      "tiles": 16,
+      "layers": 2,
+      "moves": 8,
+      "solvable": true,
+      "canonical": "2f82fd1625f574b7ca4594d289eb49f90ef482e8ed54c8afedfdc2c59c5d9c3d"
+    },
+    {
+      "id": 26,
+      "tiles": 18,
+      "layers": 3,
+      "moves": 9,
+      "solvable": true,
+      "canonical": "dfa7f7dcd1d8ecc41f8c669a7bc006608a7804e546913839618a05d01e8ca288"
+    },
+    {
+      "id": 27,
+      "tiles": 44,
+      "layers": 3,
+      "moves": 22,
+      "solvable": true,
+      "canonical": "610eb0fcd9f55f372752758365a71e1f58440e9e09c05025450a8a16158aaecb"
+    },
+    {
+      "id": 28,
+      "tiles": 24,
+      "layers": 3,
+      "moves": 12,
+      "solvable": true,
+      "canonical": "87dc126f912e69c0557a788bcf73af043ac97430ae62d22992dccf6874f55d5a"
+    },
+    {
+      "id": 29,
+      "tiles": 42,
+      "layers": 3,
+      "moves": 21,
+      "solvable": true,
+      "canonical": "aaf33b14dec44b1cd5b2dcdbaaf015d9f0658276852406755df450ffbcce87b6"
+    },
+    {
+      "id": 30,
+      "tiles": 28,
+      "layers": 3,
+      "moves": 14,
+      "solvable": true,
+      "canonical": "a3464f0264682c7e73068222a75432aabe88f2abd1d7aa2a3bacb09c0c79d1b9"
+    },
+    {
+      "id": 31,
+      "tiles": 36,
+      "layers": 3,
+      "moves": 18,
+      "solvable": true,
+      "canonical": "805adbd9412374470e32b043026f81d2612f16fc91e94f9edec3cf54ca2ee460"
+    },
+    {
+      "id": 32,
+      "tiles": 52,
+      "layers": 3,
+      "moves": 26,
+      "solvable": true,
+      "canonical": "3c9b4ea12d60b9c63c700cf4128c73ece180e25cde0ddac94af737bcd4c52e47"
+    },
+    {
+      "id": 33,
+      "tiles": 28,
+      "layers": 3,
+      "moves": 14,
+      "solvable": true,
+      "canonical": "d61bbdb59b5024e378c5436ccff2a359511bdb5e7981efb5a53efbbf28df6bbd"
+    },
+    {
+      "id": 34,
+      "tiles": 38,
+      "layers": 3,
+      "moves": 19,
+      "solvable": true,
+      "canonical": "a8a415ceffdd1b026b541fee3d30918d08efeb4754c2ece9a01c1f33f0930525"
+    },
+    {
+      "id": 35,
+      "tiles": 50,
+      "layers": 3,
+      "moves": 25,
+      "solvable": true,
+      "canonical": "bfba151cac5b7b049ba31f3613ec41d0da19765eeff8ee288943b31a05e0a97c"
+    },
+    {
+      "id": 36,
+      "tiles": 46,
+      "layers": 3,
+      "moves": 23,
+      "solvable": true,
+      "canonical": "faa2fe592c75af8811be802c35bb272256e2bb9acd485db2e8b92889ea296c02"
+    },
+    {
+      "id": 37,
+      "tiles": 72,
+      "layers": 3,
+      "moves": 36,
+      "solvable": true,
+      "canonical": "a3839cf44108e6b1bbf078d854985c376e7f8549b2da932f3c4527bd5fb2e5fb"
+    },
+    {
+      "id": 38,
+      "tiles": 56,
+      "layers": 3,
+      "moves": 28,
+      "solvable": true,
+      "canonical": "236d6c30763b1650fff3afd567a3ccdbec332e4248cb3f50afc5c39d20977146"
+    },
+    {
+      "id": 39,
+      "tiles": 72,
+      "layers": 4,
+      "moves": 36,
+      "solvable": true,
+      "canonical": "8dde378bcf1f4453c60e2854257ec91de7a1dbcdea4edf6100c234c4023b5768"
+    },
+    {
+      "id": 40,
+      "tiles": 50,
+      "layers": 4,
+      "moves": 25,
+      "solvable": true,
+      "canonical": "3ee2122a892352505196c8dc491d6bad54b7d1a1d2556e6770d2b3cf8bef19bc"
+    },
+    {
+      "id": 41,
+      "tiles": 64,
+      "layers": 4,
+      "moves": 32,
+      "solvable": true,
+      "canonical": "d11d395a6e16af711e58eb0702f949c484c2d8e624c886cf923a325958c430b0"
+    },
+    {
+      "id": 42,
+      "tiles": 44,
+      "layers": 3,
+      "moves": 22,
+      "solvable": true,
+      "canonical": "ade5968214cd665ca01fc0ecd2d9a93c910ebd3158bb2f51e3db4e9cf8a5f46e"
+    },
+    {
+      "id": 43,
+      "tiles": 62,
+      "layers": 4,
+      "moves": 31,
+      "solvable": true,
+      "canonical": "5ec324370aec4afbc04df416946371cfb3439a952df01cbec60a38f8b401a4e3"
+    },
+    {
+      "id": 44,
+      "tiles": 56,
+      "layers": 4,
+      "moves": 28,
+      "solvable": true,
+      "canonical": "6b950642025c53809c03a616e47734b313afe1274735bb88535fc4de2dadf654"
+    },
+    {
+      "id": 45,
+      "tiles": 70,
+      "layers": 4,
+      "moves": 35,
+      "solvable": true,
+      "canonical": "4d001840fc8ee04a2c709ce6b619e51010c1c98decdb62edce78fa26b21336a3"
+    },
+    {
+      "id": 46,
+      "tiles": 76,
+      "layers": 4,
+      "moves": 38,
+      "solvable": true,
+      "canonical": "f83713003c5d072611fe165458413fb3b5740f532cfbea271650cbb94b114da6"
+    },
+    {
+      "id": 47,
+      "tiles": 50,
+      "layers": 4,
+      "moves": 25,
+      "solvable": true,
+      "canonical": "81573f95ddd52bb58ad3352803659fd7e6b0ee06ea4843f56572660e1a32fdc4"
+    },
+    {
+      "id": 48,
+      "tiles": 54,
+      "layers": 4,
+      "moves": 27,
+      "solvable": true,
+      "canonical": "700be5412ec051d35304e9df9eb0b1e2b61a1aa315ae31dc15e0731aab53805e"
+    },
+    {
+      "id": 49,
+      "tiles": 52,
+      "layers": 4,
+      "moves": 26,
+      "solvable": true,
+      "canonical": "7aed9ca238f414049daee2612dcd2821ae3c6de63019a4056096e9573c2ece2f"
+    },
+    {
+      "id": 50,
+      "tiles": 56,
+      "layers": 4,
+      "moves": 28,
+      "solvable": true,
+      "canonical": "16c66ef8d353189fca0ba267021615dcb3d6ce2ea2bc0cafb2b5003d2786dcab"
+    }
+  ]
+}
