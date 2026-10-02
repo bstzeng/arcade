@@ -1,0 +1,19 @@
+{
+  "title": "點線方格",
+  "english": "DOTS & BOXES · 4 × 4",
+  "tagline": "畫下一條線，收下完整的方格。",
+  "accent": "#5c9e91",
+  "ruleset": "dots-boxes-4x4-v1",
+  "rules": [
+    "5×5 個點形成 4×4 個小方格。雙方輪流連接水平或垂直相鄰兩點，每手只畫一條未畫過的邊。",
+    "畫完某方格的第四條邊，就取得該格；若一條線同時完成兩格，兩格都歸你。取得方格後必須再下一手，沒有取得才換人。",
+    "全部 16 格完成後，格數較多者勝；8 比 8 為和局。可以選擇不立即封格，沒有強制吃格。",
+    "挑戰要求下一條線取得明示數量的方格；完整對局可練習長鏈、讓格與雙格收尾。"
+  ],
+  "sources": [
+    [
+      "Gathering 4 Gardner 遊戲規則卡",
+      "https://www.gathering4gardner.org/wp-content/uploads/2021/03/CardDeckOfGames-English.pdf"
+    ]
+  ]
+}
