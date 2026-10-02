@@ -35,23 +35,32 @@
       "legal": true,
       "immediateWin": true,
       "forcedCapture": true,
-      "openingDepth": 4,
-      "openingNodes": 1472,
+      "openingDepth": 5,
+      "openingNodes": 4567,
       "maxDepth": 5
     },
     "hard": {
       "legal": true,
       "immediateWin": true,
       "forcedCapture": true,
-      "openingDepth": 4,
-      "openingNodes": 1920,
+      "openingDepth": 6,
+      "openingNodes": 16640,
       "maxDepth": 9
     }
   },
   "selfPlay": [
     {
       "seed": 1,
-      "plies": 159,
+      "plies": 99,
+      "result": {
+        "winner": 0,
+        "reason": "repetition"
+      },
+      "legalEveryTurn": true
+    },
+    {
+      "seed": 2,
+      "plies": 131,
       "result": {
         "winner": 1,
         "reason": "pieces"
@@ -59,26 +68,17 @@
       "legalEveryTurn": true
     },
     {
-      "seed": 2,
-      "plies": 64,
+      "seed": 3,
+      "plies": 86,
       "result": {
         "winner": -1,
-        "reason": "blocked"
-      },
-      "legalEveryTurn": true
-    },
-    {
-      "seed": 3,
-      "plies": 151,
-      "result": {
-        "winner": 1,
         "reason": "pieces"
       },
       "legalEveryTurn": true
     },
     {
       "seed": 4,
-      "plies": 184,
+      "plies": 104,
       "result": {
         "winner": -1,
         "reason": "pieces"
@@ -87,18 +87,18 @@
     },
     {
       "seed": 5,
-      "plies": 74,
+      "plies": 121,
       "result": {
-        "winner": -1,
+        "winner": 1,
         "reason": "pieces"
       },
       "legalEveryTurn": true
     },
     {
       "seed": 6,
-      "plies": 123,
+      "plies": 108,
       "result": {
-        "winner": 1,
+        "winner": -1,
         "reason": "pieces"
       },
       "legalEveryTurn": true
