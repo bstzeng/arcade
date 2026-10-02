@@ -1,0 +1,368 @@
+{
+  "game": "keen",
+  "passed": true,
+  "levels": 50,
+  "independent": true,
+  "method": "Cell-level Latin backtracking with arithmetic partial bounds; no import of generator or engine; exhaustive to second solution",
+  "canonicalUniquePuzzles": 50,
+  "canonicalUniqueCagePartitions": 50,
+  "operationCounts": {
+    "+": 147,
+    "-": 89,
+    "*": 148,
+    "=": 73,
+    "/": 34
+  },
+  "results": [
+    {
+      "id": 1,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 17,
+      "canonicalSHA256": "87d78e7e610b0391f9003afb3ef0007acb707b3b9569f125339e38b76bc433a0"
+    },
+    {
+      "id": 2,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 19,
+      "canonicalSHA256": "7530f032c1f6992c59eb9a696f1cf6cf9534ed60c2861cba838fdb1eea96cb8b"
+    },
+    {
+      "id": 3,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 19,
+      "canonicalSHA256": "9196008cf9fdd72a9cc3f458d0b708a2807aa5eda95b995e4098cc115afa4f32"
+    },
+    {
+      "id": 4,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 21,
+      "canonicalSHA256": "961363908fc3a3f5546b74d318dab0fc56cc0101fe5e4aff5e693654660dbc16"
+    },
+    {
+      "id": 5,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 41,
+      "canonicalSHA256": "bd9ed7076b9a1d79f04f54e0ff588a44ecc791c02809d465f135164bcc357e06"
+    },
+    {
+      "id": 6,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 23,
+      "canonicalSHA256": "adc736b265c9d96005108c91d755de6489a0ccc8a76dfe91e11246e7ad29d6d4"
+    },
+    {
+      "id": 7,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 25,
+      "canonicalSHA256": "0826e203336f91754d1e1307c71ac0812c1d94966319c56c7de138fc03d15b8a"
+    },
+    {
+      "id": 8,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 25,
+      "canonicalSHA256": "8559d6d2979a7c74277228b8e5157b7796b286ff32111ce6affd5f2b19387a1c"
+    },
+    {
+      "id": 9,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 45,
+      "canonicalSHA256": "19a69aff03e03332766f3099ca8b9df8562e561d141ae0dff9f5c88ce1cb051f"
+    },
+    {
+      "id": 10,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 39,
+      "canonicalSHA256": "692a570678c9f38e13e0bfe66902eecab184bc2dfab2d3875f8a03053a367772"
+    },
+    {
+      "id": 11,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 22,
+      "canonicalSHA256": "47d6b59129aaa8663ef17d8c69f52852e94c03363ecb05a8a92a1a5d370e8fb2"
+    },
+    {
+      "id": 12,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 21,
+      "canonicalSHA256": "35407c71bf425bab22c15d838cef384ae05f816d4d3f9335c71e5eed427bd1ea"
+    },
+    {
+      "id": 13,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 17,
+      "canonicalSHA256": "5fa1b357a9781688084727f011d3d6cce15f8e8099765f673bd9151a3b57c4ba"
+    },
+    {
+      "id": 14,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 26,
+      "canonicalSHA256": "f94361c450dd500f5acc37c1897a25a4d964cc77f44b925ad1dc75e5254fd6ac"
+    },
+    {
+      "id": 15,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 17,
+      "canonicalSHA256": "341db0b1f29c1584fc7f2329ca27380376b5dfab7c5134af36d2dcf2fd16d53a"
+    },
+    {
+      "id": 16,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 27,
+      "canonicalSHA256": "978e2e162bd76551a3a4df233a8d91832e86164a67e5cafddda3aade825443c5"
+    },
+    {
+      "id": 17,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 38,
+      "canonicalSHA256": "12f8727aad5ee27c330ee8e5697b98787465605d807818dde16187bdfd9965d8"
+    },
+    {
+      "id": 18,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 25,
+      "canonicalSHA256": "a7fad93b21229e19dc7d9ee95f05e319bee7ad325e861615e30a055df5c34110"
+    },
+    {
+      "id": 19,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 27,
+      "canonicalSHA256": "de9a1cf25cc8929fc4c5ddbb81cd7b2fab85e247c3915a85c0614fba9c71725e"
+    },
+    {
+      "id": 20,
+      "size": 4,
+      "solutionCount": 1,
+      "nodes": 55,
+      "canonicalSHA256": "3977bda536789cde93df24dd5ef629d9a54cd20f97ace8b77b2fe0d3aaa0d1c8"
+    },
+    {
+      "id": 21,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 58,
+      "canonicalSHA256": "86b39b552dbd09acdf23745f72dc6c440041eeb2d98f2469873149e5eb1a1907"
+    },
+    {
+      "id": 22,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 36,
+      "canonicalSHA256": "8eb58992abb0c31fb4818de98a7ca060c1c67a443d0827388ef88a8c66874c6d"
+    },
+    {
+      "id": 23,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 49,
+      "canonicalSHA256": "f18dc8c24f9a7a907e470a8fe7bb48e2f9ce298fbc7b38b83c5a3ee19b45e98f"
+    },
+    {
+      "id": 24,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 167,
+      "canonicalSHA256": "07772c61e989081ff1f1146e52f24bc3a191a7011ad7efa88bfb4ec61fce840f"
+    },
+    {
+      "id": 25,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 65,
+      "canonicalSHA256": "1e557d3658bfb47af8edd9a9370768dfc5f731d67406afb426bd9a7634361ca1"
+    },
+    {
+      "id": 26,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 96,
+      "canonicalSHA256": "8465bda701bb5336ccc4ebf618908c06a6f89d98842889ea04182a67714fc30e"
+    },
+    {
+      "id": 27,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 148,
+      "canonicalSHA256": "c9357946da2ac2d4840b952b60d33df92775f7d85b55605106362c9faaab817d"
+    },
+    {
+      "id": 28,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 102,
+      "canonicalSHA256": "beefd113ed2b2bd02c0a3b1c0a5b3a0bb247b2409a434eb117efe0460710212c"
+    },
+    {
+      "id": 29,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 62,
+      "canonicalSHA256": "d63f7371ffb715b6a13bc8d5bbac524ad6e7ed63371c69d38d326add2b0c4ddc"
+    },
+    {
+      "id": 30,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 167,
+      "canonicalSHA256": "6d8d31faf20f006a8f91475d2cdb6dbee0a173010d99dc219223cbceef047693"
+    },
+    {
+      "id": 31,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 69,
+      "canonicalSHA256": "3977fa901a07043e29d01cabb6db711e7c5dfc4e1c4e7a496b4168faf76b0381"
+    },
+    {
+      "id": 32,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 41,
+      "canonicalSHA256": "061e614ab0adf20a5611913de11ef09a4d05565c7e854526a53886a76e9bf293"
+    },
+    {
+      "id": 33,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 71,
+      "canonicalSHA256": "03930b0f100cb7b1329e728b750b78e9c24969589fe59cfa9b8a9f3ce86275b0"
+    },
+    {
+      "id": 34,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 74,
+      "canonicalSHA256": "01627d64d9b1050166f248911e846b349ad7065292960804f911bf87d4966857"
+    },
+    {
+      "id": 35,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 89,
+      "canonicalSHA256": "6ceabc1e589e007ced0b07bd6de7df960424e0c3b8bab6cc9640c05be8ebcba3"
+    },
+    {
+      "id": 36,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 39,
+      "canonicalSHA256": "dfda888962e30c9e7bd1d0b2b20a75b15906fa8441b6bbee43ed86bde49425de"
+    },
+    {
+      "id": 37,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 45,
+      "canonicalSHA256": "a10eaafc8786c815a8e2e917e3f3038ccc2ab5c7f41c3b29dd1523f2f4136b77"
+    },
+    {
+      "id": 38,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 60,
+      "canonicalSHA256": "a35a042646f62af83866d47eb58628dab19ca548d5c91d9e49ab0b390f2ae3a9"
+    },
+    {
+      "id": 39,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 52,
+      "canonicalSHA256": "042cff2fe2cc181805f6a6e74b66b02fcbe54b3f9d34ca167e59ff436af66404"
+    },
+    {
+      "id": 40,
+      "size": 5,
+      "solutionCount": 1,
+      "nodes": 95,
+      "canonicalSHA256": "9795fe3fb93274f0470d1ba6b00d8b594f134a5372fbfa7e1f9f02a30286e5d4"
+    },
+    {
+      "id": 41,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 55,
+      "canonicalSHA256": "20755cb4a8089e43149dce76aecf6f66841799a9dec9a2ad112fa04065e3080f"
+    },
+    {
+      "id": 42,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 37,
+      "canonicalSHA256": "cff86f24bbbddacae83d0c028bb611acbd54bd4d6a8686678f6d41d31cd31afc"
+    },
+    {
+      "id": 43,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 142,
+      "canonicalSHA256": "2152aa4a52ccbc3e97394bfe2e4e192914c8cba73b44baf3717922bf01ad5256"
+    },
+    {
+      "id": 44,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 245,
+      "canonicalSHA256": "2f1575c240431e33479876347a36cc8893adc750c28ce0eea1f07cdf06d46f92"
+    },
+    {
+      "id": 45,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 175,
+      "canonicalSHA256": "49ec3fba2675380aa3c955671e2e001967e6045d8c69b94fa4e02e092368cb42"
+    },
+    {
+      "id": 46,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 122,
+      "canonicalSHA256": "df094d99d1667a73e7b11e740555a9a0187bbf83e0143d35a7745b90acb8f4fd"
+    },
+    {
+      "id": 47,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 207,
+      "canonicalSHA256": "36c5a73ec79c425405580f5ed49e394cdad28b3a6ac8696e1834cd01f5434bad"
+    },
+    {
+      "id": 48,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 475,
+      "canonicalSHA256": "0f67392796b924a7f18e3a92e1b6323a4c427f53992492168c89769e7c632998"
+    },
+    {
+      "id": 49,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 1281,
+      "canonicalSHA256": "1b45450be010bfaa6d8de2775049049e0820fadfe92126fe93d4a8757a472cb7"
+    },
+    {
+      "id": 50,
+      "size": 6,
+      "solutionCount": 1,
+      "nodes": 1034,
+      "canonicalSHA256": "5600291e754417f825fd9183c02f30e48ceb35635212250d74f35d214401ff50"
+    }
+  ]
+}

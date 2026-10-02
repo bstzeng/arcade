@@ -1,0 +1,10 @@
+(function(root){'use strict';
+function neighbors(p,i){let n=p.size,out=[];if(i>=n)out.push(i-n);if(i<n*(n-1))out.push(i+n);if(i%n)out.push(i-1);if(i%n<n-1)out.push(i+1);return out;}
+function validMarks(p,a){return Array.isArray(a)&&a.length===p.size*p.size&&a.every((v,i)=>Number.isInteger(v)&&v>=0&&v<=a.length&&(!p.givens[i]||p.givens[i]===v));}
+function inspect(p,a){let N=p.size*p.size,bad=new Set,complete=new Set,groups=[],seen=new Set,filled=0;if(!Array.isArray(a)||a.length!==N)return{won:false,bad,complete,groups,filled:0,total:N};for(let i=0;i<N;i++){let v=a[i];if(v)filled++;if(!Number.isInteger(v)||v<0||v>N||(p.givens[i]&&p.givens[i]!==v))bad.add(i);if(!v||seen.has(i))continue;let cells=[i];seen.add(i);for(let k=0;k<cells.length;k++)for(let j of neighbors(p,cells[k]))if(!seen.has(j)&&a[j]===v){seen.add(j);cells.push(j)}let done=cells.length===v;for(let j of cells){if(cells.length>v)bad.add(j);if(done)complete.add(j)}groups.push({value:v,cells,done});}return{won:filled===N&&!bad.size&&groups.every(g=>g.done),bad,complete,groups,filled,total:N};}
+function state(p,s){if(!s||!validMarks(p,s.marks)||!Array.isArray(s.history)||s.history.length>1000||!s.history.every(a=>validMarks(p,a)))return{marks:p.givens.slice(),history:[]};return{marks:s.marks.slice(),history:s.history.map(a=>a.slice())};}
+function set(p,s,i,v){if(!Number.isInteger(i)||i<0||i>=s.marks.length||p.givens[i]||!Number.isInteger(v)||v<0||v>s.marks.length||s.marks[i]===v)return false;s.history.push(s.marks.slice());if(s.history.length>1000)s.history.shift();s.marks[i]=v;return true;}
+function undo(p,s){if(!s.history.length)return false;s.marks=s.history.pop();return true;}
+function hint(p,a){let i=a.findIndex((v,j)=>!p.givens[j]&&v&&v!==p.solution[j]);if(i<0)i=a.findIndex((v,j)=>v!==p.solution[j]);return i<0?null:{cell:i,value:p.solution[i],correction:!!a[i]};}
+root.FillominoEngine={neighbors,validMarks,inspect,state,set,undo,hint};if(typeof module!=='undefined')module.exports=root.FillominoEngine;
+})(typeof window==='undefined'?globalThis:window);

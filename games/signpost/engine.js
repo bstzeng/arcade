@@ -1,0 +1,11 @@
+(function(root){'use strict';
+const directions=[[-1,0],[-1,1],[0,1],[1,1],[1,0],[1,-1],[0,-1],[-1,-1]];
+function ray(p,i){let d=p.arrows[i],out=[];if(d<0||!directions[d])return out;let n=p.size,r=Math.floor(i/n),c=i%n,[dr,dc]=directions[d];for(r+=dr,c+=dc;r>=0&&r<n&&c>=0&&c<n;r+=dr,c+=dc)out.push(r*n+c);return out;}
+function validMarks(p,a){return Array.isArray(a)&&a.length===p.size*p.size&&a.every((v,i)=>Number.isInteger(v)&&v>=0&&v<=a.length&&(!p.givens[i]||p.givens[i]===v));}
+function inspect(p,a){const N=p.size*p.size,bad=new Set,positions=new Map;let filled=0,links=0;if(!Array.isArray(a)||a.length!==N)return{won:false,bad,filled:0,links:0,total:N,complete:new Set};for(let i=0;i<N;i++){let v=a[i];if(v)filled++;if(!Number.isInteger(v)||v<0||v>N||(p.givens[i]&&p.givens[i]!==v))bad.add(i);if(v){if(positions.has(v)){bad.add(i);bad.add(positions.get(v))}positions.set(v,i)}if(p.arrows[i]===-1&&v&&v!==N)bad.add(i);if(v===N&&p.arrows[i]!==-1)bad.add(i)}for(let v=1;v<N;v++){if(!positions.has(v)||!positions.has(v+1))continue;let i=positions.get(v),j=positions.get(v+1);if(ray(p,i).includes(j))links++;else{bad.add(i);bad.add(j)}}return{won:filled===N&&positions.size===N&&!bad.size&&links===N-1,bad,filled,links,total:N,complete:new Set};}
+function state(p,s){if(!s||!validMarks(p,s.marks)||!Array.isArray(s.history)||s.history.length>1000||!s.history.every(a=>validMarks(p,a)))return{marks:p.givens.slice(),history:[]};return{marks:s.marks.slice(),history:s.history.map(a=>a.slice())};}
+function set(p,s,i,v){if(!Number.isInteger(i)||i<0||i>=s.marks.length||p.givens[i]||!Number.isInteger(v)||v<0||v>s.marks.length||s.marks[i]===v)return false;s.history.push(s.marks.slice());if(s.history.length>1000)s.history.shift();s.marks[i]=v;return true;}
+function undo(p,s){if(!s.history.length)return false;s.marks=s.history.pop();return true;}
+function hint(p,a){let i=a.findIndex((v,j)=>!p.givens[j]&&v&&v!==p.solution[j]);if(i<0)i=a.findIndex((v,j)=>v!==p.solution[j]);return i<0?null:{cell:i,value:p.solution[i],correction:!!a[i]};}
+root.SignpostEngine={directions,ray,validMarks,inspect,state,set,undo,hint};if(typeof module!=='undefined')module.exports=root.SignpostEngine;
+})(typeof window==='undefined'?globalThis:window);
