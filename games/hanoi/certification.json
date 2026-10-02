@@ -1,0 +1,464 @@
+{
+  "game": "hanoi",
+  "status": "passed",
+  "levels": 50,
+  "uniqueBeyondPegRelabeling": 50,
+  "classicFullTowerStarts": 6,
+  "intermediateLayoutChallenges": 44,
+  "independentWitnessesReplayed": 50,
+  "exactOptimaCertified": 50,
+  "allStatesEnumerated": 9828,
+  "sourceSha256": "c6687ef452aabc1d9e1f98f1cf410a6d1de275af732329484da5b82b1234758f",
+  "results": [
+    {
+      "id": 1,
+      "discs": 3,
+      "layout": "challenge",
+      "minimumMoves": 2,
+      "legalWitnessMoves": 2,
+      "statesExhaustivelyEnumerated": 27,
+      "passed": true
+    },
+    {
+      "id": 2,
+      "discs": 3,
+      "layout": "challenge",
+      "minimumMoves": 3,
+      "legalWitnessMoves": 3,
+      "statesExhaustivelyEnumerated": 27,
+      "passed": true
+    },
+    {
+      "id": 3,
+      "discs": 3,
+      "layout": "challenge",
+      "minimumMoves": 5,
+      "legalWitnessMoves": 5,
+      "statesExhaustivelyEnumerated": 27,
+      "passed": true
+    },
+    {
+      "id": 4,
+      "discs": 3,
+      "layout": "challenge",
+      "minimumMoves": 6,
+      "legalWitnessMoves": 6,
+      "statesExhaustivelyEnumerated": 27,
+      "passed": true
+    },
+    {
+      "id": 5,
+      "discs": 3,
+      "layout": "classic",
+      "minimumMoves": 7,
+      "legalWitnessMoves": 7,
+      "statesExhaustivelyEnumerated": 27,
+      "passed": true
+    },
+    {
+      "id": 6,
+      "discs": 4,
+      "layout": "challenge",
+      "minimumMoves": 4,
+      "legalWitnessMoves": 4,
+      "statesExhaustivelyEnumerated": 81,
+      "passed": true
+    },
+    {
+      "id": 7,
+      "discs": 4,
+      "layout": "challenge",
+      "minimumMoves": 6,
+      "legalWitnessMoves": 6,
+      "statesExhaustivelyEnumerated": 81,
+      "passed": true
+    },
+    {
+      "id": 8,
+      "discs": 4,
+      "layout": "challenge",
+      "minimumMoves": 8,
+      "legalWitnessMoves": 8,
+      "statesExhaustivelyEnumerated": 81,
+      "passed": true
+    },
+    {
+      "id": 9,
+      "discs": 4,
+      "layout": "challenge",
+      "minimumMoves": 10,
+      "legalWitnessMoves": 10,
+      "statesExhaustivelyEnumerated": 81,
+      "passed": true
+    },
+    {
+      "id": 10,
+      "discs": 4,
+      "layout": "challenge",
+      "minimumMoves": 12,
+      "legalWitnessMoves": 12,
+      "statesExhaustivelyEnumerated": 81,
+      "passed": true
+    },
+    {
+      "id": 11,
+      "discs": 4,
+      "layout": "challenge",
+      "minimumMoves": 14,
+      "legalWitnessMoves": 14,
+      "statesExhaustivelyEnumerated": 81,
+      "passed": true
+    },
+    {
+      "id": 12,
+      "discs": 4,
+      "layout": "classic",
+      "minimumMoves": 15,
+      "legalWitnessMoves": 15,
+      "statesExhaustivelyEnumerated": 81,
+      "passed": true
+    },
+    {
+      "id": 13,
+      "discs": 5,
+      "layout": "challenge",
+      "minimumMoves": 9,
+      "legalWitnessMoves": 9,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 14,
+      "discs": 5,
+      "layout": "challenge",
+      "minimumMoves": 12,
+      "legalWitnessMoves": 12,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 15,
+      "discs": 5,
+      "layout": "challenge",
+      "minimumMoves": 15,
+      "legalWitnessMoves": 15,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 16,
+      "discs": 5,
+      "layout": "challenge",
+      "minimumMoves": 19,
+      "legalWitnessMoves": 19,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 17,
+      "discs": 5,
+      "layout": "challenge",
+      "minimumMoves": 22,
+      "legalWitnessMoves": 22,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 18,
+      "discs": 5,
+      "layout": "challenge",
+      "minimumMoves": 25,
+      "legalWitnessMoves": 25,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 19,
+      "discs": 5,
+      "layout": "challenge",
+      "minimumMoves": 29,
+      "legalWitnessMoves": 29,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 20,
+      "discs": 5,
+      "layout": "classic",
+      "minimumMoves": 31,
+      "legalWitnessMoves": 31,
+      "statesExhaustivelyEnumerated": 243,
+      "passed": true
+    },
+    {
+      "id": 21,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 18,
+      "legalWitnessMoves": 18,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 22,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 23,
+      "legalWitnessMoves": 23,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 23,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 29,
+      "legalWitnessMoves": 29,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 24,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 35,
+      "legalWitnessMoves": 35,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 25,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 41,
+      "legalWitnessMoves": 41,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 26,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 47,
+      "legalWitnessMoves": 47,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 27,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 53,
+      "legalWitnessMoves": 53,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 28,
+      "discs": 6,
+      "layout": "challenge",
+      "minimumMoves": 59,
+      "legalWitnessMoves": 59,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 29,
+      "discs": 6,
+      "layout": "classic",
+      "minimumMoves": 63,
+      "legalWitnessMoves": 63,
+      "statesExhaustivelyEnumerated": 729,
+      "passed": true
+    },
+    {
+      "id": 30,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 36,
+      "legalWitnessMoves": 36,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 31,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 46,
+      "legalWitnessMoves": 46,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 32,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 56,
+      "legalWitnessMoves": 56,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 33,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 67,
+      "legalWitnessMoves": 67,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 34,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 77,
+      "legalWitnessMoves": 77,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 35,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 87,
+      "legalWitnessMoves": 87,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 36,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 97,
+      "legalWitnessMoves": 97,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 37,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 108,
+      "legalWitnessMoves": 108,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 38,
+      "discs": 7,
+      "layout": "challenge",
+      "minimumMoves": 118,
+      "legalWitnessMoves": 118,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 39,
+      "discs": 7,
+      "layout": "classic",
+      "minimumMoves": 127,
+      "legalWitnessMoves": 127,
+      "statesExhaustivelyEnumerated": 2187,
+      "passed": true
+    },
+    {
+      "id": 40,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 71,
+      "legalWitnessMoves": 71,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 41,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 90,
+      "legalWitnessMoves": 90,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 42,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 108,
+      "legalWitnessMoves": 108,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 43,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 127,
+      "legalWitnessMoves": 127,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 44,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 145,
+      "legalWitnessMoves": 145,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 45,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 163,
+      "legalWitnessMoves": 163,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 46,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 182,
+      "legalWitnessMoves": 182,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 47,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 200,
+      "legalWitnessMoves": 200,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 48,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 219,
+      "legalWitnessMoves": 219,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 49,
+      "discs": 8,
+      "layout": "challenge",
+      "minimumMoves": 237,
+      "legalWitnessMoves": 237,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    },
+    {
+      "id": 50,
+      "discs": 8,
+      "layout": "classic",
+      "minimumMoves": 255,
+      "legalWitnessMoves": 255,
+      "statesExhaustivelyEnumerated": 6561,
+      "passed": true
+    }
+  ]
+}
