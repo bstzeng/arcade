@@ -35,8 +35,8 @@
         {
           "command": "node games/xiangqi/test.cjs",
           "passed": true,
-          "seconds": 10.707,
-          "output": "{\n  \"passed\": true,\n  \"rulesPassed\": 39,\n  \"rulesFailed\": 0,\n  \"controllerAssertions\": 38,\n  \"selfPlay\": [\n    {\n      \"level\": \"easy\",\n      \"plies\": 24\n    },\n    {\n      \"level\": \"normal\",\n      \"plies\": 24\n    },\n    {\n      \"level\": \"hard\",\n      \"plies\": 24\n    }\n  ],\n  \"durationMs\": 10051\n}",
+          "seconds": 10.2,
+          "output": "{\n  \"passed\": true,\n  \"rulesPassed\": 39,\n  \"rulesFailed\": 0,\n  \"controllerAssertions\": 38,\n  \"selfPlay\": [\n    {\n      \"level\": \"easy\",\n      \"plies\": 24\n    },\n    {\n      \"level\": \"normal\",\n      \"plies\": 24\n    },\n    {\n      \"level\": \"hard\",\n      \"plies\": 24\n    }\n  ],\n  \"durationMs\": 9555\n}",
           "stderr": ""
         }
       ],
@@ -48,12 +48,12 @@
         "engine.js": "0d1ba0bd6c02c422c640d83014ccddfe3e5c3b91f5303818de104ec8b7d874cc",
         "rules-tests.cjs": "f509059e68ef5653e27250e35730f4924addf07b12c26c1515401f9e0bf60a43",
         "session.js": "4a1e1120cc86d8f2e55d65658afcdef296708b87295b443439e023b17c7e6c21",
-        "style.css": "770c9077d7a966b64407abd9e0fcb392b4ffeb484ab39e2116fc9f40abf6bbec",
+        "style.css": "51ba3b8501426f8a1b183e0eb90b73021ab3fb6a6eb8c210ea085529437ebe51",
         "test.cjs": "909fad7c88ddc292a23bb5238098f6d7a224e4ae1c61e83bce3b65e9c5cac4cb",
         "verification.json": "e64ec58bb1a092a1f645659a61b13826c85d93d27dcd0eac2241b08d25b14fa5",
         "worker.js": "ab3735a3e852576ad663babfaf8698aee5d335db6233d19bb3950b21ba25a77e"
       },
-      "entrySHA256": "75a7cd883ecb7bea69a90fc652d2a0df88d6c73e41722014595738ba5aab7b9c",
+      "entrySHA256": "c6f433611f6937eae0cdc04003201a53c2d0101ae248b950ad65c7c390ea04a3",
       "evidence": {
         "game": "xiangqi",
         "build": "20261002xq1",
@@ -70,7 +70,7 @@
             {
               "name": "Initial layout, counters, key and 44 legal moves",
               "passed": true,
-              "durationMs": 11
+              "durationMs": 18
             },
             {
               "name": "Empty squares have no pseudo moves",
@@ -80,7 +80,7 @@
             {
               "name": "Red king orthogonal palace movement and edge",
               "passed": true,
-              "durationMs": 0
+              "durationMs": 1
             },
             {
               "name": "Black king orthogonal palace movement and edge",
@@ -95,12 +95,12 @@
             {
               "name": "General does not fly to other pieces or across a row",
               "passed": true,
-              "durationMs": 0
+              "durationMs": 1
             },
             {
               "name": "Advisors move one diagonal within either palace",
               "passed": true,
-              "durationMs": 1
+              "durationMs": 0
             },
             {
               "name": "Elephants move two diagonals and cannot cross the river",
@@ -155,12 +155,12 @@
             {
               "name": "Pinned piece cannot expose its king to a rook or opposing general",
               "passed": true,
-              "durationMs": 2
+              "durationMs": 1
             },
             {
               "name": "Check evasions allow capture, interposition and safe king moves only",
               "passed": true,
-              "durationMs": 0
+              "durationMs": 1
             },
             {
               "name": "Checkmate and Xiangqi stalemate both lose; winner works for either color",
@@ -175,17 +175,17 @@
             {
               "name": "Legal move filtering, uniqueness and invalid move rejection",
               "passed": true,
-              "durationMs": 8
+              "durationMs": 15
             },
             {
               "name": "Play/apply are immutable; capture, quiet, turn, ply and keys update",
               "passed": true,
-              "durationMs": 1
+              "durationMs": 2
             },
             {
               "name": "Threefold repetition requires same board and turn; real legal cycle draws",
               "passed": true,
-              "durationMs": 7
+              "durationMs": 9
             },
             {
               "name": "120 non-capturing plies draw; captures reset the clock",
@@ -195,22 +195,22 @@
             {
               "name": "Every opening and second-ply legal move keeps own general safe",
               "passed": true,
-              "durationMs": 450
+              "durationMs": 337
             },
             {
               "name": "Color-rotated opening and representative positions have symmetric legal sets",
               "passed": true,
-              "durationMs": 2
+              "durationMs": 1
             },
             {
               "name": "Session saves only moves/options and faithfully replays valid saves",
               "passed": true,
-              "durationMs": 2
+              "durationMs": 3
             },
             {
               "name": "Session restore rejects malformed, oversized, incompatible and illegal replay data",
               "passed": true,
-              "durationMs": 6
+              "durationMs": 7
             },
             {
               "name": "Session replay rejects extra moves after a terminal repetition draw",
@@ -220,22 +220,22 @@
             {
               "name": "Local undo removes one ply, preserves input, and restores history/counters",
               "passed": true,
-              "durationMs": 2
+              "durationMs": 3
             },
             {
               "name": "AI undo returns to human decision point for human red or black",
               "passed": true,
-              "durationMs": 4
+              "durationMs": 5
             },
             {
               "name": "AI shipped easy, normal and hard profiles each return a legal opening move",
               "passed": true,
-              "durationMs": 1836
+              "durationMs": 1696
             },
             {
               "name": "AI keeps a legal fallback when node/time budget expires immediately",
               "passed": true,
-              "durationMs": 29
+              "durationMs": 19
             },
             {
               "name": "AI returns no move for mate, stalemate or a drawn position",
@@ -245,22 +245,22 @@
             {
               "name": "AI finds an immediate general capture and a forced check evasion",
               "passed": true,
-              "durationMs": 28
+              "durationMs": 40
             },
             {
               "name": "easy AI reproducible self-play, at least 24 plies",
               "passed": true,
-              "durationMs": 118
+              "durationMs": 140
             },
             {
               "name": "normal AI reproducible self-play, at least 24 plies",
               "passed": true,
-              "durationMs": 1020
+              "durationMs": 944
             },
             {
               "name": "hard AI reproducible self-play, at least 24 plies",
               "passed": true,
-              "durationMs": 6515
+              "durationMs": 6303
             }
           ],
           "selfPlay": [
@@ -655,7 +655,7 @@
               "finalOutcome": null
             }
           ],
-          "durationMs": 10051
+          "durationMs": 9555
         },
         "controller": {
           "passed": true,
@@ -688,7 +688,7 @@
         {
           "command": "node games/banqi/test.cjs",
           "passed": true,
-          "seconds": 25.821,
+          "seconds": 23.172,
           "output": "PASS seeded setup has 32 concealed pieces and the correct rank inventory\nPASS first flip assigns sides to the actual flipping seat and is immutable\nPASS all 49 adjacent rank matchups, including soldier/general exceptions\nPASS moves are orthogonal one-step without edge wrapping or jumping\nPASS cannons capture every rank over exactly one occupied screen\nPASS cannons cannot capture without a screen, with two screens, or a hidden/friendly target\nPASS either seat may flip any hidden piece but cannot move it or capture it\nPASS last capture wins and finished games reject actions\nPASS a player with no legal action loses\nPASS threefold repetition draws only on the third position occurrence\nPASS 80 quiet plies draw; both a flip and a capture reset the clock\nPASS public view omits hidden identities and subtracts only revealed/captured identities\nPASS AI decisions are identical for different hidden layouts with identical observations\nPASS AI never reads hidden getters and difficulty budgets are genuinely different\nPASS worker returns matching request ID, legal action, and bounded-search stats\neasy/5: 123 plies, all-pieces-captured\neasy/19: 258 plies, no-progress\nnormal/5: 213 plies, no-progress\nnormal/19: 256 plies, no-progress\nhard/5: 93 plies, all-pieces-captured\nhard/19: 158 plies, threefold-repetition\nPASS all levels complete legal full self-play with conserved inventory\n\n16 Banqi test groups passed.\n{\n  \"passed\": true,\n  \"testCount\": 16,\n  \"cases\": [\n    \"local moves, replay reload and one-ply undo preserve original shuffle\",\n    \"seeded capture midgame save reload preserves full state and exact hidden pool\",\n    \"human turn plus AI reply undo as complete round\",\n    \"second seat opening cannot be undone alone; later complete round can\",\n    \"undo during search terminates worker and ignores delayed answer\",\n    \"reset terminates old worker, clears replay and ignores stale results\",\n    \"worker message contains public observations only, not seed or hidden identities\",\n    \"worker failure, invalid action, timeout and constructor failure all recover legally\",\n    \"wrong request id is ignored; repeated start does not create duplicate worker\",\n    \"missing worker and missing AI still use legal deterministic fallback\",\n    \"invalid and oversized saves rejected, valid replay re-derived not trusted\",\n    \"storage denial remains playable, destroy cancels pending work\",\n    \"actual app initial DOM exposes only 32 generic covered pieces, keyboard navigation and flip\",\n    \"actual app restart and setting changes require confirmation; cancel and Escape preserve state\",\n    \"actual app AI first seat, ignored user clicks, failure fallback and stale replies\",\n    \"actual app help, hint toggle and keyboard undo\"\n  ],\n  \"actualAppVM\": true\n}\nBanqi verification.json generated.",
           "stderr": ""
         }
@@ -711,7 +711,7 @@
       "evidence": {
         "game": "banqi",
         "passed": true,
-        "verifiedAt": "2026-10-02T13:24:14.369Z",
+        "verifiedAt": "2026-10-02T13:34:19.301Z",
         "difficultyLevels": [
           "easy",
           "normal",
