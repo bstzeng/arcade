@@ -1,0 +1,23 @@
+{
+  "game": "signpost",
+  "passed": true,
+  "assertions": 1091,
+  "engineWins": 50,
+  "controllerWinFlows": 50,
+  "coverage": [
+    "all 50 solution boards checked by rules",
+    "numeric input and multi-digit keyboard",
+    "pointer erase and keyboard Delete",
+    "fixed clues immutable",
+    "focus and arrow navigation",
+    "undo and auto-save reload",
+    "wrong-answer-safe nondestructive hints",
+    "nondestructive answer preview",
+    "reset confirm/cancel/Escape/double-click",
+    "navigation clears stale modal actions",
+    "invalid state/history/JSON rejection",
+    "blocked storage fallback",
+    "level boundaries"
+  ],
+  "visualBrowserQA": "Not run here; DOM harness is not a browser renderer."
+}
