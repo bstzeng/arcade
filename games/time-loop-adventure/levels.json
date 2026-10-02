@@ -1,0 +1,8617 @@
+[
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 17,
+    "id": "001",
+    "title": "入門開幕 1",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 12,
+    "lensTime": 16,
+    "length": 22,
+    "deadline": 16,
+    "id": "002",
+    "title": "入門開幕 2",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 9,
+    "lensTime": 12,
+    "length": 18,
+    "deadline": 14,
+    "id": "003",
+    "title": "入門開幕 3",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 25,
+    "deadline": 21,
+    "id": "004",
+    "title": "入門開幕 4",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 6,
+    "starTime": 10,
+    "lensTime": 12,
+    "length": 20,
+    "deadline": 16,
+    "id": "005",
+    "title": "入門開幕 5",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 10,
+    "lensTime": 13,
+    "length": 21,
+    "deadline": 17,
+    "id": "006",
+    "title": "入門開幕 6",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 14,
+    "id": "007",
+    "title": "入門開幕 7",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 6,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 23,
+    "deadline": 19,
+    "id": "008",
+    "title": "入門開幕 8",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 19,
+    "deadline": 15,
+    "id": "009",
+    "title": "入門開幕 9",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 23,
+    "deadline": 19,
+    "id": "010",
+    "title": "入門開幕 10",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 17,
+    "id": "011",
+    "title": "入門開幕 11",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 7,
+    "starTime": 10,
+    "lensTime": 13,
+    "length": 20,
+    "deadline": 16,
+    "id": "012",
+    "title": "入門開幕 12",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 17,
+    "id": "013",
+    "title": "入門開幕 13",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 21,
+    "deadline": 17,
+    "id": "014",
+    "title": "入門開幕 14",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 7,
+    "starTime": 9,
+    "lensTime": 11,
+    "length": 20,
+    "deadline": 16,
+    "id": "015",
+    "title": "入門開幕 15",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 22,
+    "deadline": 18,
+    "id": "016",
+    "title": "入門開幕 16",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 7,
+    "starTime": 9,
+    "lensTime": 11,
+    "length": 21,
+    "deadline": 17,
+    "id": "017",
+    "title": "入門開幕 17",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 20,
+    "deadline": 16,
+    "id": "018",
+    "title": "入門開幕 18",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 24,
+    "deadline": 20,
+    "id": "019",
+    "title": "入門開幕 19",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": false,
+    "needLens": false,
+    "maxLoops": 2,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 15,
+    "id": "020",
+    "title": "入門開幕 20",
+    "chapter": 1
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 10,
+    "lensTime": 12,
+    "length": 21,
+    "deadline": 17,
+    "id": "021",
+    "title": "交錯安排 1",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 20,
+    "deadline": 16,
+    "id": "022",
+    "title": "交錯安排 2",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 23,
+    "deadline": 19,
+    "id": "023",
+    "title": "交錯安排 3",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 7,
+    "starTime": 9,
+    "lensTime": 12,
+    "length": 18,
+    "deadline": 13,
+    "id": "024",
+    "title": "交錯安排 4",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 21,
+    "deadline": 17,
+    "id": "025",
+    "title": "交錯安排 5",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 7,
+    "starTime": 9,
+    "lensTime": 13,
+    "length": 19,
+    "deadline": 14,
+    "id": "026",
+    "title": "交錯安排 6",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 16,
+    "id": "027",
+    "title": "交錯安排 7",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 15,
+    "id": "028",
+    "title": "交錯安排 8",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 8,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 21,
+    "deadline": 17,
+    "id": "029",
+    "title": "交錯安排 9",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 24,
+    "deadline": 20,
+    "id": "030",
+    "title": "交錯安排 10",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 6,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 16,
+    "id": "031",
+    "title": "交錯安排 11",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 17,
+    "id": "032",
+    "title": "交錯安排 12",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 21,
+    "deadline": 17,
+    "id": "033",
+    "title": "交錯安排 13",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 25,
+    "deadline": 21,
+    "id": "034",
+    "title": "交錯安排 14",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 9,
+    "lensTime": 11,
+    "length": 17,
+    "deadline": 12,
+    "id": "035",
+    "title": "交錯安排 15",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 23,
+    "deadline": 19,
+    "id": "036",
+    "title": "交錯安排 16",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 21,
+    "deadline": 17,
+    "id": "037",
+    "title": "交錯安排 17",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 9,
+    "lensTime": 11,
+    "length": 20,
+    "deadline": 16,
+    "id": "038",
+    "title": "交錯安排 18",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 12,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 16,
+    "id": "039",
+    "title": "交錯安排 19",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 23,
+    "deadline": 19,
+    "id": "040",
+    "title": "交錯安排 20",
+    "chapter": 2
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 19,
+    "deadline": 15,
+    "id": "041",
+    "title": "資源取捨 1",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 21,
+    "deadline": 17,
+    "id": "042",
+    "title": "資源取捨 2",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 15,
+    "id": "043",
+    "title": "資源取捨 3",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 21,
+    "deadline": 17,
+    "id": "044",
+    "title": "資源取捨 4",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 23,
+    "deadline": 19,
+    "id": "045",
+    "title": "資源取捨 5",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 16,
+    "id": "046",
+    "title": "資源取捨 6",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 8,
+    "starTime": 9,
+    "lensTime": 12,
+    "length": 21,
+    "deadline": 17,
+    "id": "047",
+    "title": "資源取捨 7",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 20,
+    "deadline": 16,
+    "id": "048",
+    "title": "資源取捨 8",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 9,
+    "lensTime": 13,
+    "length": 21,
+    "deadline": 17,
+    "id": "049",
+    "title": "資源取捨 9",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 15,
+    "id": "050",
+    "title": "資源取捨 10",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 12,
+    "lensTime": 14,
+    "length": 22,
+    "deadline": 18,
+    "id": "051",
+    "title": "資源取捨 11",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 8,
+    "starTime": 10,
+    "lensTime": 12,
+    "length": 18,
+    "deadline": 13,
+    "id": "052",
+    "title": "資源取捨 12",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 22,
+    "deadline": 18,
+    "id": "053",
+    "title": "資源取捨 13",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 6,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 20,
+    "deadline": 16,
+    "id": "054",
+    "title": "資源取捨 14",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 10,
+    "lensTime": 12,
+    "length": 23,
+    "deadline": 19,
+    "id": "055",
+    "title": "資源取捨 15",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 6,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 16,
+    "id": "056",
+    "title": "資源取捨 16",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 21,
+    "deadline": 17,
+    "id": "057",
+    "title": "資源取捨 17",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 9,
+    "lensTime": 11,
+    "length": 17,
+    "deadline": 13,
+    "id": "058",
+    "title": "資源取捨 18",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 10,
+    "lensTime": 14,
+    "length": 24,
+    "deadline": 20,
+    "id": "059",
+    "title": "資源取捨 19",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 16,
+    "id": "060",
+    "title": "資源取捨 20",
+    "chapter": 3
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 21,
+    "deadline": 17,
+    "id": "061",
+    "title": "複合任務 1",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 4,
+    "flood": 10,
+    "archiveTime": 9,
+    "starTime": 15,
+    "lensTime": 18,
+    "length": 30,
+    "deadline": 26,
+    "id": "062",
+    "title": "複合任務 2",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 24,
+    "deadline": 20,
+    "id": "063",
+    "title": "複合任務 3",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 16,
+    "id": "064",
+    "title": "複合任務 4",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 15,
+    "id": "065",
+    "title": "複合任務 5",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 29,
+    "deadline": 25,
+    "id": "066",
+    "title": "複合任務 6",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 4,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 12,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 16,
+    "id": "067",
+    "title": "複合任務 7",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 8,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 27,
+    "deadline": 23,
+    "id": "068",
+    "title": "複合任務 8",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 4,
+    "flood": 9,
+    "archiveTime": 10,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 16,
+    "id": "069",
+    "title": "複合任務 9",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 7,
+    "starTime": 9,
+    "lensTime": 12,
+    "length": 19,
+    "deadline": 15,
+    "id": "070",
+    "title": "複合任務 10",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 9,
+    "archiveTime": 7,
+    "starTime": 14,
+    "lensTime": 16,
+    "length": 22,
+    "deadline": 18,
+    "id": "071",
+    "title": "複合任務 11",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 12,
+    "lensTime": 16,
+    "length": 22,
+    "deadline": 17,
+    "id": "072",
+    "title": "複合任務 12",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 21,
+    "deadline": 15,
+    "id": "073",
+    "title": "複合任務 13",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 4,
+    "flood": 10,
+    "archiveTime": 8,
+    "starTime": 15,
+    "lensTime": 17,
+    "length": 29,
+    "deadline": 25,
+    "id": "074",
+    "title": "複合任務 14",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 12,
+    "lensTime": 14,
+    "length": 27,
+    "deadline": 23,
+    "id": "075",
+    "title": "複合任務 15",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 4,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 22,
+    "deadline": 18,
+    "id": "076",
+    "title": "複合任務 16",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 8,
+    "archiveTime": 6,
+    "starTime": 12,
+    "lensTime": 15,
+    "length": 23,
+    "deadline": 19,
+    "id": "077",
+    "title": "複合任務 17",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 25,
+    "deadline": 21,
+    "id": "078",
+    "title": "複合任務 18",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 8,
+    "starTime": 9,
+    "lensTime": 12,
+    "length": 24,
+    "deadline": 20,
+    "id": "079",
+    "title": "複合任務 19",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": false,
+    "maxLoops": 3,
+    "workshopClose": 3,
+    "flood": 9,
+    "archiveTime": 7,
+    "starTime": 12,
+    "lensTime": 14,
+    "length": 22,
+    "deadline": 18,
+    "id": "080",
+    "title": "複合任務 20",
+    "chapter": 4
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 8,
+    "archiveTime": 10,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 24,
+    "deadline": 20,
+    "id": "081",
+    "title": "專家挑戰 1",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 3,
+    "flood": 9,
+    "archiveTime": 8,
+    "starTime": 14,
+    "lensTime": 18,
+    "length": 24,
+    "deadline": 19,
+    "id": "082",
+    "title": "專家挑戰 2",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 9,
+    "archiveTime": 9,
+    "starTime": 14,
+    "lensTime": 17,
+    "length": 23,
+    "deadline": 19,
+    "id": "083",
+    "title": "專家挑戰 3",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 6,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 19,
+    "deadline": 15,
+    "id": "084",
+    "title": "專家挑戰 4",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 3,
+    "flood": 9,
+    "archiveTime": 9,
+    "starTime": 13,
+    "lensTime": 17,
+    "length": 23,
+    "deadline": 19,
+    "id": "085",
+    "title": "專家挑戰 5",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 15,
+    "id": "086",
+    "title": "專家挑戰 6",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 21,
+    "deadline": 17,
+    "id": "087",
+    "title": "專家挑戰 7",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 10,
+    "archiveTime": 10,
+    "starTime": 14,
+    "lensTime": 18,
+    "length": 24,
+    "deadline": 20,
+    "id": "088",
+    "title": "專家挑戰 8",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 3,
+    "flood": 8,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 22,
+    "deadline": 18,
+    "id": "089",
+    "title": "專家挑戰 9",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 24,
+    "deadline": 20,
+    "id": "090",
+    "title": "專家挑戰 10",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 2,
+    "flood": 8,
+    "archiveTime": 6,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 26,
+    "deadline": 22,
+    "id": "091",
+    "title": "專家挑戰 11",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 9,
+    "archiveTime": 10,
+    "starTime": 14,
+    "lensTime": 18,
+    "length": 28,
+    "deadline": 24,
+    "id": "092",
+    "title": "專家挑戰 12",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 2,
+    "flood": 6,
+    "archiveTime": 7,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 22,
+    "deadline": 18,
+    "id": "093",
+    "title": "專家挑戰 13",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 3,
+    "flood": 9,
+    "archiveTime": 7,
+    "starTime": 14,
+    "lensTime": 16,
+    "length": 25,
+    "deadline": 21,
+    "id": "094",
+    "title": "專家挑戰 14",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 9,
+    "archiveTime": 10,
+    "starTime": 14,
+    "lensTime": 18,
+    "length": 24,
+    "deadline": 19,
+    "id": "095",
+    "title": "專家挑戰 15",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 2
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 3,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 22,
+    "deadline": 18,
+    "id": "096",
+    "title": "專家挑戰 16",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 9,
+    "archiveTime": 8,
+    "starTime": 13,
+    "lensTime": 16,
+    "length": 22,
+    "deadline": 17,
+    "id": "097",
+    "title": "專家挑戰 17",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 1
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 2
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 2
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 3
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 3
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 2,
+    "flood": 7,
+    "archiveTime": 8,
+    "starTime": 11,
+    "lensTime": 15,
+    "length": 25,
+    "deadline": 21,
+    "id": "098",
+    "title": "專家挑戰 18",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 2
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 3
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 4,
+    "flood": 8,
+    "archiveTime": 9,
+    "starTime": 11,
+    "lensTime": 14,
+    "length": 20,
+    "deadline": 15,
+    "id": "099",
+    "title": "專家挑戰 19",
+    "chapter": 5
+  },
+  {
+    "nodes": [
+      "旅舍",
+      "檔案館",
+      "工坊",
+      "水閘",
+      "天文台",
+      "礦坑",
+      "信標塔",
+      "庭園"
+    ],
+    "edges": [
+      {
+        "a": 0,
+        "b": 1,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 2,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 3,
+        "cost": 3
+      },
+      {
+        "a": 3,
+        "b": 4,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "cost": 2
+      },
+      {
+        "a": 5,
+        "b": 6,
+        "cost": 3
+      },
+      {
+        "a": 0,
+        "b": 7,
+        "cost": 1
+      },
+      {
+        "a": 7,
+        "b": 6,
+        "cost": 2
+      },
+      {
+        "a": 1,
+        "b": 5,
+        "cost": 1
+      },
+      {
+        "a": 2,
+        "b": 6,
+        "cost": 1
+      },
+      {
+        "a": 3,
+        "b": 7,
+        "cost": 1
+      }
+    ],
+    "archive": 1,
+    "workshop": 2,
+    "pump": 3,
+    "observatory": 4,
+    "mine": 5,
+    "tower": 6,
+    "garden": 7,
+    "needFormula": true,
+    "needLens": true,
+    "maxLoops": 4,
+    "workshopClose": 2,
+    "flood": 8,
+    "archiveTime": 6,
+    "starTime": 11,
+    "lensTime": 13,
+    "length": 23,
+    "deadline": 19,
+    "id": "100",
+    "title": "專家挑戰 20",
+    "chapter": 5
+  }
+]
