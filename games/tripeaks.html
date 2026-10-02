@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#122c32">
+<title>三峰接龍 · arcade</title>
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="tripeaks/style.css?v=20261002-certified-cards">
+</head>
+<body>
+<main class="app">
+  <header class="header">
+    <div class="identity"><a href="../index.html">← 遊戲大廳</a><div class="title-line"><h1>三峰接龍</h1><span>TRIPEAKS</span></div></div>
+    <div class="header-actions"><button id="largeCards" aria-pressed="false" title="切換大牌模式，可橫向捲動">大牌</button><button id="helpOpen" aria-haspopup="dialog">玩法</button></div>
+  </header>
+  <section class="hud" aria-label="本局資訊">
+    <button id="chooseDeal" class="deal-button" aria-haspopup="dialog"><span>已驗證牌局</span><strong id="dealNumber">#001</strong><span class="choose-label">選牌局 ▾</span></button>
+    <div class="metric"><span>已清除</span><strong><b id="cleared">0</b><small> / 28</small></strong></div>
+    <div class="metric"><span>步數</span><strong id="moves">0</strong></div>
+    <div class="metric"><span>遊玩時間</span><strong id="timer">00:00</strong></div>
+  </section>
+  <div class="workarea">
+    <section class="table" aria-label="三峰接龍牌桌">
+      <div class="table-top"><span class="table-tag">一副牌，三座山</span><span id="routeState" class="route-state">50 副均有完整通關解答</span></div>
+      <div id="previewBar" class="preview-bar" hidden><span id="previewLabel">解答示範</span><button id="previewToggle">暫停</button><button id="previewNext">下一步</button><button id="previewExit">返回我的牌局</button></div>
+      <div class="mountain-scene" aria-hidden="true"><div class="mountain m1"></div><div class="mountain m2"></div><div class="mountain m3"></div><span class="moon"></span></div>
+      <div id="boardScroll" class="board-scroll"><div id="tableau" class="tableau" role="group" aria-label="三峰牌陣，上三列翻蓋牌、底列十張明牌"></div></div>
+      <div class="piles">
+        <div class="pile-wrap"><span class="pile-label">牌庫 · <b id="stockCount">23</b></span><button id="stock" class="stock-card" aria-label="抽一張牌"><span class="stock-emblem">✦</span><span id="stockText">抽一張</span></button></div>
+        <div class="pile-flow" aria-hidden="true"><span>→</span><small>只走一輪</small></div>
+        <div class="pile-wrap"><span class="pile-label">接牌堆</span><div id="waste" class="card waste" role="img" aria-label="接牌堆"></div></div>
+        <div class="rank-help"><span>點選已翻開的牌</span><strong id="rankHelp">相差 1 即可接上</strong><small>不限花色 · A 與 K 可以相接</small></div>
+      </div>
+      <div id="winBanner" class="win-banner" hidden><span>✦</span><div><strong id="winTitle">三峰全清，漂亮！</strong><p id="winDetail"></p></div><button id="winNext">下一副 →</button></div>
+      <p id="status" class="status" role="status" aria-live="polite">從底列開始，找一張比接牌堆大 1 或小 1 的牌</p>
+    </section>
+    <aside class="sidebar" aria-label="操作面板">
+      <div class="side-intro"><p class="eyebrow">慢慢想，總有一條路</p><h2>一步接一步<br>翻過三座山</h2><p>每副初始牌局都已找到並驗證通關路線。每一次選擇，交給你。</p></div>
+      <div class="action-grid"><button id="hint" class="primary"><span>✧</span> 提示</button><button id="undo"><span>↶</span> 悔棋 <small id="undoCount"></small></button><button id="solutionOpen" class="wide" aria-haspopup="dialog">▷ 完整解答與示範</button><button id="restart">重新開始</button><button id="newDeal">下一副</button></div>
+      <div class="progress-card"><div><span>通關收藏</span><strong id="completedCount">0 / 50</strong></div><div class="progress-track"><span id="completedBar"></span></div><p id="saveStatus">進度自動保存在此瀏覽器</p></div>
+      <div class="key-note">D 抽牌 · U 悔棋 · H 提示<br>方向鍵切換明牌 · Enter 出牌</div>
+    </aside>
+  </div>
+  <footer><span>標準 52 張 · 28 張牌陣 · 單次牌庫</span><span>50 副真實洗牌 · 無限悔棋</span></footer>
+</main>
+<dialog id="dealDialog" aria-labelledby="dealTitle"><div class="dialog-head"><div><p class="eyebrow">YOUR NEXT PEAK</p><h2 id="dealTitle">挑一座山，開始吧</h2></div><button data-close="dealDialog" aria-label="關閉選牌局">✕</button></div><p class="dialog-note">50 副不同點數排列，全部已有合法通關路線。切換牌局會保留各局進度。</p><div id="dealGrid" class="deal-grid"></div><p class="dialog-note">✓ 已通關　• 遊玩中　目前牌局以外框標示</p></dialog>
+<dialog id="helpDialog" aria-labelledby="helpTitle"><div class="dialog-head"><h2 id="helpTitle">三峰接龍 · 玩法</h2><button data-close="helpDialog" aria-label="關閉玩法">✕</button></div><div class="help-content"><p>用一副標準 52 張牌，清空三座山上的 28 張牌就通關。牌庫不必抽完。</p><ol><li>底列 10 張牌一開始翻開。上方的牌必須等覆蓋它的兩張牌都移除，才會翻開。</li><li>點選已翻開、比接牌堆頂牌<strong>大 1 或小 1</strong>的牌。花色不限；本版<strong>A 與 K 可以相接</strong>，例如 Q → K → A → 2。</li><li>想換頂牌時可點牌庫，一次抽一張。起手 1 張在接牌堆、剩餘 23 張在牌庫；<strong>只能走一輪，不能重新洗回</strong>。有牌可接時也允許抽牌。</li><li>牌庫用完且沒有可接的牌，先試試悔棋；牌庫用完仍可繼續清牌。計時不設期限，步數包含出牌和抽牌。</li></ol><h3>每局有解，不表示每一步都會通關</h3><p>提示只在已驗證的狀態給出確定能繼續通關的一步。若走出解答路線，會讓你選擇返回最近的驗證節點，並先確認要退回幾步；這不代表目前盤面無解。</p><p>「完整解答」可查看逐步清單，或在牌桌上播放。示範與你的進度分開，離開示範就會回到原本的牌局。看過解答或使用提示會標示為輔助遊玩。</p><h3>操作與儲存</h3><p>可無限次悔棋，直至本局起點。D 抽牌、U 悔棋、H 提示；聚焦明牌後以方向鍵切換，Enter 或空白鍵出牌。手機可切換「大牌」模式，左右滑動看完整個牌陣。</p><p>計時從第一步開始；切到背景、開啟視窗、播放解答時暫停。各局進度只保存在目前瀏覽器；停用儲存時仍能玩，關閉頁面後則不會保留。重開會先確認。</p><h3>可重現的通關驗證</h3><p>每副牌都是獨立固定種子的 Fisher–Yates 洗牌，經搜尋找到完整通關步驟才收錄。50 副都由遊戲本身的規則引擎回放，另以獨立檢查器驗證 52 張牌唯一、遮蓋關係、抽牌順序及所有 28 次移除。忽略花色、點數循環平移／反轉和牌陣鏡像後，仍是 50 種不同排列。</p><p><a href="tripeaks/certification.json" target="_blank" rel="noopener">查看 50 副驗證紀錄 ↗</a> · <a href="tripeaks/QA.md" target="_blank" rel="noopener">驗證方法與測試指令 ↗</a></p><p class="source-note">規則參照遊戲開發商 <a href="https://www.goodsol.com/games/tripeaks.html" target="_blank" rel="noopener">Goodsol 的 TriPeaks 說明</a>；本版使用上層蓋牌、A–K 循環及單次牌庫，不使用分數加成、萬用牌或付費道具。</p></div></dialog>
+<dialog id="solutionDialog" aria-labelledby="solutionTitle"><div class="dialog-head"><div><p class="eyebrow">VERIFIED WINNING ROUTE</p><h2 id="solutionTitle">完整通關解答</h2></div><button data-close="solutionDialog" aria-label="關閉解答">✕</button></div><p id="solutionSummary" class="dialog-note"></p><button id="startPreview" class="primary preview-start">▷ 在牌桌上播放（保留我的進度）</button><details><summary>展開逐步解答（包含未翻開的牌）</summary><ol id="solutionList" class="solution-list"></ol></details></dialog>
+<dialog id="confirmDialog" aria-labelledby="confirmTitle"><div class="dialog-head"><h2 id="confirmTitle">確認</h2><button data-close="confirmDialog" aria-label="取消">✕</button></div><p id="confirmText"></p><div class="confirm-actions"><button id="confirmCancel">繼續探索</button><button id="confirmOK" class="primary">確認</button></div></dialog>
+<noscript><div class="noscript">請啟用 JavaScript 來玩三峰接龍</div></noscript>
+<script src="tripeaks/engine.js?v=20261002-certified-cards"></script><script src="tripeaks/deals.js?v=20261002-certified-cards"></script><script src="tripeaks/session.js?v=20261002-certified-cards"></script><script src="tripeaks/client.js?v=20261002-certified-cards"></script>
+</body></html>

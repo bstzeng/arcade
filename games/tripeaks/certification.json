@@ -1,0 +1,512 @@
+{
+  "result": "PASS",
+  "verifier": "Independent geometric-overlap and rank checker, no gameplay engine import",
+  "rules": "52 unique cards; 3/6/9/10 rows; 28 tableau; initial waste + 23 one-pass stock; ±1 rank; A↔K wrap; remove all 28",
+  "deals": 50,
+  "uniqueCanonicalRankLayouts": 50,
+  "totalVerifiedActions": 2370,
+  "minActions": 39,
+  "maxActions": 51,
+  "results": [
+    {
+      "id": 1,
+      "seed": 7319001,
+      "cards": 52,
+      "removals": 28,
+      "draws": 15,
+      "actions": 43,
+      "wrapMoves": 3,
+      "canonicalRankHash": "428b834830955aaecc70fda0531fe07cb0111ad31baad0248db6a5388bc846cd"
+    },
+    {
+      "id": 2,
+      "seed": 7319002,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 2,
+      "canonicalRankHash": "7e07cff66262138ccbc519cdd2b2007d6dd8c704e19757ce1520ad3ed72b8a85"
+    },
+    {
+      "id": 3,
+      "seed": 7319003,
+      "cards": 52,
+      "removals": 28,
+      "draws": 20,
+      "actions": 48,
+      "wrapMoves": 1,
+      "canonicalRankHash": "fd773c111f35a153bbec0a59a20804386e0ab86d6691d352129d1edb87119b08"
+    },
+    {
+      "id": 4,
+      "seed": 7319004,
+      "cards": 52,
+      "removals": 28,
+      "draws": 20,
+      "actions": 48,
+      "wrapMoves": 2,
+      "canonicalRankHash": "443ac4262435c10f01f6d1da97950da868521eeb64652a0cf6bed4869c2a0498"
+    },
+    {
+      "id": 5,
+      "seed": 7319005,
+      "cards": 52,
+      "removals": 28,
+      "draws": 22,
+      "actions": 50,
+      "wrapMoves": 2,
+      "canonicalRankHash": "5117e0bdce0ec2aa7eb280ea88381f7f419df401f2e20304292047b4a1484c5d"
+    },
+    {
+      "id": 6,
+      "seed": 7319006,
+      "cards": 52,
+      "removals": 28,
+      "draws": 11,
+      "actions": 39,
+      "wrapMoves": 1,
+      "canonicalRankHash": "09e4e3ff530714ff8d08582ba660f0cf12b896e4bbd54fff223a9861446d1697"
+    },
+    {
+      "id": 7,
+      "seed": 7319007,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 3,
+      "canonicalRankHash": "37767dccd322497a3efdc56631f5ac99ad3bb23e7014b006b93720efc5e30a29"
+    },
+    {
+      "id": 8,
+      "seed": 7319008,
+      "cards": 52,
+      "removals": 28,
+      "draws": 20,
+      "actions": 48,
+      "wrapMoves": 2,
+      "canonicalRankHash": "5273f947362ad2baaeda8e2f19e71e15d1cbdc8633690e3f514bfbc660b72d5e"
+    },
+    {
+      "id": 9,
+      "seed": 7319009,
+      "cards": 52,
+      "removals": 28,
+      "draws": 20,
+      "actions": 48,
+      "wrapMoves": 2,
+      "canonicalRankHash": "953c47cbeacdef52648f9b4f60f7ece518deea7bdc094eeeeb7742c52692ca1a"
+    },
+    {
+      "id": 10,
+      "seed": 7319010,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 3,
+      "canonicalRankHash": "bb75e30be7cb70a1b958ae29be57774bc0676a585329061be585b1a2b7ff095f"
+    },
+    {
+      "id": 11,
+      "seed": 7319011,
+      "cards": 52,
+      "removals": 28,
+      "draws": 17,
+      "actions": 45,
+      "wrapMoves": 2,
+      "canonicalRankHash": "b6d4cf68524b27438a15f4e4750345c84bef44d077d2caf108743a04e984ab81"
+    },
+    {
+      "id": 12,
+      "seed": 7319012,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 1,
+      "canonicalRankHash": "3e5a8a7e2fa5b17ef4ee48c6981e774ba0d27d3a255e2905557562739d73806c"
+    },
+    {
+      "id": 13,
+      "seed": 7319013,
+      "cards": 52,
+      "removals": 28,
+      "draws": 23,
+      "actions": 51,
+      "wrapMoves": 3,
+      "canonicalRankHash": "220ba251e4b83574b57283ace2172cfd59540073e5a73b636fe9eaf31e05ea24"
+    },
+    {
+      "id": 14,
+      "seed": 7319014,
+      "cards": 52,
+      "removals": 28,
+      "draws": 23,
+      "actions": 51,
+      "wrapMoves": 2,
+      "canonicalRankHash": "efee86ac20069a29a06513f80023f60d2d79b47490e47e9482fd98fe2fe0058e"
+    },
+    {
+      "id": 15,
+      "seed": 7319015,
+      "cards": 52,
+      "removals": 28,
+      "draws": 23,
+      "actions": 51,
+      "wrapMoves": 1,
+      "canonicalRankHash": "30928cea5bd62fd812667afe74c6900a2b66bcba5c9b7817010f9555d8634032"
+    },
+    {
+      "id": 16,
+      "seed": 7319016,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 2,
+      "canonicalRankHash": "b0c56686361f1a069fb781d496bec9d7ca32187e994a6e650d5a8c0eb0f2cd8d"
+    },
+    {
+      "id": 17,
+      "seed": 7319017,
+      "cards": 52,
+      "removals": 28,
+      "draws": 18,
+      "actions": 46,
+      "wrapMoves": 1,
+      "canonicalRankHash": "468887f6f371b6c65f69e2ad076cc7b50e1424b40a1fd3549b63af70bf4eb965"
+    },
+    {
+      "id": 18,
+      "seed": 7319018,
+      "cards": 52,
+      "removals": 28,
+      "draws": 18,
+      "actions": 46,
+      "wrapMoves": 2,
+      "canonicalRankHash": "3ce181be59717bd4b779e701f9e5ce6e7671b3f5c82fa8854bf40423810972cd"
+    },
+    {
+      "id": 19,
+      "seed": 7319019,
+      "cards": 52,
+      "removals": 28,
+      "draws": 17,
+      "actions": 45,
+      "wrapMoves": 2,
+      "canonicalRankHash": "3f4b51bd915d9d2724df0b34adef967608250db0711754cc2f572e64c43d6cf4"
+    },
+    {
+      "id": 20,
+      "seed": 7319020,
+      "cards": 52,
+      "removals": 28,
+      "draws": 16,
+      "actions": 44,
+      "wrapMoves": 4,
+      "canonicalRankHash": "8469db21df02ac876f802fb2e25ef31305d55f8b2d0008ca380b8e4e8c089069"
+    },
+    {
+      "id": 21,
+      "seed": 7319021,
+      "cards": 52,
+      "removals": 28,
+      "draws": 18,
+      "actions": 46,
+      "wrapMoves": 3,
+      "canonicalRankHash": "5be2d57f321007506284877915350b09c9278aad107f6f5437d737b523fff262"
+    },
+    {
+      "id": 22,
+      "seed": 7319022,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 4,
+      "canonicalRankHash": "99f3e0ac64601a9761e2866eb7a27a7aa3c34f3f6cbd47ad46eb89407f60adc0"
+    },
+    {
+      "id": 23,
+      "seed": 7319023,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 0,
+      "canonicalRankHash": "8c689b497b51492fefb5b639bbc728691ce324b10887d0a599ac8647722beea0"
+    },
+    {
+      "id": 24,
+      "seed": 7319024,
+      "cards": 52,
+      "removals": 28,
+      "draws": 23,
+      "actions": 51,
+      "wrapMoves": 2,
+      "canonicalRankHash": "c4c60726158b72f5abc1d306b95b309919ff5c58c2396e09d51561e8ffb805cc"
+    },
+    {
+      "id": 25,
+      "seed": 7319025,
+      "cards": 52,
+      "removals": 28,
+      "draws": 19,
+      "actions": 47,
+      "wrapMoves": 2,
+      "canonicalRankHash": "264444a9174ee2dbd5f025d090d7382b1f1fe9e5d9780d6296974bd777eb22ad"
+    },
+    {
+      "id": 26,
+      "seed": 7319026,
+      "cards": 52,
+      "removals": 28,
+      "draws": 20,
+      "actions": 48,
+      "wrapMoves": 1,
+      "canonicalRankHash": "3efd5d7dc764d7644ea482db611b73e4f4e1c32a8698fae64e78efb7ae72b1ba"
+    },
+    {
+      "id": 27,
+      "seed": 7319027,
+      "cards": 52,
+      "removals": 28,
+      "draws": 22,
+      "actions": 50,
+      "wrapMoves": 3,
+      "canonicalRankHash": "b4acc24a8f4bb07c152e459c6f3b9d73685d2c95c82e25c46b524ab097a28d1b"
+    },
+    {
+      "id": 28,
+      "seed": 7319028,
+      "cards": 52,
+      "removals": 28,
+      "draws": 19,
+      "actions": 47,
+      "wrapMoves": 0,
+      "canonicalRankHash": "da6795e12d4c39df6007a550608aa689d4a21a62a5ceefa6a1d416ceab40fb89"
+    },
+    {
+      "id": 29,
+      "seed": 7319029,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 1,
+      "canonicalRankHash": "c0c2bf4c1d89ff8b51f3f59daa53c9589718f35b230cd7054c5ebe3a52ecc622"
+    },
+    {
+      "id": 30,
+      "seed": 7319030,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 1,
+      "canonicalRankHash": "427da6d0e209b6708165fc85a1bd3a6fb772a2d7fcf98a51c72f5c7ccc2bc494"
+    },
+    {
+      "id": 31,
+      "seed": 7319031,
+      "cards": 52,
+      "removals": 28,
+      "draws": 13,
+      "actions": 41,
+      "wrapMoves": 3,
+      "canonicalRankHash": "d2585c951d0d3fac145ec10548283db8b442d8442e208b6668ddbb0dc6ab8af3"
+    },
+    {
+      "id": 32,
+      "seed": 7319032,
+      "cards": 52,
+      "removals": 28,
+      "draws": 23,
+      "actions": 51,
+      "wrapMoves": 3,
+      "canonicalRankHash": "bff25c729edbb10ed9c2e950a63e9acd86775e6911215e55835511d5580223e5"
+    },
+    {
+      "id": 33,
+      "seed": 7319033,
+      "cards": 52,
+      "removals": 28,
+      "draws": 17,
+      "actions": 45,
+      "wrapMoves": 2,
+      "canonicalRankHash": "b663f7412658f1bab5b7e958f1a8087748ef9d01278632b07b435f12dfa27b51"
+    },
+    {
+      "id": 34,
+      "seed": 7319034,
+      "cards": 52,
+      "removals": 28,
+      "draws": 22,
+      "actions": 50,
+      "wrapMoves": 2,
+      "canonicalRankHash": "7dfd4823ee7b0c2c9e8022e40235b355067761b2f638b9176eae1990c1de18e1"
+    },
+    {
+      "id": 35,
+      "seed": 7319036,
+      "cards": 52,
+      "removals": 28,
+      "draws": 19,
+      "actions": 47,
+      "wrapMoves": 2,
+      "canonicalRankHash": "a2af43ecdd0a0fdd0ce7658981372109e8722c6fc43dc8f0ac86eb7c64e95b53"
+    },
+    {
+      "id": 36,
+      "seed": 7319037,
+      "cards": 52,
+      "removals": 28,
+      "draws": 22,
+      "actions": 50,
+      "wrapMoves": 4,
+      "canonicalRankHash": "0f54f8991789789bee9b3b57e0718614ed8bd6898173f57d284ea37fb3eddf10"
+    },
+    {
+      "id": 37,
+      "seed": 7319038,
+      "cards": 52,
+      "removals": 28,
+      "draws": 18,
+      "actions": 46,
+      "wrapMoves": 1,
+      "canonicalRankHash": "778148790010b1869c81dcad273d6310c8b845f441bbad3bc2fe4d492593fa78"
+    },
+    {
+      "id": 38,
+      "seed": 7319039,
+      "cards": 52,
+      "removals": 28,
+      "draws": 22,
+      "actions": 50,
+      "wrapMoves": 3,
+      "canonicalRankHash": "48c0afef23a8045b325cace22637da76e1c77f803a65d14ff3d708806599fa03"
+    },
+    {
+      "id": 39,
+      "seed": 7319040,
+      "cards": 52,
+      "removals": 28,
+      "draws": 14,
+      "actions": 42,
+      "wrapMoves": 2,
+      "canonicalRankHash": "bc5b57e6f6a69a0dda9d7739246c6ae1d5a058da15b939892be692f8814a764a"
+    },
+    {
+      "id": 40,
+      "seed": 7319041,
+      "cards": 52,
+      "removals": 28,
+      "draws": 17,
+      "actions": 45,
+      "wrapMoves": 4,
+      "canonicalRankHash": "4e29145aef5ee41a81bca3a829545f589cc99eb4812f3d3e3df0c856ba1d63e2"
+    },
+    {
+      "id": 41,
+      "seed": 7319042,
+      "cards": 52,
+      "removals": 28,
+      "draws": 21,
+      "actions": 49,
+      "wrapMoves": 2,
+      "canonicalRankHash": "6b8d47684a72a2c4f2c5d54cb3e2d882941fbdba3ff337ddd0db1b276750181d"
+    },
+    {
+      "id": 42,
+      "seed": 7319043,
+      "cards": 52,
+      "removals": 28,
+      "draws": 18,
+      "actions": 46,
+      "wrapMoves": 3,
+      "canonicalRankHash": "7df0a74f3389f17647e80cb10f627946f897a98dc752366e56992c90acfc7a1d"
+    },
+    {
+      "id": 43,
+      "seed": 7319044,
+      "cards": 52,
+      "removals": 28,
+      "draws": 19,
+      "actions": 47,
+      "wrapMoves": 3,
+      "canonicalRankHash": "6e076ef42cc0d87e14824073a45c09c4f47bb0eb1f83471ca5614420667db2dd"
+    },
+    {
+      "id": 44,
+      "seed": 7319045,
+      "cards": 52,
+      "removals": 28,
+      "draws": 23,
+      "actions": 51,
+      "wrapMoves": 0,
+      "canonicalRankHash": "7d780fb67b8250ca9ad9a851a0e9fee4bb14066edd9b1c127b4f695c29c4ad07"
+    },
+    {
+      "id": 45,
+      "seed": 7319046,
+      "cards": 52,
+      "removals": 28,
+      "draws": 19,
+      "actions": 47,
+      "wrapMoves": 2,
+      "canonicalRankHash": "d35f90acd5677893e12ba9c5ede5518faa594476a9c916cc0beedd2e2550283f"
+    },
+    {
+      "id": 46,
+      "seed": 7319047,
+      "cards": 52,
+      "removals": 28,
+      "draws": 18,
+      "actions": 46,
+      "wrapMoves": 1,
+      "canonicalRankHash": "574b44e291c420917f1c70d0d3c1b8034f3d0d98ccf910ab7e27acdd48fa12a1"
+    },
+    {
+      "id": 47,
+      "seed": 7319048,
+      "cards": 52,
+      "removals": 28,
+      "draws": 23,
+      "actions": 51,
+      "wrapMoves": 6,
+      "canonicalRankHash": "34061b754f06f08190516f63032eeaafc6ac7421c0260ed420342e99f35e838c"
+    },
+    {
+      "id": 48,
+      "seed": 7319049,
+      "cards": 52,
+      "removals": 28,
+      "draws": 22,
+      "actions": 50,
+      "wrapMoves": 3,
+      "canonicalRankHash": "f9830571a68926d35275a2a64167456b837af5e5caebadf1b1573ee3f688ed2d"
+    },
+    {
+      "id": 49,
+      "seed": 7319050,
+      "cards": 52,
+      "removals": 28,
+      "draws": 13,
+      "actions": 41,
+      "wrapMoves": 4,
+      "canonicalRankHash": "9a2fd8b48832fda93a04f48cdc174a6c27f4eade242e3b2546a465c86f1c8c88"
+    },
+    {
+      "id": 50,
+      "seed": 7319051,
+      "cards": 52,
+      "removals": 28,
+      "draws": 14,
+      "actions": 42,
+      "wrapMoves": 2,
+      "canonicalRankHash": "73b4066dac4756f9856fab6051fc08474a4ad9346aa9e20369c27e4b5d11643e"
+    }
+  ]
+}
