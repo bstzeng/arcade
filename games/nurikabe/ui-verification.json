@@ -1,0 +1,28 @@
+{
+  "game": "nurikabe",
+  "manualWinFlows": 50,
+  "hintToWinFlows": 50,
+  "wrongMoveHintRecoveryFlows": 50,
+  "otherPassed": [
+    "50-level selector",
+    "previous/next bounds",
+    "victory dialog and record",
+    "non-destructive solution demo",
+    "demo navigation exits preview",
+    "undo input",
+    "restart confirmation cancel and Escape",
+    "restart then undo restores board and hint usage",
+    "help modal",
+    "save/reload",
+    "malformed JSON recovery",
+    "invalid cell data rejected",
+    "forged completion rejected",
+    "storage denial still playable",
+    "keyboard movement/edit",
+    "touch/click paint modes",
+    "right-click marking",
+    "fixed Nurikabe clues"
+  ],
+  "visualBrowserQA": "Not run: assigned local browser/preview path was reported blocked; mock DOM tests do not verify rendering.",
+  "desktopDesignTarget": "1180×757, fixed 100dvh shell; 26px minimum cells and independently scrollable board on narrow screens"
+}
