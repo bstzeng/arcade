@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "games": 10,
+  "challenges": 1000,
+  "boundaries": {
+    "passed": true,
+    "assertions": 78,
+    "coverage": [
+      "parallel bridge identities",
+      "knight shape and no revisits",
+      "asynchronous mirrored collision",
+      "arrival-phase tide and wait safety",
+      "energy cost, capacity, spill and one-use recharge",
+      "consumable explicit portal",
+      "color gate and dye state",
+      "tether shortening, wrapping, self-intersection and maximum length",
+      "arrival flips all incident stairs including traversed edge",
+      "tour budget, return and coverage",
+      "invalid action atomicity and malformed states"
+    ]
+  },
+  "reports": [
+    {
+      "gameId": "euler-bridges",
+      "report": "games/euler-bridges/verification-report.json",
+      "assertions": 64622
+    },
+    {
+      "gameId": "knight-tour",
+      "report": "games/knight-tour/verification-report.json",
+      "assertions": 49972
+    },
+    {
+      "gameId": "dual-shadow-maze",
+      "report": "games/dual-shadow-maze/verification-report.json",
+      "assertions": 60461
+    },
+    {
+      "gameId": "tidal-maze",
+      "report": "games/tidal-maze/verification-report.json",
+      "assertions": 37468
+    },
+    {
+      "gameId": "energy-network",
+      "report": "games/energy-network/verification-report.json",
+      "assertions": 31842
+    },
+    {
+      "gameId": "single-teleport",
+      "report": "games/single-teleport/verification-report.json",
+      "assertions": 22774
+    },
+    {
+      "gameId": "color-gates",
+      "report": "games/color-gates/verification-report.json",
+      "assertions": 24017
+    },
+    {
+      "gameId": "tether-maze",
+      "report": "games/tether-maze/verification-report.json",
+      "assertions": 72927
+    },
+    {
+      "gameId": "reversible-stairs",
+      "report": "games/reversible-stairs/verification-report.json",
+      "assertions": 57188
+    },
+    {
+      "gameId": "tour-route",
+      "report": "games/tour-route/verification-report.json",
+      "assertions": 114523
+    }
+  ],
+  "browserQA": "not-run"
+}
