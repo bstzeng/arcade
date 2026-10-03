@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "c79535f3849ddd3a0deabe80f14ba9f2a62136e8",
+  "baselineSHA256": "d4bb6800f0ec26bcbc4f2094e3fe1fa36d1d660212ff8a4e408caaec9179e765",
+  "status": "offline-verified-correction-candidate-hosted-retest-pending",
+  "qaScopeSettled": true,
+  "finding": {
+    "game": "alibi-interrogation",
+    "level": 100,
+    "viewportWidth": 333,
+    "observedDocumentWidth": 363,
+    "observedClientWidth": 323,
+    "rootCause": "Grid min-content sizing lets the320px comparison table expand the document instead of scrolling locally."
+  },
+  "correction": "Zero-minimum grid tracks/items, bounded internal table scrolling and a keyboard-focusable labeled region; table data and320px readable width retained.",
+  "changedFiles": {
+    "games/social120-common/style.css": {
+      "kind": "presentation-css",
+      "beforeGitBlob": "c703dc6f40ccd9863eb425f09dd02fe4a67f585e",
+      "beforeSHA256": "b51a711730e73a576ac5f427e1161cb6adcbfbe2ff34ad9e1957b6a4a99eb3ad",
+      "afterGitBlob": "f5bf8cbf21f68e4f867869888cdce9377f30ed43",
+      "afterSHA256": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726"
+    },
+    "games/social120-common/ui.js": {
+      "kind": "accessibility-markup",
+      "beforeGitBlob": "ddeb690805f23cdfb4965d6dc75b9626b65cff61",
+      "beforeSHA256": "297477647ca4004ce9919cfc42985d0243b99bf149c867d6bf61682710b59fdc",
+      "afterGitBlob": "7346659ea3d11377c3bc91b245c2b2600b894fce",
+      "afterSHA256": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+      "exactTextReplacements": [
+        {
+          "before": "<div class=\"comparison\">",
+          "after": "<div class=\"comparison\" tabindex=\"0\" role=\"region\" aria-label=\"證詞比較表，可左右捲動\">"
+        }
+      ]
+    },
+    "verify-all.cjs": {
+      "kind": "verification-dispatch",
+      "beforeGitBlob": "ed749c253ea197d911d60efa81dbcb4634b0fc7b",
+      "beforeSHA256": "fec92005bc079f681908953462fa117a64d8372f86afeeb0cf96eaf6db8cf3dd",
+      "afterGitBlob": "ff85565a0cf4281410aff2807ea8564cccbb3ebd",
+      "afterSHA256": "9e30457c0876fa29383aea102ab7836b2e5b645c8c1adea5dfe456975525a0ad"
+    },
+    "README.md": {
+      "kind": "verification-documentation",
+      "beforeGitBlob": "06e46e674cc75e377082023790e991a706fa4b33",
+      "beforeSHA256": "33dcf5830e7d70a59c0ed8514a3ee1aed97311f47476d6a3ae21d47e33b16485",
+      "afterGitBlob": "5aa14f865e0ce1de9f98dab759844c14981ee112",
+      "afterSHA256": "fde2275c977e7aa1551305b622143ac31135c590bdad7d3eee88a30161bc5ef4"
+    }
+  },
+  "supportFiles": {
+    "expansion120-presentation-baseline.json": "d4bb6800f0ec26bcbc4f2094e3fe1fa36d1d660212ff8a4e408caaec9179e765",
+    "verify-expansion120-presentation.cjs": "13774391b996c7c29e4f5a3beb523544ba51d8f0faaefcd4d1ff729f139cb6c9",
+    "games/social120-common/verify-narrow-layout.cjs": "32dbdcb5e12382b0c92412af2a94d0e25ee77e26624acb93a51abf034fadd6c1"
+  },
+  "affectedFamilies": [
+    "social"
+  ],
+  "affectedCommands": [
+    [
+      "node",
+      "--check",
+      "games/social120-common/ui.js"
+    ],
+    [
+      "node",
+      "games/social120-common/verify-narrow-layout.cjs"
+    ],
+    [
+      "node",
+      "games/social120-common/verify.cjs"
+    ],
+    [
+      "node",
+      "games/social120-common/verify-ui.cjs"
+    ]
+  ],
+  "affectedFreshReports": [
+    "games/social120-common/verification-report.json",
+    "games/social120-common/ui-verification-report.json"
+  ],
+  "preservation": {
+    "originalManifestAndAggregateReports": "retained byte-for-byte",
+    "allEnginesAndCorpora": "retained byte-for-byte",
+    "old270GameRegistryAndGameplay": "unchanged",
+    "verificationOverlay": "Only disposable manifest hashes are adjusted to permit the reviewed presentation bytes and current test outputs; no published manifest is rewritten."
+  },
+  "claims": {
+    "freshAll120GameProofs": false,
+    "actualBrowserMeasurementByOfflineGate": false,
+    "postFixHostedQA": false,
+    "published": false
+  }
+}
