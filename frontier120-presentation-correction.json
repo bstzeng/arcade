@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "baseCommit": "ead782e1e4d8ac11ab1361e74724030db957951b",
+  "status": "presentation-correction-scope-settled",
+  "qaScopeSettled": true,
+  "baselineSHA256": "aa93b98d2687b704f10e85bcb473c94e3bb058667ab4cb597fc45c584e3f4d1f",
+  "registryCount": 390,
+  "changedFiles": {
+    "verify-all.cjs": {
+      "kind": "verification-dispatch",
+      "exactTextReplacements": [
+        {
+          "before": "#!/usr/bin/env node\n'use strict';\nrequire('./verify-frontier120-all.cjs');\n",
+          "after": "#!/usr/bin/env node\n'use strict';\n// Presentation releases preserve the original proof artifacts and run their scoped correction gate.\nconst fs = require('node:fs');\nif (fs.existsSync(__dirname + '/frontier120-presentation-correction.json')) require('./verify-frontier120-presentation.cjs');\nelse require('./verify-frontier120-all.cjs');\n"
+        }
+      ],
+      "beforeSHA256": "2be37e8bcac750d84d9e89c98df6151653fe15a123653d189b2b5288cdc9d83e",
+      "beforeGitBlob": "998efa00472e558b8a655c08ec5cd683e1e5d21b",
+      "afterSHA256": "486ccb669bffe8fa484980461d3812d7651be49010f21975772573648199e0a4",
+      "afterGitBlob": "3fe98824b4dd460aaf69824afd1e529036f4824e"
+    },
+    "README.md": {
+      "kind": "verification-documentation",
+      "exactTextReplacements": [
+        {
+          "before": "## 最新 120 款世界與實驗",
+          "after": "## 發布後的介面修正驗證\n\n最新介面修正另由 `node verify-all.cjs`／`node verify-frontier120-presentation.cjs` 驗證：在隔離副本重跑受影響家族、指定介面回歸與 390 款大廳檢查。原始完整發行的報告、清單、所有引擎、關卡和解答保持原樣；未更動的證明依發布位元組完全相同而沿用。修正所需的來源雜湊只在臨時驗證副本更新，不改寫歷史證據，也不宣稱所有舊遊戲都重新跑過。離線 SVG／DOM 檢查與真實瀏覽器、手機排版及上線後複驗分開記錄。\n\n## 最新 120 款世界與實驗"
+        },
+        {
+          "before": "執行 `node verify-frontier120-all.cjs` 會在隔離副本驗證校正後的 270 款基線、重新執行八個新家族的來源限定測試，並檢查 390 款大廳與負向破壞測試。",
+          "after": "原始完整發行的 `node verify-frontier120-all.cjs` 在原始發布位元組上，會在隔離副本驗證校正後的 270 款基線、重新執行八個新家族的來源限定測試，並檢查 390 款大廳與負向破壞測試。含發布後介面修正時，請使用上節的 `node verify-all.cjs`，讓已審核的暫時來源雜湊覆蓋與原始證據保存一併受到檢查。"
+        }
+      ],
+      "beforeSHA256": "b4ac66e3e43036dfcd3a237b0e93914e02ff608a7b1ce758fea653dd2c328276",
+      "beforeGitBlob": "8c6e8d467f63c0ea396f27f8dd3467afe76f5937",
+      "afterSHA256": "6091cec47dc2aaf6f27729d2e3842496d92f97e9e1357adaf6a877f1f2a0dcf6",
+      "afterGitBlob": "1bebd829a53c5e15a1adaab5aab8771ed84250e8"
+    },
+    "games/survival120-common/render.js": {
+      "kind": "svg-presentation",
+      "exactTextReplacements": [
+        {
+          "before": "label(300,89,`A面灌溉",
+          "after": "label(300,23,`A面灌溉"
+        },
+        {
+          "before": "label(300,202,`B面灌溉",
+          "after": "label(300,266,`B面灌溉"
+        }
+      ],
+      "beforeSHA256": "98b1be7f244e44fa5f39892119da0b71b2bae1fd54a177b9eb33dfc669954315",
+      "beforeGitBlob": "bbef755021c891bf611054c071b12e128561174d",
+      "afterSHA256": "adfe19bd11477b199ac5f78aee7840254aab07f6c248e05d92c34129f138dedb",
+      "afterGitBlob": "c50f1a0596f8a118f4eb3c8e1c57d398a3356d53"
+    },
+    "games/gravity-shelter/art.svg": {
+      "kind": "svg-asset",
+      "exactTextReplacements": [
+        {
+          "before": "<text x=\"300\" y=\"89\" fill=\"#eff7ff\" text-anchor=\"middle\" font-size=\"15\" font-family=\"system-ui,sans-serif\">A面灌溉 0 / 2</text>",
+          "after": "<text x=\"300\" y=\"23\" fill=\"#eff7ff\" text-anchor=\"middle\" font-size=\"15\" font-family=\"system-ui,sans-serif\">A面灌溉 0 / 2</text>"
+        },
+        {
+          "before": "<text x=\"300\" y=\"202\" fill=\"#eff7ff\" text-anchor=\"middle\" font-size=\"15\" font-family=\"system-ui,sans-serif\">B面灌溉 0 / 1</text>",
+          "after": "<text x=\"300\" y=\"266\" fill=\"#eff7ff\" text-anchor=\"middle\" font-size=\"15\" font-family=\"system-ui,sans-serif\">B面灌溉 0 / 1</text>"
+        }
+      ],
+      "beforeSHA256": "39d9853a38f406ba7eb542692d01962653cb4dba1f435fbb934154ac48d8b3c0",
+      "beforeGitBlob": "12acd8a64f59b71d185033bab5f4562a87564969",
+      "afterSHA256": "eea8eac4223e42e7d21ac91e730cbdadddb0b26d7a11ca7c2f8dc1400a504caa",
+      "afterGitBlob": "80dc1341e7e5ab14f0e20edc7210ac253da6dfe6"
+    },
+    "games/story120-common/ui.js": {
+      "kind": "ui-labels",
+      "exactTextReplacements": [
+        {
+          "before": "function render(session)",
+          "after": "function journalText(s,entry){if(s.id!=='last-council'||!['河谷農會','工匠公會','邊境守軍'].includes(entry.speaker))return entry.text;return entry.text.replace(/^(願意配合。|暫不配合。)(已公開依據 \\d+)、已履行 ([01])、衝突 /,(_,reply,evidence,pledged)=>reply+evidence+'、投票時已承諾 '+pledged+(pledged==='1'?'（尚未兌現）':'')+'、衝突 ');}\nfunction render(session)"
+        },
+        {
+          "before": "<section class=\"journal\"><h3>故事回聲 <span>${s.log.length} 則</span></h3><div class=\"log\" role=\"log\" aria-live=\"polite\" aria-relevant=\"additions\" tabindex=\"0\">${s.log.slice(-6).map(r=>`<p><b>${esc(r.speaker)}</b>${esc(r.text)}</p>`).join('')}</div><details><summary>翻閱完整故事紀錄</summary><ol class=\"all-log\">${s.log.map(r=>`<li><strong>${esc(r.speaker)}：</strong>${esc(r.text)}</li>`).join('')}</ol></details></section></aside></div>`;}",
+          "after": "<section class=\"journal\"><h3>故事回聲 <span>${s.log.length} 則</span></h3><div class=\"log\" role=\"log\" aria-live=\"polite\" aria-relevant=\"additions\" tabindex=\"0\">${s.log.slice(-6).map(r=>`<p><b>${esc(r.speaker)}</b>${esc(journalText(s,r))}</p>`).join('')}</div><details><summary>翻閱完整故事紀錄</summary><ol class=\"all-log\">${s.log.map(r=>`<li><strong>${esc(r.speaker)}：</strong>${esc(journalText(s,r))}</li>`).join('')}</ol></details></section></aside></div>`;}"
+        }
+      ],
+      "beforeSHA256": "c96994d1ebc92faa761a0fac4284bbc60a55a12f4b4ae6ad57f5b21c619c2b1f",
+      "beforeGitBlob": "737d871981a613f258b2d3a8abb1908237087806",
+      "afterSHA256": "97fea44bb17795bb23f3bcd942287675d9d396ed6e618cdb923b025672903987",
+      "afterGitBlob": "7dcdea9b4fc1cff9926e3378795008684a08d50f"
+    },
+    "games/war120-common/ui.js": {
+      "kind": "ui-labels",
+      "exactTextReplacements": [
+        {
+          "before": "function render(){",
+          "after": "// Add location context for display only; never mutate legal actions or option values.\nfunction actionLabel(a,s=shown||state){const label=String(a.label||a.type||'指令'),places=[];for(const [field,prefix] of [['at',''],['from','由'],['to','至']]){const n=s.nodes[a[field]];if(Number.isInteger(a[field])&&n&&!label.includes(n.name))places.push(prefix+n.name);}return places.length?places.join(' → ')+'｜'+label:label;}\nfunction historyLabel(text,s){const match=text.match(/^第(\\d+)輪：青方/),turn=match&&s.turns[Number(match[1])-1];if(!turn)return text;let result=text.replace('青方'+(turn.player.label||turn.player.type),'青方'+actionLabel(turn.player,s));const opponent=turn.opponent||(Number(match[1])===s.round?s.lastOrders[1]:null);if(opponent)result=result.replace('赤方'+(opponent.label||opponent.type),'赤方'+actionLabel(opponent,s));return result;}\nfunction render(){"
+        },
+        {
+          "before": "${esc(a.label)}${E.COST[a.type]?",
+          "after": "${esc(actionLabel(a,s))}${E.COST[a.type]?"
+        },
+        {
+          "before": "s.history.slice().reverse().map(t=>`<li>${esc(t)}</li>`)",
+          "after": "s.history.slice().reverse().map(t=>`<li>${esc(historyLabel(t,s))}</li>`)"
+        },
+        {
+          "before": "a?`${a.label}。預算花費",
+          "after": "a?`${actionLabel(a)}。預算花費"
+        },
+        {
+          "before": "message(`參謀建議：${a.label}。",
+          "after": "message(`參謀建議：${actionLabel(a,state)}。"
+        }
+      ],
+      "beforeSHA256": "89d70f65474628ffb85a0f21b60166e8b4269868fca407d3d3c543ef81444e94",
+      "beforeGitBlob": "51486f5b5457b2ad5851147979cd81925a82d542",
+      "afterSHA256": "852b7da58f1df2398b74f7fdb756e21aa435efb40400dadfc4815e116de32ca8",
+      "afterGitBlob": "ec9b451cf5e0661d88e259e7341e47122af8afda"
+    },
+    "games/war120-common/style.css": {
+      "kind": "presentation-css",
+      "exactTextReplacements": [
+        {
+          "before": ".primary{background:#b9dacd;color:#122731;font-weight:700;border-color:#bfdacc}",
+          "after": ".primary{background:#b9dacd;color:#122731;font-weight:700;border-color:#bfdacc}.primary:not(:disabled):hover,.primary:not(:disabled):focus-visible{background:#cef1e4;color:#122731;border-color:#e4fff3}.primary:disabled,.primary:disabled:hover{background:#b9dacd;color:#122731;border-color:#bfdacc}"
+        }
+      ],
+      "beforeSHA256": "a2c1a43e4e6fc78c2ef5bacfb77837df11630bede01d49b8da5482cad10d316d",
+      "beforeGitBlob": "be11b027065515274d7dc9070c54ab405289474a",
+      "afterSHA256": "030893f9b27bbdb90f36e704a7be7c00c53c8a512e92ca1ea156a224d2a8fae7",
+      "afterGitBlob": "6cf7a87cb808911fd9e15c57c198ad3c0c34315b"
+    },
+    "games/physics120-common/render.js": {
+      "kind": "canvas-presentation",
+      "exactTextReplacements": [
+        {
+          "before": "p.forEach((q,i)=>{partDot(q.x,yy(q.x)+7,i);txt(`μ ${q.mu}`,q.x,yy(q.x)+12);});",
+          "after": "/* Keep handles inside the canvas; the fixed legend remains readable when starts coincide. */p.forEach((q,i)=>{let mx=Math.max(2.4,Math.min(97.6,q.x));line(q.x,yy(q.x)+7,mx,yy(q.x)+7,colors[i%6],1);circle(mx,yy(q.x)+7,1.8,colors[i%6]);});if(p[selected]){let q=p[selected];circle(Math.max(2.4,Math.min(97.6,q.x)),yy(q.x)+7,2.4,'#fff5bd');}p.forEach((q,i)=>{txt(`#${i+1} μ≈${q.mu.toFixed(3)}`,3+(i%2)*50,69-Math.floor(i/2)*5.2,i===selected?'#fff5bd':colors[i%6],16);});"
+        }
+      ],
+      "beforeSHA256": "e4b1adfc212882d8f91890b8a1702a1cea31c90e05eadd52d847e5ff265e6a30",
+      "beforeGitBlob": "c78320c12619271a1bfca5067f6888aea878dadf",
+      "afterSHA256": "803ee99cfcac118bc1e9bdc0825a79ca5bc4deef14cff01dcf76b48e16d0cb1a",
+      "afterGitBlob": "dc381dcab114401e95dc727323b9fbf55be9d3cb"
+    }
+  },
+  "supportFiles": {
+    "frontier120-presentation-baseline.json": "aa93b98d2687b704f10e85bcb473c94e3bb058667ab4cb597fc45c584e3f4d1f",
+    "verify-frontier120-presentation.cjs": "ff667450c5b3443b48e765a96300e1e9c118805f90c510ba45c472f484da4980",
+    "verification/frontier120-presentation/gravity-labels.cjs": "9831783685501bcccf73da420c91f4b37a5632a14f3c192d5c5b5716373044ef",
+    "verification/frontier120-presentation/council-feedback.cjs": "61511ee9039ee0ce85a495967bd00dead4cba4cff1378fd3f5642ae03f6ee4c4",
+    "verification/frontier120-presentation/label-harness.cjs": "9e0b17ac05c04d7f755a7d0eabd5037e082de9e64c938ab0b55ed2d1a111ee24",
+    "verification/frontier120-presentation/war-labels.cjs": "9ce21650b3784b9323a8b5912dd41d69eb28cce55aaefa8491fe5f2fd7054e04",
+    "verification/frontier120-presentation/war-contrast.cjs": "06dc89fd4793088049bcd7b38bfdf42b8c04a6165d71d9218b07856e71b440e4",
+    "verification/frontier120-presentation/physics/verify.cjs": "71698d518e3519701113d8fb420c9b326d85020b0b2f7516fc0d3ff0e1301450",
+    "verification/frontier120-presentation/physics/patch.json": "e04bc2d1e9abf5d8a8d4bbe8dcc4b6cfc1d394ca087d73e59d9dd46e9ae3743f"
+  },
+  "affectedFamilies": [
+    "survival",
+    "physical-sandbox",
+    "narrative",
+    "war"
+  ],
+  "targetedCommands": [
+    [
+      "node",
+      "verification/frontier120-presentation/gravity-labels.cjs",
+      ".",
+      "verification/frontier120-presentation/gravity-labels-report.json"
+    ],
+    [
+      "node",
+      "verification/frontier120-presentation/council-feedback.cjs",
+      ".",
+      "verification/frontier120-presentation/council-feedback-report.json"
+    ],
+    [
+      "node",
+      "verification/frontier120-presentation/war-labels.cjs",
+      ".",
+      "verification/frontier120-presentation/war-labels-report.json"
+    ],
+    [
+      "node",
+      "verification/frontier120-presentation/war-contrast.cjs",
+      ".",
+      "verification/frontier120-presentation/war-contrast-report.json"
+    ],
+    [
+      "node",
+      "verification/frontier120-presentation/physics/verify.cjs",
+      ".",
+      "--output",
+      "verification/frontier120-presentation/friction-labels-report.json"
+    ]
+  ],
+  "targetedFreshReports": [
+    "verification/frontier120-presentation/gravity-labels-report.json",
+    "verification/frontier120-presentation/council-feedback-report.json",
+    "verification/frontier120-presentation/war-labels-report.json",
+    "verification/frontier120-presentation/war-contrast-report.json",
+    "verification/frontier120-presentation/friction-labels-report.json"
+  ],
+  "findings": [
+    {
+      "id": "gravity-label-overlap",
+      "status": "fixed-pending-final-browser-check",
+      "scope": "A/B irrigation SVG label coordinates only; renderer and generated title artwork."
+    },
+    {
+      "id": "war-action-location",
+      "status": "fixed-pending-final-browser-check",
+      "scope": "UI action labels/hints/history include relevant city names; engine keys and saved actions unchanged."
+    },
+    {
+      "id": "council-pledge-feedback",
+      "status": "fixed-pending-final-browser-check",
+      "scope": "Historical vote feedback distinguishes commitments from later delivery; UI-only formatter."
+    },
+    {
+      "id": "friction-coating-label-overlap",
+      "status": "fixed-pending-final-browser-check",
+      "scope": "Neighboring μ labels overlap on close coatings; no physics or input change authorized."
+    },
+    {
+      "id": "war-primary-hover-contrast",
+      "status": "fixed-pending-deployed-computed-style-check",
+      "scope": "CSS-only enabled hover/focus foreground/background; disabled styling and focus outline retained. Static cascade contrasts pass; actual computed styles remain separate."
+    }
+  ],
+  "knownNonBlockingLimitations": [
+    {
+      "id": "final-wishes-self-reference-copy",
+      "classification": "minor nonblocking copy limitation",
+      "detail": "When a clause links to itself, the chapter relationship text repeats that clause and mentions differing interpretations even though there is no distinct second clause. Rules, choices, costs and certified outcomes are unaffected. Explicitly excluded from this five-finding correction."
+    },
+    {
+      "id": "empty-photo-recent-log-aria-live",
+      "classification": "nonblocking accessibility status limitation",
+      "detail": "The sr-only aria-live status may repeat the most recent rescue log after later movement. Visible text is correctly labeled as recent records; behavior is unchanged by this correction."
+    }
+  ],
+  "proofCarryforward": "All original engines, level corpora, witnesses, release reports and manifests remain byte-identical to published PR25. Current affected checks use temporary metadata overlays; unchanged full-release proofs are reused by exact byte preservation.",
+  "claims": {
+    "allGameEngineProofsFreshlyRerun": false,
+    "browserPostFixComplete": false,
+    "uploaded": false,
+    "merged": false
+  }
+}
