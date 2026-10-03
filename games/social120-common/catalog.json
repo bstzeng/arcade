@@ -1,0 +1,722 @@
+[
+  {
+    "id": "night-werewolf",
+    "title": "夜行狼人鎮",
+    "description": "白天交換證言，夜晚運用能力，守住小鎮。",
+    "icon": "☾",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/night-werewolf.html",
+    "entry": "games/night-werewolf.html",
+    "engine": "games/night-werewolf/engine.js",
+    "levels": "games/night-werewolf/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-night-werewolf",
+    "artFile": "games/night-werewolf/art.svg",
+    "artPath": "./games/night-werewolf/art.svg",
+    "cover": "./games/night-werewolf/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/night-werewolf/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "station-impostor",
+    "title": "太空站內鬼",
+    "description": "在損壞與氧氣倒數中修復太空站，追查破壞紀錄。",
+    "icon": "✧",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/station-impostor.html",
+    "entry": "games/station-impostor.html",
+    "engine": "games/station-impostor/engine.js",
+    "levels": "games/station-impostor/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-station-impostor",
+    "artFile": "games/station-impostor/art.svg",
+    "artPath": "./games/station-impostor/art.svg",
+    "cover": "./games/station-impostor/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/station-impostor/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "word-undercover",
+    "title": "詞語臥底",
+    "description": "描述同中有異的詞，從細節辨識臥底。",
+    "icon": "言",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/word-undercover.html",
+    "entry": "games/word-undercover.html",
+    "engine": "games/word-undercover/engine.js",
+    "levels": "games/word-undercover/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-word-undercover",
+    "artFile": "games/word-undercover/art.svg",
+    "artPath": "./games/word-undercover/art.svg",
+    "cover": "./games/word-undercover/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/word-undercover/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "resistance-squad",
+    "title": "抵抗小隊",
+    "description": "組隊、表決與秘密任務，找出值得信任的隊友。",
+    "icon": "⚑",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/resistance-squad.html",
+    "entry": "games/resistance-squad.html",
+    "engine": "games/resistance-squad/engine.js",
+    "levels": "games/resistance-squad/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-resistance-squad",
+    "artFile": "games/resistance-squad/art.svg",
+    "artPath": "./games/resistance-squad/art.svg",
+    "cover": "./games/resistance-squad/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/resistance-squad/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "authentic-collector",
+    "title": "真假收藏家",
+    "description": "觀察說詞、驗看拍品，用有限籌碼競標真品。",
+    "icon": "◈",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/authentic-collector.html",
+    "entry": "games/authentic-collector.html",
+    "engine": "games/authentic-collector/engine.js",
+    "levels": "games/authentic-collector/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-authentic-collector",
+    "artFile": "games/authentic-collector/art.svg",
+    "artPath": "./games/authentic-collector/art.svg",
+    "cover": "./games/authentic-collector/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/authentic-collector/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "traitor-caravan",
+    "title": "背叛者商隊",
+    "description": "分配補給與護衛，在秘密破壞中把貨物送達。",
+    "icon": "▱",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/traitor-caravan.html",
+    "entry": "games/traitor-caravan.html",
+    "engine": "games/traitor-caravan/engine.js",
+    "levels": "games/traitor-caravan/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-traitor-caravan",
+    "artFile": "games/traitor-caravan/art.svg",
+    "artPath": "./games/traitor-caravan/art.svg",
+    "cover": "./games/traitor-caravan/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/traitor-caravan/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "fake-painter",
+    "title": "假畫家",
+    "description": "每人輪流落筆，找出不知主題的畫家。",
+    "icon": "✎",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/fake-painter.html",
+    "entry": "games/fake-painter.html",
+    "engine": "games/fake-painter/engine.js",
+    "levels": "games/fake-painter/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-fake-painter",
+    "artFile": "games/fake-painter/art.svg",
+    "artPath": "./games/fake-painter/art.svg",
+    "cover": "./games/fake-painter/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/fake-painter/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "alibi-interrogation",
+    "title": "不在場證明",
+    "description": "分開盤問搭檔，比對時間、地點與細節。",
+    "icon": "⌕",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/alibi-interrogation.html",
+    "entry": "games/alibi-interrogation.html",
+    "engine": "games/alibi-interrogation/engine.js",
+    "levels": "games/alibi-interrogation/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-alibi-interrogation",
+    "artFile": "games/alibi-interrogation/art.svg",
+    "artPath": "./games/alibi-interrogation/art.svg",
+    "cover": "./games/alibi-interrogation/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/alibi-interrogation/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "anonymous-orders",
+    "title": "匿名密令",
+    "description": "暗中完成自己的任務，利用假動作隱藏意圖。",
+    "icon": "✉",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/anonymous-orders.html",
+    "entry": "games/anonymous-orders.html",
+    "engine": "games/anonymous-orders/engine.js",
+    "levels": "games/anonymous-orders/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-anonymous-orders",
+    "artFile": "games/anonymous-orders/art.svg",
+    "artPath": "./games/anonymous-orders/art.svg",
+    "cover": "./games/anonymous-orders/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/anonymous-orders/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "hidden-king",
+    "title": "隱藏國王",
+    "description": "偵查、護衛與偽裝，讓真正的國王安全度過夜晚。",
+    "icon": "♛",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/hidden-king.html",
+    "entry": "games/hidden-king.html",
+    "engine": "games/hidden-king/engine.js",
+    "levels": "games/hidden-king/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-hidden-king",
+    "artFile": "games/hidden-king/art.svg",
+    "artPath": "./games/hidden-king/art.svg",
+    "cover": "./games/hidden-king/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/hidden-king/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "mist-expedition",
+    "title": "迷霧探險隊",
+    "description": "拼合分散的地圖，辨識假指路並帶隊穿過迷霧。",
+    "icon": "△",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/mist-expedition.html",
+    "entry": "games/mist-expedition.html",
+    "engine": "games/mist-expedition/engine.js",
+    "levels": "games/mist-expedition/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-mist-expedition",
+    "artFile": "games/mist-expedition/art.svg",
+    "artPath": "./games/mist-expedition/art.svg",
+    "cover": "./games/mist-expedition/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/mist-expedition/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "intelligence-exchange",
+    "title": "情報交易所",
+    "description": "談判交換情報，驗證真偽，拼出完整密碼。",
+    "icon": "⇄",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/intelligence-exchange.html",
+    "entry": "games/intelligence-exchange.html",
+    "engine": "games/intelligence-exchange/engine.js",
+    "levels": "games/intelligence-exchange/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-intelligence-exchange",
+    "artFile": "games/intelligence-exchange/art.svg",
+    "artPath": "./games/intelligence-exchange/art.svg",
+    "cover": "./games/intelligence-exchange/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/intelligence-exchange/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "secret-covenant",
+    "title": "秘密盟約",
+    "description": "締結盟約、履行或背叛，爭取最終議會支持。",
+    "icon": "⚭",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/secret-covenant.html",
+    "entry": "games/secret-covenant.html",
+    "engine": "games/secret-covenant/engine.js",
+    "levels": "games/secret-covenant/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-secret-covenant",
+    "artFile": "games/secret-covenant/art.svg",
+    "artPath": "./games/secret-covenant/art.svg",
+    "cover": "./games/secret-covenant/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/secret-covenant/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "monster-masquerade",
+    "title": "怪物偽裝客",
+    "description": "詢問訪客、觀察習慣與檢測反應，守住城門。",
+    "icon": "◉",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/monster-masquerade.html",
+    "entry": "games/monster-masquerade.html",
+    "engine": "games/monster-masquerade/engine.js",
+    "levels": "games/monster-masquerade/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-monster-masquerade",
+    "artFile": "games/monster-masquerade/art.svg",
+    "artPath": "./games/monster-masquerade/art.svg",
+    "cover": "./games/monster-masquerade/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/monster-masquerade/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  },
+  {
+    "id": "majority-trap",
+    "title": "多數派陷阱",
+    "description": "投票規則每輪改變，預測群體並衡量押注。",
+    "icon": "◎",
+    "category": "expansion",
+    "primaryCategory": "social",
+    "status": "ready",
+    "url": "./games/majority-trap.html",
+    "entry": "games/majority-trap.html",
+    "engine": "games/majority-trap/engine.js",
+    "levels": "games/majority-trap/levels.json",
+    "challenges": 100,
+    "levelBased": true,
+    "levelRecordPath": [],
+    "levelCount": 100,
+    "controller": "games/social120-common/ui.js",
+    "ai": {
+      "kind": "local-rule-based-role-bots",
+      "policy": "Game-specific deterministic policy using own role/card/evidence and public history. No external LLM.",
+      "information": "Role-filtered E.view(state, actor); never full hidden state."
+    },
+    "distinctness": {
+      "method": "Canonical initial public/secret world and operative policy action trace, excluding seed, level ID, names in action labels and cosmetic metadata; fake-painter excludes inactive actors guess biases.",
+      "evidencePath": "games/social120-common/verification-report.json"
+    },
+    "badge": "100 情境 · AI／熱座",
+    "art": "social120-majority-trap",
+    "artFile": "games/majority-trap/art.svg",
+    "artPath": "./games/majority-trap/art.svg",
+    "cover": "./games/majority-trap/art.svg",
+    "color": "#c5b4ea",
+    "background": "#302a44",
+    "word": "SOCIAL CLUB",
+    "note": "推理 × 私密角色",
+    "proof": {
+      "kind": "fixed-opponent-witness",
+      "claim": "固定情境、固定規則機器人下的完整合法成功路徑；非通用必勝策略。",
+      "path": "games/majority-trap/proof.json",
+      "recordPath": [
+        "records"
+      ],
+      "requiredField": "verified",
+      "requiredValue": true,
+      "embeddedField": "witness"
+    },
+    "browserQA": "not-run"
+  }
+]
