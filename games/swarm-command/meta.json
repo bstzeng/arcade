@@ -1,0 +1,24 @@
+{
+  "id": "swarm-command",
+  "title": "蜂群指令所",
+  "proposal": "編寫共同規則，讓小蜂自行分工採集並避免塞車。",
+  "icon": "🐝",
+  "category": "code",
+  "tagline": "一份規則，一整群默契",
+  "tutorial": "所有小蜂都遵守同一份程式。SELECT 決定找近花（NEAR）、多花蜜（LARGE）或依編號輪流（ROUND）。RESERVE ON 會預約花朵，避免同時採集相撞。CARRY 是每趟搬運量（1–3）；YIELD ID／ROTATE 決定同拍排程順序。收集所有花蜜、零碰撞並在期限內回巢。",
+  "palette": [
+    "SELECT NEAR",
+    "SELECT LARGE",
+    "SELECT ROUND",
+    "RESERVE ON",
+    "RESERVE OFF",
+    "CARRY 1",
+    "CARRY 2",
+    "CARRY 3",
+    "YIELD ID",
+    "YIELD ROTATE"
+  ],
+  "model": "Discrete shared-policy agent simulation, exclusive flower reservations, flight/work timers, cargo and fixed deadline.",
+  "challengeCount": 100,
+  "limitations": "教學用離散模型；提示與參考解答為確定性輔助，不是 AI 對手。"
+}
