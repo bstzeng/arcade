@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 0
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "001 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "002 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "003 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "004 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "005 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "006 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "007 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 4
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "008 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "009 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "010 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "011 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "012 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "013 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "014 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "015 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "016 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "017 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "018 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 0
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "019 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "020 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "021 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 0
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "022 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "023 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "024 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "025 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "026 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "027 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "028 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "029 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "030 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 0
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "031 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "032 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "033 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "034 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "035 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 0
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "036 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "037 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "038 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "039 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "040 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "041 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "042 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "043 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 4
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "044 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "045 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "046 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "047 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "048 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "049 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "050 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 4
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "051 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 5
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "052 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 4
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "053 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 0
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "054 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "055 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 0
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "056 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 4
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "057 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "058 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "059 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 4
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "060 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 5
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "061 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "062 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "063 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "064 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "065 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "066 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 4
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "067 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "068 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 5
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "069 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "070 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "071 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 5
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "072 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "073 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "074 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 0
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 4
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "075 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "076 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 1
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "077 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "078 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "079 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 0
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "080 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "081 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 3
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "082 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "083 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 1
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "084 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 0
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "085 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "086 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "087 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 4
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "088 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 0
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "089 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 2
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "090 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "091 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 2
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "092 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 0
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "093 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 3
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "094 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 0
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 3
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "095 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自的界線"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 1
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "096 · 各自的界線",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 3
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      }
+    ],
+    "premise": "三件不能隨意轉述的事，藏在六次看似平常的會面裡。",
+    "title": "097 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "trust",
+        "label": "保留的信任",
+        "value": 3
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求你說出姓名，也有人只需要知道如何提供協助。",
+    "title": "098 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "尚未取得同意"
+      },
+      {
+        "key": "consent",
+        "label": "有限協作同意",
+        "value": 0
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      }
+    ],
+    "premise": "沉默能保護界線，也可能令一段關係暫時疏遠。",
+    "title": "099 · 尚未取得同意",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人共同守約"
+      },
+      {
+        "key": "silent",
+        "label": "保持沉默的次數",
+        "value": 2
+      },
+      {
+        "key": "knowledge",
+        "label": "完整秘密的知情關係",
+        "value": 0
+      }
+    ],
+    "premise": "你可以回答、保留或有限轉述，但別人只能傳出已知道的部分。",
+    "title": "100 · 有人共同守約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "「有人需要協助」不會揭露日期、地點或姓名。先得到有限同意，再決定是否回答，能與直接說出全部真相產生不同關係。"
+  }
+]

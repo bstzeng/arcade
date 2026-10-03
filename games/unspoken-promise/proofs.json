@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "keeper:2"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "silence",
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "silence",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "relay",
+      "answer",
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "silence",
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "relay",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "answer",
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "silence",
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "relay",
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "silence",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "silence",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "answer",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:2"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "silence",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "keeper:2"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "relay",
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:2"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "relay",
+      "answer",
+      "answer",
+      "answer",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "relay",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "silence",
+      "keeper:2"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "relay",
+      "relay",
+      "answer",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "answer",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "keeper:2"
+    ],
+    "alternate": [
+      "relay",
+      "relay",
+      "relay",
+      "answer",
+      "relay",
+      "answer",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "relay",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "relay",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "relay",
+      "relay",
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "answer",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "silence",
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "answer",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "answer",
+      "keeper:1"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "silence",
+      "answer",
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "relay",
+      "relay",
+      "answer",
+      "relay",
+      "answer",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "answer",
+      "answer",
+      "silence",
+      "answer",
+      "relay",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "answer",
+      "relay",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "answer",
+      "silence",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "keeper:2"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "answer",
+      "answer",
+      "answer",
+      "answer",
+      "answer",
+      "silence",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "answer",
+      "answer",
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "answer",
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "answer",
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "answer",
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "silence",
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "answer",
+      "answer",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "relay",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "silence",
+      "silence",
+      "keeper:1"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "silence",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "answer",
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "relay",
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "answer",
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "answer",
+      "answer",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "answer",
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "silence",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "silence",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "answer",
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "relay",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "keeper:1"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "answer",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "answer",
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "answer",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "answer",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "silence",
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "relay",
+      "relay",
+      "relay",
+      "relay",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "answer",
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "answer",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "relay",
+      "answer",
+      "silence",
+      "answer",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "silence",
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "relay",
+      "keeper:1"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "answer",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "relay",
+      "relay",
+      "relay",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "silence",
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "answer",
+      "answer",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "answer",
+      "relay",
+      "answer",
+      "relay",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "answer",
+      "silence",
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "silence",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "relay",
+      "relay",
+      "silence",
+      "silence",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "relay",
+      "silence",
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "relay",
+      "answer",
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "answer",
+      "silence",
+      "answer",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "silence",
+      "relay",
+      "answer",
+      "relay",
+      "silence",
+      "relay",
+      "apart"
+    ],
+    "alternate": [
+      "answer",
+      "silence",
+      "relay",
+      "relay",
+      "silence",
+      "relay",
+      "apart"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "alternate": [
+      "relay",
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "relay",
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "answer",
+      "silence",
+      "keeper:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "silence",
+      "silence",
+      "answer",
+      "answer",
+      "relay",
+      "answer",
+      "keeper:1"
+    ],
+    "alternate": [
+      "answer",
+      "answer",
+      "answer",
+      "silence",
+      "silence",
+      "answer",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "relay",
+      "silence",
+      "relay",
+      "silence",
+      "relay",
+      "relay",
+      "keeper:0"
+    ],
+    "alternate": [
+      "relay",
+      "silence",
+      "relay",
+      "relay",
+      "relay",
+      "silence",
+      "keeper:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]
