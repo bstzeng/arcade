@@ -1,0 +1,1092 @@
+{
+  "schemaVersion": 1,
+  "family": "fighting",
+  "status": "offline-verified-awaiting-independent-and-browser-qa",
+  "catalog": "games/duel120-common/catalog.json",
+  "games": [
+    {
+      "id": "magnet-gauntlet",
+      "title": "磁力拳套擂台",
+      "entry": "games/magnet-gauntlet.html",
+      "directory": "games/magnet-gauntlet",
+      "engine": "games/magnet-gauntlet/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/magnet-gauntlet/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/magnet-gauntlet/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/magnet-gauntlet/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 切換磁極吸近或推開對手，把金屬邊柱與位移接進連段。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "salvage-mech-duel",
+      "title": "機甲零件決鬥",
+      "entry": "games/salvage-mech-duel.html",
+      "directory": "games/salvage-mech-duel",
+      "engine": "games/salvage-mech-duel/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/salvage-mech-duel/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/salvage-mech-duel/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/salvage-mech-duel/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 拆卸敵方武裝，撿起零件裝到自己身上，重量與攻擊方式隨裝備改變。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "shadow-samurai",
+      "title": "影子武士交鋒",
+      "entry": "games/shadow-samurai.html",
+      "directory": "games/shadow-samurai",
+      "engine": "games/shadow-samurai/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/shadow-samurai/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/shadow-samurai/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/shadow-samurai/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 移動光源拉長影子，讓本體與影子從不同位置出刀。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "chain-hammer",
+      "title": "鎖鏈巨錘競技",
+      "entry": "games/chain-hammer.html",
+      "directory": "games/chain-hammer",
+      "engine": "games/chain-hammer/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/chain-hammer/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/chain-hammer/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/chain-hammer/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 甩錘累積角動量，收放鏈長改變半徑，把落空的慣性接成追擊。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "folding-weapon",
+      "title": "折疊武器武館",
+      "entry": "games/folding-weapon.html",
+      "directory": "games/folding-weapon",
+      "engine": "games/folding-weapon/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/folding-weapon/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/folding-weapon/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/folding-weapon/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 盾、長棍與雙刃互相變形，取消收招後接出另一種攻勢。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "glass-fist",
+      "title": "玻璃拳刃擂台",
+      "entry": "games/glass-fist.html",
+      "directory": "games/glass-fist",
+      "engine": "games/glass-fist/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/glass-fist/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/glass-fist/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/glass-fist/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 拳刃破碎成地面陷阱，推人踩入碎片，再回收重鑄。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "breathing-boxer",
+      "title": "呼吸拳法修練場",
+      "entry": "games/breathing-boxer.html",
+      "directory": "games/breathing-boxer",
+      "engine": "games/breathing-boxer/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/breathing-boxer/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/breathing-boxer/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/breathing-boxer/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 吸氣蓄力與防守，吐氣連拳；把氣息留給反擊窗口。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "wall-gravity-duel",
+      "title": "壁面翻轉鬥場",
+      "entry": "games/wall-gravity-duel.html",
+      "directory": "games/wall-gravity-duel",
+      "engine": "games/wall-gravity-duel/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/wall-gravity-duel/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/wall-gravity-duel/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/wall-gravity-duel/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 觸牆後把重力轉向牆面，再從側壁或天花板俯衝連擊。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "shared-pole-duel",
+      "title": "奪柄雙人決鬥",
+      "entry": "games/shared-pole-duel.html",
+      "directory": "games/shared-pole-duel",
+      "engine": "games/shared-pole-duel/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/shared-pole-duel/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/shared-pole-duel/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/shared-pole-duel/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 雙方共握一把長柄武器，推拉與換握爭奪支點，控制權決定攻擊威力。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "ribbon-grapple",
+      "title": "布帶纏鬥場",
+      "entry": "games/ribbon-grapple.html",
+      "directory": "games/ribbon-grapple",
+      "engine": "games/ribbon-grapple/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/ribbon-grapple/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/ribbon-grapple/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/ribbon-grapple/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 布帶纏住四肢限制招式；纏得太多也會束住自己的動作。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "weighted-armor",
+      "title": "重甲重心格鬥",
+      "entry": "games/weighted-armor.html",
+      "directory": "games/weighted-armor",
+      "engine": "games/weighted-armor/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/weighted-armor/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/weighted-armor/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/weighted-armor/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 切換前後配重，運用肩撞和踢擊慣性，把對手逼到失衡倒地。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "delayed-echo-fist",
+      "title": "延遲拳影擂台",
+      "entry": "games/delayed-echo-fist.html",
+      "directory": "games/delayed-echo-fist",
+      "engine": "games/delayed-echo-fist/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/delayed-echo-fist/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/delayed-echo-fist/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/delayed-echo-fist/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 拳影兩秒後在原地重現，先布置攻擊，再把對手推入舊拳影。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "async-arms",
+      "title": "雙臂異步拳手",
+      "entry": "games/async-arms.html",
+      "directory": "games/async-arms",
+      "engine": "games/async-arms/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/async-arms/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/async-arms/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/async-arms/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 左右手分別蓄力與冷卻，快拳插進重拳空檔，空手還能防守。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "element-contact",
+      "title": "元素沾染武鬥",
+      "entry": "games/element-contact.html",
+      "directory": "games/element-contact",
+      "engine": "games/element-contact/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/element-contact/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/element-contact/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/element-contact/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 依命中次序疊加火、水、雷、冰，讓殘留元素引發不同反應。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "canonicalGeometryCount"
+        ]
+      }
+    },
+    {
+      "id": "sculpted-arena",
+      "title": "擂台雕刻師",
+      "entry": "games/sculpted-arena.html",
+      "directory": "games/sculpted-arena",
+      "engine": "games/sculpted-arena/engine.js",
+      "engineImplementation": "games/duel120-common/engine.js",
+      "controller": "games/duel120-common/ui.js",
+      "renderer": "games/duel120-common/render.js",
+      "artFile": "games/sculpted-arena/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/sculpted-arena/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/sculpted-arena/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-action-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 legal fixed-60-Hz control traces win after satisfying the weapon-specific technique, any explicit defense objective, and a physical KO. Challenges lock to disclosed training AI with 28-tick observations and 22-tick decisions. Existence only, not unique or a forced win against free hard AI/humans. Packed [ticks,[x,y,buttonMask]] segments map losslessly to four simultaneous public buttons and a bounded analog vector."
+      },
+      "uiWitnessMapping": "Analog joystick/keyboard and J/K/L/Space (P2 arrows/N/M/comma/period). The public paused precision form exposes x,y in [-1,1], each of four button flags, and 1–600 fixed ticks. Tests map every trace segment through Controls.form and replay first/middle/last. Hints/demos remain assisted across reset/reload.",
+      "semanticDiversity": "100 unique collision-rectangle configurations under horizontal/vertical reflection normalization, plus engine-consumed start positions, encounter timing/guards, health, technique count, and ten defense tasks; 重擊挖低地板，把碎石堆成坡；利用自己做出的高低差接招。",
+      "ai": {
+        "role": "symmetric legal-action duel opponent",
+        "observations": "Delayed snapshots of public fighter positions, health, stamina, visible windups, equipment, stance and own resources; fixed arena geometry. Decisions precede the current player input. No future-input or witness access.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Free mode only. Easy 28-tick observation /22-tick planning, simple pursuit; normal 14/12 with observed-windup defense; hard 6/6 with closer spacing, guard avoidance and additional weapon planning. Health, movement formulas, stamina and damage unchanged. Local mode disables AI."
+      },
+      "verificationEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "path": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "canonicalGeometryCount"
+        ],
+        "method": "reflection-normalized collision geometry, excluding IDs/colors/seeds/names"
+      },
+      "distinctness": {
+        "method": "separate engine weapon handler with live causal state; mechanic regression fixture",
+        "evidencePath": "games/duel120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "canonicalGeometryCount"
+        ]
+      }
+    }
+  ],
+  "commands": [
+    [
+      "node",
+      "games/duel120-common/verify-all.cjs"
+    ]
+  ],
+  "freshReports": [
+    "games/duel120-common/verification-report.json"
+  ],
+  "sourceFiles": {
+    "games/async-arms.html": "a79893c53394beb9ad0d6271946b828ce7508e2a30bb99808a79726d874b8b10",
+    "games/async-arms/README.md": "4abe1b5a8456d808c605744ee73a93d97b8d18ed8d39951a3dfbb9601c65f390",
+    "games/async-arms/art.svg": "f58c576b77f2c5857243876425095ac96ab43cb2d0c6e631b02cf4219532722c",
+    "games/async-arms/engine.js": "87086d7deb888cd52c796884017548ff410a395c68f7686df4bd258904db3534",
+    "games/async-arms/levels.js": "5edf4d12184bd08ce426df7da11b4fc123cf77317075b74390ddfd38fe6bdf1a",
+    "games/async-arms/levels.json": "c934fc4459dbedbb99d83f19f95527efee8aa01d3c0b31cec3da823c733fbd5d",
+    "games/async-arms/proofs.json": "6f0c27ac2733cc0899ab740c74f4201442b2c55dd6e3209bcb7f4b5e1c6955c7",
+    "games/breathing-boxer.html": "f664a8e79f273ee5a5a29891ee4f38f764e9223997f1873dbd4bfe5dbf3c32ad",
+    "games/breathing-boxer/README.md": "8f1d69c67fc1632d6dad3c85f5d9865de57711db39e0200f19cf1684c89bf004",
+    "games/breathing-boxer/art.svg": "fc7f5323a5983b29353317c473a73005d880e7eedbedf2cbe537d7e96dbe963c",
+    "games/breathing-boxer/engine.js": "14397a716f288ca94ae20cd4a252a7f9bc317fc5af84ecaf2ae695618413439e",
+    "games/breathing-boxer/levels.js": "a01e62dc6e111791f4152507f82188e99a137d622ee7af739ddce447b6a3e069",
+    "games/breathing-boxer/levels.json": "93daa7e10b50ac2605e83fd8a502698bad1906aa5e301bd2d59a00228cab9a35",
+    "games/breathing-boxer/proofs.json": "4bd846f497d15c7f35a2ecab0efee202e58ded3dca0a5db856e418f9dd50c6c6",
+    "games/chain-hammer.html": "8377ab653b01b5a6f8ee5dbacddc8feaa80f18d1855953d1d13d9912919bd620",
+    "games/chain-hammer/README.md": "e4942342155ec64b9115ecef31b3dbbb218f04e39dcf19c1f3ab4824fdc30c69",
+    "games/chain-hammer/art.svg": "4401c7c35f3fee858010d9b4e3b82c363827be4bc739b18a8598764a49cf17b4",
+    "games/chain-hammer/engine.js": "996fa13ade11c9c87e7c2d4b5e0daaa22264846c8d833f9c6afd4cdd57351d93",
+    "games/chain-hammer/levels.js": "49104a52999eeb352aefd106318a2126110cf416c87aa3fb28197de57de08e82",
+    "games/chain-hammer/levels.json": "67673f1b5fb42f2dc8f4c2f04c01451d1ae680e9212f8755a22f2dd6d106f9b1",
+    "games/chain-hammer/proofs.json": "a85a91d62778d3a85df2becafe8d28919d50cfd21ec0087b3a7f0e54a750bdb5",
+    "games/delayed-echo-fist.html": "a2efaf4cf15cb10ed658f534d522a72f01983bad7dfe323b6afba95e47620134",
+    "games/delayed-echo-fist/README.md": "6201bc09a413f6f6634def4789fda21f33c92bcd2757e2b2a4c7e3370b43ea33",
+    "games/delayed-echo-fist/art.svg": "2de02d897d0a5976f3628507e5c4f0f4f7023fb4fb8c707c80a23c337f883002",
+    "games/delayed-echo-fist/engine.js": "bee84fa65c95667f241f306f4de32e8725a26225537170249b4244ae2e497eb8",
+    "games/delayed-echo-fist/levels.js": "52b08485e7ed410794f665cc3511ba476a5f7091a2a1cb027272941e2d0e2329",
+    "games/delayed-echo-fist/levels.json": "fe3a5144079aef96f3002adfd2a154714aee646ea4ce87ad8e5796457e7c9b1a",
+    "games/delayed-echo-fist/proofs.json": "a2cfd7efb6f3a904874259d84aa65929707fde3e545be224669eb2fecd6972d5",
+    "games/duel120-common/README.md": "c420b726fd0b6bb0aa330ac80325dbd33459e352dbeb61ebdd4dd33ffe261bda",
+    "games/duel120-common/art.cjs": "0433ae341f5fe5b0ca2181de4a32293014d7be6ab9c71bbd69ffeb152ca07931",
+    "games/duel120-common/canonical.cjs": "c5a7d73d7d6522c1a5ff977b89105e9284f0945e61c2ab7c3e409631a4f1139e",
+    "games/duel120-common/catalog.json": "069c255e340dce50ed66cbcab00222cbf90bbb919ce01f6e6346df015248c191",
+    "games/duel120-common/coach.cjs": "b9157bc1802ca45a3c0c6445f39ac3ca62709b054dfced1c306efc7254d2cb23",
+    "games/duel120-common/controls.js": "968062533a97fbb4e8b0a2634dbe5b5d2e4a86d838cf59215259131725e32cd7",
+    "games/duel120-common/definitions.js": "2cf636f41d9b4325a51a994f02f1fd6b49d9fe7079193c499e2afeff98246e37",
+    "games/duel120-common/dom-test.cjs": "07fe511cfb2ccd5ec5d436d88fd78f2250e9eeebb0d844edef454f9b4b1a8e59",
+    "games/duel120-common/engine.js": "87a9c2b94db2bb89323da7f86f9031de881e566bdb04b06474c3789807dd5b76",
+    "games/duel120-common/finalize.cjs": "d9fc8fd7bad0517e96e2d12ebd32f7cb98c870ea905bb6a42a15e2cc644efac7",
+    "games/duel120-common/fuzz-test.cjs": "175c4f6f7776815abcf80281465be2e80d7f749084ffa8c654e6defa1a67deaf",
+    "games/duel120-common/generate.cjs": "2cffc2d1ae53a4670ab5e7fee0db82796818532f0f17ac1a8aa0a051364c1aa2",
+    "games/duel120-common/mechanics-test.cjs": "fd0f88de64713b7924ab2c50f5f6de5bf4d7130172354aaa81c9af49cdcb420d",
+    "games/duel120-common/render.js": "ae4bfc795854458e589fade2ee234b93b77fe3ea10537b1486e9f1b6cdb1361c",
+    "games/duel120-common/scaffold.cjs": "756dc2f0d83b3ba6f1a0762c6664754338764c479c993831750f253fcf5bcef8",
+    "games/duel120-common/session.js": "c4b4ae22021b9b80e95da6dd47c7fd8a6ae0eb52dd6814ae5f430cc140415834",
+    "games/duel120-common/style.css": "bf1688ea42d871d5ac6f499d29d60614524c37d16c43517e6bf8258cfb81fbc3",
+    "games/duel120-common/ui.js": "df784b0666aac9568ce08061037f4258cb567f57e320fc21c80adfdbb62a4ec9",
+    "games/duel120-common/verify-all.cjs": "e30cc30c51bff64cbbcbe382a163cce59316e2fa674109ccdf78265420abf8f1",
+    "games/element-contact.html": "acf974293ef8731b1b3598ac6277d8d6b2603eaecda367aa267ac846df697c35",
+    "games/element-contact/README.md": "686e1608a31cb4f27544bdd22beb2a76f4efdd221941538d7a05165d50d26d0c",
+    "games/element-contact/art.svg": "103d22b900c8778bcd85f0d323f823d2c8c4cbd7ee4373dc4f28eb611f24e6b5",
+    "games/element-contact/engine.js": "35b05606e38f3c3ce3423a12e11cfc40be1cad151a5263c2e15cd67beaba90f8",
+    "games/element-contact/levels.js": "85ff5bd82e585e68c6020154c4f3faf985c7e857520ce416a77462c60bd74d84",
+    "games/element-contact/levels.json": "7bcaa9e35130d32e1b0caa28e8c05b51a26fcee5a1d79de91c3c825900974452",
+    "games/element-contact/proofs.json": "307ea1d44700a0a61cf16470fdb6cbafdc3bd5564b4422f9794507e67649a31f",
+    "games/folding-weapon.html": "e07131e448b1ed67cfebdfda0fd0076872b0c127f4070662dfcd9d7048684d4a",
+    "games/folding-weapon/README.md": "dd47c0863e9d0432f4f54f7c9266df20b39f78582e3b93b1134aa919ab8df720",
+    "games/folding-weapon/art.svg": "a25599ef7a57c4eb5f27ce569f4a4123ba6040961c27b9a493d66989de7bc2ca",
+    "games/folding-weapon/engine.js": "76c8d4657ec411427e46560c15bcc6da81ec71133b707119cb308884bd9e1ea8",
+    "games/folding-weapon/levels.js": "e420680e31c357e50b5e32ba622130f0d0aa415afa60ae7c19fcce2973563be6",
+    "games/folding-weapon/levels.json": "6c74b16f5fab3d2cf71f5fb1bfeb22a9989650765ed1e7c20d2ce02c6dde4483",
+    "games/folding-weapon/proofs.json": "ab825e598415d63840828e4a22eb93652b2443c2af2c498801502668951db6fe",
+    "games/glass-fist.html": "006ff12459ece622f33b314eef191e31f14d0b300fb3b5ed6693c12f81a8deba",
+    "games/glass-fist/README.md": "a641de3f9b629d39828519b75eadb510597b7a13fbe468714e79b1871d967c93",
+    "games/glass-fist/art.svg": "f827e7436a3b745c761218f1b3634bd8e8f77c2b1cd12db8cbc886f80cce2420",
+    "games/glass-fist/engine.js": "90b2494f4db709fa4b72f08d9f92c815afddf0eadc1e5feeb9aacee22cf08a0f",
+    "games/glass-fist/levels.js": "c0555dfb792632454e8f3da16fafefda9b2d20c515421af2ed6d449d9bad8526",
+    "games/glass-fist/levels.json": "4b203b00d53d4f1415e678c5e072d4bfb8976dd8dff631ef1fb392ac700bd495",
+    "games/glass-fist/proofs.json": "ad94c4cc040591f368404742e3219eb49b982ed9897cebefd6607840cc021dc7",
+    "games/magnet-gauntlet.html": "b0e1bfcfbb731217dc7177594bd373da3a07dcdee25001246a322c5cad670b43",
+    "games/magnet-gauntlet/README.md": "d902b306fdf6ff63f5fc66906b33a509a967e1e7bd35c003590371bd2d504188",
+    "games/magnet-gauntlet/art.svg": "7e6e9edb55097ae1313e119f23eff29bb4ff1b7a16e1c9b39483cb95b549a72a",
+    "games/magnet-gauntlet/engine.js": "225914b70d12c1d6dbde9df5fca543b07975788d9320936893ac41c4835eed0f",
+    "games/magnet-gauntlet/levels.js": "be42dd003b5c64e7d09cca0c5cda923d926b4b28da9fbbdf1adbdc6e857542ac",
+    "games/magnet-gauntlet/levels.json": "db79aa410fa7991e973b93c78272c82f5ff78a52a75c8f8a832ce7610cbc9dc9",
+    "games/magnet-gauntlet/proofs.json": "6596bdd3274e1b767c0f1f6b0871066e2951345e906061a0bbebdf152c2a3fae",
+    "games/ribbon-grapple.html": "b87c6beda7c909c3f72bc4f356c4a7b78a5b19f9667acdbe6ca1270cc6428207",
+    "games/ribbon-grapple/README.md": "fc716b559d95e046338baaab4f101ba7505afd939e9569897bf3fc37ecc80e72",
+    "games/ribbon-grapple/art.svg": "e644dbac7e782f3370eaae6f90ea7836452b5b16acd32447bb687f257d3f2a72",
+    "games/ribbon-grapple/engine.js": "780044e0c32e345c3c121c70a5ad8c12fac2a3e82633f6c46eaf760449fcc5e5",
+    "games/ribbon-grapple/levels.js": "f48a735d544beecffd1804e5f33de949e90e0b9e602afb8b4fc66b4f3c7e9271",
+    "games/ribbon-grapple/levels.json": "fb4542c8ad941a603270808b0baa7253757e8063d057f881a5ec7c2f38eba2f5",
+    "games/ribbon-grapple/proofs.json": "d0df5999c8c8957dd6c8e89afb84faa613baccba1c8c15cb778d53be0c9dc201",
+    "games/salvage-mech-duel.html": "03454230b6da07db0ff3bfbe03dfe4b0c0cb4bcc8f3bdb7659c37fc373e41e34",
+    "games/salvage-mech-duel/README.md": "d6066d7ebefa86d15f6965eaadf4cc25f32b87cb9bbedb0ed65c29561973aeeb",
+    "games/salvage-mech-duel/art.svg": "b37466f8dce4d06a88f9739939ce2e3918fd9baec67c719b89f581e10e2b7d0e",
+    "games/salvage-mech-duel/engine.js": "31e4806579c1a10ef2a0c40a3d212aede0a6c7ca895049231e2ff2a259c3729d",
+    "games/salvage-mech-duel/levels.js": "966cbfe28e71be9ab8ba1efa30981742c4df9760ca675cacf0903479372e441e",
+    "games/salvage-mech-duel/levels.json": "4e2348ef5a8358e2fec587f4ba9c97cead5d7ee4eeefe79f9d2eb2cc13da64e7",
+    "games/salvage-mech-duel/proofs.json": "8a10f620d8b400e5b9cdd197fd713402f36c73be4428282e44d61bb61fadff9e",
+    "games/sculpted-arena.html": "4c5110f8c67b719d8b3aaa15ea1219b06f754739c68eb6fdec98ec461df38bde",
+    "games/sculpted-arena/README.md": "3c217e59aee34abe632eea340d587504490f8ef3823340a358581d19e3129ce5",
+    "games/sculpted-arena/art.svg": "5c8a402af7a92f8d2604553ab3aa582f80456f4f325449eeaf43e24c21f49f60",
+    "games/sculpted-arena/engine.js": "311bd72adce3ade17007375772696d07423ee4939acc65781b0d038778478ddc",
+    "games/sculpted-arena/levels.js": "fcd58af3b34ae5e9819618db07d43f1e43b16f04a3f59217074b328a3c5bbfa4",
+    "games/sculpted-arena/levels.json": "72fc8fdfaa1220dfcdfe392a9bd5f96b78a2ce9b5dcc2125b87b271a1084f6fd",
+    "games/sculpted-arena/proofs.json": "15d54c93013dd0ccd1e42f13f8d1b0929c868bbb08703a79a10f9f4c4760349e",
+    "games/shadow-samurai.html": "5b8c042b716778d42fcfd5264f98ada5eef10775e36d19bb46b854d73e94258b",
+    "games/shadow-samurai/README.md": "b83a853ed3da4d9804ba3c48567339ad91809861bf504add1422490e6394b568",
+    "games/shadow-samurai/art.svg": "6f5c602224a6ccd1da576a6ec4dfbffa014cbb90f49003c89bfbffea9ea826df",
+    "games/shadow-samurai/engine.js": "5732ecf7be3ad6132ed46c2d75329fcd8a42a54a2c0f7d51302484e412f3fd3e",
+    "games/shadow-samurai/levels.js": "ce64a77250dc9758340b97d3277656187775be12ebacbb29c21daa1c9415085d",
+    "games/shadow-samurai/levels.json": "3ace01144316b9f10f96d6e208c97b708050b83159c518e66eb2a6d9ebd2d9c9",
+    "games/shadow-samurai/proofs.json": "5a67fcbe35a41e06968586b026a2c405324f1e0b4741acc5d266c42c2db8a8a1",
+    "games/shared-pole-duel.html": "22c2a4a412796c2232ae63b4691574e5e2cafee935397023a3446084f8117c3a",
+    "games/shared-pole-duel/README.md": "0078ae595331224c0aee9800429a802e2d168b99f1537b6b17177561ffbda907",
+    "games/shared-pole-duel/art.svg": "49191348f70af47134b78d748c1ee44eb029245c3d83c31ec19efd093c82cf66",
+    "games/shared-pole-duel/engine.js": "bbdd5761e707b01f85020dda3856b363b44f66c7ae26a47e91d0d9cb9b524d97",
+    "games/shared-pole-duel/levels.js": "6771ca8a2dab896dc2952573cee382dea2ae72adbd9fecde9cd0053c35017a79",
+    "games/shared-pole-duel/levels.json": "747a82e802ee57d40b696299d8cbcb271fee2f69facc750174ddf65558e5464c",
+    "games/shared-pole-duel/proofs.json": "d3163465df4fd941b46560f66e71d63ef340bc88407ed94799cc79cf12d24ba2",
+    "games/wall-gravity-duel.html": "47c8595f745241ac1aa4f12c30cf5e91190552fffaae164c2c11baa406d999e0",
+    "games/wall-gravity-duel/README.md": "57e9889af816f7b0a33dca56b99be802706e9ca09b703a5702121833b73bca00",
+    "games/wall-gravity-duel/art.svg": "ec3212c2482024dd1b3ac4898f48dd43d1c78c9825c5add132baf3841eed9a4c",
+    "games/wall-gravity-duel/engine.js": "d0f2dd2ced37505ffe6f3196dcd4bc1bef7e94578774d07c73aa128c1dc9a822",
+    "games/wall-gravity-duel/levels.js": "af2f03c1f6f9463cb5ef6c161062433f39f613af3c974a2bff612d6e40e5e962",
+    "games/wall-gravity-duel/levels.json": "1856eaa0ec64d4a07cc14188684914dc3cff1c72e0b220338045acf4402885d0",
+    "games/wall-gravity-duel/proofs.json": "38748c32e4a731a337cb81cd408a2e9b9dc5bc0d73343db89c665c9f3f7a44a5",
+    "games/weighted-armor.html": "f657c9fe4f5f9cb60e1007c74d00f7126fc2576f7a3e06f2895567fa744e93db",
+    "games/weighted-armor/README.md": "581811c6c717077132194a824d4ca4b4d4695551d686e4e210ff262d89c5f1a5",
+    "games/weighted-armor/art.svg": "0cd7fa72c343dc767798b7e701e80600c025877c1b5fe2c03584a023151314ad",
+    "games/weighted-armor/engine.js": "5e710515b18b57d6618d6ec7deedbd43bd63508401fcb9b6fbb1ef6b17475acc",
+    "games/weighted-armor/levels.js": "ddf244eb18acc846142a73c1edb47f0187df0d3f3bfd692f6663797d9df81041",
+    "games/weighted-armor/levels.json": "695f372224fdb0e35329284b006112c71ce8c9f216cc1478e57ecc692002c6d9",
+    "games/weighted-armor/proofs.json": "f277dbc35580e448731a542846291cdb28447898870b45d8d978e1caa9ba31a7"
+  },
+  "evidenceFiles": {
+    "games/duel120-common/verification-report.json": "0c3afceeca6c37a9764643aca05958a150f8d679dad1e796a15d44e6ab85c86c"
+  },
+  "browserQA": "not run by this builder; root integrator owns real-browser/mobile acceptance"
+}

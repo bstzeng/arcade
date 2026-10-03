@@ -1,0 +1,1296 @@
+{
+  "schemaVersion": 1,
+  "family": "fighting",
+  "status": "passed",
+  "engineVersion": "duel120-1.0.0",
+  "games": [
+    {
+      "id": "magnet-gauntlet",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 38136,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 76,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 58,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 64,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "7f1243c69232688486b50dffd41669f1f838ca283455f317365d28d1b3aebc6e",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 0,
+            "traceHash": "fe01cbd74681ca1fc7fedc6b903696007036441cb183c443578d02632a50b657",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 5,
+            "traceHash": "02c1c4622b36b3f9cdd4f1143c53dea3191999b7983c407321e07b9d1c06ef96",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "salvage-mech-duel",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 41819,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 81,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 79,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 16,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "918859c81ecb2a57ceb2721f52a3ab35310ffe7e9485948e25a881a6fa6b7f4a",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 5,
+            "traceHash": "32ab6f0faab705ae3776c67f025751976470d50197a295c08d18e9fbdbd74872",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 13,
+            "traceHash": "91da9ff804143412db8306bb96aa2fd4860f9023d0996a1dc29101e956ef1176",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "shadow-samurai",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 46127,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 0,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "9f6bce7c3f45ce5c51c1739a82c93d5544797c444082e1008c09874e59ccaef6",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 0,
+            "traceHash": "16ae89dbc5d2b563905388ddc582541e2d1ebb89053a5a52236e454a7aea48d6",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 5,
+            "traceHash": "241dd75059f4cb355ef9dbb6ac87166d01797ee3cc2c7c18a13b09daab0645a9",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "chain-hammer",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 61305,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 14,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "16baea93d1726580ac00fef9a8f6c45803047859b2aace65da09dd0cec426725",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 0,
+            "traceHash": "d250181efb2ae8552cefa4d1e62ee8c4bc3ca2a6a4929786b28f3fcc09c4297e",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 0,
+            "traceHash": "abd2078f9a7bbc835efe5dccc8aa50b4fd440c8397f8a8286b869c9817e7e0b0",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "folding-weapon",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 34462,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 0,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "855f2f77506728eb677dc2e0e013b6f4f256ce1df640e2032e6959eda3a389bc",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 1,
+            "traceHash": "715b6d8eea03c2c42ee190cef6996a7922f38ae56e1fdfcd79458a03aaa841f2",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 8,
+            "traceHash": "854f7e1ba98d893ce0d8d2a0715657154f01624a2a3befae7077aff77a829899",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "glass-fist",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 34292,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 79,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 56,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 62,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "a0567442b6d85ec64e524732e96ac870e0ef53a051ad801e8b9eabe2ca10e694",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 0,
+            "traceHash": "7387f2f8253c099da10f2b6af6848c1eb97b2593454bc77724d1401657a0dc9d",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 5,
+            "traceHash": "72b509eeced09e953ba2efe280367b98ff42fedc94135e8621837f67bfd19953",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "breathing-boxer",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 36859,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 0,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "b6a263b454b603ea3a14b42be74739a627b6f44322fa00b12124cca6e75072f2",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 0,
+            "traceHash": "aaec98b66f41ec54f6a9099da6540321f14cf080168b0612201e0f67149cb58e",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 3,
+            "traceHash": "a56c2f68a663a5427a5e8afedce0f48af879f42b0d0bde231bd729940832b39d",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "wall-gravity-duel",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 53647,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 44,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 30,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 65,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "bbe5a8f4b5326f6a2b5b2446d55d7b349964f28e94aae534804eda3d63c9236a",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 0,
+            "traceHash": "864df751f1a6e95d83f181e1746c268c6e3bdb4f5d4cb9fb8b8e4225b7bae5aa",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 3,
+            "traceHash": "d7aa3067156a84010263d1a85d6af4fce13444a886d5f9f0fcbcdc864155fbb6",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "shared-pole-duel",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 20032,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 0,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "a6134ed785bb5496c1ead5ccf657a2da4154fa9f08fd8d2d67870f6d2848d125",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 26,
+            "guardDecisions": 0,
+            "traceHash": "073d20ca29ab0730ef26363876762cf1ec72a47d71147db44a6a7cf502306b0a",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 51,
+            "guardDecisions": 4,
+            "traceHash": "2a86d7c054ace7fbbb4b566b17d0c1be507f1754e0264a803d0a6d615a24bd25",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "ribbon-grapple",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 49336,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 71,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 63,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 92,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "46b943fb5b4d88207661259177ffa4c965af0f75f6f56ad8edb35b866d2ec624",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 32,
+            "guardDecisions": 0,
+            "traceHash": "7ff9c5bf13f59c5e2f464c67bb9d1151edd9e85f75fe319ac729cc6d87b370e7",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 1,
+            "traceHash": "dd153acabef08797428450ac2abda9411bf8acb1ee46dba42d62d19b30702295",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "weighted-armor",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 32509,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 88,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 74,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 58,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "48e5afd93c7d4a939f1f544d15b33c5f5d182df9039bd24c9834e5fa1252a961",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 3,
+            "traceHash": "394e3052fa60784a75bf043ce856af53d813db03b9bec922d6cf72f50bffa526",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 61,
+            "guardDecisions": 4,
+            "traceHash": "2f7aa89bce2921dda89d5cfb9500fbecc30aa5402902a7f792cc232259e10b2e",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "delayed-echo-fist",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 35212,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 0,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "f1e0f177ac83ebb92515a1da8c1cf166034f0ddf0bca1bcbfc83c7a9e433923f",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 2,
+            "traceHash": "2d1e36c3645629abc934dce8b800a54b63f3857fef5f5cf41fc9f721d7772fd8",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 10,
+            "traceHash": "ec350ca40d9bc8906a5698202cf2176966b7328d4a7d86fd10f8193a5b603777",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "async-arms",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 40556,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 0,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "98871c6568c582f51ff171dfc9fd6f7c75e0c2e0485a1b2545ea68d339c6220d",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 0,
+            "traceHash": "5c1a6be044ef20a1be88271edcb50eef26785de72e67f03e8afd2eb16fa99928",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 3,
+            "traceHash": "8868a92de1eef10855cc2441875ddae396d092ce7df6437523b74a7ad08be0bf",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "element-contact",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 31445,
+      "alternateWins": 3,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 83,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 66,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 76,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "1f66e8d81152f4b9675250a0a0d9eada7bdaed9f3da684a979626dc445321585",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 1,
+            "traceHash": "14b9c307a175fe9c9de486a34f7605598fa59a67a0180af003bd355367340b5d",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 61,
+            "guardDecisions": 4,
+            "traceHash": "652395bcbbe0de7b31b18e5d2e4a95d9ba36ae178a7071de86f3aff9229f5072",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    },
+    {
+      "id": "sculpted-arena",
+      "canonicalGeometryCount": 100,
+      "witnessesVerified": 100,
+      "defenseScenarios": 10,
+      "fullTicksReplayed": 37777,
+      "alternateWins": 2,
+      "emptyWitnessWins": 0,
+      "negativePolicies": {
+        "idle": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "stationary-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "right-all": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "seek-primary-guard": {
+          "wins": 0,
+          "scenarios": 100
+        },
+        "cyclic-all": {
+          "wins": 0,
+          "scenarios": 100
+        }
+      },
+      "ai": {
+        "passed": true,
+        "noCurrentOrFutureInputAccess": true,
+        "localHasNoAI": true,
+        "tiers": [
+          {
+            "difficulty": "easy",
+            "firstDecision": 29,
+            "decisions": 17,
+            "guardDecisions": 0,
+            "traceHash": "917dd2b5701f9303862d8ab71e56f79687d3b7967e5d8caead1c688de0418570",
+            "delay": 28,
+            "period": 22
+          },
+          {
+            "difficulty": "normal",
+            "firstDecision": 15,
+            "decisions": 33,
+            "guardDecisions": 6,
+            "traceHash": "5bcb307dda55db5147a997b1e5922a0f20ef808e8a514978d11794e50e302144",
+            "delay": 14,
+            "period": 12
+          },
+          {
+            "difficulty": "hard",
+            "firstDecision": 7,
+            "decisions": 66,
+            "guardDecisions": 11,
+            "traceHash": "815b50ef4dbceec5efcbc614950ef98c8c786310226e858e06c329fc464446fc",
+            "delay": 6,
+            "period": 6
+          }
+        ]
+      },
+      "controlsMapped": true
+    }
+  ],
+  "scope": "1,500 fixed-training-policy combat existence witnesses; no uniqueness or free-hard-AI forced-win claim. Offline DOM is not browser QA.",
+  "sourceFiles": {
+    "games/async-arms.html": "a79893c53394beb9ad0d6271946b828ce7508e2a30bb99808a79726d874b8b10",
+    "games/async-arms/README.md": "4abe1b5a8456d808c605744ee73a93d97b8d18ed8d39951a3dfbb9601c65f390",
+    "games/async-arms/art.svg": "f58c576b77f2c5857243876425095ac96ab43cb2d0c6e631b02cf4219532722c",
+    "games/async-arms/engine.js": "87086d7deb888cd52c796884017548ff410a395c68f7686df4bd258904db3534",
+    "games/async-arms/levels.js": "5edf4d12184bd08ce426df7da11b4fc123cf77317075b74390ddfd38fe6bdf1a",
+    "games/async-arms/levels.json": "c934fc4459dbedbb99d83f19f95527efee8aa01d3c0b31cec3da823c733fbd5d",
+    "games/async-arms/proofs.json": "6f0c27ac2733cc0899ab740c74f4201442b2c55dd6e3209bcb7f4b5e1c6955c7",
+    "games/breathing-boxer.html": "f664a8e79f273ee5a5a29891ee4f38f764e9223997f1873dbd4bfe5dbf3c32ad",
+    "games/breathing-boxer/README.md": "8f1d69c67fc1632d6dad3c85f5d9865de57711db39e0200f19cf1684c89bf004",
+    "games/breathing-boxer/art.svg": "fc7f5323a5983b29353317c473a73005d880e7eedbedf2cbe537d7e96dbe963c",
+    "games/breathing-boxer/engine.js": "14397a716f288ca94ae20cd4a252a7f9bc317fc5af84ecaf2ae695618413439e",
+    "games/breathing-boxer/levels.js": "a01e62dc6e111791f4152507f82188e99a137d622ee7af739ddce447b6a3e069",
+    "games/breathing-boxer/levels.json": "93daa7e10b50ac2605e83fd8a502698bad1906aa5e301bd2d59a00228cab9a35",
+    "games/breathing-boxer/proofs.json": "4bd846f497d15c7f35a2ecab0efee202e58ded3dca0a5db856e418f9dd50c6c6",
+    "games/chain-hammer.html": "8377ab653b01b5a6f8ee5dbacddc8feaa80f18d1855953d1d13d9912919bd620",
+    "games/chain-hammer/README.md": "e4942342155ec64b9115ecef31b3dbbb218f04e39dcf19c1f3ab4824fdc30c69",
+    "games/chain-hammer/art.svg": "4401c7c35f3fee858010d9b4e3b82c363827be4bc739b18a8598764a49cf17b4",
+    "games/chain-hammer/engine.js": "996fa13ade11c9c87e7c2d4b5e0daaa22264846c8d833f9c6afd4cdd57351d93",
+    "games/chain-hammer/levels.js": "49104a52999eeb352aefd106318a2126110cf416c87aa3fb28197de57de08e82",
+    "games/chain-hammer/levels.json": "67673f1b5fb42f2dc8f4c2f04c01451d1ae680e9212f8755a22f2dd6d106f9b1",
+    "games/chain-hammer/proofs.json": "a85a91d62778d3a85df2becafe8d28919d50cfd21ec0087b3a7f0e54a750bdb5",
+    "games/delayed-echo-fist.html": "a2efaf4cf15cb10ed658f534d522a72f01983bad7dfe323b6afba95e47620134",
+    "games/delayed-echo-fist/README.md": "6201bc09a413f6f6634def4789fda21f33c92bcd2757e2b2a4c7e3370b43ea33",
+    "games/delayed-echo-fist/art.svg": "2de02d897d0a5976f3628507e5c4f0f4f7023fb4fb8c707c80a23c337f883002",
+    "games/delayed-echo-fist/engine.js": "bee84fa65c95667f241f306f4de32e8725a26225537170249b4244ae2e497eb8",
+    "games/delayed-echo-fist/levels.js": "52b08485e7ed410794f665cc3511ba476a5f7091a2a1cb027272941e2d0e2329",
+    "games/delayed-echo-fist/levels.json": "fe3a5144079aef96f3002adfd2a154714aee646ea4ce87ad8e5796457e7c9b1a",
+    "games/delayed-echo-fist/proofs.json": "a2cfd7efb6f3a904874259d84aa65929707fde3e545be224669eb2fecd6972d5",
+    "games/duel120-common/README.md": "c420b726fd0b6bb0aa330ac80325dbd33459e352dbeb61ebdd4dd33ffe261bda",
+    "games/duel120-common/art.cjs": "0433ae341f5fe5b0ca2181de4a32293014d7be6ab9c71bbd69ffeb152ca07931",
+    "games/duel120-common/canonical.cjs": "c5a7d73d7d6522c1a5ff977b89105e9284f0945e61c2ab7c3e409631a4f1139e",
+    "games/duel120-common/catalog.json": "069c255e340dce50ed66cbcab00222cbf90bbb919ce01f6e6346df015248c191",
+    "games/duel120-common/coach.cjs": "b9157bc1802ca45a3c0c6445f39ac3ca62709b054dfced1c306efc7254d2cb23",
+    "games/duel120-common/controls.js": "968062533a97fbb4e8b0a2634dbe5b5d2e4a86d838cf59215259131725e32cd7",
+    "games/duel120-common/definitions.js": "2cf636f41d9b4325a51a994f02f1fd6b49d9fe7079193c499e2afeff98246e37",
+    "games/duel120-common/dom-test.cjs": "07fe511cfb2ccd5ec5d436d88fd78f2250e9eeebb0d844edef454f9b4b1a8e59",
+    "games/duel120-common/engine.js": "87a9c2b94db2bb89323da7f86f9031de881e566bdb04b06474c3789807dd5b76",
+    "games/duel120-common/finalize.cjs": "d9fc8fd7bad0517e96e2d12ebd32f7cb98c870ea905bb6a42a15e2cc644efac7",
+    "games/duel120-common/fuzz-test.cjs": "175c4f6f7776815abcf80281465be2e80d7f749084ffa8c654e6defa1a67deaf",
+    "games/duel120-common/generate.cjs": "2cffc2d1ae53a4670ab5e7fee0db82796818532f0f17ac1a8aa0a051364c1aa2",
+    "games/duel120-common/mechanics-test.cjs": "fd0f88de64713b7924ab2c50f5f6de5bf4d7130172354aaa81c9af49cdcb420d",
+    "games/duel120-common/render.js": "ae4bfc795854458e589fade2ee234b93b77fe3ea10537b1486e9f1b6cdb1361c",
+    "games/duel120-common/scaffold.cjs": "756dc2f0d83b3ba6f1a0762c6664754338764c479c993831750f253fcf5bcef8",
+    "games/duel120-common/session.js": "c4b4ae22021b9b80e95da6dd47c7fd8a6ae0eb52dd6814ae5f430cc140415834",
+    "games/duel120-common/style.css": "bf1688ea42d871d5ac6f499d29d60614524c37d16c43517e6bf8258cfb81fbc3",
+    "games/duel120-common/ui.js": "df784b0666aac9568ce08061037f4258cb567f57e320fc21c80adfdbb62a4ec9",
+    "games/duel120-common/verify-all.cjs": "e30cc30c51bff64cbbcbe382a163cce59316e2fa674109ccdf78265420abf8f1",
+    "games/element-contact.html": "acf974293ef8731b1b3598ac6277d8d6b2603eaecda367aa267ac846df697c35",
+    "games/element-contact/README.md": "686e1608a31cb4f27544bdd22beb2a76f4efdd221941538d7a05165d50d26d0c",
+    "games/element-contact/art.svg": "103d22b900c8778bcd85f0d323f823d2c8c4cbd7ee4373dc4f28eb611f24e6b5",
+    "games/element-contact/engine.js": "35b05606e38f3c3ce3423a12e11cfc40be1cad151a5263c2e15cd67beaba90f8",
+    "games/element-contact/levels.js": "85ff5bd82e585e68c6020154c4f3faf985c7e857520ce416a77462c60bd74d84",
+    "games/element-contact/levels.json": "7bcaa9e35130d32e1b0caa28e8c05b51a26fcee5a1d79de91c3c825900974452",
+    "games/element-contact/proofs.json": "307ea1d44700a0a61cf16470fdb6cbafdc3bd5564b4422f9794507e67649a31f",
+    "games/folding-weapon.html": "e07131e448b1ed67cfebdfda0fd0076872b0c127f4070662dfcd9d7048684d4a",
+    "games/folding-weapon/README.md": "dd47c0863e9d0432f4f54f7c9266df20b39f78582e3b93b1134aa919ab8df720",
+    "games/folding-weapon/art.svg": "a25599ef7a57c4eb5f27ce569f4a4123ba6040961c27b9a493d66989de7bc2ca",
+    "games/folding-weapon/engine.js": "76c8d4657ec411427e46560c15bcc6da81ec71133b707119cb308884bd9e1ea8",
+    "games/folding-weapon/levels.js": "e420680e31c357e50b5e32ba622130f0d0aa415afa60ae7c19fcce2973563be6",
+    "games/folding-weapon/levels.json": "6c74b16f5fab3d2cf71f5fb1bfeb22a9989650765ed1e7c20d2ce02c6dde4483",
+    "games/folding-weapon/proofs.json": "ab825e598415d63840828e4a22eb93652b2443c2af2c498801502668951db6fe",
+    "games/glass-fist.html": "006ff12459ece622f33b314eef191e31f14d0b300fb3b5ed6693c12f81a8deba",
+    "games/glass-fist/README.md": "a641de3f9b629d39828519b75eadb510597b7a13fbe468714e79b1871d967c93",
+    "games/glass-fist/art.svg": "f827e7436a3b745c761218f1b3634bd8e8f77c2b1cd12db8cbc886f80cce2420",
+    "games/glass-fist/engine.js": "90b2494f4db709fa4b72f08d9f92c815afddf0eadc1e5feeb9aacee22cf08a0f",
+    "games/glass-fist/levels.js": "c0555dfb792632454e8f3da16fafefda9b2d20c515421af2ed6d449d9bad8526",
+    "games/glass-fist/levels.json": "4b203b00d53d4f1415e678c5e072d4bfb8976dd8dff631ef1fb392ac700bd495",
+    "games/glass-fist/proofs.json": "ad94c4cc040591f368404742e3219eb49b982ed9897cebefd6607840cc021dc7",
+    "games/magnet-gauntlet.html": "b0e1bfcfbb731217dc7177594bd373da3a07dcdee25001246a322c5cad670b43",
+    "games/magnet-gauntlet/README.md": "d902b306fdf6ff63f5fc66906b33a509a967e1e7bd35c003590371bd2d504188",
+    "games/magnet-gauntlet/art.svg": "7e6e9edb55097ae1313e119f23eff29bb4ff1b7a16e1c9b39483cb95b549a72a",
+    "games/magnet-gauntlet/engine.js": "225914b70d12c1d6dbde9df5fca543b07975788d9320936893ac41c4835eed0f",
+    "games/magnet-gauntlet/levels.js": "be42dd003b5c64e7d09cca0c5cda923d926b4b28da9fbbdf1adbdc6e857542ac",
+    "games/magnet-gauntlet/levels.json": "db79aa410fa7991e973b93c78272c82f5ff78a52a75c8f8a832ce7610cbc9dc9",
+    "games/magnet-gauntlet/proofs.json": "6596bdd3274e1b767c0f1f6b0871066e2951345e906061a0bbebdf152c2a3fae",
+    "games/ribbon-grapple.html": "b87c6beda7c909c3f72bc4f356c4a7b78a5b19f9667acdbe6ca1270cc6428207",
+    "games/ribbon-grapple/README.md": "fc716b559d95e046338baaab4f101ba7505afd939e9569897bf3fc37ecc80e72",
+    "games/ribbon-grapple/art.svg": "e644dbac7e782f3370eaae6f90ea7836452b5b16acd32447bb687f257d3f2a72",
+    "games/ribbon-grapple/engine.js": "780044e0c32e345c3c121c70a5ad8c12fac2a3e82633f6c46eaf760449fcc5e5",
+    "games/ribbon-grapple/levels.js": "f48a735d544beecffd1804e5f33de949e90e0b9e602afb8b4fc66b4f3c7e9271",
+    "games/ribbon-grapple/levels.json": "fb4542c8ad941a603270808b0baa7253757e8063d057f881a5ec7c2f38eba2f5",
+    "games/ribbon-grapple/proofs.json": "d0df5999c8c8957dd6c8e89afb84faa613baccba1c8c15cb778d53be0c9dc201",
+    "games/salvage-mech-duel.html": "03454230b6da07db0ff3bfbe03dfe4b0c0cb4bcc8f3bdb7659c37fc373e41e34",
+    "games/salvage-mech-duel/README.md": "d6066d7ebefa86d15f6965eaadf4cc25f32b87cb9bbedb0ed65c29561973aeeb",
+    "games/salvage-mech-duel/art.svg": "b37466f8dce4d06a88f9739939ce2e3918fd9baec67c719b89f581e10e2b7d0e",
+    "games/salvage-mech-duel/engine.js": "31e4806579c1a10ef2a0c40a3d212aede0a6c7ca895049231e2ff2a259c3729d",
+    "games/salvage-mech-duel/levels.js": "966cbfe28e71be9ab8ba1efa30981742c4df9760ca675cacf0903479372e441e",
+    "games/salvage-mech-duel/levels.json": "4e2348ef5a8358e2fec587f4ba9c97cead5d7ee4eeefe79f9d2eb2cc13da64e7",
+    "games/salvage-mech-duel/proofs.json": "8a10f620d8b400e5b9cdd197fd713402f36c73be4428282e44d61bb61fadff9e",
+    "games/sculpted-arena.html": "4c5110f8c67b719d8b3aaa15ea1219b06f754739c68eb6fdec98ec461df38bde",
+    "games/sculpted-arena/README.md": "3c217e59aee34abe632eea340d587504490f8ef3823340a358581d19e3129ce5",
+    "games/sculpted-arena/art.svg": "5c8a402af7a92f8d2604553ab3aa582f80456f4f325449eeaf43e24c21f49f60",
+    "games/sculpted-arena/engine.js": "311bd72adce3ade17007375772696d07423ee4939acc65781b0d038778478ddc",
+    "games/sculpted-arena/levels.js": "fcd58af3b34ae5e9819618db07d43f1e43b16f04a3f59217074b328a3c5bbfa4",
+    "games/sculpted-arena/levels.json": "72fc8fdfaa1220dfcdfe392a9bd5f96b78a2ce9b5dcc2125b87b271a1084f6fd",
+    "games/sculpted-arena/proofs.json": "15d54c93013dd0ccd1e42f13f8d1b0929c868bbb08703a79a10f9f4c4760349e",
+    "games/shadow-samurai.html": "5b8c042b716778d42fcfd5264f98ada5eef10775e36d19bb46b854d73e94258b",
+    "games/shadow-samurai/README.md": "b83a853ed3da4d9804ba3c48567339ad91809861bf504add1422490e6394b568",
+    "games/shadow-samurai/art.svg": "6f5c602224a6ccd1da576a6ec4dfbffa014cbb90f49003c89bfbffea9ea826df",
+    "games/shadow-samurai/engine.js": "5732ecf7be3ad6132ed46c2d75329fcd8a42a54a2c0f7d51302484e412f3fd3e",
+    "games/shadow-samurai/levels.js": "ce64a77250dc9758340b97d3277656187775be12ebacbb29c21daa1c9415085d",
+    "games/shadow-samurai/levels.json": "3ace01144316b9f10f96d6e208c97b708050b83159c518e66eb2a6d9ebd2d9c9",
+    "games/shadow-samurai/proofs.json": "5a67fcbe35a41e06968586b026a2c405324f1e0b4741acc5d266c42c2db8a8a1",
+    "games/shared-pole-duel.html": "22c2a4a412796c2232ae63b4691574e5e2cafee935397023a3446084f8117c3a",
+    "games/shared-pole-duel/README.md": "0078ae595331224c0aee9800429a802e2d168b99f1537b6b17177561ffbda907",
+    "games/shared-pole-duel/art.svg": "49191348f70af47134b78d748c1ee44eb029245c3d83c31ec19efd093c82cf66",
+    "games/shared-pole-duel/engine.js": "bbdd5761e707b01f85020dda3856b363b44f66c7ae26a47e91d0d9cb9b524d97",
+    "games/shared-pole-duel/levels.js": "6771ca8a2dab896dc2952573cee382dea2ae72adbd9fecde9cd0053c35017a79",
+    "games/shared-pole-duel/levels.json": "747a82e802ee57d40b696299d8cbcb271fee2f69facc750174ddf65558e5464c",
+    "games/shared-pole-duel/proofs.json": "d3163465df4fd941b46560f66e71d63ef340bc88407ed94799cc79cf12d24ba2",
+    "games/wall-gravity-duel.html": "47c8595f745241ac1aa4f12c30cf5e91190552fffaae164c2c11baa406d999e0",
+    "games/wall-gravity-duel/README.md": "57e9889af816f7b0a33dca56b99be802706e9ca09b703a5702121833b73bca00",
+    "games/wall-gravity-duel/art.svg": "ec3212c2482024dd1b3ac4898f48dd43d1c78c9825c5add132baf3841eed9a4c",
+    "games/wall-gravity-duel/engine.js": "d0f2dd2ced37505ffe6f3196dcd4bc1bef7e94578774d07c73aa128c1dc9a822",
+    "games/wall-gravity-duel/levels.js": "af2f03c1f6f9463cb5ef6c161062433f39f613af3c974a2bff612d6e40e5e962",
+    "games/wall-gravity-duel/levels.json": "1856eaa0ec64d4a07cc14188684914dc3cff1c72e0b220338045acf4402885d0",
+    "games/wall-gravity-duel/proofs.json": "38748c32e4a731a337cb81cd408a2e9b9dc5bc0d73343db89c665c9f3f7a44a5",
+    "games/weighted-armor.html": "f657c9fe4f5f9cb60e1007c74d00f7126fc2576f7a3e06f2895567fa744e93db",
+    "games/weighted-armor/README.md": "581811c6c717077132194a824d4ca4b4d4695551d686e4e210ff262d89c5f1a5",
+    "games/weighted-armor/art.svg": "0cd7fa72c343dc767798b7e701e80600c025877c1b5fe2c03584a023151314ad",
+    "games/weighted-armor/engine.js": "5e710515b18b57d6618d6ec7deedbd43bd63508401fcb9b6fbb1ef6b17475acc",
+    "games/weighted-armor/levels.js": "ddf244eb18acc846142a73c1edb47f0187df0d3f3bfd692f6663797d9df81041",
+    "games/weighted-armor/levels.json": "695f372224fdb0e35329284b006112c71ce8c9f216cc1478e57ecc692002c6d9",
+    "games/weighted-armor/proofs.json": "f277dbc35580e448731a542846291cdb28447898870b45d8d978e1caa9ba31a7"
+  },
+  "mechanics": {
+    "passed": true,
+    "count": 18,
+    "checks": [
+      "magnetic polarity changes signed impulse",
+      "mech detaches world part and installs changed mass",
+      "shadow hitbox reaches beyond body and lamp changes projection",
+      "chain radius changes momentum and swept hammer contact",
+      "fold transformation cancels recovery and produces new form combo",
+      "glass fragments are world traps, recyclable after collision",
+      "breath is finite, inhale restores it, exhale combo consumes it",
+      "inhale and exhale cannot be held to automate breathing",
+      "wall changes gravity normal and launches airborne contact",
+      "shared pole is constrained and control grants the long strike",
+      "ribbon binds both fighters and unwinding converts tension",
+      "weight changes stance and torque creates knockdowns",
+      "echo stays in world and resolves exactly 120 ticks after seed",
+      "arms have independent charge/release and cooldowns",
+      "element ordering consumes aura and creates reactions",
+      "sculpture changes actual floor and height rewards subsequent sweep",
+      "range, cover, telegraph direction and defense windows",
+      "invalid raw actions are bounded and normalized"
+    ]
+  },
+  "fuzz": {
+    "passed": true,
+    "seed": 117,
+    "rounds": 60,
+    "ticks": 92849,
+    "checks": "Both human controllers, oversized analog requests safely clamped, resources finite, arena/obstacle/body nonpenetration, independent weapon clocks"
+  },
+  "sessions": {
+    "passed": true,
+    "checks": 13,
+    "assistancePersistent": true,
+    "manualDemoSeparation": true,
+    "saveFailureSafe": true
+  },
+  "ui": {
+    "passed": true,
+    "games": 15,
+    "lifecycleScenarios": 390,
+    "scope": "VM DOM event harness, not a real browser or visual/mobile acceptance"
+  },
+  "passed": true,
+  "totalWitnesses": 1500,
+  "totalTicks": 593514,
+  "negativePolicyRuns": 10500,
+  "distinctArtwork": 15,
+  "sourceBytesUnchanged": true,
+  "browserQA": "not run by this builder"
+}
