@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "001 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "002 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "003 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "004 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "005 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "006 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 6
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "007 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "008 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "009 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 1
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "010 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "011 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "012 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "013 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 0
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "014 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 5
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "015 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "016 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "017 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "018 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "019 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "020 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "021 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 5
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "022 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "023 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "024 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "025 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 0
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "026 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "027 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "028 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "029 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "030 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "031 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "032 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "033 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "034 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "035 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "036 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "037 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "038 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "039 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "040 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "041 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 1
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "042 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "043 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "044 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "045 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 0
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "046 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "047 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "048 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "049 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 0
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "050 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "051 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "052 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "053 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "054 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "055 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "056 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "057 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 1
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "058 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "059 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "060 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "061 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "062 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 0
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "063 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "064 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "065 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "066 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 6
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "067 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "068 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "069 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 0
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "070 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 5
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "071 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "072 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "073 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "074 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "075 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "076 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "077 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 5
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "078 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "079 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "080 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "081 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 0
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "082 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 6
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "083 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 3
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "084 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "085 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 4
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "086 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 0
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "087 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "088 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "089 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 1
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "090 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "舊屋重逢"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 2
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "091 · 舊屋重逢",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "092 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "離城車票"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "093 · 離城車票",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "094 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 3
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "095 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 4
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "096 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      }
+    ],
+    "premise": "當舖開到末班車離站，故人的門卻不一定等你。",
+    "title": "097 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "陌生的新生"
+      },
+      {
+        "key": "bonds",
+        "label": "願意同行的故人",
+        "value": 1
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 6
+      }
+    ],
+    "premise": "你需要一個新的去處，也想保留能讓人認出你的話。",
+    "title": "098 · 陌生的新生",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "coins",
+        "label": "剩餘記憶幣",
+        "value": 5
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 0
+      }
+    ],
+    "premise": "店主收下往事，不收未來；每一段記憶都有不同用途。",
+    "title": "099 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "照護站的燈"
+      },
+      {
+        "key": "reclaimed",
+        "label": "贖回記憶",
+        "value": 1
+      },
+      {
+        "key": "memories",
+        "label": "保留記憶",
+        "value": 5
+      }
+    ],
+    "premise": "照護站、舊屋與遠方都在等一個決定，資源卻藏在記憶裡。",
+    "title": "100 · 照護站的燈",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "前三段記憶各打開一位故人的對話；後三段能替相認作證。賣出高價回憶不一定最符合本局目標。"
+  }
+]
