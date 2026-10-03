@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "family": "coop",
+  "status": "passed",
+  "verifiedAt": "2026-10-03T00:51:42.353Z",
+  "sourceFiles": {
+    "games/aerial-cargo.html": "88658a148d4910e9e2b8ba940911f1ddd146ebd230f56964cb353fe7750c428b",
+    "games/aerial-cargo/alternates.json": "89375e200bb65c4dae2e6b55806f064b90c881604b59993b370ca91f997ce4ba",
+    "games/aerial-cargo/artwork.svg": "afe3623f31c8838ecbc2ec742e36b47b5870aa28f40504282ab09a5766787519",
+    "games/aerial-cargo/levels.json": "281d1693d8fc25d37d198c019489fcfd6640a8bd88470c409bf24081d8af9740",
+    "games/aerial-cargo/model.js": "d55bd6bfbc1b65d406a86259c1bdef5ff2424a4867d9c0bc962ddef55c976f31",
+    "games/aerial-cargo/proofs.json": "5f1e20da80a26402c3d3716328233d79a2996e875e3f9540178b58a55a5e896a",
+    "games/beam-relay.html": "d6bed7a3678226c67bff136dfe8bdf8f580725b0196592499b081db16cf54bab",
+    "games/beam-relay/alternates.json": "5ed89f8947ce2b6914b7622464c7bcfcfd7d5c52a853ad70df19040503046b97",
+    "games/beam-relay/artwork.svg": "efe160aa184bea5a09af47e6b5d32ee2cdc253d993ab3e965afd5d8f73a734fd",
+    "games/beam-relay/levels.json": "4e3fe0ee78e40f782d9dfa811db19af80156268313a35e985ca72975375c8ec2",
+    "games/beam-relay/model.js": "902db155f1ef086b0427b8182d6cafce1ce1615f188ad3374767cf4f93c09b8b",
+    "games/beam-relay/proofs.json": "bb6298da11cf09f28201d2c019334034392b85cf32193b3778928522d0d47e97",
+    "games/blind-map.html": "9410bca8794c815f3850012bd8ee069680825352d9c30a1a928fee3ff316bac0",
+    "games/blind-map/alternates.json": "db413d83b2387834a42264ac0e847a7281cc8c906c7b0561b666fd422596b538",
+    "games/blind-map/artwork.svg": "24fc79bbc1c25424df0680b2e72724755388494cae6908e290e861d9c6876b6c",
+    "games/blind-map/levels.json": "f5fc5b0651f0f696198ac1f254b57abf00b09dd20e3f31fb923172e442bff51f",
+    "games/blind-map/model.js": "7bc7674f71686570c219612a199cfd543cbced455818b2b86a318a04c8433e91",
+    "games/blind-map/proofs.json": "47149fe12a994a71d03132ea3a72059c5b756da852856794ab930c9a33c81f78",
+    "games/coop120-common/README.md": "5c922520029c6da4846ec375c0b59d0191845f700a35c1d13d908fead73b1944",
+    "games/coop120-common/alternate.cjs": "1d61d819b00b58794a5a8210496a7d883c37f7c8712a40e1035f9d4b4f719fb7",
+    "games/coop120-common/app.js": "aa41925ce0a3ab7e574e0b318241865f6c581371b0bf7d047f2fbad5828cae5d",
+    "games/coop120-common/audio-test.cjs": "6f3155faf5dac22b62c00d79ba2a76b0c7135ea1d5ad0e10cb0d4b96e5bbb2e2",
+    "games/coop120-common/catalog.json": "fc9778f8b2eecc98cb5fd7d33ca0f8fa1a508bf79cf2b03615feb31cf80fb996",
+    "games/coop120-common/checks.cjs": "665e1d3ac44b84dd73a7ecce4e140cdc188ff9ebeb46791196a3d6fac8ca52ad",
+    "games/coop120-common/core.js": "6317ac2210b20348dc7808b47c43d8687f5829c4954bb4aac707d801c2229fd7",
+    "games/coop120-common/dom-test.cjs": "2b7aeda81fa6e8865765edf1af2ea112796e8a12b5488eb1446b97a89de13021",
+    "games/coop120-common/generate.cjs": "4bd8efbeb387bacc614ffd51fd94f1d6de08fb3b19246fff3e39ff384dbbed42",
+    "games/coop120-common/seal.cjs": "d90500b9585e8d1bbe2ca0db9ae1bf6b542a5d48b07d27ed1b93c47f95b49e79",
+    "games/coop120-common/session.js": "4a8d0212c6e8b73371fb9400d6909b8145f43a96caae64770517ec7edfb2d9a9",
+    "games/coop120-common/specs.json": "21791ee3643d824c816432766c51936ca6a9d63173af661880bdb4a76be1a7b4",
+    "games/coop120-common/styles.css": "f874c7c581263a6683c513d512de51f0c1553e61c8a8713a6483320aedfc19cb",
+    "games/coop120-common/verify.cjs": "1b578e7aef3a138f3c8f541f341298528a5559887b655046d39e2003ae187b1f",
+    "games/director-stunt.html": "d49e04499cbe3ad02beae713a1898204ab787e5a8386d9d950dc26502aa17bd7",
+    "games/director-stunt/alternates.json": "84573ca51df6ff502da60bdcbd9ab32939be19c7793bf6d8bedde7ff73f598d4",
+    "games/director-stunt/artwork.svg": "23ceb5fd2d782939464b33803140a3829e47c057e94b421b3c289e8443e2e3a6",
+    "games/director-stunt/levels.json": "69999093e0e71b52bdb18e0af6ef6170fdefb1ea30e42146eea2e03cd45c38a5",
+    "games/director-stunt/model.js": "6e6d03c472bcd9dae32a7d1a1dc7a9c2b6fc84f405f1d9adec1cc677b6866f98",
+    "games/director-stunt/proofs.json": "d04470118bec2a909820bb40ced875596a6b55034d236b40d84cb751dced3b5e",
+    "games/dream-editor.html": "e4e8dc76efe382b533d4b9924591c3ffbb2cb690bba723c6fe941bfc5d203410",
+    "games/dream-editor/alternates.json": "d68d613434391a47772596ba4892e4f5a4e89cfde114eb1084a1f8163de6e2e7",
+    "games/dream-editor/artwork.svg": "4e237bfe5ec4f75aee048185e25bb2add3a778f5844000f06bb683bd1623022a",
+    "games/dream-editor/levels.json": "e9453b50529e7b07d96d05b6dcfe15d6d1c8834c9656d4c88ce7a32b6448d5c7",
+    "games/dream-editor/model.js": "060d92ac021e43eae8f7cc01719ead98459d5fd8573a345e32d6efe80e656141",
+    "games/dream-editor/proofs.json": "4f96548ef38c5795e2157a39f92751321c099520bd82d1ec7261a10cc5263334",
+    "games/giant-artisan.html": "47af1129f15c4b85ea1e38d0b307fc7ab6f86b3d46cf5101af320bd5f77e4019",
+    "games/giant-artisan/alternates.json": "a2ad7ee3e2741b825caa19864cec02c5925362938433163b595ccd1dab8909f1",
+    "games/giant-artisan/artwork.svg": "d859af68db6bcb7da8337fe817561731bbf739a831930d79d2a68a0197f27b8d",
+    "games/giant-artisan/levels.json": "4bd6731c295d03d3838e9995d26671c431c17039a0cbf940bb77c0fb28860776",
+    "games/giant-artisan/model.js": "97a90e0e59f8718cdd9da6e0b40693899cac97cb4f65aeebd106bb9159349368",
+    "games/giant-artisan/proofs.json": "6e0930c65b6a07a152ccc7db93e74b62178c9e69ae10a4edea213ea6da3cca87",
+    "games/hermit-fortress.html": "362e2688738973d444e9900d828db06960a988416a0eb7d2839a2efb973ea8f3",
+    "games/hermit-fortress/alternates.json": "75515774a34065955aedac2ba32a949e8374974f6c7916a6f4c98a2a53270125",
+    "games/hermit-fortress/artwork.svg": "19f8ab3a75ef8ae4e6a81f14692eb6181e40a2a7c0f51b38e23a7498f1b751e1",
+    "games/hermit-fortress/levels.json": "43b5a2d7ea5b323653d42e0630c1a689c5cfd6c1217efe9ba9e07f15e7a1ce66",
+    "games/hermit-fortress/model.js": "34a78e9450fbb997539b29a085cf77bfcf83400bc76c48c69c48e5b6f1b092b1",
+    "games/hermit-fortress/proofs.json": "e0797a65b05cfc9959bcbbbe67b143f29731a69b98de61edc51a21150b397a84",
+    "games/medic-nanoboat.html": "a64f6ab0bd99539a3e9db1100d48a7353b5324b242b948ce96bde76a1396b4b8",
+    "games/medic-nanoboat/alternates.json": "671684b46452f3b18acd0a2cd2c55f609836a131b3080138e598fe1177dd719a",
+    "games/medic-nanoboat/artwork.svg": "593345517db84fef1434101e3334629d4586115872a5977ccd09af4f13001f59",
+    "games/medic-nanoboat/levels.json": "f9e4a2ad4f25c6c8e2d3c4db3ca92e0b1845d6c99523668b753017e59a40eb5b",
+    "games/medic-nanoboat/model.js": "4245584186b07ac8cef366279e1fdb49930af1cf6ab97a146018328e21bf62f8",
+    "games/medic-nanoboat/proofs.json": "cca872b5182d48246075890d28cd1cbf63603c24764ce113568a66b603626c15",
+    "games/plant-gardener.html": "b071320bf54e2eff1d443294c6b5a7165ec693e45538c25268b5fa0ad95d5980",
+    "games/plant-gardener/alternates.json": "e3f8282b1b9977290e66b076d01b3e37a882b6df1ca9345c72792657771134ac",
+    "games/plant-gardener/artwork.svg": "99ba90dedeaa0e39207ff8994fe1300ec4a97be5194268225b9a9d21d0909455",
+    "games/plant-gardener/levels.json": "74e05523526afa47f601ae374f4c7db47481cf23c9126ec9cab1f04b68b75073",
+    "games/plant-gardener/model.js": "da1dab82fb4b4a2696258796356cb5fc31afc6345369d2e158edd9242bbd801c",
+    "games/plant-gardener/proofs.json": "794e1cab700d4498e1e543496caa077cc0bfbd67fb2d86dc3f90dbbf1b685fef",
+    "games/reflection-twins.html": "c5e323800f289b5aad097da40527d3e0f1fa37ccda71bfa97679f669033c5e58",
+    "games/reflection-twins/alternates.json": "5a3e43cdffcfc16f2923a3ef0ad0fac4971fe84639966d54be4dcb8a2918bd5d",
+    "games/reflection-twins/artwork.svg": "12f8adc88d121ba329325c392c0ae61f848393c6236b1d5a6f58b392948237f6",
+    "games/reflection-twins/levels.json": "bb95e8222c8e46c9363c75c97a0c21351cd3adda0261783b254cfa796e654e55",
+    "games/reflection-twins/model.js": "3b7bdd09de44fbbbff511edc6c51e73bd6a527944a297056e0d2df6b8e8bf3e6",
+    "games/reflection-twins/proofs.json": "31716537d0a0671416339c2a91f00aea36d6ccdd2012cd1d85aeba5ab5455aee",
+    "games/silent-investigation.html": "cd78af109f7872089c90c8cf7fc73d3add6cd153246c2ecb8e3febbb5800a9ea",
+    "games/silent-investigation/alternates.json": "1a50dc79096265112b4d3d9aa0e583c12bd34b57e49a0a11831861de8f0127f1",
+    "games/silent-investigation/artwork.svg": "709ec724b6d6f2af62ea45928c32886863903ff7094479d6c2edd42c975b5b10",
+    "games/silent-investigation/levels.json": "978853fbe1a485b854d0b262ee6d1d4aa5f367ee8f09171d0f391a0abafcf299",
+    "games/silent-investigation/model.js": "82072a7ec517c65a9a5b8e19fe6c1d597fe396e61d123f7606380bc15a79ee55",
+    "games/silent-investigation/proofs.json": "a8850e1b85ec130cf679c41e72e85995d047c6555c260a1edab3f529187cb731",
+    "games/sonar-submarine.html": "09548e85f37f454ac6ea63d6193c5b1910af80cfa61195c354852ec152170206",
+    "games/sonar-submarine/alternates.json": "479227f044f5fa70850242779a75071f0ce15c864704b36084a019c87354ef29",
+    "games/sonar-submarine/artwork.svg": "4493864f433fdb7060ed0b0b300c4427e5df21683cfe412960542a99d5cdefc4",
+    "games/sonar-submarine/levels.json": "f545d02afebe026b5d1bbbae3c24f558c8b568910cc4e8ed7eaaae0687f6588d",
+    "games/sonar-submarine/model.js": "46a81dc2c449fa6c58f2e9a7f25542f1cebd0f1500dd058ef431007192adf869",
+    "games/sonar-submarine/proofs.json": "01b65b95a3c13da3dbcc032e2fee2dfef2628014c3547cab48d0a89a07036b1d",
+    "games/storyteller-avatar.html": "bdb2bd5cb1e1ba503737f4eb5b08f19e3b07e7a2c3bd40f75491f014cc4a1412",
+    "games/storyteller-avatar/alternates.json": "eec83d6bd01b45c77efc19ea6ed2e620dd4a363924e5ff84603c2324db5032e6",
+    "games/storyteller-avatar/artwork.svg": "181d8559459ffa0987fa3aa563934141312ed5ccc970f338827fbcaae8c5f2a1",
+    "games/storyteller-avatar/levels.json": "a21128e09745601c86aa449d4456a857d36711c5eefb0d11efc1176a56da7065",
+    "games/storyteller-avatar/model.js": "77a4a5af652d92fa67f7d168dbb957050daf90153a2647544356b69960d5719e",
+    "games/storyteller-avatar/proofs.json": "dd0a35d3445943a340e981c5fb1731a22d8dc3c2f7ba008d031e365b71b2cb58",
+    "games/time-partners.html": "8fb6090e9f1c52e0b26b87aa05737dce2707f798392b5b86129ca74ddaa3fed5",
+    "games/time-partners/alternates.json": "98d582e13bf99a3ea4f6067d6059f2d3d13e161cf38ee3b1d60b4aeda4774989",
+    "games/time-partners/artwork.svg": "062769394c5df5b4f3bd279cf6d09e1f2551f60df7d6b957d136574e44bc7515",
+    "games/time-partners/levels.json": "3ce415ef9bd3473348d83f56d1e70064fee6b64aaeaec04a88923caf750d3084",
+    "games/time-partners/model.js": "a8990c74d9a874c47c8427876dce49447753b0d1e34f511bfa4673b2c52f971d",
+    "games/time-partners/proofs.json": "a8d4bc9ce71979af0dc08cdaf73a4ca492b7d86d79dba7c6f46752ec12422589",
+    "games/translator-envoy.html": "41096397e4e45f4b50e19e9dfe718f3ef73e702be2ab90e2cd94dd8e856295cc",
+    "games/translator-envoy/alternates.json": "e01aa029d2dfabbdac675cf4b0716b44e8a6681fb5fde55ab60e5e1f15a0d342",
+    "games/translator-envoy/artwork.svg": "1cf176752c733414a1b25a54c823ec1189aa4b8fa913c548d619c62fe6ae8017",
+    "games/translator-envoy/levels.json": "e2aab47f941f37242224e7eeeee384bb405ccaae59ad08755df65bafbf71c658",
+    "games/translator-envoy/model.js": "f67f4f04a1b95b6f7a82abca2a99e4489a51341c6af3f0e9e2e88ab4c985cd15",
+    "games/translator-envoy/proofs.json": "7fae6a9dc3aed455c1db268ad18d98b3b76e70d490be404c8c21fe65f2b6b636"
+  },
+  "sourceFingerprint": "e0d6d8e6f5c0e0969a6c69361b966313df1e207a0944f72811c00bc1dc9017c3",
+  "games": [
+    {
+      "id": "blind-map",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "time-partners",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "giant-artisan",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "dream-editor",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "translator-envoy",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "medic-nanoboat",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "reflection-twins",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "sonar-submarine",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "plant-gardener",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "director-stunt",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "hermit-fortress",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "storyteller-avatar",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "beam-relay",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "aerial-cargo",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    },
+    {
+      "id": "silent-investigation",
+      "checks": 41,
+      "missionsRenderedAndDemoCompleted": [
+        1,
+        50,
+        100
+      ],
+      "source": "actual app.js + session.js + model.js in a minimal non-layout DOM harness"
+    }
+  ],
+  "checks": 615,
+  "claims": {
+    "actualControllerExecuted": true,
+    "minimalDOMHarness": true,
+    "browserTesting": false,
+    "layoutTesting": false,
+    "touchHardwareTesting": false,
+    "audioHardwareTesting": false
+  }
+}
