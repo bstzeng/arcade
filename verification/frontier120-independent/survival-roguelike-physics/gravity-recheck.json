@@ -1,0 +1,89 @@
+{
+  "independentCausalOracle": true,
+  "witnesses": 600,
+  "actions": 21300,
+  "commits": 2400,
+  "localDrawChecks": 4800,
+  "collectChecks": 2400,
+  "conservationChecks": 21300,
+  "lockedMoveRejections": 50400,
+  "causalPositions": [
+    {
+      "tank": 1,
+      "before": {
+        "load": [
+          3,
+          3
+        ],
+        "stock": [
+          3,
+          3
+        ]
+      },
+      "after": {
+        "load": [
+          4,
+          2
+        ],
+        "stock": [
+          4,
+          2
+        ]
+      },
+      "status": "lost"
+    },
+    {
+      "tank": 2,
+      "before": {
+        "load": [
+          3,
+          3
+        ],
+        "stock": [
+          3,
+          3
+        ]
+      },
+      "after": {
+        "load": [
+          5,
+          1
+        ],
+        "stock": [
+          5,
+          1
+        ]
+      },
+      "status": "lost"
+    },
+    {
+      "tank": 3,
+      "before": {
+        "load": [
+          3,
+          3
+        ],
+        "stock": [
+          3,
+          3
+        ]
+      },
+      "after": {
+        "load": [
+          0,
+          6
+        ],
+        "stock": [
+          0,
+          6
+        ]
+      },
+      "status": "lost"
+    }
+  ],
+  "alternatePhysicalLayouts": 100,
+  "errors": [],
+  "noRefillFails": true,
+  "reversalRequiresRelocation": true,
+  "passed": true
+}

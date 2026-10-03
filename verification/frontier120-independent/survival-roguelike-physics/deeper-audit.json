@@ -1,0 +1,743 @@
+{
+  "scope": "Independent aggressive identity/symmetry reduction, causal controls, alternate-configuration checks, and AI information/policy tests.",
+  "errors": [],
+  "physicsIntrinsicUniqueness": [
+    {
+      "id": "jelly-skyscraper",
+      "unique": 100
+    },
+    {
+      "id": "chain-demolition",
+      "unique": 100
+    },
+    {
+      "id": "junk-mech-battle",
+      "unique": 100
+    },
+    {
+      "id": "steam-pressure-lab",
+      "unique": 100
+    },
+    {
+      "id": "gravity-room-workshop",
+      "unique": 100
+    },
+    {
+      "id": "wind-tunnel-cargo",
+      "unique": 100
+    },
+    {
+      "id": "resonance-glass",
+      "unique": 100
+    },
+    {
+      "id": "melting-ice-bridge",
+      "unique": 100
+    },
+    {
+      "id": "sand-collapse-lab",
+      "unique": 100
+    },
+    {
+      "id": "rope-net-catch",
+      "unique": 100
+    },
+    {
+      "id": "magnetic-sculpture",
+      "unique": 100
+    },
+    {
+      "id": "friction-playground",
+      "unique": 100
+    },
+    {
+      "id": "cloth-parachute",
+      "unique": 100
+    },
+    {
+      "id": "hydraulic-hand",
+      "unique": 100
+    },
+    {
+      "id": "soap-bubble-lab",
+      "unique": 100
+    }
+  ],
+  "physicsAlternativeConstruction": [
+    {
+      "id": "jelly-skyscraper",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "chain-demolition",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "junk-mech-battle",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "steam-pressure-lab",
+      "alternateWins": 100,
+      "attempts": 180
+    },
+    {
+      "id": "gravity-room-workshop",
+      "alternateWins": 100,
+      "attempts": 108
+    },
+    {
+      "id": "wind-tunnel-cargo",
+      "alternateWins": 100,
+      "attempts": 104
+    },
+    {
+      "id": "resonance-glass",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "melting-ice-bridge",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "sand-collapse-lab",
+      "alternateWins": 100,
+      "attempts": 101
+    },
+    {
+      "id": "rope-net-catch",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "magnetic-sculpture",
+      "alternateWins": 100,
+      "attempts": 125
+    },
+    {
+      "id": "friction-playground",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "cloth-parachute",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "hydraulic-hand",
+      "alternateWins": 100,
+      "attempts": 100
+    },
+    {
+      "id": "soap-bubble-lab",
+      "alternateWins": 100,
+      "attempts": 100
+    }
+  ],
+  "physicsNegativeExtremes": [
+    {
+      "id": "jelly-skyscraper",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "chain-demolition",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "junk-mech-battle",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "steam-pressure-lab",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "gravity-room-workshop",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "wind-tunnel-cargo",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "resonance-glass",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "melting-ice-bridge",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "sand-collapse-lab",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "rope-net-catch",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "magnetic-sculpture",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "friction-playground",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "cloth-parachute",
+      "allMinimumWins": 4,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "hydraulic-hand",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    },
+    {
+      "id": "soap-bubble-lab",
+      "allMinimumWins": 0,
+      "allMaximumWins": 0
+    }
+  ],
+  "physicsAI": [
+    {
+      "distance": 5,
+      "lean": 0,
+      "outputs": {
+        "easy": [
+          -0.52,
+          2.65
+        ],
+        "normal": [
+          -0.85,
+          2.22
+        ],
+        "hard": [
+          -1,
+          2.06
+        ]
+      }
+    },
+    {
+      "distance": 5,
+      "lean": 0.3,
+      "outputs": {
+        "easy": [
+          -0.52,
+          2.65
+        ],
+        "normal": [
+          -0.85,
+          2.22
+        ],
+        "hard": [
+          0.25,
+          2.06
+        ]
+      }
+    },
+    {
+      "distance": 20,
+      "lean": 0,
+      "outputs": {
+        "easy": [
+          -0.52,
+          2.65
+        ],
+        "normal": [
+          -0.72,
+          2.22
+        ],
+        "hard": [
+          -0.85,
+          2.06
+        ]
+      }
+    },
+    {
+      "distance": 20,
+      "lean": 0.3,
+      "outputs": {
+        "easy": [
+          -0.52,
+          2.65
+        ],
+        "normal": [
+          -0.72,
+          2.22
+        ],
+        "hard": [
+          -0.85,
+          2.06
+        ]
+      }
+    },
+    {
+      "distance": 45,
+      "lean": 0,
+      "outputs": {
+        "easy": [
+          -0.52,
+          2.65
+        ],
+        "normal": [
+          -0.72,
+          2.22
+        ],
+        "hard": [
+          -0.85,
+          2.06
+        ]
+      }
+    },
+    {
+      "distance": 45,
+      "lean": 0.3,
+      "outputs": {
+        "easy": [
+          -0.52,
+          2.65
+        ],
+        "normal": [
+          -0.72,
+          2.22
+        ],
+        "hard": [
+          -0.85,
+          2.06
+        ]
+      }
+    }
+  ],
+  "survivalAI": {
+    "advisors": [
+      {
+        "id": "blizzard-shelter",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "flow:0:3",
+            "depth": 2,
+            "visited": 125
+          },
+          "hard": {
+            "action": "flow:0:3",
+            "depth": 3,
+            "visited": 415
+          }
+        }
+      },
+      {
+        "id": "driftwood-raft",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "board:0:1",
+            "depth": 2,
+            "visited": 87
+          },
+          "hard": {
+            "action": "board:0:1",
+            "depth": 3,
+            "visited": 247
+          }
+        }
+      },
+      {
+        "id": "underground-survival",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "collect",
+            "depth": 2,
+            "visited": 85
+          },
+          "hard": {
+            "action": "collect",
+            "depth": 3,
+            "visited": 230
+          }
+        }
+      },
+      {
+        "id": "tidal-city",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "collect",
+            "depth": 2,
+            "visited": 11
+          },
+          "hard": {
+            "action": "collect",
+            "depth": 3,
+            "visited": 48
+          }
+        }
+      },
+      {
+        "id": "colossus-home",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "collect",
+            "depth": 2,
+            "visited": 26
+          },
+          "hard": {
+            "action": "collect",
+            "depth": 3,
+            "visited": 112
+          }
+        }
+      },
+      {
+        "id": "mycelium-farm",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "strain:1:1",
+            "depth": 2,
+            "visited": 34
+          },
+          "hard": {
+            "action": "strain:1:1",
+            "depth": 3,
+            "visited": 109
+          }
+        }
+      },
+      {
+        "id": "desert-walker",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "collect",
+            "depth": 2,
+            "visited": 48
+          },
+          "hard": {
+            "action": "collect",
+            "depth": 3,
+            "visited": 150
+          }
+        }
+      },
+      {
+        "id": "glass-greenhouse",
+        "tiers": {
+          "easy": {
+            "action": "shade:1",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "gutter:2",
+            "depth": 2,
+            "visited": 117
+          },
+          "hard": {
+            "action": "gutter:2",
+            "depth": 3,
+            "visited": 371
+          }
+        }
+      },
+      {
+        "id": "floating-anchors",
+        "tiers": {
+          "easy": {
+            "action": "ballast:0:1",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "ballast:0:2",
+            "depth": 2,
+            "visited": 167
+          },
+          "hard": {
+            "action": "tension:0:2",
+            "depth": 3,
+            "visited": 569
+          }
+        }
+      },
+      {
+        "id": "shipwreck-oxygen",
+        "tiers": {
+          "easy": {
+            "action": "seal",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "seal",
+            "depth": 2,
+            "visited": 111
+          },
+          "hard": {
+            "action": "seal",
+            "depth": 3,
+            "visited": 346
+          }
+        }
+      },
+      {
+        "id": "growing-treehouse",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "roof:0",
+            "depth": 2,
+            "visited": 124
+          },
+          "hard": {
+            "action": "roof:0",
+            "depth": 3,
+            "visited": 398
+          }
+        }
+      },
+      {
+        "id": "gravity-shelter",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "side:2",
+            "depth": 2,
+            "visited": 131
+          },
+          "hard": {
+            "action": "side:2",
+            "depth": 3,
+            "visited": 452
+          }
+        }
+      },
+      {
+        "id": "nomad-rebuild",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "collect",
+            "depth": 2,
+            "visited": 42
+          },
+          "hard": {
+            "action": "collect",
+            "depth": 3,
+            "visited": 134
+          }
+        }
+      },
+      {
+        "id": "silent-hunt-camp",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "work:0",
+            "depth": 2,
+            "visited": 70
+          },
+          "hard": {
+            "action": "work:0",
+            "depth": 3,
+            "visited": 201
+          }
+        }
+      },
+      {
+        "id": "hibernation-base",
+        "tiers": {
+          "easy": {
+            "action": "collect",
+            "depth": 1,
+            "visited": 1
+          },
+          "normal": {
+            "action": "sleep:1",
+            "depth": 2,
+            "visited": 90
+          },
+          "hard": {
+            "action": "sleep:1",
+            "depth": 3,
+            "visited": 278
+          }
+        }
+      }
+    ],
+    "threat": {
+      "easy": [
+        {
+          "beast": 5,
+          "target": null,
+          "memory": 0
+        },
+        {
+          "beast": 5,
+          "target": null,
+          "memory": 0
+        },
+        {
+          "beast": 5,
+          "target": null,
+          "memory": 0
+        },
+        {
+          "beast": 5,
+          "target": null,
+          "memory": 0
+        },
+        {
+          "beast": 5,
+          "target": null,
+          "memory": 0
+        },
+        {
+          "beast": 5,
+          "target": null,
+          "memory": 0
+        }
+      ],
+      "normal": [
+        {
+          "beast": 5,
+          "target": null,
+          "memory": 1
+        },
+        {
+          "beast": 4,
+          "target": 0,
+          "memory": 2
+        },
+        {
+          "beast": 4,
+          "target": 0,
+          "memory": 3
+        },
+        {
+          "beast": 3,
+          "target": 0,
+          "memory": 4
+        },
+        {
+          "beast": 3,
+          "target": 0,
+          "memory": 4
+        },
+        {
+          "beast": 2,
+          "target": 0,
+          "memory": 4
+        }
+      ],
+      "hard": [
+        {
+          "beast": 4,
+          "target": 0,
+          "memory": 1
+        },
+        {
+          "beast": 3,
+          "target": 0,
+          "memory": 2
+        },
+        {
+          "beast": 2,
+          "target": 0,
+          "memory": 3
+        },
+        {
+          "beast": 1,
+          "target": 0,
+          "memory": 4
+        },
+        {
+          "beast": 0,
+          "target": 0,
+          "memory": 5
+        },
+        {
+          "beast": 0,
+          "target": 0,
+          "memory": 6
+        }
+      ]
+    }
+  },
+  "rogueAI": {
+    "decisionsChecked": 480,
+    "positionsWithPolicyDifferences": 1,
+    "hiddenWorldComparisons": 160
+  },
+  "gravityBedSymmetry": {
+    "uniqueActualSchedules": 100,
+    "duplicates": [],
+    "normalization": "Conservative old-model test: swap irrigation bed channels even though new load/supply coupling is stricter;100 classes required."
+  },
+  "passed": true
+}

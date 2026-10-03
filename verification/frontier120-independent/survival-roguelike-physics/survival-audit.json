@@ -1,0 +1,218 @@
+{
+  "scope": "Independent offline source/engine audit. Does not import builder assertions, pass flags, canonicalizers, or witness generators. Production is read-only. DOM and real-browser work reported separately.",
+  "started": "2026-10-03T05:00:34.158Z",
+  "families": {
+    "survival": {
+      "games": [
+        {
+          "id": "blizzard-shelter",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 3511
+        },
+        {
+          "id": "driftwood-raft",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 3178
+        },
+        {
+          "id": "underground-survival",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 4084
+        },
+        {
+          "id": "tidal-city",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 4172
+        },
+        {
+          "id": "colossus-home",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 5423
+        },
+        {
+          "id": "mycelium-farm",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 3306
+        },
+        {
+          "id": "desert-walker",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 3829
+        },
+        {
+          "id": "glass-greenhouse",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 5017
+        },
+        {
+          "id": "floating-anchors",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 5960
+        },
+        {
+          "id": "shipwreck-oxygen",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 6042
+        },
+        {
+          "id": "growing-treehouse",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 10336
+        },
+        {
+          "id": "gravity-shelter",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 7100
+        },
+        {
+          "id": "nomad-rebuild",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 7760
+        },
+        {
+          "id": "silent-hunt-camp",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 6986
+        },
+        {
+          "id": "hibernation-base",
+          "primary": 100,
+          "alternate": 100,
+          "tiers": [
+            "easy",
+            "normal",
+            "hard"
+          ],
+          "structuralSchedules": 100,
+          "staticCommitOnlyWins": 0,
+          "actions": 3311
+        }
+      ],
+      "primary": 1500,
+      "alternate": 1500,
+      "actions": 240045,
+      "terminalConditions": 33600
+    }
+  },
+  "errors": [],
+  "sourceHashes": {
+    "games/survival120-common/engine.js": "34d81df736196f83af474b828fd868e770dd69898396b0a4689a7bb8c4e75e2f",
+    "games/survival120-common/ui.js": "240e98c57b2a1b4559ee60678117544bf6d965ad2683e7928fd717ec1aaf08ff",
+    "games/survival120-common/specs.js": "0dfc70cbea933bbc0273a64fdf264ff7130283972de6c8b7f8a9d7c22283d911",
+    "games/survival120-common/session.js": "dc60f6b5f560b7c3b843e55c7f4c32e450abda6f9d1e9cbc585d8762f6aff544"
+  },
+  "completed": "2026-10-03T05:00:37.472Z",
+  "passed": true
+}

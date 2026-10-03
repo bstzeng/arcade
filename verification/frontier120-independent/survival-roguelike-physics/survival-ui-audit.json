@@ -1,0 +1,147 @@
+{
+  "scope": "Independent tests operating shipped controllers via offline DOM harnesses. This is not real-browser layout, native pointer routing, accessibility-tree, or deployed-network verification.",
+  "families": {
+    "survival": {
+      "games": [
+        {
+          "id": "blizzard-shelter",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "driftwood-raft",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "underground-survival",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "tidal-city",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "colossus-home",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "mycelium-farm",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "desert-walker",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "glass-greenhouse",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "floating-anchors",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "shipwreck-oxygen",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "growing-treehouse",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "gravity-shelter",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "nomad-rebuild",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "silent-hunt-camp",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        },
+        {
+          "id": "hibernation-base",
+          "manual": 100,
+          "pause": true,
+          "demoStopRestart": true,
+          "hintProvenance": true,
+          "reload": true,
+          "corruptSave": true
+        }
+      ],
+      "manualWitnesses": 1500
+    }
+  },
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,141 @@
+{
+  "scope": "Independent offline source/engine audit. Does not import builder assertions, pass flags, canonicalizers, or witness generators. Production is read-only. DOM and real-browser work reported separately.",
+  "started": "2026-10-03T05:00:34.179Z",
+  "families": {
+    "physics": {
+      "games": [
+        {
+          "id": "jelly-skyscraper",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 7
+        },
+        {
+          "id": "chain-demolition",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 16
+        },
+        {
+          "id": "junk-mech-battle",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 8
+        },
+        {
+          "id": "steam-pressure-lab",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 2
+        },
+        {
+          "id": "gravity-room-workshop",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 1
+        },
+        {
+          "id": "wind-tunnel-cargo",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 43
+        },
+        {
+          "id": "resonance-glass",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 18
+        },
+        {
+          "id": "melting-ice-bridge",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 26
+        },
+        {
+          "id": "sand-collapse-lab",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 24
+        },
+        {
+          "id": "rope-net-catch",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 17
+        },
+        {
+          "id": "magnetic-sculpture",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 18
+        },
+        {
+          "id": "friction-playground",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 28
+        },
+        {
+          "id": "cloth-parachute",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 72
+        },
+        {
+          "id": "hydraulic-hand",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 3
+        },
+        {
+          "id": "soap-bubble-lab",
+          "primary": 100,
+          "structuralParameterSets": 100,
+          "emptyWins": 0,
+          "initialWins": 0,
+          "fixedFirstConstructionWins": 48
+        }
+      ],
+      "primary": 1500,
+      "ticks": 1093816
+    }
+  },
+  "errors": [],
+  "sourceHashes": {
+    "games/physics120-common/engine.js": "739b642fa25c704ae727d23ded70c9751e53adc6e52ad3ea6b4bbe91dfc1bfb2",
+    "games/physics120-common/ui.js": "2b0d5a57f66c8a827887abadffacf225cb074511046de84e6f9bb58f1f4faafc",
+    "games/physics120-common/specs.js": "fe2f88f8537b74f7b07049b0126e34e56f723f8179d4bdedc1dfa366c1d2e802",
+    "games/physics120-common/session.js": "3823baa736b25ed1a7a81488f82c7ad705a1c127134b30aab30729e5ea0bb2b5"
+  },
+  "completed": "2026-10-03T05:00:42.635Z",
+  "passed": true
+}
