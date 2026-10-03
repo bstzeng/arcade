@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "promise",
+      "release",
+      "promise",
+      "release",
+      "note",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "note",
+      "release",
+      "promise",
+      "release",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "note",
+      "release",
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "rush",
+      "do",
+      "clarify",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "note",
+      "clarify",
+      "do",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "note",
+      "clarify",
+      "do",
+      "clarify",
+      "note",
+      "rush",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "rush",
+      "do",
+      "clarify",
+      "promise",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "do",
+      "clarify",
+      "do",
+      "rush",
+      "do",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "do",
+      "clarify",
+      "do",
+      "release",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "promise",
+      "rush",
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "note",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "do",
+      "rush",
+      "promise",
+      "release",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "do",
+      "clarify",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "note",
+      "rush",
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "promise",
+      "release",
+      "note",
+      "release",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "promise",
+      "release",
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "do",
+      "rush",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "do",
+      "rush",
+      "do",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "note",
+      "rush",
+      "do",
+      "clarify",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "note",
+      "clarify",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "do",
+      "release",
+      "do",
+      "rush",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "note",
+      "rush",
+      "note",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "do",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "promise",
+      "release",
+      "note",
+      "release",
+      "do",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "promise",
+      "rush",
+      "note",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "do",
+      "clarify",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "do",
+      "release",
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "note",
+      "release",
+      "do",
+      "rush",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "promise",
+      "clarify",
+      "note",
+      "rush",
+      "promise",
+      "rush",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "promise",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "do",
+      "clarify",
+      "note",
+      "release",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "note",
+      "release",
+      "note",
+      "release",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "note",
+      "clarify",
+      "note",
+      "release",
+      "promise",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "rush",
+      "note",
+      "release",
+      "note",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "do",
+      "clarify",
+      "note",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "do",
+      "release",
+      "note",
+      "clarify",
+      "do",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "note",
+      "rush",
+      "note",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "do",
+      "release",
+      "note",
+      "release",
+      "note",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "promise",
+      "release",
+      "note",
+      "release",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "do",
+      "release",
+      "note",
+      "clarify",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "do",
+      "clarify",
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "note",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "promise",
+      "release",
+      "do",
+      "release",
+      "do",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "note",
+      "release",
+      "note",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "do",
+      "release",
+      "promise",
+      "release",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "promise",
+      "rush",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "note",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "do",
+      "clarify",
+      "do",
+      "rush",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "do",
+      "clarify",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "note",
+      "clarify",
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "repair"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "do",
+      "clarify",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "clarify",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "note",
+      "rush",
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "note",
+      "clarify",
+      "note",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "do",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "note",
+      "release",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "do",
+      "clarify",
+      "note",
+      "clarify",
+      "do",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "do",
+      "release",
+      "note",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "promise",
+      "clarify",
+      "note",
+      "rush",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "promise",
+      "release",
+      "note",
+      "clarify",
+      "note",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "note",
+      "release",
+      "note",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "promise",
+      "clarify",
+      "do",
+      "clarify",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "clarify",
+      "note",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "do",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "note",
+      "rush",
+      "do",
+      "release",
+      "promise",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "do",
+      "release",
+      "note",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "promise",
+      "release",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "do",
+      "clarify",
+      "promise",
+      "rush",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "note",
+      "release",
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "promise",
+      "clarify",
+      "note",
+      "release",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "note",
+      "release",
+      "note",
+      "release",
+      "note",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "promise",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "do",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "promise",
+      "clarify",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "do",
+      "clarify",
+      "note",
+      "rush",
+      "do",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "promise",
+      "release",
+      "note",
+      "release",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "release",
+      "note",
+      "release",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "do",
+      "clarify",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "do",
+      "clarify",
+      "do",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "note",
+      "clarify",
+      "do",
+      "release",
+      "note",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "do",
+      "release",
+      "do",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "note",
+      "rush",
+      "promise",
+      "rush",
+      "note",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "note",
+      "rush",
+      "promise",
+      "rush",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "note",
+      "release",
+      "note",
+      "rush",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "do",
+      "release",
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "note",
+      "release",
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "note",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "note",
+      "rush",
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "note",
+      "rush",
+      "promise",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "do",
+      "clarify",
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "note",
+      "clarify",
+      "note",
+      "clarify",
+      "note",
+      "rush",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "rush",
+      "note",
+      "clarify",
+      "note",
+      "rush",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "do",
+      "clarify",
+      "promise",
+      "release",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "note",
+      "release",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "do",
+      "rush",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "note",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "promise",
+      "rush",
+      "promise",
+      "release",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "note",
+      "release",
+      "promise",
+      "release",
+      "note",
+      "rush",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "note",
+      "release",
+      "note",
+      "rush",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "do",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "note",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "do",
+      "rush",
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "do",
+      "release",
+      "do",
+      "rush",
+      "do",
+      "release",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "do",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "note",
+      "release",
+      "note",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "note",
+      "clarify",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "note",
+      "release",
+      "note",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "promise",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "note",
+      "clarify",
+      "note",
+      "release",
+      "note",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "note",
+      "rush",
+      "note",
+      "release",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "note",
+      "rush",
+      "note",
+      "release",
+      "promise",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "do",
+      "clarify",
+      "note",
+      "release",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "promise",
+      "clarify",
+      "do",
+      "rush",
+      "promise",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "note",
+      "rush",
+      "do",
+      "release",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "promise",
+      "release",
+      "note",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "promise",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "promise",
+      "clarify",
+      "promise",
+      "release",
+      "note",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "promise",
+      "release",
+      "note",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "promise",
+      "clarify",
+      "note",
+      "rush",
+      "do",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "rush",
+      "note",
+      "release",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "note",
+      "clarify",
+      "note",
+      "clarify",
+      "note",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "do",
+      "clarify",
+      "promise",
+      "clarify",
+      "note",
+      "clarify",
+      "repair"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "note",
+      "rush",
+      "note",
+      "release",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "clarify",
+      "do",
+      "rush",
+      "promise",
+      "clarify",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "promise",
+      "rush",
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "do",
+      "rush",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "do",
+      "rush",
+      "note",
+      "release",
+      "do",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "do",
+      "release",
+      "do",
+      "clarify",
+      "note",
+      "rush",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "note",
+      "clarify",
+      "promise",
+      "rush",
+      "promise",
+      "clarify",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "note",
+      "rush",
+      "note",
+      "release",
+      "do",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "promise",
+      "rush",
+      "note",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "note",
+      "rush",
+      "do",
+      "release",
+      "note",
+      "release",
+      "keep"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "do",
+      "rush",
+      "note",
+      "release",
+      "keep"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "promise",
+      "rush",
+      "do",
+      "release",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "promise",
+      "clarify",
+      "promise",
+      "clarify",
+      "do",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "note",
+      "clarify",
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "alternate": [
+      "note",
+      "release",
+      "promise",
+      "clarify",
+      "promise",
+      "rush",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "note",
+      "rush",
+      "do",
+      "release",
+      "do",
+      "release",
+      "repair"
+    ],
+    "alternate": [
+      "promise",
+      "release",
+      "note",
+      "clarify",
+      "do",
+      "release",
+      "return"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]
