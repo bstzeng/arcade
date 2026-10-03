@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:1",
+      "wait",
+      "radio",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:1",
+      "radio",
+      "hull",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "wait",
+      "garden",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "garden",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "ask",
+      "promise",
+      "promise",
+      "ticket:1",
+      "hull",
+      "radio",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "promise",
+      "ticket:1",
+      "radio",
+      "hull",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:2",
+      "hull",
+      "hull",
+      "hull"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:2",
+      "wait",
+      "hull",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:2",
+      "hull",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:2",
+      "radio",
+      "wait",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "wait",
+      "hull",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:2",
+      "wait",
+      "garden",
+      "garden"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "wait",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:0",
+      "radio",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "wait",
+      "hull",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:0",
+      "garden",
+      "radio",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:0",
+      "hull",
+      "radio",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:1",
+      "wait",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "hull",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "garden",
+      "garden",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "radio",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "wait",
+      "hull",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "wait",
+      "wait",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "hull",
+      "wait",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:0",
+      "wait",
+      "hull",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:0",
+      "garden",
+      "radio",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:0",
+      "radio",
+      "garden",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "garden",
+      "hull",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:1",
+      "radio",
+      "garden",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:2",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:2",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "hull",
+      "hull",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:2",
+      "radio",
+      "radio",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "promise",
+      "ticket:2",
+      "radio",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:2",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "hull",
+      "radio",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:1",
+      "radio",
+      "hull",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:1",
+      "hull",
+      "wait",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "promise",
+      "ticket:1",
+      "radio",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "wait",
+      "garden",
+      "garden"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "garden",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "garden",
+      "garden",
+      "hull"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "wait",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:0",
+      "radio",
+      "hull",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "hull",
+      "radio",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "radio",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "wait",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:2",
+      "wait",
+      "garden",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:2",
+      "wait",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "hull",
+      "radio",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:0",
+      "hull",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:2",
+      "radio",
+      "garden",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:2",
+      "garden",
+      "radio",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:2",
+      "radio",
+      "hull",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "garden",
+      "radio",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:1",
+      "hull",
+      "garden",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "radio",
+      "garden",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "garden",
+      "radio",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "wait",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "promise",
+      "ask",
+      "promise",
+      "ticket:0",
+      "garden",
+      "wait",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:0",
+      "garden",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:2",
+      "wait",
+      "hull",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "hull",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:1",
+      "wait",
+      "hull",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:1",
+      "hull",
+      "hull",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:2",
+      "garden",
+      "radio",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "hull",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:2",
+      "wait",
+      "wait",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:0",
+      "wait",
+      "wait",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:0",
+      "garden",
+      "garden",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "wait",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:2",
+      "garden",
+      "radio",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:2",
+      "radio",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:2",
+      "wait",
+      "hull",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "hull",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:0",
+      "wait",
+      "wait",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:0",
+      "garden",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:1",
+      "wait",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:1",
+      "garden",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:2",
+      "hull",
+      "garden",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "hull",
+      "garden",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:2",
+      "wait",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:2",
+      "hull",
+      "wait",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:1",
+      "garden",
+      "radio",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:1",
+      "garden",
+      "radio",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "radio",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "hull",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "wait",
+      "hull",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:1",
+      "garden",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "ask",
+      "promise",
+      "promise",
+      "ticket:0",
+      "hull",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:0",
+      "radio",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:0",
+      "wait",
+      "radio",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:2",
+      "wait",
+      "garden",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "garden",
+      "garden",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "garden",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "garden",
+      "hull",
+      "hull"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "hull",
+      "hull",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:1",
+      "hull",
+      "hull",
+      "garden"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:1",
+      "radio",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:1",
+      "hull",
+      "garden",
+      "garden"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "garden",
+      "garden",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:0",
+      "radio",
+      "hull",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "radio",
+      "hull",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:0",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:1",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "garden",
+      "garden",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:0",
+      "garden",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:1",
+      "hull",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:1",
+      "wait",
+      "hull",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "radio",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:2",
+      "hull",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:2",
+      "hull",
+      "hull",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:2",
+      "hull",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:0",
+      "wait",
+      "garden",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:0",
+      "wait",
+      "garden",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "garden",
+      "wait",
+      "garden"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "promise",
+      "ticket:1",
+      "wait",
+      "garden",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "wait",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:1",
+      "hull",
+      "radio",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:1",
+      "garden",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "garden",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:0",
+      "garden",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:1",
+      "radio",
+      "radio",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:1",
+      "hull",
+      "radio",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "hull",
+      "wait",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:2",
+      "wait",
+      "radio",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "wait",
+      "garden",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:0",
+      "garden",
+      "garden",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "garden",
+      "hull",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:2",
+      "garden",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "wait",
+      "garden",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:2",
+      "garden",
+      "hull",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:0",
+      "garden",
+      "wait",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:0",
+      "wait",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:0",
+      "radio",
+      "wait",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "promise",
+      "ask",
+      "promise",
+      "ticket:1",
+      "hull",
+      "hull",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "radio",
+      "radio",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "garden"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:0",
+      "radio",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:1",
+      "hull",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "ask",
+      "promise",
+      "promise",
+      "ticket:2",
+      "radio",
+      "radio",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:2",
+      "wait",
+      "radio",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:2",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:0",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "promise",
+      "ask",
+      "share",
+      "ticket:1",
+      "radio",
+      "radio",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "hull",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:2",
+      "garden",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:2",
+      "wait",
+      "hull",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "ask",
+      "ticket:2",
+      "radio",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:0",
+      "radio",
+      "wait",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:0",
+      "radio",
+      "wait",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:1",
+      "garden",
+      "radio",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:1",
+      "radio",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "ask",
+      "share",
+      "promise",
+      "ticket:0",
+      "radio",
+      "garden",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:2",
+      "garden",
+      "radio",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:0",
+      "radio",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:0",
+      "wait",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "promise",
+      "ticket:0",
+      "wait",
+      "wait",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:0",
+      "garden",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "garden",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "promise",
+      "ask",
+      "promise",
+      "ticket:0",
+      "wait",
+      "hull",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:0",
+      "radio",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:2",
+      "radio",
+      "garden",
+      "wait"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "share",
+      "ticket:2",
+      "garden",
+      "wait",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:2",
+      "hull",
+      "wait",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "wait",
+      "radio",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "promise",
+      "ask",
+      "promise",
+      "ticket:1",
+      "radio",
+      "hull",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:1",
+      "hull",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:1",
+      "garden",
+      "radio",
+      "hull"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "promise",
+      "ticket:1",
+      "radio",
+      "garden",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:2",
+      "hull",
+      "garden",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:1",
+      "hull",
+      "radio",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:1",
+      "radio",
+      "hull",
+      "hull"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:1",
+      "wait",
+      "radio",
+      "hull"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:1",
+      "garden",
+      "wait",
+      "garden"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:1",
+      "garden",
+      "garden",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:0",
+      "garden",
+      "hull",
+      "wait"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "wait",
+      "garden",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "promise",
+      "ask",
+      "ask",
+      "ticket:0",
+      "radio",
+      "garden",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "ask",
+      "ticket:0",
+      "garden",
+      "hull",
+      "garden"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "ask",
+      "share",
+      "ask",
+      "ticket:0",
+      "wait",
+      "hull",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "ask",
+      "ask",
+      "ticket:0",
+      "hull",
+      "radio",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "ask",
+      "ask",
+      "promise",
+      "ticket:2",
+      "wait",
+      "wait",
+      "radio"
+    ],
+    "alternate": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:0",
+      "wait",
+      "radio",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:1",
+      "wait",
+      "hull",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "share",
+      "share",
+      "ticket:1",
+      "hull",
+      "radio",
+      "radio"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "promise",
+      "promise",
+      "promise",
+      "ticket:2",
+      "hull",
+      "radio",
+      "radio"
+    ],
+    "alternate": [
+      "ask",
+      "promise",
+      "share",
+      "ticket:2",
+      "radio",
+      "hull",
+      "wait"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]
