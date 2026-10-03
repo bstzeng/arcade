@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "001 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "002 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 3
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "003 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "004 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "005 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "006 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "007 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "008 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "009 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "010 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "011 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "012 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "013 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "014 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "015 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 0
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "016 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "017 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "018 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "019 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "020 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "021 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "022 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "023 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "024 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "025 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 3
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "026 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "027 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "028 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "029 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "030 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "031 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "032 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "033 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "034 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "035 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "036 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "037 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "038 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "039 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "040 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "041 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "042 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 3
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "043 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 0
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "044 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "045 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "046 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "047 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 0
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "048 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "049 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "050 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "051 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 0
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "052 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "053 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "054 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "055 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "056 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "057 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "058 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "059 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 0
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "060 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "061 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "062 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "063 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "064 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "065 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "066 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "067 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "068 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "069 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "070 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "071 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "072 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "073 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 3
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "074 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "075 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "076 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "077 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 3
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "078 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著裂痕通行"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 3
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "079 · 帶著裂痕通行",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "080 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "共同分時"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "081 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 2
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "082 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 3
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "083 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 0
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "084 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "085 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "086 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "087 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "088 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "守軍封橋"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "089 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 3
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "090 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "091 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 0
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "092 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "093 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 1
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "094 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 2
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "095 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "商隊通行"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "096 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 0
+      }
+    ],
+    "premise": "同一座橋收到三份委託，它們來自你三個名字的同伴。",
+    "title": "097 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "三名一約"
+      },
+      {
+        "key": "trusted",
+        "label": "仍信任的群體",
+        "value": 3
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 1
+      }
+    ],
+    "premise": "城門將在黎明開啟，三種身分許下的優先權不能同時兌現。",
+    "title": "098 · 三名一約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "disclosed",
+        "label": "知曉三名關係的群體",
+        "value": 0
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 2
+      }
+    ],
+    "premise": "你可以保密，也可以把名字放到同一張協商桌上。",
+    "title": "099 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "一座橋的代價"
+      },
+      {
+        "key": "shared",
+        "label": "共同協商承諾",
+        "value": 1
+      },
+      {
+        "key": "allocation",
+        "label": "橋的用途",
+        "value": "居民撤離"
+      }
+    ],
+    "premise": "一個名字想封橋，另一個想通行，真正的橋沒有分身。",
+    "title": "100 · 一座橋的代價",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "不要把不同名字當成不同資源。先撤回衝突的獨占承諾，再公開其他身分，才能真正支持共同時刻表。"
+  }
+]

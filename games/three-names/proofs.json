@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "share",
+      "claim",
+      "claim",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "silent",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "silent",
+      "share",
+      "share",
+      "hide",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "share",
+      "revise",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "share",
+      "silent",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "claim",
+      "silent",
+      "share",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "share",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "share",
+      "claim",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "silent",
+      "revise",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "claim",
+      "share",
+      "claim",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "claim",
+      "share",
+      "claim",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "silent",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "share",
+      "share",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "claim",
+      "claim",
+      "claim",
+      "revise",
+      "disclose",
+      "revise",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "revise",
+      "disclose",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "share",
+      "silent",
+      "share",
+      "hide",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "hide",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "revise",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "claim",
+      "share",
+      "claim",
+      "revise",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "claim",
+      "revise",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "share",
+      "share",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "share",
+      "revise",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "share",
+      "share",
+      "silent",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "claim",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "share",
+      "share",
+      "share",
+      "hide",
+      "disclose",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "revise",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "claim",
+      "silent",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "claim",
+      "claim",
+      "claim",
+      "revise",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "silent",
+      "share",
+      "claim",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "claim",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "share",
+      "silent",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "claim",
+      "share",
+      "share",
+      "revise",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "share",
+      "disclose",
+      "revise",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "claim",
+      "share",
+      "silent",
+      "revise",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "share",
+      "revise",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "silent",
+      "share",
+      "claim",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "share",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "share",
+      "share",
+      "claim",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "claim",
+      "silent",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "claim",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "share",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "silent",
+      "disclose",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "claim",
+      "share",
+      "claim",
+      "revise",
+      "disclose",
+      "revise",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "revise",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "share",
+      "share",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "claim",
+      "silent",
+      "share",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "silent",
+      "claim",
+      "share",
+      "hide",
+      "revise",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "hide",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "claim",
+      "share",
+      "share",
+      "disclose",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "share",
+      "share",
+      "claim",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "silent",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "silent",
+      "claim",
+      "claim",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "silent",
+      "silent",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "silent",
+      "share",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "silent",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "claim",
+      "share",
+      "share",
+      "hide",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "silent",
+      "claim",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "claim",
+      "disclose",
+      "hide",
+      "revise",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "share",
+      "silent",
+      "silent",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "claim",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "revise",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "revise",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "share",
+      "share",
+      "claim",
+      "hide",
+      "hide",
+      "revise",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "revise",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "share",
+      "share",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "silent",
+      "disclose",
+      "revise",
+      "hide",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "share",
+      "claim",
+      "claim",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "claim",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "silent",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "silent",
+      "silent",
+      "claim",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "claim",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "claim",
+      "claim",
+      "claim",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "disclose",
+      "revise",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "claim",
+      "silent",
+      "share",
+      "revise",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "claim",
+      "silent",
+      "share",
+      "revise",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "claim",
+      "claim",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "silent",
+      "silent",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "share",
+      "claim",
+      "silent",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "claim",
+      "share",
+      "share",
+      "revise",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "hide",
+      "revise",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "share",
+      "claim",
+      "silent",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "silent",
+      "revise",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "claim",
+      "silent",
+      "silent",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "silent",
+      "silent",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "share",
+      "share",
+      "claim",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "revise",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "share",
+      "silent",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "revise",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "claim",
+      "share",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "claim",
+      "disclose",
+      "revise",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "share",
+      "claim",
+      "claim",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "share",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "claim",
+      "silent",
+      "claim",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "claim",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "silent",
+      "claim",
+      "share",
+      "hide",
+      "revise",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "revise",
+      "revise",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "claim",
+      "share",
+      "share",
+      "revise",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "share",
+      "hide",
+      "disclose",
+      "hide",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "share",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "share",
+      "share",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "revise",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "share",
+      "silent",
+      "claim",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "silent",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "share",
+      "claim",
+      "claim",
+      "disclose",
+      "disclose",
+      "revise",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "claim",
+      "claim",
+      "claim",
+      "revise",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "claim",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "claim",
+      "share",
+      "silent",
+      "revise",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "silent",
+      "share",
+      "silent",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "share",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "claim",
+      "claim",
+      "claim",
+      "hide",
+      "revise",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "claim",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "claim",
+      "claim",
+      "claim",
+      "revise",
+      "hide",
+      "revise",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "silent",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "share",
+      "silent",
+      "claim",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "silent",
+      "revise",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "silent",
+      "claim",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "share",
+      "share",
+      "silent",
+      "hide",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "revise",
+      "revise",
+      "hide",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "claim",
+      "silent",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "share",
+      "silent",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "silent",
+      "revise",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "silent",
+      "share",
+      "claim",
+      "hide",
+      "disclose",
+      "revise",
+      "common"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "claim",
+      "disclose",
+      "hide",
+      "revise",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "share",
+      "claim",
+      "claim",
+      "disclose",
+      "disclose",
+      "revise",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "claim",
+      "revise",
+      "disclose",
+      "revise",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "share",
+      "claim",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "claim",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "share",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "silent",
+      "share",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "revise",
+      "revise",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "claim",
+      "share",
+      "silent",
+      "revise",
+      "hide",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "claim",
+      "claim",
+      "silent",
+      "revise",
+      "revise",
+      "hide",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "share",
+      "revise",
+      "revise",
+      "hide",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "share",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "silent",
+      "silent",
+      "silent",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "silent",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "silent",
+      "silent",
+      "silent",
+      "disclose",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "share",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "silent",
+      "claim",
+      "claim",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "claim",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "claim",
+      "share",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "revise",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "share",
+      "silent",
+      "claim",
+      "disclose",
+      "disclose",
+      "revise",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "share",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "share",
+      "silent",
+      "silent",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "silent",
+      "disclose",
+      "revise",
+      "disclose",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "silent",
+      "claim",
+      "silent",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:1"
+    ],
+    "alternate": [
+      "silent",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "share",
+      "silent",
+      "silent",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "claim",
+      "disclose",
+      "hide",
+      "revise",
+      "allocate:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "silent",
+      "claim",
+      "silent",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "alternate": [
+      "silent",
+      "claim",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "claim",
+      "silent",
+      "silent",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "claim",
+      "silent",
+      "share",
+      "hide",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "claim",
+      "share",
+      "silent",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "claim",
+      "claim",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "claim",
+      "share",
+      "silent",
+      "disclose",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "claim",
+      "disclose",
+      "disclose",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "share",
+      "share",
+      "silent",
+      "hide",
+      "disclose",
+      "disclose",
+      "allocate:0"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "share",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "silent",
+      "silent",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "share",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "share",
+      "claim",
+      "share",
+      "hide",
+      "revise",
+      "disclose",
+      "common"
+    ],
+    "alternate": [
+      "claim",
+      "share",
+      "share",
+      "revise",
+      "hide",
+      "disclose",
+      "common"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "claim",
+      "silent",
+      "share",
+      "revise",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "silent",
+      "claim",
+      "hide",
+      "hide",
+      "revise",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "silent",
+      "share",
+      "claim",
+      "hide",
+      "hide",
+      "hide",
+      "allocate:2"
+    ],
+    "alternate": [
+      "share",
+      "claim",
+      "silent",
+      "hide",
+      "hide",
+      "disclose",
+      "allocate:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]
