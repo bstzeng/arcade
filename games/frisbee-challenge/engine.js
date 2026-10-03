@@ -1,0 +1,2 @@
+/* Public sport-specific engine facade; rules live in the family kernel. */
+(function(r){const E=typeof module==='object'?require('../sports120-common/engine.js'):r.SportsEngine;const api={kind:"frisbee",create:(level,options)=>E.create("frisbee",level,options),step:E.step,replay:(level,witness,options)=>E.replay("frisbee",level,witness,options)};if(typeof module==='object')module.exports=api;else r.SportGame=api;})(typeof globalThis!=='undefined'?globalThis:this);
