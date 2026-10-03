@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "guard",
+      "sabotage",
+      "withhold",
+      "open",
+      "sabotage",
+      "withhold"
+    ],
+    "alternate": [
+      "seize",
+      "parley",
+      "names",
+      "guard",
+      "sabotage",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "seize",
+      "ledger",
+      "sabotage",
+      "seize",
+      "withhold",
+      "sabotage"
+    ],
+    "alternate": [
+      "open",
+      "ledger",
+      "parley",
+      "seize",
+      "withhold",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "parley",
+      "open",
+      "withhold",
+      "rescue",
+      "open",
+      "withhold"
+    ],
+    "alternate": [
+      "parley",
+      "open",
+      "withhold",
+      "rescue",
+      "guard",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "sabotage",
+      "ledger",
+      "open",
+      "rescue",
+      "names",
+      "guard"
+    ],
+    "alternate": [
+      "parley",
+      "ledger",
+      "open",
+      "rescue",
+      "names",
+      "guard"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "names",
+      "seize",
+      "sabotage",
+      "names",
+      "open",
+      "parley"
+    ],
+    "alternate": [
+      "withhold",
+      "seize",
+      "sabotage",
+      "names",
+      "open",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "withhold",
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "seize"
+    ],
+    "alternate": [
+      "ledger",
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "seize",
+      "parley",
+      "ledger",
+      "seize",
+      "sabotage",
+      "withhold"
+    ],
+    "alternate": [
+      "seize",
+      "sabotage",
+      "ledger",
+      "open",
+      "parley",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "guard",
+      "withhold",
+      "sabotage",
+      "open",
+      "ledger",
+      "sabotage"
+    ],
+    "alternate": [
+      "open",
+      "ledger",
+      "parley",
+      "guard",
+      "names",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "sabotage",
+      "open",
+      "ledger",
+      "parley",
+      "open",
+      "ledger"
+    ],
+    "alternate": [
+      "parley",
+      "open",
+      "ledger",
+      "parley",
+      "open",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "parley",
+      "withhold",
+      "open",
+      "sabotage",
+      "withhold",
+      "seize"
+    ],
+    "alternate": [
+      "sabotage",
+      "names",
+      "open",
+      "sabotage",
+      "withhold",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "withhold",
+      "guard",
+      "parley",
+      "names",
+      "seize",
+      "sabotage"
+    ],
+    "alternate": [
+      "withhold",
+      "seize",
+      "parley",
+      "withhold",
+      "guard",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "names",
+      "sabotage",
+      "open",
+      "withhold",
+      "rescue",
+      "seize"
+    ],
+    "alternate": [
+      "names",
+      "sabotage",
+      "open",
+      "names",
+      "rescue",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "seize",
+      "parley",
+      "ledger",
+      "guard",
+      "parley",
+      "withhold"
+    ],
+    "alternate": [
+      "guard",
+      "rescue",
+      "withhold",
+      "guard",
+      "parley",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "guard",
+      "ledger",
+      "rescue",
+      "open",
+      "names",
+      "parley"
+    ],
+    "alternate": [
+      "open",
+      "withhold",
+      "rescue",
+      "open",
+      "ledger",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "parley",
+      "seize",
+      "names",
+      "sabotage",
+      "open",
+      "names"
+    ],
+    "alternate": [
+      "sabotage",
+      "seize",
+      "names",
+      "sabotage",
+      "seize",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "parley",
+      "names",
+      "guard",
+      "parley",
+      "names",
+      "seize"
+    ],
+    "alternate": [
+      "parley",
+      "withhold",
+      "guard",
+      "parley",
+      "withhold",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "withhold",
+      "guard",
+      "rescue",
+      "withhold",
+      "open",
+      "sabotage"
+    ],
+    "alternate": [
+      "names",
+      "guard",
+      "rescue",
+      "withhold",
+      "open",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "names",
+      "parley",
+      "guard",
+      "withhold",
+      "rescue",
+      "guard"
+    ],
+    "alternate": [
+      "withhold",
+      "parley",
+      "guard",
+      "ledger",
+      "rescue",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "open",
+      "rescue",
+      "names",
+      "seize",
+      "sabotage",
+      "ledger"
+    ],
+    "alternate": [
+      "seize",
+      "parley",
+      "withhold",
+      "guard",
+      "rescue",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "guard",
+      "ledger",
+      "parley",
+      "open",
+      "withhold",
+      "parley"
+    ],
+    "alternate": [
+      "guard",
+      "withhold",
+      "parley",
+      "open",
+      "ledger",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "sabotage",
+      "open",
+      "withhold",
+      "rescue",
+      "seize",
+      "ledger"
+    ],
+    "alternate": [
+      "parley",
+      "open",
+      "ledger",
+      "rescue",
+      "seize",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "parley",
+      "withhold",
+      "open",
+      "parley",
+      "names",
+      "guard"
+    ],
+    "alternate": [
+      "parley",
+      "withhold",
+      "open",
+      "parley",
+      "withhold",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "names",
+      "guard",
+      "rescue",
+      "names",
+      "open",
+      "parley"
+    ],
+    "alternate": [
+      "names",
+      "guard",
+      "rescue",
+      "names",
+      "guard",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "ledger",
+      "parley",
+      "guard",
+      "withhold",
+      "parley",
+      "guard"
+    ],
+    "alternate": [
+      "ledger",
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "guard"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "guard",
+      "parley",
+      "withhold",
+      "open",
+      "sabotage",
+      "ledger"
+    ],
+    "alternate": [
+      "guard",
+      "parley",
+      "names",
+      "open",
+      "sabotage",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "guard",
+      "withhold",
+      "parley",
+      "seize",
+      "withhold",
+      "sabotage"
+    ],
+    "alternate": [
+      "guard",
+      "withhold",
+      "parley",
+      "open",
+      "ledger",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "sabotage",
+      "open",
+      "ledger",
+      "rescue",
+      "guard",
+      "names"
+    ],
+    "alternate": [
+      "parley",
+      "open",
+      "withhold",
+      "rescue",
+      "guard",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "parley",
+      "names",
+      "open",
+      "parley",
+      "withhold",
+      "open"
+    ],
+    "alternate": [
+      "parley",
+      "names",
+      "open",
+      "parley",
+      "names",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "names",
+      "seize",
+      "parley",
+      "names",
+      "open",
+      "rescue"
+    ],
+    "alternate": [
+      "ledger",
+      "seize",
+      "sabotage",
+      "names",
+      "open",
+      "rescue"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "names",
+      "sabotage",
+      "open",
+      "withhold",
+      "parley",
+      "open"
+    ],
+    "alternate": [
+      "withhold",
+      "parley",
+      "guard",
+      "withhold",
+      "sabotage",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "guard",
+      "parley",
+      "names",
+      "open",
+      "sabotage",
+      "names"
+    ],
+    "alternate": [
+      "guard",
+      "parley",
+      "names",
+      "seize",
+      "sabotage",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "open",
+      "names",
+      "sabotage",
+      "open",
+      "ledger",
+      "sabotage"
+    ],
+    "alternate": [
+      "open",
+      "ledger",
+      "parley",
+      "open",
+      "ledger",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "parley",
+      "seize",
+      "withhold",
+      "parley",
+      "seize",
+      "ledger"
+    ],
+    "alternate": [
+      "parley",
+      "seize",
+      "ledger",
+      "parley",
+      "seize",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "sabotage",
+      "ledger",
+      "seize",
+      "sabotage",
+      "names",
+      "seize"
+    ],
+    "alternate": [
+      "sabotage",
+      "ledger",
+      "seize",
+      "parley",
+      "withhold",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "withhold",
+      "seize",
+      "parley",
+      "ledger",
+      "open",
+      "sabotage"
+    ],
+    "alternate": [
+      "ledger",
+      "guard",
+      "parley",
+      "ledger",
+      "seize",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "withhold",
+      "sabotage",
+      "open",
+      "ledger",
+      "sabotage",
+      "seize"
+    ],
+    "alternate": [
+      "names",
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "guard",
+      "rescue",
+      "withhold",
+      "seize",
+      "sabotage",
+      "withhold"
+    ],
+    "alternate": [
+      "guard",
+      "rescue",
+      "ledger",
+      "seize",
+      "sabotage",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "guard",
+      "names",
+      "parley",
+      "guard",
+      "ledger",
+      "parley"
+    ],
+    "alternate": [
+      "guard",
+      "withhold",
+      "parley",
+      "guard",
+      "withhold",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "parley",
+      "open",
+      "ledger",
+      "parley",
+      "open",
+      "ledger"
+    ],
+    "alternate": [
+      "sabotage",
+      "open",
+      "ledger",
+      "sabotage",
+      "open",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "parley",
+      "withhold",
+      "open",
+      "rescue",
+      "names",
+      "guard"
+    ],
+    "alternate": [
+      "sabotage",
+      "withhold",
+      "open",
+      "rescue",
+      "names",
+      "guard"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "ledger",
+      "seize",
+      "parley",
+      "names",
+      "guard",
+      "sabotage"
+    ],
+    "alternate": [
+      "names",
+      "guard",
+      "sabotage",
+      "ledger",
+      "open",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "ledger",
+      "parley",
+      "seize",
+      "names",
+      "parley",
+      "open"
+    ],
+    "alternate": [
+      "ledger",
+      "sabotage",
+      "seize",
+      "withhold",
+      "parley",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "open",
+      "rescue",
+      "names",
+      "guard",
+      "parley",
+      "names"
+    ],
+    "alternate": [
+      "guard",
+      "rescue",
+      "withhold",
+      "open",
+      "parley",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "open",
+      "names",
+      "sabotage",
+      "seize",
+      "withhold",
+      "parley"
+    ],
+    "alternate": [
+      "guard",
+      "withhold",
+      "parley",
+      "seize",
+      "withhold",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "parley",
+      "seize",
+      "names",
+      "parley",
+      "open",
+      "names"
+    ],
+    "alternate": [
+      "sabotage",
+      "seize",
+      "withhold",
+      "parley",
+      "open",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "parley",
+      "withhold",
+      "seize",
+      "parley",
+      "names",
+      "guard"
+    ],
+    "alternate": [
+      "parley",
+      "names",
+      "seize",
+      "parley",
+      "names",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "ledger",
+      "guard",
+      "rescue",
+      "names",
+      "open",
+      "sabotage"
+    ],
+    "alternate": [
+      "names",
+      "open",
+      "rescue",
+      "ledger",
+      "guard",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "withhold",
+      "sabotage",
+      "open",
+      "names",
+      "parley",
+      "guard"
+    ],
+    "alternate": [
+      "names",
+      "sabotage",
+      "open",
+      "names",
+      "parley",
+      "guard"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "guard",
+      "rescue",
+      "withhold",
+      "open",
+      "parley",
+      "ledger"
+    ],
+    "alternate": [
+      "open",
+      "parley",
+      "names",
+      "guard",
+      "parley",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "open",
+      "withhold",
+      "parley",
+      "open",
+      "names",
+      "sabotage"
+    ],
+    "alternate": [
+      "seize",
+      "withhold",
+      "sabotage",
+      "seize",
+      "withhold",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "guard",
+      "withhold"
+    ],
+    "alternate": [
+      "parley",
+      "guard",
+      "withhold",
+      "parley",
+      "guard",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "parley",
+      "ledger",
+      "open",
+      "rescue",
+      "withhold",
+      "open"
+    ],
+    "alternate": [
+      "sabotage",
+      "ledger",
+      "open",
+      "rescue",
+      "withhold",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "withhold",
+      "guard",
+      "parley",
+      "withhold",
+      "seize",
+      "parley"
+    ],
+    "alternate": [
+      "names",
+      "seize",
+      "parley",
+      "withhold",
+      "seize",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "names",
+      "parley",
+      "seize",
+      "withhold",
+      "sabotage",
+      "seize"
+    ],
+    "alternate": [
+      "withhold",
+      "sabotage",
+      "open",
+      "withhold",
+      "sabotage",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "seize",
+      "sabotage",
+      "ledger",
+      "seize",
+      "sabotage",
+      "withhold"
+    ],
+    "alternate": [
+      "open",
+      "parley",
+      "ledger",
+      "seize",
+      "parley",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "open",
+      "withhold",
+      "rescue",
+      "open",
+      "ledger",
+      "rescue"
+    ],
+    "alternate": [
+      "open",
+      "ledger",
+      "sabotage",
+      "open",
+      "withhold",
+      "rescue"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "parley",
+      "open",
+      "ledger",
+      "parley",
+      "guard",
+      "names"
+    ],
+    "alternate": [
+      "parley",
+      "open",
+      "ledger",
+      "parley",
+      "guard",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "parley",
+      "withhold",
+      "guard",
+      "parley",
+      "names",
+      "open"
+    ],
+    "alternate": [
+      "parley",
+      "names",
+      "guard",
+      "parley",
+      "withhold",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "withhold",
+      "guard",
+      "parley",
+      "withhold",
+      "guard",
+      "sabotage"
+    ],
+    "alternate": [
+      "withhold",
+      "guard",
+      "parley",
+      "names",
+      "open",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "names",
+      "sabotage",
+      "open",
+      "names",
+      "rescue",
+      "guard"
+    ],
+    "alternate": [
+      "withhold",
+      "parley",
+      "guard",
+      "names",
+      "rescue",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "seize",
+      "parley",
+      "ledger",
+      "open",
+      "parley",
+      "names"
+    ],
+    "alternate": [
+      "open",
+      "parley",
+      "ledger",
+      "seize",
+      "parley",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "seize",
+      "ledger",
+      "parley",
+      "seize",
+      "withhold",
+      "parley"
+    ],
+    "alternate": [
+      "guard",
+      "ledger",
+      "parley",
+      "seize",
+      "names",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "sabotage",
+      "seize",
+      "withhold",
+      "parley",
+      "open",
+      "withhold"
+    ],
+    "alternate": [
+      "parley",
+      "seize",
+      "names",
+      "parley",
+      "open",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "parley",
+      "names",
+      "open",
+      "parley",
+      "withhold",
+      "open"
+    ],
+    "alternate": [
+      "sabotage",
+      "withhold",
+      "open",
+      "sabotage",
+      "names",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "withhold",
+      "open",
+      "parley",
+      "withhold",
+      "seize",
+      "parley"
+    ],
+    "alternate": [
+      "withhold",
+      "seize",
+      "sabotage",
+      "withhold",
+      "open",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "withhold",
+      "parley",
+      "seize",
+      "ledger",
+      "parley",
+      "guard"
+    ],
+    "alternate": [
+      "ledger",
+      "parley",
+      "seize",
+      "withhold",
+      "parley",
+      "guard"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "guard",
+      "sabotage",
+      "names",
+      "open",
+      "rescue",
+      "ledger"
+    ],
+    "alternate": [
+      "open",
+      "rescue",
+      "ledger",
+      "guard",
+      "sabotage",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "seize",
+      "withhold",
+      "parley",
+      "guard",
+      "withhold",
+      "sabotage"
+    ],
+    "alternate": [
+      "seize",
+      "names",
+      "parley",
+      "guard",
+      "withhold",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "parley",
+      "seize",
+      "names",
+      "parley",
+      "guard",
+      "ledger"
+    ],
+    "alternate": [
+      "parley",
+      "seize",
+      "ledger",
+      "parley",
+      "guard",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "parley",
+      "ledger",
+      "guard",
+      "rescue",
+      "names",
+      "guard"
+    ],
+    "alternate": [
+      "parley",
+      "withhold",
+      "guard",
+      "rescue",
+      "ledger",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "withhold",
+      "open",
+      "rescue",
+      "ledger",
+      "guard",
+      "parley"
+    ],
+    "alternate": [
+      "ledger",
+      "guard",
+      "rescue",
+      "withhold",
+      "guard",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "withhold",
+      "sabotage",
+      "open",
+      "ledger",
+      "rescue",
+      "open"
+    ],
+    "alternate": [
+      "names",
+      "sabotage",
+      "open",
+      "ledger",
+      "rescue",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "open",
+      "rescue",
+      "withhold",
+      "seize",
+      "sabotage",
+      "withhold"
+    ],
+    "alternate": [
+      "open",
+      "rescue",
+      "withhold",
+      "seize",
+      "sabotage",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "open",
+      "ledger",
+      "sabotage",
+      "open",
+      "ledger",
+      "rescue"
+    ],
+    "alternate": [
+      "open",
+      "ledger",
+      "parley",
+      "guard",
+      "names",
+      "rescue"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "parley",
+      "open",
+      "names",
+      "rescue",
+      "guard",
+      "withhold"
+    ],
+    "alternate": [
+      "sabotage",
+      "open",
+      "names",
+      "rescue",
+      "seize",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "parley",
+      "ledger",
+      "guard",
+      "rescue",
+      "withhold",
+      "seize"
+    ],
+    "alternate": [
+      "sabotage",
+      "ledger",
+      "open",
+      "rescue",
+      "ledger",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "ledger",
+      "open",
+      "parley",
+      "ledger",
+      "open",
+      "parley"
+    ],
+    "alternate": [
+      "ledger",
+      "open",
+      "parley",
+      "names",
+      "open",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "names",
+      "parley",
+      "open",
+      "names",
+      "sabotage",
+      "seize"
+    ],
+    "alternate": [
+      "names",
+      "parley",
+      "guard",
+      "withhold",
+      "sabotage",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "guard",
+      "parley",
+      "withhold",
+      "open",
+      "parley",
+      "withhold"
+    ],
+    "alternate": [
+      "guard",
+      "sabotage",
+      "names",
+      "open",
+      "parley",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "open",
+      "withhold",
+      "parley",
+      "seize",
+      "ledger",
+      "parley"
+    ],
+    "alternate": [
+      "open",
+      "withhold",
+      "sabotage",
+      "seize",
+      "ledger",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "sabotage",
+      "seize",
+      "withhold",
+      "sabotage",
+      "open",
+      "names"
+    ],
+    "alternate": [
+      "sabotage",
+      "open",
+      "withhold",
+      "parley",
+      "seize",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "sabotage",
+      "names",
+      "open",
+      "sabotage",
+      "names",
+      "open"
+    ],
+    "alternate": [
+      "sabotage",
+      "withhold",
+      "seize",
+      "parley",
+      "names",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "ledger",
+      "open",
+      "sabotage",
+      "names",
+      "open",
+      "parley"
+    ],
+    "alternate": [
+      "names",
+      "guard",
+      "sabotage",
+      "ledger",
+      "open",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "withhold",
+      "parley",
+      "seize",
+      "ledger",
+      "parley",
+      "guard"
+    ],
+    "alternate": [
+      "ledger",
+      "parley",
+      "open",
+      "names",
+      "parley",
+      "guard"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "guard",
+      "parley",
+      "withhold",
+      "seize",
+      "parley",
+      "names"
+    ],
+    "alternate": [
+      "guard",
+      "parley",
+      "names",
+      "seize",
+      "parley",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "seize",
+      "ledger",
+      "parley",
+      "seize",
+      "names",
+      "sabotage"
+    ],
+    "alternate": [
+      "open",
+      "ledger",
+      "parley",
+      "open",
+      "names",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "guard",
+      "names"
+    ],
+    "alternate": [
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "seize",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "parley",
+      "names",
+      "open",
+      "rescue",
+      "withhold",
+      "open"
+    ],
+    "alternate": [
+      "sabotage",
+      "withhold",
+      "open",
+      "rescue",
+      "names",
+      "open"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "names",
+      "guard",
+      "sabotage",
+      "names",
+      "open",
+      "parley"
+    ],
+    "alternate": [
+      "withhold",
+      "guard",
+      "sabotage",
+      "withhold",
+      "open",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "ledger",
+      "parley",
+      "guard",
+      "ledger",
+      "parley",
+      "guard"
+    ],
+    "alternate": [
+      "ledger",
+      "parley",
+      "guard",
+      "withhold",
+      "parley",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "open",
+      "rescue",
+      "withhold",
+      "guard",
+      "parley",
+      "names"
+    ],
+    "alternate": [
+      "guard",
+      "rescue",
+      "names",
+      "guard",
+      "parley",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "guard",
+      "withhold",
+      "rescue",
+      "open",
+      "withhold",
+      "rescue"
+    ],
+    "alternate": [
+      "guard",
+      "withhold",
+      "rescue",
+      "open",
+      "withhold",
+      "sabotage"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "sabotage",
+      "open",
+      "ledger",
+      "parley",
+      "open",
+      "ledger"
+    ],
+    "alternate": [
+      "sabotage",
+      "open",
+      "ledger",
+      "sabotage",
+      "open",
+      "names"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "sabotage",
+      "names",
+      "seize",
+      "sabotage",
+      "ledger",
+      "seize"
+    ],
+    "alternate": [
+      "sabotage",
+      "withhold",
+      "open",
+      "sabotage",
+      "ledger",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "ledger",
+      "open",
+      "rescue",
+      "ledger",
+      "guard",
+      "rescue"
+    ],
+    "alternate": [
+      "names",
+      "guard",
+      "rescue",
+      "ledger",
+      "seize",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "names",
+      "parley",
+      "open",
+      "names",
+      "rescue",
+      "seize"
+    ],
+    "alternate": [
+      "withhold",
+      "sabotage",
+      "open",
+      "names",
+      "rescue",
+      "seize"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "guard",
+      "parley",
+      "ledger",
+      "seize",
+      "sabotage",
+      "ledger"
+    ],
+    "alternate": [
+      "guard",
+      "parley",
+      "names",
+      "seize",
+      "sabotage",
+      "withhold"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "open",
+      "withhold",
+      "rescue",
+      "seize",
+      "ledger",
+      "parley"
+    ],
+    "alternate": [
+      "open",
+      "names",
+      "rescue",
+      "guard",
+      "withhold",
+      "parley"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "sabotage",
+      "open",
+      "ledger",
+      "rescue",
+      "open",
+      "names"
+    ],
+    "alternate": [
+      "sabotage",
+      "open",
+      "names",
+      "rescue",
+      "open",
+      "ledger"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "parley",
+      "names",
+      "guard",
+      "rescue",
+      "names",
+      "open"
+    ],
+    "alternate": [
+      "parley",
+      "names",
+      "guard",
+      "rescue",
+      "names",
+      "guard"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]
