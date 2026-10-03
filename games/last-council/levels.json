@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "001 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "002 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "003 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "004 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "005 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "006 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "007 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "008 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "009 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "010 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "011 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "012 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "013 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "014 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "015 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "016 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "017 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "018 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "019 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "020 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "021 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "022 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "023 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "024 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "025 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "026 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "027 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "028 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "029 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "030 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "031 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "032 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "033 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "034 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "035 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "036 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "037 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "038 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "039 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "040 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "041 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "042 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "043 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "044 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "045 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "046 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "047 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "048 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "049 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "050 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "051 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "052 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "053 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "054 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "055 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "056 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "057 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "058 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "059 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "060 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "061 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "062 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "063 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "064 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "065 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "066 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "067 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "068 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "069 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "070 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "071 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "072 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "073 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "074 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "075 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "076 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "077 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "078 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "079 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 0
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "080 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "081 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "082 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "083 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "084 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "085 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 0
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "086 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "087 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "088 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "089 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "090 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "091 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "092 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "093 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "共同遷都"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "094 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "可信盟約"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "095 · 可信盟約",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫緩決議"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "保留王室"
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "096 · 暫緩決議",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "國境消息不斷送到，這是各派最後一次同桌表決。",
+    "title": "097 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 3
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 2
+      }
+    ],
+    "premise": "王室讓出議程，三份資產成為交換支持的籌碼。",
+    "title": "098 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "重議條款"
+      },
+      {
+        "key": "honored",
+        "label": "已兌現承諾",
+        "value": 1
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      }
+    ],
+    "premise": "遷都與留守各有代價，會議後仍要真的交付承諾。",
+    "title": "099 · 重議條款",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "脆弱多數"
+      },
+      {
+        "key": "policy",
+        "label": "提出的政體",
+        "value": "成立議會"
+      },
+      {
+        "key": "votes",
+        "label": "贊成派別",
+        "value": 2
+      }
+    ],
+    "premise": "書記特別提醒：同一座糧倉不能在三份盟約中各出現一次。",
+    "title": "100 · 脆弱多數",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "讀各派公開政綱。重複承諾同一資產會在投票時被察覺，也會在交付時互相排擠。"
+  }
+]
