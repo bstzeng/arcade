@@ -1,0 +1,697 @@
+{
+  "schemaVersion": 1,
+  "family": "stealth",
+  "status": "implemented-offline-verified-awaiting-browser-and-independent-review",
+  "games": [
+    {
+      "id": "shadow-infiltration",
+      "title": "影子潛入",
+      "entry": "games/shadow-infiltration.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/shadow-infiltration/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/shadow-infiltration/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "guard",
+        "policy": "Guard patrol, cardinal visibility with wall occlusion, warning threshold, pursuit of last observed location, sound investigation, timed search and return.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "silent-footsteps",
+      "title": "無聲腳步",
+      "entry": "games/silent-footsteps.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/silent-footsteps/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/silent-footsteps/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "guard",
+        "policy": "Guard patrol, cardinal visibility with wall occlusion, warning threshold, pursuit of last observed location, sound investigation, timed search and return.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "disguise-pass",
+      "title": "偽裝通行",
+      "entry": "games/disguise-pass.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/disguise-pass/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/disguise-pass/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "none-environment-rules",
+        "policy": "Identity gates, pipe/fan network, pressure plates, or signal triangulation are deterministic environment rules; no fictitious opponent.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "camera-labyrinth",
+      "title": "監視器迷陣",
+      "entry": "games/camera-labyrinth.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/camera-labyrinth/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/camera-labyrinth/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "deterministic-environment-agent",
+        "policy": "Rotating camera visibility is computed by cardinal ray, wall occlusion, phase and hacking countdown.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "vent-escape",
+      "title": "通風管逃脫",
+      "entry": "games/vent-escape.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/vent-escape/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/vent-escape/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "none-environment-rules",
+        "policy": "Identity gates, pipe/fan network, pressure plates, or signal triangulation are deterministic environment rules; no fictitious opponent.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "thief-exchange",
+      "title": "神偷交接",
+      "entry": "games/thief-exchange.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/thief-exchange/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/thief-exchange/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "deterministic-environment-agent",
+        "policy": "Deterministic target motion, four-phase crowd occlusion and guard watch position; stealing and concealment require local cover.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "tailing-mission",
+      "title": "尾隨任務",
+      "entry": "games/tailing-mission.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/tailing-mission/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/tailing-mission/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "deterministic-environment-agent",
+        "policy": "Target follows disclosed speed/lane/turn-back itinerary; player distance and cover determine capture/loss.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "prison-break",
+      "title": "監獄越獄",
+      "entry": "games/prison-break.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/prison-break/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/prison-break/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "guard",
+        "policy": "Guard patrol, cardinal visibility with wall occlusion, warning threshold, pursuit of last observed location, sound investigation, timed search and return.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "document-swap",
+      "title": "機密文件調包",
+      "entry": "games/document-swap.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/document-swap/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "constructive-actual-engine-replay",
+        "path": "games/document-swap/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "deterministic-environment-agent",
+        "policy": "Patrolling inspector advances one desk column per action and catches swaps in the watched column.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "hostage-extraction",
+      "title": "人質撤離",
+      "entry": "games/hostage-extraction.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/hostage-extraction/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/hostage-extraction/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "guard-and-escort",
+        "policy": "Guard patrol, cardinal visibility with wall occlusion, warning threshold, pursuit of last observed location, sound investigation, timed search and return. Escort follows the player via a traversable shortest path, refuses currently visible next cells and respects hold/follow commands.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "dual-infiltration",
+      "title": "雙區同步潛入",
+      "entry": "games/dual-infiltration.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/dual-infiltration/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/dual-infiltration/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "none-environment-rules",
+        "policy": "Identity gates, pipe/fan network, pressure plates, or signal triangulation are deterministic environment rules; no fictitious opponent.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "bug-sweep",
+      "title": "反竊聽搜查",
+      "entry": "games/bug-sweep.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/bug-sweep/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "constructive-actual-engine-replay",
+        "path": "games/bug-sweep/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "none-environment-rules",
+        "policy": "Identity gates, pipe/fan network, pressure plates, or signal triangulation are deterministic environment rules; no fictitious opponent.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Operative board dimensions and device positions only, canonicalized across all reflections/transposition and equivalent frequency permutation. Calibrated noise, resource budgets, IDs and generator metadata excluded.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "decoy-setup",
+      "title": "誘敵布置",
+      "entry": "games/decoy-setup.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/decoy-setup/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/decoy-setup/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "guard",
+        "policy": "Guard holds choke point; sound starts shortest-path investigation, timed directional search and return to post. Vision and collision still cause detection.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "spy-photography",
+      "title": "諜報攝影",
+      "entry": "games/spy-photography.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/spy-photography/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/spy-photography/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "guard",
+        "policy": "Guard patrol, cardinal visibility with wall occlusion, warning threshold, pursuit of last observed location, sound investigation, timed search and return.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    },
+    {
+      "id": "rewind-agent",
+      "title": "倒帶特工",
+      "entry": "games/rewind-agent.html",
+      "engine": "games/stealth120-common/engine.js",
+      "controller": "games/stealth120-common/app.js",
+      "levelBased": true,
+      "levels": "games/rewind-agent/levels.json",
+      "levelRecordPath": [],
+      "levelCount": 100,
+      "proof": {
+        "kind": "reachability-fixed-deterministic-policy",
+        "path": "games/rewind-agent/witnesses.json",
+        "recordPath": [],
+        "claim": "100 legal action witnesses replayed through the shipped game engine to an independently checked mission objective. No uniqueness or arbitrary-opponent forced-win claim."
+      },
+      "ai": {
+        "kind": "guard",
+        "policy": "Guard patrol, cardinal visibility with wall occlusion, warning threshold, pursuit of last observed location, sound investigation, timed search and return.",
+        "information": "Only current position/facing, traversable geometry, local line of sight or audible source; fixed itinerary agents use their public mission schedule. No hidden future player action."
+      },
+      "distinctness": {
+        "method": "Canonicalized mission rules, topology, objective/dependency locations, schedules and mechanic-specific constraints; excludes ID, generation-attempt metadata and numeric resource budgets. Includes no name/color-only seeds.",
+        "evidencePath": "games/stealth120-common/verification-report.json"
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "model": "explicit turn-based buttons; arrows and space where relevant; no repeating held input"
+      },
+      "progress": {
+        "savedLocally": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      }
+    }
+  ],
+  "commands": [
+    [
+      "node",
+      "--check",
+      "games/stealth120-common/engine.js"
+    ],
+    [
+      "node",
+      "--check",
+      "games/stealth120-common/app.js"
+    ],
+    [
+      "node",
+      "games/stealth120-common/verify.cjs"
+    ]
+  ],
+  "freshReports": [
+    "games/stealth120-common/verification-report.json"
+  ],
+  "sourceFiles": {
+    "games/shadow-infiltration.html": "9063d1bb906b5f9fdbc2156130ad59645917cb7e1a30a74fb9676fb7c6e0bcc3",
+    "games/shadow-infiltration/README.md": "64cdcb10baf799a64e5f6fa9c3505929f0f02e490b550c7a69cf287279ee500c",
+    "games/shadow-infiltration/art.svg": "5d0d1302fece3187388da98eaa4f6ff7103bd109129ada48814e5434d63a4ae4",
+    "games/shadow-infiltration/levels.js": "2fa47e007599e072b09e46227efc33c8c11992636053b82a0f099d84844158b1",
+    "games/shadow-infiltration/levels.json": "1ef87b29cf259d0be3b29c37958cc61c22c0b6815f336f5267fab046e47fe3e9",
+    "games/shadow-infiltration/witnesses.json": "c62baeb6a57e97126a92f639c6e93c41d2e05b3c1a9d312313bb8692669ce7ab",
+    "games/silent-footsteps.html": "5bfaa5ba1b08282b48af5d13f8525a78b2d3e4c21ce0918fe87191151ed900de",
+    "games/silent-footsteps/README.md": "873e281bae76f4cc3de74752fca85d8b1e9b56833db6c5306fffb2b4a677d760",
+    "games/silent-footsteps/art.svg": "ddc0af923b528bff5161f37ad7db59dc37fd1125bb59fc48eafadeb9370e36b2",
+    "games/silent-footsteps/levels.js": "06c5013ce1c0cb0b6e68362aa723553456ed1d6419213455ad5f88e5164a33c1",
+    "games/silent-footsteps/levels.json": "db4f3a3d7a569c4e65a2d16ddc817e5b50c8217be2b1c1eddf4ce5a9c652581e",
+    "games/silent-footsteps/witnesses.json": "5ec41e7187937c56efa94239b074b585d91b9ebeae391182dbc397aa2507460c",
+    "games/disguise-pass.html": "3c97fa437b33ffb17280f83f7a6a1f8d6f0e2d203b5cd3be78b7b06bdf9ac9e1",
+    "games/disguise-pass/README.md": "a5a8145537c75f1144f798d519dcde676f848c51d3db76e5c7231d2ed97b112a",
+    "games/disguise-pass/art.svg": "43b8c88c2a4a9538d85acec4826ed44fb8236debdef31916d76f1259e9e328db",
+    "games/disguise-pass/levels.js": "57788b5425b4e0ab00663457a56b27a544bebcfa9b95a57b0c559823c42fc278",
+    "games/disguise-pass/levels.json": "56c4364fb024215aa6198de36a8249691db41e18f0c66a659d273165b43faa99",
+    "games/disguise-pass/witnesses.json": "6a6bcc15012a07dfdf1379dc58205cd5077cc8e0c53ce0e81eb1dc2353e4247e",
+    "games/camera-labyrinth.html": "ca7c115ae5837d8eb7a818f2de8d5e71799f6bbd5994025efec8a159a61159c2",
+    "games/camera-labyrinth/README.md": "4a5c12cbbe2a68f537fc6b07bfa81fcae560e676eb2d9cafef0fb1587e3f342b",
+    "games/camera-labyrinth/art.svg": "bc58f5212522e27839ffa093396e7d809c2353688809218d21b558b7147d0a72",
+    "games/camera-labyrinth/levels.js": "ede83b6d7564dad5a79f0bf43f07c08987f2b9dd39582ab3d5d9d0025590a89e",
+    "games/camera-labyrinth/levels.json": "e3739b777d7416cd36d5b6591335bc2e8807483e2ebaccb7d5ed6e84bf42f704",
+    "games/camera-labyrinth/witnesses.json": "8a272447f4d9f5b6fb193dbc945586adf984c0a9bbf3b9d9f42fd481e634cc78",
+    "games/vent-escape.html": "a4d56bedea7cfdd24d69b1889a38ba2d84eed8508513f84a1b655793f189ee71",
+    "games/vent-escape/README.md": "774bed1886024e398657b53725dac35ecc1ccc02d8a4e34a4fbd19f8bfd6b6b0",
+    "games/vent-escape/art.svg": "83ec92037b59ba46dee29559e3de395b3b4a93e52b06224e8d852af219cc5d5e",
+    "games/vent-escape/levels.js": "f850d31090a5d98a75933fb32f45d70b362a3aaebcd2ff58c4cebd9b921d1e73",
+    "games/vent-escape/levels.json": "cb3a4d885241de60baf1de2d1ad40b6daeaba6d9b62df5362a36f7c0e4ffc7fe",
+    "games/vent-escape/witnesses.json": "eb066359d4c5e4f9c264a930f17781fecc38fa7a3be500a1eb1bec315522cd0c",
+    "games/thief-exchange.html": "570aeef87ba953201e55ddf099fba6363075ba721367a632bf65a796a8d78c38",
+    "games/thief-exchange/README.md": "b1553525306a0cd23a27f68f94c15b283221b7c0694626f50729b0a7e0cb914d",
+    "games/thief-exchange/art.svg": "cb221c5b93c32f862cd8dcf9bb1c6d4bac09e400d92ee80fc8f6d044abd9e0dc",
+    "games/thief-exchange/levels.js": "2485cb22cea8948d40568f1fe37716b6d56201860b97d99d9bcff4ac4e5fab1c",
+    "games/thief-exchange/levels.json": "b63b2d9e390c979407ca178941e0b74f3d9bc910d7fc9fbd81199d5c39d081ab",
+    "games/thief-exchange/witnesses.json": "934a50347557a6f72c42923f298e243fea905990bbf90c6866fcceec126b499a",
+    "games/tailing-mission.html": "4b356c366e40cc8db85ba3d9c9d55bb7efa1fbda70a949707ad9cf56f2c78bde",
+    "games/tailing-mission/README.md": "6e741ab1783d7558ba6ade1f3246fa886411c4c1a2f03be3514144faa03889dc",
+    "games/tailing-mission/art.svg": "c4a94d3064fb81b0ad025f3788066368686ba50d173721ed49af3809a9e2479e",
+    "games/tailing-mission/levels.js": "b4cd98ef4bb3b53d8a049b72ba3044981fe5c7e91811ba0874fc0cad063a6793",
+    "games/tailing-mission/levels.json": "6285d06a2d448b5f10a1447c7396b23a5734ef367478049a652987ff72e30d2e",
+    "games/tailing-mission/witnesses.json": "ca5098f9d18b33be933c14f647d681ce6d58733bd59f56fe1009adf809eaf59b",
+    "games/prison-break.html": "ae9ddb18442f5b5538cb24cb33120fa6d7a6e259e1743b5ee68a0c01ee8724f2",
+    "games/prison-break/README.md": "1ff4a18de914eef306b0e058550c428f5352abff699ec6c0d155998bf20bf0a5",
+    "games/prison-break/art.svg": "d6a3269934f2f081f7858077ebb2a9fb4aff40ddd33d072c45be9360b6fa9164",
+    "games/prison-break/levels.js": "ee87d6d4d9eeb6f8c7a633e4f84b060e946f7cb876af8b2cd4474ea6594ecbae",
+    "games/prison-break/levels.json": "85421a342352aa6e14f33d9666e146ad8fbf6d681c48a52f728142dfb33bbcbe",
+    "games/prison-break/witnesses.json": "63e83ce71a4d9a29a613e994219809f912234c2cccee2d6b63e8b5acad2ab03d",
+    "games/document-swap.html": "78296b422280d54aa045866f8af43a5ab000f99ed2b658badbbecb068b40370d",
+    "games/document-swap/README.md": "f13ceb5380ed6f3157b668c6dd38c3c29bca37c9e6e29a7bbe70d5b694e8b735",
+    "games/document-swap/art.svg": "93dc84a8f03f8ffe3554845ba52273cd0dc1d58065512c65db9534fc051606e9",
+    "games/document-swap/levels.js": "be849e27d06ecef0ed13baed67b77d51bba6a620a9a1ed7f784bca19a38f8927",
+    "games/document-swap/levels.json": "06856d0216256d6704da89ae561b5c0f3e53b0bc96df0f093e7caed3428f11a1",
+    "games/document-swap/witnesses.json": "d127bec9b6b8ca45cfc1a748909d58599f91b451a1a166674e3a0dd128e34efe",
+    "games/hostage-extraction.html": "e486e0a07618cda99423cb56b4ffa5cc4e2b039f3600dabd2f9115ae408fbe06",
+    "games/hostage-extraction/README.md": "97c91f2311476b86f2a431311ba543028612e6e13ef673f62527daf83c25df97",
+    "games/hostage-extraction/art.svg": "766341465918937e5794d70649119112eb034a7b492b20337627fc8b7b248160",
+    "games/hostage-extraction/levels.js": "d9cbcaeb38b0199b9f92ad4500d0b0f972ecf75292e0fd287ba6f277f03b4cba",
+    "games/hostage-extraction/levels.json": "077529e6784a9db3e6bfed8f886229aec5bfe475a51de9d70dfaff79aed6550f",
+    "games/hostage-extraction/witnesses.json": "fcc851436a45d1e00ee7970489cb2054166415b4689cc4976a6c94d109db90f3",
+    "games/dual-infiltration.html": "f83310bef9b5a1baef56e2cc8dbe21a2101ac8a9d4ec4bb4aa73f7341a9a193a",
+    "games/dual-infiltration/README.md": "49a559876b7432aa1fa9d518846d03f18a09500cd1835bc98328e3c02ad3401a",
+    "games/dual-infiltration/art.svg": "5a42d4ade9fba9ff74b8d27bd014ff019286e5f127fd9d5d236eb8d6a2665580",
+    "games/dual-infiltration/levels.js": "ca140c55af0e420bd06d216be0c5df4debe3e4e25cddc270cb88e54d093ad8ed",
+    "games/dual-infiltration/levels.json": "bd7da4e81d2be7d93471f9c49dc4916f2d6b4ecba1e03bedce60228c2f255fe5",
+    "games/dual-infiltration/witnesses.json": "74fce5b7f629cb9de63b4cb5322f4a379242b0c43d3806adac72a10fa4058109",
+    "games/bug-sweep.html": "657876f9ba5e336ebfb0fea488a6efc181e7dde3dac2fb3d922ff3eff0af6b9d",
+    "games/bug-sweep/README.md": "47b4a8a4fe955b68cd6205bd9a45579f28e146864c74488afa6393190414f454",
+    "games/bug-sweep/art.svg": "62314a49596e9b1bc2e230a0528adbd9e15c5fd3a7c5d7d83b6140e07d711b86",
+    "games/bug-sweep/levels.js": "b39b1a8d93e3c73ce202e7bc08469709aa8fd4c951d9e55f5cb66aded72222f5",
+    "games/bug-sweep/levels.json": "0f12d8b65281a1eeff88035eb2c83deb04019d4e4568798a92cb291473a0b7d5",
+    "games/bug-sweep/witnesses.json": "b781b281988bed6918924e1dcc8a3bdb135738ce9097d8124f69641cff38c1b2",
+    "games/decoy-setup.html": "577134c634aab1d6dd83d354a574e88b873bbb0455ccfd549b8615b9da5427c8",
+    "games/decoy-setup/README.md": "646bff05eda67c8aecadb82676d2f5ebb73ffe5e3f45b9df1fa5f0b9f2c9acbc",
+    "games/decoy-setup/art.svg": "dc3a67776e7a33bf7df28ceb51d4571da8621fc5645e16228c0eed391d1b085e",
+    "games/decoy-setup/levels.js": "47e2b2991d150d2169afd72b293469d5e67b56695f97f028ecf5229d2b89d980",
+    "games/decoy-setup/levels.json": "ecb2eb50d45bc920762c45fe581ea2640c1854d74e7282076b92b6e347a13656",
+    "games/decoy-setup/witnesses.json": "46cc9b45f5ca91bf087003bf403ff8cfc622341dabf34feaa4f0c61e5f35b781",
+    "games/spy-photography.html": "1a1ae5703c15decce2da44782f65797840bf58ececc10c5d77f5e1a1f082a7ae",
+    "games/spy-photography/README.md": "5b3d18ffb08062d93118d8f7b299e60b59573738b22c5376f35a5049b104e8a0",
+    "games/spy-photography/art.svg": "af11207807308e7ce43ac5960c591b896924e66a2912d5757bee730ce45c785c",
+    "games/spy-photography/levels.js": "11ffcc3560f342d914548d811c86a5346b2793f93fc7a0ffb408d0a6b1df1981",
+    "games/spy-photography/levels.json": "4a441bd3808108ceb5a99be730b108264f0a976b688ec7210a8243f808fd433e",
+    "games/spy-photography/witnesses.json": "18228923e9da023843379c7bd35a00a11c74861959ec5b4582a5b595c2c88d07",
+    "games/rewind-agent.html": "5a52e6113a4f37ad9d88d57b3a0ea254b1bd12141fa53a8afc02959f483071a2",
+    "games/rewind-agent/README.md": "6a8534234347608747c168932e445befac5291b14f6d8c66e55bfb70177cc490",
+    "games/rewind-agent/art.svg": "f5ec44df3cc1ba70e0895116fe15fc0615fe027e3a82c655501f6aa76f81c274",
+    "games/rewind-agent/levels.js": "f10134a2fb9b88d7fb871717f55212c5541fa6f3e13b8bd75a9afd7f1f70d27b",
+    "games/rewind-agent/levels.json": "8c9ffa21992e074861fe4be9febd3942f488611cc3132626270ca521cbd321e0",
+    "games/rewind-agent/witnesses.json": "582d2077cffd97345b6230d0e4aac2442cf932481846f8b4df31912511d55cd7",
+    "games/stealth120-common/engine.js": "f51bb09190e08f51984c272badae81b991dafd66cd82865191fea52a2b71e1e5",
+    "games/stealth120-common/app.js": "560b93b0767d25197d5206d3352560ebd31572d2fad7544b466e7db1c05b78db",
+    "games/stealth120-common/style.css": "ecf51f5f55d392571cbc9b602bd6a8dcbfe152f9e12d631c8bb7dbf9b485a0e7",
+    "games/stealth120-common/catalog.js": "0f7d95995209b0061d95d4f6fc278cb6186f94e004b16ef681af75027ef825dd",
+    "games/stealth120-common/catalog.json": "f993e81dbf366961fe39062cb114d1569c9ba4ba09d966a10e2b9e17dc285f2d",
+    "games/stealth120-common/generate.cjs": "5ed5c4260e8f4869ef146167600d68e9e4c05d6db814a37879cbd13c87b206a3",
+    "games/stealth120-common/verify.cjs": "1337dc09c2af01ff41a1fa2a1dc42335464dd392bd3f52338cd09913e0bfe614",
+    "games/stealth120-common/canonical.cjs": "afee0e94dda274d5f07d4ed6b84a4b92aa84b0bd189113417c4079a2644aa3ff",
+    "games/stealth120-common/README.md": "45528f6eef3a9a38b4547602968933993f6cc74929a9867e7d9f56c3744e6298",
+    "games/stealth120-common/build-manifest.cjs": "504be6b7786d24181244f17ad9ddaeb58ce5938c8391fa60bdf9401da34e8875"
+  },
+  "reportHashes": {
+    "games/stealth120-common/verification-report.json": "de73dab1e03fe0f9c048467dca1ee8cabd5a7e232ca5b6b0a38c86e926302af7"
+  },
+  "claims": {
+    "browserTesting": false,
+    "allGamesHaveLevels": true,
+    "allSolutionsUnique": false,
+    "allOpponentWinsForced": false
+  },
+  "limits": [
+    "Discrete turn-based models; no real-time physics or arbitrary human opponent claim.",
+    "1500 reachability witnesses are verified, not uniqueness proofs.",
+    "This command uses a simulated DOM. It does not certify actual browser, mobile viewport, pointer or accessibility rendering. Browser QA must be recorded separately."
+  ]
+}
