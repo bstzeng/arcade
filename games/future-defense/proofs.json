@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "destroy",
+      "deny",
+      "destroy",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "anonymous",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "signed",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "anonymous",
+      "deny",
+      "destroy",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "destroy",
+      "explain",
+      "signed",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "signed",
+      "explain",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "destroy",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "destroy",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "anonymous",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "signed",
+      "cite",
+      "anonymous",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "cite",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "destroy",
+      "deny",
+      "anonymous",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "destroy",
+      "deny",
+      "destroy",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "destroy",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "anonymous",
+      "deny",
+      "signed",
+      "deny",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "cite",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "destroy",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "signed",
+      "cite",
+      "destroy",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "anonymous",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "anonymous",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "signed",
+      "cite",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "signed",
+      "deny",
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "anonymous",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "anonymous",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "destroy",
+      "explain",
+      "destroy",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "anonymous",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "signed",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "signed",
+      "cite",
+      "anonymous",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "destroy",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "destroy",
+      "explain",
+      "signed",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "signed",
+      "cite",
+      "signed",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "signed",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "signed",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "signed",
+      "explain",
+      "signed",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "cite",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "destroy",
+      "explain",
+      "signed",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "signed",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "anonymous",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "anonymous",
+      "deny",
+      "signed",
+      "explain",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "explain",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "deny",
+      "signed",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "explain",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "signed",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "signed",
+      "deny",
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "signed",
+      "explain",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "anonymous",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "signed",
+      "cite",
+      "destroy",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "signed",
+      "explain",
+      "signed",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "anonymous",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "signed",
+      "cite",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "signed",
+      "deny",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "signed",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "signed",
+      "deny",
+      "destroy",
+      "explain",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "signed",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "destroy",
+      "explain",
+      "destroy",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "destroy",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "anonymous",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "signed",
+      "deny",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "destroy",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "signed",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "signed",
+      "cite",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "explain",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "anonymous",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "anonymous",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "destroy",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "anonymous",
+      "deny",
+      "destroy",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "signed",
+      "cite",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "signed",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "signed",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "destroy",
+      "deny",
+      "signed",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "signed",
+      "cite",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "destroy",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "anonymous",
+      "explain",
+      "signed",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "signed",
+      "cite",
+      "anonymous",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "anonymous",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "anonymous",
+      "deny",
+      "signed",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "signed",
+      "cite",
+      "anonymous",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "signed",
+      "cite",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "anonymous",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "signed",
+      "cite",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "signed",
+      "explain",
+      "destroy",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "destroy",
+      "deny",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "signed",
+      "deny",
+      "destroy",
+      "explain",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "signed",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "anonymous",
+      "deny",
+      "destroy",
+      "explain",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "destroy",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "signed",
+      "explain",
+      "anonymous",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "anonymous",
+      "deny",
+      "signed",
+      "cite",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "signed",
+      "cite",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "signed",
+      "cite",
+      "destroy",
+      "explain",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "explain",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "signed",
+      "cite",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "anonymous",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "signed",
+      "cite",
+      "anonymous",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "destroy",
+      "deny",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "anonymous",
+      "deny",
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "destroy",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "destroy",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "destroy",
+      "deny",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "destroy",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "destroy",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "deny",
+      "anonymous",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "signed",
+      "deny",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "signed",
+      "explain",
+      "signed",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "signed",
+      "cite",
+      "signed",
+      "deny",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "destroy",
+      "explain",
+      "destroy",
+      "explain",
+      "destroy",
+      "explain"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "destroy",
+      "explain",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "signed",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "signed",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "signed",
+      "deny",
+      "destroy",
+      "explain",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "anonymous",
+      "explain",
+      "signed",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "signed",
+      "cite",
+      "signed",
+      "explain",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "cite",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "anonymous",
+      "deny",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "destroy",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "signed",
+      "cite",
+      "destroy",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "destroy",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "cite"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "anonymous",
+      "explain",
+      "signed",
+      "cite",
+      "signed",
+      "deny"
+    ],
+    "alternate": [
+      "signed",
+      "deny",
+      "signed",
+      "cite",
+      "destroy",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "destroy",
+      "explain",
+      "anonymous",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "alternate": [
+      "anonymous",
+      "explain",
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "anonymous",
+      "deny",
+      "anonymous",
+      "explain",
+      "destroy",
+      "deny"
+    ],
+    "alternate": [
+      "destroy",
+      "deny",
+      "anonymous",
+      "deny",
+      "destroy",
+      "deny"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "signed",
+      "cite",
+      "anonymous",
+      "deny",
+      "signed",
+      "cite"
+    ],
+    "alternate": [
+      "signed",
+      "explain",
+      "signed",
+      "explain",
+      "anonymous",
+      "explain"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]
