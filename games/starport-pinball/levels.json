@@ -1,0 +1,5 @@
+[
+ {"id":"01","chapter":1,"title":"港口初航","initial":{"table":0,"rescues":2,"seed":731},"objective":{"chain":["launchLow","rampR","returnR","flipperR"]},"mechanicFocus":["力度窗","安全回流"],"intendedDecision":"以短蓄力進右返航斜坡，觀察回流落點後啟動右拍。","distinctnessRationale":"低空弧線直接探索右斜坡的單向長回流，而後續任務要求主動拍球；並非分數門檻。","estimatedTiming":{"minutes":[2,4],"status":"unmeasured_design_estimate"}},
+ {"id":"25","chapter":3,"title":"貨櫃雙鎖","initial":{"table":1,"rescues":1,"seed":731},"objective":{"chain":["lock","lock","multiball","rampL"]},"mechanicFocus":["鎖球解鎖","左右支線"],"intendedDecision":"第一次鎖球保存到艙內，再發另一球命中鎖艙；雙球出艙後瞄準外環。","distinctnessRationale":"第二桌在兩側貨運通道間設窄鎖艙；要先花兩次命中換取同時雙球，再處理左長環。","estimatedTiming":{"minutes":[3,6],"status":"unmeasured_design_estimate"}},
+ {"id":"50","chapter":5,"title":"遠航三段驗收","initial":{"table":3,"rescues":0,"seed":731},"objective":{"chain":["switch","rampR","A","rampL","returnL","C"]},"mechanicFocus":["三段任務鏈","無救球閘","終章多目標"],"intendedDecision":"先開中央星閘，短環後轉向觀測站，再走長環回左拍，最後完成右側返港。","distinctnessRationale":"第四桌的對角導軌與中央阻隔改變落點；六站有序路線要轉換左右拍，側道無免費救球。","estimatedTiming":{"minutes":[3,6],"status":"unmeasured_design_estimate"}}
+]
