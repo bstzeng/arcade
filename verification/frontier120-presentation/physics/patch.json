@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "ead782e1e4d8ac11ab1361e74724030db957951b",
+  "changedPath": "games/physics120-common/render.js",
+  "beforeSha256": "e4b1adfc212882d8f91890b8a1702a1cea31c90e05eadd52d847e5ff265e6a30",
+  "afterSha256": "803ee99cfcac118bc1e9bdc0825a79ca5bc4deef14cff01dcf76b48e16d0cb1a",
+  "replacements": [
+    {
+      "before": "p.forEach((q,i)=>{partDot(q.x,yy(q.x)+7,i);txt(`μ ${q.mu}`,q.x,yy(q.x)+12);});",
+      "after": "/* Keep handles inside the canvas; the fixed legend remains readable when starts coincide. */p.forEach((q,i)=>{let mx=Math.max(2.4,Math.min(97.6,q.x));line(q.x,yy(q.x)+7,mx,yy(q.x)+7,colors[i%6],1);circle(mx,yy(q.x)+7,1.8,colors[i%6]);});if(p[selected]){let q=p[selected];circle(Math.max(2.4,Math.min(97.6,q.x)),yy(q.x)+7,2.4,'#fff5bd');}p.forEach((q,i)=>{txt(`#${i+1} μ≈${q.mu.toFixed(3)}`,3+(i%2)*50,69-Math.floor(i/2)*5.2,i===selected?'#fff5bd':colors[i%6],16);});"
+    }
+  ],
+  "publishedManifestPath": "games/physics120-common/release-manifest.json",
+  "publishedManifestSha256": "7a9e4d1f0f3df24e67b919ca4774b1f686341cca4d98fdc935e9d4c4f57eff92"
+}
