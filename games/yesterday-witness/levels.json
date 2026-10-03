@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "001 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "002 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "003 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "004 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "005 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "006 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "007 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "008 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "009 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "010 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "011 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "012 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "013 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "014 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "015 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "016 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "017 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "018 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "019 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "020 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "021 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "022 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "023 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "024 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "025 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "026 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "027 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "028 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "029 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "030 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "031 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "032 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "033 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "034 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "035 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "036 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "037 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "038 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "039 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 1
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "040 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "041 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "042 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "043 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "044 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "045 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "046 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "047 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "048 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "049 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "050 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "051 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "052 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "053 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "054 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "055 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "056 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 3
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "057 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "058 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "059 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "060 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "061 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "062 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "063 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "064 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "065 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "066 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "067 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 1
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "068 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "069 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "070 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "071 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "072 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "073 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "074 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "075 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "076 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "077 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "078 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "079 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "080 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "081 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "082 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "083 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "084 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "085 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "086 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "087 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "088 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "089 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "090 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "091 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "092 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "093 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 1
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "094 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "區分來源"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "095 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 2
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "096 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 2
+      }
+    ],
+    "premise": "三位證人都看過昨日現場，卻尚未聽過彼此的版本。",
+    "title": "097 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "保留疑問的公報"
+      },
+      {
+        "key": "clues",
+        "label": "可追查線索",
+        "value": 0
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 0
+      }
+    ],
+    "premise": "卷宗缺少來源註記，你說出的每個名字都可能改變後來的回憶。",
+    "title": "098 · 保留疑問的公報",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "密封聽證"
+      },
+      {
+        "key": "corrections",
+        "label": "更正來源次數",
+        "value": 1
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "合併敘事"
+      }
+    ],
+    "premise": "有人急著形成共同說法，你仍可以把親見和轉述分開。",
+    "title": "099 · 密封聽證",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有來源的公開記錄"
+      },
+      {
+        "key": "method",
+        "label": "整理方式",
+        "value": "指出矛盾"
+      },
+      {
+        "key": "independent",
+        "label": "獨立來源",
+        "value": 3
+      }
+    ],
+    "premise": "聽證前夕，三段記憶需要核對，不能只靠它們聽起來相似。",
+    "title": "100 · 有來源的公開記錄",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "完整揭露會沿本局的人際傳話關係流動。先讓某些人自行回憶，再用線索追問，可能比三份相同供詞更可靠。"
+  }
+]

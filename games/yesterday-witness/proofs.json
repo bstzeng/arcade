@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "partial",
+      "silence",
+      "silence",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "partial",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "full",
+      "full",
+      "full",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "full",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "silence",
+      "full",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "silence",
+      "silence",
+      "full",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "full",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "partial",
+      "partial",
+      "partial",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "silence",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "silence",
+      "full",
+      "partial",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "partial",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "full",
+      "full",
+      "partial",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "partial",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "partial",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "silence",
+      "silence",
+      "partial",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "silence",
+      "full",
+      "partial",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "full",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "full",
+      "silence",
+      "full",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "silence",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "partial",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "partial",
+      "full",
+      "silence",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "partial",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "partial",
+      "full",
+      "partial",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "full",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "partial",
+      "partial",
+      "silence",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "full",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "full",
+      "partial",
+      "full",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "full",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "full",
+      "full",
+      "full",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "partial",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "silence",
+      "full",
+      "partial",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "partial",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "full",
+      "silence",
+      "silence",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "partial",
+      "full",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "full",
+      "full",
+      "full",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "full",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "silence",
+      "full",
+      "silence",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "silence",
+      "partial",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "partial",
+      "silence",
+      "full",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "silence",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "silence",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "full",
+      "partial",
+      "silence",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "partial",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "full",
+      "silence",
+      "full",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "full",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "full",
+      "partial",
+      "full",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "silence",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "partial",
+      "silence",
+      "partial",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "partial",
+      "full",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "partial",
+      "silence",
+      "partial",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "partial",
+      "partial",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "full",
+      "full",
+      "full",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "full",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "silence",
+      "silence",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "full",
+      "partial",
+      "full",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "partial",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "partial",
+      "silence",
+      "silence",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "silence",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "full",
+      "full",
+      "silence",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "partial",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "full",
+      "full",
+      "silence",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "partial",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "full",
+      "full",
+      "full",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "full",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "partial",
+      "silence",
+      "partial",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "partial",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "partial",
+      "silence",
+      "partial",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "partial",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "partial",
+      "full",
+      "silence",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "full",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "full",
+      "full",
+      "silence",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "silence",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "silence",
+      "partial",
+      "silence",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "partial",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "partial",
+      "full",
+      "full",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "partial",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "full",
+      "full",
+      "full",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "full",
+      "silence",
+      "full",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "silence",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "partial",
+      "full",
+      "full",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "silence",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "partial",
+      "partial",
+      "silence",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "partial",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "silence",
+      "partial",
+      "partial",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "partial",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "full",
+      "partial",
+      "full",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "partial",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "full",
+      "full",
+      "full",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "full",
+      "partial",
+      "full",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "full",
+      "full",
+      "partial",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "partial",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "partial",
+      "full",
+      "full",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "silence",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "silence",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "partial",
+      "full",
+      "full",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "full",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "full",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "full",
+      "full",
+      "silence",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "full",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "full",
+      "full",
+      "partial",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "full",
+      "partial",
+      "full",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "full",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "full",
+      "partial",
+      "silence",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "partial",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "partial",
+      "silence",
+      "full",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "silence",
+      "full",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "silence",
+      "full",
+      "partial",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "full",
+      "follow:2",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "full",
+      "follow:1",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "silence",
+      "full",
+      "full",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "full",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "full",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "silence",
+      "partial",
+      "full",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "full",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "silence",
+      "full",
+      "partial",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "partial",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "silence",
+      "full",
+      "silence",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "silence",
+      "partial",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "full",
+      "full",
+      "partial",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "partial",
+      "full",
+      "partial",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "silence",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "partial",
+      "silence",
+      "silence",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "partial",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "silence",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "partial",
+      "full",
+      "partial",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "partial",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "silence",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "silence",
+      "partial",
+      "silence",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "partial",
+      "silence",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "partial",
+      "partial",
+      "silence",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "partial",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "partial",
+      "silence",
+      "full",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "silence",
+      "partial",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "partial",
+      "silence",
+      "full",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "full",
+      "partial",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "full",
+      "full",
+      "partial",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "partial",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "full",
+      "full",
+      "partial",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "silence",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "full",
+      "full",
+      "silence",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "full",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "partial",
+      "partial",
+      "silence",
+      "follow:0",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "partial",
+      "silence",
+      "full",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "partial",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "full",
+      "silence",
+      "full",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "full",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "partial",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "partial",
+      "silence",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "partial",
+      "silence",
+      "full",
+      "follow:0",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "silence",
+      "follow:1",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "full",
+      "partial",
+      "partial",
+      "follow:1",
+      "separate",
+      "sealed"
+    ],
+    "alternate": [
+      "silence",
+      "partial",
+      "silence",
+      "follow:2",
+      "separate",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "full",
+      "silence",
+      "full",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "partial",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "silence",
+      "partial",
+      "full",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "silence",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "silence",
+      "partial",
+      "full",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "full",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "silence",
+      "full",
+      "silence",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "partial",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "full",
+      "silence",
+      "partial",
+      "follow:1",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "silence",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "partial",
+      "partial",
+      "full",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "full",
+      "silence",
+      "partial",
+      "follow:2",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "partial",
+      "silence",
+      "full",
+      "follow:2",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "partial",
+      "partial",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "full",
+      "full",
+      "partial",
+      "follow:0",
+      "confront",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "partial",
+      "silence",
+      "follow:2",
+      "confront",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "partial",
+      "partial",
+      "full",
+      "follow:1",
+      "separate",
+      "public"
+    ],
+    "alternate": [
+      "partial",
+      "partial",
+      "full",
+      "follow:0",
+      "separate",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "silence",
+      "silence",
+      "partial",
+      "follow:0",
+      "merge",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "silence",
+      "silence",
+      "follow:1",
+      "merge",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "full",
+      "partial",
+      "partial",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "alternate": [
+      "full",
+      "full",
+      "full",
+      "follow:2",
+      "merge",
+      "sealed"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "partial",
+      "partial",
+      "full",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "alternate": [
+      "silence",
+      "full",
+      "partial",
+      "follow:0",
+      "confront",
+      "public"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]
