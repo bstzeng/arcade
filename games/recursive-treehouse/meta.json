@@ -1,0 +1,23 @@
+{
+  "id": "recursive-treehouse",
+  "title": "遞迴樹屋",
+  "proposal": "讓建造指令呼叫自己，長出符合房間與通道需求的樹屋。",
+  "icon": "🌳",
+  "category": "code",
+  "tagline": "房間會呼叫下一間房間",
+  "tutorial": "build(depth) 先造一個房間，再呼叫左右子樹。ROOM A B C 分別指定深度除以三餘 0、1、2 的房間；深度 ≤ 0 改用 LEAF。LEFT 1 代表左子樹深度減一，RIGHT 同理（1–3）。WHEN 決定右子樹何時生成：ALWAYS、EVEN（偶數深度）、ODD。要造出目標的所有房間與分支。",
+  "palette": [
+    "ROOM A B C",
+    "LEAF D",
+    "LEFT 1",
+    "LEFT 2",
+    "RIGHT 1",
+    "RIGHT 2",
+    "WHEN ALWAYS",
+    "WHEN EVEN",
+    "WHEN ODD"
+  ],
+  "model": "Actual recursive binary-tree calls with base cases, asymmetric depth decrements, conditional branching, call/return trace and finite depth.",
+  "challengeCount": 100,
+  "limitations": "教學用離散模型；提示與參考解答為確定性輔助，不是 AI 對手。"
+}
