@@ -1,0 +1,2678 @@
+{
+  "schemaVersion": 1,
+  "title": "Arcade frontier 120-game expansion specification",
+  "status": "specification-not-a-verification-report",
+  "sourceBaselineCommit": "dd136ecbb5659f7c4e44856d1af234e49498ef2f",
+  "baselineGames": 270,
+  "newGames": 120,
+  "releaseGames": 390,
+  "baselineCategories": 16,
+  "releaseCategories": 24,
+  "userAuthorizationMessageId": "Sentinel_924ab1ac48e08191aa8cd766e3142565",
+  "sourceProposalMessages": [
+    "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+    "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f"
+  ],
+  "commonAcceptance": [
+    "Implement the exact proposed core mechanic as causal gameplay. Reskinned generic selection, arithmetic, resource adjustment or path puzzles do not satisfy distinct game proposals.",
+    "Mobile-first Traditional Chinese interface, visible objective/state/legal controls/feedback, accessible labels and practical keyboard alternatives. Actual browser geometry must pass 333px, 400px and desktop widths, including open select menus, help and long log text.",
+    "All proposals support objective missions in principle. Default to 100 selectable, meaningfully varied missions per game with stable IDs. A freeform-only exception needs a concrete mechanic-specific explanation and must not evade feasible objective missions; additional freeform mode is welcome.",
+    "For every levelBased game: exactly 100 levels. Structural and task diversity must exceed changes in names, labels, palette, symmetry, harmless seed data or irrelevant numeric fields. Provide a semantic fingerprint and distinctness rationale based on fields consumed by the engine.",
+    "Every solvability claim has nonempty legal action/input witnesses executed through the same runtime engine and independent terminal/property assertions. UI controls must be able to express every witness action, range, timing and rate from the exact published start state. Reject illegal, truncated, empty and corrupted traces.",
+    "Hints and demonstrations run legal transitions, remain contextual, and mark results assisted. They must not overwrite unassisted completion, scores or records; save/reload keeps assistance status. A demo shortcut is not evidence that a user can play the mission.",
+    "Challenge claims distinguish reachability, deterministic policy scenarios, physical timing traces and adversarial forced wins. Do not claim uniqueness, arbitrary-opponent wins, realistic scientific simulation or unrestricted narrative intelligence without corresponding evidence.",
+    "Where AI is appropriate, implement real local state-dependent decisions with easy/normal/hard modes. Test legal actions, permitted observations, causal reaction to changed visible state and meaningful policy/skill differences. Hidden cards, latent traits, unrevealed events and player secret orders cannot leak into decisions.",
+    "Seeded challenge policies may be fixed for proof, but AI difficulty controls must be usable and their scope clear. A timer, random move, canned answer transcript or level difficulty dropdown alone is not AI.",
+    "Reset, level/difficulty/mode change, navigation, pause and repeated input cancel stale timers, pending AI and demos. Validate local persistence per game and guard malformed/missing saved data.",
+    "No external AI/API, accounts, network multiplayer claim, external fonts/media or runtime dependency. Audio, when used, starts only after user gesture and has mute control; all objectives remain perceivable without sound.",
+    "Supply mechanic-specific fresh artwork for each game, exact title, accurate Traditional Chinese instructions and README. README covers exact abstraction, objective, controls, proof scope, AI observations/difficulty and known limits.",
+    "Run verifier and controller tests against exact final engine/controller/corpus/test bytes. Reports bind sources before execution and verify unchanged afterward. Keep engine tests, simulated DOM, real browser and hosted QA claims separate."
+  ],
+  "families": [
+    {
+      "id": "survival",
+      "title": "生存製作與基地建造",
+      "directory": "games/survival120-common",
+      "games": [
+        "blizzard-shelter",
+        "driftwood-raft",
+        "underground-survival",
+        "tidal-city",
+        "colossus-home",
+        "mycelium-farm",
+        "desert-walker",
+        "glass-greenhouse",
+        "floating-anchors",
+        "shipwreck-oxygen",
+        "growing-treehouse",
+        "gravity-shelter",
+        "nomad-rebuild",
+        "silent-hunt-camp",
+        "hibernation-base"
+      ],
+      "acceptance": [
+        "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+        "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+      ],
+      "catalogPath": "games/survival120-common/catalog.json",
+      "releaseManifestPath": "games/survival120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "roguelike",
+      "title": "隨機地城與能力構築",
+      "directory": "games/rogue120-common",
+      "games": [
+        "evolving-wand",
+        "backpack-battlecraft",
+        "changing-weapon-depths",
+        "vitality-market",
+        "rewind-echo-dungeon",
+        "monster-part-lab",
+        "potion-blend-depths",
+        "curse-contract-depths",
+        "rotating-astrolabe",
+        "terrain-devourer",
+        "borrowed-boss-arts",
+        "three-skill-memory",
+        "wound-runesmith",
+        "heartbeat-tempo-depths",
+        "dual-persona-expedition"
+      ],
+      "acceptance": [
+        "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+        "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+      ],
+      "catalogPath": "games/rogue120-common/catalog.json",
+      "releaseManifestPath": "games/rogue120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "fighting",
+      "title": "格鬥與武器連段",
+      "directory": "games/duel120-common",
+      "games": [
+        "magnet-gauntlet",
+        "salvage-mech-duel",
+        "shadow-samurai",
+        "chain-hammer",
+        "folding-weapon",
+        "glass-fist",
+        "breathing-boxer",
+        "wall-gravity-duel",
+        "shared-pole-duel",
+        "ribbon-grapple",
+        "weighted-armor",
+        "delayed-echo-fist",
+        "async-arms",
+        "element-contact",
+        "sculpted-arena"
+      ],
+      "acceptance": [
+        "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+        "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+      ],
+      "catalogPath": "games/duel120-common/catalog.json",
+      "releaseManifestPath": "games/duel120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "physical-sandbox",
+      "title": "物理沙盒與破壞實驗",
+      "directory": "games/physics120-common",
+      "games": [
+        "jelly-skyscraper",
+        "chain-demolition",
+        "junk-mech-battle",
+        "steam-pressure-lab",
+        "gravity-room-workshop",
+        "wind-tunnel-cargo",
+        "resonance-glass",
+        "melting-ice-bridge",
+        "sand-collapse-lab",
+        "rope-net-catch",
+        "magnetic-sculpture",
+        "friction-playground",
+        "cloth-parachute",
+        "hydraulic-hand",
+        "soap-bubble-lab"
+      ],
+      "acceptance": [
+        "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+        "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+      ],
+      "catalogPath": "games/physics120-common/catalog.json",
+      "releaseManifestPath": "games/physics120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "ecology",
+      "title": "生態演化與生命模擬",
+      "directory": "games/ecology120-common",
+      "games": [
+        "droplet-world",
+        "evolving-island",
+        "before-wings",
+        "symbiotic-partners",
+        "intertidal-shift",
+        "mycelium-exchange",
+        "century-pedigree",
+        "migration-memory",
+        "bloom-timing",
+        "lost-predators",
+        "vent-colony",
+        "borrowed-appearance",
+        "dormant-seedbank",
+        "social-cost",
+        "last-habitat"
+      ],
+      "acceptance": [
+        "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+        "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+      ],
+      "catalogPath": "games/ecology120-common/catalog.json",
+      "releaseManifestPath": "games/ecology120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "horror",
+      "title": "恐怖生存與異常觀察",
+      "directory": "games/horror120-common",
+      "games": [
+        "endless-corridor",
+        "night-shift",
+        "last-lamp",
+        "extra-window",
+        "broken-weather",
+        "forbidden-replay",
+        "three-am-elevator",
+        "breathing-room",
+        "empty-photo",
+        "spare-key",
+        "tomorrow-lost-property",
+        "ninth-passenger",
+        "dream-senses",
+        "shadow-feeding",
+        "mimic-alarm"
+      ],
+      "acceptance": [
+        "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+        "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+      ],
+      "catalogPath": "games/horror120-common/catalog.json",
+      "releaseManifestPath": "games/horror120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "narrative",
+      "title": "分歧敘事與角色扮演",
+      "directory": "games/story120-common",
+      "games": [
+        "apocalypse-radio",
+        "seven-letters",
+        "last-council",
+        "memory-pawn",
+        "enemy-heir",
+        "last-boat-ticket",
+        "yesterday-witness",
+        "false-king",
+        "three-names",
+        "future-defense",
+        "villain-turn",
+        "unspoken-promise",
+        "hero-retirement",
+        "borrowed-day",
+        "final-wishes"
+      ],
+      "acceptance": [
+        "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+        "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+      ],
+      "catalogPath": "games/story120-common/catalog.json",
+      "releaseManifestPath": "games/story120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "war",
+      "title": "大規模戰爭與領土爭奪",
+      "directory": "games/war120-common",
+      "games": [
+        "war-sky-islands",
+        "war-robot-front",
+        "war-four-seasons",
+        "war-capitalless",
+        "war-last-city",
+        "war-neutral-balance",
+        "war-tidal-continent",
+        "war-hundred-flags",
+        "war-rail-crown",
+        "war-memory-front",
+        "war-simultaneous-orders",
+        "war-three-fronts",
+        "war-succession",
+        "war-after-conquest",
+        "war-retreating-empire"
+      ],
+      "acceptance": [
+        "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+        "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+      ],
+      "catalogPath": "games/war120-common/catalog.json",
+      "releaseManifestPath": "games/war120-common/release-manifest.json",
+      "requiredGameCount": 15
+    }
+  ],
+  "games": [
+    {
+      "id": "blizzard-shelter",
+      "family": "survival",
+      "position": 1,
+      "title": "暴風雪避難所",
+      "proposal": "白天尋找材料，夜晚分配壁爐熱流，讓居民與設備撐過暴雪。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/blizzard-shelter.html",
+      "requirements": {
+        "coreMechanic": "白天尋找材料，夜晚分配壁爐熱流，讓居民與設備撐過暴雪。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "driftwood-raft",
+      "family": "survival",
+      "position": 2,
+      "title": "漂流木筏工坊",
+      "proposal": "撈取漂流物擴建木筏，船板配置影響轉向，沿洋流尋找補給島。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/driftwood-raft.html",
+      "requirements": {
+        "coreMechanic": "撈取漂流物擴建木筏，船板配置影響轉向，沿洋流尋找補給島。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "underground-survival",
+      "family": "survival",
+      "position": 3,
+      "title": "地下基地求生",
+      "proposal": "挖掘通風井，把發電廢熱送進農場，同時修補逐漸擴大的裂縫。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/underground-survival.html",
+      "requirements": {
+        "coreMechanic": "挖掘通風井，把發電廢熱送進農場，同時修補逐漸擴大的裂縫。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "tidal-city",
+      "family": "survival",
+      "position": 4,
+      "title": "潮汐廢城居民",
+      "proposal": "退潮時搜刮城市，漲潮前搬高物資，逐層改造不會被淹沒的家。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/tidal-city.html",
+      "requirements": {
+        "coreMechanic": "退潮時搜刮城市，漲潮前搬高物資，逐層改造不會被淹沒的家。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "colossus-home",
+      "family": "survival",
+      "position": 5,
+      "title": "巨獸背上的家",
+      "proposal": "在巨獸背上搭營，依牠的步態固定設施，趁停歇採集並照料牠。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/colossus-home.html",
+      "requirements": {
+        "coreMechanic": "在巨獸背上搭營，依牠的步態固定設施，趁停歇採集並照料牠。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "mycelium-farm",
+      "family": "survival",
+      "position": 6,
+      "title": "菌絲洞穴農場",
+      "proposal": "利用不同菌種搬運養分、淨化毒土，逐步把洞穴變成可居住空間。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/mycelium-farm.html",
+      "requirements": {
+        "coreMechanic": "利用不同菌種搬運養分、淨化毒土，逐步把洞穴變成可居住空間。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "desert-walker",
+      "family": "survival",
+      "position": 7,
+      "title": "沙漠移動堡壘",
+      "proposal": "替基地裝上機械腳，在負重與速度之間取捨，追逐水源逃離沙暴。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/desert-walker.html",
+      "requirements": {
+        "coreMechanic": "替基地裝上機械腳，在負重與速度之間取捨，追逐水源逃離沙暴。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "glass-greenhouse",
+      "family": "survival",
+      "position": 8,
+      "title": "玻璃溫室末日",
+      "proposal": "回收玻璃搭建溫室，調整遮光、集水與保溫，抵抗極端日夜溫差。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/glass-greenhouse.html",
+      "requirements": {
+        "coreMechanic": "回收玻璃搭建溫室，調整遮光、集水與保溫，抵抗極端日夜溫差。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "floating-anchors",
+      "family": "survival",
+      "position": 9,
+      "title": "漂浮島錨定計畫",
+      "proposal": "用纜繩連接正在分裂的浮島，調整配重，維持基地平衡。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/floating-anchors.html",
+      "requirements": {
+        "coreMechanic": "用纜繩連接正在分裂的浮島，調整配重，維持基地平衡。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "shipwreck-oxygen",
+      "family": "survival",
+      "position": 10,
+      "title": "沉船氧氣工坊",
+      "proposal": "潛入沉船拆零件，把氣泵和儲氣囊串成生命線，探索更深船艙。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/shipwreck-oxygen.html",
+      "requirements": {
+        "coreMechanic": "潛入沉船拆零件，把氣泵和儲氣囊串成生命線，探索更深船艙。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "growing-treehouse",
+      "family": "survival",
+      "position": 11,
+      "title": "會長大的木屋",
+      "proposal": "嫁接活樹枝長出樓板與屋頂，透過澆水和修剪引導房屋生長。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/growing-treehouse.html",
+      "requirements": {
+        "coreMechanic": "嫁接活樹枝長出樓板與屋頂，透過澆水和修剪引導房屋生長。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "gravity-shelter",
+      "family": "survival",
+      "position": 12,
+      "title": "重力翻轉避難站",
+      "proposal": "重力定時翻轉，必須固定物資，輪流利用兩面地板種植與生活。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/gravity-shelter.html",
+      "requirements": {
+        "coreMechanic": "重力定時翻轉，必須固定物資，輪流利用兩面地板種植與生活。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "nomad-rebuild",
+      "family": "survival",
+      "position": 13,
+      "title": "拆屋搬家的倖存者",
+      "proposal": "災害逼近就拆屋撤離，在有限載重內保留重要模組，到新地點重建。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/nomad-rebuild.html",
+      "requirements": {
+        "coreMechanic": "災害逼近就拆屋撤離，在有限載重內保留重要模組，到新地點重建。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "silent-hunt-camp",
+      "family": "survival",
+      "position": 14,
+      "title": "聲音獵場營地",
+      "proposal": "為機器加裝隔音，安排製作時段，避免引來循聲獵食的獸群。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/silent-hunt-camp.html",
+      "requirements": {
+        "coreMechanic": "為機器加裝隔音，安排製作時段，避免引來循聲獵食的獸群。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "hibernation-base",
+      "family": "survival",
+      "position": 15,
+      "title": "一人冬眠基地",
+      "proposal": "睡前安排自動灌溉與維修，選擇冬眠多久，醒來處理累積的意外。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/hibernation-base.html",
+      "requirements": {
+        "coreMechanic": "睡前安排自動灌溉與維修，選擇冬眠多久，醒來處理累積的意外。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Resource gathering, construction and survival pressure must interact through the named day/night, tide, gait, heat, oxygen, sound or dormancy process; survival cannot be a static spend-the-budget menu.",
+          "Facilities have meaningful placement/connectivity/load or scheduling consequences where proposed. AI assistants or threats react to observable state; the player can inspect reasons for losses."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "evolving-wand",
+      "family": "roguelike",
+      "position": 1,
+      "title": "會進化的魔法杖",
+      "proposal": "魔杖依戰鬥方式長出不同分枝，組合穿透、反彈、分裂等能力。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/evolving-wand.html",
+      "requirements": {
+        "coreMechanic": "魔杖依戰鬥方式長出不同分枝，組合穿透、反彈、分裂等能力。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "backpack-battlecraft",
+      "family": "roguelike",
+      "position": 2,
+      "title": "背包就是戰鬥力",
+      "proposal": "裝備形狀和相鄰位置會互相強化，重排背包就能改變整套戰術。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/backpack-battlecraft.html",
+      "requirements": {
+        "coreMechanic": "裝備形狀和相鄰位置會互相強化，重排背包就能改變整套戰術。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "changing-weapon-depths",
+      "family": "roguelike",
+      "position": 3,
+      "title": "每層換一種武器",
+      "proposal": "每層強制換武器，只能繼承一個舊招式，拼出跨武器連段。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/changing-weapon-depths.html",
+      "requirements": {
+        "coreMechanic": "每層強制換武器，只能繼承一個舊招式，拼出跨武器連段。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "vitality-market",
+      "family": "roguelike",
+      "position": 4,
+      "title": "生命值當貨幣",
+      "proposal": "犧牲最大生命購買能力，再完成危險任務贖回，越強也可能越脆弱。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/vitality-market.html",
+      "requirements": {
+        "coreMechanic": "犧牲最大生命購買能力，再完成危險任務贖回，越強也可能越脆弱。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "rewind-echo-dungeon",
+      "family": "roguelike",
+      "position": 5,
+      "title": "倒帶殘影地城",
+      "proposal": "失敗後留下重播前次行動的殘影，與不同輪次的自己合作破關。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/rewind-echo-dungeon.html",
+      "requirements": {
+        "coreMechanic": "失敗後留下重播前次行動的殘影，與不同輪次的自己合作破關。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "monster-part-lab",
+      "family": "roguelike",
+      "position": 6,
+      "title": "怪物零件拼裝",
+      "proposal": "裝上敵人的翅膀、甲殼與觸角，在負重限制內組出特殊戰鬥生物。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/monster-part-lab.html",
+      "requirements": {
+        "coreMechanic": "裝上敵人的翅膀、甲殼與觸角，在負重限制內組出特殊戰鬥生物。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "potion-blend-depths",
+      "family": "roguelike",
+      "position": 7,
+      "title": "藥水混釀地城",
+      "proposal": "同一瓶藥水可以喝、丟或塗地，配方與使用方式一起決定效果。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/potion-blend-depths.html",
+      "requirements": {
+        "coreMechanic": "同一瓶藥水可以喝、丟或塗地，配方與使用方式一起決定效果。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "curse-contract-depths",
+      "family": "roguelike",
+      "position": 8,
+      "title": "詛咒借力契約",
+      "proposal": "接受「不能後退」等禁忌換取能力，守約變強，破戒則引來追獵者。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/curse-contract-depths.html",
+      "requirements": {
+        "coreMechanic": "接受「不能後退」等禁忌換取能力，守約變強，破戒則引來追獵者。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "rotating-astrolabe",
+      "family": "roguelike",
+      "position": 9,
+      "title": "旋轉星盤法師",
+      "proposal": "法術裝在旋轉星盤上，指針掃過才發動，排列出護盾與爆發循環。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/rotating-astrolabe.html",
+      "requirements": {
+        "coreMechanic": "法術裝在旋轉星盤上，指針掃過才發動，排列出護盾與爆發循環。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "terrain-devourer",
+      "family": "roguelike",
+      "position": 10,
+      "title": "吞噬地形術士",
+      "proposal": "吃掉岩牆、冰面和熔岩儲存屬性，再吐成招式，同時改變戰場。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/terrain-devourer.html",
+      "requirements": {
+        "coreMechanic": "吃掉岩牆、冰面和熔岩儲存屬性，再吐成招式，同時改變戰場。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "borrowed-boss-arts",
+      "family": "roguelike",
+      "position": 11,
+      "title": "借來的首領招式",
+      "proposal": "每位首領只能帶走一招，利用普通敵人與地形創造大招出手機會。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/borrowed-boss-arts.html",
+      "requirements": {
+        "coreMechanic": "每位首領只能帶走一招，利用普通敵人與地形創造大招出手機會。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "three-skill-memory",
+      "family": "roguelike",
+      "position": 12,
+      "title": "只記得三招",
+      "proposal": "新能力會擠掉最舊招式，必須規劃拾取順序，維持想要的能力組合。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/three-skill-memory.html",
+      "requirements": {
+        "coreMechanic": "新能力會擠掉最舊招式，必須規劃拾取順序，維持想要的能力組合。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "wound-runesmith",
+      "family": "roguelike",
+      "position": 13,
+      "title": "傷口鍛造師",
+      "proposal": "受擊留下的裂槽能裝強力符文，在保留破甲能力與修復保命間抉擇。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/wound-runesmith.html",
+      "requirements": {
+        "coreMechanic": "受擊留下的裂槽能裝強力符文，在保留破甲能力與修復保命間抉擇。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "heartbeat-tempo-depths",
+      "family": "roguelike",
+      "position": 14,
+      "title": "心跳變速地城",
+      "proposal": "更換心臟改變時間流速，組合高速爆發與慢動作閃避流派。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/heartbeat-tempo-depths.html",
+      "requirements": {
+        "coreMechanic": "更換心臟改變時間流速，組合高速爆發與慢動作閃避流派。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "dual-persona-expedition",
+      "family": "roguelike",
+      "position": 15,
+      "title": "雙面人格遠征",
+      "proposal": "兩個角色共享生命、身處重疊世界，把一側取得的能力帶到另一側。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/dual-persona-expedition.html",
+      "requirements": {
+        "coreMechanic": "兩個角色共享生命、身處重疊世界，把一側取得的能力帶到另一側。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Playable seeded expeditions have actual enemies/room progression, evolving loadout and combat consequences. The named inventory shape/adjacency, inherited move, ghost replay, three-use potion, taboo, clock cycle or world-transfer system must be implemented.",
+          "Character builds produce materially different legal actions or interactions. Encounters cannot be identical generic battles with only a scalar damage bonus; AI observes only its permitted room state."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "magnet-gauntlet",
+      "family": "fighting",
+      "position": 1,
+      "title": "磁力拳套擂台",
+      "proposal": "切換拳套磁極吸近或推開對手，把位移與場邊金屬接進連段。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/magnet-gauntlet.html",
+      "requirements": {
+        "coreMechanic": "切換拳套磁極吸近或推開對手，把位移與場邊金屬接進連段。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "salvage-mech-duel",
+      "family": "fighting",
+      "position": 2,
+      "title": "機甲零件決鬥",
+      "proposal": "拆下對手武裝裝到自己身上，戰鬥中雙方的重量與招式持續改變。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/salvage-mech-duel.html",
+      "requirements": {
+        "coreMechanic": "拆下對手武裝裝到自己身上，戰鬥中雙方的重量與招式持續改變。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "shadow-samurai",
+      "family": "fighting",
+      "position": 3,
+      "title": "影子武士交鋒",
+      "proposal": "本體與影子都能攻擊，移動燈具改變影子長度，形成交叉攻勢。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/shadow-samurai.html",
+      "requirements": {
+        "coreMechanic": "本體與影子都能攻擊，移動燈具改變影子長度，形成交叉攻勢。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "chain-hammer",
+      "family": "fighting",
+      "position": 4,
+      "title": "鎖鏈巨錘競技",
+      "proposal": "甩錘累積動能，收放鎖鏈改變半徑，把落空的慣性轉成追擊。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/chain-hammer.html",
+      "requirements": {
+        "coreMechanic": "甩錘累積動能，收放鎖鏈改變半徑，把落空的慣性轉成追擊。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "folding-weapon",
+      "family": "fighting",
+      "position": 5,
+      "title": "折疊武器武館",
+      "proposal": "武器可變成盾、長棍或雙刃，利用變形瞬間取消收招、接續連段。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/folding-weapon.html",
+      "requirements": {
+        "coreMechanic": "武器可變成盾、長棍或雙刃，利用變形瞬間取消收招、接續連段。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "glass-fist",
+      "family": "fighting",
+      "position": 6,
+      "title": "玻璃拳刃擂台",
+      "proposal": "拳刃命中後碎成地面陷阱，回收碎片補充武器，也要避免踩傷自己。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/glass-fist.html",
+      "requirements": {
+        "coreMechanic": "拳刃命中後碎成地面陷阱，回收碎片補充武器，也要避免踩傷自己。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "breathing-boxer",
+      "family": "fighting",
+      "position": 7,
+      "title": "呼吸拳法修練場",
+      "proposal": "吸氣蓄力防守、吐氣連續出拳，控制呼吸避免在反擊前耗盡氣息。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/breathing-boxer.html",
+      "requirements": {
+        "coreMechanic": "吸氣蓄力防守、吐氣連續出拳，控制呼吸避免在反擊前耗盡氣息。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "wall-gravity-duel",
+      "family": "fighting",
+      "position": 8,
+      "title": "壁面翻轉鬥場",
+      "proposal": "跳上牆壁就改變自身重力，從不同方向追打，利用落地位置延續連段。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/wall-gravity-duel.html",
+      "requirements": {
+        "coreMechanic": "跳上牆壁就改變自身重力，從不同方向追打，利用落地位置延續連段。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "shared-pole-duel",
+      "family": "fighting",
+      "position": 9,
+      "title": "奪柄雙人決鬥",
+      "proposal": "雙方爭握同一把長柄武器，以推拉、換握與踢擊搶奪控制權。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/shared-pole-duel.html",
+      "requirements": {
+        "coreMechanic": "雙方爭握同一把長柄武器，以推拉、換握與踢擊搶奪控制權。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "ribbon-grapple",
+      "family": "fighting",
+      "position": 10,
+      "title": "布帶纏鬥場",
+      "proposal": "纏住對手四肢限制招式，但布帶繞太多，也可能把自己的動作綁住。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/ribbon-grapple.html",
+      "requirements": {
+        "coreMechanic": "纏住對手四肢限制招式，但布帶繞太多，也可能把自己的動作綁住。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "weighted-armor",
+      "family": "fighting",
+      "position": 11,
+      "title": "重甲重心格鬥",
+      "proposal": "調整裝甲配重，改變衝撞和踢擊慣性，把對手逼到失去平衡。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/weighted-armor.html",
+      "requirements": {
+        "coreMechanic": "調整裝甲配重，改變衝撞和踢擊慣性，把對手逼到失去平衡。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "delayed-echo-fist",
+      "family": "fighting",
+      "position": 12,
+      "title": "延遲拳影擂台",
+      "proposal": "出拳兩秒後會原地重現，先布置拳影，再把對手推進連續命中區。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/delayed-echo-fist.html",
+      "requirements": {
+        "coreMechanic": "出拳兩秒後會原地重現，先布置拳影，再把對手推進連續命中區。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "async-arms",
+      "family": "fighting",
+      "position": 13,
+      "title": "雙臂異步拳手",
+      "proposal": "左右手獨立蓄力與冷卻，把快拳插入重拳空檔，同時保留防守手。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/async-arms.html",
+      "requirements": {
+        "coreMechanic": "左右手獨立蓄力與冷卻，把快拳插入重拳空檔，同時保留防守手。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "element-contact",
+      "family": "fighting",
+      "position": 14,
+      "title": "元素沾染武鬥",
+      "proposal": "拳腳沾染不同元素，依命中順序在對手身上引發不同反應。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/element-contact.html",
+      "requirements": {
+        "coreMechanic": "拳腳沾染不同元素，依命中順序在對手身上引發不同反應。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "sculpted-arena",
+      "family": "fighting",
+      "position": 15,
+      "title": "擂台雕刻師",
+      "proposal": "重擊會削低地板、堆出碎石坡，利用自己打出的高低差改變攻防。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/sculpted-arena.html",
+      "requirements": {
+        "coreMechanic": "重擊會削低地板、堆出碎石坡，利用自己打出的高低差改變攻防。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Model position/range, attack or defense timing, stamina/cooldown and causally different weapon-specific interactions. Every proposal needs its own mechanic, visible state and practical attack/defense/position controls.",
+          "AI makes legal observation-bounded tactical choices; easy/normal/hard differences are tested. Combo, gravity, grip, fabric, shadow, fragment and delayed-strike effects must operate in the same combat engine used by player and proofs."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "jelly-skyscraper",
+      "family": "physical-sandbox",
+      "position": 1,
+      "title": "果凍摩天樓",
+      "proposal": "用軟硬不同的積木搭樓，調整支撐與阻尼，抵抗強風和震動。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/jelly-skyscraper.html",
+      "requirements": {
+        "coreMechanic": "用軟硬不同的積木搭樓，調整支撐與阻尼，抵抗強風和震動。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "chain-demolition",
+      "family": "physical-sandbox",
+      "position": 2,
+      "title": "連鎖拆除工坊",
+      "proposal": "在遊戲建物上安排拆除點，利用倒塌順序清空目標並保護鄰近建築。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/chain-demolition.html",
+      "requirements": {
+        "coreMechanic": "在遊戲建物上安排拆除點，利用倒塌順序清空目標並保護鄰近建築。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "junk-mech-battle",
+      "family": "physical-sandbox",
+      "position": 3,
+      "title": "垃圾機械大亂鬥",
+      "proposal": "把輪胎、鉸鏈與馬達拼成機械，反覆改裝，靠結構把對手推出平台。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/junk-mech-battle.html",
+      "requirements": {
+        "coreMechanic": "把輪胎、鉸鏈與馬達拼成機械，反覆改裝，靠結構把對手推出平台。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "steam-pressure-lab",
+      "family": "physical-sandbox",
+      "position": 4,
+      "title": "蒸汽壓力實驗室",
+      "proposal": "連接鍋爐、活塞與閥門，讓壓力依序完成任務，避免過熱與洩漏。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/steam-pressure-lab.html",
+      "requirements": {
+        "coreMechanic": "連接鍋爐、活塞與閥門，讓壓力依序完成任務，避免過熱與洩漏。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "gravity-room-workshop",
+      "family": "physical-sandbox",
+      "position": 5,
+      "title": "重力房間工坊",
+      "proposal": "設定各區重力方向，讓零件自行聚合，完成搬運或組裝目標。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/gravity-room-workshop.html",
+      "requirements": {
+        "coreMechanic": "設定各區重力方向，讓零件自行聚合，完成搬運或組裝目標。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "wind-tunnel-cargo",
+      "family": "physical-sandbox",
+      "position": 6,
+      "title": "風洞運送計畫",
+      "proposal": "擺放風扇和導流板，把不同形狀的貨箱吹進指定出口。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/wind-tunnel-cargo.html",
+      "requirements": {
+        "coreMechanic": "擺放風扇和導流板，把不同形狀的貨箱吹進指定出口。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "resonance-glass",
+      "family": "physical-sandbox",
+      "position": 7,
+      "title": "共振拆玻璃",
+      "proposal": "調整虛擬聲波頻率，震碎指定材質，同時保住旁邊的物品。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/resonance-glass.html",
+      "requirements": {
+        "coreMechanic": "調整虛擬聲波頻率，震碎指定材質，同時保住旁邊的物品。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "melting-ice-bridge",
+      "family": "physical-sandbox",
+      "position": 8,
+      "title": "冰橋融化測試",
+      "proposal": "搭出承重冰橋，再安排熱源，讓載具趕在結構融化前安全通過。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/melting-ice-bridge.html",
+      "requirements": {
+        "coreMechanic": "搭出承重冰橋，再安排熱源，讓載具趕在結構融化前安全通過。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "sand-collapse-lab",
+      "family": "physical-sandbox",
+      "position": 9,
+      "title": "沙堆崩塌研究所",
+      "proposal": "混合砂石、改變濕度與擋板，引導崩塌材料填入不同收集槽。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/sand-collapse-lab.html",
+      "requirements": {
+        "coreMechanic": "混合砂石、改變濕度與擋板，引導崩塌材料填入不同收集槽。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "rope-net-catch",
+      "family": "physical-sandbox",
+      "position": 10,
+      "title": "繩網捕石實驗",
+      "proposal": "調整繩索長度、彈性與固定點，分散巨石落下的衝擊。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/rope-net-catch.html",
+      "requirements": {
+        "coreMechanic": "調整繩索長度、彈性與固定點，分散巨石落下的衝擊。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "magnetic-sculpture",
+      "family": "physical-sandbox",
+      "position": 11,
+      "title": "磁性碎片雕塑",
+      "proposal": "用磁力把散落金屬拼成輪廓，再撤掉部分磁鐵，測試能否自行站立。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/magnetic-sculpture.html",
+      "requirements": {
+        "coreMechanic": "用磁力把散落金屬拼成輪廓，再撤掉部分磁鐵，測試能否自行站立。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "friction-playground",
+      "family": "physical-sandbox",
+      "position": 12,
+      "title": "摩擦係數遊樂場",
+      "proposal": "替斜坡鋪油面、橡膠和砂紙，控制物件滑行、滾動或準確停靠。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/friction-playground.html",
+      "requirements": {
+        "coreMechanic": "替斜坡鋪油面、橡膠和砂紙，控制物件滑行、滾動或準確停靠。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "cloth-parachute",
+      "family": "physical-sandbox",
+      "position": 13,
+      "title": "布料降落挑戰",
+      "proposal": "裁切傘面、調整拉繩，讓易碎包裹穿過側風安全落地。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/cloth-parachute.html",
+      "requirements": {
+        "coreMechanic": "裁切傘面、調整拉繩，讓易碎包裹穿過側風安全落地。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "hydraulic-hand",
+      "family": "physical-sandbox",
+      "position": 14,
+      "title": "液壓巨手工坊",
+      "proposal": "選擇不同粗細的液壓缸，平衡力量與行程，兼顧重物和脆弱物品。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/hydraulic-hand.html",
+      "requirements": {
+        "coreMechanic": "選擇不同粗細的液壓缸，平衡力量與行程，兼顧重物和脆弱物品。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "soap-bubble-lab",
+      "family": "physical-sandbox",
+      "position": 15,
+      "title": "肥皂泡泡實驗室",
+      "proposal": "用泡泡包住物件，透過合併與破裂重新分配浮力，越過障礙送貨。",
+      "proposalMessageId": "Sentinel_f5316c642a288191a2a8032eef6d18b4",
+      "entry": "games/soap-bubble-lab.html",
+      "requirements": {
+        "coreMechanic": "用泡泡包住物件，透過合併與破裂重新分配浮力，越過障礙送貨。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use a documented deterministic numerical or discrete physical model for the named elasticity, gravity, resonance, friction, heat, pressure, fluid/pneumatic, granular, cloth or buoyancy process. The physical state evolves and materially affects outcomes.",
+          "Each game offers a meaningful construction/manipulation experiment and objective test missions where feasible. Precomputed answer selection or generic angle puzzles are insufficient. Virtual demolition remains stylized game physics, not practical real-world demolition instruction."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "droplet-world",
+      "family": "ecology",
+      "position": 1,
+      "title": "一滴水的世界",
+      "proposal": "控制單細胞吞食與分裂，在水溫和含氧變化中演化出新的生存構造。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/droplet-world.html",
+      "requirements": {
+        "coreMechanic": "控制單細胞吞食與分裂，在水溫和含氧變化中演化出新的生存構造。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "evolving-island",
+      "family": "ecology",
+      "position": 2,
+      "title": "會自己演化的島",
+      "proposal": "每輪只能改變一項環境條件，觀察物種競爭，替瀕危支系保留生存空間。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/evolving-island.html",
+      "requirements": {
+        "coreMechanic": "每輪只能改變一項環境條件，觀察物種競爭，替瀕危支系保留生存空間。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "before-wings",
+      "family": "ecology",
+      "position": 3,
+      "title": "長出翅膀之前",
+      "proposal": "逐代選擇攀爬與滑翔特徵，跨越愈來愈寬的峽谷，同時維持覓食能力。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/before-wings.html",
+      "requirements": {
+        "coreMechanic": "逐代選擇攀爬與滑翔特徵，跨越愈來愈寬的峽谷，同時維持覓食能力。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "symbiotic-partners",
+      "family": "ecology",
+      "position": 4,
+      "title": "共生合夥人",
+      "proposal": "替植物、真菌和昆蟲搭配夥伴，建立互惠網路，抵抗季節變化與外來物種。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/symbiotic-partners.html",
+      "requirements": {
+        "coreMechanic": "替植物、真菌和昆蟲搭配夥伴，建立互惠網路，抵抗季節變化與外來物種。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "intertidal-shift",
+      "family": "ecology",
+      "position": 5,
+      "title": "潮間帶換班",
+      "proposal": "選擇生物附著的高度，利用漲退潮時差，平衡乾燥風險與覓食機會。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/intertidal-shift.html",
+      "requirements": {
+        "coreMechanic": "選擇生物附著的高度，利用漲退潮時差，平衡乾燥風險與覓食機會。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "mycelium-exchange",
+      "family": "ecology",
+      "position": 6,
+      "title": "菌網交換所",
+      "proposal": "讓菌網調節植物間的養分交換，避免單一宿主壟斷資源，維持森林多樣性。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/mycelium-exchange.html",
+      "requirements": {
+        "coreMechanic": "讓菌網調節植物間的養分交換，避免單一宿主壟斷資源，維持森林多樣性。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "century-pedigree",
+      "family": "ecology",
+      "position": 7,
+      "title": "百代家譜",
+      "proposal": "安排族群配對、追蹤隱藏特徵，在氣候突變前保留足夠的遺傳多樣性。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/century-pedigree.html",
+      "requirements": {
+        "coreMechanic": "安排族群配對、追蹤隱藏特徵，在氣候突變前保留足夠的遺傳多樣性。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "migration-memory",
+      "family": "ecology",
+      "position": 8,
+      "title": "遷徙不是直線",
+      "proposal": "試探不同遷徙路線，讓後代繼承路線記憶，同時避免耗盡沿途棲地。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/migration-memory.html",
+      "requirements": {
+        "coreMechanic": "試探不同遷徙路線，讓後代繼承路線記憶，同時避免耗盡沿途棲地。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "bloom-timing",
+      "family": "ecology",
+      "position": 9,
+      "title": "開花的時差",
+      "proposal": "調整花期與花形吸引授粉者，在避開競爭與錯過繁殖季之間找平衡。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/bloom-timing.html",
+      "requirements": {
+        "coreMechanic": "調整花期與花形吸引授粉者，在避開競爭與錯過繁殖季之間找平衡。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "lost-predators",
+      "family": "ecology",
+      "position": 10,
+      "title": "失去天敵之後",
+      "proposal": "逐步恢復捕食關係，觀察食物網連鎖反應，防止新的優勢物種失控。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/lost-predators.html",
+      "requirements": {
+        "coreMechanic": "逐步恢復捕食關係，觀察食物網連鎖反應，防止新的優勢物種失控。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "vent-colony",
+      "family": "ecology",
+      "position": 11,
+      "title": "海底噴泉居民",
+      "proposal": "讓深海群落適應噴泉脈動，發展能量儲存或休眠能力，撐過冷卻期。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/vent-colony.html",
+      "requirements": {
+        "coreMechanic": "讓深海群落適應噴泉脈動，發展能量儲存或休眠能力，撐過冷卻期。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "borrowed-appearance",
+      "family": "ecology",
+      "position": 12,
+      "title": "借來的外表",
+      "proposal": "演化擬態與警戒色；當天敵逐漸學會辨識，就要調整下一代的策略。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/borrowed-appearance.html",
+      "requirements": {
+        "coreMechanic": "演化擬態與警戒色；當天敵逐漸學會辨識，就要調整下一代的策略。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "dormant-seedbank",
+      "family": "ecology",
+      "position": 13,
+      "title": "沉睡種子庫",
+      "proposal": "決定每年多少種子發芽、多少繼續休眠，讓族群度過災年與豐年循環。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/dormant-seedbank.html",
+      "requirements": {
+        "coreMechanic": "決定每年多少種子發芽、多少繼續休眠，讓族群度過災年與豐年循環。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "social-cost",
+      "family": "ecology",
+      "position": 14,
+      "title": "群居的代價",
+      "proposal": "調整分享食物、守望與育幼行為，觀察合作與搭便車如何影響族群。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/social-cost.html",
+      "requirements": {
+        "coreMechanic": "調整分享食物、守望與育幼行為，觀察合作與搭便車如何影響族群。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "last-habitat",
+      "family": "ecology",
+      "position": 15,
+      "title": "最後一塊棲地",
+      "proposal": "用有限的生態通道連接破碎棲地，促進擴散，避免小族群逐代消失。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/last-habitat.html",
+      "requirements": {
+        "coreMechanic": "用有限的生態通道連接破碎棲地，促進擴散，避免小族群逐代消失。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use explicitly simplified population/energy/habitat/trait dynamics with visible intergenerational consequences. Biological claims must be framed as game abstractions, not predictive science.",
+          "Named mechanisms such as inheritance, genetic diversity, mutualism, migration memory, dormancy, mimicry learning and fragmented habitats must produce distinct state transitions. Hidden traits remain genuinely hidden from decision policies unless revealed by legal observation."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "endless-corridor",
+      "family": "horror",
+      "position": 1,
+      "title": "永遠走不完的走廊",
+      "proposal": "每次回頭都會改寫一條規則，靠可信地標帶著逐漸失憶的同伴逃離。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/endless-corridor.html",
+      "requirements": {
+        "coreMechanic": "每次回頭都會改寫一條規則，靠可信地標帶著逐漸失憶的同伴逃離。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "night-shift",
+      "family": "horror",
+      "position": 2,
+      "title": "深夜值班員",
+      "proposal": "核對監視畫面和交班紀錄，分辨哪些異常必須處理、哪些絕對不能回應。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/night-shift.html",
+      "requirements": {
+        "coreMechanic": "核對監視畫面和交班紀錄，分辨哪些異常必須處理、哪些絕對不能回應。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "last-lamp",
+      "family": "horror",
+      "position": 3,
+      "title": "最後一盞燈",
+      "proposal": "在房間之間搬動唯一光源，根據影子的變化判斷危險方向。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/last-lamp.html",
+      "requirements": {
+        "coreMechanic": "在房間之間搬動唯一光源，根據影子的變化判斷危險方向。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "extra-window",
+      "family": "horror",
+      "position": 4,
+      "title": "窗外多一扇窗",
+      "proposal": "封住不屬於這棟樓的窗戶，但不能誤封真正的逃生口。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/extra-window.html",
+      "requirements": {
+        "coreMechanic": "封住不屬於這棟樓的窗戶，但不能誤封真正的逃生口。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "broken-weather",
+      "family": "horror",
+      "position": 5,
+      "title": "收不到的天氣",
+      "proposal": "從斷續廣播推斷今晚的避難規則，透過遊戲內的小測試辨認假預報。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/broken-weather.html",
+      "requirements": {
+        "coreMechanic": "從斷續廣播推斷今晚的避難規則，透過遊戲內的小測試辨認假預報。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "forbidden-replay",
+      "family": "horror",
+      "position": 6,
+      "title": "禁止重播",
+      "proposal": "倒帶尋找錄影中的異常，但每次重播，都會讓畫面裡的東西靠近一步。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/forbidden-replay.html",
+      "requirements": {
+        "coreMechanic": "倒帶尋找錄影中的異常，但每次重播，都會讓畫面裡的東西靠近一步。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "three-am-elevator",
+      "family": "horror",
+      "position": 7,
+      "title": "凌晨三點的電梯",
+      "proposal": "觀察乘客倒影與樓層要求，辨認偽裝者，決定安全的停靠順序。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/three-am-elevator.html",
+      "requirements": {
+        "coreMechanic": "觀察乘客倒影與樓層要求，辨認偽裝者，決定安全的停靠順序。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "breathing-room",
+      "family": "horror",
+      "position": 8,
+      "title": "替你呼吸的房間",
+      "proposal": "比較牆壁起伏與角色呼吸，找出正在模仿你的空間，決定何時換房。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/breathing-room.html",
+      "requirements": {
+        "coreMechanic": "比較牆壁起伏與角色呼吸，找出正在模仿你的空間，決定何時換房。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "empty-photo",
+      "family": "horror",
+      "position": 9,
+      "title": "照片裡沒有人",
+      "proposal": "輪流拍攝房間角落，從照片裡消失的人物與物件推斷安全路線。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/empty-photo.html",
+      "requirements": {
+        "coreMechanic": "輪流拍攝房間角落，從照片裡消失的人物與物件推斷安全路線。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "spare-key",
+      "family": "horror",
+      "position": 10,
+      "title": "門後的備用鑰匙",
+      "proposal": "用門縫、腳步聲和敲門暗號交叉確認訪客，只讓真正的同伴進門。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/spare-key.html",
+      "requirements": {
+        "coreMechanic": "用門縫、腳步聲和敲門暗號交叉確認訪客，只讓真正的同伴進門。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "tomorrow-lost-property",
+      "family": "horror",
+      "position": 11,
+      "title": "明天的失物招領",
+      "proposal": "收到標示明日日期的失物，選擇歸還、扣留或銷毀，改變隔夜事件。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/tomorrow-lost-property.html",
+      "requirements": {
+        "coreMechanic": "收到標示明日日期的失物，選擇歸還、扣留或銷毀，改變隔夜事件。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "ninth-passenger",
+      "family": "horror",
+      "position": 12,
+      "title": "倒數第九位乘客",
+      "proposal": "核對車票、座位與上下車人數，在不能叫醒乘客的限制下找出多出的人。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/ninth-passenger.html",
+      "requirements": {
+        "coreMechanic": "核對車票、座位與上下車人數，在不能叫醒乘客的限制下找出多出的人。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "dream-senses",
+      "family": "horror",
+      "position": 13,
+      "title": "夢境感官交換",
+      "proposal": "每晚犧牲角色的一種感官換取特殊能力，用剩餘線索判斷自己是否醒來。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/dream-senses.html",
+      "requirements": {
+        "coreMechanic": "每晚犧牲角色的一種感官換取特殊能力，用剩餘線索判斷自己是否醒來。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "shadow-feeding",
+      "family": "horror",
+      "position": 14,
+      "title": "請勿餵養影子",
+      "proposal": "影子會學習重複動作，故意培養假習慣誤導它，再趁它照做時逃離。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/shadow-feeding.html",
+      "requirements": {
+        "coreMechanic": "影子會學習重複動作，故意培養假習慣誤導它，再趁它照做時逃離。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "mimic-alarm",
+      "family": "horror",
+      "position": 15,
+      "title": "警報正在模仿你",
+      "proposal": "設定暗號引導同伴撤離，但假警報也會學習，必須及時更新辨識規則。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/mimic-alarm.html",
+      "requirements": {
+        "coreMechanic": "設定暗號引導同伴撤離，但假警報也會學習，必須及時更新辨識規則。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Provide clue observation and evidence-dependent survival decisions with explicit in-game rules. Each anomaly, memory, camera, replay, breathing, forged forecast or imitation mechanism must change gameplay.",
+          "Threats learn only allowed visible behavior. Required information is accessible through legitimate inspections before irreversible choices, and missions have replayable safe routes without reading hidden truth data. Avoid audio-only or colour-only critical clues."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "apocalypse-radio",
+      "family": "narrative",
+      "position": 1,
+      "title": "末日電台主持人",
+      "proposal": "查證求救與情報後決定播出內容，聽眾的行動後果會變成下一夜的來電。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/apocalypse-radio.html",
+      "requirements": {
+        "coreMechanic": "查證求救與情報後決定播出內容，聽眾的行動後果會變成下一夜的來電。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "seven-letters",
+      "family": "narrative",
+      "position": 2,
+      "title": "旅館裡的七封信",
+      "proposal": "改變信件投遞對象與時間，影響住客信任，讓同一夜走向不同結局。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/seven-letters.html",
+      "requirements": {
+        "coreMechanic": "改變信件投遞對象與時間，影響住客信任，讓同一夜走向不同結局。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "last-council",
+      "family": "narrative",
+      "position": 3,
+      "title": "王國最後一次會議",
+      "proposal": "用承諾交換各派支持，表決王國未來，再承擔先前交易的後果。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/last-council.html",
+      "requirements": {
+        "coreMechanic": "用承諾交換各派支持，表決王國未來，再承擔先前交易的後果。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "memory-pawn",
+      "family": "narrative",
+      "position": 4,
+      "title": "記憶典當行",
+      "proposal": "典當記憶換取資源，但失去的往事，也會帶走對話選項與人物關係。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/memory-pawn.html",
+      "requirements": {
+        "coreMechanic": "典當記憶換取資源，但失去的往事，也會帶走對話選項與人物關係。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "enemy-heir",
+      "family": "narrative",
+      "position": 5,
+      "title": "我的繼承人是敵人",
+      "proposal": "培養繼承人的能力，同時處理彼此衝突的信念，決定最後如何交權。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/enemy-heir.html",
+      "requirements": {
+        "coreMechanic": "培養繼承人的能力，同時處理彼此衝突的信念，決定最後如何交權。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "last-boat-ticket",
+      "family": "narrative",
+      "position": 6,
+      "title": "只剩一張船票",
+      "proposal": "交換情報和承諾，決定誰能離開；留下的人則繼續另一條故事線。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/last-boat-ticket.html",
+      "requirements": {
+        "coreMechanic": "交換情報和承諾，決定誰能離開；留下的人則繼續另一條故事線。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "yesterday-witness",
+      "family": "narrative",
+      "position": 7,
+      "title": "昨日的證人",
+      "proposal": "決定對不同角色揭露多少真相，讓證詞改變其他人的說法與可追查線索。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/yesterday-witness.html",
+      "requirements": {
+        "coreMechanic": "決定對不同角色揭露多少真相，讓證詞改變其他人的說法與可追查線索。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "false-king",
+      "family": "narrative",
+      "position": 8,
+      "title": "假王登基",
+      "proposal": "扮演臨時頂替國王的平民，以施政與私人往來建立支持，再決定何時坦白。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/false-king.html",
+      "requirements": {
+        "coreMechanic": "扮演臨時頂替國王的平民，以施政與私人往來建立支持，再決定何時坦白。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "three-names",
+      "family": "narrative",
+      "position": 9,
+      "title": "三個名字的人",
+      "proposal": "以三種身分處理同一座城的事件，讓不同身分許下的承諾互相牽制。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/three-names.html",
+      "requirements": {
+        "coreMechanic": "以三種身分處理同一座城的事件，讓不同身分許下的承諾互相牽制。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "future-defense",
+      "family": "narrative",
+      "position": 10,
+      "title": "給未來的辯護書",
+      "proposal": "交替操控年輕與年老的自己，早年的文件和選擇會限制晚年的解釋。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/future-defense.html",
+      "requirements": {
+        "coreMechanic": "交替操控年輕與年老的自己，早年的文件和選擇會限制晚年的解釋。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "villain-turn",
+      "family": "narrative",
+      "position": 11,
+      "title": "今天輪到反派",
+      "proposal": "輪流扮演同一事件的三名對立角色，上一章的決定成為下一章的困境。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/villain-turn.html",
+      "requirements": {
+        "coreMechanic": "輪流扮演同一事件的三名對立角色，上一章的決定成為下一章的困境。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "unspoken-promise",
+      "family": "narrative",
+      "position": 12,
+      "title": "不可說的約定",
+      "proposal": "選擇回答、沉默或轉述，改變誰知道秘密，以及誰還願意信任你。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/unspoken-promise.html",
+      "requirements": {
+        "coreMechanic": "選擇回答、沉默或轉述，改變誰知道秘密，以及誰還願意信任你。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "hero-retirement",
+      "family": "narrative",
+      "position": 13,
+      "title": "英雄退休申請",
+      "proposal": "安排最後七天拜訪舊友、處理委託；沒去的地方也會自行發展。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/hero-retirement.html",
+      "requirements": {
+        "coreMechanic": "安排最後七天拜訪舊友、處理委託；沒去的地方也會自行發展。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "borrowed-day",
+      "family": "narrative",
+      "position": 14,
+      "title": "交換一天的人生",
+      "proposal": "與另一角色交換生活並代做決定，回來後承受對方留下的人際後果。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/borrowed-day.html",
+      "requirements": {
+        "coreMechanic": "與另一角色交換生活並代做決定，回來後承受對方留下的人際後果。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "final-wishes",
+      "family": "narrative",
+      "position": 15,
+      "title": "遺願代辦人",
+      "proposal": "選擇照字面或按心意完成遺願，在不同家屬之間協商，改變後續關係。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/final-wishes.html",
+      "requirements": {
+        "coreMechanic": "選擇照字面或按心意完成遺願，在不同家屬之間協商，改變後續關係。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-sky-islands",
+      "family": "war",
+      "position": 1,
+      "title": "浮空群島爭霸",
+      "proposal": "預判群島漂移配置軍團與補給，搶占短暫接壤的領土，避免部隊漂離戰線。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-sky-islands.html",
+      "requirements": {
+        "coreMechanic": "預判群島漂移配置軍團與補給，搶占短暫接壤的領土，避免部隊漂離戰線。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-robot-front",
+      "family": "war",
+      "position": 2,
+      "title": "機器軍團前線",
+      "proposal": "以有限產能替軍團更換模組，根據各路戰況調整編制與增援方向。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-robot-front.html",
+      "requirements": {
+        "coreMechanic": "以有限產能替軍團更換模組，根據各路戰況調整編制與增援方向。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-four-seasons",
+      "family": "war",
+      "position": 3,
+      "title": "四季王國戰爭",
+      "proposal": "四季改變糧食、徵募與通行條件，安排進攻、固守和休戰時機。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-four-seasons.html",
+      "requirements": {
+        "coreMechanic": "四季改變糧食、徵募與通行條件，安排進攻、固守和休戰時機。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-capitalless",
+      "family": "war",
+      "position": 4,
+      "title": "沒有首都的帝國",
+      "proposal": "建立分散指揮的城邦網路，保持聯絡與支援，防止擴張後分裂成軍閥。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-capitalless.html",
+      "requirements": {
+        "coreMechanic": "建立分散指揮的城邦網路，保持聯絡與支援，防止擴張後分裂成軍閥。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-last-city",
+      "family": "war",
+      "position": 5,
+      "title": "一城抵千軍",
+      "proposal": "用少數精銳城邦對抗廣大聯盟，在守住本城與支援盟友之間取捨。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-last-city.html",
+      "requirements": {
+        "coreMechanic": "用少數精銳城邦對抗廣大聯盟，在守住本城與支援盟友之間取捨。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-neutral-balance",
+      "family": "war",
+      "position": 6,
+      "title": "中立國的天平",
+      "proposal": "利用援助、停戰與通行協議爭取中立地區，改變整張地圖的進軍方向。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-neutral-balance.html",
+      "requirements": {
+        "coreMechanic": "利用援助、停戰與通行協議爭取中立地區，改變整張地圖的進軍方向。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-tidal-continent",
+      "family": "war",
+      "position": 7,
+      "title": "潮汐大陸",
+      "proposal": "陸橋會週期性沉沒，必須協調陸軍與船團，輪流掌握港口、海路與內陸。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-tidal-continent.html",
+      "requirements": {
+        "coreMechanic": "陸橋會週期性沉沒，必須協調陸軍與船團，輪流掌握港口、海路與內陸。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-hundred-flags",
+      "family": "war",
+      "position": 8,
+      "title": "百旗聯盟",
+      "proposal": "協商盟國出兵份額和戰後領土，讓目標不同的軍團一起推進而不分裂。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-hundred-flags.html",
+      "requirements": {
+        "coreMechanic": "協商盟國出兵份額和戰後領土，讓目標不同的軍團一起推進而不分裂。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-rail-crown",
+      "family": "war",
+      "position": 9,
+      "title": "鐵路盡頭的王冠",
+      "proposal": "延伸運輸網支援多條戰線，在擴張領土和增加後方運量之間分配資源。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-rail-crown.html",
+      "requirements": {
+        "coreMechanic": "延伸運輸網支援多條戰線，在擴張領土和增加後方運量之間分配資源。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-memory-front",
+      "family": "war",
+      "position": 10,
+      "title": "戰線會記仇",
+      "proposal": "交戰永久影響地區產能與民心，必須選擇修復、繞路或承擔荒廢代價。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-memory-front.html",
+      "requirements": {
+        "coreMechanic": "交戰永久影響地區產能與民心，必須選擇修復、繞路或承擔荒廢代價。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-simultaneous-orders",
+      "family": "war",
+      "position": 11,
+      "title": "密令同時生效",
+      "proposal": "各方秘密部署後一起結算，從前一輪調動推測對手企圖，爭夺邊境。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-simultaneous-orders.html",
+      "requirements": {
+        "coreMechanic": "各方秘密部署後一起結算，從前一輪調動推測對手企圖，爭夺邊境。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-three-fronts",
+      "family": "war",
+      "position": 12,
+      "title": "一張地圖三場戰爭",
+      "proposal": "同時管理地表、地下和空域，讓某一層的據點影響其他戰線增援。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-three-fronts.html",
+      "requirements": {
+        "coreMechanic": "同時管理地表、地下和空域，讓某一層的據點影響其他戰線增援。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-succession",
+      "family": "war",
+      "position": 13,
+      "title": "繼承者戰爭",
+      "proposal": "分配領地與軍權給不同繼承者，借重他們擴張，也要避免王朝陷入內戰。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-succession.html",
+      "requirements": {
+        "coreMechanic": "分配領地與軍權給不同繼承者，借重他們擴張，也要避免王朝陷入內戰。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-after-conquest",
+      "family": "war",
+      "position": 14,
+      "title": "征服之後",
+      "proposal": "勝利只帶來暫時占領，還要協調地方自治與駐軍負擔，才能穩定納入版圖。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-after-conquest.html",
+      "requirements": {
+        "coreMechanic": "勝利只帶來暫時占領，還要協調地方自治與駐軍負擔，才能穩定納入版圖。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "war-retreating-empire",
+      "family": "war",
+      "position": 15,
+      "title": "撤退的帝國",
+      "proposal": "在逐步失守的大陸掩護居民遷移，保住人口與部隊，為下一階段重建國土。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/war-retreating-empire.html",
+      "requirements": {
+        "coreMechanic": "在逐步失守的大陸掩護居民遷移，保住人口與部隊，為下一階段重建國土。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Operate on a meaningful multi-region map with ownership, movement, troop/supply constraints and opposing state-dependent strategy, not a single-number tug of war.",
+          "Each proposal implements its distinct drift, module production, season, distributed command, neutrality, tide, coalition, rail capacity, persistent scars, simultaneous orders, layer, succession, occupation or evacuation mechanic. Secret orders must remain inaccessible to AI before simultaneous resolution."
+        ]
+      },
+      "deliveryStatus": "planned"
+    }
+  ],
+  "releaseGates": [
+    "All 270 historical game assets, records, artwork, browse categories and evidence preserved byte-for-byte unless one of five explicitly allowed root integration files.",
+    "All exact 120 titles/proposals delivered and collision-free; root registry390/categories24.",
+    "Meaningful100-level UI-reachable engine proofs for each objective mission game; justified freeform exceptions only.",
+    "Easy/normal/hard genuine AI policies tested wherever AI appropriate; legal hidden-information boundaries.",
+    "Actual333px/400px/desktop browser interaction and geometry with exact source binding, independent from simulated DOM.",
+    "Fresh isolated corrected270 baseline verification, including PR24 presentation overlay gate; never rewrite historical evidence.",
+    "Full fresh isolated8-family aggregate plus negative corruption/regression gate on exact frozen source.",
+    "Minimal source/evidence allowlist, full remote tree preservation, no deletions or new logs/screenshots/temp artifacts.",
+    "Root owns publication only after offline and independent audits, then remote commit/merge/hosted proof."
+  ]
+}

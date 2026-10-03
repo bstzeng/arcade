@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+'use strict';
+// Recover only the final catalog stage after all eight exact-source isolated
+// family suites already completed. No failed/stale/missing family is reused.
+const fs=require('node:fs'),assert=require('node:assert/strict'),crypto=require('node:crypto'),{spawnSync}=require('node:child_process'),T=require('./frontier120-tools.cjs');process.chdir(__dirname);
+const receiptPath='frontier120-engine-audit-receipt.json',prior=T.read(receiptPath),digest=x=>crypto.createHash('sha256').update(x).digest('hex');
+assert.equal(prior.completeReleaseAudit,true,'Only a complete attempted run can be recovered');assert.equal(prior.passed,false,'Use ordinary aggregate success without recovery');assert.equal(prior.families.length,8);assert(prior.families.every(f=>f.passed));assert(prior.historical?.passed);assert.equal(prior.baseCommit,T.preservation.baseCommit);assert.equal(prior.claims.allNewFamilyTestsFresh,true);
+assert(prior.failures.length===1&&/Failed node verify-frontier120(?:-lobby|-regressions)?\.cjs/.test(prior.failures[0].error),'Recovery only supports a final root verification failure after all family commands passed');
+const mutable=new Set([...T.allowedRootChanges,'frontier120-manifest.json']);
+for(const[f,h]of Object.entries(prior.sourceFiles))if(!mutable.has(f))assert.equal(T.hash(f),h,'Non-integration audit input changed since fresh run '+f);
+function familyBindings(){
+ for(const row of prior.families){const f=T.loadFamily(row.id);assert.equal(T.hash(row.manifestPath),row.manifestSHA256,'Family changed after fresh run '+row.id);assert.deepEqual(f.sourceFiles,row.sourceFiles,'Family source set changed '+row.id);assert.deepEqual(row.commands.map(c=>c.argv),f.commands,'Executed command scope mismatch '+row.id);assert(row.commands.every(c=>c.exitCode===0));assert.deepEqual(Object.keys(row.freshReports).sort(),f.freshReports.slice().sort(),'Fresh report coverage mismatch '+row.id);
+  for(const[file,h]of Object.entries(row.sourceFiles))assert.equal(T.hash(file),h,'Family source changed after fresh run '+file);
+  for(const[file,e]of Object.entries(row.freshReports)){const d=e.result;assert(d.passed===true||['passed','pass'].includes(d.status)||d.result==='pass','Failed fresh family evidence '+file);for(const key of ['sourceFiles','sourceHashes','sourceHashesBefore','sourceHashesAfter'])for(const[p,h]of Object.entries(d[key]||{})){if(typeof h!=='string')continue;const resolved=fs.existsSync(p)?p:f.directory+'/'+p;assert.equal(T.hash(resolved),h,'Stale fresh report source '+resolved);}}
+ }
+}
+familyBindings();T.assertPreserved();
+const inputs=[...new Set([...Object.keys(prior.sourceFiles),receiptPath,'recover-frontier120-integration.cjs','prepare-frontier120-release.cjs'])];
+const report={schemaVersion:1,passed:false,scope:'Complete390-game offline audit with exact unchanged eight-family engine receipts and freshly rerun corrected root integration stage',completeReleaseAudit:true,baseCommit:T.preservation.baseCommit,families:prior.families,historical:prior.historical,sourceFiles:Object.fromEntries(inputs.map(f=>[f,T.hash(f)])),failures:[],recovery:{method:'All eight new-family commands executed freshly in the preserved receipt; after late catalog binding corrections, every family source/manifest/report binding was revalidated before and after fresh root verifications. No engine proof was inferred from a status flag alone.',engineReceipt:receiptPath,engineReceiptSHA256:T.hash(receiptPath),priorRootFailure:prior.failures[0].error,engineCommandsRerunInThisInvocation:false,rootCommandsRerun:true},claims:{allNewFamilyTestsFresh:true,allNewFamilyTestsFreshInThisInvocation:false,allHistoricalEngineProofsFresh:false,actualBrowserTesting:false,hostedVerification:false,publicationReady:false}};
+const start=Date.now();
+try{
+ report.integration=[];for(const argv of [['node','verify-frontier120.cjs'],['node','verify-frontier120-lobby.cjs'],['node','verify-frontier120-regressions.cjs']]){const t=Date.now(),r=spawnSync(process.execPath,argv.slice(1),{cwd:__dirname,encoding:'utf8',maxBuffer:64*1024*1024});process.stdout.write(r.stdout||'');process.stderr.write(r.stderr||'');assert.ifError(r.error);assert.equal(r.status,0,'Fresh integration recovery failed '+argv.join(' '));report.integration.push({argv,exitCode:0,seconds:+((Date.now()-t)/1000).toFixed(3),stdoutSHA256:digest(r.stdout||''),stderrSHA256:digest(r.stderr||''),tail:(r.stdout||'').slice(-1800)});}
+ familyBindings();report.preservedHistoricalFiles=T.assertPreserved();for(const[f,h]of Object.entries(report.sourceFiles))assert.equal(T.hash(f),h,'Source changed during integration recovery '+f);report.passed=true;
+}catch(e){report.failures.push({error:String(e.stack||e)});process.exitCode=1;console.error(e.stack||e);}
+finally{report.seconds=+((Date.now()-start)/1000).toFixed(3);fs.writeFileSync('frontier120-aggregate-verification-report.json',JSON.stringify(report,null,2)+'\n');console.log((report.passed?'PASS':'FAIL')+': source-bound eight-family receipt plus fresh390 integration recovery.');}

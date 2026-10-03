@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Current 390-game lobby simulated-DOM integration; no real browser claim",
+  "registryCount": 390,
+  "categoryCount": 24,
+  "searchCases": 1181,
+  "checks": [
+    "Exact historical prefix and 120 proposed entries",
+    "All 390 games, 24 browse groups, stable links and IDs",
+    "All Chinese titles, English labels and slugs searchable",
+    "Empty/reset/clear/Escape/Enter/repeated interactions",
+    "Category and query deep links and Back/Forward restoration",
+    "Mobile native selector accessibility name and keyboard focus"
+  ],
+  "sourceFiles": {
+    "app.js": "388e77e23bdaabca755c58a3788e6a51aa3203ce7c815f5d46bc053a89c41ac3",
+    "index.html": "90792d01755375f86de6b0a863e9b76d13424b45752c068c25516ac3dbb43512",
+    "styles.css": "51432f75ed5c86602f7cf206216dcb03cd339b9f10ee955c591d503999e2f8d7",
+    "verify-frontier120-lobby.cjs": "56e08ccaaa1bae7cacf9c1b7cf5194972976a4ed35f8b5a94aae0479dd21ba79",
+    "frontier120-manifest.json": "de277c747c9f8c0a7ff94921e2cd987b9b6b9b701d0e41511ad9abe6fc534fbd"
+  },
+  "claims": {
+    "browserVisualTesting": false,
+    "mobileBrowserTesting": false
+  }
+}

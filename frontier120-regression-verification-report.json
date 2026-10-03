@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Negative integration corruption checks on disposable files only",
+  "checks": [
+    {
+      "name": "Historical registry mutation",
+      "passed": true,
+      "expected": "All 270 historical registry"
+    },
+    {
+      "name": "Wrong new title",
+      "passed": true,
+      "expected": "暴風雪避難所"
+    },
+    {
+      "name": "Changed engine with stale evidence",
+      "passed": true,
+      "expected": "stale source"
+    },
+    {
+      "name": "Missing witness corpus record",
+      "passed": true,
+      "expected": "stale source"
+    },
+    {
+      "name": "Missing primary assignment",
+      "passed": true,
+      "expected": "TypeError|primary|Cannot read properties"
+    },
+    {
+      "name": "Lost historical asset",
+      "passed": true,
+      "expected": "Historical file changed"
+    }
+  ],
+  "sourceFiles": {
+    "verify-frontier120-regressions.cjs": "2fa406a70b602492e4cbb962f671d94edcf360a60974c4231b68a24b94138b44",
+    "verify-frontier120.cjs": "194c9d3d274807889c85b0b7de60bfb0213bb6f193013c6c288e28ae1f3823f6",
+    "frontier120-tools.cjs": "ca2a6016a3d3d2975f1a737d57eb1809af0867f0598aacff24dff588486ab2b8",
+    "frontier120-manifest.json": "de277c747c9f8c0a7ff94921e2cd987b9b6b9b701d0e41511ad9abe6fc534fbd",
+    "app.js": "388e77e23bdaabca755c58a3788e6a51aa3203ce7c815f5d46bc053a89c41ac3"
+  }
+}
