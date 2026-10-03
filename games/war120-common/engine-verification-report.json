@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "scope": "Offline runtime verification; no browser or deployment claim",
+  "games": [
+    {
+      "id": "war-sky-islands",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        5,
+        21
+      ],
+      "witnessActionTypes": [
+        "march",
+        "anchor",
+        "supply",
+        "recruit"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-robot-front",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        4,
+        10
+      ],
+      "witnessActionTypes": [
+        "march",
+        "module"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-four-seasons",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        12,
+        20
+      ],
+      "witnessActionTypes": [
+        "march",
+        "farm",
+        "recruit",
+        "fort",
+        "store"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-capitalless",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        3,
+        11
+      ],
+      "witnessActionTypes": [
+        "march",
+        "council"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-last-city",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        12,
+        16
+      ],
+      "witnessActionTypes": [
+        "fort",
+        "relief",
+        "recruit"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-neutral-balance",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        8,
+        8
+      ],
+      "witnessActionTypes": [
+        "aid",
+        "passage",
+        "treaty"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-tidal-continent",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        3,
+        16
+      ],
+      "witnessActionTypes": [
+        "ship",
+        "ferry",
+        "march",
+        "fort",
+        "recruit"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-hundred-flags",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        6,
+        13
+      ],
+      "witnessActionTypes": [
+        "pact",
+        "grant",
+        "march"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-rail-crown",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        8,
+        64
+      ],
+      "witnessActionTypes": [
+        "march",
+        "rail",
+        "hub",
+        "freight",
+        "fort",
+        "recruit"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-memory-front",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        10,
+        19
+      ],
+      "witnessActionTypes": [
+        "march",
+        "repair",
+        "reconcile"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-simultaneous-orders",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        10,
+        18
+      ],
+      "witnessActionTypes": [
+        "march",
+        "intercept",
+        "fort",
+        "recruit"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-three-fronts",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        6,
+        10
+      ],
+      "witnessActionTypes": [
+        "march",
+        "lift"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-succession",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        7,
+        19
+      ],
+      "witnessActionTypes": [
+        "march",
+        "assign",
+        "command"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-after-conquest",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        8,
+        20
+      ],
+      "witnessActionTypes": [
+        "march",
+        "autonomy",
+        "rebuild"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    },
+    {
+      "id": "war-retreating-empire",
+      "witnesses": 100,
+      "canonicalUnlabeledGraphs": 100,
+      "semanticMissions": 100,
+      "rounds": [
+        9,
+        21
+      ],
+      "witnessActionTypes": [
+        "evacuate",
+        "reserve",
+        "march",
+        "recruit"
+      ],
+      "alternatePlans": 100,
+      "aiTiersReactToPublicState": 3,
+      "fullDuels": 9,
+      "passed": true
+    }
+  ],
+  "mechanics": [
+    "sky: anchors reopen a closed drift connection",
+    "robot: mobility grants a two-edge friendly transit unavailable to assault",
+    "seasons: winter closure and autumn farm harvest",
+    "network: disconnected city secedes after the published unrest threshold",
+    "city: defensive walls reduce periodic coalition siege casualties",
+    "diplomacy: passage opens movement through a neutral state",
+    "tide: ferry consumes real fleet capacity and transports a regiment",
+    "alliance: unfulfilled territory promises end alliances",
+    "rail: connected rails gate frontline recruitment",
+    "memory: fighting creates persistent war damage, repair removes it",
+    "orders: crossing sealed marches collide on their shared road",
+    "layers: a lift creates a cross-layer military route",
+    "heirs: concentrated military power causes loyalist provinces to rebel",
+    "occupation: autonomy prevents rebellion; unfed garrisons consume budget",
+    "retreat: delayed collapse preserves an otherwise lost populated province"
+  ],
+  "passed": true,
+  "counts": {
+    "witnesses": 1500,
+    "alternatePlans": 1500,
+    "negativeTraces": 4500,
+    "constantPolicyFailures": 90,
+    "fullDuels": 135,
+    "aiCausalResponses": 45,
+    "privacyCases": 45,
+    "saveCases": 3105
+  },
+  "sourceHashes": {
+    "games/war-after-conquest.html": "a1a79e6641ce0ec1d6ee71d8e91e1e1ed68aa1412239740f35d636494833b3c0",
+    "games/war-after-conquest/README.md": "f0efa6deec564644ae5f209a7e602dc991128c5fbd8099ee9f8910590791fecc",
+    "games/war-after-conquest/art.svg": "96250b38c488f2c6e23b6f397bd493077dac125fbeb3f3a98028b2c020ff4038",
+    "games/war-after-conquest/levels.json": "8f004a5b5d55151e38a1ff901eff62da0c716740d5e7110fff07f0f42aa5de66",
+    "games/war-after-conquest/proofs.json": "8a72c455774b3bd7b330c5231c4c9938ac83fa891e234ddf8c714d20055d52ab",
+    "games/war-capitalless.html": "44f5ccd8617e3abed49fe333c2558457b70b37863febe180485bf9bdbb16d269",
+    "games/war-capitalless/README.md": "13c83868d38612f44c4a51a4e12deacc98839fc939f90365fbc7f554a54b666d",
+    "games/war-capitalless/art.svg": "9df67340a3f96133617140d620f61d3367bc224f51effd253203ab1f1130b357",
+    "games/war-capitalless/levels.json": "217aee599b443c743063615ef2267559f5ceb0678fbc586fd30f2fa0564c5568",
+    "games/war-capitalless/proofs.json": "93d5b6a2dacd4665ba6d41fa47e7a7bb8b1de187f310fe700ada4f489b0cbe08",
+    "games/war-four-seasons.html": "f5fb380499458a887451cbf3f7d9991d0b9cd2833135d963cf698324eed04d02",
+    "games/war-four-seasons/README.md": "39ee2317428d36285d58adaf6ef8c7ab1e41800b03dfccd60ac07025d7c6e1de",
+    "games/war-four-seasons/art.svg": "c4e7abe2e4823baab945c84d83e2eb5bb09312caf2911f76859e2353aa8a3968",
+    "games/war-four-seasons/levels.json": "4359ee9ad5b0cd0dc6587a5df10501415b9941a81dbf02185b5711afbdf57203",
+    "games/war-four-seasons/proofs.json": "f5d926c7c20a806ad5eb20c23599eb9b453537bd71711edac13d45e1b5433c5a",
+    "games/war-hundred-flags.html": "305f74eb98293603d14817f5f56d122edd964039379513eaea946c28a67b8ead",
+    "games/war-hundred-flags/README.md": "6d7de2871ded3021505cc57578d9a8dc7e989b1937dc35ce30c8e9dca8b2d740",
+    "games/war-hundred-flags/art.svg": "9dcbb94e9ec68cb8633d0a573c5fd469decab737efe24b039a73747176f5d1c0",
+    "games/war-hundred-flags/levels.json": "1e9bf82f7f409a2a381d12a0f0ad11952d7e79bf419614bb62ac2e3b6bc04485",
+    "games/war-hundred-flags/proofs.json": "23c2f8e38444b8b5e66a42862ae5242bb4cf302d1fbb8831c451b018fbd922e4",
+    "games/war-last-city.html": "378cc56b46932c3159b2ea4d2a6db5764756c731fb67c4402782cbb61b236ec5",
+    "games/war-last-city/README.md": "d4b586656cf9dc7648b15acafbd781083be341bfc1ec2e8f9ba1a53217b15e92",
+    "games/war-last-city/art.svg": "49479876603025b87cdbfa3c22b5b6065de4f8eecf9b84d97aa290beb97fc676",
+    "games/war-last-city/levels.json": "6d819851ad0bb789a0a870206eabfd2f03b684d383f267be46195b4bac1528fc",
+    "games/war-last-city/proofs.json": "13929f22aedfecbb1832ab549b9b62b8eceabe6a5bff991c24dd5807c1dd519f",
+    "games/war-memory-front.html": "5fc84c7588ed14fa31fd823e2c5e43de4373d999d0ffac861b4eaacc8609537e",
+    "games/war-memory-front/README.md": "a90ee2e0cff11d0770f0c01c6fc5338fe9c3ea7e371f7b01b96bbaefb14cbebb",
+    "games/war-memory-front/art.svg": "e550cdf00d4bdbeac2101d4344262c826a4f8b63fa5d07e6d3de2bd7b67210cf",
+    "games/war-memory-front/levels.json": "d388ca14214b3ae8330f79b279f144a65845cc9eff060f88ad107c3d183ef2de",
+    "games/war-memory-front/proofs.json": "dee195db159f588b2f64a8169f6e278a165f01c51e229c425c5827b5fe16d617",
+    "games/war-neutral-balance.html": "231d5c41a0a91d59808df77f9e95adf7ec3aa948ff6690aba92b3d78c85f2d5f",
+    "games/war-neutral-balance/README.md": "3de6778ae380a1dc029a1c51b6dc581b05fc4c0a8e1d628a189d9e96d0209c22",
+    "games/war-neutral-balance/art.svg": "ce4fb1922703ed5b793e63b40825dc7d6e5f6e683e2d528e8ed032dc26aef5c7",
+    "games/war-neutral-balance/levels.json": "fcdee5d19b8bddc5a7c4596af1f08289ead772c7df852e457abce96105837e85",
+    "games/war-neutral-balance/proofs.json": "754f408addc49bc1f710168c462fc5c9da3338ead61f54e764744c99f97a0904",
+    "games/war-rail-crown.html": "a5fd8b0c1f9702a5fdb87f37177d7133b416f272e4530a1daa6915609341f295",
+    "games/war-rail-crown/README.md": "cb6788aaaabab701f02b4b02f0b3502e85f6c7afdb905523cffa8185edcd8dda",
+    "games/war-rail-crown/art.svg": "a52654cb03b03d24c9be3b08ba3e632ce966511b2d235304c64dad52c38dc92d",
+    "games/war-rail-crown/levels.json": "7b441018229fd5251ae65cd4c5ef113df321681fd9650c2eaac677629c83d843",
+    "games/war-rail-crown/proofs.json": "fabb009c8ef7d51fed3614cf9304d1e5909f434d3cae493bf2ebc09d6a6eb4e9",
+    "games/war-retreating-empire.html": "38c09d8aea342467d48e1226892079dfd480f8ea8c3405718d14847fdb3189b5",
+    "games/war-retreating-empire/README.md": "9b5b8cf6ecdff0afb6c618260d5eec1e1ed296e205aa25bf52930af6e61a152f",
+    "games/war-retreating-empire/art.svg": "b5b961e9dbe4bcc6cc9a7b46ca1e2c962de00d5915b8538a4d4f5da8e1c1716f",
+    "games/war-retreating-empire/levels.json": "43e7ce3002cf2353214199f215b5527b008670d6c13f759ce89981948038a040",
+    "games/war-retreating-empire/proofs.json": "ec8cbc099eb28cb1aa75e0ab55e765f8b4fa91437949efa9cd8194f9894b740e",
+    "games/war-robot-front.html": "337b995c783e5d16b97a8b82518a26da4f96893b7cd217ebe3dfd8b41768e2b8",
+    "games/war-robot-front/README.md": "88d09eee9ee3eee3b2c0c7538967c180e4c236dcabb6ce0fbbb2626a70ba5d56",
+    "games/war-robot-front/art.svg": "e63ebfc1644ac5adc281a24c350ad1105ccee325ac3c859b3971cfd56bacc53e",
+    "games/war-robot-front/levels.json": "b9b1c617bd70b9b9baa672a04edf4ebd656570be8b946e2d7f600143b57b8c74",
+    "games/war-robot-front/proofs.json": "fd2366280aa9d4a57749e8e637adc1a0b2c3d993ee229b817bf7ebe659455b0b",
+    "games/war-simultaneous-orders.html": "99c8f2e93740f11ac45f5ff55ee15ef490e97a92afb2aa04786908e3e38c20d5",
+    "games/war-simultaneous-orders/README.md": "672b92aa0f0e4c117a81a206426673cba197b1359e2e92f05ca360c9c315470c",
+    "games/war-simultaneous-orders/art.svg": "cda97633629af8fd998577c76773f6d4ebf3884fe7189cf2813947181c64efbf",
+    "games/war-simultaneous-orders/levels.json": "2bdc283b8499d3ac8e2ed45b71d080c9be7edc6d0b585d015ec8d445671816c7",
+    "games/war-simultaneous-orders/proofs.json": "7a57caa77784c4cb30d06c5e531371ffb0062b37488eb7a8c95444b5011f8fd6",
+    "games/war-sky-islands.html": "070a1c9cf0bd9d5f16aca3f724de19e7f09a98dcd10aa23fcdaa650118b9fede",
+    "games/war-sky-islands/README.md": "71f34170b45c8fa562c2224b4e094ccaa3f4533bc3199029720ab07afc397dbe",
+    "games/war-sky-islands/art.svg": "0c33e466bc70bcd53c19d350c3ead3cc8184394257851aba195364cf512c4776",
+    "games/war-sky-islands/levels.json": "2185ffe93e530df0c0251b2cf1f3ec5cd8b6caaf725839431314088c1e4de5e5",
+    "games/war-sky-islands/proofs.json": "7f94a71dbf81399cd80c3d95e9b09021dbdd114972109b074f57790ca7ed34e0",
+    "games/war-succession.html": "f0632d6e7c9793aecd7544f405e0274a7e476b2a20c0b14a8c84dbe8549a91ea",
+    "games/war-succession/README.md": "3b4acaeab50a1a818050fb983a161f5a6ae5633721fbaada8fc4fb8cfb04fec4",
+    "games/war-succession/art.svg": "016747e3743f5de3c0dd3423e95217a3b62520263c1dc586ae0baa4ffb3c4b2e",
+    "games/war-succession/levels.json": "931ecfef44203578ec59e5a7f74675e29b2ef7e21f4ec6f6b03894ddf0342dcd",
+    "games/war-succession/proofs.json": "6188f621fc0ff2a6dc2fdad0c4526e073c81ecca2b7f82ff9b30407f2ef80db5",
+    "games/war-three-fronts.html": "71a4566ed05a4fbc71c6ede7f06e635921d06e20ef0e51cb838466cf3b3c2ab0",
+    "games/war-three-fronts/README.md": "fe97dfa36cbf7b0c7f41c481f4c9d4fd4c084797ae0fc8237b9007601a1a672d",
+    "games/war-three-fronts/art.svg": "a706f220d08006d64820c805062ca9c58f8706728d7ae57f7a9f042e5da473ec",
+    "games/war-three-fronts/levels.json": "db624d434f953949aacae2a1a2c73e8c7836f83a586980a61ca2e0088c3c3b9b",
+    "games/war-three-fronts/proofs.json": "a3f27217afb8499f6b893a802a4e314faee6f7f1eeb9656e5651e9ab4f2eb560",
+    "games/war-tidal-continent.html": "5642d8e5fe465f0965e49c631b0e43ffe8686e605f8503291e7d30fac28621d3",
+    "games/war-tidal-continent/README.md": "02ae54e84b67b83c8c824870350f19cdd467538657dca667706fda1ee8840b86",
+    "games/war-tidal-continent/art.svg": "c28ca1e23819151924ca964266c878652721ec7c9e9b81f88f0d9c2c5388d449",
+    "games/war-tidal-continent/levels.json": "877b2abc77280c97366e3bde6b522e8f6ff3a9bee8857caa8094d0a7ec303010",
+    "games/war-tidal-continent/proofs.json": "35bce4e4a5a3fdf23081747232aa506808df444bfd9a7d675c3f7c21a970f53e",
+    "games/war120-common/README.md": "868e36a85c4ed8fd681f5d5701382ab4eccc9fe5f171e62ff03dac0c68ce2ff7",
+    "games/war120-common/build.cjs": "efc86bd39a5d61ce1192d5ce5d668dcc278f188ae0d8a9f22f0f9c1b93f459c5",
+    "games/war120-common/catalog.json": "a657315e00da938bde50e3fa0bbde89a0ca56eb9198545a608df2cb66412241f",
+    "games/war120-common/design.json": "35f7a31894084d6cc7a9fe02989fed7cd1523a21654014293260b8162b077ecc",
+    "games/war120-common/engine.js": "cd9ded48e33d0c182a5bd938cacdee79bf0d7f9527e56de4cf9664023b40f43c",
+    "games/war120-common/generate.cjs": "c0213a5fb2f8613bd70a37811039c732fbf4f37a7c1447230778ec0ab889922b",
+    "games/war120-common/independent.cjs": "94b1dcd3bd31538beabbbca5bcea42471236b175e703e3d940f4f9bfa9fa4a89",
+    "games/war120-common/planner.js": "72c87acd5dfe2987bce2fd11f197b7edb6c7437da8935ec5b9df24725b632e32",
+    "games/war120-common/style.css": "a2c1a43e4e6fc78c2ef5bacfb77837df11630bede01d49b8da5482cad10d316d",
+    "games/war120-common/ui.js": "89d70f65474628ffb85a0f21b60166e8b4269868fca407d3d3c543ef81444e94",
+    "games/war120-common/verify-all.cjs": "5c07714856da806858cb56a91496db95d0de48d1457dcb9b39ca8753a69189ac",
+    "games/war120-common/verify-audit-regressions.cjs": "30ee4eecb78b236969ed2ba40bf634521dbc9771279e4bde22f44f3bf675969c",
+    "games/war120-common/verify-ui.cjs": "fd30d9ddf866e12af3fe71f1af9b496cf2e09d1344672ee260fcd328c1229c09",
+    "games/war120-common/verify.cjs": "f12a54e4da45b9029c1ffcca74cd6bcaebcf5282370f96c5a37524caeee85da6"
+  },
+  "sourceHashesAfter": {
+    "games/war-after-conquest.html": "a1a79e6641ce0ec1d6ee71d8e91e1e1ed68aa1412239740f35d636494833b3c0",
+    "games/war-after-conquest/README.md": "f0efa6deec564644ae5f209a7e602dc991128c5fbd8099ee9f8910590791fecc",
+    "games/war-after-conquest/art.svg": "96250b38c488f2c6e23b6f397bd493077dac125fbeb3f3a98028b2c020ff4038",
+    "games/war-after-conquest/levels.json": "8f004a5b5d55151e38a1ff901eff62da0c716740d5e7110fff07f0f42aa5de66",
+    "games/war-after-conquest/proofs.json": "8a72c455774b3bd7b330c5231c4c9938ac83fa891e234ddf8c714d20055d52ab",
+    "games/war-capitalless.html": "44f5ccd8617e3abed49fe333c2558457b70b37863febe180485bf9bdbb16d269",
+    "games/war-capitalless/README.md": "13c83868d38612f44c4a51a4e12deacc98839fc939f90365fbc7f554a54b666d",
+    "games/war-capitalless/art.svg": "9df67340a3f96133617140d620f61d3367bc224f51effd253203ab1f1130b357",
+    "games/war-capitalless/levels.json": "217aee599b443c743063615ef2267559f5ceb0678fbc586fd30f2fa0564c5568",
+    "games/war-capitalless/proofs.json": "93d5b6a2dacd4665ba6d41fa47e7a7bb8b1de187f310fe700ada4f489b0cbe08",
+    "games/war-four-seasons.html": "f5fb380499458a887451cbf3f7d9991d0b9cd2833135d963cf698324eed04d02",
+    "games/war-four-seasons/README.md": "39ee2317428d36285d58adaf6ef8c7ab1e41800b03dfccd60ac07025d7c6e1de",
+    "games/war-four-seasons/art.svg": "c4e7abe2e4823baab945c84d83e2eb5bb09312caf2911f76859e2353aa8a3968",
+    "games/war-four-seasons/levels.json": "4359ee9ad5b0cd0dc6587a5df10501415b9941a81dbf02185b5711afbdf57203",
+    "games/war-four-seasons/proofs.json": "f5d926c7c20a806ad5eb20c23599eb9b453537bd71711edac13d45e1b5433c5a",
+    "games/war-hundred-flags.html": "305f74eb98293603d14817f5f56d122edd964039379513eaea946c28a67b8ead",
+    "games/war-hundred-flags/README.md": "6d7de2871ded3021505cc57578d9a8dc7e989b1937dc35ce30c8e9dca8b2d740",
+    "games/war-hundred-flags/art.svg": "9dcbb94e9ec68cb8633d0a573c5fd469decab737efe24b039a73747176f5d1c0",
+    "games/war-hundred-flags/levels.json": "1e9bf82f7f409a2a381d12a0f0ad11952d7e79bf419614bb62ac2e3b6bc04485",
+    "games/war-hundred-flags/proofs.json": "23c2f8e38444b8b5e66a42862ae5242bb4cf302d1fbb8831c451b018fbd922e4",
+    "games/war-last-city.html": "378cc56b46932c3159b2ea4d2a6db5764756c731fb67c4402782cbb61b236ec5",
+    "games/war-last-city/README.md": "d4b586656cf9dc7648b15acafbd781083be341bfc1ec2e8f9ba1a53217b15e92",
+    "games/war-last-city/art.svg": "49479876603025b87cdbfa3c22b5b6065de4f8eecf9b84d97aa290beb97fc676",
+    "games/war-last-city/levels.json": "6d819851ad0bb789a0a870206eabfd2f03b684d383f267be46195b4bac1528fc",
+    "games/war-last-city/proofs.json": "13929f22aedfecbb1832ab549b9b62b8eceabe6a5bff991c24dd5807c1dd519f",
+    "games/war-memory-front.html": "5fc84c7588ed14fa31fd823e2c5e43de4373d999d0ffac861b4eaacc8609537e",
+    "games/war-memory-front/README.md": "a90ee2e0cff11d0770f0c01c6fc5338fe9c3ea7e371f7b01b96bbaefb14cbebb",
+    "games/war-memory-front/art.svg": "e550cdf00d4bdbeac2101d4344262c826a4f8b63fa5d07e6d3de2bd7b67210cf",
+    "games/war-memory-front/levels.json": "d388ca14214b3ae8330f79b279f144a65845cc9eff060f88ad107c3d183ef2de",
+    "games/war-memory-front/proofs.json": "dee195db159f588b2f64a8169f6e278a165f01c51e229c425c5827b5fe16d617",
+    "games/war-neutral-balance.html": "231d5c41a0a91d59808df77f9e95adf7ec3aa948ff6690aba92b3d78c85f2d5f",
+    "games/war-neutral-balance/README.md": "3de6778ae380a1dc029a1c51b6dc581b05fc4c0a8e1d628a189d9e96d0209c22",
+    "games/war-neutral-balance/art.svg": "ce4fb1922703ed5b793e63b40825dc7d6e5f6e683e2d528e8ed032dc26aef5c7",
+    "games/war-neutral-balance/levels.json": "fcdee5d19b8bddc5a7c4596af1f08289ead772c7df852e457abce96105837e85",
+    "games/war-neutral-balance/proofs.json": "754f408addc49bc1f710168c462fc5c9da3338ead61f54e764744c99f97a0904",
+    "games/war-rail-crown.html": "a5fd8b0c1f9702a5fdb87f37177d7133b416f272e4530a1daa6915609341f295",
+    "games/war-rail-crown/README.md": "cb6788aaaabab701f02b4b02f0b3502e85f6c7afdb905523cffa8185edcd8dda",
+    "games/war-rail-crown/art.svg": "a52654cb03b03d24c9be3b08ba3e632ce966511b2d235304c64dad52c38dc92d",
+    "games/war-rail-crown/levels.json": "7b441018229fd5251ae65cd4c5ef113df321681fd9650c2eaac677629c83d843",
+    "games/war-rail-crown/proofs.json": "fabb009c8ef7d51fed3614cf9304d1e5909f434d3cae493bf2ebc09d6a6eb4e9",
+    "games/war-retreating-empire.html": "38c09d8aea342467d48e1226892079dfd480f8ea8c3405718d14847fdb3189b5",
+    "games/war-retreating-empire/README.md": "9b5b8cf6ecdff0afb6c618260d5eec1e1ed296e205aa25bf52930af6e61a152f",
+    "games/war-retreating-empire/art.svg": "b5b961e9dbe4bcc6cc9a7b46ca1e2c962de00d5915b8538a4d4f5da8e1c1716f",
+    "games/war-retreating-empire/levels.json": "43e7ce3002cf2353214199f215b5527b008670d6c13f759ce89981948038a040",
+    "games/war-retreating-empire/proofs.json": "ec8cbc099eb28cb1aa75e0ab55e765f8b4fa91437949efa9cd8194f9894b740e",
+    "games/war-robot-front.html": "337b995c783e5d16b97a8b82518a26da4f96893b7cd217ebe3dfd8b41768e2b8",
+    "games/war-robot-front/README.md": "88d09eee9ee3eee3b2c0c7538967c180e4c236dcabb6ce0fbbb2626a70ba5d56",
+    "games/war-robot-front/art.svg": "e63ebfc1644ac5adc281a24c350ad1105ccee325ac3c859b3971cfd56bacc53e",
+    "games/war-robot-front/levels.json": "b9b1c617bd70b9b9baa672a04edf4ebd656570be8b946e2d7f600143b57b8c74",
+    "games/war-robot-front/proofs.json": "fd2366280aa9d4a57749e8e637adc1a0b2c3d993ee229b817bf7ebe659455b0b",
+    "games/war-simultaneous-orders.html": "99c8f2e93740f11ac45f5ff55ee15ef490e97a92afb2aa04786908e3e38c20d5",
+    "games/war-simultaneous-orders/README.md": "672b92aa0f0e4c117a81a206426673cba197b1359e2e92f05ca360c9c315470c",
+    "games/war-simultaneous-orders/art.svg": "cda97633629af8fd998577c76773f6d4ebf3884fe7189cf2813947181c64efbf",
+    "games/war-simultaneous-orders/levels.json": "2bdc283b8499d3ac8e2ed45b71d080c9be7edc6d0b585d015ec8d445671816c7",
+    "games/war-simultaneous-orders/proofs.json": "7a57caa77784c4cb30d06c5e531371ffb0062b37488eb7a8c95444b5011f8fd6",
+    "games/war-sky-islands.html": "070a1c9cf0bd9d5f16aca3f724de19e7f09a98dcd10aa23fcdaa650118b9fede",
+    "games/war-sky-islands/README.md": "71f34170b45c8fa562c2224b4e094ccaa3f4533bc3199029720ab07afc397dbe",
+    "games/war-sky-islands/art.svg": "0c33e466bc70bcd53c19d350c3ead3cc8184394257851aba195364cf512c4776",
+    "games/war-sky-islands/levels.json": "2185ffe93e530df0c0251b2cf1f3ec5cd8b6caaf725839431314088c1e4de5e5",
+    "games/war-sky-islands/proofs.json": "7f94a71dbf81399cd80c3d95e9b09021dbdd114972109b074f57790ca7ed34e0",
+    "games/war-succession.html": "f0632d6e7c9793aecd7544f405e0274a7e476b2a20c0b14a8c84dbe8549a91ea",
+    "games/war-succession/README.md": "3b4acaeab50a1a818050fb983a161f5a6ae5633721fbaada8fc4fb8cfb04fec4",
+    "games/war-succession/art.svg": "016747e3743f5de3c0dd3423e95217a3b62520263c1dc586ae0baa4ffb3c4b2e",
+    "games/war-succession/levels.json": "931ecfef44203578ec59e5a7f74675e29b2ef7e21f4ec6f6b03894ddf0342dcd",
+    "games/war-succession/proofs.json": "6188f621fc0ff2a6dc2fdad0c4526e073c81ecca2b7f82ff9b30407f2ef80db5",
+    "games/war-three-fronts.html": "71a4566ed05a4fbc71c6ede7f06e635921d06e20ef0e51cb838466cf3b3c2ab0",
+    "games/war-three-fronts/README.md": "fe97dfa36cbf7b0c7f41c481f4c9d4fd4c084797ae0fc8237b9007601a1a672d",
+    "games/war-three-fronts/art.svg": "a706f220d08006d64820c805062ca9c58f8706728d7ae57f7a9f042e5da473ec",
+    "games/war-three-fronts/levels.json": "db624d434f953949aacae2a1a2c73e8c7836f83a586980a61ca2e0088c3c3b9b",
+    "games/war-three-fronts/proofs.json": "a3f27217afb8499f6b893a802a4e314faee6f7f1eeb9656e5651e9ab4f2eb560",
+    "games/war-tidal-continent.html": "5642d8e5fe465f0965e49c631b0e43ffe8686e605f8503291e7d30fac28621d3",
+    "games/war-tidal-continent/README.md": "02ae54e84b67b83c8c824870350f19cdd467538657dca667706fda1ee8840b86",
+    "games/war-tidal-continent/art.svg": "c28ca1e23819151924ca964266c878652721ec7c9e9b81f88f0d9c2c5388d449",
+    "games/war-tidal-continent/levels.json": "877b2abc77280c97366e3bde6b522e8f6ff3a9bee8857caa8094d0a7ec303010",
+    "games/war-tidal-continent/proofs.json": "35bce4e4a5a3fdf23081747232aa506808df444bfd9a7d675c3f7c21a970f53e",
+    "games/war120-common/README.md": "868e36a85c4ed8fd681f5d5701382ab4eccc9fe5f171e62ff03dac0c68ce2ff7",
+    "games/war120-common/build.cjs": "efc86bd39a5d61ce1192d5ce5d668dcc278f188ae0d8a9f22f0f9c1b93f459c5",
+    "games/war120-common/catalog.json": "a657315e00da938bde50e3fa0bbde89a0ca56eb9198545a608df2cb66412241f",
+    "games/war120-common/design.json": "35f7a31894084d6cc7a9fe02989fed7cd1523a21654014293260b8162b077ecc",
+    "games/war120-common/engine.js": "cd9ded48e33d0c182a5bd938cacdee79bf0d7f9527e56de4cf9664023b40f43c",
+    "games/war120-common/generate.cjs": "c0213a5fb2f8613bd70a37811039c732fbf4f37a7c1447230778ec0ab889922b",
+    "games/war120-common/independent.cjs": "94b1dcd3bd31538beabbbca5bcea42471236b175e703e3d940f4f9bfa9fa4a89",
+    "games/war120-common/planner.js": "72c87acd5dfe2987bce2fd11f197b7edb6c7437da8935ec5b9df24725b632e32",
+    "games/war120-common/style.css": "a2c1a43e4e6fc78c2ef5bacfb77837df11630bede01d49b8da5482cad10d316d",
+    "games/war120-common/ui.js": "89d70f65474628ffb85a0f21b60166e8b4269868fca407d3d3c543ef81444e94",
+    "games/war120-common/verify-all.cjs": "5c07714856da806858cb56a91496db95d0de48d1457dcb9b39ca8753a69189ac",
+    "games/war120-common/verify-audit-regressions.cjs": "30ee4eecb78b236969ed2ba40bf634521dbc9771279e4bde22f44f3bf675969c",
+    "games/war120-common/verify-ui.cjs": "fd30d9ddf866e12af3fe71f1af9b496cf2e09d1344672ee260fcd328c1229c09",
+    "games/war120-common/verify.cjs": "f12a54e4da45b9029c1ffcca74cd6bcaebcf5282370f96c5a37524caeee85da6"
+  }
+}

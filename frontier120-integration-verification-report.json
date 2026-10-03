@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Exact source, corpus coverage, catalog and historical preservation; engine tests and browser QA are separate",
+  "registryCount": 390,
+  "newGames": 120,
+  "newLevels": 12000,
+  "newSandboxes": 0,
+  "preservedFiles": 2686,
+  "sourceFiles": {
+    "frontier120-manifest.json": "de277c747c9f8c0a7ff94921e2cd987b9b6b9b701d0e41511ad9abe6fc534fbd",
+    "frontier120-spec.json": "c390aa67544bc4887dbcfb69a09332f97f00fd17baed6b94814f83e7b27c60b7",
+    "frontier120-preservation.json": "5a276847f730873dff9acca39ef5d55bbf7d4f04872decc3d19c865d9bb7b742",
+    "frontier120-tools.cjs": "ca2a6016a3d3d2975f1a737d57eb1809af0867f0598aacff24dff588486ab2b8",
+    "verify-frontier120.cjs": "194c9d3d274807889c85b0b7de60bfb0213bb6f193013c6c288e28ae1f3823f6",
+    "app.js": "388e77e23bdaabca755c58a3788e6a51aa3203ce7c815f5d46bc053a89c41ac3",
+    "index.html": "90792d01755375f86de6b0a863e9b76d13424b45752c068c25516ac3dbb43512"
+  },
+  "claims": {
+    "actualEngineReplay": false,
+    "browserQA": false
+  }
+}

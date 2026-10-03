@@ -1,0 +1,2764 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "release:2",
+      "release:5",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "release:0",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "release:5",
+      "release:0",
+      "release:1"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "release:1",
+      "release:5",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "delay",
+      "redirect",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "release:4",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "delay",
+      "delay",
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "release:1",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "release:6",
+      "release:1",
+      "release:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "release:0",
+      "release:5",
+      "release:6"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "release:0",
+      "release:6",
+      "release:5"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "release:1"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:4"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "release:4",
+      "release:3",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "right",
+      "release:2",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "right",
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "right",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "right",
+      "redirect",
+      "release:2"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "release:1",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "delay",
+      "right",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "delay",
+      "right",
+      "release:3",
+      "release:5"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "release:0",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "right",
+      "delay",
+      "right",
+      "right",
+      "right",
+      "release:3",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "release:2",
+      "release:0"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "release:3"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:4",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "release:3",
+      "release:2",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "redirect",
+      "release:3"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "release:0",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "release:5",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "release:4",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "release:4",
+      "release:5",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "release:5",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "right",
+      "release:2"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "right",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "right"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "release:3"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "release:5"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "right",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "release:1",
+      "release:6",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "release:0"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "release:6",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "release:2",
+      "release:0"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "right",
+      "release:2",
+      "release:0",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "release:4",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "release:5",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "redirect",
+      "release:0",
+      "release:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "release:4",
+      "release:2"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "release:3",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "release:6",
+      "release:3",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "release:5",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "release:2",
+      "release:1",
+      "release:0"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "redirect",
+      "release:2",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "delay",
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "right",
+      "release:0",
+      "release:5"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "release:5",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "delay",
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "release:0"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "release:3",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "release:3",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:2",
+      "release:3",
+      "release:4"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "right",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "release:0",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:1",
+      "release:4"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:2",
+      "release:4"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "right",
+      "release:3",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "release:2",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "release:3",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:4",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "release:2",
+      "release:1"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "right",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "redirect",
+      "release:2"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "release:6"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "redirect",
+      "release:2",
+      "release:3",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "release:4",
+      "release:3",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "delay",
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "redirect",
+      "release:0"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "right",
+      "right",
+      "redirect"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "delay",
+      "delay",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "release:4",
+      "release:0",
+      "release:6"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "release:0",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "release:2",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "release:6",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "release:0",
+      "release:1",
+      "release:4"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "release:5",
+      "release:6",
+      "release:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "release:4",
+      "release:2",
+      "release:6"
+    ],
+    "alternate": [
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "release:5",
+      "release:2",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "release:5",
+      "release:4",
+      "release:2"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "release:2",
+      "release:5",
+      "release:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "redirect",
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "redirect"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "release:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "release:4",
+      "release:2",
+      "release:6"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "redirect",
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "release:5",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "release:3",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "release:5"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "delay",
+      "right",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "right"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "release:5"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "delay",
+      "release:6"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "release:1",
+      "release:4",
+      "release:6"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "release:0",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "release:6",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "right",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "release:0",
+      "release:3",
+      "release:6"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "release:6",
+      "release:1",
+      "release:4"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "right",
+      "right",
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "release:5",
+      "release:3",
+      "release:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "release:2",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:2",
+      "release:4",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "delay",
+      "release:6",
+      "release:2",
+      "release:5"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "release:5",
+      "release:3",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "delay",
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "release:0",
+      "release:6",
+      "release:5"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "release:5",
+      "release:2",
+      "release:4"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "release:6",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "right",
+      "redirect",
+      "redirect",
+      "redirect",
+      "release:2"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "release:0",
+      "release:3",
+      "release:5"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "delay",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right",
+      "delay",
+      "release:6",
+      "release:0"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "release:3",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "release:4",
+      "release:3",
+      "release:6"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "release:1",
+      "release:2",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "release:5",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "release:3",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "redirect",
+      "release:5",
+      "release:2",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "release:3",
+      "release:6",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "release:1",
+      "release:5",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "right",
+      "release:1",
+      "release:4",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "release:4",
+      "release:1"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "release:2",
+      "release:5"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "release:2",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "release:0",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "right",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "right",
+      "release:4",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "redirect",
+      "release:5",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "right",
+      "release:5",
+      "release:0",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "release:0",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "release:0",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "release:0",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "release:2",
+      "release:1",
+      "release:3"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "release:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "delay",
+      "right",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "redirect",
+      "release:0"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "release:6"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "right",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "release:5",
+      "release:4",
+      "release:6"
+    ],
+    "alternate": [
+      "delay",
+      "redirect",
+      "right",
+      "redirect",
+      "right",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "redirect",
+      "right",
+      "delay",
+      "release:2",
+      "release:0",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "redirect",
+      "right",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "delay",
+      "right",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "right",
+      "right",
+      "right",
+      "delay",
+      "right",
+      "redirect",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "release:4",
+      "release:3",
+      "seal"
+    ],
+    "alternate": [
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "redirect",
+      "delay",
+      "release:3",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "right",
+      "right",
+      "redirect"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "delay",
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "release:5",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "delay",
+      "right",
+      "release:4",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "redirect",
+      "right",
+      "right",
+      "delay",
+      "redirect",
+      "release:5"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "delay",
+      "redirect",
+      "delay",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "redirect",
+      "right",
+      "right",
+      "right",
+      "delay",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "redirect",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "release:5",
+      "release:1",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "release:6",
+      "release:5",
+      "release:2"
+    ],
+    "alternate": [
+      "right",
+      "redirect",
+      "right",
+      "right",
+      "redirect",
+      "right",
+      "right"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "redirect",
+      "delay",
+      "redirect",
+      "redirect",
+      "delay",
+      "right",
+      "delay",
+      "release:6",
+      "release:1",
+      "release:4"
+    ],
+    "alternate": [
+      "delay",
+      "right",
+      "right",
+      "redirect",
+      "redirect",
+      "delay",
+      "delay",
+      "release:6",
+      "release:5",
+      "release:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "right",
+      "redirect",
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "release:6",
+      "seal"
+    ],
+    "alternate": [
+      "right",
+      "delay",
+      "redirect",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "release:5",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "delay",
+      "delay",
+      "right",
+      "delay",
+      "delay",
+      "delay",
+      "redirect",
+      "seal"
+    ],
+    "alternate": [
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "delay",
+      "right",
+      "release:5",
+      "seal"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]

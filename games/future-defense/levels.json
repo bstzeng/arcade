@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "001 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "002 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "003 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "004 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "005 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "006 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "007 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "008 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "009 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "010 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "011 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "012 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "013 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "014 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "015 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "016 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "017 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "018 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "019 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "020 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "021 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 2
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "022 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "023 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "024 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "025 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 2
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "026 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "027 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "028 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "029 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "030 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 2
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "031 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "032 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "033 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "034 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "035 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "036 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 3
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "037 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 2
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "038 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "039 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 3
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "040 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "041 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "042 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "043 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "044 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "045 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "046 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 2
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "047 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "048 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "049 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "050 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "051 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "052 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "053 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "054 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "055 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "056 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 3
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "057 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "058 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "059 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "060 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "061 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "062 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "063 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "064 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "065 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "066 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "067 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "068 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "069 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 2
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "070 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "071 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "072 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "073 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "074 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "075 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "076 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 2
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "077 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "078 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 2
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "079 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "080 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "081 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 2
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "082 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "083 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "084 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "085 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 2
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "086 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "087 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "088 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 0
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "089 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "090 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 1
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 0
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "091 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 1
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "092 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "093 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "094 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 2
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "095 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "096 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "無法抹去的簽名"
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 1
+      }
+    ],
+    "premise": "公庫重開，你交替坐在年輕決策者與年老辯護者的位置。",
+    "title": "097 · 無法抹去的簽名",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "corroborated",
+        "label": "引用原件",
+        "value": 0
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      }
+    ],
+    "premise": "四十年前的文件正被拆封，當年的空白如今仍是空白。",
+    "title": "098 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "仍待補寫的歷史"
+      },
+      {
+        "key": "contradictions",
+        "label": "自我矛盾",
+        "value": 0
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 3
+      }
+    ],
+    "premise": "有人要求一份完整說法，但年輕的你未必留下過完整記錄。",
+    "title": "099 · 仍待補寫的歷史",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有限而成立的辯護"
+      },
+      {
+        "key": "protected",
+        "label": "未公開姓名的文件",
+        "value": 1
+      },
+      {
+        "key": "accepted",
+        "label": "被接受的解釋",
+        "value": 2
+      }
+    ],
+    "premise": "三次事件穿過歲月，署名會保留責任，也會保留辯護依據。",
+    "title": "100 · 有限而成立的辯護",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先看未來希望保留哪一種辯護空間。匿名文件能說明過程，卻不能代替署名原件；否認也不會刪去舊簽名。"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "blockingGames": [],
+  "primaryWitnessesPassed": 4500,
+  "realBrowserTested": false,
+  "findings": [],
+  "reports": [
+    "survival-audit.json",
+    "rogue-audit.json",
+    "physics-audit.json",
+    "survival-ui-audit.json",
+    "rogue-ui-audit.json",
+    "physics-ui-audit.json",
+    "deeper-audit.json",
+    "ai-trajectories.json",
+    "static-links.json",
+    "gravity-recheck.json",
+    "final-binding-verification.json"
+  ],
+  "sourceBinding": "source-hashes.json",
+  "details": "REPORT.md",
+  "knownCautions": [
+    "Cloth first-mission build wins72/100 numerical setups; all-minimum build wins4/100.",
+    "Independent physical outcomes and invariants checked, not a second complete integration engine.",
+    "UI coverage is offlineDOM, not actual browser."
+  ],
+  "resolvedFindings": [
+    "SURV-GRAVITY-64",
+    "SURV-GRAVITY-SIDE"
+  ],
+  "finalBindingVerification": "final-binding-verification.json",
+  "sourceDriftDuringRecheck": [],
+  "gravityCausalRecheckPassed": true,
+  "other44TitleAssetsUnchanged": true
+}

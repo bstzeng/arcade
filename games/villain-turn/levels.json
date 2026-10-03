@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "001 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "002 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "003 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "004 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "待覆核"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "005 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "006 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "007 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "008 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "009 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "010 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "011 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "012 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "013 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "014 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "015 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "016 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "017 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "018 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "019 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "020 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "021 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "022 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "023 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "024 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "025 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "026 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "027 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "028 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "待覆核"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "029 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "030 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "031 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "032 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "033 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "034 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "035 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "036 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "037 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "038 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "039 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "040 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "041 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "042 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "043 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "044 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "待覆核"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "045 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "046 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "047 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "048 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "049 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "050 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "051 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "052 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "053 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "054 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "055 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "056 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "057 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "058 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "059 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "060 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "061 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "062 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "063 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "064 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "065 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "066 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "067 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "068 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "069 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "070 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "071 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "072 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "073 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "074 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "075 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "076 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "077 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "078 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "079 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "080 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "081 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "082 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "083 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "084 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "085 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "086 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "087 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "088 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自守住立場"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "089 · 各自守住立場",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "關閉"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "090 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "091 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "092 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "封存"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "093 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下可核對的帳"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "未撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "094 · 留下可核對的帳",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "095 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "096 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "軍用"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "毀損"
+      }
+    ],
+    "premise": "城中糧食與城門引起衝突，你輪流接手三個對立位置。",
+    "title": "097 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "暫時停火"
+      },
+      {
+        "key": "gate",
+        "label": "城門狀態",
+        "value": "開放"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      }
+    ],
+    "premise": "沒有人從全知的角度開始，每章只能面對公開現實與自己的記錄。",
+    "title": "098 · 暫時停火",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "rescued",
+        "label": "受困者",
+        "value": "已撤出"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "公開帳目"
+      }
+    ],
+    "premise": "上一個角色以為必要的措施，可能正是下一個角色的困境。",
+    "title": "099 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "有人走出城門"
+      },
+      {
+        "key": "ledger",
+        "label": "調度帳",
+        "value": "保留帳目"
+      },
+      {
+        "key": "grain",
+        "label": "糧食安排",
+        "value": "民用"
+      }
+    ],
+    "premise": "檔案、糧食與通路都只有一份，三種立場必須在同一座城相遇。",
+    "title": "100 · 有人走出城門",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "角色順序每局不同。守城官留下的通道能讓反抗者撤離；保管員公開的帳目能成為後續和談依據。"
+  }
+]

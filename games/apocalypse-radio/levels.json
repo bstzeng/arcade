@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 0
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "001 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "002 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "003 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "004 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "005 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "006 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "007 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "接力網"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "008 · 接力網",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "009 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "010 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "011 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "012 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "013 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "014 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "015 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "接力網"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 3
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "016 · 接力網",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "017 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "018 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "019 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "020 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 3
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "021 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "022 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "023 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "024 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "025 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "接力網"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "026 · 接力網",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "027 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "028 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "029 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "030 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "031 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "032 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "033 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "034 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "035 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "036 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "037 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "038 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "039 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "接力網"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 3
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "040 · 接力網",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "041 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "042 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "043 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "044 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "045 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "046 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 3
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "047 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "048 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "049 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "050 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "051 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "052 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "053 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "054 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "055 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "056 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "057 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "058 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "059 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "060 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "061 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "062 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "063 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "064 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "065 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "066 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "067 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "068 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "069 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "接力網"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 3
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "070 · 接力網",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "071 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "072 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "073 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "074 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "075 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "076 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 3
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "077 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "078 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "079 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "080 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 3
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "081 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "082 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "083 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "084 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "接力網"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 3
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "085 · 接力網",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 0
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "086 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "087 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "088 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 3
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "089 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "090 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "091 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 1
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "092 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "093 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 0
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "094 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 1
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "095 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 0
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "096 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 1
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 2
+      }
+    ],
+    "premise": "三夜暴雨前，電台要連起彼此孤立的據點。",
+    "title": "097 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "局部聯絡"
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      }
+    ],
+    "premise": "警報只剩短波可用，聽眾請你給出能負責的路線。",
+    "title": "098 · 局部聯絡",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "守候頻道"
+      },
+      {
+        "key": "silent",
+        "label": "保留頻道的夜晚",
+        "value": 2
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 0
+      }
+    ],
+    "premise": "你接替失聯主持人，桌上留著尚未核對的求援名單。",
+    "title": "099 · 守候頻道",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "接力網"
+      },
+      {
+        "key": "network",
+        "label": "互通據點",
+        "value": 3
+      },
+      {
+        "key": "verified",
+        "label": "已核對地點",
+        "value": 3
+      }
+    ],
+    "premise": "城裡停電，回電者成為下一夜唯一的嚮導。",
+    "title": "100 · 接力網",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先核對一處，再播出指引。到站者下一夜的回電會沿本局接力關係，打開另一條救援路線。"
+  }
+]

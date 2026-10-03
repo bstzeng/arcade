@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:1",
+      "perform",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "leave",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:0",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:2",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "perform",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:0",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "confide",
+      "abdicate",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "decree:1",
+      "leave",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "confide",
+      "abdicate",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:2",
+      "confide",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:0",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:2",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:2",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:0",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:0",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:2",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "leave",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:2",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:2",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:1",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "confide",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:1",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "confide",
+      "abdicate",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:0",
+      "perform",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:1",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "decree:1",
+      "leave",
+      "decree:0",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:0",
+      "confide",
+      "reveal",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:2",
+      "perform",
+      "decree:2",
+      "confide",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:0",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "perform",
+      "decree:1",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:2",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "decree:1",
+      "leave",
+      "decree:0",
+      "leave",
+      "abdicate",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:0",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:2",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "perform",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "leave",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:2",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:2",
+      "confide",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:2",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "perform",
+      "decree:1",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:2",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:0",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:1",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:0",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "reveal",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "leave",
+      "abdicate",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "decree:1",
+      "leave",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:1",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:0",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:2",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "decree:1",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:0",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "confide",
+      "abdicate",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "leave",
+      "abdicate",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "leave",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "perform",
+      "abdicate",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "leave",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:1",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:0",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "perform",
+      "abdicate",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:0",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "perform",
+      "decree:0",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "perform",
+      "reveal",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "confide",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:2",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "perform",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:2",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:2",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "decree:1",
+      "leave",
+      "decree:0",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "perform",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:1",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:2",
+      "leave",
+      "abdicate",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "confide",
+      "decree:0",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "perform",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "confide",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "decree:2",
+      "perform",
+      "decree:2",
+      "confide",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "decree:1",
+      "leave",
+      "decree:2",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:2",
+      "leave",
+      "decree:2",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:2",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "leave",
+      "decree:2",
+      "confide",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "perform",
+      "decree:1",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "decree:1",
+      "perform",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:0",
+      "leave",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "decree:2",
+      "leave",
+      "decree:1",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "alternate": [
+      "decree:0",
+      "leave",
+      "decree:1",
+      "leave",
+      "reveal",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "decree:0",
+      "perform",
+      "decree:1",
+      "confide",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:2",
+      "leave",
+      "reveal",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "decree:0",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "alternate": [
+      "decree:1",
+      "confide",
+      "decree:0",
+      "perform",
+      "continue",
+      "accept"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "leave",
+      "continue",
+      "withdraw"
+    ],
+    "alternate": [
+      "decree:2",
+      "confide",
+      "decree:1",
+      "perform",
+      "continue",
+      "withdraw"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]

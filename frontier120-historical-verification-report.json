@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Corrected270 baseline isolated preservation/correction regression",
+  "completeReleaseAudit": false,
+  "baseCommit": "dd136ecbb5659f7c4e44856d1af234e49498ef2f",
+  "families": [],
+  "historical": {
+    "passed": true,
+    "method": "Fresh invocation of the exact published PR24 corrected270 verify-all dispatcher in a byte-identical disposable baseline. Its affected social/lobby tests rerun; original complete engine evidence and documented incremental recovery are reused through published byte bindings.",
+    "baselineFiles": 2691,
+    "baselineFingerprint": "b756c81e4bbafdd7d9fc6a08eb3e9a845fcf64669fdc11fad1e7c99c40d351d1",
+    "allEngineProofsFresh": false,
+    "originalEvidenceRewritten": false,
+    "commands": [
+      {
+        "argv": [
+          "node",
+          "verify-all.cjs"
+        ],
+        "exitCode": 0,
+        "seconds": 16.554,
+        "stdoutSHA256": "ed3d66134ba2a363ea53bcd944405beae6720c7e4ac034c404445e2688e63b6f",
+        "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "tail": "14 privacy checks; 15 free matches\nalibi-interrogation PASS 1100 witness actions; 1448 privacy checks; 15 free matches\nanonymous-orders PASS 2800 witness actions; 1272 privacy checks; 15 free matches\nhidden-king PASS 2694 witness actions; 5947 privacy checks; 15 free matches\nmist-expedition PASS 2500 witness actions; 1840 privacy checks; 15 free matches\nintelligence-exchange PASS 900 witness actions; 720 privacy checks; 15 free matches\nsecret-covenant PASS 1600 witness actions; 624 privacy checks; 15 free matches\nmonster-masquerade PASS 2500 witness actions; 1040 privacy checks; 15 free matches\nmajority-trap PASS 3000 witness actions; 2304 privacy checks; 15 free matches\nTOTAL {\n  challenges: 1500,\n  witnessSteps: 35142,\n  privacyCounterfactuals: 31286,\n  legalAlternatives: 12149,\n  freeplayMatches: 225\n}\nnight-werewolf UI contracts PASS\nstation-impostor UI contracts PASS\nword-undercover UI contracts PASS\nresistance-squad UI contracts PASS\nauthentic-collector UI contracts PASS\ntraitor-caravan UI contracts PASS\nfake-painter UI contracts PASS\nalibi-interrogation UI contracts PASS\nanonymous-orders UI contracts PASS\nhidden-king UI contracts PASS\nmist-expedition UI contracts PASS\nintelligence-exchange UI contracts PASS\nsecret-covenant UI contracts PASS\nmonster-masquerade UI contracts PASS\nmajority-trap UI contracts PASS\nPASS: 1992 local HTML/CSS references across 364 files; no missing assets or navigation targets.\nPASS: 270 catalog entries, exact120 proposal coverage, source-bound corpus declarations and 1812 unchanged historical files.\nPASS: 270-game lobby, 16 categories, 821 searches and keyboard/history/lifecycle contracts.\nPASS: reviewed presentation correction, affected family tests,270-lobby and exact original-release preservation. Browser geometry is a separate gate.\n"
+      }
+    ],
+    "freshCorrectionReport": {
+      "sha256": "2ba6c073502c8619fdb6cd3a1689b5e35432a80f49d2e2c4bacceab84cb7c0bf",
+      "result": {
+        "schemaVersion": 1,
+        "passed": true,
+        "baseCommit": "c79535f3849ddd3a0deabe80f14ba9f2a62136e8",
+        "scope": "Presentation correction validation. Original complete release reports are preserved; unchanged engine/corpus proofs are reused by exact published-byte comparison.",
+        "before": {
+          "historicalPaths": 2686,
+          "unchangedPublishedBlobs": 2682,
+          "reviewedChanges": [
+            "README.md",
+            "games/social120-common/style.css",
+            "games/social120-common/ui.js",
+            "verify-all.cjs"
+          ],
+          "enginesAndCorporaUnchanged": true,
+          "originalReleaseReportsUnchanged": true
+        },
+        "sourceFiles": {
+          "expansion120-presentation-correction.json": "52e01976e832ed21be1c2738ce7e1033baf9a02ff936c19f392adb23ff2620a6",
+          "expansion120-presentation-baseline.json": "d4bb6800f0ec26bcbc4f2094e3fe1fa36d1d660212ff8a4e408caaec9179e765",
+          "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+          "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+          "verify-all.cjs": "9e30457c0876fa29383aea102ab7836b2e5b645c8c1adea5dfe456975525a0ad",
+          "README.md": "fde2275c977e7aa1551305b622143ac31135c590bdad7d3eee88a30161bc5ef4",
+          "verify-expansion120-presentation.cjs": "13774391b996c7c29e4f5a3beb523544ba51d8f0faaefcd4d1ff729f139cb6c9",
+          "games/social120-common/verify-narrow-layout.cjs": "32dbdcb5e12382b0c92412af2a94d0e25ee77e26624acb93a51abf034fadd6c1"
+        },
+        "commands": [
+          {
+            "argv": [
+              "node",
+              "--check",
+              "games/social120-common/ui.js"
+            ],
+            "exitCode": 0,
+            "seconds": 0.108,
+            "stdoutSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "tail": ""
+          },
+          {
+            "argv": [
+              "node",
+              "games/social120-common/verify-narrow-layout.cjs"
+            ],
+            "exitCode": 0,
+            "seconds": 0.132,
+            "stdoutSHA256": "db0f7f537d97473a1bc65bdb9df70db89ff8854417f15abb3f8b24a5b9b3a83e",
+            "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "tail": "{\n  \"passed\": true,\n  \"scope\": \"Source and minimal-DOM contracts; no real-browser geometry claimed\",\n  \"reproducedScenario\": \"alibi-interrogation level 100\",\n  \"sourceContracts\": 5,\n  \"negativeMutationFixtures\": 3,\n  \"accessibleInternalScroll\": true,\n  \"preserves320pxTable\": true,\n  \"realBrowserLayoutVerified\": false,\n  \"hashes\": {\n    \"games/social120-common/style.css\": \"69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726\",\n    \"games/social120-common/ui.js\": \"fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e\",\n    \"games/social120-common/verify-narrow-layout.cjs\": \"32dbdcb5e12382b0c92412af2a94d0e25ee77e26624acb93a51abf034fadd6c1\"\n  }\n}\n"
+          },
+          {
+            "argv": [
+              "node",
+              "games/social120-common/verify.cjs"
+            ],
+            "exitCode": 0,
+            "seconds": 6.938,
+            "stdoutSHA256": "e143d9033d6535781fd90e0fe4f5d3f1ea56eb9c4e8ad7693832b52ab29d1741",
+            "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "tail": "night-werewolf PASS 2489 witness actions; 1800 privacy checks; 15 free matches\nstation-impostor PASS 2355 witness actions; 3806 privacy checks; 15 free matches\nword-undercover PASS 1500 witness actions; 2096 privacy checks; 15 free matches\nresistance-squad PASS 2764 witness actions; 779 privacy checks; 15 free matches\nauthentic-collector PASS 4400 witness actions; 5312 privacy checks; 15 free matches\ntraitor-caravan PASS 2500 witness actions; 984 privacy checks; 15 free matches\nfake-painter PASS 2040 witness actions; 1314 privacy checks; 15 free matches\nalibi-interrogation PASS 1100 witness actions; 1448 privacy checks; 15 free matches\nanonymous-orders PASS 2800 witness actions; 1272 privacy checks; 15 free matches\nhidden-king PASS 2694 witness actions; 5947 privacy checks; 15 free matches\nmist-expedition PASS 2500 witness actions; 1840 privacy checks; 15 free matches\nintelligence-exchange PASS 900 witness actions; 720 privacy checks; 15 free matches\nsecret-covenant PASS 1600 witness actions; 624 privacy checks; 15 free matches\nmonster-masquerade PASS 2500 witness actions; 1040 privacy checks; 15 free matches\nmajority-trap PASS 3000 witness actions; 2304 privacy checks; 15 free matches\nTOTAL {\n  challenges: 1500,\n  witnessSteps: 35142,\n  privacyCounterfactuals: 31286,\n  legalAlternatives: 12149,\n  freeplayMatches: 225\n}\n"
+          },
+          {
+            "argv": [
+              "node",
+              "games/social120-common/verify-ui.cjs"
+            ],
+            "exitCode": 0,
+            "seconds": 1.118,
+            "stdoutSHA256": "247da118fe43539874d4b8b80036aeea327c04c4d392923c0ee1c97a3a1a7db6",
+            "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "tail": "night-werewolf UI contracts PASS\nstation-impostor UI contracts PASS\nword-undercover UI contracts PASS\nresistance-squad UI contracts PASS\nauthentic-collector UI contracts PASS\ntraitor-caravan UI contracts PASS\nfake-painter UI contracts PASS\nalibi-interrogation UI contracts PASS\nanonymous-orders UI contracts PASS\nhidden-king UI contracts PASS\nmist-expedition UI contracts PASS\nintelligence-exchange UI contracts PASS\nsecret-covenant UI contracts PASS\nmonster-masquerade UI contracts PASS\nmajority-trap UI contracts PASS\n"
+          },
+          {
+            "argv": [
+              "node",
+              "verify-expansion120-lobby.cjs"
+            ],
+            "exitCode": 0,
+            "seconds": 6.718,
+            "stdoutSHA256": "6a104bd91a39a468e3ae2d28502f9b832b004911d14670087dc4b415eb53d403",
+            "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "tail": "PASS: 1992 local HTML/CSS references across 364 files; no missing assets or navigation targets.\nPASS: 270 catalog entries, exact120 proposal coverage, source-bound corpus declarations and 1812 unchanged historical files.\nPASS: 270-game lobby, 16 categories, 821 searches and keyboard/history/lifecycle contracts.\n"
+          }
+        ],
+        "freshReports": {
+          "games/social120-common/verification-report.json": {
+            "sha256": "925a4564d6263e849b5ec4204c9c1727551c6936d089aa5c39779e0782a89f9b",
+            "data": {
+              "generatedAt": "2026-10-03T04:43:08.785Z",
+              "scope": "Source-bound deterministic engine verification; not a real-browser test.",
+              "games": [
+                {
+                  "id": "night-werewolf",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2489,
+                  "botDecisionsVerified": 2189,
+                  "secrecyCounterfactuals": 1800,
+                  "legalAlternativeBranches": 661,
+                  "saveRoundTrips": 2489,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 445,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/night-werewolf/engine.js": "dc7524de69eefb0f5aedd72fedb375943cd6bce0df00c44d211c296f49d7a30b",
+                    "games/night-werewolf/levels.json": "5edbd9f43f8accd4a336bc27916a3f2ab23c114e893e8d9f08aa88be4b5baed6",
+                    "games/night-werewolf/levels.js": "e5fb06d328a4c8467e749cc72ce0b35148b9f92aa9cb81c8980e2a5824f2ff06",
+                    "games/night-werewolf/proof.json": "a5ca7afbf4662aff7b6d8c2a9a5e59d5830ef839b48ee02c9985f03fb4dae788"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "station-impostor",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2355,
+                  "botDecisionsVerified": 1728,
+                  "secrecyCounterfactuals": 3806,
+                  "legalAlternativeBranches": 794,
+                  "saveRoundTrips": 2355,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 478,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/station-impostor/engine.js": "d781e98e7115e343bd64296072ee563d0e8d2a9766fd736806cdc9b4f749cf35",
+                    "games/station-impostor/levels.json": "cf64f0614357edf815ef733a33495a38c747c3dd63efa44dadaa98b85212257f",
+                    "games/station-impostor/levels.js": "5e95458ba1046d137e1f9a91b9b106c1cafc52c66af0e592bf87201b992d0302",
+                    "games/station-impostor/proof.json": "1f48086edd39604d5cfe907d9abdd13a3b982d05d7e4503497d2a582cdf41fdc"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "word-undercover",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 1500,
+                  "botDecisionsVerified": 1200,
+                  "secrecyCounterfactuals": 2096,
+                  "legalAlternativeBranches": 250,
+                  "saveRoundTrips": 1500,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 225,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/word-undercover/engine.js": "6f6794a09b0e49f47ed218a29e44643559cf10f67814824acf5f298bc5468375",
+                    "games/word-undercover/levels.json": "0f4593c7f16a695fb43628a6c1ec65604d1a2b3faaeb1e9e4cd33118f04c82ab",
+                    "games/word-undercover/levels.js": "59a478b9bd6bc33ed86d3825609ec3be3d4d56e74d25fc2ac410cc6e50d49e1f",
+                    "games/word-undercover/proof.json": "0c307634c26d24639f97d8251017086ce2a669d55b4444c08ce5ca0d09321c2d"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "resistance-squad",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2764,
+                  "botDecisionsVerified": 1382,
+                  "secrecyCounterfactuals": 779,
+                  "legalAlternativeBranches": 400,
+                  "saveRoundTrips": 2764,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 778,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/resistance-squad/engine.js": "699597ea94e75a191f19af486f19bcad2455e657535c4ae88a8ca20386e3c9f2",
+                    "games/resistance-squad/levels.json": "c4673bf7756b54d60b4f83dd02042ba7bc47e91dd797f5c4f3843e2b377206bd",
+                    "games/resistance-squad/levels.js": "ce6afb9de93a7d88fa58b17cc2b3ae8505aa59d51ff27a6a8583c99672c1d6cc",
+                    "games/resistance-squad/proof.json": "d4c8ef1399157e7e9caae1ed72a9880aa13f944e86361bc0d7d88ede83a0c429"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "authentic-collector",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 4400,
+                  "botDecisionsVerified": 2400,
+                  "secrecyCounterfactuals": 5312,
+                  "legalAlternativeBranches": 920,
+                  "saveRoundTrips": 4400,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 641,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/authentic-collector/engine.js": "974abbc0f30698297527ceda2b38f7ad2f672e912c6d6de1107ff7aff24c600b",
+                    "games/authentic-collector/levels.json": "000eb7f34d993e634b57967935c5e9b384d92e496badf98e59a5db8d07871833",
+                    "games/authentic-collector/levels.js": "148b825cf4b9ac8ad362fd8d3be59b9de5730239a848f1526306285ef63b2963",
+                    "games/authentic-collector/proof.json": "b5ca807c9244f88834c02ae0bebc5b356f62ed85fe2a5bb220440d0364ed864a"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "traitor-caravan",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2500,
+                  "botDecisionsVerified": 1500,
+                  "secrecyCounterfactuals": 984,
+                  "legalAlternativeBranches": 435,
+                  "saveRoundTrips": 2500,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 382,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/traitor-caravan/engine.js": "a952c72287e1e77bbbe511547ac774d45e10066321e15166a73937d2ff4b1ae5",
+                    "games/traitor-caravan/levels.json": "19c948fbfcc35111a6d7ed4dc97d424c086dc7d83827e1764a95c2bb09a894bc",
+                    "games/traitor-caravan/levels.js": "a1a5e4eae305c6f0ae15196dc3fe6605c4c5ccd877dc27627a6fa7725ea6f13c",
+                    "games/traitor-caravan/proof.json": "57a73b2fd1cd1d429311ebee02332dc6a617a914c7297d59775a80f5c9103142"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "fake-painter",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2040,
+                  "botDecisionsVerified": 1652,
+                  "secrecyCounterfactuals": 1314,
+                  "legalAlternativeBranches": 375,
+                  "saveRoundTrips": 2040,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 310,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/fake-painter/engine.js": "0d16b1d8155bb581481770464b8056281d8ab59b4398caced7edb6350956b15d",
+                    "games/fake-painter/levels.json": "abee71fbeea057a9082d70487568040bc68c7d0fb2e162281627f3d044b88cf1",
+                    "games/fake-painter/levels.js": "05a65c423ea5d8baecfe0b679a19aba4b9dc8b0623a03f9f5329ebb204c53ee6",
+                    "games/fake-painter/proof.json": "0adc41abe1b766475a98b8b199ce9b147651e0b9d0b8e5220d4872c8b269d22b"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "alibi-interrogation",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 1100,
+                  "botDecisionsVerified": 600,
+                  "secrecyCounterfactuals": 1448,
+                  "legalAlternativeBranches": 590,
+                  "saveRoundTrips": 1100,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 223,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/alibi-interrogation/engine.js": "97c156cd980f7f210065083ac0c7cc522718dd173aa6e31e5eb2a345b95b8be8",
+                    "games/alibi-interrogation/levels.json": "c620ea1534aa89a7dbb2b0d4a53bfa9184a92015926f103ef5e116f8ccd7c460",
+                    "games/alibi-interrogation/levels.js": "de55d65736df8cfcad68b96484e14841cf6aedf9712550448908797486fd60a4",
+                    "games/alibi-interrogation/proof.json": "ba93aa5442a9364ecc57230811390accb9a36f642e9436309509857da48a11bd"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "anonymous-orders",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2800,
+                  "botDecisionsVerified": 2100,
+                  "secrecyCounterfactuals": 1272,
+                  "legalAlternativeBranches": 2609,
+                  "saveRoundTrips": 2800,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 420,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/anonymous-orders/engine.js": "ad0dfd1b667abb9b4ffa471a1e45af6c3d6291beec3d052bdb8177b5817c2264",
+                    "games/anonymous-orders/levels.json": "1b08c6398724e20fd6456fb62724bff05364bc944e7dcb858d3aad6d36705d30",
+                    "games/anonymous-orders/levels.js": "1dd180553f3bd5bb9dd5b0d0f2b71d2b8b7236329bccbea262c796d0f324dfd0",
+                    "games/anonymous-orders/proof.json": "c4866500ae8389ce03b243f713a60290bc58e58755cbe05b72235b830eb7d5e2"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "hidden-king",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2694,
+                  "botDecisionsVerified": 2245,
+                  "secrecyCounterfactuals": 5947,
+                  "legalAlternativeBranches": 1495,
+                  "saveRoundTrips": 2694,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 396,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/hidden-king/engine.js": "8a908d9a12ddb7af3191b0519f52dcf4c54a28d7997f2701877ca342bf6921b6",
+                    "games/hidden-king/levels.json": "59568a2752a64df2c41e6112148c4120d30f4ef775f0143b61ca73e9bc2899ce",
+                    "games/hidden-king/levels.js": "2a7ee32ec6fd828cfd1b77af40e9e75fae9b16a6a0756c32e1cfaa7ba91622e2",
+                    "games/hidden-king/proof.json": "2feee737bbe84b86182267ca6c3d627a54491ea1f854e170ac584aaaa5abcce5"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "mist-expedition",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2500,
+                  "botDecisionsVerified": 1000,
+                  "secrecyCounterfactuals": 1840,
+                  "legalAlternativeBranches": 675,
+                  "saveRoundTrips": 2500,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 325,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/mist-expedition/engine.js": "3cc1709a03e8668ace51b4873e4689d6d6804bd7c95a28f58e3884889e670ad7",
+                    "games/mist-expedition/levels.json": "0c3d438863575e19b55a53ea0afbc0bdf5b40665d3d57cbb27c837330e89c4ad",
+                    "games/mist-expedition/levels.js": "4ed6e93d1aaf22692dbea40a7605a24f0a541d063213096b64230a04d4dc2dba",
+                    "games/mist-expedition/proof.json": "48020639ec8e353b54aeae10c31bdc5f44208e2f8bd2c76ef5cc8ce1e05df305"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "intelligence-exchange",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 900,
+                  "botDecisionsVerified": 200,
+                  "secrecyCounterfactuals": 720,
+                  "legalAlternativeBranches": 815,
+                  "saveRoundTrips": 900,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 87,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/intelligence-exchange/engine.js": "56ed4b2fdec45d5628d8d6dcaabad74dd831cd8635a8ce9323237752800678f3",
+                    "games/intelligence-exchange/levels.json": "1ef0f14ebdac68910adf3c2aaedf0c13ad0f1ae5cacfa5dfbc6b52fe18fa0978",
+                    "games/intelligence-exchange/levels.js": "7c7e445a412a4bf920a7371dcc54a3091ba3afc59377e420c306a93c354edca6",
+                    "games/intelligence-exchange/proof.json": "f54890742ed82990e58a6794c6fdf94a6f6055ff43d5adbd50c0a74c84807165"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "secret-covenant",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 1600,
+                  "botDecisionsVerified": 900,
+                  "secrecyCounterfactuals": 624,
+                  "legalAlternativeBranches": 260,
+                  "saveRoundTrips": 1600,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 730,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/secret-covenant/engine.js": "78ba7f169d83909e2bade1e7c291c5099d132466673fef36c0d0957df50e1496",
+                    "games/secret-covenant/levels.json": "e95de77a45eca53376a88ca90977c5f111c72837f6eb85f78e1642a9619dbe6a",
+                    "games/secret-covenant/levels.js": "9ec1a02054974112e7b58d166d35a4f5f0df34706711f915076060b481740fb6",
+                    "games/secret-covenant/proof.json": "8ba3af74e20ddaa69a45cd50108f3942b43697817ebf4628d43967693181baf3"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "monster-masquerade",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 2500,
+                  "botDecisionsVerified": 500,
+                  "secrecyCounterfactuals": 1040,
+                  "legalAlternativeBranches": 400,
+                  "saveRoundTrips": 2500,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 301,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/monster-masquerade/engine.js": "b973ae648b3e44336d282f545755c5b474569ea5d22cca6dacd8a3de699c819a",
+                    "games/monster-masquerade/levels.json": "4e25063803832d8baa6c6930a4c4e59081a4681b8462c69f279fd8e1a38171e5",
+                    "games/monster-masquerade/levels.js": "063a349293cfef42b374a6840744159c9be5298f2351042dd7893bd141d84924",
+                    "games/monster-masquerade/proof.json": "666f72e0f2acec1c1a9e4a087fbc9bbd0860dee80aa71662bcdb838477817bb5"
+                  },
+                  "passed": true
+                },
+                {
+                  "id": "majority-trap",
+                  "challenges": 100,
+                  "uniqueCanonicalScenarios": 100,
+                  "witnessSteps": 3000,
+                  "botDecisionsVerified": 2400,
+                  "secrecyCounterfactuals": 2304,
+                  "legalAlternativeBranches": 1470,
+                  "saveRoundTrips": 3000,
+                  "freeplayCompleteMatches": 15,
+                  "freeplayActions": 463,
+                  "sourceHashes": {
+                    "games/social120-common/core.js": "c72fde67aa015137bf13aa6b1c7ec5e8f6ad39ddc0e7c5517bb8e203112a312b",
+                    "games/social120-common/ui.js": "fe752309a878ab3babf9d3c5ed52b8ef711094e862d4496704f0a9f142fed25e",
+                    "games/social120-common/style.css": "69a38b030d42efde1018dcf8190aef04e421bbfa0fd0440ff2aadcfde5214726",
+                    "games/majority-trap/engine.js": "2cb50d267adb2d23485618190242eae73437c1e4af05338a169acb51fe107566",
+                    "games/majority-trap/levels.json": "ced08e888437c1376fb0cada44370bb288dc252e9ef3f1b25ba89ab5961e5c94",
+                    "games/majority-trap/levels.js": "605f12af7f04f5ef4466247e8938560463db48cc05d67208de4284b70eb2f4a1",
+                    "games/majority-trap/proof.json": "76d8648e05d0533b7812d6f1c0340ae56f77621490112a72461ce66a59c07a34"
+                  },
+                  "passed": true
+                }
+              ],
+              "passed": true,
+              "totals": {
+                "challenges": 1500,
+                "witnessSteps": 35142,
+                "privacyCounterfactuals": 31286,
+                "legalAlternatives": 12149,
+                "freeplayMatches": 225
+              }
+            },
+            "kind": "fresh-current-runtime-test"
+          },
+          "games/social120-common/ui-verification-report.json": {
+            "sha256": "5f7e808ddcde485280a4fae0c6f64cdce78c8bd0ba1663b48bf28d983c5a1b8a",
+            "data": {
+              "generatedAt": "2026-10-03T04:43:15.698Z",
+              "scope": "VM DOM/controller contract simulation only. No real browser/layout claim.",
+              "games": [
+                {
+                  "id": "night-werewolf",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 18,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "station-impostor",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 24,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "word-undercover",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 15,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "resistance-squad",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 17,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "authentic-collector",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 19,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "traitor-caravan",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 21,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "fake-painter",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 16,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "alibi-interrogation",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 11,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "anonymous-orders",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 25,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "hidden-king",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 25,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "mist-expedition",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 21,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "intelligence-exchange",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 5,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "secret-covenant",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 22,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "monster-masquerade",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 11,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                },
+                {
+                  "id": "majority-trap",
+                  "lifecycleInterruptions": 3,
+                  "staleCallbacksRejected": true,
+                  "noAutomaticResume": true,
+                  "resetAndModeSwitchCancel": true,
+                  "hotseatBlurHides": true,
+                  "corruptSaveCases": 8,
+                  "manualCompletion": true,
+                  "reload": true,
+                  "reset": true,
+                  "assistedSeparation": true,
+                  "hotseatHandoffs": 25,
+                  "hotseatNotPersisted": true,
+                  "storageFailure": true,
+                  "passed": true
+                }
+              ],
+              "passed": true
+            },
+            "kind": "fresh-current-runtime-test"
+          },
+          "expansion120-lobby-verification-report.json": {
+            "sha256": "5e6a72aaf23ba335147867fafdd50f0869770697bda185d727cbe8b6f28b9e97",
+            "data": {
+              "schemaVersion": 1,
+              "passed": true,
+              "scope": "Current 270-game lobby simulated-DOM integration; no real browser claim",
+              "registryCount": 270,
+              "categoryCount": 16,
+              "searchCases": 821,
+              "checks": [
+                "Exact historical prefix and 120 proposed entries",
+                "All 270 games, 16 browse groups, stable links and IDs",
+                "All Chinese titles, English labels and slugs searchable",
+                "Empty/reset/clear/Escape/Enter/repeated interactions",
+                "Category and query deep links and Back/Forward restoration",
+                "Mobile native selector accessibility name and keyboard focus"
+              ],
+              "sourceFiles": {
+                "app.js": "163494400853667a0e17ff9f09f5271496f4e6cfce4ebfefb0a4db05bf1701e2",
+                "index.html": "26246d1d816011ae5eee9d311aec1ba3a24ed50e7350c7b34713b0edd850c6e5",
+                "styles.css": "c2c6753307ee601c7ea501fc233ea9d32b6058cd63769338e0ef82e8b3f6bede",
+                "verify-expansion120-lobby.cjs": "b6eaa3c28fd181e18b732b05982afb6a5f0c397f7b0505b84bf130cfb5e59e95",
+                "expansion120-manifest.json": "4e32c52ff1a838633fc22615860695e8c7574326dd639a5dee56fe6015078c13"
+              },
+              "claims": {
+                "browserVisualTesting": false,
+                "mobileBrowserTesting": false
+              }
+            },
+            "kind": "fresh270-lobby-with-declared-disposable-metadata-overlay"
+          },
+          "expansion120-integration-verification-report.json": {
+            "sha256": "b3ccff35f85f3482305c3686eb73b7b8e59e6ebfbc029569b88d298a3bf65bd0",
+            "data": {
+              "schemaVersion": 1,
+              "passed": true,
+              "scope": "Exact source, corpus coverage, catalog and historical preservation; engine tests and browser QA are separate",
+              "registryCount": 270,
+              "newGames": 120,
+              "newLevels": 10700,
+              "newSandboxes": 13,
+              "preservedFiles": 1812,
+              "sourceFiles": {
+                "expansion120-manifest.json": "4e32c52ff1a838633fc22615860695e8c7574326dd639a5dee56fe6015078c13",
+                "expansion120-spec.json": "61ceef8f12a918ac13f0a75edaf5d380983045da77e5f8ad8e7595c4f9df4b0c",
+                "expansion120-preservation.json": "48fc81cd987a7693d37e7e969afbafd161315575d0f901ff72a7999fa0d276bd",
+                "expansion120-tools.cjs": "94eae71d300bc28c6754287ec728e1d848998e40b5cf492218203216d0f53e0b",
+                "verify-expansion120.cjs": "4b8278c8e7003e94975372596831b8b95f058f6613be85d0e098682246fb3d0d",
+                "app.js": "163494400853667a0e17ff9f09f5271496f4e6cfce4ebfefb0a4db05bf1701e2",
+                "index.html": "26246d1d816011ae5eee9d311aec1ba3a24ed50e7350c7b34713b0edd850c6e5"
+              },
+              "claims": {
+                "actualEngineReplay": false,
+                "browserQA": false
+              }
+            },
+            "kind": "fresh270-lobby-with-declared-disposable-metadata-overlay"
+          }
+        },
+        "metadataOverlay": [
+          {
+            "file": "expansion120-preservation.json",
+            "publishedSHA256": "3dbe6e3d42101308ec3f27178ae164163e176a5285bbf3304d24adba54a94087",
+            "isolatedSHA256": "48fc81cd987a7693d37e7e969afbafd161315575d0f901ff72a7999fa0d276bd",
+            "reason": "The original local snapshot references games/action-common/test-results.txt, which was never in the published2686-blob tree. Omit that log only in this disposable legacy snapshot; every actual published game/source remains protected."
+          },
+          {
+            "file": "games/sports120-common/release-manifest.json",
+            "publishedSHA256": "2ffb240de0ac3b82f5910ef749e86c1107c6587efa68532079eb3c54b2d2539a",
+            "isolatedSHA256": "2ffb240de0ac3b82f5910ef749e86c1107c6587efa68532079eb3c54b2d2539a",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "games/vehicles120-common/release-manifest.json",
+            "publishedSHA256": "405f551d6c6c7efe69c0fdc140d2cb92b29643ffa407748888ef330c4d2d1df5",
+            "isolatedSHA256": "405f551d6c6c7efe69c0fdc140d2cb92b29643ffa407748888ef330c4d2d1df5",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "games/stealth120-common/release-manifest.json",
+            "publishedSHA256": "ba1ed145023233eb1685073b443b70a0db04d5a7b7842a63ed4404c17d2c4599",
+            "isolatedSHA256": "14c67c5df75ff01292af0d1c1918ff55d43063875bb765b00019621d7d1a8ecb",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "games/social120-common/release-manifest.json",
+            "publishedSHA256": "83c9b9f0ade6b43d2ba49e78fcf3296f5a0335559205b9fe57bec18e82b962a4",
+            "isolatedSHA256": "468c57881d26ef197e84d33602fcd7afe13f42f441e567c836272a321781e031",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "games/coop120-common/release-manifest.json",
+            "publishedSHA256": "7d909d0e83bf225031768b58f2aede793450611a1870f86c20ad05f8eae68f8d",
+            "isolatedSHA256": "7d909d0e83bf225031768b58f2aede793450611a1870f86c20ad05f8eae68f8d",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "games/code120-common/release-manifest.json",
+            "publishedSHA256": "bea82a1df7214e5dcafe8700226640a64fe531fae8d42caad8cc9ab537f6dbf8",
+            "isolatedSHA256": "bea82a1df7214e5dcafe8700226640a64fe531fae8d42caad8cc9ab537f6dbf8",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "games/words120-common/release-manifest.json",
+            "publishedSHA256": "857996cfcd14d2b30a7282d89d9386da55f2636057899ab4d5261a5164a5262a",
+            "isolatedSHA256": "857996cfcd14d2b30a7282d89d9386da55f2636057899ab4d5261a5164a5262a",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "games/music120-common/release-manifest.json",
+            "publishedSHA256": "427ff08edd34b95ed67e0e3a4a3c53e7167949581ea9136e853a152c0e3eab32",
+            "isolatedSHA256": "427ff08edd34b95ed67e0e3a4a3c53e7167949581ea9136e853a152c0e3eab32",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          },
+          {
+            "file": "expansion120-manifest.json",
+            "publishedSHA256": "958431f7cd754f01a135700191d9ff3da816022df558c4e08a5102835908a554",
+            "isolatedSHA256": "4e32c52ff1a838633fc22615860695e8c7574326dd639a5dee56fe6015078c13",
+            "reason": "Disposable verification-only hash overlay for tested presentation bytes and freshly generated reports; original published manifest remains unchanged."
+          }
+        ],
+        "claims": {
+          "originalAggregateRewritten": false,
+          "allEngineProofsFreshlyRerun": false,
+          "affectedFamilyEngineAndControllerRerun": true,
+          "browserGeometryVerifiedByThisCommand": false,
+          "hostedPostFixVerified": false
+        },
+        "reusedEvidence": [
+          "expansion120-aggregate-verification-report.json",
+          "expansion120-independent-review.json",
+          "expansion120-historical-recovery-report.json"
+        ],
+        "negativeBindingChecks": [
+          {
+            "file": "games/social120-common/core.js",
+            "passed": true,
+            "expectedRejection": "Unexpected modification to published file"
+          },
+          {
+            "file": "games/social120-common/style.css",
+            "passed": true,
+            "expectedRejection": "Unbound correction bytes"
+          }
+        ],
+        "after": {
+          "historicalPaths": 2686,
+          "unchangedPublishedBlobs": 2682,
+          "reviewedChanges": [
+            "README.md",
+            "games/social120-common/style.css",
+            "games/social120-common/ui.js",
+            "verify-all.cjs"
+          ],
+          "enginesAndCorporaUnchanged": true,
+          "originalReleaseReportsUnchanged": true
+        }
+      }
+    }
+  },
+  "sourceFiles": {
+    "frontier120-tools.cjs": "ca2a6016a3d3d2975f1a737d57eb1809af0867f0598aacff24dff588486ab2b8",
+    "verify-frontier120-all.cjs": "ece144c971aabc124b9fb112740bea1c7e5d4fc85bc35a050167d2b6144efdcd",
+    "frontier120-spec.json": "c390aa67544bc4887dbcfb69a09332f97f00fd17baed6b94814f83e7b27c60b7",
+    "frontier120-preservation.json": "5a276847f730873dff9acca39ef5d55bbf7d4f04872decc3d19c865d9bb7b742",
+    "frontier120-baseline-root.json": "ce10a65a12ebce855d190f97eacc1aabd0ea00e608126a7baf0750331541dfae"
+  },
+  "failures": [],
+  "claims": {
+    "allNewFamilyTestsFresh": true,
+    "allHistoricalEngineProofsFresh": false,
+    "actualBrowserTesting": false,
+    "hostedVerification": false,
+    "publicationReady": false
+  },
+  "preservedHistoricalFiles": 2686,
+  "seconds": 18.589
+}

@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-03T05:02:37.392004+00:00",
+  "boundFiles": 350,
+  "driftDuringRecheck": [],
+  "changedSinceOriginalAudit": [
+    "games/survival120-common/verify-all.cjs",
+    "games/survival120-common/render.js",
+    "games/survival120-common/README.md",
+    "games/survival120-common/independent.cjs",
+    "games/survival120-common/ui.test.cjs",
+    "games/survival120-common/rules.test.cjs",
+    "games/survival120-common/engine.js",
+    "games/survival120-common/release-manifest.json",
+    "games/survival120-common/catalog.json",
+    "games/survival120-common/generate.cjs",
+    "games/survival120-common/specs.js",
+    "games/survival120-common/semantic-fields.json",
+    "games/survival120-common/verification-report.json",
+    "games/gravity-shelter/README.md",
+    "games/gravity-shelter/levels.json",
+    "games/gravity-shelter/art.svg",
+    "games/gravity-shelter/proofs.json",
+    "games/gravity-shelter.html"
+  ],
+  "other14SurvivalTitleAssetsUnchanged": true,
+  "rogueAndPhysicsUnchanged": true,
+  "survivalManifestSha256": "8234d9355e8440938ee49473af8214062425c036d66315313383ae2d1ff96802",
+  "expectedManifestMatches": true,
+  "checks": [
+    {
+      "report": "survival-audit.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "rogue-audit.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "physics-audit.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "survival-ui-audit.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "rogue-ui-audit.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "physics-ui-audit.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "deeper-audit.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "gravity-recheck.json",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "report": "ai-trajectories.json",
+      "passed": true,
+      "errors": []
+    }
+  ]
+}

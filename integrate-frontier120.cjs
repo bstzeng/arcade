@@ -1,0 +1,37 @@
+#!/usr/bin/env node
+'use strict';
+// All-or-nothing390-game catalog assembly. Never writes a partial family set.
+const fs=require('node:fs'),assert=require('node:assert/strict'),T=require('./frontier120-tools.cjs');process.chdir(__dirname);
+const BUILD='20261003-frontier120';
+const browse={
+ survival:['生存製作','採集、建造與安排基地，度過環境帶來的考驗。','暴風雪・木筏・巨獸基地','⌂','#9ce3ff','#142831'],
+ roguelike:['隨機地城','探索地城、組合能力，讓每次遠征走出不同路線。','魔杖・背包・殘影','◇','#cdb3ef','#352b44'],
+ fighting:['格鬥連段','掌握距離、格擋與武器機制，接出自己的連段。','磁拳・鎖鏈・影子武士','✦','#f4b28f','#49312e'],
+ 'physical-sandbox':['物理實驗','搭建、調整與測試，觀察物理模型的連鎖結果。','果凍樓・風洞・液壓手','⚙','#a9d5e5','#253d49'],
+ ecology:['生態演化','追蹤資源、世代與環境，維持簡化生態系統。','單細胞・種子庫・棲地','❧','#a5dbaa','#273e31'],
+ horror:['異常觀察','交叉核對線索，辨認異常並尋找安全路線。','走廊・監視器・假警報','◐','#bfb8dc','#302d40'],
+ narrative:['分歧敘事','選擇、承諾與關係，讓前因成為下一幕的後果。','電台・信件・記憶典當','✎','#e8c68f','#45392a'],
+ war:['領土戰爭','管理領地、軍團與補給，協調多條戰線。','浮島・鐵路・繼承者','⚑','#96d6cf','#203544']
+};
+T.assertPreserved();const families=T.spec.families.map(f=>T.loadFamily(f.id)),newGames=families.flatMap(f=>f.games);assert.equal(newGames.length,120);
+const art={},entries=[];
+for(const g of newGames){const c=g.catalog,[title,,, ,color,background]=browse[g.family];const p=[g.artFile,c.artFile,c.artPath,c.art,c.cover].find(v=>typeof v==='string'&&v.endsWith('.svg'))||'games/'+g.id+'/art.svg';T.safePath(p.replace(/^\.\//,''));const svg=fs.readFileSync(p,'utf8');assert(/<svg\b/.test(svg),g.id+' missing SVG artwork');assert(!/<(?:script|foreignObject)\b|\bon\w+=|https?:\/\//i.test(svg.replace(/http:\/\/www\.w3\.org\/2000\/svg/g,'')),g.id+' active/external SVG');const key='frontier120-'+g.id;art[key]=svg.replace(/<svg\b([^>]*)>/,(_,attrs)=>'<svg'+attrs.replace(/\sclass=["'][^"']*["']/g,'')+' class="frontier120-art">');entries.push({id:g.id,title:g.title,category:'frontier120',description:c.description||T.spec.games.find(p=>p.id===g.id).proposal,note:c.note||title,art:key,color:c.color||color,background:c.background||background,word:g.id.replaceAll('-',' ').toUpperCase(),status:'ready',url:'./'+g.entry,badge:g.levelBased?(((c.badge||c.tag||'').includes('100'))?(c.badge||c.tag):'100 關 · '+(c.badge||c.tag||'挑戰')):(c.badge||c.tag||'自由實驗')});}
+assert.equal(new Set(entries.map(g=>g.id)).size,120);assert.equal(new Set(Object.values(art)).size,120,'Distinct mechanic-specific covers required');
+const categories=T.spec.families.map(f=>{const[title,description,examples,icon,color]=browse[f.id];return{id:f.id,title,description,examples,icon,color,gameIds:f.games};});
+const baseline=T.read('frontier120-baseline-root.json').files;let app=baseline['app.js'];
+app=app.replace(/const GAME_BUILD = '[^']+';/,"const GAME_BUILD = '"+BUILD+"';");
+const registryEnd=app.indexOf('\n];\nconst categoryNames');assert(registryEnd>0);app=app.slice(0,registryEnd)+',\n'+entries.map(g=>'  '+JSON.stringify(g)).join(',\n')+app.slice(registryEnd);
+app=app.replace('const categoryNames = {',"const categoryNames = { frontier120: '世界與實驗',");const marker='// Browse by how a game plays';assert(app.includes(marker));app=app.replace(marker,'Object.assign(artMarkup, '+JSON.stringify(art,null,2)+');\n'+marker);
+const catsEnd=app.indexOf('\n];\nconst categoryByGameId');assert(catsEnd>0);app=app.slice(0,catsEnd)+',\n'+categories.map(c=>'  '+JSON.stringify(c)).join(',\n')+app.slice(catsEnd);
+const levels=newGames.reduce((n,g)=>n+g.levelCount,0),levelGames=newGames.filter(g=>g.levelBased).length,sandboxGames=120-levelGames;
+let index=baseline['index.html'].replaceAll('20261003-expansion120',BUILD).replaceAll('270','390').replaceAll('十六','二十四').replaceAll('16 個分類','24 個分類').replaceAll('二百七十','三百九十');
+const tiles=categories.map(c=>`          <button class="category-tile" type="button" data-filter="${c.id}" aria-pressed="false" aria-controls="game-grid" style="--category-color:${c.color}">\n            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">${c.icon}</span><span class="category-size"><span data-category-count>15</span> 款 <span aria-hidden="true">↗</span></span></span>\n            <span class="category-title">${c.title}</span><span class="category-examples">${c.examples}</span>\n          </button>`).join('\n');index=index.replace('        </div>\n        <div id="browse-results"',tiles+'\n        </div>\n        <div id="browse-results"');
+index=index.replace(/<meta name="description"[^>]*>/,'<meta name="description" content="Arcade 遊戲小宇宙。390 款遊戲、二十四個分類。新增生存、地城、格鬥、物理、生態、異常觀察、敘事與戰爭遊戲。">');
+index=index.replace(/<p>三百九十個小世界[\s\S]*?<\/p>/,`<p>三百九十個小世界，二十四種探索方向。最新加入 120 款生存、地城、格鬥、物理、生態、異常觀察、敘事與戰爭遊戲；${levelGames} 款各有 100 個任務，共 ${levels.toLocaleString('en-US')} 個挑戰${sandboxGames?`，另有 ${sandboxGames} 款自由實驗`:''}。既有 270 款完整保留，包括上一批 10,700 關、13 款自由創作、原有 8,000 關挑戰、250 副接龍牌局與 2,000 關益智。任務解答依各遊戲公開模型與指定政策驗證，不代表唯一解或對任意對手必勝。有 AI 的模式提供本機難易度；部分認證任務固定政策，自由模式才可調整。簡化物理與生態模型不作科學預測。實際玩法與限制以各遊戲說明為準。</p>`);
+const css=baseline['styles.css']+'\n/* Frontier120 covers are scoped; historical game styles stay untouched. */\n.frontier120-art{display:block;flex:none;width:156px;height:130px;overflow:hidden;transform:rotate(7deg);border-radius:9px;filter:drop-shadow(3px 5px 1px #0002)}\n';
+let readme=baseline['README.md'].replace('二百七十款遊戲均可直接遊玩','三百九十款遊戲均可直接遊玩').replace('首頁依實際玩法分成十六類','首頁依實際玩法分成二十四類').replace('搜尋始終涵蓋全部 270 款','搜尋始終涵蓋全部 390 款');
+readme=readme.replace('## 120 款新玩法',`## 最新 120 款世界與實驗\n\n此次另增 **120 款**，全站合計 **390 款、24 類**。${levelGames} 款各具 100 個目標任務，共 **${levels.toLocaleString('en-US')} 個挑戰**${sandboxGames?`，另有 ${sandboxGames} 款自由實驗`:''}。100 關是有可重播解答的任務／情境，並非宣稱每款都有 100 張地圖。各家族公開其有意義差異、簡化模型與解答適用範圍；AI 僅為本機規則與規劃政策。\n\n`+categories.map(c=>`- ${c.title}：15 款，${c.examples}`).join('\n')+`\n\n執行 \`node verify-frontier120-all.cjs\` 會在隔離副本驗證校正後的 270 款基線、重新執行八個新家族的來源限定測試，並檢查 390 款大廳與負向破壞測試。歷史引擎證明依完全相同位元組重用，既有 PR24 的受影響家族與大廳測試重跑；不把重用證據稱為重新跑完所有舊引擎。\`frontier120-manifest.json\` 列出每款的關卡、AI、證明與來源。真實瀏覽器與上線驗收分開記錄。舊批次報告與所有遊戲資產完整保留，以下歷史批次的數字維持其原始發行範圍。\n\n## 120 款新玩法`);
+const sourceFiles=Object.assign({},...families.map(f=>f.sourceFiles));for(const f of families){sourceFiles[f.releaseManifestPath]=T.hash(f.releaseManifestPath);sourceFiles[f.catalogPath]=T.hash(f.catalogPath);}
+const manifest={schemaVersion:1,status:'integrated-awaiting-independent-browser-and-release-audits',sourceBaselineCommit:T.preservation.baseCommit,baselineGames:270,newGames:120,releaseGames:390,newLevelGames:levelGames,newSandboxGames:sandboxGames,newChallengeCount:levels,categories,allowedHistoricalRootChanges:[...T.allowedRootChanges],families:families.map(f=>({id:f.id,directory:f.directory,games:f.games.map(g=>g.id),manifest:f.releaseManifestPath,catalog:f.catalogPath,commands:f.commands,freshReports:f.freshReports})),games:newGames.map(({catalog,...g})=>g),sourceFiles,claims:{allChallengesUnique:false,arbitraryOpponentForcedWins:false,actualBrowserQAPassed:false,publicationReady:false}};
+if(process.argv.includes('--write')){for(const[file,text]of Object.entries({'app.js':app,'index.html':index,'styles.css':css,'README.md':readme,'verify-all.cjs':"#!/usr/bin/env node\n'use strict';\nrequire('./verify-frontier120-all.cjs');\n"}))fs.writeFileSync(file,text);fs.writeFileSync('frontier120-manifest.json',JSON.stringify(manifest,null,2)+'\n');console.log('Integrated390 games /24 categories; '+levels+' new challenges. Independent/browser gates remain.');}
+else console.log('DRY RUN complete:120 entries and '+levels+' new challenges ready; use --write after family freeze.');

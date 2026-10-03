@@ -1,0 +1,148 @@
+{
+  "scope": "Independent controlled simultaneous hotseat state-transition counterfactuals; no builder causal tests imported",
+  "tests": [
+    {
+      "id": "war-sky-islands",
+      "name": "closed drift links isolate armies unless anchored",
+      "passed": true,
+      "details": {
+        "a": 1,
+        "b": 2,
+        "kind": "drift",
+        "phase": 1
+      }
+    },
+    {
+      "id": "war-robot-front",
+      "name": "counter-module changes actual battle losses",
+      "passed": true,
+      "details": [
+        0,
+        -1
+      ]
+    },
+    {
+      "id": "war-four-seasons",
+      "name": "season changes legal mountain traversals and farm harvest",
+      "passed": true,
+      "details": {
+        "before": 12,
+        "after": 17
+      }
+    },
+    {
+      "id": "war-capitalless",
+      "name": "separate command root preserves remote territory from secession",
+      "passed": true,
+      "details": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "war-last-city",
+      "name": "relief trades home army for allied survival",
+      "passed": true,
+      "details": {
+        "homeLoss": 4,
+        "allyGain": 6
+      }
+    },
+    {
+      "id": "war-neutral-balance",
+      "name": "access treaty changes reachable movement graph",
+      "passed": true,
+      "details": true
+    },
+    {
+      "id": "war-tidal-continent",
+      "name": "fleet capacity enables otherwise closed bridge traversal and is consumed",
+      "passed": true,
+      "details": {
+        "fleet": 0,
+        "owner": 0
+      }
+    },
+    {
+      "id": "war-hundred-flags",
+      "name": "unmet land pledge drains loyalty and eventually ends alliance",
+      "passed": true,
+      "details": {
+        "pact": false,
+        "fulfilled": false,
+        "loyalty": 0,
+        "signed": -20
+      }
+    },
+    {
+      "id": "war-rail-crown",
+      "name": "rail connectivity gates frontline recruitment",
+      "passed": true,
+      "details": true
+    },
+    {
+      "id": "war-memory-front",
+      "name": "battle scars persist and suppress territorial tax",
+      "passed": true,
+      "details": [
+        24,
+        21
+      ]
+    },
+    {
+      "id": "war-simultaneous-orders",
+      "name": "opposite sealed marches annihilate equal crossings",
+      "passed": true,
+      "details": [
+        {
+          "type": "march",
+          "from": 1,
+          "to": 2,
+          "amount": 7,
+          "label": "松丘2 → 河門3（7軍）"
+        },
+        {
+          "type": "march",
+          "from": 2,
+          "to": 1,
+          "amount": 7,
+          "label": "河門3 → 松丘2（7軍）"
+        }
+      ]
+    },
+    {
+      "id": "war-three-fronts",
+      "name": "matching surface ownership controls air reinforcements",
+      "passed": true,
+      "details": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": "war-succession",
+      "name": "concentrated authority triggers real territorial rebellion",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "id": "war-after-conquest",
+      "name": "autonomy prevents unrest-driven loss and garrison consumes supplies",
+      "passed": true,
+      "details": [
+        -1,
+        0
+      ]
+    },
+    {
+      "id": "war-retreating-empire",
+      "name": "sacrificial rear guard delays territorial collapse",
+      "passed": true,
+      "details": [
+        1,
+        0
+      ]
+    }
+  ],
+  "passed": true
+}

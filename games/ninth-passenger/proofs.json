@@ -1,0 +1,6802 @@
+[
+  {
+    "id": 1,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "5acbed91102de3c52193f6ae66f5f32aa470b0492b7836e3108770fd63f09a26"
+  },
+  {
+    "id": 2,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "89642ca9f73980bd10ce0ab6b7b458e92408a063af36891994693a4c83e3e06a"
+  },
+  {
+    "id": 3,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "13d9d91859aae120a432485218de67620e407793d794c3b80f8e238792fec2a0"
+  },
+  {
+    "id": 4,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "38cf3ec971f9e30495e98a13deec1ded7e9d37ed37cecae969786ecca88acc0f"
+  },
+  {
+    "id": 5,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "c190f009fe1c05a3341c62ca9c62f7651f288aa1df6a26621ab5ef89f52d2ec4"
+  },
+  {
+    "id": 6,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "f16f66136b3080cf977b0b696a0180c47ca2792fa25943899a8c6d043405738c"
+  },
+  {
+    "id": 7,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "462d229c3aa203644e3aa5b4bd558722cfaaecc6b4f245ef84d8f39b669556f4"
+  },
+  {
+    "id": 8,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "b9bf249fde9a92f24cc9da3fe5ee841cce74dcba411306cafca4ec184217b5ce"
+  },
+  {
+    "id": 9,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "5c3cab90abdce2e0eb4b44ea7d483fc1e72c7c7202b65423478187cc6db7e22b"
+  },
+  {
+    "id": 10,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "87a89054c3617dde450c543244de60b55bdf4e9402a0f9bbe680ee67d718bb9d"
+  },
+  {
+    "id": 11,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "0c0339f9be13a846209841fcfdf7a67994b47e0452210289e7281fcff33bd428"
+  },
+  {
+    "id": 12,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "c8830a4f937c49b975cbdecc8e334fda3b465b29aef382f35283faa0831f221e"
+  },
+  {
+    "id": 13,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "022d1ee3bc8ac21ffd9355efd127d81abf615bf6f53761496c3d7c805a29b068"
+  },
+  {
+    "id": 14,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "af446dd25372314202c55b98a60de14136182fb9cc4f30e09ca21c8d6cbcbd58"
+  },
+  {
+    "id": 15,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "3f1f50acfbf869560e9749bc579994f33e9ca8065d13c3108b619921a380b108"
+  },
+  {
+    "id": 16,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "ea1011b22c3a367ae1c3aeaa33c09b3b6eea221a10d9b7c88bd4b3625df4b64b"
+  },
+  {
+    "id": 17,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "f1b8c21a7c51744ed4bf367dc0cd362a397b0516095df171ea4d5a62921cdd4f"
+  },
+  {
+    "id": 18,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "08c086b99d90dcbb61beceee8b170bd690ead7866a2cf99d84e3699b1d6df761"
+  },
+  {
+    "id": 19,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "2dec374c9170976d1057bd8a40ea2064fca68ef97ba28bdfafe60df724553786"
+  },
+  {
+    "id": 20,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "38a578da5fcf5ac11c871569d664e8fb44e2366e756ff59e17edd4806f2e47f3"
+  },
+  {
+    "id": 21,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "151f34c8eb9eab24bd13a1c2a73adabf3e20f294632a86fe35c7cfc0fc26218e"
+  },
+  {
+    "id": 22,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "50bfe97e0fd87582253357d445a56f47d6126e74b4abced9dee29455dbd74cae"
+  },
+  {
+    "id": 23,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "871fa000cb7e060f5bf69e4d53234ead985aae407fd93b52275f848fa88878b1"
+  },
+  {
+    "id": 24,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "cd5773f2193552d4c3130f6858f04810c8f9fa2c902103e601a2abc56992a2e0"
+  },
+  {
+    "id": 25,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "fa427fee1e730f6dea5b9d49ee979770ced07292fcf4ddc6d05f240dcc9ac64c"
+  },
+  {
+    "id": 26,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "173bfd57b0153a3bb014c9ce624b817dc1b9bd58044f45b50170da06ccf7f5a1"
+  },
+  {
+    "id": 27,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "32f751e5862b3d06c2c34c06ab947f3ea40457af801bb558624a2243071aacd8"
+  },
+  {
+    "id": 28,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "17ce95c4cc51d05c3c8258dd7f0b8cb0c62f31dfeb274d1ad42a3845426ffe8a"
+  },
+  {
+    "id": 29,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "ecfbb8b7bb6e3f45f3a0fc68999db3f2f52b7cf7cff2849e12d3d5feb7502a0c"
+  },
+  {
+    "id": 30,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "525c5471462c3472ed7cd3269704c476c73d004aa9604cf70bce2ce6d547fb34"
+  },
+  {
+    "id": 31,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "ac716cd12a65cdb5a7a0647ee33e27c6573f61733c4f51b81a6806098fc90f6d"
+  },
+  {
+    "id": 32,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "e7518be025d6cbc0cf7231bb46f10192d7e7f532375b3b3d01595414f688ae90"
+  },
+  {
+    "id": 33,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "94cfa0b490e05cc0fe5174d49bf57eb28de2c02072f670a01adfb6ff590a13cf"
+  },
+  {
+    "id": 34,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "ab2e76e3dcb9b736ecb4abbf261b2c0e7d36fe57d938b0fb45849896b063b493"
+  },
+  {
+    "id": 35,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "7ebffe5c039cbda991efabbbedff38be5a84a80ab8d819e931f38e1350aef66d"
+  },
+  {
+    "id": 36,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "3d6e5a9de0bd75112896c7c4990f4bb23901680b258c31c0048cc67154daaaa8"
+  },
+  {
+    "id": 37,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "d1359a0a29fcb129db2ddb9477b4d3b3c06722f4dc1e3163c610940dd4ae68ff"
+  },
+  {
+    "id": 38,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "62f80900e8a1f8356342a5e843a8e31d9fa11363b6ec316c6d35d2f7df2f676e"
+  },
+  {
+    "id": 39,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "dd039f1d99897a245d28c298bb53fe8793742804e1bf50769c50ff223e091b65"
+  },
+  {
+    "id": 40,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "0ea7f0fa128341618e14033f044a4739322746dabc36e358250557495f144f2f"
+  },
+  {
+    "id": 41,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "32f7836fa0fd901b4af3c6cbc935a1e0bcd629d47ebb21bbd2704bdb37c2286c"
+  },
+  {
+    "id": 42,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "9aab9807dc3805f0b01800cd24682e26a7a154e0495eb8f866c351428f994bbb"
+  },
+  {
+    "id": 43,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "f96e53ec09e035860dc2d93e97b285d90e9b3e1a0561846560f04400d87aa150"
+  },
+  {
+    "id": 44,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "5f38033b67a7d83db9d54cdec03ac268158b9945e89dfeaa92ef249c30c7d5bd"
+  },
+  {
+    "id": 45,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "e3564d92f4ee183ad38c7fdffc8dfda78b664a6e6157d1c491779d6c8af9ba7d"
+  },
+  {
+    "id": 46,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "6815e832c9d4e2b5080b6c13ae111c5173f88afa18dd52eed37d705d54a9d6ec"
+  },
+  {
+    "id": 47,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "940c482459f9dc0ef69e6e442e985462df2b275fe942f716da575fec260d644c"
+  },
+  {
+    "id": 48,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "1b0682e75c4deeda2ecfb7b4a7b86c7e728f5d6bb154bfe1f4b6cb5c2da679d4"
+  },
+  {
+    "id": 49,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "44fa0e6746279464f0d1459e268ff05bb8de4ba0e0a1d06b1c26365dffd18bca"
+  },
+  {
+    "id": 50,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "8c93899b4a5adcff3f6b467fe53557384ad91a1cbd9114f5dd2fba983ae60110"
+  },
+  {
+    "id": 51,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "d1cde6db42bc94b7b8664af4b5669f8023d5ab8108d48856e3cf4c48d8b18625"
+  },
+  {
+    "id": 52,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "d851ff7fcca554b5ee17c1abb3e4ce6ad3988cc54a9c955590d71b2c3b302431"
+  },
+  {
+    "id": 53,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "bceb95d72b68a36c9a5393048864255cf2cd8922061d625a7b4612d537e6c8d8"
+  },
+  {
+    "id": 54,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "29c0a3fc61bbb991afa74686ad2144182434344082e3190d5718a8d4d321a45b"
+  },
+  {
+    "id": 55,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "6544528a72afacdcc8f7b935d7c888ed32686a673208d08993d2240c329f7759"
+  },
+  {
+    "id": 56,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "f0ab8a5f21114e8d99eab27b14ef97734dd039752d0461da106f8df34140a92b"
+  },
+  {
+    "id": 57,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "748fcd180853b0e3db315afd85fe05f41757486350ef8d7e9ebb3684b8d4fc4b"
+  },
+  {
+    "id": 58,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "6d700e03e30e4df9bf2e9caa83da29e42a5b02fc1d9d360cfb388207dfc81c10"
+  },
+  {
+    "id": 59,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "86fec1f02ecb21a77b49ee407a58d49d21cb2845be8be418a53458d5577a72df"
+  },
+  {
+    "id": 60,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "554ba79d4b5ae0a2167768edd3d0188cd89e696bf82a4ae94cd2aaf879cd1c2b"
+  },
+  {
+    "id": 61,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "c44138a68ee9c8d1330358698626385537c0015d4edaba7ed730a62895eac4d8"
+  },
+  {
+    "id": 62,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "8744430e62eeade972965757df0139816a124bfde8851ad69a2f3f8192aa14f6"
+  },
+  {
+    "id": 63,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "cc3f4f39397c3f6c3acc283a3c24072b13de93a3afdf13ef851288b4d9a2c7a2"
+  },
+  {
+    "id": 64,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "e824727e70848f1bc20cb0d503728bbdbd0bf778a4d0e65514c40d11493372d2"
+  },
+  {
+    "id": 65,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "30d77e4ef04e59999da5ecafddd2ce96da493b973ff7284d88569c835f1f5587"
+  },
+  {
+    "id": 66,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "5758614efc07f3ab6e9d25dba4c29cf1785cd2f592052908b2c0ec4f66456a2b"
+  },
+  {
+    "id": 67,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "04b78938a7518f7ee27d8938d822ccf22a4f81556a13f7f4856c20aeb08556e8"
+  },
+  {
+    "id": 68,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "2ffef1d55582fc2840b9009da6dc4bb5e926e1445bf4f2b1e4a65e2b65b26737"
+  },
+  {
+    "id": 69,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "c96ab6a39e676cc713f716848b3b146064412e32d3bdcc5a50568d890bc1bbdc"
+  },
+  {
+    "id": 70,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "ee69095374404f88690c2c253cdaed2772289e8405c1dbfff83707ca3561b5aa"
+  },
+  {
+    "id": 71,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "27fb2ea534fbe1495bb83cafe7b9c61cd4b0a43aefa934843e077fff4922a06e"
+  },
+  {
+    "id": 72,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "d16ec14caddb46b9714a26a81d238d83ce53646f430684f0b14aea5b52f866ac"
+  },
+  {
+    "id": 73,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "633bb4bdf0e13a214e7c21448c012fd2de132a790da24ee9e6acd3bc35894ddf"
+  },
+  {
+    "id": 74,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "b8baaa6b3a46b441e7561bd2ea06e13e98dc06ebb1b813b16645dc36a2065e5d"
+  },
+  {
+    "id": 75,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "af1a4ec082d0cee7730e5704bb189fcabafa808fe215482a7f1b481629d4dbae"
+  },
+  {
+    "id": 76,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "2ef182c26269bf61fab41506c949d92378e481b4dd6c25879bbe36b405eeb1e5"
+  },
+  {
+    "id": 77,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "5e049b1860f019e333b7bdd751f54406f39ac1582965eb448e509bd6e43ea238"
+  },
+  {
+    "id": 78,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "ff5dab35d6650a9a883771a1fc3029b0b336fa0e459b845210e9a143386eadac"
+  },
+  {
+    "id": 79,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "1db72126fbb1f4f9e1e8062e39edc9b53405e21d9f05c98561e43f3f2e1c1642"
+  },
+  {
+    "id": 80,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "69128441cf59dbf6b40491753d38ca45f8e34b5b3672905e10d53105636efd2b"
+  },
+  {
+    "id": 81,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "e5ceb8573d48918442b577ae7eea49e59fef16b3dd4ccb81f979e1d205bda627"
+  },
+  {
+    "id": 82,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "f7781b01f2cca471861c3427279fe0952a2a9a0956c905e0d9b203dcf7a34a64"
+  },
+  {
+    "id": 83,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "fa15d84e0fc8aeff00984604b67478886b5b5d2f075353c44a526724878315ed"
+  },
+  {
+    "id": 84,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "06fb5c723b33e1b888dfa468a7ac3c194c399925f97e24b220e1b5c479b27b67"
+  },
+  {
+    "id": 85,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "d6322b56d630ed11c0b2bdbcf675c53f44710916ad6fe98b141dae94b97e79a2"
+  },
+  {
+    "id": 86,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "0b4401b3ad6d0cf03da4e6ede817655b95d428761359d89b32f3b4c7c926d5a1"
+  },
+  {
+    "id": 87,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "56764a184e69e5c5ddda570e898100d04cb95e03cdcdf95f2f8a959167c4a53e"
+  },
+  {
+    "id": 88,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "ab99c2dd5db8bb28f620dfa35adb202a27183cefa87b947c76e0f0e7c8a8a03f"
+  },
+  {
+    "id": 89,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "82332a53037a84441b0068e0ca59aaf3290df8de201fc6488803850591eb4942"
+  },
+  {
+    "id": 90,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "a07180bd9fee3f5791bd306d9592cc8448313ba473e4c0c0c0e1581d1ddec95a"
+  },
+  {
+    "id": 91,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "be3d5ca4b1fe5bd0a303b25c48fb8bb0c21b7aa0fa4ab8b7eb2fd124c682f6bc"
+  },
+  {
+    "id": 92,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 1,
+        "label": "拉下2席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下2席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "4de56e17763937bf38aa0e3cdd5fefd2449a531fcf5029e37dca4118bfc6edd7"
+  },
+  {
+    "id": 93,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 2,
+        "label": "拉下3席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下3席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "fe7d4ead999b6c50dbf3d8c9322b1c9ed36280e915b8e16345f7aa8294c38177"
+  },
+  {
+    "id": 94,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 3,
+        "label": "拉下4席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下4席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "db66b189663b9ea8aee5e0888acfe1435c5532bf682a4c0d9cd8134aa8019be5"
+  },
+  {
+    "id": 95,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 4,
+        "label": "拉下5席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下5席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "34f271b8fa63e9dd74d25b94f6b5cfaccf4f4d6f620898b7ab0a280f5a19b8c1"
+  },
+  {
+    "id": 96,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 5,
+        "label": "拉下6席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下6席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "1f91a12b75bcfcc996177004177f47f015b79337fc9ef5f620b1271fadd5a071"
+  },
+  {
+    "id": 97,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 6,
+        "label": "拉下7席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下7席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "4bc720b075bb74b79168aa6bd398f798f3b5cc5325c65b592de45118e4fbf799"
+  },
+  {
+    "id": 98,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 7,
+        "label": "拉下8席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下8席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "e93db1d114cb8fbfcf56c820896146d44aaa87b563b1b67b7714d2d221be5772"
+  },
+  {
+    "id": 99,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 8,
+        "label": "拉下9席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下9席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "940af575cecefdf803d0d1870ae28ce935eeca29b99fcaf4929dff8855c9ad18"
+  },
+  {
+    "id": 100,
+    "game": "ninth-passenger",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "ledger",
+        "label": "讀靜默上車帳",
+        "group": "觀察"
+      },
+      {
+        "type": "observe",
+        "what": "tickets",
+        "label": "逐席查看車票",
+        "group": "觀察"
+      },
+      {
+        "type": "curtain",
+        "at": 0,
+        "label": "拉下1席隔簾",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 1,
+        "label": "停靠1站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 2,
+        "label": "停靠2站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 3,
+        "label": "停靠3站",
+        "group": "行動"
+      },
+      {
+        "type": "station",
+        "at": 4,
+        "label": "停靠4站",
+        "group": "行動"
+      },
+      {
+        "type": "close",
+        "label": "封閉空車廂",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀靜默上車帳",
+      "先取得角色可合法觀察的線索。 下一步：逐席查看車票",
+      "這張票章與座位配對不在合法上車帳中。 下一步：拉下1席隔簾",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠1站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠2站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠3站",
+      "多出的人已隔離，按時刻表核對下車人數。 下一步：停靠4站",
+      "真乘客全部按帳下車，隔簾留住多出的人。 下一步：封閉空車廂"
+    ],
+    "semanticHash": "51f22b2f2455304133cb9f9a38fb6ca73d3c317d75a4f579c165a5e7ddae6022"
+  }
+]

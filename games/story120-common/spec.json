@@ -1,0 +1,348 @@
+{
+  "family": {
+    "id": "narrative",
+    "title": "分歧敘事與角色扮演",
+    "directory": "games/story120-common",
+    "games": [
+      "apocalypse-radio",
+      "seven-letters",
+      "last-council",
+      "memory-pawn",
+      "enemy-heir",
+      "last-boat-ticket",
+      "yesterday-witness",
+      "false-king",
+      "three-names",
+      "future-defense",
+      "villain-turn",
+      "unspoken-promise",
+      "hero-retirement",
+      "borrowed-day",
+      "final-wishes"
+    ],
+    "acceptance": [
+      "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+      "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+    ],
+    "catalogPath": "games/story120-common/catalog.json",
+    "releaseManifestPath": "games/story120-common/release-manifest.json",
+    "requiredGameCount": 15
+  },
+  "games": [
+    {
+      "id": "apocalypse-radio",
+      "family": "narrative",
+      "position": 1,
+      "title": "末日電台主持人",
+      "proposal": "查證求救與情報後決定播出內容，聽眾的行動後果會變成下一夜的來電。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/apocalypse-radio.html",
+      "requirements": {
+        "coreMechanic": "查證求救與情報後決定播出內容，聽眾的行動後果會變成下一夜的來電。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "seven-letters",
+      "family": "narrative",
+      "position": 2,
+      "title": "旅館裡的七封信",
+      "proposal": "改變信件投遞對象與時間，影響住客信任，讓同一夜走向不同結局。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/seven-letters.html",
+      "requirements": {
+        "coreMechanic": "改變信件投遞對象與時間，影響住客信任，讓同一夜走向不同結局。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "last-council",
+      "family": "narrative",
+      "position": 3,
+      "title": "王國最後一次會議",
+      "proposal": "用承諾交換各派支持，表決王國未來，再承擔先前交易的後果。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/last-council.html",
+      "requirements": {
+        "coreMechanic": "用承諾交換各派支持，表決王國未來，再承擔先前交易的後果。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "memory-pawn",
+      "family": "narrative",
+      "position": 4,
+      "title": "記憶典當行",
+      "proposal": "典當記憶換取資源，但失去的往事，也會帶走對話選項與人物關係。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/memory-pawn.html",
+      "requirements": {
+        "coreMechanic": "典當記憶換取資源，但失去的往事，也會帶走對話選項與人物關係。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "enemy-heir",
+      "family": "narrative",
+      "position": 5,
+      "title": "我的繼承人是敵人",
+      "proposal": "培養繼承人的能力，同時處理彼此衝突的信念，決定最後如何交權。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/enemy-heir.html",
+      "requirements": {
+        "coreMechanic": "培養繼承人的能力，同時處理彼此衝突的信念，決定最後如何交權。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "last-boat-ticket",
+      "family": "narrative",
+      "position": 6,
+      "title": "只剩一張船票",
+      "proposal": "交換情報和承諾，決定誰能離開；留下的人則繼續另一條故事線。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/last-boat-ticket.html",
+      "requirements": {
+        "coreMechanic": "交換情報和承諾，決定誰能離開；留下的人則繼續另一條故事線。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "yesterday-witness",
+      "family": "narrative",
+      "position": 7,
+      "title": "昨日的證人",
+      "proposal": "決定對不同角色揭露多少真相，讓證詞改變其他人的說法與可追查線索。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/yesterday-witness.html",
+      "requirements": {
+        "coreMechanic": "決定對不同角色揭露多少真相，讓證詞改變其他人的說法與可追查線索。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "false-king",
+      "family": "narrative",
+      "position": 8,
+      "title": "假王登基",
+      "proposal": "扮演臨時頂替國王的平民，以施政與私人往來建立支持，再決定何時坦白。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/false-king.html",
+      "requirements": {
+        "coreMechanic": "扮演臨時頂替國王的平民，以施政與私人往來建立支持，再決定何時坦白。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "three-names",
+      "family": "narrative",
+      "position": 9,
+      "title": "三個名字的人",
+      "proposal": "以三種身分處理同一座城的事件，讓不同身分許下的承諾互相牽制。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/three-names.html",
+      "requirements": {
+        "coreMechanic": "以三種身分處理同一座城的事件，讓不同身分許下的承諾互相牽制。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "future-defense",
+      "family": "narrative",
+      "position": 10,
+      "title": "給未來的辯護書",
+      "proposal": "交替操控年輕與年老的自己，早年的文件和選擇會限制晚年的解釋。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/future-defense.html",
+      "requirements": {
+        "coreMechanic": "交替操控年輕與年老的自己，早年的文件和選擇會限制晚年的解釋。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "villain-turn",
+      "family": "narrative",
+      "position": 11,
+      "title": "今天輪到反派",
+      "proposal": "輪流扮演同一事件的三名對立角色，上一章的決定成為下一章的困境。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/villain-turn.html",
+      "requirements": {
+        "coreMechanic": "輪流扮演同一事件的三名對立角色，上一章的決定成為下一章的困境。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "unspoken-promise",
+      "family": "narrative",
+      "position": 12,
+      "title": "不可說的約定",
+      "proposal": "選擇回答、沉默或轉述，改變誰知道秘密，以及誰還願意信任你。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/unspoken-promise.html",
+      "requirements": {
+        "coreMechanic": "選擇回答、沉默或轉述，改變誰知道秘密，以及誰還願意信任你。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "hero-retirement",
+      "family": "narrative",
+      "position": 13,
+      "title": "英雄退休申請",
+      "proposal": "安排最後七天拜訪舊友、處理委託；沒去的地方也會自行發展。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/hero-retirement.html",
+      "requirements": {
+        "coreMechanic": "安排最後七天拜訪舊友、處理委託；沒去的地方也會自行發展。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "borrowed-day",
+      "family": "narrative",
+      "position": 14,
+      "title": "交換一天的人生",
+      "proposal": "與另一角色交換生活並代做決定，回來後承受對方留下的人際後果。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/borrowed-day.html",
+      "requirements": {
+        "coreMechanic": "與另一角色交換生活並代做決定，回來後承受對方留下的人際後果。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "final-wishes",
+      "family": "narrative",
+      "position": 15,
+      "title": "遺願代辦人",
+      "proposal": "選擇照字面或按心意完成遺願，在不同家屬之間協商，改變後續關係。",
+      "proposalMessageId": "Sentinel_a2b1bbbd715881919d54f9fbfc099e1f",
+      "entry": "games/final-wishes.html",
+      "requirements": {
+        "coreMechanic": "選擇照字面或按心意完成遺願，在不同家屬之間協商，改變後續關係。",
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "expected; declare and justify any freeform-only exception",
+        "ai": "genuine local state-dependent policies with easy/normal/hard when appropriate; declare observations and scope",
+        "acceptance": [
+          "Use substantive branching scenes, characters, choices and persistent consequences matching each proposal. Earlier decisions must unlock/disable later options or alter relationships/events; ending text or linear quiz variants alone are insufficient.",
+          "Provide 100 meaningfully distinct authored/configured scenario challenges if goals can be objective, with explicit success conditions and legal dialogue witnesses. Branching endings are not unique moral answers. AI characters use bounded beliefs, disclosed knowledge and motives with easy/normal/hard negotiation/decision differences where appropriate."
+        ]
+      },
+      "deliveryStatus": "planned"
+    }
+  ],
+  "commonAcceptance": [
+    "Implement the exact proposed core mechanic as causal gameplay. Reskinned generic selection, arithmetic, resource adjustment or path puzzles do not satisfy distinct game proposals.",
+    "Mobile-first Traditional Chinese interface, visible objective/state/legal controls/feedback, accessible labels and practical keyboard alternatives. Actual browser geometry must pass 333px, 400px and desktop widths, including open select menus, help and long log text.",
+    "All proposals support objective missions in principle. Default to 100 selectable, meaningfully varied missions per game with stable IDs. A freeform-only exception needs a concrete mechanic-specific explanation and must not evade feasible objective missions; additional freeform mode is welcome.",
+    "For every levelBased game: exactly 100 levels. Structural and task diversity must exceed changes in names, labels, palette, symmetry, harmless seed data or irrelevant numeric fields. Provide a semantic fingerprint and distinctness rationale based on fields consumed by the engine.",
+    "Every solvability claim has nonempty legal action/input witnesses executed through the same runtime engine and independent terminal/property assertions. UI controls must be able to express every witness action, range, timing and rate from the exact published start state. Reject illegal, truncated, empty and corrupted traces.",
+    "Hints and demonstrations run legal transitions, remain contextual, and mark results assisted. They must not overwrite unassisted completion, scores or records; save/reload keeps assistance status. A demo shortcut is not evidence that a user can play the mission.",
+    "Challenge claims distinguish reachability, deterministic policy scenarios, physical timing traces and adversarial forced wins. Do not claim uniqueness, arbitrary-opponent wins, realistic scientific simulation or unrestricted narrative intelligence without corresponding evidence.",
+    "Where AI is appropriate, implement real local state-dependent decisions with easy/normal/hard modes. Test legal actions, permitted observations, causal reaction to changed visible state and meaningful policy/skill differences. Hidden cards, latent traits, unrevealed events and player secret orders cannot leak into decisions.",
+    "Seeded challenge policies may be fixed for proof, but AI difficulty controls must be usable and their scope clear. A timer, random move, canned answer transcript or level difficulty dropdown alone is not AI.",
+    "Reset, level/difficulty/mode change, navigation, pause and repeated input cancel stale timers, pending AI and demos. Validate local persistence per game and guard malformed/missing saved data.",
+    "No external AI/API, accounts, network multiplayer claim, external fonts/media or runtime dependency. Audio, when used, starts only after user gesture and has mute control; all objectives remain perceivable without sound.",
+    "Supply mechanic-specific fresh artwork for each game, exact title, accurate Traditional Chinese instructions and README. README covers exact abstraction, objective, controls, proof scope, AI observations/difficulty and known limits.",
+    "Run verifier and controller tests against exact final engine/controller/corpus/test bytes. Reports bind sources before execution and verify unchanged afterward. Keep engine tests, simulated DOM, real browser and hosted QA claims separate."
+  ]
+}

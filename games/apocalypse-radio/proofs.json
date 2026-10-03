@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "001",
+    "witness": [
+      "listen",
+      "air:1",
+      "listen",
+      "air:0",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "listen",
+      "air:2",
+      "listen",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "002",
+    "witness": [
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:1",
+      "check:2",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:1",
+      "check:0",
+      "air:2",
+      "listen",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "003",
+    "witness": [
+      "listen",
+      "air:1",
+      "check:1",
+      "air:1",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "check:0",
+      "air:2",
+      "listen",
+      "air:0",
+      "check:1",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "004",
+    "witness": [
+      "check:2",
+      "air:0",
+      "check:1",
+      "quiet",
+      "check:0",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "air:0",
+      "check:0",
+      "air:2",
+      "check:2",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "005",
+    "witness": [
+      "listen",
+      "quiet",
+      "check:0",
+      "air:2",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "check:0",
+      "air:0",
+      "listen",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "006",
+    "witness": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "relay",
+      "listen",
+      "relay"
+    ],
+    "alternate": [
+      "check:1",
+      "air:2",
+      "check:2",
+      "air:1",
+      "check:2",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "007",
+    "witness": [
+      "check:0",
+      "air:1",
+      "check:2",
+      "air:1",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "check:2",
+      "air:1",
+      "check:1",
+      "air:0",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "008",
+    "witness": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "relay",
+      "check:2",
+      "air:2"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "listen",
+      "air:0",
+      "listen",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "009",
+    "witness": [
+      "check:2",
+      "air:2",
+      "listen",
+      "relay",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "listen",
+      "quiet",
+      "check:1",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "010",
+    "witness": [
+      "check:0",
+      "air:1",
+      "listen",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:2",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "011",
+    "witness": [
+      "listen",
+      "air:0",
+      "check:1",
+      "air:0",
+      "check:2",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:1",
+      "listen",
+      "air:1",
+      "check:1",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "012",
+    "witness": [
+      "check:2",
+      "air:1",
+      "check:1",
+      "quiet",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "013",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "air:1",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "listen",
+      "quiet",
+      "check:1",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "014",
+    "witness": [
+      "check:1",
+      "air:0",
+      "check:0",
+      "air:2",
+      "check:2",
+      "air:1"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "check:0",
+      "relay",
+      "check:1",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "015",
+    "witness": [
+      "listen",
+      "air:2",
+      "check:1",
+      "air:0",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:1",
+      "check:2",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "016",
+    "witness": [
+      "check:0",
+      "air:0",
+      "check:1",
+      "air:1",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:1",
+      "air:1",
+      "check:2",
+      "air:2",
+      "check:1",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "017",
+    "witness": [
+      "check:2",
+      "air:2",
+      "listen",
+      "quiet",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:0",
+      "air:2",
+      "listen",
+      "quiet",
+      "check:2",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "018",
+    "witness": [
+      "check:0",
+      "quiet",
+      "listen",
+      "air:1",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:0",
+      "air:1",
+      "check:0",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "019",
+    "witness": [
+      "check:1",
+      "air:2",
+      "listen",
+      "quiet",
+      "check:1",
+      "air:1"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "listen",
+      "air:0",
+      "check:0",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "020",
+    "witness": [
+      "check:1",
+      "air:0",
+      "listen",
+      "air:0",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:1",
+      "air:2",
+      "listen",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "021",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "quiet",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "quiet",
+      "listen",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "022",
+    "witness": [
+      "check:1",
+      "air:0",
+      "check:0",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:1",
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "023",
+    "witness": [
+      "check:2",
+      "quiet",
+      "check:2",
+      "air:1",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:0",
+      "air:2",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "024",
+    "witness": [
+      "listen",
+      "air:2",
+      "check:1",
+      "air:2",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "listen",
+      "air:1",
+      "check:1",
+      "air:1",
+      "check:2",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "025",
+    "witness": [
+      "check:2",
+      "air:0",
+      "listen",
+      "air:1",
+      "check:2",
+      "air:0"
+    ],
+    "alternate": [
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:1",
+      "check:2",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "026",
+    "witness": [
+      "check:0",
+      "air:0",
+      "check:2",
+      "relay",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "listen",
+      "air:1",
+      "check:2",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "027",
+    "witness": [
+      "check:1",
+      "quiet",
+      "check:1",
+      "air:1",
+      "check:1",
+      "air:0"
+    ],
+    "alternate": [
+      "check:1",
+      "air:2",
+      "check:0",
+      "air:0",
+      "listen",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "028",
+    "witness": [
+      "check:0",
+      "air:1",
+      "check:0",
+      "air:0",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "air:2",
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "029",
+    "witness": [
+      "listen",
+      "air:0",
+      "check:2",
+      "quiet",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "listen",
+      "air:2",
+      "check:0",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "030",
+    "witness": [
+      "check:2",
+      "air:2",
+      "listen",
+      "quiet",
+      "check:2",
+      "relay"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "check:0",
+      "quiet",
+      "check:1",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "031",
+    "witness": [
+      "check:2",
+      "air:2",
+      "check:1",
+      "air:1",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "check:0",
+      "air:0",
+      "listen",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "032",
+    "witness": [
+      "check:1",
+      "quiet",
+      "check:2",
+      "air:2",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "check:1",
+      "relay",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "033",
+    "witness": [
+      "listen",
+      "air:0",
+      "check:1",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "listen",
+      "air:1",
+      "check:0",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "034",
+    "witness": [
+      "check:2",
+      "air:1",
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "quiet",
+      "listen",
+      "quiet",
+      "check:1",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "035",
+    "witness": [
+      "check:0",
+      "air:1",
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "listen",
+      "air:2",
+      "check:2",
+      "air:0",
+      "check:0",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "036",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "air:2",
+      "check:1",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "listen",
+      "air:0",
+      "check:1",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "037",
+    "witness": [
+      "check:1",
+      "quiet",
+      "listen",
+      "quiet",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:1",
+      "check:1",
+      "quiet",
+      "check:1",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "038",
+    "witness": [
+      "check:2",
+      "air:0",
+      "check:1",
+      "air:2",
+      "check:2",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:1",
+      "air:1",
+      "check:1",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "039",
+    "witness": [
+      "check:1",
+      "air:0",
+      "check:2",
+      "quiet",
+      "check:0",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:1",
+      "air:2",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "040",
+    "witness": [
+      "check:2",
+      "air:2",
+      "check:2",
+      "relay",
+      "listen",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "listen",
+      "relay",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "041",
+    "witness": [
+      "check:2",
+      "quiet",
+      "check:1",
+      "air:2",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "check:2",
+      "quiet",
+      "check:1",
+      "air:1",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "042",
+    "witness": [
+      "check:0",
+      "air:2",
+      "check:2",
+      "air:0",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:1",
+      "air:1",
+      "listen",
+      "air:0",
+      "check:0",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "043",
+    "witness": [
+      "check:0",
+      "air:0",
+      "listen",
+      "quiet",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "check:0",
+      "air:2",
+      "check:2",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "044",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:0",
+      "quiet",
+      "listen",
+      "air:1"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:2",
+      "quiet",
+      "check:2",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "045",
+    "witness": [
+      "listen",
+      "air:2",
+      "check:0",
+      "air:0",
+      "listen",
+      "relay"
+    ],
+    "alternate": [
+      "check:1",
+      "air:1",
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "046",
+    "witness": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "air:0",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "listen",
+      "relay",
+      "check:1",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "047",
+    "witness": [
+      "check:2",
+      "quiet",
+      "check:1",
+      "quiet",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "quiet",
+      "check:2",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "048",
+    "witness": [
+      "check:2",
+      "quiet",
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "check:2",
+      "air:0",
+      "check:2",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "049",
+    "witness": [
+      "check:2",
+      "air:1",
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "air:0",
+      "listen",
+      "air:0",
+      "check:1",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "050",
+    "witness": [
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:1",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:2",
+      "air:0",
+      "listen",
+      "air:2",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "051",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "quiet",
+      "listen",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "check:0",
+      "quiet",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "052",
+    "witness": [
+      "check:2",
+      "quiet",
+      "check:2",
+      "quiet",
+      "check:0",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:1",
+      "air:0",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "053",
+    "witness": [
+      "check:0",
+      "quiet",
+      "listen",
+      "air:1",
+      "check:2",
+      "air:2"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "check:0",
+      "air:2",
+      "check:2",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "054",
+    "witness": [
+      "listen",
+      "air:1",
+      "listen",
+      "air:1",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "air:0",
+      "check:1",
+      "quiet",
+      "listen",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "055",
+    "witness": [
+      "listen",
+      "air:2",
+      "listen",
+      "air:2",
+      "listen",
+      "air:1"
+    ],
+    "alternate": [
+      "listen",
+      "air:1",
+      "listen",
+      "air:0",
+      "listen",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "056",
+    "witness": [
+      "listen",
+      "air:0",
+      "check:0",
+      "quiet",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "check:0",
+      "quiet",
+      "check:0",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "057",
+    "witness": [
+      "check:1",
+      "air:0",
+      "listen",
+      "quiet",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:0",
+      "air:2",
+      "check:1",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "058",
+    "witness": [
+      "listen",
+      "air:0",
+      "check:2",
+      "air:1",
+      "check:2",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "air:2",
+      "listen",
+      "quiet",
+      "check:1",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "059",
+    "witness": [
+      "check:0",
+      "air:2",
+      "check:0",
+      "quiet",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "quiet",
+      "listen",
+      "air:1",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "060",
+    "witness": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "quiet",
+      "check:1",
+      "air:0"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "check:2",
+      "air:2",
+      "check:0",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "061",
+    "witness": [
+      "check:1",
+      "air:0",
+      "check:2",
+      "air:2",
+      "check:2",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "listen",
+      "relay",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "062",
+    "witness": [
+      "check:0",
+      "quiet",
+      "listen",
+      "air:0",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "check:0",
+      "air:1",
+      "listen",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "063",
+    "witness": [
+      "check:1",
+      "air:0",
+      "check:2",
+      "air:2",
+      "check:2",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:0",
+      "air:1",
+      "listen",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "064",
+    "witness": [
+      "check:1",
+      "air:2",
+      "check:1",
+      "quiet",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:2",
+      "check:2",
+      "quiet",
+      "listen",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "065",
+    "witness": [
+      "listen",
+      "air:1",
+      "check:2",
+      "air:1",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:0",
+      "air:0",
+      "check:0",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "066",
+    "witness": [
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:0",
+      "listen",
+      "air:1"
+    ],
+    "alternate": [
+      "check:1",
+      "air:1",
+      "check:1",
+      "air:2",
+      "check:1",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "067",
+    "witness": [
+      "check:0",
+      "air:2",
+      "check:2",
+      "air:1",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "check:0",
+      "air:2",
+      "check:1",
+      "quiet",
+      "check:2",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "068",
+    "witness": [
+      "listen",
+      "air:1",
+      "check:0",
+      "quiet",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "check:0",
+      "air:1",
+      "listen",
+      "quiet",
+      "check:1",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "069",
+    "witness": [
+      "check:1",
+      "quiet",
+      "listen",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "quiet",
+      "listen",
+      "air:0",
+      "listen",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "070",
+    "witness": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "air:0",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "check:2",
+      "air:2",
+      "listen",
+      "air:1",
+      "check:2",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "071",
+    "witness": [
+      "check:0",
+      "air:1",
+      "check:0",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "listen",
+      "air:1",
+      "check:2",
+      "air:0",
+      "check:2",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "072",
+    "witness": [
+      "check:2",
+      "quiet",
+      "check:0",
+      "quiet",
+      "listen",
+      "air:0"
+    ],
+    "alternate": [
+      "check:2",
+      "quiet",
+      "listen",
+      "quiet",
+      "check:0",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "073",
+    "witness": [
+      "listen",
+      "air:1",
+      "check:2",
+      "air:2",
+      "listen",
+      "air:1"
+    ],
+    "alternate": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "air:0",
+      "check:1",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "074",
+    "witness": [
+      "check:1",
+      "quiet",
+      "check:0",
+      "air:0",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "check:2",
+      "air:1",
+      "listen",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "075",
+    "witness": [
+      "check:1",
+      "air:0",
+      "listen",
+      "air:2",
+      "listen",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:1",
+      "check:0",
+      "air:1",
+      "check:1",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "076",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:2",
+      "air:1",
+      "check:1",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "quiet",
+      "check:0",
+      "quiet",
+      "check:1",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "077",
+    "witness": [
+      "listen",
+      "quiet",
+      "check:1",
+      "quiet",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "listen",
+      "quiet",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "078",
+    "witness": [
+      "check:2",
+      "air:1",
+      "listen",
+      "air:1",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "check:2",
+      "quiet",
+      "check:1",
+      "air:0",
+      "check:1",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "079",
+    "witness": [
+      "check:1",
+      "air:2",
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "check:1",
+      "air:0",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "080",
+    "witness": [
+      "check:2",
+      "air:1",
+      "listen",
+      "quiet",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:0",
+      "air:1",
+      "check:1",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "081",
+    "witness": [
+      "check:1",
+      "quiet",
+      "check:1",
+      "quiet",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "listen",
+      "quiet",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "082",
+    "witness": [
+      "listen",
+      "air:1",
+      "check:0",
+      "quiet",
+      "check:2",
+      "air:2"
+    ],
+    "alternate": [
+      "check:2",
+      "air:1",
+      "check:0",
+      "air:2",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "083",
+    "witness": [
+      "listen",
+      "quiet",
+      "check:0",
+      "air:2",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:2",
+      "quiet",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "084",
+    "witness": [
+      "check:2",
+      "air:0",
+      "listen",
+      "air:0",
+      "check:2",
+      "air:1"
+    ],
+    "alternate": [
+      "listen",
+      "air:2",
+      "check:0",
+      "air:1",
+      "check:1",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "085",
+    "witness": [
+      "check:0",
+      "air:0",
+      "check:1",
+      "relay",
+      "check:1",
+      "air:1"
+    ],
+    "alternate": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "air:0",
+      "check:2",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "086",
+    "witness": [
+      "listen",
+      "air:1",
+      "listen",
+      "quiet",
+      "listen",
+      "air:1"
+    ],
+    "alternate": [
+      "listen",
+      "air:1",
+      "listen",
+      "air:2",
+      "listen",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "087",
+    "witness": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "air:1",
+      "listen",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:1",
+      "air:1",
+      "check:1",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "088",
+    "witness": [
+      "check:1",
+      "quiet",
+      "check:0",
+      "quiet",
+      "check:2",
+      "quiet"
+    ],
+    "alternate": [
+      "check:2",
+      "air:1",
+      "check:1",
+      "air:0",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "089",
+    "witness": [
+      "check:1",
+      "quiet",
+      "check:0",
+      "quiet",
+      "check:1",
+      "quiet"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:2",
+      "quiet",
+      "check:1",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "090",
+    "witness": [
+      "check:2",
+      "air:2",
+      "listen",
+      "quiet",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "check:2",
+      "quiet",
+      "check:2",
+      "air:2",
+      "check:2",
+      "relay"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "091",
+    "witness": [
+      "check:1",
+      "quiet",
+      "check:0",
+      "quiet",
+      "check:1",
+      "air:1"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "check:2",
+      "air:1",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "092",
+    "witness": [
+      "listen",
+      "air:1",
+      "listen",
+      "air:1",
+      "check:2",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:2",
+      "check:0",
+      "air:1",
+      "listen",
+      "air:0"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "093",
+    "witness": [
+      "check:1",
+      "air:0",
+      "listen",
+      "air:2",
+      "check:0",
+      "air:1"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:2",
+      "air:1",
+      "check:1",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "094",
+    "witness": [
+      "listen",
+      "air:1",
+      "listen",
+      "quiet",
+      "listen",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "listen",
+      "air:0",
+      "listen",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "095",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:1",
+      "air:2",
+      "listen",
+      "air:1"
+    ],
+    "alternate": [
+      "listen",
+      "quiet",
+      "check:1",
+      "air:2",
+      "check:0",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "096",
+    "witness": [
+      "check:1",
+      "air:0",
+      "listen",
+      "air:0",
+      "check:0",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:2",
+      "check:0",
+      "air:1",
+      "check:0",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "097",
+    "witness": [
+      "check:2",
+      "quiet",
+      "check:2",
+      "air:2",
+      "check:1",
+      "air:2"
+    ],
+    "alternate": [
+      "listen",
+      "air:0",
+      "check:1",
+      "air:0",
+      "check:2",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "098",
+    "witness": [
+      "check:0",
+      "quiet",
+      "check:1",
+      "air:1",
+      "check:0",
+      "quiet"
+    ],
+    "alternate": [
+      "check:1",
+      "quiet",
+      "check:0",
+      "quiet",
+      "listen",
+      "air:1"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "099",
+    "witness": [
+      "check:0",
+      "air:1",
+      "check:2",
+      "quiet",
+      "check:2",
+      "quiet"
+    ],
+    "alternate": [
+      "check:0",
+      "air:1",
+      "check:0",
+      "quiet",
+      "check:0",
+      "quiet"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  },
+  {
+    "id": "100",
+    "witness": [
+      "check:1",
+      "air:1",
+      "check:0",
+      "relay",
+      "check:1",
+      "air:0"
+    ],
+    "alternate": [
+      "check:0",
+      "air:0",
+      "check:2",
+      "relay",
+      "check:1",
+      "air:2"
+    ],
+    "status": "won",
+    "mode": "challenge",
+    "difficulty": "normal"
+  }
+]

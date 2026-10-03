@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "001 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "002 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "003 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "004 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "005 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "006 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "007 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "008 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "009 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "010 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "011 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 3
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "012 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "013 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "014 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "015 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "016 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "017 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "018 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "019 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "020 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "021 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "022 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "023 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "024 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "025 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "026 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "027 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 3
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "028 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "029 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "030 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "031 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "032 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "033 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "034 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "035 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 3
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "036 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "037 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "038 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "039 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 4
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "040 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "041 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "042 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "043 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "044 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "045 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "046 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "047 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "048 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "049 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "050 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "051 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "052 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "053 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "054 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "055 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 4
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "056 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "057 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "058 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "059 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "060 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "061 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "062 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "063 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "064 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "065 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "066 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "067 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 4
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "068 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "069 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "070 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "071 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 4
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "072 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "073 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "074 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 2
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "075 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 4
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "076 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "岑青"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "077 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "078 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "079 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "080 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "081 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "082 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "083 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 1
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "084 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 2
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "085 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "086 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 0
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "087 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "088 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "未交付"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "089 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "090 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "091 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "092 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "093 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "許澄"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "094 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "清晨別離"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 0
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 2
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "095 · 清晨別離",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 3
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "096 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      }
+    ],
+    "premise": "風雨把三位故人留在旅館，七封信同時抵達櫃檯。",
+    "title": "097 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "owner",
+        "label": "房契收件人",
+        "value": "安禾"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 3
+      }
+    ],
+    "premise": "旅館即將易主，住客還不知道彼此帶來的信。",
+    "title": "098 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "同桌早餐"
+      },
+      {
+        "key": "late",
+        "label": "補送信件",
+        "value": 1
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 3
+      }
+    ],
+    "premise": "一封遲到的道歉與一份房契，等著同一夜的投遞。",
+    "title": "099 · 同桌早餐",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "各自留下"
+      },
+      {
+        "key": "sealed",
+        "label": "仍封存的信件",
+        "value": 5
+      },
+      {
+        "key": "stayed",
+        "label": "留下的住客",
+        "value": 3
+      }
+    ],
+    "premise": "離開的人已收好行李，你得決定哪些話能趕在天亮前抵達。",
+    "title": "100 · 各自留下",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "鑰匙與警告會先於告別信發揮作用。晚送的道歉未必恢復信任；房契則仍能改變歸屬。"
+  }
+]
