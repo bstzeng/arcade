@@ -1,0 +1,176 @@
+{
+  "scope": "Independent controlled local-duel counterfactuals, using actual transitions; no builder mechanic tests imported",
+  "tests": [
+    {
+      "id": "magnet-gauntlet",
+      "name": "polarity changes displacement direction",
+      "passed": true,
+      "details": [
+        4.101176470588236,
+        -4.101176470588236
+      ]
+    },
+    {
+      "id": "salvage-mech-duel",
+      "name": "strip and recover transfer actual enemy weapon and mass",
+      "passed": true,
+      "details": [
+        {
+          "modules": [
+            "blade",
+            "ram",
+            "ram"
+          ],
+          "mass": 2.05
+        },
+        {
+          "modules": [
+            "blade"
+          ],
+          "mass": 1.35
+        }
+      ]
+    },
+    {
+      "id": "shadow-samurai",
+      "name": "movable light changes independent projected strike origin",
+      "passed": true,
+      "details": {
+        "before": {
+          "x": 459.5078172294715,
+          "y": 350.76060909713993,
+          "length": 100.31677971883482
+        },
+        "after": {
+          "x": 489.78881614119143,
+          "y": 353.5306652348176,
+          "length": 122.63524590674511
+        },
+        "hits": 1
+      }
+    },
+    {
+      "id": "chain-hammer",
+      "name": "reeling alters radius and spin rather than labels",
+      "passed": true,
+      "details": [
+        88.7,
+        91.6
+      ]
+    },
+    {
+      "id": "folding-weapon",
+      "name": "form transition cancels recovery",
+      "passed": true,
+      "details": 48
+    },
+    {
+      "id": "glass-fist",
+      "name": "hit creates hazards and reclaim restores blade stock",
+      "passed": true,
+      "details": {
+        "blades": 2,
+        "remaining": 0
+      }
+    },
+    {
+      "id": "breathing-boxer",
+      "name": "inhale fills finite breath while burst spends it",
+      "passed": true,
+      "details": {
+        "before": 58.999999999999986,
+        "after": 13.999999999999986,
+        "burst": 64
+      }
+    },
+    {
+      "id": "wall-gravity-duel",
+      "name": "grip changes gravity and departure creates directional flight",
+      "passed": true,
+      "details": {
+        "gravity": 1,
+        "air": 105
+      }
+    },
+    {
+      "id": "shared-pole-duel",
+      "name": "competing grip changes shared control",
+      "passed": true,
+      "details": [
+        0.45000000000000023,
+        -0.45000000000000023
+      ]
+    },
+    {
+      "id": "ribbon-grapple",
+      "name": "wrapping restricts victim movement and release deals damage",
+      "passed": true,
+      "details": {
+        "before": 1000,
+        "after": 984
+      }
+    },
+    {
+      "id": "weighted-armor",
+      "name": "weight orientation causally changes torque",
+      "passed": true,
+      "details": [
+        64.20588235294117,
+        36.166666666666664
+      ]
+    },
+    {
+      "id": "delayed-echo-fist",
+      "name": "strike persists at original position and fires after120 ticks",
+      "passed": true,
+      "details": {
+        "seedTick": 8,
+        "due": 128
+      }
+    },
+    {
+      "id": "async-arms",
+      "name": "release starts one hand cooldown while other stays independent",
+      "passed": true,
+      "details": {
+        "left": 25,
+        "right": 0,
+        "rightCharge": 13
+      }
+    },
+    {
+      "id": "element-contact",
+      "name": "ordered contamination changes next-hit reaction",
+      "passed": true,
+      "details": 1
+    },
+    {
+      "id": "sculpted-arena",
+      "name": "heavy strike changes floor and creates height advantage",
+      "passed": true,
+      "details": [
+        1,
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        -1,
+        -1,
+        -1,
+        1,
+        -2,
+        1,
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+      ]
+    }
+  ],
+  "passed": true
+}

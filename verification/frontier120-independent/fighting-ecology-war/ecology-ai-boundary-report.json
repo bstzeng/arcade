@@ -1,0 +1,106 @@
+{
+  "scope": "Independent 1,800 bounded-observation decisions plus1,500 actual ecological trace runs across all three tiers",
+  "passed": true,
+  "policies": [
+    {
+      "type": "island",
+      "game": "evolving-island",
+      "policies": [
+        {
+          "tier": "easy",
+          "distinctLegalDecisions": 3
+        },
+        {
+          "tier": "normal",
+          "distinctLegalDecisions": 3
+        },
+        {
+          "tier": "hard",
+          "distinctLegalDecisions": 3
+        }
+      ],
+      "hiddenFutureInvariant": true,
+      "fullTraceMetricsDivergeOnLevels": 85
+    },
+    {
+      "type": "pollinator",
+      "game": "bloom-timing",
+      "policies": [
+        {
+          "tier": "easy",
+          "distinctLegalDecisions": 3
+        },
+        {
+          "tier": "normal",
+          "distinctLegalDecisions": 3
+        },
+        {
+          "tier": "hard",
+          "distinctLegalDecisions": 3
+        }
+      ],
+      "hiddenFutureInvariant": true,
+      "fullTraceMetricsDivergeOnLevels": 99
+    },
+    {
+      "type": "predator",
+      "game": "lost-predators",
+      "policies": [
+        {
+          "tier": "easy",
+          "distinctLegalDecisions": 2
+        },
+        {
+          "tier": "normal",
+          "distinctLegalDecisions": 2
+        },
+        {
+          "tier": "hard",
+          "distinctLegalDecisions": 2
+        }
+      ],
+      "hiddenFutureInvariant": true,
+      "fullTraceMetricsDivergeOnLevels": 100
+    },
+    {
+      "type": "mimic",
+      "game": "borrowed-appearance",
+      "policies": [
+        {
+          "tier": "easy",
+          "distinctLegalDecisions": 2
+        },
+        {
+          "tier": "normal",
+          "distinctLegalDecisions": 2
+        },
+        {
+          "tier": "hard",
+          "distinctLegalDecisions": 2
+        }
+      ],
+      "hiddenFutureInvariant": true,
+      "fullTraceMetricsDivergeOnLevels": 100
+    },
+    {
+      "type": "social",
+      "game": "social-cost",
+      "policies": [
+        {
+          "tier": "easy",
+          "distinctLegalDecisions": 4
+        },
+        {
+          "tier": "normal",
+          "distinctLegalDecisions": 4
+        },
+        {
+          "tier": "hard",
+          "distinctLegalDecisions": 4
+        }
+      ],
+      "hiddenFutureInvariant": true,
+      "fullTraceMetricsDivergeOnLevels": 100
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "auditor": "Independent AI/strategy runtime audit",
+  "status": "passed",
+  "passed": true,
+  "completedAt": "2026-10-03T05:15:28.315033+00:00",
+  "scope": "45 frontier titles: fighting, ecology and war. Offline actual-engine and independent minimal-DOM callback checks only. Production read-only; no browser, network or publishing.",
+  "families": [
+    {
+      "family": "duel120",
+      "manifest": "games/duel120-common/release-manifest.json",
+      "manifestHash": "8470d3884f42a43b03459ef51835ab8df765a7227a240cb504574cc29206531c",
+      "sources": 124,
+      "evidence": 1
+    },
+    {
+      "family": "ecology120",
+      "manifest": "games/ecology120-common/release-manifest.json",
+      "manifestHash": "0c3209f8e53dc6cec6da522b4f7ad57464999d2872f72cfa190956a11c964e7c",
+      "sources": 89,
+      "evidence": 2
+    },
+    {
+      "family": "war120",
+      "manifest": "games/war120-common/release-manifest.json",
+      "manifestHash": "b9dc94bfdc4bd5153544835226ba8b0417c5a571db7c3e7b91233174db0994f0",
+      "sources": 89,
+      "evidence": 4
+    }
+  ],
+  "sourceBinding": {
+    "before": "source-binding-before.json",
+    "after": "source-binding-after.json",
+    "productionSourceFiles": 302,
+    "productionEvidenceFiles": 7,
+    "manifestFiles": 3,
+    "totalBoundFiles": 312,
+    "boundIndependentAssertionModules": 12,
+    "productionUnchanged": true,
+    "auditCodeUnchanged": true,
+    "suiteElapsedMs": 224257
+  },
+  "counts": {
+    "games": 45,
+    "levelsPerGame": 100,
+    "actualRuntimeWitnesses": 4500,
+    "independentlyCheckedTransitions": 621499,
+    "fightingNegativePolicyRuns": 6000,
+    "warConstantPolicyRuns": 3000,
+    "ecologyConstantPolicyRuns": 10900,
+    "fightingAlternativeWinningTraces": 40,
+    "warIndependentAlternativeWinningPlans": 1356,
+    "ecologyAlternativeWinningTraces": 1297,
+    "actualControllerMissionReplays": 90,
+    "mechanicSpecificCausalProbes": 45,
+    "additionalEasyPolicyRegressionProbes": 2,
+    "ecologyObservationDecisionCases": 1800,
+    "ecologyCrossTierFullTraceRuns": 1500,
+    "invalidSaveCases": 180
+  },
+  "independentAssertions": {
+    "terminalGoals": "Independent numeric/property goals, not builder proof flags. Legal actions and transition invariants checked throughout each witness; prefixes cannot independently satisfy terminal goals.",
+    "scenarioDiversity": "100 anonymous full-horizon ecological behavioral signatures/title,100 unlabeled non-isomorphic war tree maps/title,100 actual fighting collision-layout signatures/title after reflections/axis normalization.",
+    "ai": "All three fighting and war tiers have different decision-only traces and obey documented observations. All five ecology policies respond to observations at all three tiers, with actual runtime consequences. Current/future human order and hidden extra data tests passed.",
+    "physicsAndMechanics": "Every fighting title has an independent concrete collision/weapon/temporal mechanism counterfactual. War and ecology titles each have independent causal subsystem probes.",
+    "controls": "Actual mounted callbacks exercised in an independent minimum DOM harness. Every witness input fits public controls;90 sample missions replayed through public UI callbacks. Fighting includes explicit precision stepping, pointer cancellation/outside release, keyboard blur, and page restoration loop tests.",
+    "persistence": "Malformed inputs recover/reject safely in sampled cases; assistance survives reload and certified challenge policy scope is enforced.",
+    "antiSpam": "All6000 independent fighting policy runs completed: idle and chase-primary win0 levels; no tested all-button/cycling policy wins all100 levels of any title. Max tested policy wins90/100. War wait/recruit-only policies never meet a full challenge.",
+    "ecologyConservation": "All mycelium witness transitions independently conserve host water plus finite groundwater after rain and consumption. Island/intertidal lineages cannot recover after extinction; valid regenerated witnesses remain alive."
+  },
+  "resolvedFindings": [
+    {
+      "id": "ecology-easy-ai",
+      "problem": "Island, predator and social easy policies originally ignored observed state.",
+      "resolution": "Weaker observation-dependent policies now produce causal tier differences.",
+      "evidence": [
+        "ecology-ai-boundary-report.json",
+        "ecology-causality-report.json"
+      ]
+    },
+    {
+      "id": "ecology-groundwater",
+      "problem": "Mycelium water transfer originally created water without a finite source.",
+      "resolution": "Bounded soil reservoir, explicit extraction/consumption accounts, visible reservoir and conservation assertions.",
+      "evidence": [
+        "runtime-replay-report.json",
+        "ecology-causality-report.json"
+      ]
+    },
+    {
+      "id": "ecology-extinction",
+      "problem": "Two island proofs and one intertidal proof resurrected extinct populations.",
+      "resolution": "Extinction is absorbing; affected corpora/proofs regenerated. Plant health explicitly describes reversible stress of living roots.",
+      "evidence": [
+        "runtime-replay-report.json",
+        "ecology-causality-report.json"
+      ]
+    },
+    {
+      "id": "war-decentralized-command",
+      "problem": "Capitalless challenge was lost immediately if original node0 fell.",
+      "resolution": "Network challenge continues with other command councils; origin-loss continuation and independent council victory rechecked. Builder final source-bound regression report includes10 cases.",
+      "evidence": [
+        "games/war120-common/audit-regression-report.json",
+        "war-causality-report.json"
+      ]
+    },
+    {
+      "id": "war-rule-text",
+      "problem": "Layer/rail text claimed underground supply cutting and disconnected frontline tax effects absent from the engine.",
+      "resolution": "Final UI/README scope matches actual cross-layer reinforcements and rail-connected recruitment/supply.",
+      "evidence": [
+        "source-binding-after.json"
+      ]
+    }
+  ],
+  "remainingBlockers": [],
+  "caveats": [
+    "No real-browser rendering, mobile geometry, touch hardware or hosted deployment QA was performed by this audit.",
+    "Witnesses prove existence against the documented fixed training/normal challenge policies. They do not prove unique solutions or forced wins against arbitrary opponents.",
+    "Difficulty decisions and information limits are verified; monotonically stronger win rates for every opponent style are not claimed.",
+    "Ecology models remain explicitly simplified game abstractions, not scientific forecasting.",
+    "Finite sampled negative policies and counterfactuals do not constitute exhaustive verification of every possible control sequence."
+  ],
+  "reports": {
+    "source-binding-before.json": "6c074fe67a9894a6e4900de95a3c7099b4a4a727584d50a398796654a846c11b",
+    "source-binding-after.json": "8a40fdeb21aea0b00f78c1a6fea95ae4c99a078bbe6fa58bfaf7dba97e1de50d",
+    "runtime-replay-report.json": "d79790f33f83f3d63be660eccc95e908c96ea4876d50a49668b59c7cf4d69665",
+    "adversarial-report.json": "024a6534253dc739189ae4ee896bf2bf0a0ba29240d72566f91e826dc844e4d2",
+    "ecology-diversity-report.json": "8ee4e9a5cb98657e7639ee3fee4fe1bbc27eacc9bc3aaf1dff20cfd76277d11c",
+    "ecology-ai-boundary-report.json": "61161cf081447f5681b9b87bf7b02d4d4ac8881f6bd8154fe6e144cc1d48113d",
+    "ui-report.json": "a52dccf05fe5411cbf30d538de880bded8ec6491c0e5154d43935474eb4b95d4",
+    "save-and-boundary-report.json": "a4842af4a27e831eb9e9d4533e6472d3815137cd6474d366d2f9061b279074af",
+    "fighting-causality-report.json": "465efa269baedc08f7e6b4e8cfd8f04adc362f41ea076080c2bb7c583a49f19f",
+    "ecology-causality-report.json": "93de81ca95979f77ea4fd70f44d924f39430a5fe2206ff25339d1b12b5a48e25",
+    "war-causality-report.json": "47d40d95185f997543ead93b56bf738bd59cbb3e7f2e5e6a37e96bc165ef6e1a",
+    "war-alternatives-report.json": "12752da8722f22ca5d8cbfd67d61e1c1bf43cf90ddeda807ec1d9d8529ad6176"
+  }
+}

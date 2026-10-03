@@ -1,0 +1,236 @@
+{
+  "scope": "Independent controlled causality/observation and correction-regression checks; no builder tests imported",
+  "tests": [
+    {
+      "id": "droplet-world",
+      "name": "distinct protective structures counter distinct environmental stresses",
+      "passed": true,
+      "details": [
+        5,
+        4
+      ]
+    },
+    {
+      "id": "evolving-island",
+      "name": "habitat alteration changes niche fitness while extinction cannot reverse",
+      "passed": true,
+      "details": [
+        7,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "before-wings",
+      "name": "glide and forage produce different range-energy tradeoffs",
+      "passed": true,
+      "details": {
+        "glide": [
+          5,
+          6
+        ],
+        "forage": [
+          2,
+          9
+        ]
+      }
+    },
+    {
+      "id": "symbiotic-partners",
+      "name": "persistent partner network affects later carbon-water balance",
+      "passed": true,
+      "details": [
+        [
+          10,
+          2,
+          0
+        ],
+        [
+          10,
+          2,
+          0
+        ]
+      ]
+    },
+    {
+      "id": "intertidal-shift",
+      "name": "height changes drying/food exposure without resurrecting colonies",
+      "passed": true,
+      "details": [
+        9,
+        5
+      ]
+    },
+    {
+      "id": "mycelium-exchange",
+      "name": "transfer conserves host plus finite groundwater after weather/consumption",
+      "passed": true,
+      "details": {
+        "before": 19,
+        "after": 14,
+        "used": 5,
+        "rain": 0
+      }
+    },
+    {
+      "id": "century-pedigree",
+      "name": "hidden loci redacted and assay is legal informative action",
+      "passed": true,
+      "details": {
+        "revealedIndex": 2,
+        "known": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          false
+        ]
+      }
+    },
+    {
+      "id": "migration-memory",
+      "name": "route memory causally reduces inherited energy cost",
+      "passed": true,
+      "details": [
+        6,
+        9
+      ]
+    },
+    {
+      "id": "bloom-timing",
+      "name": "flower shape changes insect-specific seed yield",
+      "passed": true,
+      "details": [
+        9,
+        3
+      ]
+    },
+    {
+      "id": "lost-predators",
+      "name": "returning predators changes both prey and subsequent vegetation",
+      "passed": true,
+      "details": {
+        "predators": [
+          26,
+          [
+            12,
+            10
+          ]
+        ],
+        "refuge": [
+          22,
+          [
+            16,
+            16
+          ]
+        ]
+      }
+    },
+    {
+      "id": "vent-colony",
+      "name": "dormancy, capacity and enzyme controls change distinct energy constraints",
+      "passed": true,
+      "details": {
+        "sleep": 7,
+        "active": 5,
+        "capacity": 16,
+        "enzyme": 1
+      }
+    },
+    {
+      "id": "borrowed-appearance",
+      "name": "predator decision invariant to current hidden toxin but learns from outcome",
+      "passed": true,
+      "details": {
+        "choices": [
+          "attack",
+          "attack"
+        ],
+        "memory": [
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "dormant-seedbank",
+      "name": "partial dormancy survives failed crop while full germination extinguishes bank",
+      "passed": true,
+      "details": [
+        17,
+        0
+      ]
+    },
+    {
+      "id": "social-cost",
+      "name": "trust and need alter neighbor work at every tier",
+      "passed": true,
+      "details": [
+        [
+          "easy",
+          "forage",
+          "steal"
+        ],
+        [
+          "normal",
+          "forage",
+          "steal"
+        ],
+        [
+          "hard",
+          "forage",
+          "steal"
+        ]
+      ]
+    },
+    {
+      "id": "last-habitat",
+      "name": "only real open graph channels provide recolonization",
+      "passed": true,
+      "details": [
+        [
+          8,
+          0,
+          8,
+          0,
+          8
+        ],
+        [
+          8,
+          3,
+          7,
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "island",
+      "name": "easy policy reacts to observed food/population opportunity",
+      "passed": true,
+      "details": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": "predator",
+      "name": "easy policy reacts to observed food/population opportunity",
+      "passed": true,
+      "details": [
+        1,
+        0
+      ]
+    }
+  ],
+  "passed": true
+}

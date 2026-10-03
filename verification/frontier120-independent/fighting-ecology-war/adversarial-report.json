@@ -1,0 +1,1101 @@
+{
+  "scope": "Independent policies, actual AI decision events, role boundaries, alternative legal fighting traces, ecological behavior signatures",
+  "fighting": [
+    {
+      "id": "magnet-gauntlet",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 80,
+        "cycleAll": 82
+      },
+      "alternativeLevels": [
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "aa8bc5a890f79ebecaa3a118db0c0246607563a3f92d83206fcfadb4d3ae859f",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "35f12eebb5f2c32c48e2eeebac0778311429cd79b4769028cefb046abb4fe65a",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "441651580185dd7958cce87d9717809bc9312233bd10363fef44c02252cc9b40",
+          "guardDecisions": 8
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "salvage-mech-duel",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 78,
+        "cycleAll": 80
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "def1a98a2160725cde6b78b527c826493d43357fbb36d6dbd0cf32f70ac592e8",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "236c86a47d055a33d793adbac8401a6e00da4348f53faf9462712769e22dca90",
+          "guardDecisions": 4
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "a0522c758d2ada349eb4f74ecd7daf81f0e78d2bbabdab265328106700d06773",
+          "guardDecisions": 12
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "shadow-samurai",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 7
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "e34a74ad328a9366c17b4481e4bb89e593bb845435b4b353683e49964f21b2da",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "79df21b04530faae0492b46707fcf27ba560970f9f9852b8caa5239b02f01335",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "b18e056ef8c8e121b0fea1547dbb6e16c6021e6c0f1f55d87ed55e8b6238c0dc",
+          "guardDecisions": 8
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "chain-hammer",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 0
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "01b962090043dfc369d236646421cf2c187942ec59d68ee6d3e1280c16523206",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "898fb1f01e8d5e6ea8c7cd8f56d92011b401456bbf05e95e41492c5e2cc68341",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "6ea3aa139ec8d4256cc386925e2614cfe93397603fe346d0a1d1189f15220dfe",
+          "guardDecisions": 0
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "folding-weapon",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 25
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "fd7ccb362df57a6fa7229ec116cff00aee9143e4489d40dfe7358062d2745b31",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "6d764e9c9b0e1d3b18e5854475014468e81a968024ff55378e81555c56776f55",
+          "guardDecisions": 2
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "84f35048afabfb0aab24588ace7014d437a506793273191811cc5fb351459cdd",
+          "guardDecisions": 7
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "glass-fist",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 78,
+        "cycleAll": 74
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "1a895a9b3d77c2d50047e55c5a66225b279f1548767f548d64869a642e39cf11",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "8d91d5e0297e1dcfad448bd1f580d0b7dd3bf5dbdf004f5b82357a2be93f32b8",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "78801580ce29e22a0e4e791d344b894add8dd0a6294c1f013f6d0ebfcba940b8",
+          "guardDecisions": 8
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "breathing-boxer",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 85
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "710a232342ee386aa807d23ce49de3d8ba0437cfbdea1546b540f67372c1738a",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "d655cadee10341a70646432270c79cc4c572a3152e4640dfb2964dd05a9592f3",
+          "guardDecisions": 2
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "9eb293b548a2cda69d27db0edda6dabec54b8bbe7568ab478f78efcb2299bb57",
+          "guardDecisions": 4
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "wall-gravity-duel",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 2
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "a80b649e339de59bac25ea69c86c9edc6daa2afc1126430987610d0aa00d7891",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "abd5c425fb75abdcba59cfac00970b2f4e9f078e1cebb5f7a2f6ddc0e80c9f63",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "b0040d5528d5fe8902eacfb699c8a2ca6d245f68f35a721ec6697dd89612ae98",
+          "guardDecisions": 5
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "shared-pole-duel",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 90
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "7d2e62c17f03f95081a00b5bdaf779cf98249882244c05280f4dbc3ff4958f81",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "b7e5baab7c809c98fb5412df9e68964022b874bb09d343a50681a1823a6694d6",
+          "guardDecisions": 3
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "cc88d9c93ec33102879940f3bf3cd8f5bc0de8d1d204cb580b4d7f6e2909c7ef",
+          "guardDecisions": 10
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "ribbon-grapple",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 79,
+        "cycleAll": 79
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "3e2c1c998e93c7d08eeb4c041b8445654ab15996fbb7a78af6b37a9ab4521246",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "5937f265966a18d6f21cffe1e9a33996dffb38c6c2ad98eeb48dbdf7542b9b08",
+          "guardDecisions": 1
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "2dd637c41da9e28919b84409b5ed4ed6ad3211a6473a9cccc6ecf9388685e12e",
+          "guardDecisions": 7
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "weighted-armor",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 88,
+        "cycleAll": 88
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 30
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "942d51a7771b0063b878cf17a48017726a59bec0940b502effae7d9ea3d147bd",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "b197e9611a02068c0b035fefa9801754b8d0974b8f1c984b9d2fff6563474dec",
+          "guardDecisions": 4
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 51,
+          "firstDecision": 7,
+          "actionsHash": "cb400622f89e2a23668e1196166e754f22f98c9eb53d339272c7faba1bf4c64d",
+          "guardDecisions": 4
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "delayed-echo-fist",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 53
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "f3fdf6473f61515a19201da00916fad30aee60fd4a670de2262ec90ccdaecf97",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "4b9b17804ec16b6228b79e31273e2727d962d99dee1fb534b9242cb6daa3cf03",
+          "guardDecisions": 4
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "9982a43157ebe76028e419b80ce909f25d985f72fbf7fe57d4fa045c748cfad4",
+          "guardDecisions": 10
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "async-arms",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 84
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "c7f1d8c1e0e17eec7276f8418b0d94d5b311f3957afde5353e2dfe0b1f5c3d42",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "da28066e13a77bc20569892c6b033a9e7eeaa0e157ad3c4b93ead18806ce1f0d",
+          "guardDecisions": 1
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "8968d4bc21c1189ea129d1853659cbbe3a07ef7b504de7a7874da2a0afd3d774",
+          "guardDecisions": 4
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "element-contact",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 76,
+        "cycleAll": 77
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 50,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "4731ac3a14d8e52920db5835fbc3b701165bd29496fcea787e6f83b8b18a1034",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "bd65cd72eae7c91f15e09739ec4ab0293c158334373ccf41ce524ef32f594c2e",
+          "guardDecisions": 1
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "ebeeaa122e4649314db9671253349ebff3393bf22b48474e8d53d469b0c22ccc",
+          "guardDecisions": 7
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    },
+    {
+      "id": "sculpted-arena",
+      "policyWins": {
+        "idle": 0,
+        "chasePrimary": 0,
+        "chaseAll": 0,
+        "cycleAll": 66
+      },
+      "alternativeLevels": [
+        {
+          "level": 1,
+          "prefixIdleTicks": 1
+        },
+        {
+          "level": 100,
+          "prefixIdleTicks": 1
+        }
+      ],
+      "tiers": [
+        {
+          "difficulty": "easy",
+          "decisions": 16,
+          "firstDecision": 29,
+          "actionsHash": "d30bc835bb59fdc03ea91626c355283b618a01587e03f9e9f7562fe46c39df26",
+          "guardDecisions": 0
+        },
+        {
+          "difficulty": "normal",
+          "decisions": 29,
+          "firstDecision": 15,
+          "actionsHash": "834ad782c0e01c129a059951fa252540b78a9acdd7563d41d55e60df1acddae6",
+          "guardDecisions": 5
+        },
+        {
+          "difficulty": "hard",
+          "decisions": 59,
+          "firstDecision": 7,
+          "actionsHash": "80f09d26b8e8a68703d8f88682cc9fdbfe76b7e9dec3dd80762238af4103350a",
+          "guardDecisions": 9
+        }
+      ],
+      "currentInputInvariant": true,
+      "observedStateResponse": true
+    }
+  ],
+  "ecology": [
+    {
+      "id": "droplet-world",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "evolving-island",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "before-wings",
+      "anonymousTwoStepBehaviorSignatures": 63,
+      "levels": 100
+    },
+    {
+      "id": "symbiotic-partners",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "intertidal-shift",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "mycelium-exchange",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "century-pedigree",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "migration-memory",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "bloom-timing",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    },
+    {
+      "id": "lost-predators",
+      "anonymousTwoStepBehaviorSignatures": 96,
+      "levels": 100
+    },
+    {
+      "id": "vent-colony",
+      "anonymousTwoStepBehaviorSignatures": 55,
+      "levels": 100
+    },
+    {
+      "id": "borrowed-appearance",
+      "anonymousTwoStepBehaviorSignatures": 75,
+      "levels": 100
+    },
+    {
+      "id": "dormant-seedbank",
+      "anonymousTwoStepBehaviorSignatures": 96,
+      "levels": 100
+    },
+    {
+      "id": "social-cost",
+      "anonymousTwoStepBehaviorSignatures": 98,
+      "levels": 100
+    },
+    {
+      "id": "last-habitat",
+      "anonymousTwoStepBehaviorSignatures": 100,
+      "levels": 100
+    }
+  ],
+  "war": [
+    {
+      "id": "war-sky-islands",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "1cab8791591a35b8c984cf5624b9f054e9475eaca0bb16f8a49e2b5350af0d60",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "f8ffcd646e64d9ff664f176bdea3d8a74fa7036712b2454d804201236cdc763f",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "72572fafd31cfcd44c6398755dbd28f1ad8dff7c3fefc303abb7879accc18dcc",
+          "rounds": 23
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-robot-front",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "65b699f68f3005b21370b1a41a1ce99e8ef32eacb19b768783554cb489300b9d",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "fcc0d2bb5208ee3eaf2ba75948ca4f681f2be81d9a34563f76bf1fea3ec179ec",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "1c8fc4db8d1620be11fb8b6300494a6c2a3483bded6feaa5264df143381dd655",
+          "rounds": 14
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-four-seasons",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "5b803d5f29f97c881f2d0010b968963c2fef99ce9fe648051e94452f7e2ea0fb",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "32705ab45ff37048611b0f43a0c07bd1f5082e98595db4bb5342995ccb830a83",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "1f16573efed8c48273406d4ec9c05dad169d46f7d2189b68b32de4a5c8503696",
+          "rounds": 30
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-capitalless",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "60e3936e0ece4a1a11cb30e6e61821d23864606d0698c7b7919ece14361b39bd",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "fcc0d2bb5208ee3eaf2ba75948ca4f681f2be81d9a34563f76bf1fea3ec179ec",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "cbb8e91ec330cc3af87d3661149902c1bb2a6988086c626c22850f449f9a3ff4",
+          "rounds": 9
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-last-city",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "9cb14b3507c2f61ea3f9c17e22ec983756e3ee5569c15bc1b5d60949125015c9",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "af3a44b79b60a2688a46c70dcaca28305a2bfd69caf677e6ca0773af71df74cc",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "93ae60c5df35a03584ce237d90ca1a9aa91f3e4782d26f4ba0e55c754d8f0d19",
+          "rounds": 30
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-neutral-balance",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "60e3936e0ece4a1a11cb30e6e61821d23864606d0698c7b7919ece14361b39bd",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "fcc0d2bb5208ee3eaf2ba75948ca4f681f2be81d9a34563f76bf1fea3ec179ec",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "17f7a3d41b230fcf721058216a78bdc72979d8bf369ee050684ce1d3e0f00491",
+          "rounds": 30
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-tidal-continent",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "19d56b825d95c3cfcea9f16c4d58e7ea99097dcdbee899fea8c7db1423b89d34",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "86e7fc10bd8c115b1c59d47f518f0322666a53776487b133cd4b5de0d9facfde",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "859a1753b365ed2923dbb408b65c39d7a3bf39d0f6fb19b1719d70354f1a80af",
+          "rounds": 10
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-hundred-flags",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "60e3936e0ece4a1a11cb30e6e61821d23864606d0698c7b7919ece14361b39bd",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "fcc0d2bb5208ee3eaf2ba75948ca4f681f2be81d9a34563f76bf1fea3ec179ec",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "cbb8e91ec330cc3af87d3661149902c1bb2a6988086c626c22850f449f9a3ff4",
+          "rounds": 9
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-rail-crown",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "28733fbda5ba907b74207b2da03c6e0b506790a80180ce573e236b1810caba81",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "b30dd53ee685b5bf953fb38223c76afcdc08ad0380ffcf3e4dde38e47bbf7857",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "10d5ee72e939d7cf47459dc5530cf05d2c40e508a997d1162b890f3434fc8bfc",
+          "rounds": 30
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-memory-front",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "60e3936e0ece4a1a11cb30e6e61821d23864606d0698c7b7919ece14361b39bd",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "fcc0d2bb5208ee3eaf2ba75948ca4f681f2be81d9a34563f76bf1fea3ec179ec",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "cbb8e91ec330cc3af87d3661149902c1bb2a6988086c626c22850f449f9a3ff4",
+          "rounds": 9
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-simultaneous-orders",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "60e3936e0ece4a1a11cb30e6e61821d23864606d0698c7b7919ece14361b39bd",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "fcc0d2bb5208ee3eaf2ba75948ca4f681f2be81d9a34563f76bf1fea3ec179ec",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "cbb8e91ec330cc3af87d3661149902c1bb2a6988086c626c22850f449f9a3ff4",
+          "rounds": 9
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-three-fronts",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "6d94769962e2a8c5ab497c102c46188c82c91d4662e3d57fc7418421c4f5fe58",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "10c1c4e56a89704020e7c09d48e1aa43411d1a1e930dd8a3f737fe4e60c6fc72",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "0811381389de7b70efb5103ad604d3f2590b9ab45f5c8b5c03f176b690c7d2b5",
+          "rounds": 30
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-succession",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "60e3936e0ece4a1a11cb30e6e61821d23864606d0698c7b7919ece14361b39bd",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "fcc0d2bb5208ee3eaf2ba75948ca4f681f2be81d9a34563f76bf1fea3ec179ec",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "cbb8e91ec330cc3af87d3661149902c1bb2a6988086c626c22850f449f9a3ff4",
+          "rounds": 9
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-after-conquest",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "fcc012fb40ea47527c73f863f43c429a9cfb1bb8ab7a742ab151f96b166bc8c8",
+          "rounds": 22
+        },
+        {
+          "tier": "normal",
+          "traceHash": "bf56ab5ecaa4c7eb7570b1609940d8333374e173800aa6d11c2fe27f0c9fbe48",
+          "rounds": 24
+        },
+        {
+          "tier": "hard",
+          "traceHash": "9f5a4d901e612e4f892e01b97800e5be0f7b09be31f09a9fd1f1a7e7885f4896",
+          "rounds": 6
+        }
+      ],
+      "privateOrderInvariant": true
+    },
+    {
+      "id": "war-retreating-empire",
+      "tiers": [
+        {
+          "tier": "easy",
+          "traceHash": "b82d9e14eef971e33858e5e73fad7e64eeee1cef5c880601363b984935308312",
+          "rounds": 30
+        },
+        {
+          "tier": "normal",
+          "traceHash": "a89c296be535560443bd34773f097d970cf3241856a835372dc9941f0bac1504",
+          "rounds": 30
+        },
+        {
+          "tier": "hard",
+          "traceHash": "70b5341e6ab9853f2c5f9e5ae52a1b95c5fb305b95506e6f7599e2b58d47e8f3",
+          "rounds": 30
+        }
+      ],
+      "privateOrderInvariant": true
+    }
+  ],
+  "failures": [],
+  "passed": true
+}
