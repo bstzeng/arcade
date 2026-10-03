@@ -1,0 +1,6102 @@
+[
+  {
+    "id": 1,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "c1c72a781428bdbbb50af8c9c6e1dcd10bf577f19c6b023614743fb58283b562"
+  },
+  {
+    "id": 2,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "f89dc589088ad94fa1f10cf4ba5c68e58c9b4f745f0b5cc5ce66c817891e565d"
+  },
+  {
+    "id": 3,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "498e87459ce7ce60edd25d3dd048b994b6b0570de2ef13b36312f757a9d94062"
+  },
+  {
+    "id": 4,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "fe7c901858fc71b218f3d0bddb01390aaa5569bb2f9c4e153013641b18a7b04d"
+  },
+  {
+    "id": 5,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "ded6097466e0c1df63dbb7aded766349d778d6fd3d4585a72cfa185bcfb0ed6f"
+  },
+  {
+    "id": 6,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "b0c505836d2b3c9c552526ffd2bf6f6fcf3037ad86f7860a7a8a2e3abff89a1e"
+  },
+  {
+    "id": 7,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "f39fc840f7cb1d52a90088403ac20dea29d9122f3372d5bd8d94c34dec596ce4"
+  },
+  {
+    "id": 8,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "dde4010976ea0d426bed97f83397efc3a0668b00ad846d229cde7faca5ae9c0b"
+  },
+  {
+    "id": 9,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "5a06d97271ec73380e8ec24f01a9314eb2f378840d29f3839117e98b03d1c12c"
+  },
+  {
+    "id": 10,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "466ea9948b305bcb9ffc909c4510fc5bcf76188d7ff95d7577ff4a715f302e72"
+  },
+  {
+    "id": 11,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "afe4ed0e9b83cbf47789c452accdd4815a897641f047b500057fa7620ef034d3"
+  },
+  {
+    "id": 12,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "e67bffb646503e847e5ea34619445c5d020dbe05ceef3770830a9e7fcbec610b"
+  },
+  {
+    "id": 13,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "962830b25f34b4ca3aa1197ac4a27e37742e20ead1ffc988d6a9af2981e0c7c7"
+  },
+  {
+    "id": 14,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "4d35889256ab3aa5f53a8ad4e4dc4a653ba817053aa9f58c2b99f0f0be26b33c"
+  },
+  {
+    "id": 15,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "fbe4ab8c3fc087f7cfb48405c0d6b6ffbe731e98564e271f81cffe704827a84a"
+  },
+  {
+    "id": 16,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "464092863c14d4eb8a5204e4cea60f1c14f4c920f2a7b655189dc05bd00c93ba"
+  },
+  {
+    "id": 17,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "341b33d7c9dc4d3cf8f71ed6519c6da55426301efff05a4d2ed2fc3f8c440e21"
+  },
+  {
+    "id": 18,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "de1160a0efa48394ea4eae15a8ad0e562ca84c791c489a75cd714698784024f9"
+  },
+  {
+    "id": 19,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "88b7e005e60b569bfc5b1733515a9ed71f15e911efe3dac6f927437aaf3a4682"
+  },
+  {
+    "id": 20,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "67ed4b93fdbec61c0d524861fc57df923ab28fe84929f71dd5f8ec509637f69b"
+  },
+  {
+    "id": 21,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "cfeb15bf5bf07a1a068c37091ebc39bea00978e034f795f1b9810aa07497d016"
+  },
+  {
+    "id": 22,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "2da50d5bb5af34976037786996ea9a6b1acfc985ac8c5967dc68920ff17ae64f"
+  },
+  {
+    "id": 23,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "5c4d8059d41bd7d9d1ab717fd7b44110332005ff250dad0c36fda7d8d8a783eb"
+  },
+  {
+    "id": 24,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "8ba6b626feefff65c27d0df09cdb3fd5befd8655af2e51dd6642ace181779a45"
+  },
+  {
+    "id": 25,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "aeab4cc4a6961c55c02e02707e06e4b6fe732b1cbc5ff230f3f03431fbb5c145"
+  },
+  {
+    "id": 26,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "7a9ba089221beea1bbf4fc3bb39a5a5dee4a0efbd6d8a1c17b0466eb4877ea58"
+  },
+  {
+    "id": 27,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "0343d84613f190ee1e3362b0add3d69252432fa8b34109126908ccfb079c5612"
+  },
+  {
+    "id": 28,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "395fb9c90fbd9622f953fb0b890fb31e504989780985503bf396414e19fafe2e"
+  },
+  {
+    "id": 29,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "81773e57a4dc2e199a482cef305f609c2a0d3b179ed777b7ca62eea1322f2263"
+  },
+  {
+    "id": 30,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "746e6e881ac8ebcceee69ff46a15cfcd09bd853d5a17932c9a16952af295eb5d"
+  },
+  {
+    "id": 31,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "ad6358f7c682671020a98fcdedef57ad0056b39bab44fc0db0dae998284c0a34"
+  },
+  {
+    "id": 32,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "727bc7c669e29ed7e995612507af2687e4d67eac87c11ecdc987a294780da2ca"
+  },
+  {
+    "id": 33,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "3a8fd40254495326e74c4d17a9f49aa4d295c197b6e13de044773bcab431e751"
+  },
+  {
+    "id": 34,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "b0d799adcdbfb12e327e0b825e6c0f50f0ae60548bbd960bebf7920032603724"
+  },
+  {
+    "id": 35,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "70473fc38f514f8ba44aa85b5b44de75a3ceda7b62db6e6660e3ff43fc276a7c"
+  },
+  {
+    "id": 36,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "3b1d358477390c78b7860a1c0400eb189f79ee45f743426bf08a639c6f959b4c"
+  },
+  {
+    "id": 37,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "0b7c2f8016aa6f0a4894a99fd38b8dec25822a90c523f2cb129a877dc6e4c818"
+  },
+  {
+    "id": 38,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "89c40e5a0daceb7209caa7146785dbacf6a6aed21b06f43bb1a69b2ecf0476fe"
+  },
+  {
+    "id": 39,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "a235bcaf4b7465eba9cfeb4fcc3259cd7ada9e7708673dd32492f78b6c6e0ae6"
+  },
+  {
+    "id": 40,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "4c7c76ef0734c8c8dc4b41672171c836ef5366ea1e2c314ffada18c2d993e6f4"
+  },
+  {
+    "id": 41,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "73daf7ec0f9c008d56af7a9fc92e56bbfc203f5d46275864e3ec5fc955396f98"
+  },
+  {
+    "id": 42,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "9ecc68875bbb0c422d5dbaff32720ffcf610c5794afcd441788912e0b5e98292"
+  },
+  {
+    "id": 43,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "ad9f097a002cfc80fb64cd86982158bb4f522da8d5b3c1ee2a78b6a9211ac7bb"
+  },
+  {
+    "id": 44,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "5cd00720f725d569b9c1cbc515d5ebe3ab18f7fa75258c054fc964a85fb7f3c2"
+  },
+  {
+    "id": 45,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "f1bcea1f3d2f392d571a9f99ff9841f41abe5de5d89adb86981654dd042deb41"
+  },
+  {
+    "id": 46,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "2da61c6ce95cb611a666ee677b8490febb4027de0e30cc7fba70ebace6148782"
+  },
+  {
+    "id": 47,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "330096a076719fba54c6d325761383b1f9b82f970b06d84e491d0be3eee3e3d8"
+  },
+  {
+    "id": 48,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "d24d34c8db8b220492a37adea06c58b8b7c8fb40b84194dcac92cdf129dcf59b"
+  },
+  {
+    "id": 49,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "59344fdc86208d0d4e23a27d132b65f30db007e96e25ad1dbc62fa90c4d578bc"
+  },
+  {
+    "id": 50,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "9623466c8ce3db09d25f9e09ceb693fd81b7b9195385ae14b252facc82f57b84"
+  },
+  {
+    "id": 51,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "6c15b08109827f0605408842b2fe86c9f67ec5a67ef3966b04cdaf0b36224dbb"
+  },
+  {
+    "id": 52,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "5fe41f258b5d8936fab8c8e2a83fdad3be4b63b4ca94381b44c21aa3dfea8ca1"
+  },
+  {
+    "id": 53,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "bba40aabfa4b389a4fc42663db21557c813d8b0974fd319c4bbd6d97a5e7beb9"
+  },
+  {
+    "id": 54,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "6b5e6dcffd68c788d06872a2bd058f9ba28ac36f1d5c0fdff1d9a190326a79fe"
+  },
+  {
+    "id": 55,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "67a7f732c2ecd8a35c06ad690c31d793c78a43ac1be313f2f52bffd571289312"
+  },
+  {
+    "id": 56,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "881c915eccf6bf4d67a8f51abead53e6468660b852b91c6c4236fd167315ae0e"
+  },
+  {
+    "id": 57,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "3c6487c749d4507794c9bbe00c98c18f22dddb73ec2a17e54ffa9f7152c2281c"
+  },
+  {
+    "id": 58,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "ef213deb2d50cf6db153f044c6eda3689ed8c9ea1649f3024ed05af995481397"
+  },
+  {
+    "id": 59,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "04d9d82fc9f098c2cd1ebb4eefd3d2d12011b0481a1130499bb46d0f2e231f0a"
+  },
+  {
+    "id": 60,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "dcfde937b0f4aff95d7fee70fe650b13d8dfacd75d35db5381c1ecbf6c7b931b"
+  },
+  {
+    "id": 61,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "6f46bd9e4b855a888a80845f49e765e4859eaa47c40ce8162f45e42cb2fcefb8"
+  },
+  {
+    "id": 62,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "96d6a68208544bf2c68ddc29d1a048f4a4df62f41674c07793e1ce9e38a7ff37"
+  },
+  {
+    "id": 63,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "2168e7b62fc5d9f5390afda7e3120b1bba93dc0c7ce2cec8383e74775af757bb"
+  },
+  {
+    "id": 64,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "5c397ae800d3001f735cea537bd1a63d4e4838247c66b88cae12e41f9aeea961"
+  },
+  {
+    "id": 65,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "92b6cc9c167c8cf02077c4fa6ca7221e3a105663b41b9e3cf845f75fabba8e16"
+  },
+  {
+    "id": 66,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "a1e0c70714e4c343a161c88f8d5b78a4fbfceb69c7af833f54030513794da2f8"
+  },
+  {
+    "id": 67,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "5fa27d0fdd8c3fedb2142aab0a24c28e078d72f9e195b77cd4ce8b93774f8afa"
+  },
+  {
+    "id": 68,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "2f981b83eaefb2899e9f20acb4f8bffbfd7411f9797249b93b63e0ae2d0969cd"
+  },
+  {
+    "id": 69,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "d68dee78507df52d542b69446517163e7684c50ec551bfabd29b66d140678131"
+  },
+  {
+    "id": 70,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "11618972e12da43b0754de10e3a2c3d095c6375905af12d603779da224548c00"
+  },
+  {
+    "id": 71,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "f31a602cc8e8e072dc3aa946935d96651a19d71d4c07df9e8c953bfc276c1c01"
+  },
+  {
+    "id": 72,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "772293c978e906e6963352d0c2d04fa5c95eb752f9ca41e477ae05dacc4b8388"
+  },
+  {
+    "id": 73,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "d6cacc9f85c0f7fa69d5f16eba0d49c5bc912f0017edfbbfea917fd9605b2821"
+  },
+  {
+    "id": 74,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "b306c79bd2ca6404f43b245e00695fc0900574f9d7bca4d34a2f81b98a9c13d9"
+  },
+  {
+    "id": 75,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "8f4c60b3f467b3adf1515ea38a4fa5e4a1b4e4a29c727985efa33ae1d8e28b1b"
+  },
+  {
+    "id": 76,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "010d42c0af81c1a4052769aa3e78309ba7076753ef6c83d23fa3925d05ed18e8"
+  },
+  {
+    "id": 77,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "4e3135993cbf43abceb6d9234820e8ef519a45796cf01be442d732c67bd68390"
+  },
+  {
+    "id": 78,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "8db1d436cf61a03d9207f96e766b145a6d30b413a68588b1f5fe162c27692358"
+  },
+  {
+    "id": 79,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "1c99329cb378e083c08a0b4575a75fbde5dff24b849dbdfe575c7b50179373b5"
+  },
+  {
+    "id": 80,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "f1eccd208dd85713ca7c410842cc3c41015b0e1ba658af80ae46d292efe60311"
+  },
+  {
+    "id": 81,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "c2e8f33c95af7fc71c487d163e0aab82d7186229bc9c0ade6e800a52eb45127c"
+  },
+  {
+    "id": 82,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "b98cc11fd6f37aecf6638e520f0af02fe3e28fb43f8f60034d0f79beec3b09a9"
+  },
+  {
+    "id": 83,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "fc592c0aeb69e2c692dd52fa0787882a105721abe0bdaa17d51b2fc53d352000"
+  },
+  {
+    "id": 84,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "1ff3ad07e0a5f2a4f22c9c5f6b62a40287980df78189f0f5c2d5f8e950a27b6b"
+  },
+  {
+    "id": 85,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "9f707a5ea2f3b1e738a55308d9039fda3d0fb65f6c870ffbcd09da6b757dcf9e"
+  },
+  {
+    "id": 86,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "e336b482e1776da837078e2a299ab3428e63e6ee4e40d52e73f62dc76cea6f59"
+  },
+  {
+    "id": 87,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "ae87ec4baf5dc7ab3d200f59c601b3c6551f9176dd2eb4e79ac8b37eb89b245b"
+  },
+  {
+    "id": 88,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "d7ba09a9f6099618f287047d38623672352852c6ccdc91b8040ae6a9f0c6145b"
+  },
+  {
+    "id": 89,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "e7c219baef2ae78c51ade5c52334dab8c34cdc4f815db0225399b394ebad1f27"
+  },
+  {
+    "id": 90,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "105dfc8846827d7365cc7623cddae9f3aa43dd28134fd9124767f41d30a61c39"
+  },
+  {
+    "id": 91,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "5088abfba2ae7c430469224f2127df65a948c615d0c398d5f29fe205ed1c7b1a"
+  },
+  {
+    "id": 92,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "0b8f792294fded6707f55dde3b8e71e27cfba37a0e5423548c06afd9b086f0a3"
+  },
+  {
+    "id": 93,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "43d678d447932dfacf41343abad8e1ae7c00e201b265e26d21165cf042d10634"
+  },
+  {
+    "id": 94,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "b52b3083eefd5d190159861b0e62b8710c8b0a12bef18a376d66043c2a38069b"
+  },
+  {
+    "id": 95,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "62a1901d684cc80be8bb7eecddaabbb856d80362c8f6a0c492abdc7cb6de7966"
+  },
+  {
+    "id": 96,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "d9ee8a9a80f196421a55ee9883c45609a0deb67e04b452288b3c7336a63ca9db"
+  },
+  {
+    "id": 97,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "4237296ff463ffcd7d2a811c80ca9449a9b00fa644b5aee873cf5f0a912512d9"
+  },
+  {
+    "id": 98,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "1f27b763467593146efc292168fb45d4b2b0c874279a3330dc6a85fd973c4208"
+  },
+  {
+    "id": 99,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 1,
+        "label": "扣留第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：扣留第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "4b70a41eaeab3982022f64a66ef438bace23fb3389abde12e003c1ae5964d018"
+  },
+  {
+    "id": 100,
+    "game": "tomorrow-lost-property",
+    "kind": "public-view-legal-runtime-witness",
+    "difficulty": "normal",
+    "mode": "challenge",
+    "verified": true,
+    "witness": [
+      {
+        "type": "observe",
+        "what": "dossier",
+        "label": "讀明日封條與完整後果",
+        "group": "觀察"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第1件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第2件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 0,
+        "label": "歸還第3件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第4件物品",
+        "group": "行動"
+      },
+      {
+        "type": "dispose",
+        "value": 2,
+        "label": "銷毀第5件物品",
+        "group": "行動"
+      },
+      {
+        "type": "midnight",
+        "label": "讓時鐘走過午夜",
+        "group": "行動"
+      }
+    ],
+    "explanations": [
+      "先取得角色可合法觀察的線索。 下一步：讀明日封條與完整後果",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第1件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第2件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：歸還第3件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第4件物品",
+      "根據明日事件的先後相依計算三項保障，保留可行的後續處理。 下一步：銷毀第5件物品",
+      "全部物品已安排，讓事件依時間順序生效。 下一步：讓時鐘走過午夜"
+    ],
+    "semanticHash": "46eb0a734db9e1ca64e8a1cb209b4174d9f5fc2a5bcf1530cfa56838ac36d3b3"
+  }
+]
