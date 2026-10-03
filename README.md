@@ -408,3 +408,7 @@ node verify-all.cjs
 - 這是可反覆遊玩的即時調度遊戲，地圖並非固定唯一解益智關卡，不列入既有 2,000 關的數量。操作、保存內容與規則以 `games/air-traffic/README.md` 為準。
 
 `node verify-air-traffic.cjs` 在隔離副本執行新作測試，驗證新入口、八張地圖與 70 款大廳整合，並檢查 `air-traffic-preservation.json` 記錄的 69 款既有遊戲共 772 個資產逐位元未變。`node verify-all.cjs` 重跑完整歷史批次與空中指揮所；新作結果保存在 `air-traffic-verification-report.json`，該歷史批次的完整摘要保存在 `aggregate-verification-report.json`；目前的 150 款完整執行摘要改存 `expansion-aggregate-verification-report.json`；歷史證據在隔離副本重新產生，保留先前發布的歷史報告。離線規則／模擬 DOM 測試與實際瀏覽器視覺驗收分開記錄。
+
+## 333px 版面修正驗收
+
+後續純版面修正保留原始完整驗證報告不變。若存在 `expansion120-presentation-correction.json`，`node verify-all.cjs` 會執行明確標示範圍的修正驗證：核對整個已發布版本的檔案雜湊、重跑受影響家族與 270 款大廳，並以逐位元相同的引擎／關卡重用原始完整證明。新的結果另存 `expansion120-presentation-verification-report.json`，不把重用證明寫成新測試。實際窄螢幕與部署後量測另行驗收。
