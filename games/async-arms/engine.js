@@ -1,0 +1,1 @@
+(function(r){'use strict';const E=typeof module==='object'?require('../duel120-common/engine.js'):r.DuelEngine;const id='async-arms';const a={id,create:(L,o)=>E.create(id,L,o),step:E.step,replay:(L,w,o)=>E.replay(id,L,w,o)};if(typeof module==='object')module.exports=a;else r.GameEngine=a;})(globalThis);
