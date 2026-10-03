@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Direct constant-control negative regression across all 400 corrected scenarios, including correct construction supplied to workshop drivers.",
+  "games": [
+    {
+      "id": "mountain-offroad",
+      "levels": 100,
+      "winningWitnesses": 100,
+      "constantPoliciesPerLevel": 70,
+      "constantRuns": 7000,
+      "constantWins": 0,
+      "workshopGivenCorrectBuild": true,
+      "distinctWorkshopBuildPlans": 0,
+      "legacyBuildWins": 0,
+      "physicalFailureReasons": {
+        "車體損壞，請降低速度重新挑戰。": 6181,
+        "超過挑戰時間，重來可立即再試。": 819
+      }
+    },
+    {
+      "id": "wave-speedboat",
+      "levels": 100,
+      "winningWitnesses": 100,
+      "constantPoliciesPerLevel": 70,
+      "constantRuns": 7000,
+      "constantWins": 0,
+      "workshopGivenCorrectBuild": true,
+      "distinctWorkshopBuildPlans": 0,
+      "legacyBuildWins": 0,
+      "physicalFailureReasons": {
+        "車體損壞，請降低速度重新挑戰。": 7000
+      }
+    },
+    {
+      "id": "moon-rover",
+      "levels": 100,
+      "winningWitnesses": 100,
+      "constantPoliciesPerLevel": 70,
+      "constantRuns": 7000,
+      "constantWins": 0,
+      "workshopGivenCorrectBuild": true,
+      "distinctWorkshopBuildPlans": 0,
+      "legacyBuildWins": 0,
+      "physicalFailureReasons": {
+        "重心越過輪胎支點，月球車翻覆。": 6309,
+        "超過挑戰時間，重來可立即再試。": 513,
+        "落地角度過大，請調整重心。": 175,
+        "岩石著地衝擊過大，懸吊損壞。": 3
+      }
+    },
+    {
+      "id": "stunt-track-workshop",
+      "levels": 100,
+      "winningWitnesses": 100,
+      "constantPoliciesPerLevel": 70,
+      "constantRuns": 7000,
+      "constantWins": 0,
+      "workshopGivenCorrectBuild": true,
+      "distinctWorkshopBuildPlans": 7,
+      "legacyBuildWins": 0,
+      "physicalFailureReasons": {
+        "跌入斷崖；提早起跳或修改賽道。": 686,
+        "未跨越斷崖，撞上對岸岩壁。": 1380,
+        "落地角度過大，請調整重心。": 1020,
+        "跳得太遠撞上低梁；調整起跳前速度。": 3914
+      }
+    }
+  ],
+  "constantRuns": 28000,
+  "constantWins": 0,
+  "boatFullThrottleWithPerfectSteeringButNoWaveTimingWins": 0,
+  "boatFullThrottleWithPerfectSteeringAndPermanentLiftWins": 0,
+  "unavoidableWaveHeightEffect": true,
+  "sourceFiles": {
+    "games/vehicles120-common/engine.js": "1c43350babf241aeacdb755c074da2afb232e5817e257abd148b2f4320a6d4c5",
+    "games/vehicles120-common/specs.js": "33ad5031dd0352c61616b7c0a025a8b56bf2831f9bff7977881170f339b46164",
+    "games/vehicles120-common/constant-policy.cjs": "6cd50b11c065a98a46a77837a4d00ccb1fffcbea6865121de4b7010c34e1c6c2"
+  }
+}

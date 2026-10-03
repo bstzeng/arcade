@@ -1,0 +1,302 @@
+[
+  {
+    "id": "swarm-command",
+    "title": "蜂群指令所",
+    "description": "編寫共同規則，讓小蜂自行分工採集並避免塞車。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🐝",
+    "url": "./games/swarm-command.html",
+    "entry": "games/swarm-command.html",
+    "order": 226,
+    "art": "games/swarm-command/art.svg",
+    "cover": "./games/swarm-command/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "robot-dance",
+    "title": "機器舞團",
+    "description": "安排迴圈與同步點，讓機器人變換隊形又不相撞。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🤖",
+    "url": "./games/robot-dance.html",
+    "entry": "games/robot-dance.html",
+    "order": 227,
+    "art": "games/robot-dance/art.svg",
+    "cover": "./games/robot-dance/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "amphibious-code",
+    "title": "雙棲程式",
+    "description": "同一份指令必須讓水中與陸上機器人都完成任務。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🦎",
+    "url": "./games/amphibious-code.html",
+    "entry": "games/amphibious-code.html",
+    "order": 228,
+    "art": "games/amphibious-code/art.svg",
+    "cover": "./games/amphibious-code/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "stack-kitchen",
+    "title": "堆疊小廚房",
+    "description": "食材只能從最上層取出，用推入、取出與交換組裝料理。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🍳",
+    "url": "./games/stack-kitchen.html",
+    "entry": "games/stack-kitchen.html",
+    "order": 229,
+    "art": "games/stack-kitchen/art.svg",
+    "cover": "./games/stack-kitchen/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "recursive-treehouse",
+    "title": "遞迴樹屋",
+    "description": "讓建造指令呼叫自己，長出符合房間與通道需求的樹屋。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🌳",
+    "url": "./games/recursive-treehouse.html",
+    "entry": "games/recursive-treehouse.html",
+    "order": 230,
+    "art": "games/recursive-treehouse/art.svg",
+    "cover": "./games/recursive-treehouse/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "signal-operator",
+    "title": "訊號接線員",
+    "description": "組合邏輯閘、延遲器與記憶元件，產生指定燈號。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "💡",
+    "url": "./games/signal-operator.html",
+    "entry": "games/signal-operator.html",
+    "order": 231,
+    "art": "games/signal-operator/art.svg",
+    "cover": "./games/signal-operator/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "debug-courier",
+    "title": "除錯快遞",
+    "description": "查看逐步執行紀錄，用最少修改修好送錯貨的程式。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "📦",
+    "url": "./games/debug-courier.html",
+    "entry": "games/debug-courier.html",
+    "order": 232,
+    "art": "games/debug-courier/art.svg",
+    "cover": "./games/debug-courier/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "regex-warden",
+    "title": "正則守門員",
+    "description": "設定文字比對規則，放行合法通行證並攔下偽證。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🎟️",
+    "url": "./games/regex-warden.html",
+    "entry": "games/regex-warden.html",
+    "order": 233,
+    "art": "games/regex-warden/art.svg",
+    "cover": "./games/regex-warden/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "async-post",
+    "title": "非同步郵局",
+    "description": "安排多名工作者收信、等待與回覆，避免互相等到停擺。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "📮",
+    "url": "./games/async-post.html",
+    "entry": "games/async-post.html",
+    "order": 234,
+    "art": "games/async-post/art.svg",
+    "cover": "./games/async-post/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "twelve-line-rocket",
+    "title": "十二行火箭",
+    "description": "只用十二行指令，讓火箭適應不同風況並安全降落。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🚀",
+    "url": "./games/twelve-line-rocket.html",
+    "entry": "games/twelve-line-rocket.html",
+    "order": 235,
+    "art": "games/twelve-line-rocket/art.svg",
+    "cover": "./games/twelve-line-rocket/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "totem-rewrite",
+    "title": "圖騰改寫術",
+    "description": "設定符號替換規則，把起始圖騰變成目標形狀。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🗿",
+    "url": "./games/totem-rewrite.html",
+    "entry": "games/totem-rewrite.html",
+    "order": 236,
+    "art": "games/totem-rewrite/art.svg",
+    "cover": "./games/totem-rewrite/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "reversible-machine",
+    "title": "可逆機關",
+    "description": "所有指令都必須能倒放，解題後還能完整恢復原狀。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "↔",
+    "url": "./games/reversible-machine.html",
+    "entry": "games/reversible-machine.html",
+    "order": 237,
+    "art": "games/reversible-machine/art.svg",
+    "cover": "./games/reversible-machine/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "cellular-board",
+    "title": "細胞棋盤",
+    "description": "設計細胞依鄰居變化的規則，讓圖樣自行移動或生長。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "▦",
+    "url": "./games/cellular-board.html",
+    "entry": "games/cellular-board.html",
+    "order": 238,
+    "art": "games/cellular-board/art.svg",
+    "cover": "./games/cellular-board/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  },
+  {
+    "id": "adversarial-tester",
+    "title": "對手測試員",
+    "description": "一人寫程式，另一人設計刁鑽輸入，輪流找出漏洞。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🧪",
+    "url": "./games/adversarial-tester.html",
+    "entry": "games/adversarial-tester.html",
+    "order": 239,
+    "art": "games/adversarial-tester/art.svg",
+    "cover": "./games/adversarial-tester/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "搜尋 AI"
+    ]
+  },
+  {
+    "id": "interrupt-rescue",
+    "title": "中斷救援站",
+    "description": "設定巡邏與緊急處理程序，事件結束後正確返回原任務。",
+    "category": "code",
+    "primaryCategory": "code",
+    "status": "ready",
+    "badge": "100 關 · 程式實驗",
+    "icon": "🚨",
+    "url": "./games/interrupt-rescue.html",
+    "entry": "games/interrupt-rescue.html",
+    "order": 240,
+    "art": "games/interrupt-rescue/art.svg",
+    "cover": "./games/interrupt-rescue/art.svg",
+    "tags": [
+      "程式設計",
+      "100 關",
+      "逐步除錯"
+    ]
+  }
+]

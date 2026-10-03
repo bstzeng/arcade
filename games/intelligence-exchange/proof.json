@@ -1,0 +1,8506 @@
+{
+  "kind": "fixed-opponent-witness",
+  "claim": "Verified complete legal traces for authored deterministic scenarios against local view-only bots. Not universal forced wins.",
+  "records": [
+    {
+      "number": 1,
+      "seed": 2654435761,
+      "canonical": "d553bdf940cd687f6e5cb6929c2b72431efef788bde62c8a301f14b3c0dd59cd",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "915484c2edaf32405bd4a5683d122a52194d5055bca3e544abbf131a1ff69990"
+    },
+    {
+      "number": 2,
+      "seed": 1013904226,
+      "canonical": "cf2ce87c81911b9c19b324389c621e0d0999e8e3ff4849dd9b9078978940e499",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "1bc0323a7a94c98cb44c1aa7669311f2a7c026f9c0a8d9b466d114c541c1ded1"
+    },
+    {
+      "number": 3,
+      "seed": 3668339987,
+      "canonical": "521e3cf5288c30917b5c980920b4767e549092615d679d53a672e5f51bda5704",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "4fbb48d0d552ead10c0e26e4bd14c813b880a56ba8f8842625d3854902288591"
+    },
+    {
+      "number": 4,
+      "seed": 2027808452,
+      "canonical": "3bc72caab7f0896cc0fc0093e9a5b631385110df6079fa583e987993307e040e",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "d4a549a7f60620ef6d3c2561ecbb0bc3165fced1b6f5606949b77ae625fc7fff"
+    },
+    {
+      "number": 5,
+      "seed": 387276917,
+      "canonical": "6ef1a8caecb1b220d383dd62f433972daf62863a9038d5f0f22f2f9a0d9df55c",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "df4632e428c51ada28c87be32d8cef4046f56c4141b35f761b5728ec63cbc683"
+    },
+    {
+      "number": 6,
+      "seed": 3041712678,
+      "canonical": "c317ea19e79369b4f205c895f5effad4df6629875ddb11846cdf0cbb031c8091",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "463c10aaa3d299081ad5a6bd1b8ff68d2c3d9d33ef4fe3e07371a7bc65ff5cb9"
+    },
+    {
+      "number": 7,
+      "seed": 1401181143,
+      "canonical": "d24ee79d6288598b492f009927aef4fc702cec7d190bb4b09e154b509433506c",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "9e8e249bf683fb76b1df11d967e594aaccea561ac811b54e07597d6d930c5e18"
+    },
+    {
+      "number": 8,
+      "seed": 4055616904,
+      "canonical": "7696552436d4280527ccdd343ec1eb0ed6cf8752d5b3c2ce22be521917493775",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "b9abf88355368dafa6ff564814ad1610f37399003dca8cd54965f53167ba8779"
+    },
+    {
+      "number": 9,
+      "seed": 2415085369,
+      "canonical": "2af0ec068e7a50b622fa08a6bdcc09080c8eb6f08b5f5f72c41175b3becfa8a3",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "772f41856764a13bff38f7b8fcf9c65e29b3721cc71b757ebc28696833b21046"
+    },
+    {
+      "number": 10,
+      "seed": 774553834,
+      "canonical": "64073dc54b4bf7f446004e4541db3acf246941cdff15a0a1361e76647ce01a31",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "55429352344c9297530206fa0f963c392215fa45b7d625e6b0501c0e216eef0e"
+    },
+    {
+      "number": 11,
+      "seed": 3428989595,
+      "canonical": "edd23533751aba2f6acd9a4b74dde7a3b3e0279a5e824479a0c87663c9bb653c",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "ed38bf32dc881cca8e45c50109174371053201bf9c104cb542c2d8c3b9e489b6"
+    },
+    {
+      "number": 12,
+      "seed": 1788458060,
+      "canonical": "a3c97e60d117ba97c3fc4a901eafd6c89e4442dd40d7a08383b42837beea53b6",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "f52ae338e52d288ad404d700808ff4e36c8f06a28d8cd6b0978c88fec5086574"
+    },
+    {
+      "number": 13,
+      "seed": 147926525,
+      "canonical": "f4ac5116b617474092a63f81d5ad35b545ee13f73cf3e102e155587921ca8c7b",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "1011f24805163d701be57be9da2835b68c40a8be5ef031a8734b6c7bb44c6b31"
+    },
+    {
+      "number": 14,
+      "seed": 2802362286,
+      "canonical": "cee7290b23b702fd3a8b6153bb9fa612c58e34854d5004f32ad70257955f83ce",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "1c2e8dded4519e67d8263ba2ea04d55bc0d606408f04c73f8f52ae2f96f35d26"
+    },
+    {
+      "number": 15,
+      "seed": 1161830751,
+      "canonical": "1ca8e25ec9d92fd9579103814f06ed4493fd43b9113ef2b54ba952b25e877ba0",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "cc08da77e4ce2c4118f1d3dc038aa3dd3f151dc9b7d587a5f8e7d5eb0852dd6b"
+    },
+    {
+      "number": 16,
+      "seed": 3816266512,
+      "canonical": "c250c467e12da8df8d190ef3fb0a2c34c0c2ff2a220e44aa106e67b83d31c70b",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "a7d9c49d9009c6ba580cfd2a30b7418db0ac2dfb88fd154d6080afda3685e00d"
+    },
+    {
+      "number": 17,
+      "seed": 2175734977,
+      "canonical": "515ae8b0e9ecb541eddad2a48ebf8684d4a612ca14e17d78b128f44229d3aef9",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "a9d9101f78ce04f812825c902c7aa1a3639061ba1651c1942865c4bfcff91c5d"
+    },
+    {
+      "number": 18,
+      "seed": 535203442,
+      "canonical": "9255fd4e6040e470294c9c3b8a128258e7cc122d11c514e928d4f06f147927e6",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "1d6de624d2a8b90fc19c39a6e3de902005c59a17de1a5450f8f4fc621838cc35"
+    },
+    {
+      "number": 19,
+      "seed": 3189639203,
+      "canonical": "b33a349149a34fd2fca6e78d2020350d95bb8d242dd158c8bc8278afae5c7e56",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "98a346f5911ef1b9eb79417308f7b6c04f2530857d964ff5d99fdda8302e3f16"
+    },
+    {
+      "number": 20,
+      "seed": 1549107668,
+      "canonical": "eeb8ab0fc1943348036e5af134e929b04a1c5a47e462928b5ee0e85defca3d49",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "ea606ab82e11a0694f20f9a94f2f4ba38611e448f9280285ea94c9a633dcc8cb"
+    },
+    {
+      "number": 21,
+      "seed": 4203543429,
+      "canonical": "3a8a1873091b9cd0beca06ad64663dc7d2ff930de10b1ef49526716d08d4f9d4",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "fd64e56abc9033600c4d5911a3ceb8eaea5c7d4a0cf90c2f0ff690e295df2dc6"
+    },
+    {
+      "number": 22,
+      "seed": 2563011894,
+      "canonical": "acea3fdd63672ebc263d33b1aaac07c413c7600d72234e8efe8eb9b87ab8ad40",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "27d409144aaf742fdb92af3d1713a3042e991c552d9d2af62e377bcc0cc8d20f"
+    },
+    {
+      "number": 23,
+      "seed": 922480359,
+      "canonical": "2cbe54864f259cd670139ed821009e31362d60e1360e7ef831535607b36edec3",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "948ca49b7a0318d4b1ba83b9c73c0de0a37a911646ef5c62c0f8dcd227f29b35"
+    },
+    {
+      "number": 24,
+      "seed": 3576916120,
+      "canonical": "0c6cf8d6fac9cbc0aaf5a807d5514b34a32f766fa4a7287e616b80fc63a47f11",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "b6d71dfe2dd2194cc17415dd75fda3970da333e164b2e4c8ab31e54fcb52e964"
+    },
+    {
+      "number": 25,
+      "seed": 1936384585,
+      "canonical": "deeb87a03ad0861f6b372e4c12a54eac4a8a8a412782c8e23cbde19b21e84ced",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "911056dc947b97ececdf83ceba2f23bcfdaf2bf51e2fe8b857ec47fc01fb705d"
+    },
+    {
+      "number": 26,
+      "seed": 295853050,
+      "canonical": "a7cb4593b05919f63bd4d6e88971e1f3ebf66462b1049e61a19071b255ee69b0",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "d5f457beaf72856d67dfea7300ed37c709a9bbd63a5b183dd49ddebbc00cd47a"
+    },
+    {
+      "number": 27,
+      "seed": 2950288811,
+      "canonical": "bdf62c31457ffd9e12d5cddc7244da6021b136db670a4be3fc52eb94b98e2aae",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "2ee60359d06437e25c23ebec546715566ca512ced3c9c6100dc1a9a2b10d8234"
+    },
+    {
+      "number": 28,
+      "seed": 1309757276,
+      "canonical": "575c44b740fa85521f65475fd8444c887d53239bb9f53e52a8b361ad1b13c8ce",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "596fd6feb1c63068a3d0f425f9189ada2b8fe78326c2510f404fb232c82bbb98"
+    },
+    {
+      "number": 29,
+      "seed": 3964193037,
+      "canonical": "df4b659a3564099d7a7a740d8dd124f3941ec282f5ba634ee0f248075961a302",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "e0970f1a0f5eab34e213e091034e6c3f451408037bb6781e883fe9fb84302330"
+    },
+    {
+      "number": 30,
+      "seed": 2323661502,
+      "canonical": "c2c0aa3bc8da8e6b51f7e9f29d97e84e33fbdf431d2f11b4bcb5e288ae35f5de",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "105f4f4050272c18d826e5504c26f979bf9066cc29f091d0fa321b2cd506c2f9"
+    },
+    {
+      "number": 31,
+      "seed": 683129967,
+      "canonical": "3c1c1ecdbbd10bcddaeb29a71b01bc5ba0fa95215b76f03be3b29fefa9e6fe7c",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "b1aaca1303ed663d2806f5e7c414551919353537514f0d5c40b251b1d835ab3a"
+    },
+    {
+      "number": 32,
+      "seed": 3337565728,
+      "canonical": "4e016f014f8531545366a63cb45298986a90dd04f8da34aefb73726a61bc8b66",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "b4aea0ef0df1efb1ceb629a12d7824de0ccc531c62c5006feee0957ee60063c7"
+    },
+    {
+      "number": 33,
+      "seed": 1697034193,
+      "canonical": "10c232d46e7a8b7a53102f906f3836847be6f922698a154a2138d825cf4e012a",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "9dbd556027bc3d6d8f1c9aed2b0c0f1689d1412a36d9344c5509e746cd8c69eb"
+    },
+    {
+      "number": 34,
+      "seed": 56502658,
+      "canonical": "fdb92b27a31feca987a0f65891308958c73781af9734369bdea317a1b78a3393",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "7cc480561996fd0122998e8e05f1c3923dcacdec644351c67c4ecd82d63c1b55"
+    },
+    {
+      "number": 35,
+      "seed": 2710938419,
+      "canonical": "60f8ee86edc4920017bc101079c0ef1a37821bba2c7175a92b2f43ff43c19e26",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "7f768be05471b0c82134a4db843bc0adbe1fcb0fa69ffb14b3af00a5a947c09f"
+    },
+    {
+      "number": 36,
+      "seed": 1070406884,
+      "canonical": "445c40dcb5155fadea541d205c80f0cb55854c8dc5fc75e8ba510cec09ccec22",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "447d6540feb5b8f0cce2eb1adcd476ad17b42bd30e2f2c0f5616443b8093b363"
+    },
+    {
+      "number": 37,
+      "seed": 3724842645,
+      "canonical": "42b795cc9532a507b136308a8522453cd9c2866793a7ee1842521597ad5eb656",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "605a49efa4933bd2ad8f5a6a5e913980949da25d5e4ddbb384b67abaf059f899"
+    },
+    {
+      "number": 38,
+      "seed": 2084311110,
+      "canonical": "9d2eee7d099430cdfa856995eaf8a00be6d06f2aa1f3946dfe4bd30b18cea3f4",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "0bde2755b34e6b89cc1b7c4a8a65dec4f91f407a5d9aa4178c7ca969f3f77dfb"
+    },
+    {
+      "number": 39,
+      "seed": 443779575,
+      "canonical": "bd4ea432bbb9599141f3d666774f45261c47467daf46311a38b60497844273e7",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "549fc509920a0540d9a4e0becc5469768a28666aa6cce250dd990a0410547d5d"
+    },
+    {
+      "number": 40,
+      "seed": 3098215336,
+      "canonical": "9fb5470166d1caf14b8bfb148f3399d4b2873663f5c0de41f347370ee91ddd69",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "3daea86974c7c89e39d394c25a075748ba271bff6632087f72a1901068ab3da3"
+    },
+    {
+      "number": 41,
+      "seed": 1457683801,
+      "canonical": "02f7b838364b09007deb26d369deba319758ffb644f7c4fa9c51038d60926e6b",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "c93fb79cab0553ac2b74ac2bba56dd860ad360be8e77dfa305da98d3e5f48623"
+    },
+    {
+      "number": 42,
+      "seed": 4112119562,
+      "canonical": "edf5335c8408612db985ceb8fb817561568b5cdac3bf3b7192a95a73a94f090e",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "4cc309773cf1b5376e989d9a9347f5ae54e79edb55aea4bd86288ed05a0477ee"
+    },
+    {
+      "number": 43,
+      "seed": 2471588027,
+      "canonical": "c73d5cb8e410663bc7efaa69cbdb3f441adc4485c0627c048bbaa9b79c929df8",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "c782e4c8fca25efa9812366856d3f3f09533448fd4721086e7074ed52afefce5"
+    },
+    {
+      "number": 44,
+      "seed": 831056492,
+      "canonical": "b36906155baeb920e9bc09bb6e01777fd250302e7dad0f9080dac001bed3b5c7",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "e4df9ea423cc74a7cc18c42df9c95b6d7a09994ad619a566b7e74850fe05bec9"
+    },
+    {
+      "number": 45,
+      "seed": 3485492253,
+      "canonical": "7e02a39d4b3017e340a8af4cebfe71c8976dcccac7d6c8907a7be36b47727eb1",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "5a2eb980425c7b9deaf91ad01179c8249a409b8c01533f427ffb88ed1916dfb8"
+    },
+    {
+      "number": 46,
+      "seed": 1844960718,
+      "canonical": "9ced7f5509459de2c16711445d11dd1b179eeff284a8a8b24b60c13449fd63c8",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "6645f2ed7edec9556cfba7862eac0a8a489bff53a50f433e9a113331ff5c9773"
+    },
+    {
+      "number": 47,
+      "seed": 204429183,
+      "canonical": "44f4d4c1d50be6dadaf3bc0880c4c1fc7af8163fb6c2d9c83ccf9fe9ab0f486d",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "561a22dcc3bc26cace5489f3ad3e2c1dfcaf4d5962d9f8ec9d81896324db4792"
+    },
+    {
+      "number": 48,
+      "seed": 2858864944,
+      "canonical": "c33d0dcbe9ebdb41c43fcb454ba8770d39440a697695fac10ba7dd39174140ed",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "59d10bd7bdcd49ca3379fdc55c1ea245ed84bf87771fc5920161ae095b842ba5"
+    },
+    {
+      "number": 49,
+      "seed": 1218333409,
+      "canonical": "ef7441bac92479d3b04d079fa63523dc74e9db716ceae7eaf5246bf4817e9723",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "fb44d0285d8a5fdbf2eb967afe440f899c35495c2599a8672b708c4b382d6208"
+    },
+    {
+      "number": 50,
+      "seed": 3872769170,
+      "canonical": "54ca1ab1884f82255a685460bbb0a04e7e1e58713532756472eed5efdd65c67f",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "376470c9ff2166edbd905cad9a0a54e1aed2b80095d44670d1809e9d71a4d0a0"
+    },
+    {
+      "number": 51,
+      "seed": 2232237635,
+      "canonical": "114ffe6645a02743936b2376dfc7811b87c3bc0043704fcb1947819ce6f0586e",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "aea7eab4eb7c0378a8d46ff950950c3b2928482f049d41b779559ea8d7a9debb"
+    },
+    {
+      "number": 52,
+      "seed": 591706100,
+      "canonical": "4158f36508d29fcb50a37e536bcfa3f3a1df352e569f6930fc69b064e91bacdc",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "d36033669581c13f48ffbfe2a59b0c6faa9729dee161914091b79da7042e8145"
+    },
+    {
+      "number": 53,
+      "seed": 3246141861,
+      "canonical": "8a2b07d1a9ab8236b080b0bef76f8b32c0f5794f5e8bfd7234e3e50cfbf93ad4",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "ca827efc9ee7cd55ed7941dd6ad5bc6cbed521b44ae921bc6c7b2e1caef206a9"
+    },
+    {
+      "number": 54,
+      "seed": 1605610326,
+      "canonical": "80ca7b86d7cf124d7c59b9c6077bdcf08ce851f253180da234e771b4832d5af7",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "7529d4619c078b3a8298aaa226e6f376611a1a43533cf4ff5444b6f0749b14a5"
+    },
+    {
+      "number": 55,
+      "seed": 4260046087,
+      "canonical": "5e831b6db37f000c147d45d1faf541803327ddba92ed46755c11d380e0e3149d",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "2a9ee46d5833fb67679104a22debc6d79c7d5c51e4208ad3d215311e8c17b34d"
+    },
+    {
+      "number": 56,
+      "seed": 2619514552,
+      "canonical": "92926381e7559a9e4e2f476fa4d129e5185fbf969e6652dd91ab2c4f80077bde",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "743ccff1ee987accafc98876795454c037211119db9f5922782e589420251893"
+    },
+    {
+      "number": 57,
+      "seed": 978983017,
+      "canonical": "7b78f02e80421e98c1c9833877e24685144a9926388e2087dfe2de730c5f7d01",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "0e003b2363ce1794b93ceaeec8280edb41ca9b7fb6e84c89517452a5b3ae8956"
+    },
+    {
+      "number": 58,
+      "seed": 3633418778,
+      "canonical": "867403fe2a57df3344b7ac7a4edef7df294d85639cd7cba1f5a39837b2d60a19",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "4cb30ddd5448e78ddfbb691cca727cdfdf052c36c006c13e991c11db71cba5db"
+    },
+    {
+      "number": 59,
+      "seed": 1992887243,
+      "canonical": "617259906315daefdcafe8139c5bd221ffef2b991d9a7354ee09f0cbd68648e5",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "d4b8eace5b3b1369a10367c0a3c3702e60294c2d30747e2b7c16686071a5d7b8"
+    },
+    {
+      "number": 60,
+      "seed": 352355708,
+      "canonical": "c82e0552e49d585f90ec6b99b6a27ff127e60aec4c77e95ea1ac1a07551598a5",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "70c185a06b70d64562032b6f8883ece5e3195ed83b6972c36ab64c546d64f241"
+    },
+    {
+      "number": 61,
+      "seed": 3006791469,
+      "canonical": "29dd9b90c51285b2ec3ed976d89ba4860a7475d7471a26e34b84c430b2c2b0cf",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "bf488bcf4a997774ff5988ddf051b973b7743aee255bc07842b677481b7f25aa"
+    },
+    {
+      "number": 62,
+      "seed": 1366259934,
+      "canonical": "0a50731a2a4022d4ea788bf2f891d953d47e00baa664f138bb2295baf0758b51",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "b6dcdbe5e13eb8b499e9e73941bf28e943e5c8901d9aec985ee0c4cbf5df5ba1"
+    },
+    {
+      "number": 63,
+      "seed": 4020695695,
+      "canonical": "14bb60b9d5c0a79d63b0cd1a1032771fa1c6ee9bac300648625ded3a2b64c0ec",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "3660c81a402f0afdb99f7cdcce9e05b6316ce8b40c7fe78e56bb17b12f08b97c"
+    },
+    {
+      "number": 64,
+      "seed": 2380164160,
+      "canonical": "d089fe312b176c2f6fa59f4fa39a6e7a6bdd82958e34674581982d05a768f3b1",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "07a4576511ff0878f56253b5e6a3050cbf93540cb857cfaa8b1a97fe9204025d"
+    },
+    {
+      "number": 65,
+      "seed": 739632625,
+      "canonical": "48150c770c7c1a782ac6864c5309392dd58dcb45c05aaeb344023028760e9013",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "7108e778cfe7e482757cbf443f921a5ad6c0138c301891d7e514fa8ac512b6e7"
+    },
+    {
+      "number": 66,
+      "seed": 3394068386,
+      "canonical": "c696ee06c594b1a677df70bca0e1bf3a5c68efbf05daf33dd34594e87e415fc1",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "b9a0430bbc80068a8b6f2c299aefe503199ab4eea3c3c9b16e98611a46fab4b7"
+    },
+    {
+      "number": 67,
+      "seed": 1753536851,
+      "canonical": "5a22869985bb05d7da2b88a79f3c2a85c71751376fa6ac19d04093f6708fe2ef",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 101",
+            "code": 5
+          }
+        }
+      ],
+      "result": "提交 101，正確密碼 101",
+      "finalHash": "2ddb2ee73370cf53de7fc844ccbb474d3d9cda80133ba0cbcc88f873fa57a4db"
+    },
+    {
+      "number": 68,
+      "seed": 113005316,
+      "canonical": "e9fd69f40621d517de0f8cbb3795f843c6d8b73c154c3904816d3c6c3cd18cc9",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "bdbad5782738101d014e28c2377294338f71ebc2ac5d8acd696527cd27418b1e"
+    },
+    {
+      "number": 69,
+      "seed": 2767441077,
+      "canonical": "8c21b944a6aaf03f03b529ef5eb471cb61479504215f8cf85aeff04cb674b188",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "2ddbbeedae6ef441b596c00a93274f348632e06d828fde5842cef406d533178a"
+    },
+    {
+      "number": 70,
+      "seed": 1126909542,
+      "canonical": "25bbe25eff3ae964480b865a6774fc8e4a3ce8a01fca5f511fde0e541e5babf1",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "39d52b9a6335bd595d32a2fd7e0cdd216536942515bf5bc0145afd2092365514"
+    },
+    {
+      "number": 71,
+      "seed": 3781345303,
+      "canonical": "67a2a5a5937b70bc831e06fbcdb21df2d39bcc9f2376c4ab384f68657c75c51f",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "0b63260c365404f785a9ee8632d2dc719f0cb795c6efa176ef9484fb9ec857f5"
+    },
+    {
+      "number": 72,
+      "seed": 2140813768,
+      "canonical": "3b381860e77fdbd5cfd6ea22d6d030cd03e6afef01eeecfe459e09e337211362",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "d4492a8d877658d90f1d2965ade7983adbd1fc8c2e4b15f16b61771ebf372439"
+    },
+    {
+      "number": 73,
+      "seed": 500282233,
+      "canonical": "7b8be9970b41fbb25221a948c7c20a3ee31d325f524d95fb9037a3dd16327cec",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "0a52b1b9928d43af3d361eff758daa82e0c09aae72def8584ab15a4b33007e08"
+    },
+    {
+      "number": 74,
+      "seed": 3154717994,
+      "canonical": "36bfa9436c83700d91c1c9bd35cc69fa7339a2211a3386659c475279cffa70bf",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "66d41bceb1a26126223cb1e6d7889f4831a3966a39c2732d72c2a5dd60d420b4"
+    },
+    {
+      "number": 75,
+      "seed": 1514186459,
+      "canonical": "0f9ab632432d570bda60f8b18e0dc81e13b532128e43aa88cb479b82963ba5d9",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "a56aa46b9e7892ea30ed08b6971b8680968fdf5e540b132cc021ba460bcf907b"
+    },
+    {
+      "number": 76,
+      "seed": 4168622220,
+      "canonical": "2a3fa921107c431e7e091541021eea9ca62b9096febff6e1c7f10f4a0b2984f8",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "1e133e9eeba4c942803e7a10be0fd08f4adfe511e31e789ac23f1f8117cabeb5"
+    },
+    {
+      "number": 77,
+      "seed": 2528090685,
+      "canonical": "61a3c2a3a40d15043bf494a74f71b07eae25a3ed36c026f08dffa7d797ba84de",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 100",
+            "code": 4
+          }
+        }
+      ],
+      "result": "提交 100，正確密碼 100",
+      "finalHash": "9d25470af7a4695530aa33e3c0b111c66d97ab55bdd74bb6045aab7492d4af81"
+    },
+    {
+      "number": 78,
+      "seed": 887559150,
+      "canonical": "a2d53718dc48ecf334d2cb169e32a97c03981041b0caed40afcf2c07fb7f212a",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 110",
+            "code": 6
+          }
+        }
+      ],
+      "result": "提交 110，正確密碼 110",
+      "finalHash": "30129b7e1e1b5cf8a2dc2f2d0550d6ef24f8a67a2512fc395e3cd03ee07efccc"
+    },
+    {
+      "number": 79,
+      "seed": 3541994911,
+      "canonical": "3e6b11dc0b105ed64f0a40a8305bdc16033bdfd25c61b4502f155d04f6ce4e1f",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "93abbe8d17a24dd91382b1bd280ca2e36c1cfb26aaa5d70556efebdb510a366b"
+    },
+    {
+      "number": 80,
+      "seed": 1901463376,
+      "canonical": "05388c535736f9b3897a590a2a458dc68ce834397b76f7b59b3cddc045bcd9f5",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 111",
+            "code": 7
+          }
+        }
+      ],
+      "result": "提交 111，正確密碼 111",
+      "finalHash": "65bf65a1fa4c753210fc08d6b61ed25d7f4b77879396e322da3fa15110ebca70"
+    },
+    {
+      "number": 81,
+      "seed": 260931841,
+      "canonical": "819529bdb0e0c82a29a93cc4574e8e074430c0991a6b78b29f5be6b2ab55ec37",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "a13c6cfe78f0a7aa4c40befff67e30b764114077df312aa2657250294aa0e977"
+    },
+    {
+      "number": 82,
+      "seed": 2915367602,
+      "canonical": "79204a311e3c63203b5e3243bcce330c2d3e771ed1f64eae9ef91620418f8f2d",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "5ede862e44543f9a52df5008f3c82646eade7e374b29cde0e3c7ed8c1993afb8"
+    },
+    {
+      "number": 83,
+      "seed": 1274836067,
+      "canonical": "1bc7e1a15caf59936d864d0be02e440a70216132330d5add4848d49bd605086b",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "e20fbfa68d4d7bed3db0a4db2f0670321eee4ab9de6bbade408acfaee764a868"
+    },
+    {
+      "number": 84,
+      "seed": 3929271828,
+      "canonical": "9707ec9b24fa1ea7afc596753b9e47321e891a62abefed4806cec2fb77195a32",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "e8ff5d1f656cf7722cbfb706b6d1d2015488d5d6d552c44bdd2ba0f35f538dc2"
+    },
+    {
+      "number": 85,
+      "seed": 2288740293,
+      "canonical": "98ac1d3c195bfe44e1b0e667c949a1c9cda9437761945247037511da0181a842",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "131251fd02c617f0aaba2ef59e5cc46150d82674dc146ea4bc4a82bfb9ba3309"
+    },
+    {
+      "number": 86,
+      "seed": 648208758,
+      "canonical": "cd296a9ce37ac9a1da9a9fabc7d6cd377609f0656659a50ed56ef4faffb04b53",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "aec6e4f155d78e1f08901281a054d1979f6ad75eea457f9f5598ca0570991a57"
+    },
+    {
+      "number": 87,
+      "seed": 3302644519,
+      "canonical": "7389b1e7d7a6c62fb21afe1ba1dfea198e3cc254bb2d9aa42a7ec36d14ab30a1",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "bff6a849469d80b44334678ca0846ecefd90db857d98ff8ab9858994e0b5ffea"
+    },
+    {
+      "number": 88,
+      "seed": 1662112984,
+      "canonical": "ec0cf1c19bd72ccfbb3710f1938946c62b34a27f85ff4c85e73ac83045fd034f",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "f5a5453a62e3a584d98d98c088079b6c043db63dd83cc2eb3d98de5eef74fadb"
+    },
+    {
+      "number": 89,
+      "seed": 21581449,
+      "canonical": "d762787c6025933048b04466bdbcd20a799b880ec5c8d3a12704495cd200f313",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "3cf45567ae4596ce5118b1dd2da1188ec7652e296c99d853b882fb450ab75113"
+    },
+    {
+      "number": 90,
+      "seed": 2676017210,
+      "canonical": "3fc37b0dc1c799d06e88bc87a2b71a11c84678079c97453cd800361fa6c91473",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "3910de8124a362dfab7355e862ae3676f04dd7bb314b5d00ba329731b73939e5"
+    },
+    {
+      "number": 91,
+      "seed": 1035485675,
+      "canonical": "9e6ab0f6cd737f5e6baccab63865a9c71104be5ff556e34a603e46b8500de3d1",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "3f047cd2b3799ea4854f0ded4c81ab4cf41e45594bf394daa61b8555a5b9b215"
+    },
+    {
+      "number": 92,
+      "seed": 3689921436,
+      "canonical": "ff621e940b5ed1f14fa0d8115417bf385daca1c4cc4a81d3a68436be5a0d7723",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "e209db58ae75a41b4522a4f2b4502c7680be0faa82e689b56406d9482490ec9c"
+    },
+    {
+      "number": 93,
+      "seed": 2049389901,
+      "canonical": "a37ded36eb38cb41151339a9b16da52fb3b11d7e7680717324056892ae91cf8c",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 010",
+            "code": 2
+          }
+        }
+      ],
+      "result": "提交 010，正確密碼 010",
+      "finalHash": "b15a4f6dfe8a7e608b5b8cb5085bf7cb0e2e58fdc8e3a5e105d046b1466e7aa3"
+    },
+    {
+      "number": 94,
+      "seed": 408858366,
+      "canonical": "a5c453f6258c1401f6c869eb923bfe44129da6fcffe09d5d4667e19036a3cec1",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "c7dcb3eaf7df7318e3c389b1fdbe09859fd79a3e1ac2d8e2134629f868e8d55c"
+    },
+    {
+      "number": 95,
+      "seed": 3063294127,
+      "canonical": "4167d893908752caa2419ae4c0297df797d0bb97b04b235ad43dada6b0af3d88",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "57fdc76922a268f43550e79fe154f4ba6c96192493f4abb6d2674cd485725396"
+    },
+    {
+      "number": 96,
+      "seed": 1422762592,
+      "canonical": "886c36a750837e88b2bd2865e89e0903247196fa2e8bbf3bc13c8bec28f2badd",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "ab70657e2f99aa6d9949583c775e231dbacc4050722c292b2e51163329cfb2c9"
+    },
+    {
+      "number": 97,
+      "seed": 4077198353,
+      "canonical": "51fcb526f2caf8d9482b397f9ef25450aa2b89657a719cd9381a47898ab59018",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "ed8f7bcc9dd9410015a24ad5e12ea97dbc365d9f813b66ebab27bf3decae5515"
+    },
+    {
+      "number": 98,
+      "seed": 2436666818,
+      "canonical": "7737d713c4ca0eb740287ca4367de92907cda05a350978d2c52816624ec29d42",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 000",
+            "code": 0
+          }
+        }
+      ],
+      "result": "提交 000，正確密碼 000",
+      "finalHash": "284681c8486d478c4c85d31af4bad4563d642079990c3791036d64f80660e527"
+    },
+    {
+      "number": 99,
+      "seed": 796135283,
+      "canonical": "a237318bcc59d12e90bef292199b0e76b48251e4df5760c285ced4fa1fc1b9d2",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 001",
+            "code": 1
+          }
+        }
+      ],
+      "result": "提交 001，正確密碼 001",
+      "finalHash": "b671f0b18c9945d7d707db4eea4552f709070b4dfc6d996079fb414914e6936c"
+    },
+    {
+      "number": 100,
+      "seed": 3450571044,
+      "canonical": "6d236d100d32a4089b802780c923e4f7b373edfbd29a19ef979c18621988e24c",
+      "verified": true,
+      "steps": 9,
+      "witness": [
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #0（航道）",
+            "card": 0
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #1 交換 墨雨 的情報",
+            "target": 3,
+            "card": 1
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "offer",
+            "label": "以卡 #2 交換 墨雨 的情報",
+            "target": 3,
+            "card": 2
+          }
+        },
+        {
+          "actor": 3,
+          "action": {
+            "type": "respond",
+            "label": "接受交換",
+            "yes": true
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #10（時間）",
+            "card": 10
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "buy",
+            "label": "花 2 買 阿洛 的 口令 情報",
+            "target": 2
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "verify",
+            "label": "檢驗卡 #6（口令）",
+            "card": 6
+          }
+        },
+        {
+          "actor": 0,
+          "action": {
+            "type": "submit",
+            "label": "提交密碼 011",
+            "code": 3
+          }
+        }
+      ],
+      "result": "提交 011，正確密碼 011",
+      "finalHash": "64e312d3b7643eea39054af93f883049031252bf9e86d3a4a36dc29debd8e39a"
+    }
+  ]
+}

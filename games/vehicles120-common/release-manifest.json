@@ -1,0 +1,1224 @@
+{
+  "schemaVersion": 1,
+  "family": "vehicles",
+  "status": "implemented-offline-verified-awaiting-browser-and-independent-review",
+  "games": [
+    {
+      "id": "mini-kart",
+      "title": "迷你卡丁車",
+      "entry": "games/mini-kart.html",
+      "engine": "games/mini-kart/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/mini-kart/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/mini-kart/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opponent-and-opt-in-coach",
+        "policy": "Bounded target-speed center-line steering with bend compensation, trailing collision and three disclosed speed tiers.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "drift-combo",
+      "title": "漂移連段",
+      "entry": "games/drift-combo.html",
+      "engine": "games/drift-combo/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/drift-combo/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/drift-combo/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "mountain-offroad",
+      "title": "山路越野",
+      "entry": "games/mountain-offroad.html",
+      "engine": "games/mountain-offroad/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/mountain-offroad/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/mountain-offroad/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "wave-speedboat",
+      "title": "浪尖快艇",
+      "entry": "games/wave-speedboat.html",
+      "engine": "games/wave-speedboat/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/wave-speedboat/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/wave-speedboat/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "motocross-balance",
+      "title": "越野機車",
+      "entry": "games/motocross-balance.html",
+      "engine": "games/motocross-balance/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/motocross-balance/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/motocross-balance/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "truck-reverse",
+      "title": "卡車倒車",
+      "entry": "games/truck-reverse.html",
+      "engine": "games/truck-reverse/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/truck-reverse/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/truck-reverse/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "trailer-haul",
+      "title": "拖車運輸",
+      "entry": "games/trailer-haul.html",
+      "engine": "games/trailer-haul/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/trailer-haul/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/trailer-haul/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "city-bus",
+      "title": "城市公車",
+      "entry": "games/city-bus.html",
+      "engine": "games/city-bus/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/city-bus/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/city-bus/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "punctual-train",
+      "title": "列車準點王",
+      "entry": "games/punctual-train.html",
+      "engine": "games/punctual-train/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/punctual-train/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/punctual-train/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "drone-gates",
+      "title": "無人機穿門",
+      "entry": "games/drone-gates.html",
+      "engine": "games/drone-gates/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/drone-gates/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/drone-gates/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "helicopter-rescue",
+      "title": "直升機吊掛救援",
+      "entry": "games/helicopter-rescue.html",
+      "engine": "games/helicopter-rescue/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/helicopter-rescue/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/helicopter-rescue/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "sail-tactics",
+      "title": "帆船戰術賽",
+      "entry": "games/sail-tactics.html",
+      "engine": "games/sail-tactics/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/sail-tactics/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/sail-tactics/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opponent-and-opt-in-coach",
+        "policy": "Current buoy heading with upwind no-go tacking, sail-trim matching and three disclosed speed tiers.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "inertia-spaceship",
+      "title": "太空船慣性賽",
+      "entry": "games/inertia-spaceship.html",
+      "engine": "games/inertia-spaceship/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/inertia-spaceship/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/inertia-spaceship/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "moon-rover",
+      "title": "月球車攀岩",
+      "entry": "games/moon-rover.html",
+      "engine": "games/moon-rover/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/moon-rover/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/moon-rover/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "stunt-track-workshop",
+      "title": "特技賽道工坊",
+      "entry": "games/stunt-track-workshop.html",
+      "engine": "games/stunt-track-workshop/engine.js",
+      "engineImplementation": "games/vehicles120-common/engine.js",
+      "controller": "games/vehicles120-common/ui.js",
+      "renderer": "games/vehicles120-common/render.js",
+      "levelBased": true,
+      "levels": "games/stunt-track-workshop/levels.json",
+      "levelRecordPath": [],
+      "levelsRecordPath": [],
+      "levelCount": 100,
+      "challenges": 100,
+      "proof": {
+        "kind": "real-time-witness",
+        "path": "games/stunt-track-workshop/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 complete legal 30 Hz input witnesses replayed through the released vehicle model to independently checked physical goals. Race witnesses use the fixed disclosed standard AI. Vehicle-specific bounds are public in the engine/rules. This is an existence witness, not a unique solution or a forced win against arbitrary opponents."
+      },
+      "ai": {
+        "kind": "opt-in-coach-only",
+        "policy": "Vehicle-specific bounded feedback controller is used solely during explicitly assisted demonstration; normal play is manual.",
+        "information": "Present state, public route/terrain/limits, current visible vehicle positions and wind; no future player input or hidden winning trace."
+      },
+      "distinctness": {
+        "method": "Semantic vehicle geometry excluding IDs, seeds, themes and cosmetic values; road reflection and parking translation normalized. Different terrain, curve, gap, target, gate, station, wind or obstacle constraints.",
+        "evidencePath": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "canonicalGeometryCount"
+        ]
+      },
+      "verificationEvidence": {
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "vehicle-semantic-geometry",
+        "path": "games/vehicles120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "canonicalGeometryCount"
+        ]
+      },
+      "controls": {
+        "touch": true,
+        "pointer": true,
+        "keyboard": true,
+        "fineAnalogSliders": true,
+        "fixedTickHz": 30
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/vehicles120-common/BROWSER-QA.md"
+      }
+    }
+  ],
+  "commands": [
+    [
+      "node",
+      "games/vehicles120-common/verify-all.cjs"
+    ]
+  ],
+  "freshReports": [
+    "games/vehicles120-common/verification-report.json",
+    "games/vehicles120-common/test-report.json",
+    "games/vehicles120-common/constant-policy-report.json"
+  ],
+  "sourceFiles": {
+    "games/mini-kart/art.svg": "07c4b558dceb94c3d8b16f0af1fab156a794bbf716444290ca027f0084e44b36",
+    "games/mini-kart/engine.js": "09e6ae1c4b36aa671f19875fc956b6a6a8cf2d03c1598bb2a7626231145b6b6c",
+    "games/mini-kart/levels.json": "e38724d38e7ec60e65ef9090184ede9efded5abbe8120dcacad3f38488fc2194",
+    "games/mini-kart/proofs.json": "920324429ee28e50e863fe72f25b5c4a78798ecb5a57f284c5d3bc53cb0669ea",
+    "games/mini-kart.html": "b5568b11b21f2043cf76fdc0c1d785059bbe70916500a7b628553db743ad4245",
+    "games/drift-combo/art.svg": "3b88c8c3dd732ff635fa1220f890cb6496fa28fb49ee1d29324c189fa5cf8962",
+    "games/drift-combo/engine.js": "e26fefb15624a1648648e183dda4f64d335d5717ae19f34624c75a8b1a605623",
+    "games/drift-combo/levels.json": "1b6908e56fe08b42636bbcd054e85c7bc2841e9047b2447bfa070a22bd6613b1",
+    "games/drift-combo/proofs.json": "adc449080b768cb22fe2e730ecedeb4314fd94f1886b754f18e5a30ea75f7255",
+    "games/drift-combo.html": "40b4839bf54a23dfe9226ad50749b83e3a90189b0dd116e810aade0363355094",
+    "games/mountain-offroad/art.svg": "8edb21f8d054963a69ca5988115a6f6d0cf7c3b5ef3227b47324edca784b5f44",
+    "games/mountain-offroad/engine.js": "e59097be2fc50fe569788040a6a8b3f0febdb7e8c9f4840ebbb109ed186725e3",
+    "games/mountain-offroad/levels.json": "870c29cbd5538fd01cc1a0c486531f1f4e47eb8008e8f1c2fd023fa46b88c9aa",
+    "games/mountain-offroad/proofs.json": "be68fabc99263d8810885dfe99b3b88865bbcff73c7a76e56651130a1586707c",
+    "games/mountain-offroad.html": "682e03136b91b74246b330dbefafd0d2b9f545c06664245464b39725015fee0b",
+    "games/wave-speedboat/art.svg": "b8b00299a6b58f1e200f30b19704f7d3ae094de1d36b8fa952afac4e4ed94681",
+    "games/wave-speedboat/engine.js": "2d1df2872bd3577138ab27784a33bbc91b3eca28fa371550f3978a77914ab0fa",
+    "games/wave-speedboat/levels.json": "15ff2b375b86bc965174accbd1caff1de3bfeecdba1d2ff791485ff66b33ae40",
+    "games/wave-speedboat/proofs.json": "3b3dc6e1abef4084fdbf004384aa1e162684fec2c938192005a10b85062af7e8",
+    "games/wave-speedboat.html": "ce01e9189ed03fa44148afe143ff5a20a1cefe0025b9be20d9bf1d78cc6e1b70",
+    "games/motocross-balance/art.svg": "44af9d3b8603d4ade09cddb7ef1a9da323b3324631769be2eb282a1f2a9f5882",
+    "games/motocross-balance/engine.js": "5d5f4a7d90bba25fb3951ef49d7cc5d0b4acc8a27d40d86720805715c5ae5989",
+    "games/motocross-balance/levels.json": "db00370bb599cf910179c7bf38382af90329af4285ab64c9696363601f939dcb",
+    "games/motocross-balance/proofs.json": "022ba4562e3139f919e8812eeeea6e6a115d9111307708f9762e9312e32d4662",
+    "games/motocross-balance.html": "f5f99ba493429cb5faa58d5703868b434f1b35659a63ee70aad091af4f1dc995",
+    "games/truck-reverse/art.svg": "b2100d63327d06deb2305155bd9429a9d5da108ff8f222b0a97addb7b45faa3d",
+    "games/truck-reverse/engine.js": "df0ca4874c9e70b40a52562cb68d05a2f5c1ab7bb4b668abbfab0b3382335adb",
+    "games/truck-reverse/levels.json": "1af5420299f353faf1df86912ad87a19efd441cc057a00fa4b51230581635d72",
+    "games/truck-reverse/proofs.json": "01ddc7f63c31e40eb5b0c29d5b92e6cc4325f8433dc72e7b0013fa10b04fcbe9",
+    "games/truck-reverse.html": "7b0e0c711dd3716822bd079274b6147bb9e91f560f907ef7577cb40f52f0dfac",
+    "games/trailer-haul/art.svg": "ea1b35a3f57105d6e665b4b1a4090d63868f41914730027c21a52e6897322002",
+    "games/trailer-haul/engine.js": "7c860e4bf291d42646965ce6aa571f10f8f0ccb832d4eb512a50b4d059ec9233",
+    "games/trailer-haul/levels.json": "f4cd32c5cc2aa690d2e1cd395f547c9331db4c7c8537065557f75217593b32bd",
+    "games/trailer-haul/proofs.json": "b2f55cde8e1f24028c043d30c03c838fea27d811a8a147cf13d4359815573bb9",
+    "games/trailer-haul.html": "c165b7a9f188521a1b1abb5e0745f35557cbe4f99d0ed2c0eaf3ebdf7b10d61f",
+    "games/city-bus/art.svg": "f6a206d6a17101a06ac21eaf61449abbfa522c7712e78f16c5edd164d5229e09",
+    "games/city-bus/engine.js": "b90fc919fcd5b6be0275c88c8090e704fa8dd81bd7632b32703a595e363902ea",
+    "games/city-bus/levels.json": "915d98389e45d272215c4081ba4445d269620d24d46dccf8f3ffe2d20fcad12a",
+    "games/city-bus/proofs.json": "23d82d0d76934ca071d8027099c6587db90140aaeb33e4f2462e2ae8f77751a3",
+    "games/city-bus.html": "312c90181ab3409e327581ac5625273a5419fc0d0bc1eef7499e37f54bfcd7ba",
+    "games/punctual-train/art.svg": "09ace0b448cbaa920d0938ef8efa51dc94b64fedd5bb49b5775f744cf4e32b4e",
+    "games/punctual-train/engine.js": "7ad6fe7be990b0e1aea94f858158d6f07351adf7fbd4182e6cc8699c3b67ebdb",
+    "games/punctual-train/levels.json": "1c7a209c8c3b414f82bc626aaf1f6dd6f521e20ceea3ba9969445e56a944f2fe",
+    "games/punctual-train/proofs.json": "443b5b39c4c2f4abfd273fd5e8995f80814815fc70ba456ec7b7fe6394f77aa6",
+    "games/punctual-train.html": "0d69a4aa804c474dbf8bed75b2ab7f89ff8e04f5848a6b9c379459fac5b1838d",
+    "games/drone-gates/art.svg": "7a5e9ea133d40ea37d845aa3930ef91600554b11cdc87de74d350c1215171640",
+    "games/drone-gates/engine.js": "32c0d793ad3e55810c4dfa7311c8acdeaa0bf140f081d9276cbf062aa7472127",
+    "games/drone-gates/levels.json": "9e3cdc762f28353d8d3502e9311add8431041103b4caac74a617895becbcdbcd",
+    "games/drone-gates/proofs.json": "c143881f7ed5be1f62c5ea65fce31ed5155f2cfd597851182a094a6139a9ac0e",
+    "games/drone-gates.html": "83537ea294c15b5af6f55ac1b98570bd75b1955dbaf0e50b37d6803104e1fcd9",
+    "games/helicopter-rescue/art.svg": "ec001bb1d3d6ad4fc7e1002d1c54935e5c91418db90060ec05cf8cd9cf2a70f2",
+    "games/helicopter-rescue/engine.js": "69c87e1896a79a224cd1443a77997d0b379eba0091ef0d84ae0f530ece99dbad",
+    "games/helicopter-rescue/levels.json": "9433911f2befc156d4d0b01d634854c3d6389834ad1af9f0b6be52c37129e4f4",
+    "games/helicopter-rescue/proofs.json": "670bfe0006aabb973ec25aab578f1723b2ceac09a49d62601919fdc62b0498af",
+    "games/helicopter-rescue.html": "5f39477c1818b68784b0f3a7e952b86d0e17a04f7453424b0f785c827149d0cb",
+    "games/sail-tactics/art.svg": "d615308db07530085ddc19862a874c6c36865859bf802a159fddc7ca2eaa708b",
+    "games/sail-tactics/engine.js": "756a55c5bae18f91af24fe1083daff07da0cc524ba2b6d47f7cb4a71224243db",
+    "games/sail-tactics/levels.json": "87119b3729ad8a1e0f39b674bd1f56f9c9f48cf350b3ebcec234d363c750cb90",
+    "games/sail-tactics/proofs.json": "8f22f73a15838bfd3777edfcadb54aeb090d938d2b2ae03ddfdff972816b751c",
+    "games/sail-tactics.html": "cb415accc987db2137d505be2ac74f59bc43541d5c39c7df3b3bb3c3f6fd3383",
+    "games/inertia-spaceship/art.svg": "b82f9fb8782fb0a35c2d732939077179a2f5eaf70b85f42d08c6041f9ffcb6bc",
+    "games/inertia-spaceship/engine.js": "a3538d6b4a83680ad7ad160b0413c56c03232574bb9d5b7e488a00cb31f6f0e8",
+    "games/inertia-spaceship/levels.json": "a77749649cbe7d7ce3af0634f1eeab693fc23999328ca90c91dbf7475b7b9167",
+    "games/inertia-spaceship/proofs.json": "9cbf0ce9331b0a64a066f25e8d7ad516fd01267b54d52142a77ac9ac5f2724ae",
+    "games/inertia-spaceship.html": "0aab4cd58ae7ff8b92d9f7a2885effd94a5e0da169a4793e48988227e98167ce",
+    "games/moon-rover/art.svg": "01ea1521d2d021b616a180f0cba57a1a141e07fe360926d2474a35e155632b95",
+    "games/moon-rover/engine.js": "b7a3e82bb5d214402d0e3a7938e8aa7d0803f17ea32b0a6807c6938befa09ac3",
+    "games/moon-rover/levels.json": "15a7f9af4fa26ec026e6abf935814bd1c95d93c6b235f77e2be1915c050ecefb",
+    "games/moon-rover/proofs.json": "5a76d3331218a51489e2eeb169b842c92dd9d8782b7f05c8a9afa93e9d9d440d",
+    "games/moon-rover.html": "fe487d8e0a7712facf0e032e625f6b4691cd1fa2860a2da9b8f2b90cbbca3ead",
+    "games/stunt-track-workshop/art.svg": "08a97e42dda23fb075145f03a1e59135c9a6692966d2009494892558ccc1fabc",
+    "games/stunt-track-workshop/engine.js": "d9cc3b67e26c131adb365e3598594d899545dc8d4d0be0ea6b7e77cac29ab7c7",
+    "games/stunt-track-workshop/levels.json": "ca62e12e3ece484b2c9ffac0acb902cd7306935c04f50e39a280e4fc5a0defe7",
+    "games/stunt-track-workshop/proofs.json": "ae4b3a56d550f50c38ae28be9b4d489369a78f0b91ee8a45d25bb721ef49459a",
+    "games/stunt-track-workshop.html": "d089d325d5506ffca457491b19c7f2f17258e119d947130d098e0824e9abaf91",
+    "games/vehicles120-common/BROWSER-QA.md": "13b1905c19a3bac189dd7b39427853b79f5faa6458aeb5477c1d1aa5554e5b11",
+    "games/vehicles120-common/README.md": "d2f14b2ff94468e0f20dd238919d60863362cdc82ecc3e4422ec1734191ad2c2",
+    "games/vehicles120-common/catalog.json": "5263a9e34ac2ad401eaa633c8a9fff37ddad1bbab39b5e7772f57e99dd5754a7",
+    "games/vehicles120-common/constant-policy.cjs": "6cd50b11c065a98a46a77837a4d00ccb1fffcbea6865121de4b7010c34e1c6c2",
+    "games/vehicles120-common/engine.js": "1c43350babf241aeacdb755c074da2afb232e5817e257abd148b2f4320a6d4c5",
+    "games/vehicles120-common/generate.cjs": "16bd1a57290698d4b3977bacf05d1f7c1cbde4e791c950cbb383c10dd09a0091",
+    "games/vehicles120-common/physics.test.cjs": "69ecf39557a842dbcedc4b8ca95dfa6d16fc6ae293bc203ad53668d37b9f588c",
+    "games/vehicles120-common/release.cjs": "0cd9cab9b9d32fc9dc972de359869f46bdd7e4e78aed55d7a15aff46836c5c13",
+    "games/vehicles120-common/render.js": "63466d8096b905a99e57615b7ae17243d56186ee7743d1f9c44f5a6b5954acb0",
+    "games/vehicles120-common/session.js": "54ca95c07f16c7e2e9216f2a8d6fc320207c03319908c36c31510497904d6ea9",
+    "games/vehicles120-common/specs.js": "33ad5031dd0352c61616b7c0a025a8b56bf2831f9bff7977881170f339b46164",
+    "games/vehicles120-common/style.css": "4331ef8709e54ec46c21ab4961db2e695e93354578c6d4b26dbc387b4d65e180",
+    "games/vehicles120-common/ui.js": "087eab4e7a68a3ac7338c995fe462ad5e4064cd3b2747283a9dd577bf60c5129",
+    "games/vehicles120-common/ui.test.cjs": "38eff10f1ec6d8a4ff356344e500983326e33ec200636c61515bb9be88f7f0ad",
+    "games/vehicles120-common/verify-all.cjs": "39d6df60e6ff204060b3c69e45ab59124295e764605382be36cc6ebae3c9adb5",
+    "games/vehicles120-common/verify.cjs": "f2e59b576b641bbb7c620e08a2d4cb2129ad8bf66bcf46a393709d9179ab8c9b"
+  },
+  "reportHashes": {
+    "games/vehicles120-common/verification-report.json": "a1bc2d6f05ce548ae6594f8396b968a824372421ec89cc9759f0d841bf59370e",
+    "games/vehicles120-common/test-report.json": "07453c37a6552f27f8612e6c59d3b0ec0f5c123cbe12f66a315e431dd6fa4eff",
+    "games/vehicles120-common/constant-policy-report.json": "e83b52449898f3183fec1ef5c8e35b348394d4f34c678eb66adbac69fae02faa"
+  },
+  "claims": {
+    "browserTesting": false,
+    "allGamesHaveLevels": true,
+    "allSolutionsUnique": false,
+    "allOpponentWinsForced": false,
+    "highPrecisionPhysics": false
+  },
+  "limitations": [
+    "Actual browser layout/visual/native-touch QA remains pending parent verification.",
+    "All physics are deterministic arcade models, not engineering-grade simulations.",
+    "Corpus proofs guarantee one disclosed standard-policy route; user choices, different AI difficulty and modified builds may fail.",
+    "Progress and input recordings are local to the current browser, with no cloud synchronization."
+  ]
+}

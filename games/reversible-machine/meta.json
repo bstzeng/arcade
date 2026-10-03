@@ -1,0 +1,20 @@
+{
+  "id": "reversible-machine",
+  "title": "可逆機關",
+  "proposal": "所有指令都必須能倒放，解題後還能完整恢復原狀。",
+  "icon": "↔",
+  "category": "code",
+  "tagline": "走到終點，再把時間倒回去",
+  "tutorial": "位元由 0 起編號。NOT a 翻轉位元；SWAP a b 交換；CNOT a b 在 a=1 時翻轉 b；TOFF a b c 在 a=b=1 時翻轉 c。每個閘都是自己的逆運算。程式要符合完整輸入→輸出表，再倒序執行所有閘，恢復每個原始輸入。可接受任何等效可逆電路。",
+  "palette": [
+    "NOT 0",
+    "NOT 1",
+    "SWAP 0 1",
+    "CNOT 0 1",
+    "CNOT 1 2",
+    "TOFF 0 1 2"
+  ],
+  "model": "Exact reversible Boolean permutations, exhaustive all-input truth-table verification and reverse execution with self-inverse NOT/SWAP/CNOT/Toffoli gates.",
+  "challengeCount": 100,
+  "limitations": "教學用離散模型；提示與參考解答為確定性輔助，不是 AI 對手。"
+}

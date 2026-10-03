@@ -1,0 +1,22 @@
+{
+  "id": "signal-operator",
+  "title": "訊號接線員",
+  "proposal": "組合邏輯閘、延遲器與記憶元件，產生指定燈號。",
+  "icon": "💡",
+  "category": "code",
+  "tagline": "讓時間也流進電路",
+  "tutorial": "每行接一個元件，例如 x = XOR A B。AND／OR／XOR／NAND 有兩個輸入；NOT、DELAY、FLIP 有一個。DELAY 輸出上一拍輸入（初始 0）；FLIP 在輸入為 1 的每拍翻轉記憶。ZERO／ONE 是常數。最後用 OUT x 接燈。所有測試時脈都要吻合，記憶每組測試歸零。",
+  "palette": [
+    "x = XOR A B",
+    "x = AND A B",
+    "x = OR A B",
+    "q = DELAY x",
+    "q = FLIP x",
+    "n = NOT A",
+    "OUT x",
+    "OUT q"
+  ],
+  "model": "Feed-forward Boolean gates with simultaneous edge-clocked delay memories and T-flip state; sequential trace suites reset memory independently.",
+  "challengeCount": 100,
+  "limitations": "教學用離散模型；提示與參考解答為確定性輔助，不是 AI 對手。"
+}

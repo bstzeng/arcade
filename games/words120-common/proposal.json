@@ -1,0 +1,360 @@
+{
+  "family": {
+    "id": "words",
+    "title": "文字與語言遊戲",
+    "directory": "games/words120-common",
+    "games": [
+      "punctuation-escape",
+      "radical-workshop",
+      "compact-telegram",
+      "alien-grammar",
+      "homophone-scene",
+      "pronoun-detective",
+      "forbidden-word-traveler",
+      "meaning-relay",
+      "one-word-fate",
+      "metaphor-gallery",
+      "tone-mixer",
+      "lost-dictionary",
+      "segmentation-adventure",
+      "rhyme-rescue",
+      "precise-naming"
+    ],
+    "acceptance": [
+      "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+      "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+    ],
+    "catalogPath": "games/words120-common/catalog.json",
+    "releaseManifestPath": "games/words120-common/release-manifest.json",
+    "requiredGameCount": 15
+  },
+  "games": [
+    {
+      "id": "punctuation-escape",
+      "family": "words",
+      "position": 1,
+      "title": "標點逃脫",
+      "proposal": "只能增刪標點，改變告示句意，取得通行條件。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/punctuation-escape.html",
+      "requirements": {
+        "coreMechanic": "只能增刪標點，改變告示句意，取得通行條件。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "radical-workshop",
+      "family": "words",
+      "position": 2,
+      "title": "偏旁修理舖",
+      "proposal": "拆裝漢字部件，造出新字來改變場景物件。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/radical-workshop.html",
+      "requirements": {
+        "coreMechanic": "拆裝漢字部件，造出新字來改變場景物件。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "compact-telegram",
+      "family": "words",
+      "position": 3,
+      "title": "縮字電報",
+      "proposal": "在極少字數內傳達任務，讓隊友依訊息正確操作。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/compact-telegram.html",
+      "requirements": {
+        "coreMechanic": "在極少字數內傳達任務，讓隊友依訊息正確操作。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "alien-grammar",
+      "family": "words",
+      "position": 4,
+      "title": "外星文法課",
+      "proposal": "觀察句子與動畫，推理語法，再組句控制機器。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/alien-grammar.html",
+      "requirements": {
+        "coreMechanic": "觀察句子與動畫，推理語法，再組句控制機器。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "homophone-scene",
+      "family": "words",
+      "position": 5,
+      "title": "諧音換景",
+      "proposal": "用同音字替換物件，把原本的障礙變成工具。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/homophone-scene.html",
+      "requirements": {
+        "coreMechanic": "用同音字替換物件，把原本的障礙變成工具。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "pronoun-detective",
+      "family": "words",
+      "position": 6,
+      "title": "指代偵探",
+      "proposal": "釐清「他、她、它、這個」各指誰，重建事件。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/pronoun-detective.html",
+      "requirements": {
+        "coreMechanic": "釐清「他、她、它、這個」各指誰，重建事件。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "forbidden-word-traveler",
+      "family": "words",
+      "position": 7,
+      "title": "禁字旅人",
+      "proposal": "每站新增禁用字，換個說法描述自己需要的物品。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/forbidden-word-traveler.html",
+      "requirements": {
+        "coreMechanic": "每站新增禁用字，換個說法描述自己需要的物品。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "meaning-relay",
+      "family": "words",
+      "position": 8,
+      "title": "譯意接力",
+      "proposal": "把訊息改寫成公告、童話或說明書，仍要保留關鍵資訊。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/meaning-relay.html",
+      "requirements": {
+        "coreMechanic": "把訊息改寫成公告、童話或說明書，仍要保留關鍵資訊。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "one-word-fate",
+      "family": "words",
+      "position": 9,
+      "title": "一字改命",
+      "proposal": "每回合只換故事中的一個字，觀察情節連鎖變化。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/one-word-fate.html",
+      "requirements": {
+        "coreMechanic": "每回合只換故事中的一個字，觀察情節連鎖變化。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "metaphor-gallery",
+      "family": "words",
+      "position": 10,
+      "title": "隱喻畫廊",
+      "proposal": "不能說名稱與外觀，只能用比喻讓隊友猜中作品。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/metaphor-gallery.html",
+      "requirements": {
+        "coreMechanic": "不能說名稱與外觀，只能用比喻讓隊友猜中作品。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "tone-mixer",
+      "family": "words",
+      "position": 11,
+      "title": "語氣調音台",
+      "proposal": "保留同一件事實，調整句式，符合不同場合與對象。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/tone-mixer.html",
+      "requirements": {
+        "coreMechanic": "保留同一件事實，調整句式，符合不同場合與對象。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "lost-dictionary",
+      "family": "words",
+      "position": 12,
+      "title": "失落字典",
+      "proposal": "從反覆出現的陌生詞推理意思，逐步建立自己的字典。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/lost-dictionary.html",
+      "requirements": {
+        "coreMechanic": "從反覆出現的陌生詞推理意思，逐步建立自己的字典。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "segmentation-adventure",
+      "family": "words",
+      "position": 13,
+      "title": "斷詞探險",
+      "proposal": "決定一串文字如何切詞，讓句意符合指定畫面。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/segmentation-adventure.html",
+      "requirements": {
+        "coreMechanic": "決定一串文字如何切詞，讓句意符合指定畫面。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "rhyme-rescue",
+      "family": "words",
+      "position": 14,
+      "title": "押韻救援",
+      "proposal": "補出符合情節、字數與韻腳的句尾，接續冒險詩。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/rhyme-rescue.html",
+      "requirements": {
+        "coreMechanic": "補出符合情節、字數與韻腳的句尾，接續冒險詩。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "precise-naming",
+      "family": "words",
+      "position": 15,
+      "title": "精準命名師",
+      "proposal": "用最短描述選中全部目標圖案，又不能包含干擾圖案。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/precise-naming.html",
+      "requirements": {
+        "coreMechanic": "用最短描述選中全部目標圖案，又不能包含干擾圖案。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    }
+  ],
+  "commonAcceptance": [
+    "The playable rule model must implement the named core mechanic in proposal; changing theme/text around an unrelated generic puzzle is unacceptable.",
+    "Mobile-first Traditional Chinese interface; clear objective, visual state, legal controls, feedback, pause/restart where applicable, keyboard equivalent where practical, and no horizontal overflow at 360px.",
+    "If levelBased=true: exactly 100 selectable, meaningfully varied levels with stable IDs; structural or task variation beyond renaming, relabeling, symmetry or cosmetic recoloring.",
+    "Every advertised solvable level needs a replayable action/input witness executed through the same runtime engine, plus independent rule/property assertions; invalid or empty witness must fail.",
+    "In-app contextual hints and visible solution demonstrations use legal engine transitions. Demo/hint completion is marked assisted and never awards unassisted records.",
+    "Challenge proof claims distinguish legal reachability, fixed-policy opponent scenarios, timing witnesses and full adversarial forced wins; never claim unique solutions or arbitrary-opponent wins without evidence.",
+    "State-dependent local AI only: actual opponent/teammate decisions consume permitted observations, have legal-action tests, and are not a canned transcript or a random move labeled intelligent.",
+    "Reset, level change, leaving screen and repeated input cancel stale timers/AI/demo work; persistence is validated and separate per game.",
+    "No third-party LLM/API, account, network multiplayer claim or external media dependency. Audio only begins after user gesture and has mute/volume controls when used.",
+    "README accurately documents variant, controls, objective, solution proof scope, AI policy and limitations; tests must run against exact submitted sources."
+  ]
+}

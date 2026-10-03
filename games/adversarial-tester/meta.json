@@ -1,0 +1,19 @@
+{
+  "id": "adversarial-tester",
+  "title": "對手測試員",
+  "proposal": "一人寫程式，另一人設計刁鑽輸入，輪流找出漏洞。",
+  "icon": "🧪",
+  "category": "code",
+  "tagline": "找他的漏洞，守住你的邊界",
+  "tutorial": "先替對手找一個反例，第一行寫 TEST x（-32–32）。再寫自己的程式：IF LT 0 RETURN -x、IF LE 3 RETURN x+1、RETURN x 等。你的程式要符合規格全部 65 個整數輸入。測試 AI 先挑閾值旁邊，再窮舉找反例；它是本機搜尋對手，不是語言模型。使用 AI 找洞會記為輔助。",
+  "palette": [
+    "TEST 0",
+    "IF LT 0 RETURN -x",
+    "IF LT 5 RETURN x+1",
+    "RETURN x",
+    "RETURN 0"
+  ],
+  "model": "Two-role bounded program repair and counterexample play; deterministic boundary-first adversarial test generation followed by exhaustive finite-domain search, not ML.",
+  "challengeCount": 100,
+  "limitations": "本機有限域搜尋 AI；輸入只涵蓋 -32 到 32。"
+}

@@ -1,0 +1,444 @@
+{
+  "schemaVersion": 1,
+  "family": "music",
+  "status": "implementation-awaiting-independent-review",
+  "games": [
+    {
+      "id": "sound-collection",
+      "title": "聲音採集簿",
+      "entry": "games/sound-collection.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/sound-collection.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Alternates only collected sound types, leaving every third cell silent.",
+        "information": "Collected sound IDs and current composition.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "loop-garden",
+      "title": "迴圈花園",
+      "entry": "games/loop-garden.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/loop-garden.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Fills only currently empty slots of each independent cycle with consonant notes.",
+        "information": "Plant lengths, public note cells and plant index.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "foley-studio",
+      "title": "擬音工作室",
+      "entry": "games/foley-studio.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/foley-studio.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Aligns cues to public film timings; chooses final sound from current object selection.",
+        "information": "Public film timeline and selected prop.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "timbre-alchemy",
+      "title": "音色煉金",
+      "entry": "games/timbre-alchemy.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/timbre-alchemy.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "coach",
+        "policy": "Chooses a complementary waveform and attack based on cutoff and release.",
+        "information": "Current synthesis controls.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "spatial-orchestra",
+      "title": "空間樂團",
+      "entry": "games/spatial-orchestra.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/spatial-orchestra.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Places three sources around the current listener.",
+        "information": "Visible listener coordinates and source array.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "melody-graft",
+      "title": "旋律接枝",
+      "entry": "games/melody-graft.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/melody-graft.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "teammate",
+        "policy": "Appends one bar, preserves motif head and rises/falls based on previous mean pitch.",
+        "information": "Public motif, previous bar, current turn and twelve-bar limit.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "echo-architect",
+      "title": "回音建築師",
+      "entry": "games/echo-architect.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/echo-architect.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/echo-architect/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "kind": "validated-parameter-action-construction",
+        "path": "games/echo-architect/proofs.json",
+        "recordPath": [],
+        "claim": "All 100 documented one-dimensional delay/amplitude targets admit an action-replayed wall/material construction; alternate constructions accepted. No full room-acoustics claim."
+      },
+      "ai": {
+        "kind": "none",
+        "policy": "No AI claimed; constructive reference and measured feedback.",
+        "information": "Not applicable.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Physical target canonicalization excludes task IDs and titles; 100 unique acoustic/tuning constraints.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "story-score",
+      "title": "故事配樂師",
+      "entry": "games/story-score.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/story-score.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Uses character pitch ranges and public scene ordering to choose instrument/tempo.",
+        "information": "Editable character motifs and public four-cue story.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "silent-composer",
+      "title": "靜默作曲室",
+      "entry": "games/silent-composer.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/silent-composer.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Spaces note onsets and removes events until sounding-time union fits the budget.",
+        "information": "Current slots, release time and budget.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "soundscape-terrarium",
+      "title": "聲景生態箱",
+      "entry": "games/soundscape-terrarium.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/soundscape-terrarium.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "coach",
+        "policy": "Adjusts activity probabilities to current day/night condition.",
+        "information": "Current rain/bird/insect probabilities and cycle.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "instrument-inventor",
+      "title": "樂器發明家",
+      "entry": "games/instrument-inventor.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/instrument-inventor.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/instrument-inventor/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "kind": "validated-parameter-action-construction",
+        "path": "games/instrument-inventor/proofs.json",
+        "recordPath": [],
+        "claim": "All 100 ideal string/closed-pipe/membrane pitch-span targets admit an action-replayed design, with independent formula checks and alternate constructions. No real-instrument engineering claim."
+      },
+      "ai": {
+        "kind": "none",
+        "policy": "No AI claimed; constructive reference and measured feedback.",
+        "information": "Not applicable.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Physical target canonicalization excludes task IDs and titles; 100 unique acoustic/tuning constraints.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "sound-camouflage",
+      "title": "聲音迷彩",
+      "entry": "games/sound-camouflage.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/sound-camouflage.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "user-authored-creative-listening-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Author-side helper chooses mask intensity from the selected secret type.",
+        "information": "Author-visible secret; never presented as a blind solver.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "same-tune-scenes",
+      "title": "同曲異景",
+      "entry": "games/same-tune-scenes.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/same-tune-scenes.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Suggests major/minor quality from melody accents and chosen chord roots.",
+        "information": "Public immutable melody and editable chord roots.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "graphic-score",
+      "title": "圖形樂譜",
+      "entry": "games/graphic-score.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/graphic-score.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "arranger",
+        "policy": "Fills alternating empty columns by neighboring height and recent color.",
+        "information": "Current painted cells and selected color.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    },
+    {
+      "id": "sound-relay",
+      "title": "聲音接力站",
+      "entry": "games/sound-relay.html",
+      "engine": "games/music120-common/engine.js",
+      "controller": "games/music120-common/app.js",
+      "audio": "games/music120-common/audio.js",
+      "artFile": "games/music120-common/art/sound-relay.svg",
+      "levelBased": false,
+      "levelCount": 0,
+      "mode": "creative-sandbox",
+      "ai": {
+        "kind": "teammate",
+        "policy": "One operation based on duration, average frequency and turn parity.",
+        "information": "Current clip and turn; no hidden state.",
+        "externalServices": false
+      },
+      "distinctness": {
+        "method": "Different editor, composition rule model, event parameterization and independently hashed numerical waveform.",
+        "evidencePath": "games/music120-common/verification-report.json"
+      }
+    }
+  ],
+  "commands": [
+    [
+      "node",
+      "games/music120-common/verify.cjs"
+    ],
+    [
+      "node",
+      "games/music120-common/verify.cjs",
+      "--check-report"
+    ]
+  ],
+  "generationCommand": [
+    "node",
+    "games/music120-common/generate.cjs"
+  ],
+  "finalizationCommand": [
+    "node",
+    "games/music120-common/finalize.cjs"
+  ],
+  "freshReports": [
+    "games/music120-common/verification-report.json",
+    "games/music120-common/dom-verification-report.json"
+  ],
+  "sourceFiles": {
+    "games/echo-architect.html": "01e8b7b5ef8bdf5b2c3221266390b3c8253e7380ffb606aa9ff510ce7585c3e2",
+    "games/echo-architect/levels.json": "5d1f2d23b113b4fa30c85a3a63acbd6a4c4ae770902c081c2e2f69ca9f512b6c",
+    "games/echo-architect/proofs.json": "deb2564aeb2ccea98fc85e1c6cc43bcc82e2b65a2919a81bfe14ccd63a6dcd7c",
+    "games/foley-studio.html": "c19eae314ce420d51ff44020ba29135244350b561479364a468001fd4e8d9997",
+    "games/graphic-score.html": "109776bab6520a2eb3d48337820479e2fbfeba0e5c497d8d2c9bd09b35d6c9b5",
+    "games/instrument-inventor.html": "bc54bc2d1b4a11a14c37be4b09fa9b2a3485db2073d61271bb01a983ae3a59b4",
+    "games/instrument-inventor/levels.json": "9de629f2790087935d91bac3b43396a93b31a3194e413f39b6ac187bc5843974",
+    "games/instrument-inventor/proofs.json": "6148cf962d65f57261c233c970b46b67b1c4e86116e2494d73518bf1ab454825",
+    "games/loop-garden.html": "51a37573f0bdfe5df5bda495e79519ef27837bf94e65b558ac8ee4da54eb3b06",
+    "games/melody-graft.html": "9420470a65d7739d2a786bbd64ec258bb7014eec3923562f244a6e39f84b4c7a",
+    "games/music120-common/README.md": "73c05f8f091912a98b202e181fede30d07ec9f91e609e38c3b8b1acb78a90074",
+    "games/music120-common/app.js": "76db85fc6d740686d5c8f0e308b58055532730d063b98609ec54b0112d0ab064",
+    "games/music120-common/art/echo-architect.svg": "db98c058f9ac995d68c3d3a57b0da35eecf8875c636fa4651e5f3a8e44c5acea",
+    "games/music120-common/art/foley-studio.svg": "4bb67d0655cecdff2f80da60530f217165a7ba8810f0166b4e09bfc1967e1eb8",
+    "games/music120-common/art/graphic-score.svg": "07787ca5baa78c37ae43716aeabe2b9088198e43eb3375eaa2849d53607b3ba6",
+    "games/music120-common/art/instrument-inventor.svg": "e474d53a1ad99821e8cb111e539d91a91bb1cd11cd9b088bad0a73a418867f97",
+    "games/music120-common/art/loop-garden.svg": "36078d3be214a2943c872e0d7cbde3e8b102d76feea4ba5a163259df82620b9e",
+    "games/music120-common/art/melody-graft.svg": "3c151a9514a90c7333cce7e33e8875f3efd22ba86179898c7809bcff2f938d38",
+    "games/music120-common/art/same-tune-scenes.svg": "17073c21ce1b8a43798e213487c1f79da028bd28b69469492b6e1b60c4228677",
+    "games/music120-common/art/silent-composer.svg": "0e6ba0d88f97695bf3375e9b03e3be823f43764f55ea0c63ace106db7cf5f02e",
+    "games/music120-common/art/sound-camouflage.svg": "796b34d01e7a91c410400d3380113bccd24390f3760efb09888ee980a26261ca",
+    "games/music120-common/art/sound-collection.svg": "4daa213794be1a771ecb4e6939d635068f9d629b83e3eabd61ef4eaa3b3080a6",
+    "games/music120-common/art/sound-relay.svg": "6dc874efc0e6a12f9fd9a416b17490558bb6d8e915cee33571f7aa3fde48e811",
+    "games/music120-common/art/soundscape-terrarium.svg": "37ac195abc6a82f110835d1e51333bbd1069e2c19f273a4bb84ffe3d1e2edcd2",
+    "games/music120-common/art/spatial-orchestra.svg": "9ba6f00df035836cd8d8994c5d2b432ef6956668b34d0c408c0cebcfe9c305ab",
+    "games/music120-common/art/story-score.svg": "45a54661017a14827cefed054f2ccf26c1e93b2862f56b7403372a28363d697f",
+    "games/music120-common/art/timbre-alchemy.svg": "425f83075e5fd710640371c3dd107d86b3c0f5d816c4dc9174bbec6fab3abc0b",
+    "games/music120-common/audio.js": "a7c852542108e1e1f9df7df60559537b0dc79e018761eb0f8955ac58016292ac",
+    "games/music120-common/catalog.json": "5179150034541f3998f866cb0a1cdf8b8980838a30fb38ce8b99252b95a6e841",
+    "games/music120-common/dom-harness.cjs": "3c21ff591ed2fcec41b72e17f746141d4ee5059ab46b9b73b0934b4ba7b3d67a",
+    "games/music120-common/dom-test.cjs": "f2d261834d210813dd222f09e61f22d4f3ba048912278b0dae38f4ff58a37ee1",
+    "games/music120-common/engine.js": "60ed0c26c84d219833dca2bc9d8c40e81fad381ded4f23a431769d602757eac0",
+    "games/music120-common/finalize.cjs": "de97430342b568f782f3c644c414c48aa152908f5c04451f2daeac22f6e350e8",
+    "games/music120-common/generate.cjs": "e6465b6f85ee86e92188aa50e41142cbb5377311e334594bade32bee384bcdf1",
+    "games/music120-common/mock-audio.cjs": "15b178d74f737de0c0a465c53deed9a65289e37d511aebe6251ee6a7fb49b3e9",
+    "games/music120-common/proposal.json": "c78275a9d8d2d242fb31cc56766d47430942bbacffcc1c7c17b69f31094b4879",
+    "games/music120-common/styles.css": "517289362a304f19a7e7237d4ebffd955fd80cb20cc70d9a13f9e08eea82f39e",
+    "games/music120-common/verify.cjs": "b549b6dcc67eadb3374480aa897929beaefaaa870cbbb7a9f628770a4cf9328f",
+    "games/same-tune-scenes.html": "3f3bbe69fba07bba6badb18d46aae5078d91fba76e8c041979e518ffcd530b24",
+    "games/silent-composer.html": "3da39b04586a69172f7cb646ae1f06f6cea2475ae21d1a9c86a8d38b3f97fd46",
+    "games/sound-camouflage.html": "0bb186652b0afec1d5e88bb13b96e9c00dac44be0ed413e96ec545689324af9b",
+    "games/sound-collection.html": "46cec8b4980d3688ac1b1ce1b9f2c0c438c0898b8f0b0b905b68c87c7805e855",
+    "games/sound-relay.html": "f35127d18b90c8fe5866e9171a0f282b3f63cbe382fe22dfb839e81bbb20f9d0",
+    "games/soundscape-terrarium.html": "74b6fb719b7dfbe86fb047181cdb5ef0f1faf97fd8915cd3141b3fc2d94ebe77",
+    "games/spatial-orchestra.html": "3006ff46b083a744c33a0cdf01702fec053367300aeb5d0ff843d565b55922c3",
+    "games/story-score.html": "9154ff884671f73acc629a107556287fd6d8a4cc41abf61c49a354a96167f9d0",
+    "games/timbre-alchemy.html": "f78b3f0972d117b1d922016c2189165e1ec968e723acbb9f328b46a5eb7885d9"
+  },
+  "claims": {
+    "browserTesting": false,
+    "physicalDeviceAudioListening": false,
+    "allGamesHaveLevels": false,
+    "allSolutionsUnique": false,
+    "allOpponentWinsForced": false,
+    "noObjectiveAestheticJudgment": true
+  },
+  "counts": {
+    "games": 15,
+    "levelBasedGames": 2,
+    "creativeSandboxes": 13,
+    "levels": 200
+  },
+  "limits": [
+    "Idealized one-dimensional echo and modal instrument equations; not certified acoustical engineering.",
+    "WebAudio scheduling tested with graph mocks; numerical renderer is not bit-identical to native audio.",
+    "No physical-device audition or browser layout/visual claim in family report.",
+    "Pause rearticulates an overlapping voice with a fresh envelope.",
+    "No remote AI, accounts, microphone, external assets or network multiplayer."
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "family": {
+    "id": "coop",
+    "title": "非對稱合作",
+    "directory": "games/coop120-common",
+    "games": [
+      "blind-map",
+      "time-partners",
+      "giant-artisan",
+      "dream-editor",
+      "translator-envoy",
+      "medic-nanoboat",
+      "reflection-twins",
+      "sonar-submarine",
+      "plant-gardener",
+      "director-stunt",
+      "hermit-fortress",
+      "storyteller-avatar",
+      "beam-relay",
+      "aerial-cargo",
+      "silent-investigation"
+    ],
+    "acceptance": [
+      "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+      "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+    ],
+    "catalogPath": "games/coop120-common/catalog.json",
+    "releaseManifestPath": "games/coop120-common/release-manifest.json",
+    "requiredGameCount": 15
+  },
+  "games": [
+    {
+      "id": "blind-map",
+      "title": "盲圖領航",
+      "proposal": "一人看完整地圖、一人只看眼前道路，靠口述避開陷阱。",
+      "entry": "games/blind-map.html"
+    },
+    {
+      "id": "time-partners",
+      "title": "時間搭檔",
+      "proposal": "一人移動角色，另一人暫停或倒轉機關，合作穿越障礙。",
+      "entry": "games/time-partners.html"
+    },
+    {
+      "id": "giant-artisan",
+      "title": "巨人與小匠",
+      "proposal": "巨人搬動地形，小匠鑽進管道，互相開路。",
+      "entry": "games/giant-artisan.html"
+    },
+    {
+      "id": "dream-editor",
+      "title": "夢境剪接師",
+      "proposal": "一人控制夢遊角色，另一人重排畫面分格，接出路線。",
+      "entry": "games/dream-editor.html"
+    },
+    {
+      "id": "translator-envoy",
+      "title": "譯者與使節",
+      "proposal": "一人掌握外星語法，另一人觀察對方反應，合作談判。",
+      "entry": "games/translator-envoy.html"
+    },
+    {
+      "id": "medic-nanoboat",
+      "title": "醫師與奈米艇",
+      "proposal": "一人掃描並標記位置，另一人駕駛微型艇送藥救援。",
+      "entry": "games/medic-nanoboat.html"
+    },
+    {
+      "id": "reflection-twins",
+      "title": "倒影雙生",
+      "proposal": "實體操作開關，倒影沿反光表面移動，改變彼此的道路。",
+      "entry": "games/reflection-twins.html"
+    },
+    {
+      "id": "sonar-submarine",
+      "title": "指揮與潛艇",
+      "proposal": "聲納員聽回音辨認障礙，駕駛依指示操控潛艇。",
+      "entry": "games/sonar-submarine.html"
+    },
+    {
+      "id": "plant-gardener",
+      "title": "植物與園丁",
+      "proposal": "一人決定根莖生長，另一人調整光、水與支架。",
+      "entry": "games/plant-gardener.html"
+    },
+    {
+      "id": "director-stunt",
+      "title": "導演與替身",
+      "proposal": "導演安排鏡頭和機關，替身即時完成指定動作。",
+      "entry": "games/director-stunt.html"
+    },
+    {
+      "id": "hermit-fortress",
+      "title": "寄居堡壘",
+      "proposal": "一人駕駛移動城堡，另一人在內部調整傳動與能源。",
+      "entry": "games/hermit-fortress.html"
+    },
+    {
+      "id": "storyteller-avatar",
+      "title": "說書與化身",
+      "proposal": "一人修改故事條件，另一人在故事裡行動解困。",
+      "entry": "games/storyteller-avatar.html"
+    },
+    {
+      "id": "beam-relay",
+      "title": "光束接力",
+      "proposal": "一人控制光源，另一人擺鏡子，持續照亮移動目標。",
+      "entry": "games/beam-relay.html"
+    },
+    {
+      "id": "aerial-cargo",
+      "title": "空中吊運隊",
+      "proposal": "飛行員控制載具，地勤控制纜繩與扣具，搬運異形貨物。",
+      "entry": "games/aerial-cargo.html"
+    },
+    {
+      "id": "silent-investigation",
+      "title": "無聲調查局",
+      "proposal": "現場員搜證，分析員掌握案件背景，只能用有限圖示溝通。",
+      "entry": "games/silent-investigation.html"
+    }
+  ]
+}

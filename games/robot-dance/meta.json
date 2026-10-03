@@ -1,0 +1,24 @@
+{
+  "id": "robot-dance",
+  "title": "機器舞團",
+  "proposal": "安排迴圈與同步點，讓機器人變換隊形又不相撞。",
+  "icon": "🤖",
+  "category": "code",
+  "tagline": "把迴圈跳成漂亮隊形",
+  "tutorial": "A、B、C 各有一條舞步。U D L R 是上下左右；WAIT 等一拍。REPEAT 3 [ R ] 重複三次。SYNC 是同步屏障：先到的人會等其他人。每次全員抵達 SYNC 時都要符合下一個指定隊形。不可撞上同格，也不可迎面交換。",
+  "palette": [
+    "A: WAIT SYNC",
+    "B: WAIT SYNC",
+    "C: WAIT SYNC",
+    "REPEAT 2 [ R ]",
+    "U",
+    "D",
+    "L",
+    "R",
+    "WAIT",
+    "SYNC"
+  ],
+  "model": "Independent bounded instruction streams, nested repeat expansion and real synchronization barriers; occupancy and edge-swap collision detection.",
+  "challengeCount": 100,
+  "limitations": "教學用離散模型；提示與參考解答為確定性輔助，不是 AI 對手。"
+}

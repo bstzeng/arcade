@@ -1,0 +1,83 @@
+{
+  "family": {
+    "id": "code",
+    "title": "程式設計與自動化"
+  },
+  "games": [
+    {
+      "id": "swarm-command",
+      "title": "蜂群指令所",
+      "proposal": "編寫共同規則，讓小蜂自行分工採集並避免塞車。"
+    },
+    {
+      "id": "robot-dance",
+      "title": "機器舞團",
+      "proposal": "安排迴圈與同步點，讓機器人變換隊形又不相撞。"
+    },
+    {
+      "id": "amphibious-code",
+      "title": "雙棲程式",
+      "proposal": "同一份指令必須讓水中與陸上機器人都完成任務。"
+    },
+    {
+      "id": "stack-kitchen",
+      "title": "堆疊小廚房",
+      "proposal": "食材只能從最上層取出，用推入、取出與交換組裝料理。"
+    },
+    {
+      "id": "recursive-treehouse",
+      "title": "遞迴樹屋",
+      "proposal": "讓建造指令呼叫自己，長出符合房間與通道需求的樹屋。"
+    },
+    {
+      "id": "signal-operator",
+      "title": "訊號接線員",
+      "proposal": "組合邏輯閘、延遲器與記憶元件，產生指定燈號。"
+    },
+    {
+      "id": "debug-courier",
+      "title": "除錯快遞",
+      "proposal": "查看逐步執行紀錄，用最少修改修好送錯貨的程式。"
+    },
+    {
+      "id": "regex-warden",
+      "title": "正則守門員",
+      "proposal": "設定文字比對規則，放行合法通行證並攔下偽證。"
+    },
+    {
+      "id": "async-post",
+      "title": "非同步郵局",
+      "proposal": "安排多名工作者收信、等待與回覆，避免互相等到停擺。"
+    },
+    {
+      "id": "twelve-line-rocket",
+      "title": "十二行火箭",
+      "proposal": "只用十二行指令，讓火箭適應不同風況並安全降落。"
+    },
+    {
+      "id": "totem-rewrite",
+      "title": "圖騰改寫術",
+      "proposal": "設定符號替換規則，把起始圖騰變成目標形狀。"
+    },
+    {
+      "id": "reversible-machine",
+      "title": "可逆機關",
+      "proposal": "所有指令都必須能倒放，解題後還能完整恢復原狀。"
+    },
+    {
+      "id": "cellular-board",
+      "title": "細胞棋盤",
+      "proposal": "設計細胞依鄰居變化的規則，讓圖樣自行移動或生長。"
+    },
+    {
+      "id": "adversarial-tester",
+      "title": "對手測試員",
+      "proposal": "一人寫程式，另一人設計刁鑽輸入，輪流找出漏洞。"
+    },
+    {
+      "id": "interrupt-rescue",
+      "title": "中斷救援站",
+      "proposal": "設定巡邏與緊急處理程序，事件結束後正確返回原任務。"
+    }
+  ]
+}

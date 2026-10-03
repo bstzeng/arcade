@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "family": "words",
+  "status": "passed",
+  "kind": "deterministic DOM controller harness; not browser rendering",
+  "assertions": 615,
+  "games": [
+    {
+      "id": "punctuation-escape",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "radical-workshop",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "compact-telegram",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "alien-grammar",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "homophone-scene",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "pronoun-detective",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "forbidden-word-traveler",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "meaning-relay",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "one-word-fate",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "metaphor-gallery",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "tone-mixer",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "lost-dictionary",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "segmentation-adventure",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "rhyme-rescue",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    },
+    {
+      "id": "precise-naming",
+      "status": "passed",
+      "levelsExercised": [
+        1,
+        50,
+        100
+      ],
+      "manualCompletion": 3,
+      "checks": "production DOM controls, legal step demo, invalid submission, cancel, reset, repeated actions, reload, corrupt/unavailable storage"
+    }
+  ],
+  "sourceFiles": {
+    "games/words120-common/app.js": "8cdfc1d2138282e6675ef43efac4ca019b72b3a04b9fe0a32bc5742dce6a9826",
+    "games/words120-common/engine.js": "3f347949cc94f650f2dfb054261da708424064b4bcda6d07b32f5c0c8c87a8b0",
+    "games/words120-common/data.json": "a0b44480785f0f449ff6225a2cfcd61151c04a0e279f6532c3ee1e3c199e2c65",
+    "games/words120-common/style.css": "b63dab8e6afb05e131d05b425a520e554c198efc6c0f658f4153a69f88d64fa7",
+    "games/words120-common/ui-tests.cjs": "f568ee206ac4cd7069226afedf49f601ce85bad40d6cee3578a79ad853e46c66"
+  },
+  "browserTested": false
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Exact source, corpus coverage, catalog and historical preservation; engine tests and browser QA are separate",
+  "registryCount": 270,
+  "newGames": 120,
+  "newLevels": 10700,
+  "newSandboxes": 13,
+  "preservedFiles": 1813,
+  "sourceFiles": {
+    "expansion120-manifest.json": "958431f7cd754f01a135700191d9ff3da816022df558c4e08a5102835908a554",
+    "expansion120-spec.json": "61ceef8f12a918ac13f0a75edaf5d380983045da77e5f8ad8e7595c4f9df4b0c",
+    "expansion120-preservation.json": "3dbe6e3d42101308ec3f27178ae164163e176a5285bbf3304d24adba54a94087",
+    "expansion120-tools.cjs": "94eae71d300bc28c6754287ec728e1d848998e40b5cf492218203216d0f53e0b",
+    "verify-expansion120.cjs": "4b8278c8e7003e94975372596831b8b95f058f6613be85d0e098682246fb3d0d",
+    "app.js": "163494400853667a0e17ff9f09f5271496f4e6cfce4ebfefb0a4db05bf1701e2",
+    "index.html": "26246d1d816011ae5eee9d311aec1ba3a24ed50e7350c7b34713b0edd850c6e5"
+  },
+  "claims": {
+    "actualEngineReplay": false,
+    "browserQA": false
+  }
+}

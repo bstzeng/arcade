@@ -1,0 +1,11 @@
+(function(C){const{act,mod,rng,svg,txt}=C;
+C.register('time-partners',{
+roles:['旅人','時間師'],icon:'◷',color:'#b7a2ff',intro:'旅人穿越高速機關；時間師倒轉相位並凍結閘門。每道門只有指定相位可以安全穿越。',help:['旅人只控制前進和後退。快速閘門必須在「凍結」時穿越。','時間師可倒轉一拍、凍結兩步，或解除凍結；倒轉會改變所有尚未穿越機關的相位。','凍結不會倒退角色位置。每道門週期、開放相位不同。'],
+generate(n){const r=rng(n*283+71);return{id:n,gates:Array.from({length:3+n%6},(_,i)=>{const period=3+Math.floor(r()*4);return{period,open:Math.floor(r()*period),offset:Math.floor(r()*period),kind:['擺錘','光閘','齒輪'][i%3]};})};},
+init(){return{pos:0,time:0,frozen:0,rewinds:0};},
+observe(s,r){return{pos:s.pos,time:s.time,frozen:s.frozen,rewinds:s.rewinds,gates:s.level.gates.map(g=>({...g,phase:mod(s.time+g.offset,g.period)}))};},
+actions(o){return o.role===0?[act('walk','穿越前方機關'),act('back','退回一格')]:[act('rewind','倒轉一拍'),act('freeze','凍結兩步'),act('release','解除凍結')];},
+step(s,r,a){if(r===1){if(a.type==='rewind'){s.time--;s.frozen=0;s.rewinds++;}else if(a.type==='freeze')s.frozen=2;else if(a.type==='release'){s.frozen=0;s.time++;}else return{ok:false};return{ok:true};}if(a.type==='back'&&s.pos>0){s.pos--;return{ok:true};}if(a.type!=='walk')return{ok:false};const g=s.level.gates[s.pos];if(!s.frozen||mod(s.time+g.offset,g.period)!==g.open)return{ok:false,reason:'閘門尚未凍結在開放相位'};s.pos++;s.frozen--;if(!s.frozen)s.time++;s.won=s.pos===s.level.gates.length;return{ok:true};},
+ai(o){const g=o.gates[o.pos];if(!g)return null;if(o.role===0)return o.frozen&&g.phase===g.open?act('walk','趁凍結通過'):null;if(o.frozen&&g.phase===g.open)return null;if(g.phase!==g.open)return act('rewind','倒轉機關相位');return act('freeze','固定開放機關');},
+view(o){let b=`<path d="M35 236H530" stroke="#879daf" stroke-width="6"/>`;o.gates.forEach((g,i)=>{const x=58+i*450/o.gates.length,open=g.phase===g.open;b+=`<rect x="${x}" y="85" width="30" height="150" rx="12" fill="${i<o.pos?'#3c766b':open?'#80d9c9':'#725090'}"/>`+txt(x+15,65,`${g.phase}/${g.period}`,14)+txt(x+15,268,`開${g.open}`,12);});b+=txt(43+o.pos*450/o.gates.length,218,'●',30,'#fff3a8')+txt(280,305,o.frozen?'❄ 凍結中':'↶ 時間流轉',20);return svg(b);},status:o=>`已穿越 ${o.pos}/${o.gates.length} 道門 · 時間 ${o.time} · 凍結剩 ${o.frozen} 步`
+});})(typeof module!=='undefined'?require('../coop120-common/core.js'):CoopCore);

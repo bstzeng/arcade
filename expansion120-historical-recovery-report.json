@@ -1,0 +1,1595 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "baseCommit": "5a47d0a34d8aac323e0ba955eaca01ddb63e4a51",
+  "method": "transparent-transcript-backed-incremental-recovery",
+  "historicalSuiteCount": 18,
+  "reusedSuites": [
+    {
+      "id": "historical:verify-cards.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 82,
+          "text": "PASS: all five sets (250 deals) have complete independently verified winning certificates."
+        }
+      ]
+    },
+    {
+      "id": "historical:verify-puzzles.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 1190,
+          "text": "PASS: 10 games × 50 distinct solvable levels = 500; all current registry links/assets present; unique-solution claims verified for Hashi, Tents, and Slitherlink."
+        }
+      ]
+    },
+    {
+      "id": "historical:verify-logic.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 1837,
+          "text": "PASS: 500 new distinct unique-solution levels; independent counters, rules and controller flows; current lobby links and assets."
+        }
+      ]
+    },
+    {
+      "id": "historical:verify-classics.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 2137,
+          "text": "PASS: 500 new puzzles; 350 uniquely solved clue challenges, 50 no-guess minefields, 100 legal move witnesses; current lobby links; 349 original assets preserved."
+        }
+      ]
+    },
+    {
+      "id": "historical:verify-collection.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 2522,
+          "text": "PASS: 500 new levels; 300 independent unique solutions and 200 legal completion witnesses; current lobby entries; all 492 historical game assets unchanged."
+        }
+      ]
+    },
+    {
+      "id": "historical:verify-tabletop.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 2722,
+          "text": "PASS: 10 tabletop games, 3 AI difficulties, rule/tactical/self-play/controller suites; current lobby entries; all 631 prior game assets unchanged."
+        }
+      ]
+    },
+    {
+      "id": "historical:verify-chinese-chess.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 2799,
+          "text": "PASS: 2 Chinese chess games, 3 AI difficulties, rule/tactical/self-play/controller suites; 150 lobby entries; all 747 prior game assets unchanged."
+        }
+      ]
+    },
+    {
+      "id": "historical:verify-air-traffic.cjs",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 2904,
+          "text": "PASS: Air Traffic Control rules and controller suites; 150 lobby entries; all 772 prior game assets and 69 prior cards/artwork unchanged."
+        }
+      ]
+    },
+    {
+      "id": "shared-challenge-lifecycle",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 2907,
+          "text": "  \"assertions\": 522,"
+        },
+        {
+          "line": 2927,
+          "text": "  \"assertions\": 36,"
+        },
+        {
+          "line": 2928,
+          "text": "  \"scope\": \"Simulated DOM lifecycle\","
+        }
+      ]
+    },
+    {
+      "id": "expansion:cards",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 3086,
+          "text": "PASS all ten card games / 1,000 witnesses; real browser QA remains explicitly pending."
+        },
+        {
+          "line": 3083,
+          "text": "PASS assistance provenance texas-holdem 8"
+        }
+      ]
+    },
+    {
+      "id": "expansion:numbers",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 3137,
+          "text": "PASS numeric batch: 10 games, 1000 challenges, reproducible generation, independent proofs, engine/boundary/controller/simulated-DOM suites. Browser visual QA pending."
+        }
+      ]
+    },
+    {
+      "id": "expansion:deduction",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 3169,
+          "text": "escape-inventory 100 independent checks passed"
+        },
+        {
+          "line": 3192,
+          "text": "PASS 2210 UI assertions"
+        },
+        {
+          "line": 3193,
+          "text": "PASS 192 static checks"
+        }
+      ]
+    },
+    {
+      "id": "expansion:spatial",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 3204,
+          "text": "PASS: 10 spatial games / 1,000 challenges."
+        },
+        {
+          "line": 3214,
+          "text": "DOM PASS pin-and-ball all 100 rendered, manual controls, preview, hint, undo, reload and cancel."
+        },
+        {
+          "line": 3224,
+          "text": "STATIC PASS pin-and-ball"
+        }
+      ]
+    },
+    {
+      "id": "expansion:paths",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 3318,
+          "text": "{\"game\":\"euler-bridges\",\"passed\":true,\"assertions\":64622,\"differentialStates\":6872,\"solutionLength\":[7,26],\"durationMs\":1396}"
+        },
+        {
+          "line": 3320,
+          "text": "{\"game\":\"knight-tour\",\"passed\":true,\"assertions\":49972,\"differentialStates\":6940,\"solutionLength\":[7,18],\"durationMs\":1660}"
+        },
+        {
+          "line": 3322,
+          "text": "{\"game\":\"dual-shadow-maze\",\"passed\":true,\"assertions\":60461,\"differentialStates\":5768,\"solutionLength\":[5,18],\"durationMs\":258}"
+        },
+        {
+          "line": 3324,
+          "text": "{\"game\":\"tidal-maze\",\"passed\":true,\"assertions\":37468,\"differentialStates\":3827,\"solutionLength\":[6,18],\"durationMs\":483}"
+        },
+        {
+          "line": 3326,
+          "text": "{\"game\":\"energy-network\",\"passed\":true,\"assertions\":31842,\"differentialStates\":4987,\"solutionLength\":[4,10],\"durationMs\":2551}"
+        },
+        {
+          "line": 3328,
+          "text": "{\"game\":\"single-teleport\",\"passed\":true,\"assertions\":22774,\"differentialStates\":2251,\"solutionLength\":[6,15],\"durationMs\":304}"
+        },
+        {
+          "line": 3330,
+          "text": "{\"game\":\"color-gates\",\"passed\":true,\"assertions\":24017,\"differentialStates\":2478,\"solutionLength\":[6,18],\"durationMs\":822}"
+        },
+        {
+          "line": 3332,
+          "text": "{\"game\":\"tether-maze\",\"passed\":true,\"assertions\":72927,\"differentialStates\":5801,\"solutionLength\":[5,15],\"durationMs\":856}"
+        },
+        {
+          "line": 3334,
+          "text": "{\"game\":\"reversible-stairs\",\"passed\":true,\"assertions\":57188,\"differentialStates\":7550,\"solutionLength\":[5,16],\"durationMs\":2129}"
+        },
+        {
+          "line": 3336,
+          "text": "{\"game\":\"tour-route\",\"passed\":true,\"assertions\":114523,\"differentialStates\":7335,\"solutionLength\":[4,8],\"durationMs\":547}"
+        }
+      ]
+    },
+    {
+      "id": "expansion:simulation",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 3354,
+          "text": "alchemy-lab: 22 manual UI actions passed"
+        },
+        {
+          "line": 3355,
+          "text": "{\"passed\":true,\"games\":10,\"assertions\":2947,\"clicks\":1042}"
+        },
+        {
+          "line": 3437,
+          "text": "  \"checks\": 574,"
+        }
+      ]
+    },
+    {
+      "id": "expansion:quick",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 3442,
+          "text": "breakout: 100/100 independent legal winning replays, 527160 audited ticks"
+        },
+        {
+          "line": 3443,
+          "text": "snake: 100/100 independent legal winning replays, 72918 audited ticks"
+        },
+        {
+          "line": 3444,
+          "text": "pinball: 100/100 independent legal winning replays, 67657 audited ticks"
+        },
+        {
+          "line": 3445,
+          "text": "bubble-shooter: 100/100 independent legal winning replays, 97275 audited ticks"
+        },
+        {
+          "line": 3446,
+          "text": "rhythm-drums: 100/100 independent legal winning replays, 131413 audited ticks"
+        },
+        {
+          "line": 3447,
+          "text": "parkour-run: 100/100 independent legal winning replays, 136542 audited ticks"
+        },
+        {
+          "line": 3448,
+          "text": "space-dodge: 100/100 independent legal winning replays, 131801 audited ticks"
+        },
+        {
+          "line": 3449,
+          "text": "whack-a-mole: 100/100 independent legal winning replays, 152546 audited ticks"
+        },
+        {
+          "line": 3450,
+          "text": "fruit-slice: 100/100 independent legal winning replays, 167947 audited ticks"
+        },
+        {
+          "line": 3451,
+          "text": "fishing-challenge: 100/100 independent legal winning replays, 184626 audited ticks"
+        }
+      ]
+    },
+    {
+      "id": "final-150-game-integration",
+      "passed": true,
+      "evidenceKind": "reused-complete-run-transcript",
+      "freshRerun": false,
+      "markers": [
+        {
+          "line": 2,
+          "text": "PASS: 150 games including all 70 unchanged records, 80 distinct new illustrations, 782 preserved game assets, 8 primary categories, 461 search cases, grouped/keyboard/reset/history contracts and versioned links. Browser visual testing is separate."
+        },
+        {
+          "line": 3457,
+          "text": "PASS: 80 new games × 100 selectable challenges with complete typed certificates; frozen source hashes, canonical counts, 150-game registry, categories, titles, old assets and local references. Run verify-all.cjs for fresh independent solver/controller evidence."
+        },
+        {
+          "line": 3458,
+          "text": "PASS: 8 intentional integration corruptions rejected for the expected reason; original source untouched."
+        }
+      ]
+    }
+  ],
+  "freshSuites": [
+    {
+      "id": "expansion:tabletop",
+      "passed": true,
+      "evidenceKind": "fresh-isolated-command-run",
+      "commands": [
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/generate.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 1.239,
+          "stdoutSHA256": "996d69ec85f3be73de7e2af739bceb1ddf06369fbf95b44ba1613db428204b92",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "go9 100 { candidates: 1031, unique: 100 }\nhex 100 { candidates: 3596, unique: 100 }\nataxx 100 { candidates: 520, unique: 100 }\namazons 100 { candidates: 922, unique: 100 }\ndots-and-boxes 100 { candidates: 487, unique: 100 }\ndou-shou-qi 100 { candidates: 792, unique: 100 }\nhnefatafl 100 { candidates: 586, unique: 100 }\nbackgammon 100 { candidates: 137, unique: 100 }\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/chess/generate-levels.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 0.288,
+          "stdoutSHA256": "99bb6d783d46df401ec729d89653f74438a0636bb9175cf0bc6d4532d20fe366",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "chess 10 attempts 402\nchess 20 attempts 844\nchess 30 attempts 1078\nchess 40 attempts 1321\nchess 50 attempts 1498\nchess 60 attempts 2030\nchess 70 attempts 2386\nchess 80 attempts 2695\nchess 90 attempts 2991\nchess 100 attempts 4269\nGenerated chess 100 attempts 4269\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/shogi/generate-levels.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 2.123,
+          "stdoutSHA256": "4ac3fb8558c1a7ea04d201ea30d1122b51dd09151e3e6dd1cede1da450065507",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "shogi 10 attempts 505\nshogi 20 attempts 1002\nshogi 30 attempts 1384\nshogi 40 attempts 2233\nshogi 50 attempts 3469\nshogi 60 attempts 4703\nshogi 70 attempts 6100\nshogi 80 attempts 6735\nshogi 90 attempts 8512\nshogi 100 attempts 9651\nGenerated shogi 100 attempts 9651\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 3.382,
+          "stdoutSHA256": "339f5a3bec979997c59f00891e1572b2a3b6fc34603b8bc9c987817306816ea5",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "PASS 12724 assertions 13 boundary groups\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test-controller.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 7.831,
+          "stdoutSHA256": "4a6b416f1a468b778f8615769357f20765c64b8644d1d102f95eca0d497fd3f1",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "chess PASS\ngo9 PASS\nshogi PASS\ndou-shou-qi PASS\nbackgammon PASS\nhex PASS\ndots-and-boxes PASS\nataxx PASS\namazons PASS\nhnefatafl PASS\nPASS 247 simulated-DOM assertions\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test-ai-selfplay.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 15.398,
+          "stdoutSHA256": "ebdabd17d791310c5951b468e74b97fac8a3054695de25f9353bef529d62ae2f",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "chess PASS\ngo9 PASS\nshogi PASS\ndou-shou-qi PASS\nbackgammon PASS\nhex PASS\ndots-and-boxes PASS\nataxx PASS\namazons PASS\nhnefatafl PASS\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/competitive-common/test-static.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 0.223,
+          "stdoutSHA256": "6d0e3f3f576bf51548b5d9b05712557eedbe88e13b74494ba84c47f3c249ad05",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "PASS 238 static checks\n"
+        },
+        {
+          "argv": [
+            "python3",
+            "games/competitive-common/independent-check.py"
+          ],
+          "exitCode": 0,
+          "seconds": 0.298,
+          "stdoutSHA256": "1cf721176cf197875fc952ca774e0ce0d111df1857bca440c6dce597b1dff5f9",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "go9 100 100 PASS\nhex 100 100 PASS\nataxx 100 100 PASS\namazons 100 100 PASS\ndots-and-boxes 100 100 PASS\ndou-shou-qi 100 100 PASS\nhnefatafl 100 100 PASS\nbackgammon 100 238 PASS\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/chess/test.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 1.804,
+          "stdoutSHA256": "c1f679b20570f2c4a4c0d2625f20ce0af2a783461046e8826950dd3f8e00a887",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "PASS Initial perft depth 4 = 197281\nPASS Kiwipete castling/pins perft depth 3 = 97862\nPASS Rook-pawn endgame perft depth 3 = 2812\nPASS Castling through check is forbidden; queenside works\nPASS Rook capture removes opponent castle right\nPASS En passant and discovered self-check\nPASS Non-capturable en passant is omitted from repetition key\nPASS Four promotions and no unpromoted last-rank pawn\nPASS Mate, stalemate, material dead position\nPASS Threefold claim and fivefold automatic draw\nPASS Fifty-move intended and current claims, 75 automatic\nPASS Pawn moves/captures reset fifty-move count\nPASS play rejects illegal moves and is immutable\nPASS Agreement action requires consent and replays identically\nPASS All 100 puzzles are valid, unique, exactly one mate, no mutation\nPASS Shared Session: every puzzle saves/restores, replays, undoes and rejects wrong answer\nPASS Shared Session: immediate and intended repetition claims replay\nPASS Shared Session: two-consent draw is a replayable event\nPASS Shared AI: three difficulties produce legal immutable moves and normal finds mate\nChess: 19 regression groups, 100 puzzles passed.\n"
+        },
+        {
+          "argv": [
+            "python3",
+            "games/chess/independent-check.py"
+          ],
+          "exitCode": 0,
+          "seconds": 0.356,
+          "stdoutSHA256": "b78df5b4350a3515d07834d6d62cf75b6674a188545f1f50c94895cb193f0113",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "{\"game\": \"chess\", \"oracle\": \"python-chess 1.999 / chess 1.11.2\", \"puzzles\": 100, \"uniqueMatePuzzles\": 100, \"differentialPositions\": 432, \"allLegalMoveSetsAgree\": true, \"levelsSha256\": \"44271c0be56e52f34d2238a84b76ddaadec8789f3ef5d2ffc4c536a315617df4\", \"engineSha256\": \"5494a8fa4b11e791ec63f003eea736705bf946c5a39d2f10bd0d8645402eba26\"}\n"
+        },
+        {
+          "argv": [
+            "node",
+            "games/shogi/test.cjs"
+          ],
+          "exitCode": 0,
+          "seconds": 0.926,
+          "stdoutSHA256": "9f55aa8863414f7237f0792e3dee075708e53f40adb0c8886e5007338b2d7d10",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "PASS Initial position and depth 1–3 perft\nPASS Nifu blocks pawn drops; promoted pawn does not\nPASS No dead-rank pawn/lance/knight drops\nPASS Mandatory promotion and four directional zone rules\nPASS Promoted captured piece is demoted into capturer hand\nPASS Pin forbids exposing own king\nPASS Uchifuzume rejects pawn-drop mate but allows capturable pawn\nPASS Nonpawn drop mate and board-pawn mate are legal\nPASS Fourfold repetition is replay, never threefold\nPASS Continuous checking side loses repetition\nPASS Declaration threshold: 24–30 replay; 31+ wins\nPASS 500-move rule extends whole continuous-check sequence\nPASS Impasse requires both players agreement\nPASS Agreement action requires consent and replays identically\nPASS Immutable play rejects invalid drops\nPASS All 100 puzzles valid, unique, exact single mate\nPASS Shared Session: every puzzle saves/restores, replays, undoes and rejects wrong answer\nPASS Shared Session: declaration claim replay and undo\nPASS Shared Session: impasse consent event replay and undo\nPASS Shared AI: three difficulties produce legal immutable moves and normal finds mate\nShogi: 20 regression groups, 100 puzzles passed.\n"
+        },
+        {
+          "argv": [
+            "python3",
+            "games/shogi/independent-check.py"
+          ],
+          "exitCode": 0,
+          "seconds": 1.931,
+          "stdoutSHA256": "ecfe2f867036f3cbe83487e598fbe01034d8e489810a25e0cb5815fc0d56c846",
+          "stderrSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "tail": "{\"game\": \"shogi\", \"oracle\": \"python-shogi 1.1.1\", \"puzzles\": 100, \"uniqueMatePuzzles\": 100, \"differentialPositions\": 540, \"allLegalMoveSetsAgree\": true, \"levelsSha256\": \"1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad\", \"engineSha256\": \"0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f\"}\n"
+        }
+      ],
+      "freshReports": {
+        "games/competitive-common/independent-verification.json": {
+          "sha256": "f6d42f01399f34ff4670196d9ef55a5535a8152c62aece1db1e4aa0fc3ab417a",
+          "data": {
+            "checker": "Independent Python move geometry, capture, dice sequencing, and objective implementation; no JS engine imports",
+            "games": {
+              "go9": {
+                "puzzles": 100,
+                "witnessMoves": 100,
+                "canonicalUnique": 100,
+                "engineSha256": "7318f5a15fa4b8aca991ee9b90be67966718b4889f0aefa71a5aade03cdd7cb2",
+                "levelsSha256": "ee52e818abd4f6efdd77826ea44c0461d91807c3ec6fcf75a3fbe3d373d511e8"
+              },
+              "hex": {
+                "puzzles": 100,
+                "witnessMoves": 100,
+                "canonicalUnique": 100,
+                "engineSha256": "b6844a0a82b1f71422adc18b59721eab376a59f4555f87e42cd9a538ace8f0b6",
+                "levelsSha256": "624cd59bd08663083211654d28b4cf23f6e22e94cef7007cab0c6d1001406eec"
+              },
+              "ataxx": {
+                "puzzles": 100,
+                "witnessMoves": 100,
+                "canonicalUnique": 100,
+                "engineSha256": "60a8590cda4704b8a1d1b1da9f8e00aa23f2f6a029160163b2dba83e2df2a180",
+                "levelsSha256": "64b3be91755c857a9b7c5bc90b39937b28a43fd71b0a879e62d7910b3c476881"
+              },
+              "amazons": {
+                "puzzles": 100,
+                "witnessMoves": 100,
+                "canonicalUnique": 100,
+                "engineSha256": "e284e5e98371147089fc123079ed578506a27ced0c7a98de7f7b74cf1692bab1",
+                "levelsSha256": "ded332deea32faa99321665d194791f8a191fb7bcc4b4cb16ff2f2b154000ca6"
+              },
+              "dots-and-boxes": {
+                "puzzles": 100,
+                "witnessMoves": 100,
+                "canonicalUnique": 100,
+                "engineSha256": "376543dd01412bd1c2dbfe6c965a9de2c01908a52c73ce8271ae68860cf9f795",
+                "levelsSha256": "75048e94224c3204c854e6a24399e24dee6a027fed6a68331fa8646f5be99e8f"
+              },
+              "dou-shou-qi": {
+                "puzzles": 100,
+                "witnessMoves": 100,
+                "canonicalUnique": 100,
+                "engineSha256": "38c8d47637b10a37e2e60266b27f85cc2b4dfab6c1fdb242bd28fb1c511fc361",
+                "levelsSha256": "41aac8e0e6c92b46d266ada1486292d11a4880e39cd6d11b7833b3ffcd924270"
+              },
+              "hnefatafl": {
+                "puzzles": 100,
+                "witnessMoves": 100,
+                "canonicalUnique": 100,
+                "engineSha256": "90e189cefadfb481f4414f305217edc07cbe6728b0cd0afaff1637b9a2d866a0",
+                "levelsSha256": "447b07f0e169afb26f4365b92d1817e2b4a06e9feebf85fad3da9ea8ec4c5e22"
+              },
+              "backgammon": {
+                "puzzles": 100,
+                "witnessMoves": 238,
+                "canonicalUnique": 100,
+                "engineSha256": "d1211bceb3a333d8a1d14e04efd6d82541a2ad440257576fd3d7ae0882e9dbef",
+                "levelsSha256": "475b222c1114ace8d14ebaaa4b79081d014aa0de9b0bac0a1bf56dd7e37f53a9"
+              }
+            },
+            "allPassed": true
+          }
+        },
+        "games/chess/independent-verification.json": {
+          "sha256": "f6ca68e237d53b6a4773a10199fc13f2a6c1a1b8da52c98d227e4e76d53feb7b",
+          "data": {
+            "game": "chess",
+            "oracle": "python-chess 1.999 / chess 1.11.2",
+            "puzzles": 100,
+            "uniqueMatePuzzles": 100,
+            "differentialPositions": 432,
+            "allLegalMoveSetsAgree": true,
+            "levelsSha256": "44271c0be56e52f34d2238a84b76ddaadec8789f3ef5d2ffc4c536a315617df4",
+            "engineSha256": "5494a8fa4b11e791ec63f003eea736705bf946c5a39d2f10bd0d8645402eba26",
+            "records": [
+              {
+                "id": 1,
+                "legalMoves": 20,
+                "uniqueMate": "a4d1"
+              },
+              {
+                "id": 2,
+                "legalMoves": 25,
+                "uniqueMate": "g5g7"
+              },
+              {
+                "id": 3,
+                "legalMoves": 26,
+                "uniqueMate": "e7h4"
+              },
+              {
+                "id": 4,
+                "legalMoves": 26,
+                "uniqueMate": "f2a2"
+              },
+              {
+                "id": 5,
+                "legalMoves": 24,
+                "uniqueMate": "d8d1"
+              },
+              {
+                "id": 6,
+                "legalMoves": 29,
+                "uniqueMate": "b4b7"
+              },
+              {
+                "id": 7,
+                "legalMoves": 26,
+                "uniqueMate": "d2h6"
+              },
+              {
+                "id": 8,
+                "legalMoves": 27,
+                "uniqueMate": "c2c8"
+              },
+              {
+                "id": 9,
+                "legalMoves": 21,
+                "uniqueMate": "f8a3"
+              },
+              {
+                "id": 10,
+                "legalMoves": 24,
+                "uniqueMate": "f2g3"
+              },
+              {
+                "id": 11,
+                "legalMoves": 18,
+                "uniqueMate": "h3g2"
+              },
+              {
+                "id": 12,
+                "legalMoves": 27,
+                "uniqueMate": "f4c1"
+              },
+              {
+                "id": 13,
+                "legalMoves": 23,
+                "uniqueMate": "f1a1"
+              },
+              {
+                "id": 14,
+                "legalMoves": 30,
+                "uniqueMate": "d3d8"
+              },
+              {
+                "id": 15,
+                "legalMoves": 26,
+                "uniqueMate": "g8g1"
+              },
+              {
+                "id": 16,
+                "legalMoves": 20,
+                "uniqueMate": "e3e1"
+              },
+              {
+                "id": 17,
+                "legalMoves": 20,
+                "uniqueMate": "d2b2"
+              },
+              {
+                "id": 18,
+                "legalMoves": 22,
+                "uniqueMate": "g2h2"
+              },
+              {
+                "id": 19,
+                "legalMoves": 25,
+                "uniqueMate": "a3b4"
+              },
+              {
+                "id": 20,
+                "legalMoves": 24,
+                "uniqueMate": "e4e1"
+              },
+              {
+                "id": 21,
+                "legalMoves": 34,
+                "uniqueMate": "c3c1"
+              },
+              {
+                "id": 22,
+                "legalMoves": 29,
+                "uniqueMate": "g6g8"
+              },
+              {
+                "id": 23,
+                "legalMoves": 35,
+                "uniqueMate": "a6a8"
+              },
+              {
+                "id": 24,
+                "legalMoves": 32,
+                "uniqueMate": "h4h8"
+              },
+              {
+                "id": 25,
+                "legalMoves": 22,
+                "uniqueMate": "d3a3"
+              },
+              {
+                "id": 26,
+                "legalMoves": 26,
+                "uniqueMate": "f8a8"
+              },
+              {
+                "id": 27,
+                "legalMoves": 34,
+                "uniqueMate": "a7h7"
+              },
+              {
+                "id": 28,
+                "legalMoves": 25,
+                "uniqueMate": "e1e2"
+              },
+              {
+                "id": 29,
+                "legalMoves": 24,
+                "uniqueMate": "c6c8"
+              },
+              {
+                "id": 30,
+                "legalMoves": 34,
+                "uniqueMate": "f7h7"
+              },
+              {
+                "id": 31,
+                "legalMoves": 20,
+                "uniqueMate": "h8h7"
+              },
+              {
+                "id": 32,
+                "legalMoves": 25,
+                "uniqueMate": "f8g7"
+              },
+              {
+                "id": 33,
+                "legalMoves": 27,
+                "uniqueMate": "f2b2"
+              },
+              {
+                "id": 34,
+                "legalMoves": 33,
+                "uniqueMate": "e3e1"
+              },
+              {
+                "id": 35,
+                "legalMoves": 29,
+                "uniqueMate": "g5g7"
+              },
+              {
+                "id": 36,
+                "legalMoves": 19,
+                "uniqueMate": "h2e2"
+              },
+              {
+                "id": 37,
+                "legalMoves": 19,
+                "uniqueMate": "d1f3"
+              },
+              {
+                "id": 38,
+                "legalMoves": 29,
+                "uniqueMate": "f2f8"
+              },
+              {
+                "id": 39,
+                "legalMoves": 22,
+                "uniqueMate": "a7d7"
+              },
+              {
+                "id": 40,
+                "legalMoves": 36,
+                "uniqueMate": "e4c2"
+              },
+              {
+                "id": 41,
+                "legalMoves": 27,
+                "uniqueMate": "b7b5"
+              },
+              {
+                "id": 42,
+                "legalMoves": 26,
+                "uniqueMate": "e1e8"
+              },
+              {
+                "id": 43,
+                "legalMoves": 30,
+                "uniqueMate": "f7f8"
+              },
+              {
+                "id": 44,
+                "legalMoves": 24,
+                "uniqueMate": "a5d8"
+              },
+              {
+                "id": 45,
+                "legalMoves": 17,
+                "uniqueMate": "a7c6"
+              },
+              {
+                "id": 46,
+                "legalMoves": 28,
+                "uniqueMate": "h5h3"
+              },
+              {
+                "id": 47,
+                "legalMoves": 29,
+                "uniqueMate": "f8h8"
+              },
+              {
+                "id": 48,
+                "legalMoves": 26,
+                "uniqueMate": "f3f1"
+              },
+              {
+                "id": 49,
+                "legalMoves": 37,
+                "uniqueMate": "d8a8"
+              },
+              {
+                "id": 50,
+                "legalMoves": 29,
+                "uniqueMate": "c5a3"
+              },
+              {
+                "id": 51,
+                "legalMoves": 29,
+                "uniqueMate": "a1g1"
+              },
+              {
+                "id": 52,
+                "legalMoves": 29,
+                "uniqueMate": "a2c4"
+              },
+              {
+                "id": 53,
+                "legalMoves": 35,
+                "uniqueMate": "e4e8"
+              },
+              {
+                "id": 54,
+                "legalMoves": 35,
+                "uniqueMate": "a8e4"
+              },
+              {
+                "id": 55,
+                "legalMoves": 28,
+                "uniqueMate": "f4h4"
+              },
+              {
+                "id": 56,
+                "legalMoves": 28,
+                "uniqueMate": "d8e8"
+              },
+              {
+                "id": 57,
+                "legalMoves": 22,
+                "uniqueMate": "h6g7"
+              },
+              {
+                "id": 58,
+                "legalMoves": 31,
+                "uniqueMate": "b1b8"
+              },
+              {
+                "id": 59,
+                "legalMoves": 24,
+                "uniqueMate": "e8g6"
+              },
+              {
+                "id": 60,
+                "legalMoves": 29,
+                "uniqueMate": "e7a3"
+              },
+              {
+                "id": 61,
+                "legalMoves": 39,
+                "uniqueMate": "f5f8"
+              },
+              {
+                "id": 62,
+                "legalMoves": 39,
+                "uniqueMate": "e5a5"
+              },
+              {
+                "id": 63,
+                "legalMoves": 40,
+                "uniqueMate": "c5c8"
+              },
+              {
+                "id": 64,
+                "legalMoves": 39,
+                "uniqueMate": "d4b6"
+              },
+              {
+                "id": 65,
+                "legalMoves": 28,
+                "uniqueMate": "d8b6"
+              },
+              {
+                "id": 66,
+                "legalMoves": 38,
+                "uniqueMate": "d5d8"
+              },
+              {
+                "id": 67,
+                "legalMoves": 35,
+                "uniqueMate": "c3b2"
+              },
+              {
+                "id": 68,
+                "legalMoves": 30,
+                "uniqueMate": "h4h7"
+              },
+              {
+                "id": 69,
+                "legalMoves": 22,
+                "uniqueMate": "h4h3"
+              },
+              {
+                "id": 70,
+                "legalMoves": 37,
+                "uniqueMate": "a5d8"
+              },
+              {
+                "id": 71,
+                "legalMoves": 39,
+                "uniqueMate": "d1d8"
+              },
+              {
+                "id": 72,
+                "legalMoves": 33,
+                "uniqueMate": "c5a7"
+              },
+              {
+                "id": 73,
+                "legalMoves": 40,
+                "uniqueMate": "d8d1"
+              },
+              {
+                "id": 74,
+                "legalMoves": 41,
+                "uniqueMate": "d1d5"
+              },
+              {
+                "id": 75,
+                "legalMoves": 32,
+                "uniqueMate": "g8f8"
+              },
+              {
+                "id": 76,
+                "legalMoves": 30,
+                "uniqueMate": "e2g2"
+              },
+              {
+                "id": 77,
+                "legalMoves": 30,
+                "uniqueMate": "d8b6"
+              },
+              {
+                "id": 78,
+                "legalMoves": 29,
+                "uniqueMate": "f7g7"
+              },
+              {
+                "id": 79,
+                "legalMoves": 40,
+                "uniqueMate": "g4f2"
+              },
+              {
+                "id": 80,
+                "legalMoves": 23,
+                "uniqueMate": "a2c3"
+              },
+              {
+                "id": 81,
+                "legalMoves": 40,
+                "uniqueMate": "e4e7"
+              },
+              {
+                "id": 82,
+                "legalMoves": 32,
+                "uniqueMate": "g5b5"
+              },
+              {
+                "id": 83,
+                "legalMoves": 29,
+                "uniqueMate": "b3c5"
+              },
+              {
+                "id": 84,
+                "legalMoves": 25,
+                "uniqueMate": "a4d1"
+              },
+              {
+                "id": 85,
+                "legalMoves": 28,
+                "uniqueMate": "a7b8"
+              },
+              {
+                "id": 86,
+                "legalMoves": 32,
+                "uniqueMate": "d7g7"
+              },
+              {
+                "id": 87,
+                "legalMoves": 24,
+                "uniqueMate": "b1c3"
+              },
+              {
+                "id": 88,
+                "legalMoves": 32,
+                "uniqueMate": "d4h8"
+              },
+              {
+                "id": 89,
+                "legalMoves": 32,
+                "uniqueMate": "g5h4"
+              },
+              {
+                "id": 90,
+                "legalMoves": 31,
+                "uniqueMate": "f7b7"
+              },
+              {
+                "id": 91,
+                "legalMoves": 21,
+                "uniqueMate": "d6e5"
+              },
+              {
+                "id": 92,
+                "legalMoves": 20,
+                "uniqueMate": "h6f7"
+              },
+              {
+                "id": 93,
+                "legalMoves": 27,
+                "uniqueMate": "e7g8"
+              },
+              {
+                "id": 94,
+                "legalMoves": 17,
+                "uniqueMate": "f1g3"
+              },
+              {
+                "id": 95,
+                "legalMoves": 26,
+                "uniqueMate": "h1g2"
+              },
+              {
+                "id": 96,
+                "legalMoves": 19,
+                "uniqueMate": "a3b2"
+              },
+              {
+                "id": 97,
+                "legalMoves": 28,
+                "uniqueMate": "f3f2"
+              },
+              {
+                "id": 98,
+                "legalMoves": 19,
+                "uniqueMate": "h6f7"
+              },
+              {
+                "id": 99,
+                "legalMoves": 16,
+                "uniqueMate": "c8b7"
+              },
+              {
+                "id": 100,
+                "legalMoves": 20,
+                "uniqueMate": "c6b5"
+              }
+            ]
+          }
+        },
+        "games/shogi/independent-verification.json": {
+          "sha256": "ada546a6073a67f76f3eeb82ab28c4581a4b131c571e8610f21c548a4ec64d89",
+          "data": {
+            "game": "shogi",
+            "oracle": "python-shogi 1.1.1",
+            "puzzles": 100,
+            "uniqueMatePuzzles": 100,
+            "differentialPositions": 540,
+            "allLegalMoveSetsAgree": true,
+            "levelsSha256": "1b45b02cc3461a99466fbc8cd137550f2441135cdac9bd00fb1e89d0855653ad",
+            "engineSha256": "0494c6c18a61c8502b1184f2500176b1a9980a6116bde2770bd9fc3888e6dc7f",
+            "records": [
+              {
+                "id": 1,
+                "legalMoves": 89,
+                "uniqueMate": "R*2b"
+              },
+              {
+                "id": 2,
+                "legalMoves": 111,
+                "uniqueMate": "G*3h"
+              },
+              {
+                "id": 3,
+                "legalMoves": 91,
+                "uniqueMate": "R*3a"
+              },
+              {
+                "id": 4,
+                "legalMoves": 110,
+                "uniqueMate": "G*4i"
+              },
+              {
+                "id": 5,
+                "legalMoves": 103,
+                "uniqueMate": "R*2a"
+              },
+              {
+                "id": 6,
+                "legalMoves": 111,
+                "uniqueMate": "G*7g"
+              },
+              {
+                "id": 7,
+                "legalMoves": 96,
+                "uniqueMate": "G*4b"
+              },
+              {
+                "id": 8,
+                "legalMoves": 101,
+                "uniqueMate": "G*3h"
+              },
+              {
+                "id": 9,
+                "legalMoves": 97,
+                "uniqueMate": "G*3b"
+              },
+              {
+                "id": 10,
+                "legalMoves": 108,
+                "uniqueMate": "G*2g"
+              },
+              {
+                "id": 11,
+                "legalMoves": 99,
+                "uniqueMate": "R*9c"
+              },
+              {
+                "id": 12,
+                "legalMoves": 108,
+                "uniqueMate": "S*2h"
+              },
+              {
+                "id": 13,
+                "legalMoves": 99,
+                "uniqueMate": "S*3b"
+              },
+              {
+                "id": 14,
+                "legalMoves": 105,
+                "uniqueMate": "R*2i"
+              },
+              {
+                "id": 15,
+                "legalMoves": 119,
+                "uniqueMate": "G*5b"
+              },
+              {
+                "id": 16,
+                "legalMoves": 91,
+                "uniqueMate": "N*7g"
+              },
+              {
+                "id": 17,
+                "legalMoves": 117,
+                "uniqueMate": "G*5b"
+              },
+              {
+                "id": 18,
+                "legalMoves": 134,
+                "uniqueMate": "G*4f"
+              },
+              {
+                "id": 19,
+                "legalMoves": 100,
+                "uniqueMate": "R*8a"
+              },
+              {
+                "id": 20,
+                "legalMoves": 98,
+                "uniqueMate": "R*1g"
+              },
+              {
+                "id": 21,
+                "legalMoves": 117,
+                "uniqueMate": "R*8c"
+              },
+              {
+                "id": 22,
+                "legalMoves": 112,
+                "uniqueMate": "G*5h"
+              },
+              {
+                "id": 23,
+                "legalMoves": 120,
+                "uniqueMate": "R*4a"
+              },
+              {
+                "id": 24,
+                "legalMoves": 103,
+                "uniqueMate": "R*3i"
+              },
+              {
+                "id": 25,
+                "legalMoves": 87,
+                "uniqueMate": "G*2b"
+              },
+              {
+                "id": 26,
+                "legalMoves": 93,
+                "uniqueMate": "G*6h"
+              },
+              {
+                "id": 27,
+                "legalMoves": 89,
+                "uniqueMate": "L*1d"
+              },
+              {
+                "id": 28,
+                "legalMoves": 97,
+                "uniqueMate": "R*7i"
+              },
+              {
+                "id": 29,
+                "legalMoves": 88,
+                "uniqueMate": "G*2b"
+              },
+              {
+                "id": 30,
+                "legalMoves": 118,
+                "uniqueMate": "G*8f"
+              },
+              {
+                "id": 31,
+                "legalMoves": 105,
+                "uniqueMate": "G*5b"
+              },
+              {
+                "id": 32,
+                "legalMoves": 103,
+                "uniqueMate": "G*7h"
+              },
+              {
+                "id": 33,
+                "legalMoves": 127,
+                "uniqueMate": "G*5b"
+              },
+              {
+                "id": 34,
+                "legalMoves": 90,
+                "uniqueMate": "G*6h"
+              },
+              {
+                "id": 35,
+                "legalMoves": 108,
+                "uniqueMate": "R*1c"
+              },
+              {
+                "id": 36,
+                "legalMoves": 94,
+                "uniqueMate": "R*7g"
+              },
+              {
+                "id": 37,
+                "legalMoves": 93,
+                "uniqueMate": "G*2b"
+              },
+              {
+                "id": 38,
+                "legalMoves": 96,
+                "uniqueMate": "G*3h"
+              },
+              {
+                "id": 39,
+                "legalMoves": 104,
+                "uniqueMate": "G*4b"
+              },
+              {
+                "id": 40,
+                "legalMoves": 102,
+                "uniqueMate": "G*4h"
+              },
+              {
+                "id": 41,
+                "legalMoves": 81,
+                "uniqueMate": "4d4b+"
+              },
+              {
+                "id": 42,
+                "legalMoves": 75,
+                "uniqueMate": "1f2h+"
+              },
+              {
+                "id": 43,
+                "legalMoves": 111,
+                "uniqueMate": "4a2a+"
+              },
+              {
+                "id": 44,
+                "legalMoves": 100,
+                "uniqueMate": "9e7g+"
+              },
+              {
+                "id": 45,
+                "legalMoves": 123,
+                "uniqueMate": "8a8b+"
+              },
+              {
+                "id": 46,
+                "legalMoves": 26,
+                "uniqueMate": "9g9h+"
+              },
+              {
+                "id": 47,
+                "legalMoves": 45,
+                "uniqueMate": "1c2b+"
+              },
+              {
+                "id": 48,
+                "legalMoves": 38,
+                "uniqueMate": "2f2g+"
+              },
+              {
+                "id": 49,
+                "legalMoves": 104,
+                "uniqueMate": "9d8c+"
+              },
+              {
+                "id": 50,
+                "legalMoves": 35,
+                "uniqueMate": "3g2h+"
+              },
+              {
+                "id": 51,
+                "legalMoves": 106,
+                "uniqueMate": "2b2a+"
+              },
+              {
+                "id": 52,
+                "legalMoves": 10,
+                "uniqueMate": "9g9h+"
+              },
+              {
+                "id": 53,
+                "legalMoves": 23,
+                "uniqueMate": "1c1b+"
+              },
+              {
+                "id": 54,
+                "legalMoves": 27,
+                "uniqueMate": "4i2g+"
+              },
+              {
+                "id": 55,
+                "legalMoves": 62,
+                "uniqueMate": "3d6a+"
+              },
+              {
+                "id": 56,
+                "legalMoves": 111,
+                "uniqueMate": "5g3g+"
+              },
+              {
+                "id": 57,
+                "legalMoves": 79,
+                "uniqueMate": "2e3c+"
+              },
+              {
+                "id": 58,
+                "legalMoves": 50,
+                "uniqueMate": "8h8g+"
+              },
+              {
+                "id": 59,
+                "legalMoves": 73,
+                "uniqueMate": "1c1b+"
+              },
+              {
+                "id": 60,
+                "legalMoves": 80,
+                "uniqueMate": "9f8g+"
+              },
+              {
+                "id": 61,
+                "legalMoves": 47,
+                "uniqueMate": "9b7b+"
+              },
+              {
+                "id": 62,
+                "legalMoves": 54,
+                "uniqueMate": "9h8h+"
+              },
+              {
+                "id": 63,
+                "legalMoves": 109,
+                "uniqueMate": "4d5b+"
+              },
+              {
+                "id": 64,
+                "legalMoves": 117,
+                "uniqueMate": "6h8h+"
+              },
+              {
+                "id": 65,
+                "legalMoves": 33,
+                "uniqueMate": "1b2a+"
+              },
+              {
+                "id": 66,
+                "legalMoves": 47,
+                "uniqueMate": "4f4g+"
+              },
+              {
+                "id": 67,
+                "legalMoves": 110,
+                "uniqueMate": "3b3a+"
+              },
+              {
+                "id": 68,
+                "legalMoves": 42,
+                "uniqueMate": "1f3h+"
+              },
+              {
+                "id": 69,
+                "legalMoves": 26,
+                "uniqueMate": "2e2a+"
+              },
+              {
+                "id": 70,
+                "legalMoves": 100,
+                "uniqueMate": "6i8g+"
+              },
+              {
+                "id": 71,
+                "legalMoves": 98,
+                "uniqueMate": "8f9e"
+              },
+              {
+                "id": 72,
+                "legalMoves": 116,
+                "uniqueMate": "2g3g"
+              },
+              {
+                "id": 73,
+                "legalMoves": 104,
+                "uniqueMate": "4c3b"
+              },
+              {
+                "id": 74,
+                "legalMoves": 32,
+                "uniqueMate": "1c2e"
+              },
+              {
+                "id": 75,
+                "legalMoves": 110,
+                "uniqueMate": "7c4c"
+              },
+              {
+                "id": 76,
+                "legalMoves": 22,
+                "uniqueMate": "7i8i"
+              },
+              {
+                "id": 77,
+                "legalMoves": 37,
+                "uniqueMate": "9e8d"
+              },
+              {
+                "id": 78,
+                "legalMoves": 45,
+                "uniqueMate": "3h4g"
+              },
+              {
+                "id": 79,
+                "legalMoves": 121,
+                "uniqueMate": "3f3b"
+              },
+              {
+                "id": 80,
+                "legalMoves": 103,
+                "uniqueMate": "9g9h"
+              },
+              {
+                "id": 81,
+                "legalMoves": 55,
+                "uniqueMate": "9e8d"
+              },
+              {
+                "id": 82,
+                "legalMoves": 45,
+                "uniqueMate": "8i6i"
+              },
+              {
+                "id": 83,
+                "legalMoves": 114,
+                "uniqueMate": "4c6a"
+              },
+              {
+                "id": 84,
+                "legalMoves": 26,
+                "uniqueMate": "9g9h"
+              },
+              {
+                "id": 85,
+                "legalMoves": 97,
+                "uniqueMate": "4a3b"
+              },
+              {
+                "id": 86,
+                "legalMoves": 106,
+                "uniqueMate": "7e7i"
+              },
+              {
+                "id": 87,
+                "legalMoves": 23,
+                "uniqueMate": "4c4b"
+              },
+              {
+                "id": 88,
+                "legalMoves": 30,
+                "uniqueMate": "4i3i"
+              },
+              {
+                "id": 89,
+                "legalMoves": 43,
+                "uniqueMate": "6c5b"
+              },
+              {
+                "id": 90,
+                "legalMoves": 55,
+                "uniqueMate": "9e7g"
+              },
+              {
+                "id": 91,
+                "legalMoves": 25,
+                "uniqueMate": "1c1b"
+              },
+              {
+                "id": 92,
+                "legalMoves": 31,
+                "uniqueMate": "4g3h"
+              },
+              {
+                "id": 93,
+                "legalMoves": 21,
+                "uniqueMate": "1d2c"
+              },
+              {
+                "id": 94,
+                "legalMoves": 81,
+                "uniqueMate": "1g1h"
+              },
+              {
+                "id": 95,
+                "legalMoves": 29,
+                "uniqueMate": "3e2c"
+              },
+              {
+                "id": 96,
+                "legalMoves": 86,
+                "uniqueMate": "9i8h"
+              },
+              {
+                "id": 97,
+                "legalMoves": 43,
+                "uniqueMate": "9e9d"
+              },
+              {
+                "id": 98,
+                "legalMoves": 90,
+                "uniqueMate": "5i6i"
+              },
+              {
+                "id": 99,
+                "legalMoves": 43,
+                "uniqueMate": "8b7c"
+              },
+              {
+                "id": 100,
+                "legalMoves": 58,
+                "uniqueMate": "7f8g"
+              }
+            ]
+          }
+        }
+      },
+      "byteIdenticalRegeneratedCorpora": 20
+    }
+  ],
+  "sourceFiles": {
+    "expansion120-preservation.json": "3dbe6e3d42101308ec3f27178ae164163e176a5285bbf3304d24adba54a94087",
+    "expansion120-baseline-root.json": "6200a5eec714fd5a89dc3687fda34c4598a1d4665efc1658727ef97a26209f96",
+    "expansion-manifest.json": "35ed1d1eb486baf8d005b0f64b48e02e669237e9fae4021f8cd084dcac68ec75",
+    "recover-expansion120-historical.cjs": "dcff2e06e572110ee75c31958297d27561c1c5588d7527f06a915e5bc8d5ae12"
+  },
+  "priorAttempt": {
+    "passed": false,
+    "seconds": 842.16,
+    "transcriptSHA256": "374d642c4d71acc378f8e49631f1f503e31ffe82fbd347811ad39f3ae7624484",
+    "transcriptBytes": 135892,
+    "failedOuterReportSHA256": "092a31a71f1c3f486193466759c823cd21b740c20322f1e293c84f84b201aa8c",
+    "failure": "Python chess oracle dependency missing: ModuleNotFoundError: chess",
+    "retention": "Complete transcript and failed outer report retained externally by release owner; original disposable per-suite JSON was not retained.",
+    "onlyOneFailedSuiteObserved": true
+  },
+  "claims": {
+    "all18SuitesFreshInThisInvocation": false,
+    "retainedOriginalPerSuiteJSON": false,
+    "allNewFamilyAnd270LobbyTestsIncluded": false,
+    "browserQA": false
+  },
+  "dependencies": {
+    "python-chess": "1.999",
+    "chess": "1.11.2",
+    "python-shogi": "1.1.1"
+  }
+}

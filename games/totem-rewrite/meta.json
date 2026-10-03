@@ -1,0 +1,20 @@
+{
+  "id": "totem-rewrite",
+  "title": "圖騰改寫術",
+  "proposal": "設定符號替換規則，把起始圖騰變成目標形狀。",
+  "icon": "🗿",
+  "category": "code",
+  "tagline": "一個符號，長出另一個世界",
+  "tutorial": "A -> AB 表示每一輪所有 A 同時變成 AB。B、C 也各寫一條規則。_ 是空字串。每個右側最多四個符號，最多 1024 格；每輪都同時替換，不會立刻再替換剛生成的字。執行指定輪數後要與目標圖騰完全相同。",
+  "palette": [
+    "A -> AB",
+    "A -> BC",
+    "B -> A",
+    "B -> BC",
+    "C -> C",
+    "C -> _"
+  ],
+  "model": "Parallel deterministic context-free symbol rewriting, explicit empty production and bounded multi-round growth.",
+  "challengeCount": 100,
+  "limitations": "教學用離散模型；提示與參考解答為確定性輔助，不是 AI 對手。"
+}

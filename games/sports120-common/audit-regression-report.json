@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "generatedAt": "2026-10-03T00:53:02.029Z",
+  "command": "node --test games/sports120-common/audit-regressions.cjs",
+  "tests": 10,
+  "pass": 10,
+  "fail": 0,
+  "fixes": [
+    "S1 possessed-ball interception",
+    "S2 tennis own-court first-bounce fault",
+    "S3 visible baseball fielding difficulty"
+  ],
+  "additional": [
+    "human paddle movement parity",
+    "15 distinct SVG lobby illustrations"
+  ],
+  "sourceHashes": {
+    "games/sports120-common/engine.js": "ae3a17e7d0f0c2024365870c9667101d4ff8616dae4c11f556d92c3a3298f36d",
+    "games/sports120-common/audit-regressions.cjs": "ff199ba80e9d84a5b4a1c20a4e7488ad07762f6e368434afb17157371fe58767"
+  }
+}

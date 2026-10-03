@@ -1,0 +1,2791 @@
+{
+  "schemaVersion": 1,
+  "title": "Arcade 120-game expansion specification",
+  "status": "specification-not-a-verification-report",
+  "sourceBaselineCommit": "5a47d0a34d8aac323e0ba955eaca01ddb63e4a51",
+  "baselineGames": 150,
+  "newGames": 120,
+  "releaseGames": 270,
+  "userAuthorizationMessageId": "Sentinel_554f86ea1008819194a02b7f03992fb9",
+  "sourceProposalMessages": [
+    "Sentinel_2a01d43ce5488191be10a73732dbda10",
+    "Sentinel_26c7e24161508191bea1451685c1827f"
+  ],
+  "commonAcceptance": [
+    "The playable rule model must implement the named core mechanic in proposal; changing theme/text around an unrelated generic puzzle is unacceptable.",
+    "Mobile-first Traditional Chinese interface; clear objective, visual state, legal controls, feedback, pause/restart where applicable, keyboard equivalent where practical, and no horizontal overflow at 360px.",
+    "If levelBased=true: exactly 100 selectable, meaningfully varied levels with stable IDs; structural or task variation beyond renaming, relabeling, symmetry or cosmetic recoloring.",
+    "Every advertised solvable level needs a replayable action/input witness executed through the same runtime engine, plus independent rule/property assertions; invalid or empty witness must fail.",
+    "In-app contextual hints and visible solution demonstrations use legal engine transitions. Demo/hint completion is marked assisted and never awards unassisted records.",
+    "Challenge proof claims distinguish legal reachability, fixed-policy opponent scenarios, timing witnesses and full adversarial forced wins; never claim unique solutions or arbitrary-opponent wins without evidence.",
+    "State-dependent local AI only: actual opponent/teammate decisions consume permitted observations, have legal-action tests, and are not a canned transcript or a random move labeled intelligent.",
+    "Reset, level change, leaving screen and repeated input cancel stale timers/AI/demo work; persistence is validated and separate per game.",
+    "No third-party LLM/API, account, network multiplayer claim or external media dependency. Audio only begins after user gesture and has mute/volume controls when used.",
+    "README accurately documents variant, controls, objective, solution proof scope, AI policy and limitations; tests must run against exact submitted sources."
+  ],
+  "families": [
+    {
+      "id": "sports",
+      "title": "運動競技",
+      "directory": "games/sports120-common",
+      "games": [
+        "air-hockey",
+        "spin-pong",
+        "badminton-duel",
+        "street-soccer",
+        "street-basketball",
+        "tennis-duel",
+        "beach-volleyball",
+        "bowling-master",
+        "billiards-clear",
+        "curling-tactics",
+        "wind-archery",
+        "mechanism-golf",
+        "baseball-duel",
+        "fencing-duel",
+        "frisbee-challenge"
+      ],
+      "acceptance": [
+        "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+        "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+      ],
+      "catalogPath": "games/sports120-common/catalog.json",
+      "releaseManifestPath": "games/sports120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "vehicles",
+      "title": "賽車與載具操控",
+      "directory": "games/vehicles120-common",
+      "games": [
+        "mini-kart",
+        "drift-combo",
+        "mountain-offroad",
+        "wave-speedboat",
+        "motocross-balance",
+        "truck-reverse",
+        "trailer-haul",
+        "city-bus",
+        "punctual-train",
+        "drone-gates",
+        "helicopter-rescue",
+        "sail-tactics",
+        "inertia-spaceship",
+        "moon-rover",
+        "stunt-track-workshop"
+      ],
+      "acceptance": [
+        "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+        "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+      ],
+      "catalogPath": "games/vehicles120-common/catalog.json",
+      "releaseManifestPath": "games/vehicles120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "stealth",
+      "title": "潛行與諜報",
+      "directory": "games/stealth120-common",
+      "games": [
+        "shadow-infiltration",
+        "silent-footsteps",
+        "disguise-pass",
+        "camera-labyrinth",
+        "vent-escape",
+        "thief-exchange",
+        "tailing-mission",
+        "prison-break",
+        "document-swap",
+        "hostage-extraction",
+        "dual-infiltration",
+        "bug-sweep",
+        "decoy-setup",
+        "spy-photography",
+        "rewind-agent"
+      ],
+      "acceptance": [
+        "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+        "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+      ],
+      "catalogPath": "games/stealth120-common/catalog.json",
+      "releaseManifestPath": "games/stealth120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "social",
+      "title": "社交推理與陣營對抗",
+      "directory": "games/social120-common",
+      "games": [
+        "night-werewolf",
+        "station-impostor",
+        "word-undercover",
+        "resistance-squad",
+        "authentic-collector",
+        "traitor-caravan",
+        "fake-painter",
+        "alibi-interrogation",
+        "anonymous-orders",
+        "hidden-king",
+        "mist-expedition",
+        "intelligence-exchange",
+        "secret-covenant",
+        "monster-masquerade",
+        "majority-trap"
+      ],
+      "acceptance": [
+        "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+        "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+      ],
+      "catalogPath": "games/social120-common/catalog.json",
+      "releaseManifestPath": "games/social120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "coop",
+      "title": "非對稱合作",
+      "directory": "games/coop120-common",
+      "games": [
+        "blind-map",
+        "time-partners",
+        "giant-artisan",
+        "dream-editor",
+        "translator-envoy",
+        "medic-nanoboat",
+        "reflection-twins",
+        "sonar-submarine",
+        "plant-gardener",
+        "director-stunt",
+        "hermit-fortress",
+        "storyteller-avatar",
+        "beam-relay",
+        "aerial-cargo",
+        "silent-investigation"
+      ],
+      "acceptance": [
+        "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+        "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+      ],
+      "catalogPath": "games/coop120-common/catalog.json",
+      "releaseManifestPath": "games/coop120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "code",
+      "title": "程式設計與自動化",
+      "directory": "games/code120-common",
+      "games": [
+        "swarm-command",
+        "robot-dance",
+        "amphibious-code",
+        "stack-kitchen",
+        "recursive-treehouse",
+        "signal-operator",
+        "debug-courier",
+        "regex-warden",
+        "async-post",
+        "twelve-line-rocket",
+        "totem-rewrite",
+        "reversible-machine",
+        "cellular-board",
+        "adversarial-tester",
+        "interrupt-rescue"
+      ],
+      "acceptance": [
+        "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+        "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+      ],
+      "catalogPath": "games/code120-common/catalog.json",
+      "releaseManifestPath": "games/code120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "words",
+      "title": "文字與語言遊戲",
+      "directory": "games/words120-common",
+      "games": [
+        "punctuation-escape",
+        "radical-workshop",
+        "compact-telegram",
+        "alien-grammar",
+        "homophone-scene",
+        "pronoun-detective",
+        "forbidden-word-traveler",
+        "meaning-relay",
+        "one-word-fate",
+        "metaphor-gallery",
+        "tone-mixer",
+        "lost-dictionary",
+        "segmentation-adventure",
+        "rhyme-rescue",
+        "precise-naming"
+      ],
+      "acceptance": [
+        "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+        "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+      ],
+      "catalogPath": "games/words120-common/catalog.json",
+      "releaseManifestPath": "games/words120-common/release-manifest.json",
+      "requiredGameCount": 15
+    },
+    {
+      "id": "music",
+      "title": "音樂創作與聲音探索",
+      "directory": "games/music120-common",
+      "games": [
+        "sound-collection",
+        "loop-garden",
+        "foley-studio",
+        "timbre-alchemy",
+        "spatial-orchestra",
+        "melody-graft",
+        "echo-architect",
+        "story-score",
+        "silent-composer",
+        "soundscape-terrarium",
+        "instrument-inventor",
+        "sound-camouflage",
+        "same-tune-scenes",
+        "graphic-score",
+        "sound-relay"
+      ],
+      "acceptance": [
+        "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+        "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+      ],
+      "catalogPath": "games/music120-common/catalog.json",
+      "releaseManifestPath": "games/music120-common/release-manifest.json",
+      "requiredGameCount": 15
+    }
+  ],
+  "games": [
+    {
+      "id": "air-hockey",
+      "family": "sports",
+      "position": 1,
+      "title": "桌上冰球",
+      "proposal": "控制擋板反彈球，利用牆角射門。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/air-hockey.html",
+      "requirements": {
+        "coreMechanic": "控制擋板反彈球，利用牆角射門。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "spin-pong",
+      "family": "sports",
+      "position": 2,
+      "title": "旋轉乒乓球",
+      "proposal": "調整落點與旋轉，逼對手失位。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/spin-pong.html",
+      "requirements": {
+        "coreMechanic": "調整落點與旋轉，逼對手失位。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "badminton-duel",
+      "family": "sports",
+      "position": 3,
+      "title": "羽球攻防",
+      "proposal": "搭配吊球、挑球與殺球，消耗對手體力。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/badminton-duel.html",
+      "requirements": {
+        "coreMechanic": "搭配吊球、挑球與殺球，消耗對手體力。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "street-soccer",
+      "family": "sports",
+      "position": 4,
+      "title": "三人街頭足球",
+      "proposal": "切換球員、傳球跑位，突破小場防線。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/street-soccer.html",
+      "requirements": {
+        "coreMechanic": "切換球員、傳球跑位，突破小場防線。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "street-basketball",
+      "family": "sports",
+      "position": 5,
+      "title": "街頭籃球",
+      "proposal": "假動作、切入與投籃，判斷出手時機。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/street-basketball.html",
+      "requirements": {
+        "coreMechanic": "假動作、切入與投籃，判斷出手時機。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "tennis-duel",
+      "family": "sports",
+      "position": 6,
+      "title": "網球對決",
+      "proposal": "控制擊球方向與深度，把對手拉出空檔。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/tennis-duel.html",
+      "requirements": {
+        "coreMechanic": "控制擊球方向與深度，把對手拉出空檔。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "beach-volleyball",
+      "family": "sports",
+      "position": 7,
+      "title": "沙灘排球",
+      "proposal": "接球、托球、扣球，配合隊友完成進攻。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/beach-volleyball.html",
+      "requirements": {
+        "coreMechanic": "接球、托球、扣球，配合隊友完成進攻。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "bowling-master",
+      "family": "sports",
+      "position": 8,
+      "title": "保齡球高手",
+      "proposal": "選擇站位、力道與曲球，挑戰特殊殘局。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/bowling-master.html",
+      "requirements": {
+        "coreMechanic": "選擇站位、力道與曲球，挑戰特殊殘局。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "billiards-clear",
+      "family": "sports",
+      "position": 9,
+      "title": "撞球清檯",
+      "proposal": "規劃母球走位，連續把指定球打進袋。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/billiards-clear.html",
+      "requirements": {
+        "coreMechanic": "規劃母球走位，連續把指定球打進袋。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "curling-tactics",
+      "family": "sports",
+      "position": 10,
+      "title": "冰壺戰術",
+      "proposal": "投壺、擦冰、碰撞，爭奪中心位置。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/curling-tactics.html",
+      "requirements": {
+        "coreMechanic": "投壺、擦冰、碰撞，爭奪中心位置。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "wind-archery",
+      "family": "sports",
+      "position": 11,
+      "title": "風向射箭",
+      "proposal": "觀察風力與靶距，調整瞄準位置。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/wind-archery.html",
+      "requirements": {
+        "coreMechanic": "觀察風力與靶距，調整瞄準位置。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "mechanism-golf",
+      "family": "sports",
+      "position": 12,
+      "title": "機關迷你高爾夫",
+      "proposal": "利用斜坡、反彈牆與移動障礙進洞。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/mechanism-golf.html",
+      "requirements": {
+        "coreMechanic": "利用斜坡、反彈牆與移動障礙進洞。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "baseball-duel",
+      "family": "sports",
+      "position": 13,
+      "title": "棒球投打",
+      "proposal": "猜測球路、抓準揮棒時機，安排跑壘。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/baseball-duel.html",
+      "requirements": {
+        "coreMechanic": "猜測球路、抓準揮棒時機，安排跑壘。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "fencing-duel",
+      "family": "sports",
+      "position": 14,
+      "title": "擊劍決鬥",
+      "proposal": "控制距離，以試探、格擋與突刺得分。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/fencing-duel.html",
+      "requirements": {
+        "coreMechanic": "控制距離，以試探、格擋與突刺得分。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "frisbee-challenge",
+      "family": "sports",
+      "position": 15,
+      "title": "飛盤挑戰",
+      "proposal": "控制弧線與高度，繞過障礙投入目標。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/frisbee-challenge.html",
+      "requirements": {
+        "coreMechanic": "控制弧線與高度，繞過障礙投入目標。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Motion/contact/trajectory must materially affect outcomes: genuine rebound, aim, positioning, stamina or timing model as specified per game.",
+          "Competitive sports provide a bounded state-dependent AI opponent and distinct controls/rules appropriate to the sport. Precision solo sports may provide trajectory/coach assistance rather than a fictitious opponent."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "mini-kart",
+      "family": "vehicles",
+      "position": 1,
+      "title": "迷你卡丁車",
+      "proposal": "選擇內外線超車，利用尾流追上對手。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/mini-kart.html",
+      "requirements": {
+        "coreMechanic": "選擇內外線超車，利用尾流追上對手。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "drift-combo",
+      "family": "vehicles",
+      "position": 2,
+      "title": "漂移連段",
+      "proposal": "保持甩尾角度，串起連續彎道得分。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/drift-combo.html",
+      "requirements": {
+        "coreMechanic": "保持甩尾角度，串起連續彎道得分。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "mountain-offroad",
+      "family": "vehicles",
+      "position": 3,
+      "title": "山路越野",
+      "proposal": "控制油門與抓地力，穿越泥地、碎石和陡坡。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/mountain-offroad.html",
+      "requirements": {
+        "coreMechanic": "控制油門與抓地力，穿越泥地、碎石和陡坡。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "wave-speedboat",
+      "family": "vehicles",
+      "position": 4,
+      "title": "浪尖快艇",
+      "proposal": "抓準波浪起伏，選擇跳浪或貼水加速。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/wave-speedboat.html",
+      "requirements": {
+        "coreMechanic": "抓準波浪起伏，選擇跳浪或貼水加速。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "motocross-balance",
+      "family": "vehicles",
+      "position": 5,
+      "title": "越野機車",
+      "proposal": "調整前後重心，跳過斷崖並平穩落地。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/motocross-balance.html",
+      "requirements": {
+        "coreMechanic": "調整前後重心，跳過斷崖並平穩落地。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "truck-reverse",
+      "family": "vehicles",
+      "position": 6,
+      "title": "卡車倒車",
+      "proposal": "只看後照鏡與俯視圖，把大車倒進狹窄車位。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/truck-reverse.html",
+      "requirements": {
+        "coreMechanic": "只看後照鏡與俯視圖，把大車倒進狹窄車位。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "trailer-haul",
+      "family": "vehicles",
+      "position": 7,
+      "title": "拖車運輸",
+      "proposal": "處理車頭與拖車不同轉向，避開折角與碰撞。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/trailer-haul.html",
+      "requirements": {
+        "coreMechanic": "處理車頭與拖車不同轉向，避開折角與碰撞。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "city-bus",
+      "family": "vehicles",
+      "position": 8,
+      "title": "城市公車",
+      "proposal": "準確靠站、控制舒適度，兼顧時刻與乘客。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/city-bus.html",
+      "requirements": {
+        "coreMechanic": "準確靠站、控制舒適度，兼顧時刻與乘客。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "punctual-train",
+      "family": "vehicles",
+      "position": 9,
+      "title": "列車準點王",
+      "proposal": "依坡度與限速調節煞車，停在指定位置。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/punctual-train.html",
+      "requirements": {
+        "coreMechanic": "依坡度與限速調節煞車，停在指定位置。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "drone-gates",
+      "family": "vehicles",
+      "position": 10,
+      "title": "無人機穿門",
+      "proposal": "在倉庫、森林與建築間穿越立體標記門。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/drone-gates.html",
+      "requirements": {
+        "coreMechanic": "在倉庫、森林與建築間穿越立體標記門。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "helicopter-rescue",
+      "family": "vehicles",
+      "position": 11,
+      "title": "直升機吊掛救援",
+      "proposal": "穩住機身與吊索，接走受困者。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/helicopter-rescue.html",
+      "requirements": {
+        "coreMechanic": "穩住機身與吊索，接走受困者。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "sail-tactics",
+      "family": "vehicles",
+      "position": 12,
+      "title": "帆船戰術賽",
+      "proposal": "看風向選航線，透過轉向換舷搶先抵達。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/sail-tactics.html",
+      "requirements": {
+        "coreMechanic": "看風向選航線，透過轉向換舷搶先抵達。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "inertia-spaceship",
+      "family": "vehicles",
+      "position": 13,
+      "title": "太空船慣性賽",
+      "proposal": "利用有限推進燃料，提前轉向與減速。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/inertia-spaceship.html",
+      "requirements": {
+        "coreMechanic": "利用有限推進燃料，提前轉向與減速。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "moon-rover",
+      "family": "vehicles",
+      "position": 14,
+      "title": "月球車攀岩",
+      "proposal": "選擇輪胎落點，跨越岩石又不讓車翻覆。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/moon-rover.html",
+      "requirements": {
+        "coreMechanic": "選擇輪胎落點，跨越岩石又不讓車翻覆。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "stunt-track-workshop",
+      "family": "vehicles",
+      "position": 15,
+      "title": "特技賽道工坊",
+      "proposal": "先搭坡道與跳台，再親自駕車驗證能否通過。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/stunt-track-workshop.html",
+      "requirements": {
+        "coreMechanic": "先搭坡道與跳台，再親自駕車驗證能否通過。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Vehicle state includes motion/velocity, steering or attitude and vehicle-specific hazards; do not replace driving with a path-selector puzzle.",
+          "Terrain, wind, inertia, hitch angle, stopping distance or load swing must affect outcomes for the game that names it. Race AI chooses route/throttle from visible state; solitary transport may use a bounded autopilot coach."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "shadow-infiltration",
+      "family": "stealth",
+      "position": 1,
+      "title": "影子潛入",
+      "proposal": "只在暗處移動，避開巡邏守衛的視線。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/shadow-infiltration.html",
+      "requirements": {
+        "coreMechanic": "只在暗處移動，避開巡邏守衛的視線。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "silent-footsteps",
+      "family": "stealth",
+      "position": 2,
+      "title": "無聲腳步",
+      "proposal": "控制移動速度，跨過會發出不同聲音的地板。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/silent-footsteps.html",
+      "requirements": {
+        "coreMechanic": "控制移動速度，跨過會發出不同聲音的地板。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "disguise-pass",
+      "family": "stealth",
+      "position": 3,
+      "title": "偽裝通行",
+      "proposal": "更換身分與制服，利用各區不同通行規則。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/disguise-pass.html",
+      "requirements": {
+        "coreMechanic": "更換身分與制服，利用各區不同通行規則。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "camera-labyrinth",
+      "family": "stealth",
+      "position": 4,
+      "title": "監視器迷陣",
+      "proposal": "抓住鏡頭轉向空檔，抵達控制室。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/camera-labyrinth.html",
+      "requirements": {
+        "coreMechanic": "抓住鏡頭轉向空檔，抵達控制室。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "vent-escape",
+      "family": "stealth",
+      "position": 5,
+      "title": "通風管逃脫",
+      "proposal": "在管道網裡規劃路線，避開風扇與死路。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/vent-escape.html",
+      "requirements": {
+        "coreMechanic": "在管道網裡規劃路線，避開風扇與死路。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "thief-exchange",
+      "family": "stealth",
+      "position": 6,
+      "title": "神偷交接",
+      "proposal": "趁人群遮擋，把目標物件換走並安全離場。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/thief-exchange.html",
+      "requirements": {
+        "coreMechanic": "趁人群遮擋，把目標物件換走並安全離場。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "tailing-mission",
+      "family": "stealth",
+      "position": 7,
+      "title": "尾隨任務",
+      "proposal": "保持適當距離追蹤目標，又不能被發現。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/tailing-mission.html",
+      "requirements": {
+        "coreMechanic": "保持適當距離追蹤目標，又不能被發現。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "prison-break",
+      "family": "stealth",
+      "position": 8,
+      "title": "監獄越獄",
+      "proposal": "記住巡邏與作息，蒐集道具完成撤離。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/prison-break.html",
+      "requirements": {
+        "coreMechanic": "記住巡邏與作息，蒐集道具完成撤離。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "document-swap",
+      "family": "stealth",
+      "position": 9,
+      "title": "機密文件調包",
+      "proposal": "辨認正確文件，留下不會立刻露餡的替代品。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/document-swap.html",
+      "requirements": {
+        "coreMechanic": "辨認正確文件，留下不會立刻露餡的替代品。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "hostage-extraction",
+      "family": "stealth",
+      "position": 10,
+      "title": "人質撤離",
+      "proposal": "潛入後護送角色，選擇較安全的撤退路線。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/hostage-extraction.html",
+      "requirements": {
+        "coreMechanic": "潛入後護送角色，選擇較安全的撤退路線。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "dual-infiltration",
+      "family": "stealth",
+      "position": 11,
+      "title": "雙區同步潛入",
+      "proposal": "兩名角色輪流操作，互相開門與解除警報。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/dual-infiltration.html",
+      "requirements": {
+        "coreMechanic": "兩名角色輪流操作，互相開門與解除警報。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "bug-sweep",
+      "family": "stealth",
+      "position": 12,
+      "title": "反竊聽搜查",
+      "proposal": "根據訊號強弱與環境變化，找出藏匿設備。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/bug-sweep.html",
+      "requirements": {
+        "coreMechanic": "根據訊號強弱與環境變化，找出藏匿設備。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "decoy-setup",
+      "family": "stealth",
+      "position": 13,
+      "title": "誘敵布置",
+      "proposal": "放置聲音與假線索，讓守衛主動讓出通道。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/decoy-setup.html",
+      "requirements": {
+        "coreMechanic": "放置聲音與假線索，讓守衛主動讓出通道。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "spy-photography",
+      "family": "stealth",
+      "position": 14,
+      "title": "諜報攝影",
+      "proposal": "從有限視角拍到關鍵證據，同時避開警戒。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/spy-photography.html",
+      "requirements": {
+        "coreMechanic": "從有限視角拍到關鍵證據，同時避開警戒。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "rewind-agent",
+      "family": "stealth",
+      "position": 15,
+      "title": "倒帶特工",
+      "proposal": "保留失敗時看到的資訊，回到幾秒前改變行動。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/rewind-agent.html",
+      "requirements": {
+        "coreMechanic": "保留失敗時看到的資訊，回到幾秒前改變行動。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Detection is computed from visibility, sound, disguise, schedule, crowd cover or signal model appropriate to each proposal.",
+          "Guards/targets react to permitted observations through a deterministic patrol/alert/search policy; the player can inspect feedback and failure causes."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "night-werewolf",
+      "family": "social",
+      "position": 1,
+      "title": "夜行狼人鎮",
+      "proposal": "白天討論投票，夜晚使用不同角色能力。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/night-werewolf.html",
+      "requirements": {
+        "coreMechanic": "白天討論投票，夜晚使用不同角色能力。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "station-impostor",
+      "family": "social",
+      "position": 2,
+      "title": "太空站內鬼",
+      "proposal": "合作修復設備，從行動與證詞找出破壞者。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/station-impostor.html",
+      "requirements": {
+        "coreMechanic": "合作修復設備，從行動與證詞找出破壞者。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "word-undercover",
+      "family": "social",
+      "position": 3,
+      "title": "詞語臥底",
+      "proposal": "每人描述自己的詞，找出拿到不同詞的人。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/word-undercover.html",
+      "requirements": {
+        "coreMechanic": "每人描述自己的詞，找出拿到不同詞的人。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "resistance-squad",
+      "family": "social",
+      "position": 4,
+      "title": "抵抗小隊",
+      "proposal": "投票組隊出任務，判斷誰在暗中讓任務失敗。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/resistance-squad.html",
+      "requirements": {
+        "coreMechanic": "投票組隊出任務，判斷誰在暗中讓任務失敗。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "authentic-collector",
+      "family": "social",
+      "position": 5,
+      "title": "真假收藏家",
+      "proposal": "有人知道拍品真假，其他人靠出價與說詞推理。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/authentic-collector.html",
+      "requirements": {
+        "coreMechanic": "有人知道拍品真假，其他人靠出價與說詞推理。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "traitor-caravan",
+      "family": "social",
+      "position": 6,
+      "title": "背叛者商隊",
+      "proposal": "共同運送貨物，但有人有秘密破壞目標。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/traitor-caravan.html",
+      "requirements": {
+        "coreMechanic": "共同運送貨物，但有人有秘密破壞目標。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "fake-painter",
+      "family": "social",
+      "position": 7,
+      "title": "假畫家",
+      "proposal": "大家輪流畫同一主題，找出不知道題目的人。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/fake-painter.html",
+      "requirements": {
+        "coreMechanic": "大家輪流畫同一主題，找出不知道題目的人。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "alibi-interrogation",
+      "family": "social",
+      "position": 8,
+      "title": "不在場證明",
+      "proposal": "搭檔事先統一說法，再接受其他玩家分開盤問。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/alibi-interrogation.html",
+      "requirements": {
+        "coreMechanic": "搭檔事先統一說法，再接受其他玩家分開盤問。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "anonymous-orders",
+      "family": "social",
+      "position": 9,
+      "title": "匿名密令",
+      "proposal": "每人有不同秘密任務，完成時不能讓別人猜中。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/anonymous-orders.html",
+      "requirements": {
+        "coreMechanic": "每人有不同秘密任務，完成時不能讓別人猜中。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "hidden-king",
+      "family": "social",
+      "position": 10,
+      "title": "隱藏國王",
+      "proposal": "護衛不知道彼此身分，刺客試圖找出真正國王。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/hidden-king.html",
+      "requirements": {
+        "coreMechanic": "護衛不知道彼此身分，刺客試圖找出真正國王。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "mist-expedition",
+      "family": "social",
+      "position": 11,
+      "title": "迷霧探險隊",
+      "proposal": "地圖資訊分散在各人手上，有人會故意指錯路。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/mist-expedition.html",
+      "requirements": {
+        "coreMechanic": "地圖資訊分散在各人手上，有人會故意指錯路。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "intelligence-exchange",
+      "family": "social",
+      "position": 12,
+      "title": "情報交易所",
+      "proposal": "交換真假情報，完成個人目標又避免被騙。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/intelligence-exchange.html",
+      "requirements": {
+        "coreMechanic": "交換真假情報，完成個人目標又避免被騙。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "secret-covenant",
+      "family": "social",
+      "position": 13,
+      "title": "秘密盟約",
+      "proposal": "自由結盟、交換承諾，在最後投票前選擇合作或背叛。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/secret-covenant.html",
+      "requirements": {
+        "coreMechanic": "自由結盟、交換承諾，在最後投票前選擇合作或背叛。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "monster-masquerade",
+      "family": "social",
+      "position": 14,
+      "title": "怪物偽裝客",
+      "proposal": "從訪客的回答、習慣與動作找出非人角色。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/monster-masquerade.html",
+      "requirements": {
+        "coreMechanic": "從訪客的回答、習慣與動作找出非人角色。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "majority-trap",
+      "family": "social",
+      "position": 15,
+      "title": "多數派陷阱",
+      "proposal": "每輪改變投票規則，猜測他人選擇並避免成為犧牲者。",
+      "proposalMessageId": "Sentinel_2a01d43ce5488191be10a73732dbda10",
+      "entry": "games/majority-trap.html",
+      "requirements": {
+        "coreMechanic": "每輪改變投票規則，猜測他人選擇並避免成為犧牲者。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Support a complete playable round with roles, private/public information, player decisions and explicit win/loss rules for each distinct proposal.",
+          "Single-player bot decisions use their own private knowledge plus public action/evidence logs; information-leak tests required. Scripted training scenarios must be explicitly described as such."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "blind-map",
+      "family": "coop",
+      "position": 1,
+      "title": "盲圖領航",
+      "proposal": "一人看完整地圖、一人只看眼前道路，靠口述避開陷阱。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/blind-map.html",
+      "requirements": {
+        "coreMechanic": "一人看完整地圖、一人只看眼前道路，靠口述避開陷阱。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "time-partners",
+      "family": "coop",
+      "position": 2,
+      "title": "時間搭檔",
+      "proposal": "一人移動角色，另一人暫停或倒轉機關，合作穿越障礙。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/time-partners.html",
+      "requirements": {
+        "coreMechanic": "一人移動角色，另一人暫停或倒轉機關，合作穿越障礙。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "giant-artisan",
+      "family": "coop",
+      "position": 3,
+      "title": "巨人與小匠",
+      "proposal": "巨人搬動地形，小匠鑽進管道，互相開路。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/giant-artisan.html",
+      "requirements": {
+        "coreMechanic": "巨人搬動地形，小匠鑽進管道，互相開路。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "dream-editor",
+      "family": "coop",
+      "position": 4,
+      "title": "夢境剪接師",
+      "proposal": "一人控制夢遊角色，另一人重排畫面分格，接出路線。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/dream-editor.html",
+      "requirements": {
+        "coreMechanic": "一人控制夢遊角色，另一人重排畫面分格，接出路線。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "translator-envoy",
+      "family": "coop",
+      "position": 5,
+      "title": "譯者與使節",
+      "proposal": "一人掌握外星語法，另一人觀察對方反應，合作談判。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/translator-envoy.html",
+      "requirements": {
+        "coreMechanic": "一人掌握外星語法，另一人觀察對方反應，合作談判。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "medic-nanoboat",
+      "family": "coop",
+      "position": 6,
+      "title": "醫師與奈米艇",
+      "proposal": "一人掃描並標記位置，另一人駕駛微型艇送藥救援。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/medic-nanoboat.html",
+      "requirements": {
+        "coreMechanic": "一人掃描並標記位置，另一人駕駛微型艇送藥救援。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "reflection-twins",
+      "family": "coop",
+      "position": 7,
+      "title": "倒影雙生",
+      "proposal": "實體操作開關，倒影沿反光表面移動，改變彼此的道路。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/reflection-twins.html",
+      "requirements": {
+        "coreMechanic": "實體操作開關，倒影沿反光表面移動，改變彼此的道路。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "sonar-submarine",
+      "family": "coop",
+      "position": 8,
+      "title": "指揮與潛艇",
+      "proposal": "聲納員聽回音辨認障礙，駕駛依指示操控潛艇。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/sonar-submarine.html",
+      "requirements": {
+        "coreMechanic": "聲納員聽回音辨認障礙，駕駛依指示操控潛艇。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "plant-gardener",
+      "family": "coop",
+      "position": 9,
+      "title": "植物與園丁",
+      "proposal": "一人決定根莖生長，另一人調整光、水與支架。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/plant-gardener.html",
+      "requirements": {
+        "coreMechanic": "一人決定根莖生長，另一人調整光、水與支架。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "director-stunt",
+      "family": "coop",
+      "position": 10,
+      "title": "導演與替身",
+      "proposal": "導演安排鏡頭和機關，替身即時完成指定動作。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/director-stunt.html",
+      "requirements": {
+        "coreMechanic": "導演安排鏡頭和機關，替身即時完成指定動作。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "hermit-fortress",
+      "family": "coop",
+      "position": 11,
+      "title": "寄居堡壘",
+      "proposal": "一人駕駛移動城堡，另一人在內部調整傳動與能源。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/hermit-fortress.html",
+      "requirements": {
+        "coreMechanic": "一人駕駛移動城堡，另一人在內部調整傳動與能源。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "storyteller-avatar",
+      "family": "coop",
+      "position": 12,
+      "title": "說書與化身",
+      "proposal": "一人修改故事條件，另一人在故事裡行動解困。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/storyteller-avatar.html",
+      "requirements": {
+        "coreMechanic": "一人修改故事條件，另一人在故事裡行動解困。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "beam-relay",
+      "family": "coop",
+      "position": 13,
+      "title": "光束接力",
+      "proposal": "一人控制光源，另一人擺鏡子，持續照亮移動目標。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/beam-relay.html",
+      "requirements": {
+        "coreMechanic": "一人控制光源，另一人擺鏡子，持續照亮移動目標。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "aerial-cargo",
+      "family": "coop",
+      "position": 14,
+      "title": "空中吊運隊",
+      "proposal": "飛行員控制載具，地勤控制纜繩與扣具，搬運異形貨物。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/aerial-cargo.html",
+      "requirements": {
+        "coreMechanic": "飛行員控制載具，地勤控制纜繩與扣具，搬運異形貨物。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "silent-investigation",
+      "family": "coop",
+      "position": 15,
+      "title": "無聲調查局",
+      "proposal": "現場員搜證，分析員掌握案件背景，只能用有限圖示溝通。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/silent-investigation.html",
+      "requirements": {
+        "coreMechanic": "現場員搜證，分析員掌握案件背景，只能用有限圖示溝通。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Roles have genuinely asymmetric capabilities or information and both contribute causally to the solution; role switching is usable on one device.",
+          "Provide an optional real AI teammate or role assistant where practical, using only that role’s permitted observation. Local same-device cooperation is distinct from network multiplayer."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "swarm-command",
+      "family": "code",
+      "position": 1,
+      "title": "蜂群指令所",
+      "proposal": "編寫共同規則，讓小蜂自行分工採集並避免塞車。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/swarm-command.html",
+      "requirements": {
+        "coreMechanic": "編寫共同規則，讓小蜂自行分工採集並避免塞車。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "robot-dance",
+      "family": "code",
+      "position": 2,
+      "title": "機器舞團",
+      "proposal": "安排迴圈與同步點，讓機器人變換隊形又不相撞。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/robot-dance.html",
+      "requirements": {
+        "coreMechanic": "安排迴圈與同步點，讓機器人變換隊形又不相撞。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "amphibious-code",
+      "family": "code",
+      "position": 3,
+      "title": "雙棲程式",
+      "proposal": "同一份指令必須讓水中與陸上機器人都完成任務。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/amphibious-code.html",
+      "requirements": {
+        "coreMechanic": "同一份指令必須讓水中與陸上機器人都完成任務。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "stack-kitchen",
+      "family": "code",
+      "position": 4,
+      "title": "堆疊小廚房",
+      "proposal": "食材只能從最上層取出，用推入、取出與交換組裝料理。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/stack-kitchen.html",
+      "requirements": {
+        "coreMechanic": "食材只能從最上層取出，用推入、取出與交換組裝料理。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "recursive-treehouse",
+      "family": "code",
+      "position": 5,
+      "title": "遞迴樹屋",
+      "proposal": "讓建造指令呼叫自己，長出符合房間與通道需求的樹屋。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/recursive-treehouse.html",
+      "requirements": {
+        "coreMechanic": "讓建造指令呼叫自己，長出符合房間與通道需求的樹屋。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "signal-operator",
+      "family": "code",
+      "position": 6,
+      "title": "訊號接線員",
+      "proposal": "組合邏輯閘、延遲器與記憶元件，產生指定燈號。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/signal-operator.html",
+      "requirements": {
+        "coreMechanic": "組合邏輯閘、延遲器與記憶元件，產生指定燈號。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "debug-courier",
+      "family": "code",
+      "position": 7,
+      "title": "除錯快遞",
+      "proposal": "查看逐步執行紀錄，用最少修改修好送錯貨的程式。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/debug-courier.html",
+      "requirements": {
+        "coreMechanic": "查看逐步執行紀錄，用最少修改修好送錯貨的程式。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "regex-warden",
+      "family": "code",
+      "position": 8,
+      "title": "正則守門員",
+      "proposal": "設定文字比對規則，放行合法通行證並攔下偽證。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/regex-warden.html",
+      "requirements": {
+        "coreMechanic": "設定文字比對規則，放行合法通行證並攔下偽證。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "async-post",
+      "family": "code",
+      "position": 9,
+      "title": "非同步郵局",
+      "proposal": "安排多名工作者收信、等待與回覆，避免互相等到停擺。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/async-post.html",
+      "requirements": {
+        "coreMechanic": "安排多名工作者收信、等待與回覆，避免互相等到停擺。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "twelve-line-rocket",
+      "family": "code",
+      "position": 10,
+      "title": "十二行火箭",
+      "proposal": "只用十二行指令，讓火箭適應不同風況並安全降落。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/twelve-line-rocket.html",
+      "requirements": {
+        "coreMechanic": "只用十二行指令，讓火箭適應不同風況並安全降落。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "totem-rewrite",
+      "family": "code",
+      "position": 11,
+      "title": "圖騰改寫術",
+      "proposal": "設定符號替換規則，把起始圖騰變成目標形狀。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/totem-rewrite.html",
+      "requirements": {
+        "coreMechanic": "設定符號替換規則，把起始圖騰變成目標形狀。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "reversible-machine",
+      "family": "code",
+      "position": 12,
+      "title": "可逆機關",
+      "proposal": "所有指令都必須能倒放，解題後還能完整恢復原狀。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/reversible-machine.html",
+      "requirements": {
+        "coreMechanic": "所有指令都必須能倒放，解題後還能完整恢復原狀。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "cellular-board",
+      "family": "code",
+      "position": 13,
+      "title": "細胞棋盤",
+      "proposal": "設計細胞依鄰居變化的規則，讓圖樣自行移動或生長。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/cellular-board.html",
+      "requirements": {
+        "coreMechanic": "設計細胞依鄰居變化的規則，讓圖樣自行移動或生長。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "adversarial-tester",
+      "family": "code",
+      "position": 14,
+      "title": "對手測試員",
+      "proposal": "一人寫程式，另一人設計刁鑽輸入，輪流找出漏洞。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/adversarial-tester.html",
+      "requirements": {
+        "coreMechanic": "一人寫程式，另一人設計刁鑽輸入，輪流找出漏洞。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "interrupt-rescue",
+      "family": "code",
+      "position": 15,
+      "title": "中斷救援站",
+      "proposal": "設定巡邏與緊急處理程序，事件結束後正確返回原任務。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/interrupt-rescue.html",
+      "requirements": {
+        "coreMechanic": "設定巡邏與緊急處理程序，事件結束後正確返回原任務。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "The player edits an actual small program/rule set; an interpreter/simulator exposes step, run, execution trace and stopping/error state.",
+          "Each distinct language idea must be implemented: stacks, recursion, signal memory, regex matching, async scheduling, rewrites, reversibility, automata or interrupts as named; do not use identical route command puzzles."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "punctuation-escape",
+      "family": "words",
+      "position": 1,
+      "title": "標點逃脫",
+      "proposal": "只能增刪標點，改變告示句意，取得通行條件。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/punctuation-escape.html",
+      "requirements": {
+        "coreMechanic": "只能增刪標點，改變告示句意，取得通行條件。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "radical-workshop",
+      "family": "words",
+      "position": 2,
+      "title": "偏旁修理舖",
+      "proposal": "拆裝漢字部件，造出新字來改變場景物件。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/radical-workshop.html",
+      "requirements": {
+        "coreMechanic": "拆裝漢字部件，造出新字來改變場景物件。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "compact-telegram",
+      "family": "words",
+      "position": 3,
+      "title": "縮字電報",
+      "proposal": "在極少字數內傳達任務，讓隊友依訊息正確操作。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/compact-telegram.html",
+      "requirements": {
+        "coreMechanic": "在極少字數內傳達任務，讓隊友依訊息正確操作。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "alien-grammar",
+      "family": "words",
+      "position": 4,
+      "title": "外星文法課",
+      "proposal": "觀察句子與動畫，推理語法，再組句控制機器。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/alien-grammar.html",
+      "requirements": {
+        "coreMechanic": "觀察句子與動畫，推理語法，再組句控制機器。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "homophone-scene",
+      "family": "words",
+      "position": 5,
+      "title": "諧音換景",
+      "proposal": "用同音字替換物件，把原本的障礙變成工具。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/homophone-scene.html",
+      "requirements": {
+        "coreMechanic": "用同音字替換物件，把原本的障礙變成工具。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "pronoun-detective",
+      "family": "words",
+      "position": 6,
+      "title": "指代偵探",
+      "proposal": "釐清「他、她、它、這個」各指誰，重建事件。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/pronoun-detective.html",
+      "requirements": {
+        "coreMechanic": "釐清「他、她、它、這個」各指誰，重建事件。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "forbidden-word-traveler",
+      "family": "words",
+      "position": 7,
+      "title": "禁字旅人",
+      "proposal": "每站新增禁用字，換個說法描述自己需要的物品。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/forbidden-word-traveler.html",
+      "requirements": {
+        "coreMechanic": "每站新增禁用字，換個說法描述自己需要的物品。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "meaning-relay",
+      "family": "words",
+      "position": 8,
+      "title": "譯意接力",
+      "proposal": "把訊息改寫成公告、童話或說明書，仍要保留關鍵資訊。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/meaning-relay.html",
+      "requirements": {
+        "coreMechanic": "把訊息改寫成公告、童話或說明書，仍要保留關鍵資訊。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "one-word-fate",
+      "family": "words",
+      "position": 9,
+      "title": "一字改命",
+      "proposal": "每回合只換故事中的一個字，觀察情節連鎖變化。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/one-word-fate.html",
+      "requirements": {
+        "coreMechanic": "每回合只換故事中的一個字，觀察情節連鎖變化。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "metaphor-gallery",
+      "family": "words",
+      "position": 10,
+      "title": "隱喻畫廊",
+      "proposal": "不能說名稱與外觀，只能用比喻讓隊友猜中作品。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/metaphor-gallery.html",
+      "requirements": {
+        "coreMechanic": "不能說名稱與外觀，只能用比喻讓隊友猜中作品。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "tone-mixer",
+      "family": "words",
+      "position": 11,
+      "title": "語氣調音台",
+      "proposal": "保留同一件事實，調整句式，符合不同場合與對象。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/tone-mixer.html",
+      "requirements": {
+        "coreMechanic": "保留同一件事實，調整句式，符合不同場合與對象。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "lost-dictionary",
+      "family": "words",
+      "position": 12,
+      "title": "失落字典",
+      "proposal": "從反覆出現的陌生詞推理意思，逐步建立自己的字典。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/lost-dictionary.html",
+      "requirements": {
+        "coreMechanic": "從反覆出現的陌生詞推理意思，逐步建立自己的字典。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "segmentation-adventure",
+      "family": "words",
+      "position": 13,
+      "title": "斷詞探險",
+      "proposal": "決定一串文字如何切詞，讓句意符合指定畫面。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/segmentation-adventure.html",
+      "requirements": {
+        "coreMechanic": "決定一串文字如何切詞，讓句意符合指定畫面。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "rhyme-rescue",
+      "family": "words",
+      "position": 14,
+      "title": "押韻救援",
+      "proposal": "補出符合情節、字數與韻腳的句尾，接續冒險詩。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/rhyme-rescue.html",
+      "requirements": {
+        "coreMechanic": "補出符合情節、字數與韻腳的句尾，接續冒險詩。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "precise-naming",
+      "family": "words",
+      "position": 15,
+      "title": "精準命名師",
+      "proposal": "用最短描述選中全部目標圖案，又不能包含干擾圖案。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/precise-naming.html",
+      "requirements": {
+        "coreMechanic": "用最短描述選中全部目標圖案，又不能包含干擾圖案。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Use curated, linguistically valid Traditional Chinese examples and explicit evaluation rules; do not promise unrestricted natural-language understanding.",
+          "Semantic/linguistic gameplay must match the named operation and accept supported alternatives where meaningful. A local partner evaluates available vocabulary/options honestly."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "sound-collection",
+      "family": "music",
+      "position": 1,
+      "title": "聲音採集簿",
+      "proposal": "在遊戲世界收集風聲、腳步與器物聲，拼成一首作品。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/sound-collection.html",
+      "requirements": {
+        "coreMechanic": "在遊戲世界收集風聲、腳步與器物聲，拼成一首作品。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "loop-garden",
+      "family": "music",
+      "position": 2,
+      "title": "迴圈花園",
+      "proposal": "替植物配置不同長度的旋律，聽它們交錯形成新組合。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/loop-garden.html",
+      "requirements": {
+        "coreMechanic": "替植物配置不同長度的旋律，聽它們交錯形成新組合。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "foley-studio",
+      "family": "music",
+      "position": 3,
+      "title": "擬音工作室",
+      "proposal": "用日常物件替影片配音，再讓別人只聽聲音猜劇情。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/foley-studio.html",
+      "requirements": {
+        "coreMechanic": "用日常物件替影片配音，再讓別人只聽聲音猜劇情。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "timbre-alchemy",
+      "family": "music",
+      "position": 4,
+      "title": "音色煉金",
+      "proposal": "調整波形、濾波與聲音起落，仿製音色或發明新樂器。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/timbre-alchemy.html",
+      "requirements": {
+        "coreMechanic": "調整波形、濾波與聲音起落，仿製音色或發明新樂器。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "spatial-orchestra",
+      "family": "music",
+      "position": 5,
+      "title": "空間樂團",
+      "proposal": "安排聲源位置，讓樂曲隨聆聽者的行走路線改變。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/spatial-orchestra.html",
+      "requirements": {
+        "coreMechanic": "安排聲源位置，讓樂曲隨聆聽者的行走路線改變。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "melody-graft",
+      "family": "music",
+      "position": 6,
+      "title": "旋律接枝",
+      "proposal": "每人替上一段旋律加一小節，保留主題又逐步變奏。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/melody-graft.html",
+      "requirements": {
+        "coreMechanic": "每人替上一段旋律加一小節，保留主題又逐步變奏。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "echo-architect",
+      "family": "music",
+      "position": 7,
+      "title": "回音建築師",
+      "proposal": "移動牆面與吸音材，讓一次敲擊產生指定回音。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/echo-architect.html",
+      "requirements": {
+        "coreMechanic": "移動牆面與吸音材，讓一次敲擊產生指定回音。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "story-score",
+      "family": "music",
+      "position": 8,
+      "title": "故事配樂師",
+      "proposal": "為角色設計主題，再用速度與配器表現劇情轉折。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/story-score.html",
+      "requirements": {
+        "coreMechanic": "為角色設計主題，再用速度與配器表現劇情轉折。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "silent-composer",
+      "family": "music",
+      "position": 9,
+      "title": "靜默作曲室",
+      "proposal": "限制總發聲時間，利用留白與餘音建立張力。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/silent-composer.html",
+      "requirements": {
+        "coreMechanic": "限制總發聲時間，利用留白與餘音建立張力。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "soundscape-terrarium",
+      "family": "music",
+      "position": 10,
+      "title": "聲景生態箱",
+      "proposal": "設定雨、鳥與昆蟲聲的出現規則，創造會變化的環境。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/soundscape-terrarium.html",
+      "requirements": {
+        "coreMechanic": "設定雨、鳥與昆蟲聲的出現規則，創造會變化的環境。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "instrument-inventor",
+      "family": "music",
+      "position": 11,
+      "title": "樂器發明家",
+      "proposal": "組合弦、管、膜與共鳴箱，打造能演奏指定音域的樂器。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/instrument-inventor.html",
+      "requirements": {
+        "coreMechanic": "組合弦、管、膜與共鳴箱，打造能演奏指定音域的樂器。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "sound-camouflage",
+      "family": "music",
+      "position": 12,
+      "title": "聲音迷彩",
+      "proposal": "把秘密聲音藏進混音，讓其他人分軌聆聽找出它。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/sound-camouflage.html",
+      "requirements": {
+        "coreMechanic": "把秘密聲音藏進混音，讓其他人分軌聆聽找出它。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "same-tune-scenes",
+      "family": "music",
+      "position": 13,
+      "title": "同曲異景",
+      "proposal": "固定旋律，改換和聲與樂器，變成喜劇、懸疑或冒險配樂。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/same-tune-scenes.html",
+      "requirements": {
+        "coreMechanic": "固定旋律，改換和聲與樂器，變成喜劇、懸疑或冒險配樂。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "graphic-score",
+      "family": "music",
+      "position": 14,
+      "title": "圖形樂譜",
+      "proposal": "把線條、色塊與密度映射成聲音，讓角色沿畫作演奏。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/graphic-score.html",
+      "requirements": {
+        "coreMechanic": "把線條、色塊與密度映射成聲音，讓角色沿畫作演奏。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    },
+    {
+      "id": "sound-relay",
+      "family": "music",
+      "position": 15,
+      "title": "聲音接力站",
+      "proposal": "每站只能反轉、移調或切碎一次，合作完成整首作品。",
+      "proposalMessageId": "Sentinel_26c7e24161508191bea1451685c1827f",
+      "entry": "games/sound-relay.html",
+      "requirements": {
+        "coreMechanic": "每站只能反轉、移調或切碎一次，合作完成整首作品。",
+        "minimumLevelsIfLevelBased": 100,
+        "exactLevelsIfLevelBased": 100,
+        "levelBased": "builder-must-declare",
+        "ai": "appropriate-state-dependent-local-opponent-or-teammate; explicitly declare role and permitted observations",
+        "acceptance": [
+          "Provide audible interactive Web Audio synthesis/sequencing/mixing appropriate to the game; a silent numeric matching puzzle is not sufficient.",
+          "Creative sandbox modes may be open-ended. Any scored challenge uses objective documented constraints and a demonstrated feasible construction; it does not label taste or arbitrary composition uniquely correct."
+        ]
+      },
+      "deliveryStatus": "planned"
+    }
+  ],
+  "releaseGates": [
+    "Preserve all 150 historical registry records, artworks and game asset bytes.",
+    "All 120 exact titles and mechanics present; no slug/title collisions.",
+    "Every declared level game has 100 runtime-verified solvable and meaningfully distinct levels.",
+    "All AI claims bound to implemented legal observation-limited policies and tests.",
+    "Actual narrow/desktop browser inspection and interaction, not simulated DOM alone.",
+    "Exact-source full legacy and new-family aggregate verification; no stale report acceptance.",
+    "Parent owns publishing only after all release gates pass."
+  ]
+}
