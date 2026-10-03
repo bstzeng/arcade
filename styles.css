@@ -58,3 +58,6 @@
 
 /* 80 mechanic-specific vector covers; all legacy cover rules remain unchanged. */
 .expansion-art{display:block;flex:none;width:145px;height:130px;overflow:visible;transform:rotate(7deg);filter:drop-shadow(3px 5px 1px #0002)}
+
+/* 120 new mechanic-specific covers, scoped to the new expansion only. */
+.expansion120-art{display:block;flex:none;width:156px;height:130px;overflow:hidden;transform:rotate(7deg);border-radius:9px;filter:drop-shadow(3px 5px 1px #0002)}

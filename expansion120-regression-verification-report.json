@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Negative integration corruption checks on disposable files only",
+  "checks": [
+    {
+      "name": "Historical registry mutation",
+      "passed": true,
+      "expected": "All 150 historical registry"
+    },
+    {
+      "name": "Wrong new title",
+      "passed": true,
+      "expected": "桌上冰球"
+    },
+    {
+      "name": "Changed engine with stale evidence",
+      "passed": true,
+      "expected": "stale source"
+    },
+    {
+      "name": "Missing witness corpus record",
+      "passed": true,
+      "expected": "stale source"
+    },
+    {
+      "name": "Missing primary assignment",
+      "passed": true,
+      "expected": "TypeError|primary|Cannot read properties"
+    },
+    {
+      "name": "Lost historical asset",
+      "passed": true,
+      "expected": "Historical file changed"
+    }
+  ],
+  "sourceFiles": {
+    "verify-expansion120-regressions.cjs": "621e883b177f8ba75f3d17ba5d60f9c4707ede3385b3408d6250d229ed477f3e",
+    "verify-expansion120.cjs": "4b8278c8e7003e94975372596831b8b95f058f6613be85d0e098682246fb3d0d",
+    "expansion120-tools.cjs": "94eae71d300bc28c6754287ec728e1d848998e40b5cf492218203216d0f53e0b",
+    "expansion120-manifest.json": "958431f7cd754f01a135700191d9ff3da816022df558c4e08a5102835908a554",
+    "app.js": "163494400853667a0e17ff9f09f5271496f4e6cfce4ebfefb0a4db05bf1701e2"
+  }
+}

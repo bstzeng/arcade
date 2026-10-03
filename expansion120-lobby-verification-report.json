@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "scope": "Current 270-game lobby simulated-DOM integration; no real browser claim",
+  "registryCount": 270,
+  "categoryCount": 16,
+  "searchCases": 821,
+  "checks": [
+    "Exact historical prefix and 120 proposed entries",
+    "All 270 games, 16 browse groups, stable links and IDs",
+    "All Chinese titles, English labels and slugs searchable",
+    "Empty/reset/clear/Escape/Enter/repeated interactions",
+    "Category and query deep links and Back/Forward restoration",
+    "Mobile native selector accessibility name and keyboard focus"
+  ],
+  "sourceFiles": {
+    "app.js": "163494400853667a0e17ff9f09f5271496f4e6cfce4ebfefb0a4db05bf1701e2",
+    "index.html": "26246d1d816011ae5eee9d311aec1ba3a24ed50e7350c7b34713b0edd850c6e5",
+    "styles.css": "c2c6753307ee601c7ea501fc233ea9d32b6058cd63769338e0ef82e8b3f6bede",
+    "verify-expansion120-lobby.cjs": "b6eaa3c28fd181e18b732b05982afb6a5f0c397f7b0505b84bf130cfb5e59e95",
+    "expansion120-manifest.json": "958431f7cd754f01a135700191d9ff3da816022df558c4e08a5102835908a554"
+  },
+  "claims": {
+    "browserVisualTesting": false,
+    "mobileBrowserTesting": false
+  }
+}
