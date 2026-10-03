@@ -1,0 +1,1055 @@
+{
+  "schemaVersion": 1,
+  "family": "narrative",
+  "status": "offline-verified-awaiting-independent-and-browser-qa",
+  "catalog": "games/story120-common/catalog.json",
+  "games": [
+    {
+      "id": "apocalypse-radio",
+      "title": "末日電台主持人",
+      "entry": "games/apocalypse-radio.html",
+      "directory": "games/apocalypse-radio",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/apocalypse-radio/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/apocalypse-radio/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/apocalypse-radio/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          0,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "seven-letters",
+      "title": "旅館裡的七封信",
+      "entry": "games/seven-letters.html",
+      "directory": "games/seven-letters",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/seven-letters/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/seven-letters/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/seven-letters/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          1,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "last-council",
+      "title": "王國最後一次會議",
+      "entry": "games/last-council.html",
+      "directory": "games/last-council",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/last-council/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/last-council/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/last-council/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          2,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "memory-pawn",
+      "title": "記憶典當行",
+      "entry": "games/memory-pawn.html",
+      "directory": "games/memory-pawn",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/memory-pawn/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/memory-pawn/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/memory-pawn/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          3,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "enemy-heir",
+      "title": "我的繼承人是敵人",
+      "entry": "games/enemy-heir.html",
+      "directory": "games/enemy-heir",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/enemy-heir/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/enemy-heir/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/enemy-heir/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          4,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "last-boat-ticket",
+      "title": "只剩一張船票",
+      "entry": "games/last-boat-ticket.html",
+      "directory": "games/last-boat-ticket",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/last-boat-ticket/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/last-boat-ticket/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/last-boat-ticket/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          5,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "yesterday-witness",
+      "title": "昨日的證人",
+      "entry": "games/yesterday-witness.html",
+      "directory": "games/yesterday-witness",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/yesterday-witness/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/yesterday-witness/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/yesterday-witness/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          6,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "false-king",
+      "title": "假王登基",
+      "entry": "games/false-king.html",
+      "directory": "games/false-king",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/false-king/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/false-king/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/false-king/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          7,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "three-names",
+      "title": "三個名字的人",
+      "entry": "games/three-names.html",
+      "directory": "games/three-names",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/three-names/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/three-names/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/three-names/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          8,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "future-defense",
+      "title": "給未來的辯護書",
+      "entry": "games/future-defense.html",
+      "directory": "games/future-defense",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/future-defense/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/future-defense/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/future-defense/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          9,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "villain-turn",
+      "title": "今天輪到反派",
+      "entry": "games/villain-turn.html",
+      "directory": "games/villain-turn",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/villain-turn/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/villain-turn/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/villain-turn/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          10,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "unspoken-promise",
+      "title": "不可說的約定",
+      "entry": "games/unspoken-promise.html",
+      "directory": "games/unspoken-promise",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/unspoken-promise/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/unspoken-promise/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/unspoken-promise/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          11,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "hero-retirement",
+      "title": "英雄退休申請",
+      "entry": "games/hero-retirement.html",
+      "directory": "games/hero-retirement",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/hero-retirement/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/hero-retirement/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/hero-retirement/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          12,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "borrowed-day",
+      "title": "交換一天的人生",
+      "entry": "games/borrowed-day.html",
+      "directory": "games/borrowed-day",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/borrowed-day/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/borrowed-day/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/borrowed-day/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          13,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    },
+    {
+      "id": "final-wishes",
+      "title": "遺願代辦人",
+      "entry": "games/final-wishes.html",
+      "directory": "games/final-wishes",
+      "engine": "games/story120-common/engine.js",
+      "controller": "games/story120-common/ui.js",
+      "session": "games/story120-common/session.js",
+      "artFile": "games/final-wishes/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/final-wishes/levels.json",
+      "levelRecordPath": [],
+      "proof": {
+        "path": "games/final-wishes/proofs.json",
+        "recordPath": [],
+        "kind": "legal-runtime-causal-choice-witness",
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "claim": "100 explicit ending-and-consequence goals, each reached by a nonempty legal choice trace and a different accepted alternate through the released causal engine and public controller. Certified at normal local character policy only; no unique moral answer or arbitrary-opponent guarantee."
+      },
+      "uiWitnessMapping": "Every witness action is one currently enabled button data-action value. The source-bound harness mounts the released renderer, extracts enabled public buttons, and dispatches actual click/change listeners. All1500 primary traces use this surface; save/reload and mode/difficulty/assistance are separately exercised. No timing or private-state input is required.",
+      "semanticDiversity": "100 normalized missions combine actual event order, directed dependencies (including convergence, loops and cycles), disclosed exceptional constraints and ending/consequence predicates. Labels, prose, IDs, cover colors and seeds are excluded. Fixed actor/scene roles have different mechanical functions; this is authored compositional branching, not100 independent novels.",
+      "ai": {
+        "role": "bounded local character acceptance, negotiation or follow-through",
+        "observations": "Only the explicit current public evidence, fulfilled commitments, conflicts and urgency passed through the four-field validated policy boundary. No global state, future event, undisclosed document or other role private note is passed.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Challenge certification is visibly locked to normal. Free story exposes easy (threshold1, urgency counted), normal (threshold2), hard (threshold3, conflicts doubled). Tested reachable character responses and causal outcome differences across all15 games."
+      },
+      "verificationEvidence": {
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "witnessesVerified"
+        ]
+      },
+      "canonicalEvidence": {
+        "method": "causal-configuration-and-ending-predicate",
+        "path": "games/story120-common/verification-report.json",
+        "countPath": [
+          "games",
+          14,
+          "semanticCanonicalCount"
+        ]
+      },
+      "progress": {
+        "savedLocally": true,
+        "inputReplayRestore": true,
+        "assistedSeparated": true,
+        "demoAwardsCompletion": false
+      },
+      "browserQA": {
+        "tested": false,
+        "checklist": "games/story120-common/BROWSER-QA.md"
+      }
+    }
+  ],
+  "commands": [
+    [
+      "node",
+      "games/story120-common/verify-all.cjs"
+    ]
+  ],
+  "freshReports": [
+    "games/story120-common/verification-report.json"
+  ],
+  "sourceFiles": {
+    "games/apocalypse-radio.html": "35feb3715a155be3a34ec95d314fb5ae35d6ff243c978accbf5a473ca51e2a52",
+    "games/apocalypse-radio/README.md": "276eec385c24167e9c5003a8f37760b855c5699ead9184f751392ce013f35302",
+    "games/apocalypse-radio/art.svg": "4692c5a5a7a9b0e4d9054f8d25e3c9030787eea7ec80a2bdc5f36dd6a369359e",
+    "games/apocalypse-radio/levels.json": "1f06250de82c258961479ab636587e5f0b9850bc894d9b5ff8da324dab8eb864",
+    "games/apocalypse-radio/proofs.json": "380b56baed0e28c1789ed1c75d2ce3ac8789366571ab276dd7a15b1508e0b0a3",
+    "games/borrowed-day.html": "5078babb4aac522c4ead0f89150565c4af09ac918fe8fb3ecea72efcd2e752ae",
+    "games/borrowed-day/README.md": "16895e4f4f5666f616c6342e808beaeee14aaac71a5d189ce32eb90c4323b63d",
+    "games/borrowed-day/art.svg": "6fa24206e43badae03256369545ac16fad17757838cd0ac6054b19c2bf4ea27a",
+    "games/borrowed-day/levels.json": "1131f1b63954f4e2b6a430719e4b5f00a18c243d537f047ea10374d31b3ed481",
+    "games/borrowed-day/proofs.json": "20a60b03642773b8004684096b80a97491e55085b4b888539303ec9d421eacf1",
+    "games/enemy-heir.html": "46e29f8f21119ffc15ee7a650daf85a4b751f827bad70f0c056ede01c0883d1d",
+    "games/enemy-heir/README.md": "ea324e29018399c792f7bb9c918eeb518e78997a471c8a3910e723688d4c5526",
+    "games/enemy-heir/art.svg": "a994687e0ccaab8234465644d888f423bacebbc1bfb47ef0da01089271a881a1",
+    "games/enemy-heir/levels.json": "54ffbbfe4680993e182d7213382711245b188669472a867134e5a0560c787489",
+    "games/enemy-heir/proofs.json": "ddc6a7495e5199bade6e15e35ae8e630c11c3ba2a9ba34093396980ffdc742a0",
+    "games/false-king.html": "c454eaa7b12097c2147ec8ed1a63d14c0447f36c079898535af9966a720ec149",
+    "games/false-king/README.md": "3980da89e542bcb019f3be01bfaf8b1bbe994f1d1fc3645965f52a8626b0b2cf",
+    "games/false-king/art.svg": "2d36168aa7517527ca7892ae86946a2ead37cc3af3850e51defb4ca34123dce3",
+    "games/false-king/levels.json": "1144c10dfab16bc43e6bc5c6fd06ba34533c6cf13de559e4f9f50fdd22d9104d",
+    "games/false-king/proofs.json": "109292cc7c0aaf93038baa24b2d144aae4053b4d9a5b66f9bc98adbd9745e357",
+    "games/final-wishes.html": "9ab42265edf43f372de3da1a5d6057d81b5f389a60a923c2d958f5653b2a7e81",
+    "games/final-wishes/README.md": "908d87ac2d523d57607b7bcf40c11cc1049545c4a4e744ad6f60781d145e5084",
+    "games/final-wishes/art.svg": "ff78382c38404ad41a8f09d15476bb613838dd48400b5dbe9aa8425592df1b55",
+    "games/final-wishes/levels.json": "8a9cec51b161bdfbff708ad6dd2d1020c436e2972aa046f675d8cda8b2385001",
+    "games/final-wishes/proofs.json": "dc33fa9e76e3cb47005eb32c6f5332d28e7a51098e510871c31ee8a26a9cf743",
+    "games/future-defense.html": "2e16b09fd6611523fc0582b25ff2b325b7f308ad8350c9d573423258d7ee8364",
+    "games/future-defense/README.md": "1df2cd6d8e17833bc364631532d40f5966a9b301aea0fa72e27822438b71face",
+    "games/future-defense/art.svg": "6a96ce8c3891225c5f82630d1a38fd35b13bb0fe18d48bf2d9c2b3b1517e3646",
+    "games/future-defense/levels.json": "5a90ba14081cb261681740f301d867ebf4eb98bbc7f8f06a5a478c341ec108c2",
+    "games/future-defense/proofs.json": "e38fa0106336a9baa14c7af82fef3e0cf46855f780f96e0dae1df269046d1526",
+    "games/hero-retirement.html": "e7e79c0c940d7ef995976daba5567a4338ac422b0adcecb76151c3888f23c85d",
+    "games/hero-retirement/README.md": "3126ee2b623d8d067b5ecbb19c7728c83248926dd59de2b108ef133fafccde20",
+    "games/hero-retirement/art.svg": "d87e12190d2d5ad5db9847ff15b5f118220cb6091935665e07676b4703372461",
+    "games/hero-retirement/levels.json": "e0a6e02e8619efed69b2902ae6f45570cd9bb3ccb54d80dfe379a67bdcb89bc2",
+    "games/hero-retirement/proofs.json": "b50f30f185dc5250f034fb88465e0697c42d98a6702028bf97caab7f97c759a3",
+    "games/last-boat-ticket.html": "e36c22e121a717ff049dc2d61462460d051005b7fe7920f55850a83849cc2a9b",
+    "games/last-boat-ticket/README.md": "36cdde4a05523b2120f38e8c12e237cf5f844c57b6d78b5ede11eb8fb29aafe7",
+    "games/last-boat-ticket/art.svg": "ea2452ba8472808c0757c3893330d479a4cb99099931c1ac36a06f2ceb3a9a07",
+    "games/last-boat-ticket/levels.json": "eb9668e3496363bfd6e4f9c21dbac2f59ab565cf87df93a7d125faa96bc2f698",
+    "games/last-boat-ticket/proofs.json": "c939dfcf6dd10056b3398c10e39ae5491aba25294ec20e8becd284010cd606e8",
+    "games/last-council.html": "6dadfc04be6e89a587bca0de1a67c4e5e9ddec3e8d8e4ba45f7f51103e45b1d8",
+    "games/last-council/README.md": "5e95ae4c0fd44204ad02a8fccb205fcfeaae44c2673e390105630a924ee0fe68",
+    "games/last-council/art.svg": "cf3825943669d2bd85fedbdaf8bde630f6e7178ff588cc59b474145fc3864c49",
+    "games/last-council/levels.json": "891df0d519a7dec419d3d36cd9adf008128127c72314adb9064cdf9efd137a8c",
+    "games/last-council/proofs.json": "ec461ea74f56cb4e3f40b964a122aee293924115c4c153217108639524153262",
+    "games/memory-pawn.html": "91d5cd1c3b13056bad62560c527dba07ee665b010ca0268adfca709d38345a77",
+    "games/memory-pawn/README.md": "8a15a1f3e2b16d307072d789812da2bd1669866952f38535b14ca34ef788013f",
+    "games/memory-pawn/art.svg": "e7f5ea4c4e4e10adbf0bf867505cd1e2b337b9e2818c8c2b752422b6b5d8e2ec",
+    "games/memory-pawn/levels.json": "b9deccd830079f344ffbeb0510749fc5c48ee13d0ce4a473634cca2d0feca770",
+    "games/memory-pawn/proofs.json": "caaf4169809ea71aaf117d7f676f8ca7cb13769e3a2ae386c64436cd18a843ab",
+    "games/seven-letters.html": "cb50f8ef477246f7cbbef78fdc448a1e47f8418409d260009d61b69543014fc4",
+    "games/seven-letters/README.md": "10a1d9525f0f6357a15c746813676e9a37f1486f753844bc20b2dc437bab619c",
+    "games/seven-letters/art.svg": "ac21fb58363762f6f4a4b4320c5cab77d325d6473d1d441c47f72512e3c01fff",
+    "games/seven-letters/levels.json": "82567daae71173f4ae94ed69e3c04258f3f4132de53f88273981f2f86f795b0e",
+    "games/seven-letters/proofs.json": "f8b533f453ef427799e76dcc60734f3fb795340e487ea3aeb732aff8fa7f9e13",
+    "games/story120-common/BROWSER-QA.md": "5de0261501d6f8c7d33d3a9c0e5140497599f5a250b7730204a06b3685e70461",
+    "games/story120-common/README.md": "10ce7275f9d7e723bd27746069df1f29bebb44514b8fca76b8c71ba11046d272",
+    "games/story120-common/build-assets.cjs": "95dc644c3e0136b41829b8bd10e195c6ada5e2d503dbd818a77d19c9da0e4ad7",
+    "games/story120-common/catalog.json": "2cafb3f0b947e1c0468c51106acb97314f594ebff8e422ce1479c21017937923",
+    "games/story120-common/engine.js": "2d6eb2ac37a353d3e496c7e48b75e93e813977521b2d76838ae27d8b23ab6110",
+    "games/story120-common/generate.cjs": "9d407c004507dd73b8d0df0be4f602f5d83d415e1dff9dc843d3f75f16c9fc68",
+    "games/story120-common/release.cjs": "f5cf3ed1e00b7fcfa1a9329814719e50607e3955648387d287e64a377b6c68f3",
+    "games/story120-common/semantic.cjs": "0d0816abaf43ff6f2d292996bd9879a874e85265b819ac57a861c8d6bdcd0ad5",
+    "games/story120-common/session.js": "03614f1a174e062af73820f6917611db529a0d897b4ba53f146abcac2e7fd445",
+    "games/story120-common/spec.json": "ce386412e4ffdae97bda0b404bc2f9e9c8b6a9faa2289b5b5c6d4108d755b840",
+    "games/story120-common/style.css": "c90002c99b771ea330902a20ffa1c709585ca32480bf18c6e83c2a4754a8bc67",
+    "games/story120-common/ui.js": "c96994d1ebc92faa761a0fac4284bbc60a55a12f4b4ae6ad57f5b21c619c2b1f",
+    "games/story120-common/verify-all.cjs": "05a4390802548d90337914c8b0ece2e521bf50f79f7a404c534fe0c8c7c7c094",
+    "games/three-names.html": "352caa6a59d21183be0112a70f9a757047626cda60741b67470446434d84b022",
+    "games/three-names/README.md": "d95516d2fe54f6a484222fe4a023afdcaa5d2de515bf65c69995610f728638a2",
+    "games/three-names/art.svg": "4c7104b0ef8457ae3a30cdf1c9e8f7bf5b365e1d2f9cb712c3884d1a9d9db2b8",
+    "games/three-names/levels.json": "4e8c1065c81ea401f4ff1cee1485124258bd7fc4a9c982a80bbe9416c1148ebf",
+    "games/three-names/proofs.json": "7335e28d8d59db6e0927cc1bb8bf2d70c51bfd00e42ccf5ccc97d5b554c685b7",
+    "games/unspoken-promise.html": "f314b9d467308a631681e0c094a60a4aabf1660168d2be9624f98da68f93a0de",
+    "games/unspoken-promise/README.md": "e1902041d19f617b10132ca73ca29db25f0f7ef70971b6548b298d7fb088d5df",
+    "games/unspoken-promise/art.svg": "2d5cb40a872cc587b0485de47d3b8a1954a263ff991b75407cb16f3ea6c5ba20",
+    "games/unspoken-promise/levels.json": "b170b3241728351603a6d6840f9972f17179fbcc9a0ccd9eb820c74a72c8978a",
+    "games/unspoken-promise/proofs.json": "813df776d388ce6aa2ae61c0198343503a209a52c1d55648a3f5d65c1545b4d8",
+    "games/villain-turn.html": "56ac3f8dd00ec715b471e1696d593ce8a87c2b81f3e722c6a17161d8576df723",
+    "games/villain-turn/README.md": "d85d883998dba86727f05dcbd72009f3c04a78bbaff9870e79348d4667a01b51",
+    "games/villain-turn/art.svg": "6989c5d7a202c4d54ca20c87262fcd3f09792a25e26a2bfcf25d2c4c7d5088d0",
+    "games/villain-turn/levels.json": "f2a5331f6430c7553466a3e69f47909034feefb1fdcac86b2b36329d4f46ec77",
+    "games/villain-turn/proofs.json": "8f65ef878dbbaee25a372bdf69f1554ef2142c3d0cfe6e1a39b8dcb261a1b8ef",
+    "games/yesterday-witness.html": "d7fc0dbc212a9384628c8407af0ded3e380bef865abbd1b69e6da3c7d69004a6",
+    "games/yesterday-witness/README.md": "32dcda82bf413f7fd4628703d5af41923495c74e60e6b5c45c77e86a637bc42d",
+    "games/yesterday-witness/art.svg": "707e015aa9da17da2b95f38ae9da21b8692bd75064882ed40a13a27f2ad9b47d",
+    "games/yesterday-witness/levels.json": "5a40194af0f6203e39fc1417d84f3823353e999e2c68f4a7f87125362fcff929",
+    "games/yesterday-witness/proofs.json": "68e7451c353a733c6336996aea9dd914410c20af44db3728295576e249df9108"
+  },
+  "evidenceFiles": {
+    "games/story120-common/verification-report.json": "b9fa8443e17c34962a9f8c847910ccc028a1902d22fecdaacec044ace3d88636"
+  }
+}
