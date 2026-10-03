@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 1,
+  "family": "survival",
+  "status": "offline-verified-awaiting-independent-and-browser-qa",
+  "catalog": "games/survival120-common/catalog.json",
+  "games": [
+    {
+      "id": "blizzard-shelter",
+      "title": "暴風雪避難所",
+      "entry": "games/blizzard-shelter.html",
+      "directory": "games/blizzard-shelter",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/blizzard-shelter/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/blizzard-shelter/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/blizzard-shelter/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "需求的時間順序與各房熱損決定各夜閥門配置；燃料、木料、隔熱板跨夜保存。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 0
+      },
+      "readme": "games/blizzard-shelter/README.md"
+    },
+    {
+      "id": "driftwood-raft",
+      "title": "漂流木筏工坊",
+      "entry": "games/driftwood-raft.html",
+      "directory": "games/driftwood-raft",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/driftwood-raft/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/driftwood-raft/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/driftwood-raft/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "航道偏移與載重時間序列改變各航段所需左右船板差與槳角；船板與維修木材跨航段保存。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 1
+      },
+      "readme": "games/driftwood-raft/README.md"
+    },
+    {
+      "id": "underground-survival",
+      "title": "地下基地求生",
+      "entry": "games/underground-survival.html",
+      "directory": "games/underground-survival",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/underground-survival/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/underground-survival/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/underground-survival/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "農場、通風量、裂縫位置與強度的時間序列；挖井永久生效、補縫消耗資源。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 2
+      },
+      "readme": "games/underground-survival/README.md"
+    },
+    {
+      "id": "tidal-city",
+      "title": "潮汐廢城居民",
+      "entry": "games/tidal-city.html",
+      "directory": "games/tidal-city",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/tidal-city/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/tidal-city/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/tidal-city/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "潮位與風限的時間序列決定每轮可用樓層；高層未必可避風、現有樓板永久保留。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 3
+      },
+      "readme": "games/tidal-city/README.md"
+    },
+    {
+      "id": "colossus-home",
+      "title": "巨獸背上的家",
+      "entry": "games/colossus-home.html",
+      "directory": "games/colossus-home",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/colossus-home/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/colossus-home/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/colossus-home/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "三個背部設施承受的拉力與食水需求的時間序列；綁索每輪磨損，庫存與加固保留。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 4
+      },
+      "readme": "games/colossus-home/README.md"
+    },
+    {
+      "id": "mycelium-farm",
+      "title": "菌絲洞穴農場",
+      "entry": "games/mycelium-farm.html",
+      "directory": "games/mycelium-farm",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/mycelium-farm/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/mycelium-farm/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/mycelium-farm/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "有毒節點位置與末端養分需求的時間序列，改變必需的淨化／搬運菌配置；多餘淨化消耗輸送養分。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 5
+      },
+      "readme": "games/mycelium-farm/README.md"
+    },
+    {
+      "id": "desert-walker",
+      "title": "沙漠移動堡壘",
+      "entry": "games/desert-walker.html",
+      "directory": "games/desert-walker",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/desert-walker/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/desert-walker/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/desert-walker/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "目的地必要模組、路程、沙暴速度與取水配額的時間序列，改變負重與腳數的可行組合。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 6
+      },
+      "readme": "games/desert-walker/README.md"
+    },
+    {
+      "id": "glass-greenhouse",
+      "title": "玻璃溫室末日",
+      "entry": "games/glass-greenhouse.html",
+      "directory": "games/glass-greenhouse",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/glass-greenhouse/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/glass-greenhouse/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/glass-greenhouse/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "日熱、寒度、降雨與作物水需求的時間序列，改變八片玻璃在遮光、保溫與集水之間的分配。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 7
+      },
+      "readme": "games/glass-greenhouse/README.md"
+    },
+    {
+      "id": "floating-anchors",
+      "title": "漂浮島錨定計畫",
+      "entry": "games/floating-anchors.html",
+      "directory": "games/floating-anchors",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/floating-anchors/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/floating-anchors/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/floating-anchors/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "三島上升力的時間序列，改變可滿足零淨力的張力與六單位配重配置；纜繩每輪鬆弛須重拉。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 8
+      },
+      "readme": "games/floating-anchors/README.md"
+    },
+    {
+      "id": "shipwreck-oxygen",
+      "title": "沉船氧氣工坊",
+      "entry": "games/shipwreck-oxygen.html",
+      "directory": "games/shipwreck-oxygen",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/shipwreck-oxygen/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/shipwreck-oxygen/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/shipwreck-oxygen/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "目標艙深度與漏氣位置的時間序列，改變早期氣管／儲氣囊資源配置與潛水路線；管網保存。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 9
+      },
+      "readme": "games/shipwreck-oxygen/README.md"
+    },
+    {
+      "id": "growing-treehouse",
+      "title": "會長大的木屋",
+      "entry": "games/growing-treehouse.html",
+      "directory": "games/growing-treehouse",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/growing-treehouse/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/growing-treehouse/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/growing-treehouse/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "三枝新增長度、樓板與屋頂位置的時間序列；實際枝長永久累加，成長耗水、嫁接耗木。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 10
+      },
+      "readme": "games/growing-treehouse/README.md"
+    },
+    {
+      "id": "gravity-shelter",
+      "title": "重力翻轉避難站",
+      "entry": "games/gravity-shelter.html",
+      "directory": "games/gravity-shelter",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/gravity-shelter/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/gravity-shelter/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/gravity-shelter/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "兩面花床需求序列、交替重力與三箱1／2／3實際重量及存水共同決定供水與安全載重；花床只取同面存水，上方懸吊限3、下方地板限4，重力翻轉改變受力。另以更保守的全局花床互換正規化選出100關。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 11
+      },
+      "readme": "games/gravity-shelter/README.md"
+    },
+    {
+      "id": "nomad-rebuild",
+      "title": "拆屋搬家的倖存者",
+      "entry": "games/nomad-rebuild.html",
+      "directory": "games/nomad-rebuild",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/nomad-rebuild/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/nomad-rebuild/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/nomad-rebuild/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "目的地必要模組組合的時間序列；五單位載重無法携帶全部，遺留模組永久失去，重製消耗材料。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 12
+      },
+      "readme": "games/nomad-rebuild/README.md"
+    },
+    {
+      "id": "silent-hunt-camp",
+      "title": "聲音獵場營地",
+      "entry": "games/silent-hunt-camp.html",
+      "directory": "games/silent-hunt-camp",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/silent-hunt-camp/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/silent-hunt-camp/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/silent-hunt-camp/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "機器工作配額與環境背景聲時間序列；隔音投資保留，工作時序改變獵獸可觀測聲源。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "public-sound-reactive-hunter-and-opt-in-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Hunter hearing thresholds2/1/0, reactions every3/2/1 sound ticks, memory1/3/5; every mission and both traces verified at all tiers. Coach depth1/2/3 is separate."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 13
+      },
+      "readme": "games/silent-hunt-camp/README.md"
+    },
+    {
+      "id": "hibernation-base",
+      "title": "一人冬眠基地",
+      "entry": "games/hibernation-base.html",
+      "directory": "games/hibernation-base",
+      "engine": "games/survival120-common/engine.js",
+      "controller": "games/survival120-common/ui.js",
+      "renderer": "games/survival120-common/render.js",
+      "artFile": "games/hibernation-base/art.svg",
+      "levelBased": true,
+      "levelCount": 100,
+      "levels": "games/hibernation-base/levels.json",
+      "levelRecordPath": [],
+      "levelRecordIdKey": "missionId",
+      "levelsNumberKey": "number",
+      "proof": {
+        "path": "games/hibernation-base/proofs.json",
+        "recordPath": [],
+        "recordIdKey": "id",
+        "actionField": "witness",
+        "requiredField": "status",
+        "requiredValue": "won",
+        "kind": "legal-runtime-action-witness",
+        "claim": "100 primary and100 alternate nonempty legal public-action traces replayed through released rules at easy, normal and hard; each round independently checked. All100 primary traces also drive released UI action select/click controller. Existence only; no uniqueness or arbitrary-AI guarantee."
+      },
+      "uiWitnessMapping": "engine.actions(state) enumerates the exact option values in #action; #perform click calls the same transition. All primary witnesses are executed through those controls in ui.test.cjs. No hidden coordinates, timing precision, state injection or engine-only inputs.",
+      "semanticDiversity": "灌溉量、故障設備與季節天數的時間序列，改變自動化配置、儲水與可行冬眠長度。",
+      "distinctness": {
+        "count": 100,
+        "method": "Canonical engine-consumed four-round semantic schedule, with actual interchangeable-node permutations and raft reflection normalized plus conservative gravity-bed-swap coarsening, target-current displacement normalized and descriptive legs removed, excluding level number, missionId, seed, name and artwork;100 distinct primary traces and cross-replay of all100 fixed traces against all100 missions.",
+        "evidencePath": "games/survival120-common/verification-report.json"
+      },
+      "ai": {
+        "role": "opt-in-public-state-planning-coach",
+        "observations": "Complete publicly displayed current base, resources, source-noise memory, and four environmental forecasts; no solution trace, future player inputs, hidden RNG or private state.",
+        "difficulties": [
+          "easy",
+          "normal",
+          "hard"
+        ],
+        "difficultyScope": "Environmental scenario has no fake difficulty selector. Opt-in coach depth1/2/3 and beam width8/16 change bounded search; all advice is assisted progress. The three internal engine tier values are also replayed, though only hunter uses them."
+      },
+      "verificationEvidence": {
+        "path": "games/survival120-common/verification-report.json",
+        "gameIndex": 14
+      },
+      "readme": "games/hibernation-base/README.md"
+    }
+  ],
+  "commands": [
+    [
+      "node",
+      "games/survival120-common/verify-all.cjs"
+    ]
+  ],
+  "freshReports": [
+    "games/survival120-common/verification-report.json"
+  ],
+  "sourceFiles": {
+    "games/blizzard-shelter.html": "076a3f4fab8e6677e218a9da525ff64643fa23510ed04da07241259513e1aa6e",
+    "games/blizzard-shelter/README.md": "af3179aefd33fd51eebe532b6fe8681ad43855bf1fda94bf0d2e044bde4c8154",
+    "games/blizzard-shelter/art.svg": "a4074b842e492bb834cf9eeec193f786b645552476ffc932205b8ed3081564ea",
+    "games/blizzard-shelter/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/blizzard-shelter/levels.json": "6301687ff3752e4b1c2507c4ec944b5c101ffc668ee00e568c0a5fd90c319866",
+    "games/blizzard-shelter/proofs.json": "a4ae9478bfcd4691d4d6f72ebf311e7187624a7ee146949fcf345bb5682835e2",
+    "games/colossus-home.html": "b1fea5825ebcab176f600242744a6eb71e5875e44ba3c853bd3fc622606b0dcb",
+    "games/colossus-home/README.md": "d7fe1fbe3743ec3196beb16c6275617b012763de830e76c2e1e0c14d3b47bd25",
+    "games/colossus-home/art.svg": "036267869dc6d1dabd1eea25f3073ac9f22d25f19c9e4b0511f4a1ad519c11fd",
+    "games/colossus-home/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/colossus-home/levels.json": "1336f3b98f895e81710c2c9c61a88bae47008d1cb680133b365dbff0201a50a2",
+    "games/colossus-home/proofs.json": "83d48ee5dbe1fe9d948acfa4d078084e32379088bc08035106c821292603ace0",
+    "games/desert-walker.html": "b9f13dbb11586d58c6f5613802466998eba66c77be8ef6e8d88f6be542a5f3c4",
+    "games/desert-walker/README.md": "1cbef8c60d903a0b4266acdf8c3709e400b72f2726a01f71da5341e0a6d07558",
+    "games/desert-walker/art.svg": "d5452bca738c3689038d012c6ba98ac4ac48c4094f2b8ae28b40d7ffeeab23e9",
+    "games/desert-walker/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/desert-walker/levels.json": "9a5c5e7bd3360896c41e544c5bec3ae59f2651bcb09716524e73e653c8ba1104",
+    "games/desert-walker/proofs.json": "737b8087693bf68fa483065e051b0f066aaec5a8bd82a55817c16c1b8cf8f2e1",
+    "games/driftwood-raft.html": "7c375a5201abd7cf85b92d78414102e2b8e5b88f638b8f3979ede19daabfd743",
+    "games/driftwood-raft/README.md": "5ccff689bb2b099dd3375be404b5af1f9e74bb47c412ef6b1ab8871d19c51c4b",
+    "games/driftwood-raft/art.svg": "9172a617800ba238064bcdb2b7964e3a261b3e3fb1b6a9ec389c99fd095d4694",
+    "games/driftwood-raft/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/driftwood-raft/levels.json": "a91fb658d2a745d58f85486a1b61de66b052461d5e0222ea2a6ae9c7fcb94cc8",
+    "games/driftwood-raft/proofs.json": "fb64c3b0bc3ebc6b0817e645da320fa8d8c5d2948abc65809add2a91df48cee5",
+    "games/floating-anchors.html": "6ec0dfb08ab46c679ef38d7c5dbec4e81f8b60dbcf5a205cf45ed607a607c551",
+    "games/floating-anchors/README.md": "5f40910ef66aee21f57962d88af3f6efcf64947ec5f7106f974adbca8eeecc32",
+    "games/floating-anchors/art.svg": "7e87d231bdc6c3b378a283e33444717246540a15d326a426c63b501e2c0e1a0f",
+    "games/floating-anchors/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/floating-anchors/levels.json": "9f5e7cca37cccdce03fdaa3a4b0fb4212708b02d727e065d0772aa3f1b1afc59",
+    "games/floating-anchors/proofs.json": "aab132208368406eaf8c51a7b59509f25b9db0737e6ffb6c651b60974b801bfa",
+    "games/glass-greenhouse.html": "99b0811f791977be1ba798078f52d819f03ddd6d747b24676f4b79bb452c86de",
+    "games/glass-greenhouse/README.md": "5f2092af4b31f48c5df02104b821bb2279cf2850f44f8191458e42dbd5c58efe",
+    "games/glass-greenhouse/art.svg": "74dc245291dea5ccdc690bb1a8133aa645720346ec6260309142f465204c5b19",
+    "games/glass-greenhouse/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/glass-greenhouse/levels.json": "cf164650ad65f9605582dfbf9bd8775c4569e1d6aa85e93f311858d37fb9a5cb",
+    "games/glass-greenhouse/proofs.json": "e914584dae0364b18f3b5e8046686b95897d975c22a6d0c7bbcaf1f58799779b",
+    "games/gravity-shelter.html": "44b07685562284492c3477d9c903d0fa0b301b331cd00bcf0c86630efe9e0fbd",
+    "games/gravity-shelter/README.md": "52ede18caf258dedfa38f194927009e46544dd5c85db056a86e935ebdb88b504",
+    "games/gravity-shelter/art.svg": "39d9853a38f406ba7eb542692d01962653cb4dba1f435fbb934154ac48d8b3c0",
+    "games/gravity-shelter/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/gravity-shelter/levels.json": "bc3fbe1caa7156b3e22daf9aaffdff5cd879d48d9a21a5ab161ea69c851551e1",
+    "games/gravity-shelter/proofs.json": "f890179b09569c02b3faf3a592b16df57cb17c6f4ddb4ca8b148341e97dbe84c",
+    "games/growing-treehouse.html": "44f0b517a72eed02e2223c2bdea7ac0da1aa92c76d786bf3be04106adb464deb",
+    "games/growing-treehouse/README.md": "bb62e8bc2627abd0a1b5cb8e83c5b8d195a4a4a217b7fbf13e919abf8db65bd1",
+    "games/growing-treehouse/art.svg": "06179a228bf5697c68c180ed52a5612a34798dc6dd3c39950d1b0866616d322c",
+    "games/growing-treehouse/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/growing-treehouse/levels.json": "ec3ca3dcd21ece4d934c646e528ae5c37e052741b0cd2211d18768a1912b387e",
+    "games/growing-treehouse/proofs.json": "cf7b63b6bb63335347f48dd514c02d6a833a084a7ab999db4419a3caa6bc4f08",
+    "games/hibernation-base.html": "83827b85a37ac06fe41effda812025ce8ef68ff9600893403fb48dd97ae214af",
+    "games/hibernation-base/README.md": "b5ac9448e0851f8541b4d1ffbb66d5a9cf172b599c6deafddc8977758a885a77",
+    "games/hibernation-base/art.svg": "35690087192eea257311fe49d3db66270ee9b63b71ea0d5b301ea9fb409f7ec9",
+    "games/hibernation-base/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/hibernation-base/levels.json": "87b573d9ae72b382ff886eb33ced7abc2571a9857f342033a14bc3cae0b8fab0",
+    "games/hibernation-base/proofs.json": "c4852ad9647474596de3b11cfc7d6cffcf7a71ab5753a5b1b9c7c5e661d2e927",
+    "games/mycelium-farm.html": "47ff9ee367d38fb5754cc3fe007ad1a8269e62cc37313574e150236f1bb1ca20",
+    "games/mycelium-farm/README.md": "f95c9aaf32add2b590950407150cc3af5191c2db7f897418b7cbaa81fc43826a",
+    "games/mycelium-farm/art.svg": "4b9fa55e3b367f509362e1d775e3b2dc05538175b2cf506a4929c175a972ec44",
+    "games/mycelium-farm/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/mycelium-farm/levels.json": "df7882b33104d07c4679b488f5c726f7251dd2ce231c86e70300fcabf556f05a",
+    "games/mycelium-farm/proofs.json": "47a72b9566c8a8c29c6960fa2ce4d218df5d77f1d488b10a41c9c07cb0fbefaf",
+    "games/nomad-rebuild.html": "50a3e8317271ec401fb2645b1310c5e652d2cebed367a60d37214b16466ecf51",
+    "games/nomad-rebuild/README.md": "fc0c58ba255d6643e9d795eb1abf7c0070396fe138df786e133f649e9c200780",
+    "games/nomad-rebuild/art.svg": "c80627bbe4b7d515ac50f4b01d3d7786fe5d490a1b53c620dee1b1479c13747f",
+    "games/nomad-rebuild/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/nomad-rebuild/levels.json": "fdb698c1269fd8b214fc6c852c82a7a7712f6040b491cf256ca1a01aa294ccb3",
+    "games/nomad-rebuild/proofs.json": "8e052e86d7945323d4e1a84a6850b3efc215f45bbe6fe7531ab51e892fd0f7ab",
+    "games/shipwreck-oxygen.html": "1daccf649558304c1cb824d37588c03ae9a30078d576110787b09335782612e0",
+    "games/shipwreck-oxygen/README.md": "3dcd92ab0f2853ee844edd1b719e1c0b9d3aa2b67be4bfd2275af7e8a323d62c",
+    "games/shipwreck-oxygen/art.svg": "7bc701611983f53fade64824cf128559ec3aebf81e7628228561ce4169b1e6bb",
+    "games/shipwreck-oxygen/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/shipwreck-oxygen/levels.json": "dfc6b37980b529f6f482bcde2c2a25fcf2d05a71703c1ae14fa16c9be147a21c",
+    "games/shipwreck-oxygen/proofs.json": "6d4eefb128db2201bb93e31dcc424ec50ef3e195dfaee10e1747959894232a21",
+    "games/silent-hunt-camp.html": "fc0d85dcbc24e56e02f4494c5484053970cf8f8b2ba316d86d889dca282f3d75",
+    "games/silent-hunt-camp/README.md": "4d92f2b2a9a0d9b485387a31f71412557cf95e43df99e40e46cacbb0d6f814c7",
+    "games/silent-hunt-camp/art.svg": "8b1ad1d9a391cc8e419be8828ff4d50b8116ad86b53d9d1e35d4bfadf83d8820",
+    "games/silent-hunt-camp/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/silent-hunt-camp/levels.json": "75b541cd1392affffe7f15242621170aca6b30756f038bbd4ffb4b372bdd5bb6",
+    "games/silent-hunt-camp/proofs.json": "0f70b862df5b4333c4ecdc9bf971860d1b8304108da7c82ec87d8d34a77475c6",
+    "games/survival120-common/README.md": "2307989c71cb110342d7bd7c53c471c5eb494c9ec019f3a12137df378f136a5b",
+    "games/survival120-common/catalog.json": "6a21e9e1216fa90ed3f60a86151b4b3d37311df65b89ab8e326419758b4679ef",
+    "games/survival120-common/dom-harness.cjs": "962bcfadce1b0e24e22cc90b5a0cd2d227400440546b164a18039fe3116aa0cb",
+    "games/survival120-common/engine.js": "34d81df736196f83af474b828fd868e770dd69898396b0a4689a7bb8c4e75e2f",
+    "games/survival120-common/generate.cjs": "1921905f1aa1a8cf298dcaffc7c6b7d641d916a9dd2918be26dceb0d8fb783cd",
+    "games/survival120-common/independent.cjs": "2c16004b5bd507a73b327d9d51bacbdcabbb56730ca5d30eb0e518ef54ec392f",
+    "games/survival120-common/render.js": "98b1be7f244e44fa5f39892119da0b71b2bae1fd54a177b9eb33dfc669954315",
+    "games/survival120-common/rules.test.cjs": "846407a41000efe45b43835d38a6cd9cd0cca2e8df7cbb8de4b7229f5fcf6806",
+    "games/survival120-common/semantic-fields.json": "7db0f17c09cb9e1c41a3d9c06170ca0c9630625cc7d947e48c6f322e61de0e0b",
+    "games/survival120-common/session.js": "dc60f6b5f560b7c3b843e55c7f4c32e450abda6f9d1e9cbc585d8762f6aff544",
+    "games/survival120-common/specs.js": "0dfc70cbea933bbc0273a64fdf264ff7130283972de6c8b7f8a9d7c22283d911",
+    "games/survival120-common/style.css": "d95dbfda7d0228869db0be874abaabe465be62aa6cf1fbbe84e6cb40c2f0efd8",
+    "games/survival120-common/ui.js": "240e98c57b2a1b4559ee60678117544bf6d965ad2683e7928fd717ec1aaf08ff",
+    "games/survival120-common/ui.test.cjs": "f14b00b20160866f0a643c12dfe6199014e56067be76df77991fa39a3da121f9",
+    "games/survival120-common/verify-all.cjs": "59084f382a81d46a72f64cc9392a11588b11a88838025a3f14362790e372ed8e",
+    "games/tidal-city.html": "9d3da5aa9e142d45eb6e80d7c4e314720caee6c82a1c4a40332cf186185249fa",
+    "games/tidal-city/README.md": "ad0bbea675b466ccb3e8044e39810360506f6049b39c64141cda7316b87d873f",
+    "games/tidal-city/art.svg": "508bef663b36b1d3d411daffae60a35646fc724e1bef98302e63ae51705ef21d",
+    "games/tidal-city/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/tidal-city/levels.json": "e9d84590623053cc06fdaa86e206a06699258206d50aca1e8a84ca0b3e12932c",
+    "games/tidal-city/proofs.json": "58eccd11c2f76d67c4bf37d362859881d19a51fd8dea299eff91eb24f9fa8271",
+    "games/underground-survival.html": "832fe4c23f6b4c0dd68d222be08586580697346f0178448251680db4d4799c6f",
+    "games/underground-survival/README.md": "734a5fafd04d4207b79cd87b6af687c2b773ef2a6a6722661afb558e2b4cf2d4",
+    "games/underground-survival/art.svg": "514fdd4d4b1b79324b8e580f8a7fbc5601bc720fcd0f54a567df4ce198c24f35",
+    "games/underground-survival/engine.js": "64cde5abfc6d94786613e9391f8e93ccea3827eabbba1ca3ee72c4fce1ef9815",
+    "games/underground-survival/levels.json": "878c5ff20014a2be5ce4e39771def5064f1f3a9917882707bf8d2fe743403ab1",
+    "games/underground-survival/proofs.json": "0325724447412fc725884ef669e68d7e3e5b926c71b096433b3d2d69035e70c4"
+  },
+  "evidenceFiles": {
+    "games/survival120-common/verification-report.json": "d8e46c892c8870f6b1bb55fa96bcefd0c1c43da2a77306a288b3311bca42bf64"
+  }
+}
