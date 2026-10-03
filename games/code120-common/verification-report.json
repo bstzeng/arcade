@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "passed": true,
+  "family": "code",
+  "version": "code120-1.0.0",
+  "scope": "1500 actual-runtime witnesses plus independently implemented specification/trace checks, valid alternate programs, negative fixtures and persistent session lifecycle. Browser layout not claimed here.",
+  "totals": {
+    "games": 15,
+    "levels": 1500,
+    "unchangedStartersRejected": 1500,
+    "independentSpecificationChecks": 1500,
+    "alternateProgramsAccepted": 1500,
+    "invalidProgramsRejected": 3000,
+    "sessionAssertions": 9000,
+    "semanticRegressionFixtures": 29
+  },
+  "games": [
+    {
+      "id": "swarm-command",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 3275,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "7a9f26971944242683e116a5a2183c86e9b5e0987b5ddf5e5f02fca355658e82"
+    },
+    {
+      "id": "robot-dance",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 985,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "81f876cf653d2b8b984ee0b9aaf0fc80f5302d8b291cef918ecfaca085b81c0b"
+    },
+    {
+      "id": "amphibious-code",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 1950,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "5804c856cfeaf8268a749966b1ffdb26986e1156b04a2cc6fd2af05f2335a68e"
+    },
+    {
+      "id": "stack-kitchen",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 1906,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "71a7ac7291c51dbfbeeeac668dc526f9473c7110ca4f1635d1deb32700bf5c48"
+    },
+    {
+      "id": "recursive-treehouse",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 2622,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "21d7a5fc756f4b8e5a4730b668634260eafd9fbb19de8696368a9f7f295011da"
+    },
+    {
+      "id": "signal-operator",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 1200,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "4825d5165d27cad7d0cab9569d6611987d2ed96a546e69b20456a1c63d5a54bf"
+    },
+    {
+      "id": "debug-courier",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 475,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "0c86f87ca31123139d61a4e38bb48ac88f3eaf4e6246ec2aa70e9ba31f9d048f"
+    },
+    {
+      "id": "regex-warden",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 3200,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "c4d614c060ac97297152d63ff7e33a0baab81470935ed950740a459e68b2e68c"
+    },
+    {
+      "id": "async-post",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 2127,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "284f5ee79f08bfea3260ad169a4d6662bc819dc91abf7ccde8a9191f5cf78536"
+    },
+    {
+      "id": "twelve-line-rocket",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 840,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "442c8c26f41f1f9103ad2854d24a775144d1446ba4dc148bd5e7306040b5ad2e"
+    },
+    {
+      "id": "totem-rewrite",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 398,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "a64e2354c2edaaf087b187b19a269c69f831a90425dcb457dcad705049c3f11e"
+    },
+    {
+      "id": "reversible-machine",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 1336,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "c5fcf740b1767054b7af54897c89fbe7b7f3d77ecd99386fb1a3dcbf90cf0f0c"
+    },
+    {
+      "id": "cellular-board",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 413,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "0f7087eb1bbd53e9f2403a5db26935daf7b2ab1827e00d7ce46f1f0dfe072454"
+    },
+    {
+      "id": "adversarial-tester",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 1119,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "1010eeb78ff60c51bb8262c606df1fa7446187e2f0999efda3b70351ad91d877"
+    },
+    {
+      "id": "interrupt-rescue",
+      "challengeCount": 100,
+      "referenceProgramsPassed": 100,
+      "unchangedStartersRejected": 100,
+      "independentSpecificationChecks": 100,
+      "alternateProgramsAccepted": 100,
+      "invalidProgramsRejected": 200,
+      "distinctSemanticSignatures": 100,
+      "totalTraceSteps": 3275,
+      "manualCompletionTests": 100,
+      "assistedCompletionTests": 100,
+      "demoIsolationTests": 100,
+      "corpusSHA256": "a9094f884ff8ae1f3195e1c10577845483c5b21ca197f25cf0da20a9b08ffd95"
+    }
+  ],
+  "semanticRegressionFixtures": [
+    {
+      "name": "Shared ROUND rule partitions work by bee ID",
+      "passed": true
+    },
+    {
+      "name": "Stack ROT operates on top three",
+      "passed": true
+    },
+    {
+      "name": "Stack underflow",
+      "passed": true
+    },
+    {
+      "name": "Stack unsafe command rejected",
+      "passed": true
+    },
+    {
+      "name": "Dance edge-swap collision",
+      "passed": true
+    },
+    {
+      "name": "Dance barrier deadlock",
+      "passed": true
+    },
+    {
+      "name": "Nested loop depth bounded",
+      "passed": true
+    },
+    {
+      "name": "Dance huge loop rejected",
+      "passed": true
+    },
+    {
+      "name": "Amphibious swept obstacle",
+      "passed": true
+    },
+    {
+      "name": "Recursion zero decrement rejected",
+      "passed": true
+    },
+    {
+      "name": "Delay uses previous tick",
+      "passed": true
+    },
+    {
+      "name": "Flip retains clock state",
+      "passed": true
+    },
+    {
+      "name": "Circuit cycles/undefined wires rejected",
+      "passed": true
+    },
+    {
+      "name": "Custom regex anchoring, finite repetition and pathological pattern rejection",
+      "passed": true
+    },
+    {
+      "name": "Async true deadlock",
+      "passed": true
+    },
+    {
+      "name": "Async full FIFO deadlock",
+      "passed": true
+    },
+    {
+      "name": "Async reply cannot precede received request",
+      "passed": true
+    },
+    {
+      "name": "Rocket line budget",
+      "passed": true
+    },
+    {
+      "name": "Rocket arbitrary JS rejected",
+      "passed": true
+    },
+    {
+      "name": "Parallel rewrite does not reprocess replacements in same round",
+      "passed": true
+    },
+    {
+      "name": "Reversible control and target cannot alias",
+      "passed": true
+    },
+    {
+      "name": "Reversible inverse restoration",
+      "passed": true
+    },
+    {
+      "name": "Cellular wrap and simultaneous update",
+      "passed": true
+    },
+    {
+      "name": "Cellular invalid rule",
+      "passed": true
+    },
+    {
+      "name": "AI finds boundary bug and proves finite domain only",
+      "passed": true
+    },
+    {
+      "name": "Interrupt missing restore rejected",
+      "passed": true
+    },
+    {
+      "name": "Runtime operation budget enforced",
+      "passed": true
+    },
+    {
+      "name": "Corrupt storage, quota, level bounds and oversized edit recovery",
+      "passed": true
+    },
+    {
+      "name": "Rocket progression uses five physically constrained control profiles; original slow policy cannot solve all missions",
+      "passed": true,
+      "distinctReferencePolicies": 5,
+      "legacyPolicyWins": 20
+    }
+  ],
+  "ai": {
+    "game": "adversarial-tester",
+    "algorithm": "boundary-first finite-domain exhaustive counterexample search",
+    "observations": "public target specification and submitted program only",
+    "domain": "integers -32 through 32",
+    "verifiedKnownBugs": 100,
+    "completeDomainChecks": 65,
+    "ml": false
+  },
+  "sourceFiles": {
+    "games/code120-common/engine.js": "4e520501ddeb02d8d255100f0917f4c47de6327f3dc93c9b441e61961aa4fff6",
+    "games/code120-common/session.js": "a9422e35ad5bc2bb47fd6798985e4c5c506387f7521c3815901d80893adf4fb6",
+    "games/code120-common/canonical.cjs": "7f26fa5ee27ecb6da7f8f24d3ce31e81629f5d7024d257e781fe3ab3ad540d9f",
+    "games/code120-common/oracle.cjs": "9642a8a20ac4a76a20bdcf017623eed00d75e75622b5a13f5522c6a10c097bae",
+    "games/code120-common/verify.cjs": "5a254af68afa6637e4ccefdf0e991dcba89594d958abda6c01b8e3731c04ff44",
+    "games/code120-common/app.js": "12b71a9d0a32bc23a3478d230092d332d31466f4b8096c0128dacbe9478b1517",
+    "games/code120-common/style.css": "063c53fc5eec44b34b4d11086448a9d000226200f4a66bbda8c48f18bbb4e246",
+    "games/code120-common/catalog.json": "a60804baa6ebae507e4d606d117efb5484f0a295d730f2249c315ba65bf768c1",
+    "games/swarm-command/levels.json": "7a9f26971944242683e116a5a2183c86e9b5e0987b5ddf5e5f02fca355658e82",
+    "games/swarm-command/levels.js": "015d0e867a81b907d0bf8589a21ef360165606152bf678c64de7ad482c05a7f5",
+    "games/swarm-command/meta.json": "40b005bbfb5eb57929a9405e24aa7d7cb90d0c21220775334877a76336614857",
+    "games/swarm-command/meta.js": "e15b20669fa9b4c494cb700c1d4a55f65cc8d4bda18c7ccc98d908e3c5b391ae",
+    "games/robot-dance/levels.json": "81f876cf653d2b8b984ee0b9aaf0fc80f5302d8b291cef918ecfaca085b81c0b",
+    "games/robot-dance/levels.js": "7c497a22cfcf785f0a65513debe81d9b3a72f87505de7d3f169b0bbf67b3da19",
+    "games/robot-dance/meta.json": "10f37bbf489af4336d8cc5d3ae367ca4faef8915b16982168501d9a2edcff29f",
+    "games/robot-dance/meta.js": "fcc603a6efed59938d41c0a5bec1e74975d7420e67746d2dceea644ad4d3d4fc",
+    "games/amphibious-code/levels.json": "5804c856cfeaf8268a749966b1ffdb26986e1156b04a2cc6fd2af05f2335a68e",
+    "games/amphibious-code/levels.js": "0508c1cf572c9a30b5416ce26f009e98a45ab2a6de7c70fb31b504fe476156ad",
+    "games/amphibious-code/meta.json": "da901b4c86626dd0187fcc21bb3993a2eb76d6e4c30aa11925a9f11cf41de498",
+    "games/amphibious-code/meta.js": "63bcfae8d262fc17aa2bc3f46741beded850793b6f7d8891754c555908b3f4bd",
+    "games/stack-kitchen/levels.json": "71a7ac7291c51dbfbeeeac668dc526f9473c7110ca4f1635d1deb32700bf5c48",
+    "games/stack-kitchen/levels.js": "77d186d200f36fc759097b96c185981bf80d58f2920effde3a6f7c583fcbb6f1",
+    "games/stack-kitchen/meta.json": "b7f8395cb16ec2f0ec0a1cbd58cbcf72fb35a2437ed4db2aa2b375e011e92e7a",
+    "games/stack-kitchen/meta.js": "5c2f3a0dc88764c09df06d07d6899ea80e4e063ba893d2e3d099ccf56a744b8e",
+    "games/recursive-treehouse/levels.json": "21d7a5fc756f4b8e5a4730b668634260eafd9fbb19de8696368a9f7f295011da",
+    "games/recursive-treehouse/levels.js": "eee3b4b9bbd02def97a595134894c3dafe5d9f53e0a175dd3ce2bba5d57b49cf",
+    "games/recursive-treehouse/meta.json": "7ace32742adabacfd20a480d25061691d12ae871f0d19f567ff8f65e339ad6a9",
+    "games/recursive-treehouse/meta.js": "8eeccd47adb2f28f4b575d4fbdc14b54add751305c6fe137326c89fdf1666b81",
+    "games/signal-operator/levels.json": "4825d5165d27cad7d0cab9569d6611987d2ed96a546e69b20456a1c63d5a54bf",
+    "games/signal-operator/levels.js": "8bd4e3825a1c4c2a2f1fe8b172b8e5b68cfb254ec4aaf109f71d603e0fdab58d",
+    "games/signal-operator/meta.json": "8baa63b10f67a8de84d05415a535c626c0d9e6204b9b650f3337cae5f87d24bd",
+    "games/signal-operator/meta.js": "79896916b342af056c7d7fe8032c61897ee76d99d23b6ae2d38731cd0471f1f3",
+    "games/debug-courier/levels.json": "0c86f87ca31123139d61a4e38bb48ac88f3eaf4e6246ec2aa70e9ba31f9d048f",
+    "games/debug-courier/levels.js": "e8e831a0b154b10d8f80de7f8ca273d451671dd513871892d5238567c49a30f6",
+    "games/debug-courier/meta.json": "633b594b48da8699b7598bca5ac93ebb2594cdf3b09a3d8eb83fd4d56cb44579",
+    "games/debug-courier/meta.js": "e09bfc3e402afa7220596507ba3dfc97bdffaac870e714f64a87c479595f6dd9",
+    "games/regex-warden/levels.json": "c4d614c060ac97297152d63ff7e33a0baab81470935ed950740a459e68b2e68c",
+    "games/regex-warden/levels.js": "c864488f75e25bd30fa03305f7d092617d2b468c454c389e536f7a059a9ad801",
+    "games/regex-warden/meta.json": "4a207704623fc77094961124519d33a6f093edf71ae1a81328bd93917e7b2e6d",
+    "games/regex-warden/meta.js": "5a006162146d1e6ec3084b8a1461dfe998ebfdde8a1418e796573966a377bb51",
+    "games/async-post/levels.json": "284f5ee79f08bfea3260ad169a4d6662bc819dc91abf7ccde8a9191f5cf78536",
+    "games/async-post/levels.js": "02fa0a28b292beeb38d803872ca07ac7d1c22f9f8336a6dd6841e29dbaffec3c",
+    "games/async-post/meta.json": "d66748a70579101c8c792df879c7564f775db284f23f4ab6be10c48a88ebca26",
+    "games/async-post/meta.js": "23507c8fdaef383605b205928a732adfbd48fe02e94a13f2e824269cf2ecbdf7",
+    "games/twelve-line-rocket/levels.json": "442c8c26f41f1f9103ad2854d24a775144d1446ba4dc148bd5e7306040b5ad2e",
+    "games/twelve-line-rocket/levels.js": "5a52e33344d918b7d7dd593c63da6e39cec092f67f09414a8a2ebd0a2f7d01f1",
+    "games/twelve-line-rocket/meta.json": "00695e40fac0738fc8a05b7cf7fbcac4affe4bea0a0c1df3e2df37ee0a6f2ef4",
+    "games/twelve-line-rocket/meta.js": "7f80298f4351cbeadbc79170e85a56ba781a0a912608c3c2fc55a0291b07500e",
+    "games/totem-rewrite/levels.json": "a64e2354c2edaaf087b187b19a269c69f831a90425dcb457dcad705049c3f11e",
+    "games/totem-rewrite/levels.js": "fec0d6c48511b76b74b5786ab21679603dd16fc5eafb43f2f758f4413f8d9886",
+    "games/totem-rewrite/meta.json": "3e6330beee7bddee9221e48d6bb00a6208ac5eea43f0cd1e9147fdc3907bbde8",
+    "games/totem-rewrite/meta.js": "044c5f3a7ac0b921e235d2cfb3b025312b84e8afe8b44063b19f6445ac3ce749",
+    "games/reversible-machine/levels.json": "c5fcf740b1767054b7af54897c89fbe7b7f3d77ecd99386fb1a3dcbf90cf0f0c",
+    "games/reversible-machine/levels.js": "adbe349f829c3b530d249ee4c6f4242e8b24798844d4bdaca5492688fa9438fa",
+    "games/reversible-machine/meta.json": "8670d3a0eff366e28916faebd758bb46d1a75a3e4ba2fdddd8893a6e3c9fe147",
+    "games/reversible-machine/meta.js": "6610bf42bd8e65c84e2947020fb3cdff63fbb6434c92aa3a9b35318d9b2da504",
+    "games/cellular-board/levels.json": "0f7087eb1bbd53e9f2403a5db26935daf7b2ab1827e00d7ce46f1f0dfe072454",
+    "games/cellular-board/levels.js": "7871b0ea67a0fc04fae194056ee750f1c24f34db56e81613c5f1881e39fa3d29",
+    "games/cellular-board/meta.json": "72bea0334811c8a58208c6845d8df1b3f036ef6909a141339ae57fca6b664a5c",
+    "games/cellular-board/meta.js": "b39e417197723c1031ff64230f07a132fbff622041f1c53c4c86ccaf1ba4964c",
+    "games/adversarial-tester/levels.json": "1010eeb78ff60c51bb8262c606df1fa7446187e2f0999efda3b70351ad91d877",
+    "games/adversarial-tester/levels.js": "5f3e3074b2aceb901aebc4998333a7624add2221fbb9d48b06d0ea7884c494ee",
+    "games/adversarial-tester/meta.json": "63c0a1d1830d99687439753e688241163fe6c46744499b86466ae7eb6b2630d2",
+    "games/adversarial-tester/meta.js": "eb7660f517d19ea28800a209f2d4cd0d7b6d548e98898c0b3d8ac806d7dc291d",
+    "games/interrupt-rescue/levels.json": "a9094f884ff8ae1f3195e1c10577845483c5b21ca197f25cf0da20a9b08ffd95",
+    "games/interrupt-rescue/levels.js": "278ef67cf5a2e70ad839aa7336582568eabd5360442485b7eb84a84d0b3e7157",
+    "games/interrupt-rescue/meta.json": "178f1f49b6a14d48c4b84f544e0c3f1dc432d98f88ef91f94b848931741afb6d",
+    "games/interrupt-rescue/meta.js": "e37fd517a9539ec4fa65a97271c8b5d7574e96307c44495f9c4a08255c63a7ff"
+  }
+}
