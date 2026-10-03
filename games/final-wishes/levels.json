@@ -1,0 +1,4902 @@
+[
+  {
+    "id": "001",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "001 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "002",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 3
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "002 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "003",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 3
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "003 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "004",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "004 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "005",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "005 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "006",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 3
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "006 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "007",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 1
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "007 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "008",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "008 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "009",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "009 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "010",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "010 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "011",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "011 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "012",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "012 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "013",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "013 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "014",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 3
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "014 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "015",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "015 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "016",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "016 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "017",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "017 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "018",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "018 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "019",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "019 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "020",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "020 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "021",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "021 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "022",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "022 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "023",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 3
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "023 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "024",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "024 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "025",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 3
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "025 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "026",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "026 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "027",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "027 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "028",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "028 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "029",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "029 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "030",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "030 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "031",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 3
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "031 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "032",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "032 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "033",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "033 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "034",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "034 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "035",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "035 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "036",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "036 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "037",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "037 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "038",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "038 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "039",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 3
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "039 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "040",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "040 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "041",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "041 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "042",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "042 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "043",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "043 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "044",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "044 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "045",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "045 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "046",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 3
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "046 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "047",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "047 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "048",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "048 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "049",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "049 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "050",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "050 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "051",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "051 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "052",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "052 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "053",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "053 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "054",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        2,
+        0
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "054 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        2,
+        0
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "055",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "055 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "056",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "056 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "057",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "057 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "058",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "058 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "059",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "059 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "060",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "060 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "061",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "061 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "062",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "062 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "063",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "063 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "064",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "064 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "065",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "065 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "066",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "066 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "067",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "067 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "068",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "068 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "069",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "069 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "070",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "070 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "071",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "071 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "072",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        0,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "072 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        0,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "073",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "073 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "074",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "074 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "075",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 1
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "075 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "076",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "076 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "077",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "077 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "078",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "078 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "079",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "079 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "080",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "080 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "081",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "081 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "082",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 0
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "082 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "083",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "083 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "084",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        1,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "084 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        1,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "085",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "085 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "086",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "086 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "087",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "087 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "088",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "088 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "089",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "089 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "090",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        2,
+        1,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 3
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "090 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        2,
+        1,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "091",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 3
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "091 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "092",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "092 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "093",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 1
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "093 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "094",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "094 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "095",
+    "config": {
+      "order": [
+        2,
+        0,
+        1
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 1
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "095 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        2,
+        0,
+        1
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "096",
+    "config": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "links": [
+        0,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "共同交付"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 3
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "096 · 共同交付",
+    "structure": {
+      "eventOrder": [
+        2,
+        1,
+        0
+      ],
+      "causalLinks": [
+        0,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "097",
+    "config": {
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 2
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 2
+      }
+    ],
+    "premise": "三句遺願留在桌上，家屬記得的脈絡並不完全相同。",
+    "title": "097 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        1,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "098",
+    "config": {
+      "order": [
+        0,
+        2,
+        1
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 1
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "留下協商的空間"
+      },
+      {
+        "key": "consulted",
+        "label": "查訪脈絡的條款",
+        "value": 1
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 0
+      }
+    ],
+    "premise": "物件清點完成，接下來必須把不同解讀變成可執行安排。",
+    "title": "098 · 留下協商的空間",
+    "structure": {
+      "eventOrder": [
+        0,
+        2,
+        1
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 1
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "099",
+    "config": {
+      "order": [
+        1,
+        0,
+        2
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 2
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "spirit",
+        "label": "按心意實行的安排",
+        "value": 2
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      }
+    ],
+    "premise": "一把琴、一間屋與一段水聲，都不能替逝者說出唯一答案。",
+    "title": "099 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        0,
+        2
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 2
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  },
+  {
+    "id": "100",
+    "config": {
+      "order": [
+        1,
+        2,
+        0
+      ],
+      "links": [
+        1,
+        2,
+        1
+      ],
+      "rule": 0
+    },
+    "goal": [
+      {
+        "key": "ending",
+        "label": "故事結局",
+        "value": "帶著保留完成"
+      },
+      {
+        "key": "revised",
+        "label": "共同修訂的安排",
+        "value": 0
+      },
+      {
+        "key": "consent",
+        "label": "取得同意的安排",
+        "value": 0
+      }
+    ],
+    "premise": "你被託付協調遺願，要記下同意，也要容得下保留意見。",
+    "title": "100 · 帶著保留完成",
+    "structure": {
+      "eventOrder": [
+        1,
+        2,
+        0
+      ],
+      "causalLinks": [
+        1,
+        2,
+        1
+      ],
+      "publicRule": 0
+    },
+    "hint": "先查訪的脈絡可以在最後協商時使用。條款若共用管理人，兩個各自合理的安排仍可能互相牽制。"
+  }
+]
