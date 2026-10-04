@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#12141b">
-  <meta name="description" content="Arcade 遊戲小宇宙。390 款遊戲、二十四個分類。新增生存、地城、格鬥、物理、生態、異常觀察、敘事與戰爭遊戲。">
+  <meta name="description" content="Arcade 遊戲小宇宙。392 款遊戲、二十五個分類。新增苔精大遷徙與星環彩珠，兩款原創遊戲各有 50 關。">
   <title>Arcade — 遊戲小宇宙</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20261003-frontier120">
-  <script src="./app.js?v=20261003-frontier120" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20261004-classic-duo-50">
+  <script src="./app.js?v=20261004-classic-duo-50" defer></script>
 </head>
 <body>
   <a class="skip" href="#games">跳到遊戲列表</a>
@@ -21,16 +21,16 @@
     <main>
       <section class="library-hero" aria-labelledby="hero-title">
         <div><p class="eyebrow"><span></span> A LITTLE TIME. A LOT TO PLAY.</p><h1 id="hero-title">今天，想玩哪一種<span>？</span></h1><p class="library-description">找個對手、動動腦，或只是放鬆一下。<br class="mobile-break">先選分類，再挑你的下一局。</p></div>
-        <div class="library-stamp" aria-hidden="true"><span>390<span>✳</span></span><small>小小入口，大大世界</small></div>
+        <div class="library-stamp" aria-hidden="true"><span>392<span>✳</span></span><small>小小入口，大大世界</small></div>
       </section>
       <section id="games" class="catalog library-catalog" aria-labelledby="catalog-title">
         <h2 id="catalog-title" class="visually-hidden">探索遊戲</h2>
         <div class="catalog-search">
           <label for="search" class="search-label">有想玩的了？<span>中英文名稱、玩法都能找</span></label>
-          <div class="search search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋全部 390 款遊戲…" aria-label="搜尋全部遊戲" aria-describedby="search-help" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></div>
+          <div class="search search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋全部 392 款遊戲…" aria-label="搜尋全部遊戲" aria-describedby="search-help" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></div>
           <span id="search-help" class="visually-hidden">搜尋涵蓋所有分類。按 Enter 跳到結果，按 Escape 清除搜尋。</span>
         </div>
-        <div id="category-intro" class="category-intro"><div><p class="eyebrow">FIND YOUR KIND OF FUN</p><h2 id="category-title" tabindex="-1">依玩法找遊戲<span class="heading-dot">.</span></h2></div><span class="category-summary">390 款遊戲 · 24 個分類</span></div>
+        <div id="category-intro" class="category-intro"><div><p class="eyebrow">FIND YOUR KIND OF FUN</p><h2 id="category-title" tabindex="-1">依玩法找遊戲<span class="heading-dot">.</span></h2></div><span class="category-summary">392 款遊戲 · 25 個分類</span></div>
         <div id="category-overview" class="category-overview" role="group" aria-label="選擇遊戲分類">
           <button class="category-tile" type="button" data-filter="tabletop" aria-pressed="false" aria-controls="game-grid" style="--category-color:#edc47e">
             <span class="category-tile-top"><span class="category-icon" aria-hidden="true">♟</span><span class="category-size"><span data-category-count>22</span> 款 <span aria-hidden="true">↗</span></span></span>
@@ -128,11 +128,15 @@
             <span class="category-tile-top"><span class="category-icon" aria-hidden="true">⚑</span><span class="category-size"><span data-category-count>15</span> 款 <span aria-hidden="true">↗</span></span></span>
             <span class="category-title">領土戰爭</span><span class="category-examples">浮島・鐵路・繼承者</span>
           </button>
+          <button class="category-tile" type="button" data-filter="classic30" aria-pressed="false" aria-controls="game-grid" style="--category-color:#a8bd7a">
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">✧</span><span class="category-size"><span data-category-count>2</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">經典</span><span class="category-examples">苔精大遷徙・星環彩珠</span>
+          </button>
         </div>
         <div id="browse-results" class="browse-results">
           <div class="browse-toolbar">
             <button id="back-to-categories" class="back-to-categories" type="button" hidden>← 返回分類</button>
-            <label class="category-switch" for="category-select"><span>瀏覽分類</span><select id="category-select" aria-label="瀏覽分類" aria-controls="game-grid"><option value="all">全部遊戲（390）</option></select></label>
+            <label class="category-switch" for="category-select"><span>瀏覽分類</span><select id="category-select" aria-label="瀏覽分類" aria-controls="game-grid"><option value="all">全部遊戲（392）</option></select></label>
             <p id="results" class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
           </div>
           <div class="browse-heading"><div><h2 id="browse-title" tabindex="-1">全部遊戲</h2><p id="browse-description">依玩法分組，找到喜歡的就開始吧。</p></div><span class="browse-decoration" aria-hidden="true">↘</span></div>
