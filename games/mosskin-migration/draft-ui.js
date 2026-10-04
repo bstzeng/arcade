@@ -203,6 +203,7 @@
     listen($('file'), 'change', async () => { const file = $('file').files[0]; $('file').value = ''; if (!file) return; const ticket = ++fileReadTicket; if (file.size > C.LIMITS.json) { status('檔案超過 1 MB，原草圖未被更改。', true); return; } try { const text = await file.text(); if (!closed && ticket === fileReadTicket) importText(text); } catch (_) { if (!closed && ticket === fileReadTicket) status('無法讀取檔案，請改貼上 JSON 文字。', true); } });
     listen(dialog, 'cancel', event => { event.preventDefault(); if (confirmAction) dismissConfirm(); else close(); });
     listen(dialog, 'keydown', event => {
+      if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing || event.defaultPrevented) return;
       if (confirmAction && event.key === 'Tab') { const first = action('cancelconfirm'), last = action('confirm'); if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); } else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); } }
     });
     listen(canvas, 'keydown', event => {
