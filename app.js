@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261004-classic-duo-50';
+const GAME_BUILD = '20261004-classic-five-catalog';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -393,7 +393,10 @@ const games = [
   {"id":"war-after-conquest","title":"征服之後","category":"frontier120","description":"軍事占領之後選自治、駐軍和重建，讓地方真正加入國家。","note":"自治／駐軍","art":"frontier120-war-after-conquest","color":"#b3cdaf","background":"#203544","word":"WAR AFTER CONQUEST","status":"ready","url":"./games/war-after-conquest.html","badge":"100 戰役 · AI／熱座"},
   {"id":"war-retreating-empire","title":"撤退的帝國","category":"frontier120","description":"在逐輪淪陷前把居民和軍團沿撤退走廊送到安全港，保存重建火種。","note":"疏散／後衛","art":"frontier120-war-retreating-empire","color":"#d9c09e","background":"#203544","word":"WAR RETREATING EMPIRE","status":"ready","url":"./games/war-retreating-empire.html","badge":"100 戰役 · AI／熱座"},
   {"id":"mosskin-migration","title":"苔精大遷徙","category":"classic30","description":"分派葉橋、鑿路與守望工具，帶原創苔精小隊穿越森林地形。","note":"群體救援・地形工程・50 關","art":"classic30-mosskin-migration","color":"#a8bd7a","background":"#173e33","word":"苔","status":"ready","url":"./games/mosskin-migration.html","badge":"50 關 · 原創"},
-  {"id":"orbit-marble-chain","title":"星環彩珠","category":"classic30","description":"旋轉天文星盤，瞄準移動彩珠，穿過隧道與雙軌缺口，讓三連消除接成回拉連鎖。","note":"五章五十座原創星環，有限道具、自由選關與同機雙人競分。","art":"classic30-orbit-marble-chain","color":"#a6e3d1","background":"#102f39","word":"環","status":"ready","url":"./games/orbit-marble-chain.html","badge":"50 關 · 原創"}
+  {"id":"orbit-marble-chain","title":"星環彩珠","category":"classic30","description":"旋轉天文星盤，瞄準移動彩珠，穿過隧道與雙軌缺口，讓三連消除接成回拉連鎖。","note":"五章五十座原創星環，有限道具、自由選關與同機雙人競分。","art":"classic30-orbit-marble-chain","color":"#a6e3d1","background":"#102f39","word":"環","status":"ready","url":"./games/orbit-marble-chain.html","badge":"50 關 · 原創"},
+  {"id":"starport-pinball","title":"星港發射台","category":"classic30","description":"蓄力發射彈珠、操控雙拍與側推，挑戰航標、斜坡與雙球任務。","note":"原創彈珠台・雙桌 20 關開發測試版","art":"classic30-starport-pinball","color":"#7cd8dc","background":"#102b39","word":"彈珠","status":"ready","url":"./games/starport-pinball.html","badge":"20 關 · 測試版"},
+  {"id":"puffball-shift","title":"毛球滑滑樂","category":"classic30","description":"滑動整行，解開毛線結，讓同色毛球伙伴相聚。新版測試版沿用獨立試玩存檔。","note":"50 關・整行滑動・新版測試版","art":"classic30-puffball-shift","color":"#eab783","background":"#4e3c32","word":"毛球","status":"ready","url":"./previews/puzzle-premium-v1/games/puffball-shift.html","badge":"新版 · 測試版"},
+  {"id":"prismatic-cascade","title":"晶彩連鎖","category":"classic30","description":"交換晶石、連成特殊光芒，破解五章礦晶謎題。新版測試版沿用獨立試玩存檔。","note":"50 關・晶石交換・新版測試版","art":"classic30-prismatic-cascade","color":"#c9b4ef","background":"#25243f","word":"晶彩","status":"ready","url":"./previews/puzzle-premium-v1/games/prismatic-cascade.html","badge":"新版 · 測試版"}
 ];
 const categoryNames = { frontier120: '世界與實驗', expansion120: '新玩法探索', expansion: '百關新挑戰', puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤', logic: '邏輯推理', classic: '經典益智', collection: '經典新挑戰', tabletop: '多人棋桌', classic30: '經典' };
 const artMarkup = {
@@ -794,6 +797,7 @@ Object.assign(artMarkup, {
 Object.assign(artMarkup, {"classic30-mosskin-migration":"<img class=\"classic30-art\" src=\"./games/mosskin-migration/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">","classic30-orbit-marble-chain":"<img class=\"classic30-art\" src=\"./games/orbit-marble-chain/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">"});
 // Browse by how a game plays, independently of the historical release collection.
 // Every game has exactly one primary category; retain its original registry metadata.
+Object.assign(artMarkup, {"classic30-starport-pinball":"<img class=\"classic30-art\" src=\"./games/starport-pinball/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">","classic30-puffball-shift":"<img class=\"classic30-art\" src=\"./previews/puzzle-premium-v1/games/puffball-shift/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">","classic30-prismatic-cascade":"<img class=\"classic30-art\" src=\"./previews/puzzle-premium-v1/games/prismatic-cascade/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">"});
 const categories = [
   { id: 'tabletop', title: '棋類對戰', description: '找個朋友，或挑戰三種難度的 AI。', examples: '象棋・五子棋・黑白棋', icon: '♟', color: '#edc47e', gameIds: ['reversi', 'gomoku', 'connect-four', 'checkers', 'chinese-checkers', 'aeroplane-chess', 'kalah', 'nine-mens-morris', 'quoridor', 'quarto', 'xiangqi', 'banqi', 'chess', 'go9', 'shogi', 'dou-shou-qi', 'backgammon', 'hex', 'dots-and-boxes', 'ataxx', 'amazons', 'hnefatafl'] },
   { id: 'cards', title: '牌桌接龍', description: '接龍、組牌、叫牌與出牌，找到適合你的牌桌。', examples: '經典接龍・蜘蛛・麻將', icon: '♠', color: '#95d7ba', gameIds: ['klondike', 'freecell', 'spider', 'pyramid', 'tripeaks', 'mahjong-solitaire', 'big-two', 'dou-dizhu', 'sevens', 'chinese-poker', 'hearts', 'crazy-eights', 'gin-rummy', 'spades', 'contract-bridge', 'texas-holdem'] },
@@ -819,7 +823,7 @@ const categories = [
   {"id":"horror","title":"異常觀察","description":"交叉核對線索，辨認異常並尋找安全路線。","examples":"走廊・監視器・假警報","icon":"◐","color":"#bfb8dc","gameIds":["endless-corridor","night-shift","last-lamp","extra-window","broken-weather","forbidden-replay","three-am-elevator","breathing-room","empty-photo","spare-key","tomorrow-lost-property","ninth-passenger","dream-senses","shadow-feeding","mimic-alarm"]},
   {"id":"narrative","title":"分歧敘事","description":"選擇、承諾與關係，讓前因成為下一幕的後果。","examples":"電台・信件・記憶典當","icon":"✎","color":"#e8c68f","gameIds":["apocalypse-radio","seven-letters","last-council","memory-pawn","enemy-heir","last-boat-ticket","yesterday-witness","false-king","three-names","future-defense","villain-turn","unspoken-promise","hero-retirement","borrowed-day","final-wishes"]},
   {"id":"war","title":"領土戰爭","description":"管理領地、軍團與補給，協調多條戰線。","examples":"浮島・鐵路・繼承者","icon":"⚑","color":"#96d6cf","gameIds":["war-sky-islands","war-robot-front","war-four-seasons","war-capitalless","war-last-city","war-neutral-balance","war-tidal-continent","war-hundred-flags","war-rail-crown","war-memory-front","war-simultaneous-orders","war-three-fronts","war-succession","war-after-conquest","war-retreating-empire"]},
-  {"id":"classic30","title":"經典","description":"原創重現群體救援與彩珠連鎖的玩法樂趣。","examples":"苔精大遷徙・星環彩珠","icon":"✧","color":"#a8bd7a","gameIds":["mosskin-migration","orbit-marble-chain"]}
+  {"id":"classic30","title":"經典","description":"彈珠、群體救援與消除益智；新版測試版保留獨立試玩存檔。","examples":"星港彈珠・苔精・星環・毛球・晶彩","icon":"✧","color":"#a8bd7a","gameIds":["mosskin-migration","orbit-marble-chain","starport-pinball","puffball-shift","prismatic-cascade"]}
 ];
 const categoryByGameId = Object.fromEntries(categories.flatMap(category => category.gameIds.map(id => [id, category])));
 const categoryCounts = Object.fromEntries(categories.map(category => [category.id, games.filter(game => categoryByGameId[game.id] === category).length]));
@@ -850,7 +854,7 @@ function gameCard(game, index) {
   const art = element('div', 'card-art');
   art.setAttribute('aria-hidden', 'true');
   art.append(element('div', 'art-pattern'), element('span', 'card-number', `GAME / ${String(index + 1).padStart(2, '0')}`));
-  const isReady = game.status === 'ready' && typeof game.url === 'string' && /^\.\/games\/[\w\-/]+(?:\.html)?$/.test(game.url);
+  const isReady = game.status === 'ready' && typeof game.url === 'string' && (/^\.\/games\/[\w\-/]+(?:\.html)?$/.test(game.url) || ((game.id === 'puffball-shift' || game.id === 'prismatic-cascade') && game.url === `./previews/puzzle-premium-v1/games/${game.id}.html`));
   art.append(element('span', 'coming-badge', isReady ? (game.badge || (game.category === 'logic' ? '50 關 · 唯一解' : game.category === 'board' ? '50 關 · 驗證可解' : '可以開玩')) : 'COMING SOON'));
   const visual = element('div', 'game-art');
   // Only static, developer-controlled artwork templates are inserted as HTML.

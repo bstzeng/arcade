@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#12141b">
-  <meta name="description" content="Arcade 遊戲小宇宙。392 款遊戲、二十五個分類。新增苔精大遷徙與星環彩珠，兩款原創遊戲各有 50 關。">
+  <meta name="description" content="Arcade 遊戲小宇宙。395 款遊戲、二十五個分類。經典區收錄星港彈珠、苔精、星環、毛球與晶彩五款遊戲，測試版本另有標示。">
   <title>Arcade — 遊戲小宇宙</title>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20261004-classic-duo-50">
-  <script src="./app.js?v=20261004-classic-duo-50" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=20261004-classic-five-catalog">
+  <script src="./app.js?v=20261004-classic-five-catalog" defer></script>
 </head>
 <body>
   <a class="skip" href="#games">跳到遊戲列表</a>
@@ -21,16 +21,16 @@
     <main>
       <section class="library-hero" aria-labelledby="hero-title">
         <div><p class="eyebrow"><span></span> A LITTLE TIME. A LOT TO PLAY.</p><h1 id="hero-title">今天，想玩哪一種<span>？</span></h1><p class="library-description">找個對手、動動腦，或只是放鬆一下。<br class="mobile-break">先選分類，再挑你的下一局。</p></div>
-        <div class="library-stamp" aria-hidden="true"><span>392<span>✳</span></span><small>小小入口，大大世界</small></div>
+        <div class="library-stamp" aria-hidden="true"><span>395<span>✳</span></span><small>小小入口，大大世界</small></div>
       </section>
       <section id="games" class="catalog library-catalog" aria-labelledby="catalog-title">
         <h2 id="catalog-title" class="visually-hidden">探索遊戲</h2>
         <div class="catalog-search">
           <label for="search" class="search-label">有想玩的了？<span>中英文名稱、玩法都能找</span></label>
-          <div class="search search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋全部 392 款遊戲…" aria-label="搜尋全部遊戲" aria-describedby="search-help" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></div>
+          <div class="search search-field"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜尋全部 395 款遊戲…" aria-label="搜尋全部遊戲" aria-describedby="search-help" autocomplete="off"><button id="clear-search" class="clear-search" type="button" aria-label="清除搜尋" hidden>×</button></div>
           <span id="search-help" class="visually-hidden">搜尋涵蓋所有分類。按 Enter 跳到結果，按 Escape 清除搜尋。</span>
         </div>
-        <div id="category-intro" class="category-intro"><div><p class="eyebrow">FIND YOUR KIND OF FUN</p><h2 id="category-title" tabindex="-1">依玩法找遊戲<span class="heading-dot">.</span></h2></div><span class="category-summary">392 款遊戲 · 25 個分類</span></div>
+        <div id="category-intro" class="category-intro"><div><p class="eyebrow">FIND YOUR KIND OF FUN</p><h2 id="category-title" tabindex="-1">依玩法找遊戲<span class="heading-dot">.</span></h2></div><span class="category-summary">395 款遊戲 · 25 個分類</span></div>
         <div id="category-overview" class="category-overview" role="group" aria-label="選擇遊戲分類">
           <button class="category-tile" type="button" data-filter="tabletop" aria-pressed="false" aria-controls="game-grid" style="--category-color:#edc47e">
             <span class="category-tile-top"><span class="category-icon" aria-hidden="true">♟</span><span class="category-size"><span data-category-count>22</span> 款 <span aria-hidden="true">↗</span></span></span>
@@ -129,23 +129,23 @@
             <span class="category-title">領土戰爭</span><span class="category-examples">浮島・鐵路・繼承者</span>
           </button>
           <button class="category-tile" type="button" data-filter="classic30" aria-pressed="false" aria-controls="game-grid" style="--category-color:#a8bd7a">
-            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">✧</span><span class="category-size"><span data-category-count>2</span> 款 <span aria-hidden="true">↗</span></span></span>
-            <span class="category-title">經典</span><span class="category-examples">苔精大遷徙・星環彩珠</span>
+            <span class="category-tile-top"><span class="category-icon" aria-hidden="true">✧</span><span class="category-size"><span data-category-count>5</span> 款 <span aria-hidden="true">↗</span></span></span>
+            <span class="category-title">經典</span><span class="category-examples">星港彈珠・苔精・星環・毛球・晶彩</span>
           </button>
         </div>
         <div id="browse-results" class="browse-results">
           <div class="browse-toolbar">
             <button id="back-to-categories" class="back-to-categories" type="button" hidden>← 返回分類</button>
-            <label class="category-switch" for="category-select"><span>瀏覽分類</span><select id="category-select" aria-label="瀏覽分類" aria-controls="game-grid"><option value="all">全部遊戲（392）</option></select></label>
+            <label class="category-switch" for="category-select"><span>瀏覽分類</span><select id="category-select" aria-label="瀏覽分類" aria-controls="game-grid"><option value="all">全部遊戲（395）</option></select></label>
             <p id="results" class="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
           </div>
           <div class="browse-heading"><div><h2 id="browse-title" tabindex="-1">全部遊戲</h2><p id="browse-description">依玩法分組，找到喜歡的就開始吧。</p></div><span class="browse-decoration" aria-hidden="true">↘</span></div>
           <div id="game-grid" class="catalog-groups"></div>
           <div id="empty" class="empty" hidden><span aria-hidden="true">⌕</span><h3>沒有找到符合的遊戲</h3><p>試試短一點的名稱、玩法，或回分類慢慢逛。</p><button id="reset" type="button">清除搜尋，返回全部分類</button></div>
         </div>
-        <noscript><p class="no-script">開啟 JavaScript 即可瀏覽遊戲卡片、搜尋分類並遊玩三百九十二款遊戲。</p></noscript>
+        <noscript><p class="no-script">開啟 JavaScript 即可瀏覽遊戲卡片、搜尋分類並遊玩三百九十五款遊戲。</p></noscript>
       </section>
-      <section class="about" id="about" aria-labelledby="about-title"><div class="about-icon" aria-hidden="true">✳</div><div><p class="eyebrow">A SMALL START. MORE TO COME.</p><h2 id="about-title">好玩的事，還在後頭。</h2><p>三百九十二個小世界，二十五種探索方向。最新加入苔精大遷徙與星環彩珠，兩款原創遊戲各有 50 關。先前加入的 120 款生存、地城、格鬥、物理、生態、異常觀察、敘事與戰爭遊戲各有 100 個任務，共 12,000 個挑戰。更早的 270 款亦完整保留，包括上一批 10,700 關、13 款自由創作、原有 8,000 關挑戰、250 副接龍牌局與 2,000 關益智。任務解答依各遊戲公開模型與指定政策驗證，不代表唯一解或對任意對手必勝。有 AI 的模式提供本機難易度；部分認證任務固定政策，自由模式才可調整。簡化物理與生態模型不作科學預測。實際玩法與限制以各遊戲說明為準。</p></div><span class="about-tag">持續擴充中 <span aria-hidden="true">↗</span></span></section>
+      <section class="about" id="about" aria-labelledby="about-title"><div class="about-icon" aria-hidden="true">✳</div><div><p class="eyebrow">A SMALL START. MORE TO COME.</p><h2 id="about-title">好玩的事，還在後頭。</h2><p>三百九十五個小世界，二十五種探索方向。經典區收錄星港發射台、苔精大遷徙、星環彩珠、毛球滑滑樂與晶彩連鎖。毛球與晶彩使用保留獨立試玩存檔的新版測試版；各作內容與測試狀態以卡片標示為準。先前加入的 120 款生存、地城、格鬥、物理、生態、異常觀察、敘事與戰爭遊戲各有 100 個任務，共 12,000 個挑戰。更早的 270 款亦完整保留，包括上一批 10,700 關、13 款自由創作、原有 8,000 關挑戰、250 副接龍牌局與 2,000 關益智。任務解答依各遊戲公開模型與指定政策驗證，不代表唯一解或對任意對手必勝。有 AI 的模式提供本機難易度；部分認證任務固定政策，自由模式才可調整。簡化物理與生態模型不作科學預測。實際玩法與限制以各遊戲說明為準。</p></div><span class="about-tag">持續擴充中 <span aria-hidden="true">↗</span></span></section>
     </main>
     <footer><a class="footer-brand" href="./">arcade.</a><p>給生活一點遊戲時間。</p><a href="#hero-title">回到頂端 ↑</a></footer>
   </div>
