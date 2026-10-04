@@ -1,0 +1,117 @@
+{
+  "id": "stormfront-command",
+  "title": "磁暴前線",
+  "phase": "ten_mission_source_candidate",
+  "releaseReady": false,
+  "entry": "games/stormfront-command.html",
+  "runtimeFiles": [
+    "games/stormfront-command.html",
+    "games/stormfront-command/engine.js",
+    "games/stormfront-command/levels.js",
+    "games/stormfront-command/render.js",
+    "games/stormfront-command/ui.js",
+    "games/stormfront-command/storage.js",
+    "games/stormfront-command/audio.js",
+    "games/stormfront-command/style.css",
+    "games/stormfront-command/art.svg",
+    "games/stormfront-command/levels.json"
+  ],
+  "engineAPI": {
+    "create": "createScenario",
+    "action": "applyAction",
+    "step": "step",
+    "observe": "observe",
+    "outcome": "checkOutcome",
+    "serialize": "serialize",
+    "deserialize": "deserialize",
+    "diagnostics": "diagnostics",
+    "ruleBypassAvailable": false
+  },
+  "campaign": {
+    "requestedLevels": 10,
+    "authoredLevels": 10,
+    "releasedLevels": 0,
+    "factionMissionCounts": [
+      5,
+      5
+    ],
+    "legalStrategyTraces": 14,
+    "data": "games/stormfront-command/levels.json",
+    "elapsedTimeVictoryGate": false,
+    "depositQuotaVictoryGate": false,
+    "simulatedProofIsHumanDuration": false,
+    "ordinaryFirstClearTargetMinutes": [
+      20,
+      35
+    ],
+    "ordinaryFirstClearTargetStatus": "unverified",
+    "finaleExpertSimulatedMinutes": [
+      19.578333333333333,
+      18.995
+    ]
+  },
+  "saves": {
+    "schema": 2,
+    "prefix": "arcade.classic30.stormfront-command.campaign10.v2",
+    "manualSlots": 3,
+    "separateAutosave": true,
+    "historicalKeysTouched": false,
+    "importedProgressCertified": false,
+    "serializeMutatesState": false,
+    "pathCacheWarmthAffectsTiming": false
+  },
+  "performance": {
+    "fixedStepSeconds": 0.1,
+    "unitLimitPerFaction": 110,
+    "binaryHeapPaths": true,
+    "staticAndPathCache": true,
+    "spatialTargeting": true,
+    "reservedMovementEdges": true,
+    "rendererInterpolation": true,
+    "terrainCache": true,
+    "particleCap": 64,
+    "projectileRenderCap": 180,
+    "browserFPSMeasured": false,
+    "pathAdmissionBudgetPerTick": 24,
+    "visibleBuildingPowerCue": true
+  },
+  "evidence": {
+    "engineTests": "verification/stormfront-command/tests-report.json",
+    "movementTests": "verification/stormfront-command/movement-report.json",
+    "cacheResumeRegression": "verification/stormfront-command/cache-resume-report.json",
+    "campaignReplay": "verification/stormfront-command/campaign-replay-report.json",
+    "proofIndex": "verification/stormfront-command/proof-index.json",
+    "normalSpeedFinalEngine": "verification/stormfront-command/normal-speed-release/",
+    "normalSpeedFinalEngineStatus": "running",
+    "actualDesktopMobileBrowserTrials": "pending",
+    "ordinaryHumanFirstClearDuration": "unmeasured",
+    "sourceCoverage": "ten_authored_fourteen_legal_strategies",
+    "controllerSourceAudit": "verification/renderer-independent/",
+    "sourcePerformance": "verification/stormfront-command/performance-final-report.json",
+    "creditRoundingRegression": "verification/stormfront-command/roundoff-report.json",
+    "finalPresentationAudit": "verification/renderer-independent/revision7-review/ENGINE-BINDING-ADDENDUM.md"
+  },
+  "assetProvenance": "games/stormfront-command/asset-provenance.json",
+  "blockers": [
+    "Final-engine691 real-time endurance runs active; standalone same-source receipts will follow",
+    "Actual desktop and touch browser play, fluidity and layout pending",
+    "Ordinary twenty-minute first-clear duration remains unverified, especially the finale",
+    "Upload and merge handled by parent after source handoff"
+  ],
+  "publicationFiles": [
+    "games/stormfront-command.html",
+    "games/stormfront-command/engine.js",
+    "games/stormfront-command/levels.js",
+    "games/stormfront-command/render.js",
+    "games/stormfront-command/ui.js",
+    "games/stormfront-command/storage.js",
+    "games/stormfront-command/audio.js",
+    "games/stormfront-command/style.css",
+    "games/stormfront-command/art.svg",
+    "games/stormfront-command/levels.json",
+    "games/stormfront-command/README.md",
+    "games/stormfront-command/release-manifest.json",
+    "games/stormfront-command/catalog.json",
+    "games/stormfront-command/asset-provenance.json"
+  ]
+}

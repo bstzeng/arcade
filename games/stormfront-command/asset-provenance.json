@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "commercialAssetsUsed": false,
+  "assets": [
+    {
+      "path": "art.svg",
+      "kind": "original vector cover",
+      "source": "Authored for this project; no external images or copied map layouts"
+    },
+    {
+      "path": "render.js",
+      "kind": "original procedural Canvas isometric sprites and terrain",
+      "source": "Original programmatic geometric construction, including magnetic and mechanical-forest architecture, armor, terrain biomes and obstruction sprites; no external dependencies."
+    },
+    {
+      "path": "audio.js",
+      "kind": "original procedural WebAudio effects",
+      "source": "Oscillator synthesis authored for this project; no samples or recordings"
+    }
+  ],
+  "fonts": "system fonts only",
+  "networkRequests": "none after local relative asset load"
+}
