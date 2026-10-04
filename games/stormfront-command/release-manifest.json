@@ -1,7 +1,7 @@
 {
   "id": "stormfront-command",
   "title": "磁暴前線",
-  "phase": "ten_mission_source_candidate",
+  "phase": "ten_mission_live_clarity_patch",
   "releaseReady": false,
   "entry": "games/stormfront-command.html",
   "runtimeFiles": [
@@ -14,7 +14,8 @@
     "games/stormfront-command/audio.js",
     "games/stormfront-command/style.css",
     "games/stormfront-command/art.svg",
-    "games/stormfront-command/levels.json"
+    "games/stormfront-command/levels.json",
+    "games/stormfront-command/guidance.js"
   ],
   "engineAPI": {
     "create": "createScenario",
@@ -81,22 +82,26 @@
     "cacheResumeRegression": "verification/stormfront-command/cache-resume-report.json",
     "campaignReplay": "verification/stormfront-command/campaign-replay-report.json",
     "proofIndex": "verification/stormfront-command/proof-index.json",
-    "normalSpeedFinalEngine": "verification/stormfront-command/normal-speed-release/",
-    "normalSpeedFinalEngineStatus": "running",
+    "normalSpeedFinalEngine": {
+      "receiptSHA256": "8a152097458e294bb7e83f979789b6f10f7369ff7f858bde6b36a83c041e2a1e",
+      "engineSHA256": "691103e9550b1a3f33205202f8a4df179999e916cfd1057264197c0e38a39f51",
+      "scope": "Previously completed1x engine-only runs; engine bytes unchanged by this UI patch."
+    },
+    "normalSpeedFinalEngineStatus": "passed_on_unchanged_691_engine",
     "actualDesktopMobileBrowserTrials": "pending",
     "ordinaryHumanFirstClearDuration": "unmeasured",
     "sourceCoverage": "ten_authored_fourteen_legal_strategies",
     "controllerSourceAudit": "verification/renderer-independent/",
     "sourcePerformance": "verification/stormfront-command/performance-final-report.json",
     "creditRoundingRegression": "verification/stormfront-command/roundoff-report.json",
-    "finalPresentationAudit": "verification/renderer-independent/revision7-review/ENGINE-BINDING-ADDENDUM.md"
+    "finalPresentationAudit": "verification/renderer-independent/revision7-review/ENGINE-BINDING-ADDENDUM.md",
+    "presentationPatchTests": "verification/stormfront-command/polish-report.json"
   },
   "assetProvenance": "games/stormfront-command/asset-provenance.json",
   "blockers": [
-    "Final-engine691 real-time endurance runs active; standalone same-source receipts will follow",
-    "Actual desktop and touch browser play, fluidity and layout pending",
-    "Ordinary twenty-minute first-clear duration remains unverified, especially the finale",
-    "Upload and merge handled by parent after source handoff"
+    "New presentation patch needs actual desktop/portrait/landscape browser checks",
+    "Ordinary twenty-minute first-clear duration remains unverified, especially finale",
+    "Hosted patch publication/merge tracked separately"
   ],
   "publicationFiles": [
     "games/stormfront-command.html",
@@ -112,6 +117,19 @@
     "games/stormfront-command/README.md",
     "games/stormfront-command/release-manifest.json",
     "games/stormfront-command/catalog.json",
-    "games/stormfront-command/asset-provenance.json"
-  ]
+    "games/stormfront-command/asset-provenance.json",
+    "games/stormfront-command/guidance.js"
+  ],
+  "presentationPatch": {
+    "baseRuntimeDigest": "183a7c8b424613f4592b5985e3f757eb29c3190e0f7ab9d44dce37e56e735cef",
+    "engineCampaignStorageUnchanged": true,
+    "features": [
+      "near-canvas production and engineer controls",
+      "persistent named repair/queue status",
+      "observation-only first-mission guidance",
+      "explicit battlefield return and preventScroll focus",
+      "compact portrait command disclosures"
+    ],
+    "actualBrowserGeometryRetest": "pending"
+  }
 }
