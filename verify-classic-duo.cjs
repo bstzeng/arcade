@@ -20,6 +20,15 @@ const reg=registry(source);registryGate(reg);
 assert.equal(reg.GAME_BUILD,release.build);
 for(const a of ['app.js','styles.css'])assert(index.includes(a+'?v='+release.build));
 assert(index.includes('392 款遊戲 · 25 個分類'));assert(index.includes('搜尋全部 392 款遊戲'));assert(!index.includes('390 款')&&!index.includes('420 款'));
+function writtenCountGate(html){
+ const about=html.match(/<section\b[^>]*\bid="about"[^>]*>([\s\S]*?)<\/section>/)?.[1]||'';
+ const noScript=html.match(/<noscript>([\s\S]*?)<\/noscript>/)?.[1]||'';
+ assert(about.includes('三百九十二個小世界，二十五種探索方向。'),'Stale written-out About counts');
+ assert(about.includes('最新加入苔精大遷徙與星環彩珠，兩款原創遊戲各有 50 關。'),'About latest-release identity is stale');
+ assert(about.includes('先前加入的 120 款')&&about.includes('更早的 270 款亦完整保留'),'Historical batch totals must remain historical');
+ assert(noScript.includes('遊玩三百九十二款遊戲。'),'Stale noscript total');
+}
+writtenCountGate(index);
 assert.equal((index.match(/data-filter="classic30"/g)||[]).length,1);assert.equal((index.match(/class="category-tile"/g)||[]).length,25);
 assert(css.startsWith(release.originalStylesText),'Existing CSS bytes changed');assert.equal(css.slice(release.originalStylesText.length),release.appendedStylesText);
 assert(read('README.md').includes('392 款、25 類'));assert(!read('README.md').includes('420 款'));
@@ -83,5 +92,7 @@ for(const card of app.cards()){const g=reg.games.find(x=>x.id===card.dataset.gam
 const linked=boot('https://example.test/arcade/?category=classic30');assert.deepEqual(linked.cards().map(c=>c.dataset.gameId),['mosskin-migration','orbit-marble-chain']);linked.pop('https://example.test/arcade/?category=cards');assert.equal(linked.cards().length,16);linked.pop('https://example.test/arcade/?q=%E6%98%9F%E7%92%B0%E5%BD%A9%E7%8F%A0');assert.deepEqual(linked.cards().map(c=>c.dataset.gameId),['orbit-marble-chain']);linked.pop('https://example.test/arcade/');assert.equal(linked.cards().length,392);
 assert.equal(boot('https://example.test/arcade/?category=invalid').cards().length,392);assert.equal(node('#category-select').getAttribute('aria-label'),'瀏覽分類');assert.equal(node('#results').getAttribute('aria-live'),'polite');
 const negative=[];
+assert.throws(()=>writtenCountGate(index.replace('三百九十二個小世界，二十五種探索方向。','三百九十個小世界，二十四種探索方向。')),'Old About wording must fail');negative.push('stale written-out About counts');
+assert.throws(()=>writtenCountGate(index.replace('遊玩三百九十二款遊戲。','遊玩三百九十款遊戲。')),'Old noscript count must fail');negative.push('stale noscript count');
 for(const[name,mutate]of [['legacy metadata',x=>{x.games[0].title+='!';}],['unfinished third title',x=>{x.games.push({...x.games[390],id:'other-unfinished'});}],['old category membership',x=>{x.categories[0].gameIds.pop();}],['old artwork',x=>{x.artMarkup[Object.keys(baseline.artHashes)[0]]+=' ';}],['duplicate new identity',x=>{x.games[391].id=x.games[390].id;}]]){const copy=norm(reg);mutate(copy);assert.throws(()=>registryGate(copy),name);negative.push(name);}
 console.log(JSON.stringify({passed:true,scope:onlyCatalog?'392/25 catalog, full legacy-byte preservation and actual lobby VM; game runtime gate skipped by explicit option':'392/25 catalog, legacy-byte preservation, declared runtime hashes, static entry/CSS/CommonJS dependencies, exact file allowlist,50-stage data and actual lobby VM',games:392,categories:25,existingFilesChecked:preserved,modifiedExistingRoots:baseline.allowedRootChanges,searchCases:searches,negativeControls:negative,newRuntimeFilesChecked:runtimeFiles,localDependencyReferences:dependencyReferences,claims:{realBrowser:false,allLegacyEnginesRerun:false,commercialQualityCertified:false}},null,2));
