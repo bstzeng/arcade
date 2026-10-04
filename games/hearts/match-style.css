@@ -6,3 +6,6 @@
 @media(max-width:350px){.page-shell{padding:0 9px}.toolbar-actions button{padding:5px}.heading h1{font-size:24px}.heading h1 span{font-size:7px}.hand{gap:6px 3px}.hand .card{height:64px}.hand .card .card-top{left:3px;font-size:14px}.table-stage{height:351px}.seat.west{left:4px}.seat.east{right:4px}.trick{scale:.78}.hand-panel{min-height:264px}}
 @media(prefers-reduced-motion:reduce){*:not(.motion-enabled),*:before,*:after{animation-duration:.001ms!important;transition-duration:.001ms!important}}
 @media(min-width:561px) and (max-width:680px){.hand .card{flex-basis:59px;margin-left:-27px;height:93px}.hand .card:first-child{margin-left:0}.hand .card .card-top{font-size:18px}.hand .card .card-center{font-size:28px}}
+/* Narrow-phone hand targets: keep each card comfortably above 44 CSS px wide. */
+@media(max-width:400px){.hand{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media(max-width:360px){.hand{grid-template-columns:repeat(5,minmax(0,1fr))}}
