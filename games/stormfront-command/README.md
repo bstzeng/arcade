@@ -1,6 +1,6 @@
 # 磁暴前線 · 十關原創即時戰略
 
-Ten authored, mechanically distinct missions are implemented. This is the full campaign source candidate, awaiting final-source endurance and actual desktop/mobile browser acceptance. It is not a verified claim that every player or every mission takes at least twenty minutes.
+Ten authored, mechanically distinct missions are implemented. This is the full campaign source candidate, with final-engine endurance passed and a presentation-only first-use patch awaiting renewed desktop/mobile browser acceptance. It is not a verified claim that every player or every mission takes at least twenty minutes.
 
 ## Play and architecture
 
@@ -33,7 +33,7 @@ The simulation runs fixed0.1-second steps. Movement reserves a legal cell edge b
 
 Primary automated legal traces are approximately25.9,22.8,22.2,22.3,20.9,20.2,24.7,22.3,22.3 and19.6 simulated minutes. The finale's second strategy is19.0 minutes. Faster expert routes remain disclosed; no walking, health inflation or waiting gate was added solely to cross twenty minutes. Missions have no minimum elapsed-time victory locks or ore-deposit quotas.
 
-These traces establish feasibility and economic/tactical consequences. They run accelerated during source tests and are not human-duration or enjoyment evidence. Repeated commands are not counted as independent strategic decisions. Safe post-objective convoy transfers are separately reported. Each mission retains a20–35-minute ordinary first-clear design target, but actual ordinary-player duration, browser fluidity and mobile ergonomics remain unmeasured until the parent's browser acceptance. No universal minimum playtime is promised by the proofs.
+These traces establish feasibility and economic/tactical consequences. They run accelerated during source tests and are not human-duration or enjoyment evidence. Repeated commands are not counted as independent strategic decisions. Safe post-objective convoy transfers are separately reported. Each mission retains a20–35-minute ordinary first-clear design target, but actual ordinary-player duration, browser fluidity and mobile ergonomics remain unmeasured until actual browser acceptance. No universal minimum playtime is promised by the proofs.
 
 ## Verification
 
@@ -52,4 +52,10 @@ Independent reports and final source receipts accompany the handoff. Native Canv
 
 Only `arcade.classic30.stormfront-command.campaign10.v2.*` keys are used. The three manual slots are not overwritten by autosave. Historical v1 and other game keys are not read, migrated or removed. Imported runs are marked assisted and do not grant formal campaign wins. All ten maps are selectable for direct retries and review.
 
-The release manifest is an explicit static publication allowlist. Authoring tools, traces, tests and source-review reports are not runtime assets. Parent owns catalog integration, preservation of existing games/saves, upload/merge and final hosted browser acceptance.
+The release manifest is an explicit static publication allowlist. Authoring tools, traces, tests and source-review reports are not runtime assets. Catalog integration, preservation of existing games/saves, upload/merge and final hosted browser acceptance are tracked separately.
+
+## First-use clarity patch
+
+The presentation-only patch adds a near-battlefield production/engineer strip, persistent named repair state and paid-rate feedback, explicit idle-producer cues, and observation-only opening guidance. It does not issue orders, place buildings, queue units, grant resources or change mission rules. Repair already continues until its target is repaired; idle engineers already seek nearby damaged friendlies. The new labels explain that existing behavior rather than adding a repair mode.
+
+On portrait screens, common train/build/move/repair actions are near the battlefield; expanded commands and the detailed inspector remain available. The pause indicator is compact, and an explicit return-to-battlefield control replaces repeated scrolling for common loops. Native keyboard focus is retained, and pointer focus requests prevent page scrolling. Source/controller tests do not establish actual phone geometry; the same small portrait and short-landscape viewports must be rechecked in the browser.
