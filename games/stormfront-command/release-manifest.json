@@ -1,7 +1,7 @@
 {
   "id": "stormfront-command",
   "title": "磁暴前線",
-  "phase": "ten_mission_logistics_feedback_patch",
+  "phase": "ten_mission_paused_planning_patch",
   "releaseReady": false,
   "entry": "games/stormfront-command.html",
   "runtimeFiles": [
@@ -95,7 +95,7 @@
     "sourcePerformance": "verification/stormfront-command/performance-final-report.json",
     "creditRoundingRegression": "verification/stormfront-command/roundoff-report.json",
     "finalPresentationAudit": "verification/renderer-independent/revision7-review/ENGINE-BINDING-ADDENDUM.md",
-    "presentationPatchTests": "verification/stormfront-command/logistics-controller-report.json",
+    "presentationPatchTests": "verification/stormfront-command/paused-help-report.json",
     "logisticsGuidanceTests": "verification/stormfront-command/logistics-guidance-tests.cjs",
     "constructionOverlayTests": "verification/stormfront-command/logistics-render-report.json",
     "ordinaryInputRegression": "verification/stormfront-command/pointer-mode-after.json"
@@ -124,19 +124,17 @@
     "games/stormfront-command/guidance.js"
   ],
   "presentationPatch": {
-    "baseRuntimeDigest": "59e7b0971cd3964d058abc2566906b8bb82e0a1013b0ef5fd8724447b86bf820",
+    "baseRuntimeDigest": "44aaf039cbea780d52c130d365af018c55149643d6faf8804f26a4e21286acb0",
     "engineCampaignStorageUnchanged": true,
     "features": [
-      "known nearby ore with last-known confidence",
-      "observable miner/engineer damage and loss feedback",
-      "last-known ore camera locator without orders",
-      "actual construction radius and grid preview",
-      "pinned touch building confirmation across hovering input",
-      "live placement validity refresh after spending or vision changes"
+      "paused planning status in the existing mission-clock label slot",
+      "no paused-planning battlefield overlay",
+      "Help heading focus and top reset on each opening",
+      "focus restored to the exact Help opener on close",
+      "near-map Build disclosure also reveals its strip on desktop"
     ],
     "actualBrowserGeometryRetest": "pending",
     "balanceChange": false,
-    "autoOrders": false,
-    "forcedPause": false
+    "autoOrders": false
   }
 }
