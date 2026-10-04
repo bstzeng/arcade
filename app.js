@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261004-hearts-full-match-v3';
+const GAME_BUILD = '20261004-park-rides15-hearts-touch-v2';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -398,7 +398,7 @@ const games = [
   {"id":"puffball-shift","title":"毛球滑滑樂","category":"classic30","description":"滑動整行，解開毛線結，讓同色毛球伙伴相聚。新版測試版沿用獨立試玩存檔。","note":"50 關・整行滑動・新版測試版","art":"classic30-puffball-shift","color":"#eab783","background":"#4e3c32","word":"毛球","status":"ready","url":"./previews/puzzle-premium-v1/games/puffball-shift.html","badge":"新版 · 測試版"},
   {"id":"prismatic-cascade","title":"晶彩連鎖","category":"classic30","description":"交換晶石、連成特殊光芒，破解五章礦晶謎題。新版測試版沿用獨立試玩存檔。","note":"50 關・晶石交換・新版測試版","art":"classic30-prismatic-cascade","color":"#c9b4ef","background":"#25243f","word":"晶彩","status":"ready","url":"./previews/puzzle-premium-v1/games/prismatic-cascade.html","badge":"新版 · 測試版"},
   {"id":"stormfront-command","title":"磁暴前線","category":"classic30","description":"等角即時戰略：採礦建設、電力管理、混編裝甲與工程接管。","note":"10 關・採礦建設與部隊指揮・開發版","art":"classic30-stormfront-command","color":"#88d1b4","background":"#152c34","word":"礦","status":"ready","url":"./games/stormfront-command.html","badge":"10 關 · 開發版"},
-  {"id":"skyrail-park","title":"雲霄歡樂園","category":"classic30","description":"鋪設步道與排隊區，照顧遊客、員工及現金流，逐段設計並試跑自己的雲霄飛車。十座原創樂園有不同的地形與營運課題。","note":"10 關・樂園建造與經營・開發版","art":"classic30-skyrail-park","color":"#557c65","background":"#eff3e7","word":"園","status":"ready","url":"./games/skyrail-park.html","badge":"10 關 · 開發版"}
+  {"id":"skyrail-park","title":"雲霄歡樂園","category":"classic30","description":"十五款遊具與逐段自建雲霄飛車：鋪步道、排隊區與補給，照顧遊客、員工及現金流，經營十座原創樂園。","note":"10 關・15 款遊具・開發版","art":"classic30-skyrail-park","color":"#557c65","background":"#eff3e7","word":"園","status":"ready","url":"./games/skyrail-park.html","badge":"10 關 · 開發版"}
 ];
 const categoryNames = { frontier120: '世界與實驗', expansion120: '新玩法探索', expansion: '百關新挑戰', puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤', logic: '邏輯推理', classic: '經典益智', collection: '經典新挑戰', tabletop: '多人棋桌', classic30: '經典' };
 const artMarkup = {
