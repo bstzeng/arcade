@@ -64,3 +64,6 @@
 
 /* Frontier120 covers are scoped; historical game styles stay untouched. */
 .frontier120-art{display:block;flex:none;width:156px;height:130px;overflow:hidden;transform:rotate(7deg);border-radius:9px;filter:drop-shadow(3px 5px 1px #0002)}
+
+/* Two new classic30 covers only; existing game and category rules are unchanged. */
+.classic30-art{display:block;flex:none;width:156px;height:130px;object-fit:contain;transform:rotate(7deg);border-radius:9px;filter:drop-shadow(3px 5px 1px #0002)}

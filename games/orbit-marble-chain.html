@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b242c"><meta name="description" content="在原創天文星盤中瞄準、消珠、回拉連鎖。五十座星環等待守護。">
+<title>星環彩珠 · ORBIT ATELIER</title><link rel="stylesheet" href="orbit-marble-chain/style.css">
+</head>
+<body>
+<main>
+<header class="masthead"><a class="back" href="../index.html?category=classic30" aria-label="返回經典遊戲">← 經典遊戲</a><div class="brand"><span class="brand-mark" aria-hidden="true">✧</span><div><p class="eyebrow">THE CELESTIAL COLLECTION · 011</p><h1>星環彩珠 <span>ORBIT ATELIER</span></h1></div></div><div class="edition"><span class="live-dot"></span> 原創星盤工坊</div></header>
+<div class="workspace">
+<section class="play" aria-label="遊戲區">
+<div class="hud"><div class="hud-mission"><span id="player">單人挑戰</span><span id="mission">第一章 · 星環入口</span></div><div class="hud-stats"><span><small>SCORE</small><b id="score">0</b></span><span><small>SHOTS</small><b id="shots">0</b></span><span><small>CHAIN</small><b id="combo">0</b></span></div></div>
+<div class="board"><canvas id="game" width="800" height="600" tabindex="0" aria-label="星環彩珠瞄準區：滑鼠點擊發射，觸控拖曳瞄準後按發射。方向鍵旋轉，Enter 發射，Space 換珠。"></canvas><div id="overlay" class="overlay"><div class="overlay-card"><span class="overlay-star" aria-hidden="true">✧</span><p id="state-kicker" class="eyebrow">OBSERVATORY READY</p><h2 id="state-title">準備出發</h2><p id="state-detail"></p><div class="overlay-actions"><button id="start" class="primary">開始守護 <span aria-hidden="true">↗</span></button><button id="next-stage" class="primary" hidden>下一座星環 →</button><button id="next-player" hidden>交給玩家二</button></div><p class="overlay-note" id="onboarding">同色三連會消除。點擊瞄準位置發射，按空白鍵換珠。</p></div></div><div class="board-corner" aria-hidden="true">CELESTIAL INSTRUMENT / 01</div></div>
+<div class="shot-tray"><div class="ammo"><span class="ammo-label">裝填</span><b id="current" aria-label="目前珠"></b><span class="ammo-arrow" aria-hidden="true">←</span><b id="next" aria-label="下一珠"></b><span class="ammo-label">下一珠</span></div><span id="special" class="gap-stat">穿隙 0</span><button id="swap" class="quiet">換珠 <kbd>Space</kbd></button><button id="pause" class="quiet">暫停</button></div>
+<div class="controls" aria-label="操作"><button id="left" aria-label="向左旋轉">↶</button><button id="fire" class="primary">發射彩珠 <span aria-hidden="true">↗</span></button><button id="right" aria-label="向右旋轉">↷</button></div>
+<p id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true">同色三連會消除；同色缺口會逐步回拉。</p>
+<div class="powers" aria-label="有限次數道具"><button id="slow"><span class="power-icon" aria-hidden="true">◷</span><span>緩時<small>慢行六秒</small></span><b>0</b></button><button id="reverse"><span class="power-icon" aria-hidden="true">↶</span><span>回溯<small>倒退兩秒半</small></span><b>0</b></button><button id="blast"><span class="power-icon" aria-hidden="true">✧</span><span>星爆<small>局部清除三珠</small></span><b>0</b></button></div>
+<p class="micro touch-help">滑鼠點擊發射 · 觸控拖曳瞄準，再按發射 · 每種顏色都有專屬符號</p>
+</section>
+<aside>
+<section class="mission-card"><p class="eyebrow">YOUR NEXT CONSTELLATION</p><h2 id="level-title"></h2><p id="objective"></p><p id="best" class="best-record"></p><div id="threats" class="threats"></div><p id="queue" class="queue"></p><div class="tactic"><span aria-hidden="true">✦</span><p id="decision"></p></div><div id="competition" class="competition" hidden></div></section>
+<section class="navigation-card"><div class="section-heading"><h2>星圖航程</h2><span id="progress">0 / 50</span></div><p id="chapter-label" class="chapter-label">五十座星環，五段航程</p><div id="chapters" class="chapters" aria-label="章節"></div><div class="setup" aria-label="關卡與遊玩模式"><label>星環<select id="stage"></select></label><label>模式<select id="mode"><option value="solo">單人航程</option><option value="hotseat">雙人同圖競分</option></select></label><button id="new">載入所選星環 →</button></div></section>
+<details id="help" class="help-card"><summary>操作與星盤筆記 <span aria-hidden="true">＋</span></summary><p>瞄準移動的珠鏈，插入第三顆同色珠。三顆以上相鄰同色會消除，留下的同色兩端會回拉，接合後可以再次連鎖。</p><p>滑鼠點擊發射；觸控拖曳瞄準，再按「發射彩珠」。← → 旋轉，Enter 發射，Space 或右鍵換珠。P 或 Escape 暫停。</p><p>珠鏈到達橙色出口就會失守。隧道內無法擊中，等待珠離開隧道，或改射另一段。穿過真正的缺口再命中可獲 250 分。</p><p>緩時慢行六秒，回溯倒退兩秒半，星爆僅清除命中附近三珠。道具有限，重試本局會還原。</p><p>雙人模式使用相同星圖、色序與道具。先比總分，同分比發射數，仍相同則平手。切換分頁會暫停，回來不補算離線時間。</p></details>
+<section class="settings-card"><div class="settings"><label class="check"><input id="sound" type="checkbox">音效</label><label class="check"><input id="reduced" type="checkbox">減少動態</label></div><div class="manage"><button id="restart">重試本局</button><button id="export">匯出備份</button><button id="import">匯入備份</button><input id="file" type="file" accept="application/json,.json" hidden><button id="claim" hidden>接管存檔</button><button id="reset" class="danger">清除紀錄</button></div><p id="notice" role="status" aria-live="polite"></p><p class="micro">自動存於本機 · 無付費道具 · 無網路追蹤</p></section>
+</aside>
+</div><footer><span>✧ 星環彩珠</span><span>原創程式、美術與合成音效 · 在每一道缺口，看見下一次連鎖</span></footer>
+</main>
+<script src="orbit-marble-chain/levels.js"></script><script src="orbit-marble-chain/engine.js"></script><script src="orbit-marble-chain/storage.js"></script><script src="orbit-marble-chain/controller.js"></script><script src="orbit-marble-chain/artwork.js"></script><script src="orbit-marble-chain/render.js"></script><script src="orbit-marble-chain/audio.js"></script><script src="orbit-marble-chain/ui.js"></script>
+</body></html>
