@@ -2,3 +2,55 @@
 
 .best-record{font-size:10px;line-height:1.7;color:#c3b783;border-left:2px solid #b6aa7159;padding-left:9px;margin:12px 0}
 @media(max-width:380px){.overlay-star{display:none}.overlay-card{padding:13px 14px}.overlay h2{font-size:21px;margin:5px 0 7px}.overlay-note{font-size:7px;margin-top:7px}#state-detail{margin-bottom:10px}.overlay .eyebrow{font-size:6px}}
+
+/* Keep the play panel top-aligned when another column is taller. */
+@media(max-width:850px){.play{margin:0 auto}}
+
+/* Short landscape: the complete 4:3 board and a 44px-touch control rail share one viewport.
+   Briefing, stage selection and settings remain in the normal document below the play panel. */
+@media (orientation:landscape) and (min-width:600px) and (max-height:500px){
+  main{max-width:1260px;padding:6px 12px 12px}
+  .masthead{height:44px;min-height:44px;padding:0;margin:0 0 6px;gap:14px;border:0}
+  .masthead .back{min-height:44px;font-size:10px}
+  .masthead .brand{gap:8px}.masthead .brand-mark{font-size:27px}
+  .masthead h1{font-size:20px;line-height:1.2}.masthead h1 span,.masthead .eyebrow,.edition{display:none}
+  .workspace{display:block}
+  .play{
+    --landscape-rail:clamp(184px,26vw,230px);
+    --landscape-board-h:min(calc(100vh - 64px),calc((100vw - 32px - var(--landscape-rail)) * .75));
+    --landscape-board-h:min(calc(100svh - 64px),calc((100vw - 32px - var(--landscape-rail)) * .75));
+    display:grid;grid-template-columns:minmax(0,1fr) var(--landscape-rail);
+    grid-template-rows:38px 48px 44px 44px minmax(0,1fr);
+    grid-template-areas:"board hud" "board tray" "board controls" "board powers" "board feedback";
+    gap:6px 8px;align-items:start;
+    width:calc(var(--landscape-board-h) * 4 / 3 + var(--landscape-rail) + 8px);
+    max-width:100%;height:calc(var(--landscape-board-h) + 2px);margin:0 auto;
+  }
+  .board{grid-area:board;width:100%;align-self:start;border-radius:12px}
+  .board canvas{display:block;width:100%;height:auto;aspect-ratio:4/3}
+  .board-corner{font-size:5px;left:9px;bottom:7px}
+  .hud{grid-area:hud;height:38px;padding:4px 8px;gap:4px;border:1px solid #5b7c7955;border-radius:10px}
+  .hud-mission{font-size:8px;line-height:1.2;max-width:62px;gap:0}#mission{display:none}
+  .hud-stats{gap:9px}.hud-stats small{font-size:6px;line-height:1.2}.hud-stats b{font-size:15px;line-height:1.2}
+  .shot-tray{grid-area:tray;height:48px;padding:1px 4px;gap:5px;border:1px solid #526f6a5e;border-radius:10px}
+  .shot-tray .ammo{gap:5px}.shot-tray .ammo-label,.shot-tray kbd,.shot-tray .gap-stat{display:none}
+  .shot-tray .ammo b{width:26px;height:26px;font-size:15px}.shot-tray .ammo #next{width:22px;height:22px;font-size:12px}
+  .shot-tray button{min-width:44px;height:44px;padding:7px 5px;font-size:11px;white-space:nowrap}
+  .controls{grid-area:controls;grid-template-columns:44px minmax(0,1fr) 44px;gap:5px;margin:0;height:44px}
+  .controls button{min-height:44px;height:44px;padding:6px 4px}.controls .primary{font-size:11px;letter-spacing:0;white-space:nowrap}
+  .controls .primary span{margin-left:4px}.controls>button:not(.primary){font-size:21px}
+  .powers{grid-area:powers;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;margin:0;height:44px}
+  .powers button{min-height:44px;height:44px;padding:4px 3px;gap:4px;justify-content:center}
+  .powers .power-icon,.powers small{display:none}.powers button>span:nth-child(2){font-size:10px;white-space:nowrap}
+  .powers b{margin-left:0;min-width:17px;height:20px;font-size:10px}
+  .feedback{grid-area:feedback;align-self:start;min-height:0;max-height:100%;overflow:auto;margin:0;padding:5px;font-size:10px;line-height:1.4}
+  .touch-help{display:none}
+  .overlay{padding:10px}.overlay-card{padding:13px 16px;max-width:360px}
+  .overlay-star{display:none}.overlay .eyebrow{font-size:7px}.overlay h2{font-size:20px;margin:5px 0 8px}
+  #state-detail{font-size:10px;line-height:1.6;margin-bottom:12px}.overlay-note{font-size:8px;line-height:1.4;margin-top:8px}
+  .overlay-actions{gap:7px}.overlay-actions button{min-width:112px;min-height:44px;padding:8px;font-size:11px}
+  .workspace>aside{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+  .mission-card{grid-column:1;grid-row:auto}.navigation-card{grid-column:2;grid-row:1}
+  .help-card{grid-column:1;grid-row:auto}.settings-card{grid-column:2;grid-row:auto}
+  footer{margin-top:16px}
+}
