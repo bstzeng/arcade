@@ -4,7 +4,7 @@
   "scope": "397/25 catalog with the existing Hearts entry upgraded; legacy practice/shared runtime preserved; actual browser acceptance pending",
   "baseCommit": "78c5d8aed724eac84801f13259125b6f530f5910",
   "baseTreeSHA": "c29275d06d06fffdde843e866d9c00f95fa31b5a",
-  "build": "20261004-hearts-full-match-v3",
+  "build": "20261004-park-rides15-hearts-touch-v2",
   "gameCount": 397,
   "categoryCount": 25,
   "registryRecords": [
@@ -96,8 +96,8 @@
       "id": "skyrail-park",
       "title": "雲霄歡樂園",
       "category": "classic30",
-      "description": "鋪設步道與排隊區，照顧遊客、員工及現金流，逐段設計並試跑自己的雲霄飛車。十座原創樂園有不同的地形與營運課題。",
-      "note": "10 關・樂園建造與經營・開發版",
+      "description": "十五款遊具與逐段自建雲霄飛車：鋪步道、排隊區與補給，照顧遊客、員工及現金流，經營十座原創樂園。",
+      "note": "10 關・15 款遊具・開發版",
       "art": "classic30-skyrail-park",
       "color": "#557c65",
       "background": "#eff3e7",
@@ -126,8 +126,8 @@
   },
   "sourceGatesAccepted": true,
   "rootFiles": {
-    "app.js": "6c0e87af1d4d1259adc3637cf32d5fa8314ab973d79a954f02be4b05373a3156",
-    "index.html": "9acb2a855c33effd239963d58a532cff36c015107ae60cf7d79b2a9a0730c085",
+    "app.js": "4699760af67fb09e52c3e454e72c06073cedebc95efdd18076e25d37233d17e6",
+    "index.html": "92e1cf95a30c48dc946280454d3011b9dd5c4cfe4b253af06a72adb56828bfbe",
     "styles.css": "15bbe23645f0aec885dae39614a9cf0c5e5758ad550bec5d098fb4c9f6432a61",
     "README.md": "18618342790b59cf8debb7119c3f0db22db9611eaddce48e9fbfe733d1413533",
     "verify-all.cjs": "5742fae6c960187b3f004e50941a79ae0b70440e854166a8c1d8322680300a90"
@@ -436,22 +436,22 @@
       ],
       "levelExport": "ParkLevels",
       "publishFiles": {
-        "games/skyrail-park.html": "a76ca6fefc68c3aa31c30bdf32a3afb5d291a00b2fb5273b6f605898af4f6585",
-        "games/skyrail-park/ART-PROVENANCE.md": "45a3042aad81460f939ff3d002a49c966c54e5173c02a9222b5854db9b53aa9c",
-        "games/skyrail-park/README.md": "d6201b4fd481a5c1408c88ebf0ce11ab32f84f192d035f99953fdd137cacae9f",
+        "games/skyrail-park.html": "e0dacc2e53a13adad25fc173f036c1abe3f0ce98247eb611bd59a1299659b201",
+        "games/skyrail-park/ART-PROVENANCE.md": "d7ea9bc93314ddbb3c3faef69bf56a625d6433d4f047ededc6c701bfc5f270d1",
+        "games/skyrail-park/README.md": "0823819e8ed0556bcd17ce46026d7837bcc7ad7cf0585405e48962cebf394e56",
         "games/skyrail-park/art.svg": "6f058f94e541b5757acb2af1e3afaa83e9579d733297da2215766f4ca99dbd22",
-        "games/skyrail-park/catalog.json": "9e2733a4f3b9918a98fe8f4edc840c490ccd202952786e7f79d538b646412fef",
-        "games/skyrail-park/engine.js": "68d69c91b6cc2f4d474862bc9dcce80108faa35cd3c4a3d7e3656c718cf463ba",
+        "games/skyrail-park/catalog.json": "baaa8603f95916c0688854297f0f60b8f7f283b700288d4f71c52087f00d65f2",
+        "games/skyrail-park/engine.js": "1c36ff209f8153ca1ae7d2f92d7225e4ebff5df8964c610f624449d57479933f",
         "games/skyrail-park/levels.js": "440dc8b92d057cef614f131764f362adeb97df5d66f900abf6aef2a80e7b1563",
         "games/skyrail-park/levels.json": "c73403023a585577506c751db73712ac412954c37ce5847434ff0d61374b00a3",
-        "games/skyrail-park/render.js": "b4b5bfa88929b0011c5bd4ec15274a9e7105b23c9df86cb2f188f9fd9a46a1e0",
+        "games/skyrail-park/render.js": "5b0b600452c4319d754f892148faa979605314e269183cfdbf3d8d650ba2f326",
         "games/skyrail-park/sound.js": "d4dd34fc8e2008bfd97b1ff7ee67b777d0c3f0b91eff947ffd48b3917a07a6c0",
         "games/skyrail-park/spatial.js": "85ef8b3bf9ce04ca3ff134197e740805b22994595f3fb269964b59846966179d",
         "games/skyrail-park/storage.js": "c433a84b9301e4cf12e32250cb54fb8aeaaab7358d135150a63a800cc7a27267",
-        "games/skyrail-park/style.css": "d36c02f104ed52142a4f2094faa1e29b858e757a834fec43c4e5baf3d04e3cea",
-        "games/skyrail-park/ui.js": "8ea71ab186551d8e937892dd3f4cd239bf61cd6004bd5b7f0d688884beb9611c"
+        "games/skyrail-park/style.css": "eed835bb9fafe4d6db11f26dbda159fc588002572099abdb2679c936be98e569",
+        "games/skyrail-park/ui.js": "59828d78d0a94e3a1421b836ed3f87ddb49519e39888d472b568c019a9414c1c"
       },
-      "sourceFingerprint": "8382727f6cb006d9b929d6601f479ab3e827130f329919f0dc460e5cba0c3c87",
+      "sourceFingerprint": "f5577a67118fecb475406e40b772c50fc16de06fe2fda3de6a4c9fe804d9ab66",
       "sourceGateScope": "Final source and bounded independent controller/campaign gate; actual browser and per-level ordinary20-minute play remain pending",
       "storageNamespace": "arcade.classic30.skyrail-park.v2",
       "sourceTransformations": []
@@ -502,7 +502,7 @@
       "games/hearts/match-engine.js": "24be62dcbcbfeee40d8e2c80677014ce5e61768fdb195c8e640a0d1c926064ed",
       "games/hearts/match-ai.js": "f314671b25087b68f69902c4f39bd90919dd1da6ef039a32419691bdcc627812",
       "games/hearts/match-app.js": "cfe66376f05579bddf1b06498802792baad6a12710c982aaa35e06a3ba0a40ed",
-      "games/hearts/match-style.css": "4ad766bde3b232ddaa0019d69422cbb7e1fe70133af3be5d7f74084654c99ecb",
+      "games/hearts/match-style.css": "290fd2ea6ff8ccf69464423fce0ea3722e049f94f3a486167d932a85d2ae2eee",
       "games/hearts/README.md": "95fa98f7e1b5876098a393a690e19a5181e7df6762c74b44ea4fdbf3cc9e851e",
       "games/hearts/BROWSER-QA.md": "a1f66883328c1c505a578d763f962b68a56c1d9af9d679140fdec86a980b079c",
       "games/hearts/match-tests.cjs": "808b5e6921dd41345908060c3761fdb75a509d7d8c649beb5207edfdbe1911d6",
@@ -524,9 +524,9 @@
       "games/hearts/match-engine.js": "24be62dcbcbfeee40d8e2c80677014ce5e61768fdb195c8e640a0d1c926064ed",
       "games/hearts/match-ai.js": "f314671b25087b68f69902c4f39bd90919dd1da6ef039a32419691bdcc627812",
       "games/hearts/match-app.js": "cfe66376f05579bddf1b06498802792baad6a12710c982aaa35e06a3ba0a40ed",
-      "games/hearts/match-style.css": "4ad766bde3b232ddaa0019d69422cbb7e1fe70133af3be5d7f74084654c99ecb"
+      "games/hearts/match-style.css": "290fd2ea6ff8ccf69464423fce0ea3722e049f94f3a486167d932a85d2ae2eee"
     },
-    "sourceFingerprint": "6614c3ae92a4d6e7e3dcd316cb02ffef08bd83a97367ce8d30c731660565a050",
+    "sourceFingerprint": "cc681a38a1879fcb1762c4296b6c453c03f3ec43e2b9ed53f0fde08d168b3002",
     "sourceGatesAccepted": true,
     "existingModifiedFiles": {
       "games/hearts.html": "7dd0faa5ffea0235ccd544e467adab37fcd1d9b942575237a1f9de294cc05f27",
