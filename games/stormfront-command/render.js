@@ -521,6 +521,14 @@
       const worldReady=drawTerrainWorld(v);
       for(let y=y0;y<=y1;y++)for(let x=x0;x<=x1;x++){const q=worldToScreen(x,y);if(!onscreen(q,90*z))continue;if(!worldReady)tile(v,x,y,time,options.reduced);else if(v.terrain[y][x]!=='?')metrics.tiles++;if(v.terrain[y][x]==='#')scenery.push({x,y,depth:x+y,kind:'rock',visible:v.visible[y*v.width+x]});}
       const selection = options.selected instanceof Set ? options.selected : new Set(options.selected || []);
+      if (options.preview?.building) {
+        c.save(); c.setLineDash([5, 5]); c.lineWidth = 1.2; c.strokeStyle = '#a0e9cd88';
+        for (const e of v.entities || []) if (e.owner === 0 && e.kind === 'building' && e.complete && e.buildRadius > 0) {
+          const q = worldToScreen(e.x + (e.size - 1) / 2, e.y + (e.size - 1) / 2), r = e.buildRadius;
+          c.beginPath(); c.ellipse(q.x, q.y, HW * Math.SQRT2 * r * z, HH * Math.SQRT2 * r * z, 0, 0, TAU); c.stroke();
+        }
+        c.restore();
+      }
       drawOrders(v, selection);
       for (const o of v.ore || []) if (o.amount > 0) scenery.push({ ...o, depth: o.x + o.y + .05, kind: 'ore', visible: v.visible[o.y * v.width + o.x] });
       for (const e of v.memory || []) if (e.kind === 'building') {

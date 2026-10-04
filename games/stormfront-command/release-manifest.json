@@ -1,7 +1,7 @@
 {
   "id": "stormfront-command",
   "title": "磁暴前線",
-  "phase": "ten_mission_live_clarity_patch",
+  "phase": "ten_mission_logistics_feedback_patch",
   "releaseReady": false,
   "entry": "games/stormfront-command.html",
   "runtimeFiles": [
@@ -95,7 +95,10 @@
     "sourcePerformance": "verification/stormfront-command/performance-final-report.json",
     "creditRoundingRegression": "verification/stormfront-command/roundoff-report.json",
     "finalPresentationAudit": "verification/renderer-independent/revision7-review/ENGINE-BINDING-ADDENDUM.md",
-    "presentationPatchTests": "verification/stormfront-command/polish-report.json"
+    "presentationPatchTests": "verification/stormfront-command/logistics-controller-report.json",
+    "logisticsGuidanceTests": "verification/stormfront-command/logistics-guidance-tests.cjs",
+    "constructionOverlayTests": "verification/stormfront-command/logistics-render-report.json",
+    "ordinaryInputRegression": "verification/stormfront-command/pointer-mode-after.json"
   },
   "assetProvenance": "games/stormfront-command/asset-provenance.json",
   "blockers": [
@@ -121,15 +124,19 @@
     "games/stormfront-command/guidance.js"
   ],
   "presentationPatch": {
-    "baseRuntimeDigest": "183a7c8b424613f4592b5985e3f757eb29c3190e0f7ab9d44dce37e56e735cef",
+    "baseRuntimeDigest": "59e7b0971cd3964d058abc2566906b8bb82e0a1013b0ef5fd8724447b86bf820",
     "engineCampaignStorageUnchanged": true,
     "features": [
-      "near-canvas production and engineer controls",
-      "persistent named repair/queue status",
-      "observation-only first-mission guidance",
-      "explicit battlefield return and preventScroll focus",
-      "compact portrait command disclosures"
+      "known nearby ore with last-known confidence",
+      "observable miner/engineer damage and loss feedback",
+      "last-known ore camera locator without orders",
+      "actual construction radius and grid preview",
+      "pinned touch building confirmation across hovering input",
+      "live placement validity refresh after spending or vision changes"
     ],
-    "actualBrowserGeometryRetest": "pending"
+    "actualBrowserGeometryRetest": "pending",
+    "balanceChange": false,
+    "autoOrders": false,
+    "forcedPause": false
   }
 }
