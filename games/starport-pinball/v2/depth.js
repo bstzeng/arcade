@@ -1,4 +1,4 @@
-(function(root,factory){const api=typeof module==='object'?factory(require('./geometry.js'),require('./table.js')):factory(root.PinballGeometry,root.PinballTable);if(typeof module==='object')module.exports=api;else root.PinballDepth=api;})(globalThis,function(G,T){'use strict';
+(function(root,factory){const api=typeof module==='object'?factory(require('./geometry.js'),require('./table.js')):factory(root.PinballGeometry,root.PinballTable);Object.defineProperty(api,'withGeometry',{value:factory});if(typeof module==='object')module.exports=api;else root.PinballDepth=api;})(globalThis,function(G,T){'use strict';
 // Cabinet projection and occlusion share the actual solid ribbon triangles and
 // physical open-wire tubes. A projected overlap alone never establishes depth.
 const tilt=.72,D=1+tilt*tilt,project=p=>[300+(p[0]-300)*(.93+.07*p[1]/1000),p[1]-tilt*(p[2]||0)];
