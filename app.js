@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261004-long-campaigns-10';
+const GAME_BUILD = '20261004-hearts-full-match-v3';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -86,7 +86,7 @@ const games = [
   {"id": "dou-dizhu", "title": "鬥地主", "category": "expansion", "description": "競叫地主、組合牌型，與農民搭檔或獨自出清手牌。", "note": "地主 × 合作", "art": "expansion-dou-dizhu", "color": "#a4dbc2", "background": "#254137", "word": "DOU DIZHU", "status": "ready", "url": "./games/dou-dizhu.html", "badge": "100 關 · 牌桌挑戰"},
   {"id": "sevens", "title": "排七", "category": "expansion", "description": "從各花色的七向兩側延伸，在有限的出牌空間中解套。", "note": "花色 × 接續", "art": "expansion-sevens", "color": "#a4dbc2", "background": "#254137", "word": "SEVENS", "status": "ready", "url": "./games/sevens.html", "badge": "100 關 · 牌桌挑戰"},
   {"id": "chinese-poker", "title": "十三支", "category": "expansion", "description": "把十三張牌排成前、中、後墩，兼顧牌力與不倒水的規則。", "note": "分墩 × 排序", "art": "expansion-chinese-poker", "color": "#a4dbc2", "background": "#254137", "word": "CHINESE POKER", "status": "ready", "url": "./games/chinese-poker.html", "badge": "100 關挑戰"},
-  {"id": "hearts", "title": "紅心大戰", "category": "expansion", "description": "依花色跟牌，避開紅心與黑桃皇后，也能挑戰全收的逆轉。", "note": "避分 × 跟牌", "art": "expansion-hearts", "color": "#a4dbc2", "background": "#254137", "word": "HEARTS", "status": "ready", "url": "./games/hearts.html", "badge": "100 關 · 牌桌挑戰"},
+  {"id": "hearts", "title": "傷心小棧（紅心大戰）", "category": "expansion", "description": "隨機洗牌，與三位公平 AI 玩完整對局；避開紅心與黑桃皇后，最低失分獲勝。", "note": "隨機洗牌 × 完整對局", "art": "expansion-hearts", "color": "#a4dbc2", "background": "#254137", "word": "HEARTS", "status": "ready", "url": "./games/hearts.html", "badge": "隨機對局 · 3 級 AI"},
   {"id": "crazy-eights", "title": "瘋狂八", "category": "expansion", "description": "配對花色或點數，用萬用八改變花色，搶先清空手牌。", "note": "配對 × 轉色", "art": "expansion-crazy-eights", "color": "#a4dbc2", "background": "#254137", "word": "CRAZY EIGHTS", "status": "ready", "url": "./games/crazy-eights.html", "badge": "100 關 · 牌桌挑戰"},
   {"id": "gin-rummy", "title": "金拉米", "category": "expansion", "description": "抽牌、棄牌，組成同點或順子，降低手中未成組的點數。", "note": "組牌 × 敲牌", "art": "expansion-gin-rummy", "color": "#a4dbc2", "background": "#254137", "word": "GIN RUMMY", "status": "ready", "url": "./games/gin-rummy.html", "badge": "100 關 · 牌桌挑戰"},
   {"id": "spades", "title": "黑桃", "category": "expansion", "description": "估計能拿下的墩數，與搭檔運用黑桃王牌完成叫牌。", "note": "叫墩 × 王牌", "art": "expansion-spades", "color": "#a4dbc2", "background": "#254137", "word": "SPADES", "status": "ready", "url": "./games/spades.html", "badge": "100 關 · 牌桌挑戰"},
