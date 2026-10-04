@@ -1,3 +1,72 @@
+# 傷心小棧（紅心大戰） · HEARTS
+
+The existing `games/hearts.html` catalog identity now opens an original, self-contained full-match Hearts table. There is no duplicate catalog game. New matches randomly deal 52 cards to one human and three AI players, and continue across deals until someone reaches at least 100 points. There is no level unlock requirement.
+
+## Current full-match profile (v3)
+
+- Four players, 13 cards each; 2 is low and Ace high. Pass three cards left, right, across, then keep; repeat this cycle.
+- The holder of 2♣ leads the first trick. Follow the led suit if possible; highest card of that suit wins and leads next. There are no trumps.
+- On the first trick, an off-suit player cannot discard a heart or Q♠ while any clean card is held. A hand containing only penalty cards may discard one.
+- Only a heart breaks hearts. Q♠ does not break hearts in this profile. A heart cannot lead before breaking unless the player holds only hearts. Q♠ may lead after the first trick.
+- Each heart is 1 penalty point and Q♠ is 13. Taking all 26 points scores 0 for that player and 26 for each other player.
+- After a complete deal, scores are added exactly once. Once anyone reaches 100 or more, the lowest score wins. Tied lowest players share the win; no silent tiebreaker or sudden-death round.
+- Passing and playing require a separate confirmation after selecting cards. Random matches have no undo, hints exposing hidden cards, or omniscient autoplay.
+
+## Fair AI and bounded work
+
+`match-ai.js` receives only `match-engine.js` public observations: its own hand, public played cards, counts, score, current trick and legal own choices. Opponents' hands, deal seeds and private pass contents are absent.
+
+- Easy chooses legal plays deterministically from a public-information hash, and passes simple high cards.
+- Normal evaluates safe losses, penalty unloading, high cards and short suits.
+- Hard uses up to 16 sampled possible distributions of the unseen cards and looks ahead through at most two tricks. Its constraints include public failure-to-follow suit, the hearts-only deduction from a legal unbroken heart lead, and the penalty-only deduction from a forced first-trick penalty discard. It never reads the actual hidden hands. This is a bounded practice AI, not a claim of tournament strength.
+
+## Save and record compatibility
+
+The original page is preserved as `games/hearts-practice.html`, with direct return navigation, its 100 specified positions and original same-device multiplayer. Its storage keys remain `arcade:cards80:v1:hearts` and `arcade:cards80:v1:hearts:progress`. Its frozen old rules and proofs are unchanged; in that legacy variant Q♠ also breaks hearts. Both pages explain this difference.
+
+The new match uses `arcade.hearts.full-match.v3`, preferences use `arcade.hearts.preferences.v3`, and result records use `arcade.hearts.results.v3`. The new save is a seed plus canonical action log; loading replays every legal action instead of trusting serialized hands or totals. Reload pauses before resuming. A Web Locks exclusive lock (`arcade.hearts.active-table.v3`) permits only one active tab to change the game or results. Pausing, hiding or leaving that tab releases ownership; another tab must acquire the lock and adopt newer progress before continuing. Foreign-tab changes pause the stale tab; invalid foreign saves remain blocked until a valid replacement is loaded or a new game is explicitly started. This is an actual browser lock, not a claimed atomic localStorage compare-and-set. In contexts without Web Locks, existing saves remain readable but gameplay is explicitly memory-only and never overwrites saved game/result data. Storage denial also leaves the game playable with an unsaved warning.
+
+A manually entered seed is visibly labeled `seeded` and records separately from fresh `random` games. Seeds are available under the score history for reproducibility. Results are local, noncompetitive, and have no monetary or redeemable value.
+
+## Presentation and assets
+
+The standalone premium UI uses original HTML/CSS card faces, an original inline heart mark, procedural CSS felt/paper textures and optional Web Audio tones. No external fonts, images, tracking, or runtime network dependencies. Desktop fan hand, narrow-phone two-row grid, keyboard controls, reduced motion, three speeds, mute, pause and skip-trick animation are included.
+
+## Files and verification
+
+- `match-engine.js`: immutable transitions, legal moves, scoring, match lifecycle, public observation, save replay.
+- `match-ai.js`: public-information policies and bounded two-trick sampling.
+- `match-app.js`, `match-style.css`: premium browser UI and persistence controller.
+- `match-tests.cjs`: rule fixtures, 150 complete matches, independent legality oracle, replay and hidden-state mutation tests.
+- `match-controller-tests.cjs`: actual-controller deterministic DOM simulation. This is not a rendering/browser test.
+- `independent-review.cjs`: separate independently authored rules/scoring/persistence/AI test suite.
+
+Run from repository root:
+
+    node games/hearts/match-tests.cjs
+    node games/hearts/match-controller-tests.cjs
+    node games/hearts/independent-review.cjs
+    node games/hearts/controller-review.cjs
+    node games/hearts/moon-ui-review.cjs
+    node games/hearts/concurrent-write-repro.cjs
+    node games/hearts/test.cjs
+    node games/hearts/controller-tests.cjs
+
+The shared legacy DOM and browser test harnesses route only Hearts to `hearts-practice.html`; no shared game runtime changed. Real-browser visual and interaction acceptance must be recorded separately against the final deployed revision. Simulation success is not real-browser proof.
+
+## Rules references and explicit selections (checked 2026-10-04)
+
+- [Bicycle Hearts](https://bicyclecards.com/how-to-play/hearts/) documents the 52-card four-player game, following suit, point values, moon scoring and 100-point finish. Its break rule includes Q♠, which is retained only in the frozen legacy practice profile.
+- [Tabletopia Hearts rules](https://c.tabletopia.com/games/hearts/rules/hearts-rules/en) documents the hearts-only break convention and the passing/keep cycle. Its initial passing order differs; this game's explicit left/right/across/keep order and first-trick exception are frozen above.
+
+The on-screen rules are the full-match contract, including exceptional all-penalty hands and shared-lowest ties.
+
+---
+
+# Legacy practice documentation (unchanged rules and proofs)
+
+The documentation below describes only `hearts-practice.html`, its original shared engine, and its existing 100 specified positions. References to the live engine and two AI levels here belong to that legacy page, not the new v3 match table.
+
 # 紅心大戰 · HEARTS
 
 避開紅心與黑桃皇后，讓自己的失分最低。

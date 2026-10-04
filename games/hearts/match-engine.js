@@ -1,0 +1,33 @@
+/* Original Hearts rules engine. Card IDs: clubs, diamonds, hearts, spades; 2..A. */
+(function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.HeartsMatch=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
+'use strict';
+const VERSION=3,SUITS=['♣','♦','♥','♠'],RANKS=['2','3','4','5','6','7','8','9','10','J','Q','K','A'];
+const suit=c=>Math.floor(c/13),rank=c=>c%13+2,penalty=c=>suit(c)===2?1:c===49?13:0;
+const copy=x=>JSON.parse(JSON.stringify(x)),sort=h=>h.slice().sort((a,b)=>a-b),name=c=>SUITS[suit(c)]+RANKS[c%13];
+function rng(seed){let n=seed>>>0;return()=>{n+=0x6D2B79F5;let t=Math.imul(n^n>>>15,1|n);t^=t+Math.imul(t^t>>>7,61|t);return((t^t>>>14)>>>0)/4294967296;};}
+function hash(x){let n=2166136261;for(const c of JSON.stringify(x))n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
+function deck(seed){const d=Array.from({length:52},(_,i)=>i),r=rng(seed);for(let i=51;i>0;i--){let j=Math.floor(r()*(i+1));[d[i],d[j]]=[d[j],d[i]];}return d;}
+function winner(t){if(!Array.isArray(t)||!t.length)throw Error('空墩');let w=t[0];for(const x of t)if(suit(x.card)===suit(w.card)&&rank(x.card)>rank(w.card))w=x;return w.p;}
+function setupRound(s){const d=deck(hash(['hearts-v3',s.seed,s.round]));s.hands=Array.from({length:4},()=>[]);for(let i=0;i<52;i++)s.hands[i%4].push(d[i]);s.hands=s.hands.map(sort);s.passDirection=[1,3,2,0][(s.round-1)%4];s.passes=[null,null,null,null];s.received=[[],[],[],[]];s.trick=[];s.history=[];s.points=[0,0,0,0];s.broken=false;s.phase=s.passDirection?'pass':'play';s.turn=s.phase==='pass'?0:s.hands.findIndex(h=>h.includes(0));s.roundScores=null;s.moon=null;s.last=null;}
+function create(seed,options={}){if(!Number.isInteger(seed)||seed<0||seed>4294967295)throw Error('種子無效');const difficulty=options.difficulty||'normal',mode=options.mode||'random';if(!['easy','normal','hard'].includes(difficulty)||!['random','seeded'].includes(mode))throw Error('設定無效');const s={version:VERSION,seed,difficulty,mode,round:1,totals:[0,0,0,0],rounds:[],winners:[],events:[]};setupRound(s);return s;}
+function legalFrom(hand,trick,broken,first){let h=hand.slice();if(trick.length){const follow=h.filter(c=>suit(c)===suit(trick[0].card));if(follow.length)return follow;if(first){const clean=h.filter(c=>penalty(c)===0);if(clean.length)return clean;}return h;}if(first)return h.filter(c=>c===0);if(!broken){const other=h.filter(c=>suit(c)!==2);if(other.length)return other;}return h;}
+function legalCards(s){return s.phase==='play'?legalFrom(s.hands[s.turn],s.trick,s.broken,s.history.length===0):[];}
+function validCards(a,n){return Array.isArray(a)&&a.length===n&&new Set(a).size===n&&a.every(c=>Number.isInteger(c)&&c>=0&&c<52);}
+function transition(s,a,record=true){if(!a||typeof a!=='object'||Array.isArray(a))throw Error('動作無效');let e;
+if(a.type==='pass'){const p=a.p;if(s.phase!=='pass'||!Number.isInteger(p)||p<0||p>3||s.passes[p]!==null||!validCards(a.cards,3)||!a.cards.every(c=>s.hands[p].includes(c)))throw Error('請選擇自己手中的三張牌');e={type:'pass',p,cards:sort(a.cards)};
+}else if(a.type==='play'){if(s.phase!=='play'||a.p!==s.turn||!legalCards(s).includes(a.card))throw Error('這張牌現在不能出');e={type:'play',p:a.p,card:a.card};
+}else if(a.type==='collect'){if(s.phase!=='trickEnd')throw Error('尚未完成一墩');e={type:'collect'};
+}else if(a.type==='next'){if(s.phase!=='roundEnd')throw Error('尚不能發下一副');e={type:'next'};
+}else throw Error('未知動作');
+const n=copy(s);if(record)n.events.push(e);
+if(e.type==='pass'){n.passes[e.p]=e.cards;if(n.passes.every(Boolean)){const h=n.hands.map((cards,p)=>cards.filter(c=>!n.passes[p].includes(c)));for(let p=0;p<4;p++){let to=(p+n.passDirection)%4;h[to].push(...n.passes[p]);n.received[to]=n.passes[p].slice();}n.hands=h.map(sort);n.phase='play';n.turn=n.hands.findIndex(h=>h.includes(0));}else n.turn=n.passes.findIndex(x=>x===null);
+}else if(e.type==='play'){n.hands[e.p]=n.hands[e.p].filter(c=>c!==e.card);n.trick.push({p:e.p,card:e.card});if(suit(e.card)===2)n.broken=true;if(n.trick.length===4){n.phase='trickEnd';n.turn=winner(n.trick);}else n.turn=(e.p+1)%4;
+}else if(e.type==='collect'){const p=winner(n.trick),points=n.trick.reduce((v,x)=>v+penalty(x.card),0),entry={cards:copy(n.trick),winner:p,points};n.points[p]+=points;n.history.push(entry);n.last=entry;n.trick=[];n.turn=p;if(n.history.length===13){n.moon=n.points.indexOf(26);if(n.moon<0)n.moon=null;n.roundScores=n.moon===null?n.points.slice():n.points.map((_,i)=>i===n.moon?0:26);n.totals=n.totals.map((v,i)=>v+n.roundScores[i]);n.rounds.push({round:n.round,scores:n.roundScores.slice(),totals:n.totals.slice(),moon:n.moon});n.phase=n.totals.some(v=>v>=100)?'matchEnd':'roundEnd';if(n.phase==='matchEnd'){const best=Math.min(...n.totals);n.winners=[0,1,2,3].filter(p=>n.totals[p]===best);}}else n.phase='play';
+}else{n.round++;setupRound(n);}return n;}
+function observe(s,p){if(!Number.isInteger(p)||p<0||p>3)throw Error('座位無效');return{version:VERSION,viewer:p,turn:s.turn,phase:s.phase,hand:s.hands[p].slice(),handCounts:s.hands.map(h=>h.length),legal:s.phase==='play'&&s.turn===p?legalCards(s):[],trick:copy(s.trick),history:copy(s.history),points:s.points.slice(),totals:s.totals.slice(),broken:s.broken,first:s.history.length===0,round:s.round,passDirection:s.passDirection,passDone:!!s.passes[p]};}
+function save(s){return JSON.stringify({version:VERSION,seed:s.seed,difficulty:s.difficulty,mode:s.mode,events:s.events});}
+function load(raw){if(typeof raw!=='string'||raw.length>1000000)throw Error('存檔大小無效');const x=JSON.parse(raw);if(!x||x.version!==VERSION||!['easy','normal','hard'].includes(x.difficulty)||!['random','seeded'].includes(x.mode)||!Array.isArray(x.events)||x.events.length>6500)throw Error('存檔版本無效');let s=create(x.seed,{difficulty:x.difficulty,mode:x.mode});for(const a of x.events){if(JSON.stringify(a)!==JSON.stringify(canonical(a)))throw Error('存檔動作格式無效');s=transition(s,a);}return s;}
+function canonical(a){if(!a||typeof a!=='object')return null;if(a.type==='pass')return{type:'pass',p:a.p,cards:a.cards};if(a.type==='play')return{type:'play',p:a.p,card:a.card};if(a.type==='collect')return{type:'collect'};if(a.type==='next')return{type:'next'};return null;}
+function invariant(s){const used=[...s.hands.flat(),...s.trick.map(x=>x.card),...s.history.flatMap(t=>t.cards.map(x=>x.card))];if(used.length!==52||new Set(used).size!==52||!used.every(c=>Number.isInteger(c)&&c>=0&&c<52))throw Error('牌張守恆失敗');if(s.history.length>13||s.points.reduce((a,b)=>a+b,0)!==s.history.reduce((a,t)=>a+t.points,0))throw Error('分數守恆失敗');return true;}
+return{VERSION,SUITS,RANKS,suit,rank,penalty,copy,sort,name,rng,hash,deck,winner,create,legalFrom,legalCards,transition,observe,save,load,invariant};
+});
