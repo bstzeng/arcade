@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261005-starweave-idle-v1';
+const GAME_BUILD = '20261005-starweave-unified-v2';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
@@ -402,7 +402,7 @@ const games = [
   {"id":"garden-watchline","title":"花園守望隊","category":"classic30","description":"種下暖燈花，搭配八種植物守護小屋。三十座原創花園，讓每次補位都有轉機。","note":"六章 30 關・八種植物・七種苔影・可暫停布陣","art":"classic30-garden-watchline","color":"#e9c77d","background":"#315543","word":"芽","status":"ready","url":"./games/garden-watchline.html","badge":"30 關 · 植物防線"},
   {"id":"wondertide-aquarium","title":"奇潮水族館","category":"classic30","description":"餵養微光魚群、收集貝幣，守護 30 座會成長的水族箱。","note":"五章 30 缸・六位夥伴・三種入侵者・有限救援補給","art":"classic30-wondertide-aquarium","color":"#eeca95","background":"#164955","word":"養","status":"ready","url":"./games/wondertide-aquarium.html","badge":"30 缸 · 照護防守"},
   {"id":"tide-feast","title":"潮汐食物鏈","category":"classic30","description":"從 2 公分小魚出發，吞食微光與小魚，游向無盡大海。","note":"無盡海域・九種魚・漸進成長・三顆心與安全復甦","art":"classic30-tide-feast","color":"#f1d699","background":"#125467","word":"潮","status":"ready","url":"./games/tide-feast.html","badge":"無盡成長 · 第一版"},
-  {"id":"starweave-idle","title":"星絨法師：自走遠征","category":"strategy","description":"讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。","note":"全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退","art":"starweave-idle","color":"#f4e7cc","background":"#708b73","word":"星","status":"ready","url":"./games/starweave-idle.html","badge":"自走冒險 · 第一版"}
+  {"id":"starweave-idle","title":"星絨法師：自走遠征","category":"strategy","description":"小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。","note":"置中捲動世界・統一背包・換裝戰力提示・法師自動冒險","art":"starweave-idle","color":"#f4e7cc","background":"#708b73","word":"星","status":"ready","url":"./games/starweave-idle.html","badge":"自走冒險 · 背包新版"}
 ];
 const categoryNames = { frontier120: '世界與實驗', expansion120: '新玩法探索', expansion: '百關新挑戰', puzzle: '益智解謎', strategy: '策略挑戰', casual: '輕鬆休閒', cards: '接龍牌桌', board: '益智棋盤', logic: '邏輯推理', classic: '經典益智', collection: '經典新挑戰', tabletop: '多人棋桌', classic30: '經典' };
 const artMarkup = {
@@ -807,7 +807,7 @@ Object.assign(artMarkup, {"classic30-starport-pinball":"<img class=\"classic30-a
 Object.assign(artMarkup, {"classic30-stormfront-command":"<img class=\"classic30-art\" src=\"./games/stormfront-command/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">","classic30-skyrail-park":"<img class=\"classic30-art\" src=\"./games/skyrail-park/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">"});
 Object.assign(artMarkup, {"classic30-garden-watchline":"<img class=\"classic30-art\" src=\"./games/garden-watchline/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">","classic30-wondertide-aquarium":"<img class=\"classic30-art\" src=\"./games/wondertide-aquarium/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">"});
 Object.assign(artMarkup, {"classic30-tide-feast":"<img class=\"classic30-art\" src=\"./games/tide-feast/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">"});
-Object.assign(artMarkup, {"starweave-idle":"<img class=\"classic30-art\" src=\"./games/starweave-idle/art.svg\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">"});
+Object.assign(artMarkup, {"starweave-idle":"<img class=\"classic30-art\" src=\"./games/starweave-idle/art.svg?v=2\" alt=\"\" width=\"156\" height=\"130\" loading=\"lazy\" decoding=\"async\">"});
 const categories = [
   { id: 'tabletop', title: '棋類對戰', description: '找個朋友，或挑戰三種難度的 AI。', examples: '象棋・五子棋・黑白棋', icon: '♟', color: '#edc47e', gameIds: ['reversi', 'gomoku', 'connect-four', 'checkers', 'chinese-checkers', 'aeroplane-chess', 'kalah', 'nine-mens-morris', 'quoridor', 'quarto', 'xiangqi', 'banqi', 'chess', 'go9', 'shogi', 'dou-shou-qi', 'backgammon', 'hex', 'dots-and-boxes', 'ataxx', 'amazons', 'hnefatafl'] },
   { id: 'cards', title: '牌桌接龍', description: '接龍、組牌、叫牌與出牌，找到適合你的牌桌。', examples: '經典接龍・蜘蛛・麻將', icon: '♠', color: '#95d7ba', gameIds: ['klondike', 'freecell', 'spider', 'pyramid', 'tripeaks', 'mahjong-solitaire', 'big-two', 'dou-dizhu', 'sevens', 'chinese-poker', 'hearts', 'crazy-eights', 'gin-rummy', 'spades', 'contract-bridge', 'texas-holdem'] },

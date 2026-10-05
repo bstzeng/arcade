@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "garden-aquarium-30-campaign-release",
-  "build": "20261005-starweave-idle-v1",
+  "build": "20261005-starweave-unified-v2",
   "baseCommit": "06cb82afb849cd0723ab54a6017405ee7aa09bf6",
   "baseTreeSHA": "a5a404bf096c3aad2b87f1e784dd8e1bc91f1ccc",
   "gameCount": 401,
@@ -60,15 +60,15 @@
       "id": "starweave-idle",
       "title": "星絨法師：自走遠征",
       "category": "strategy",
-      "description": "讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。",
-      "note": "全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退",
+      "description": "小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。",
+      "note": "置中捲動世界・統一背包・換裝戰力提示・法師自動冒險",
       "art": "starweave-idle",
       "color": "#f4e7cc",
       "background": "#708b73",
       "word": "星",
       "status": "ready",
       "url": "./games/starweave-idle.html",
-      "badge": "自走冒險 · 第一版"
+      "badge": "自走冒險 · 背包新版"
     }
   ],
   "category": {
@@ -267,46 +267,46 @@
         "id": "starweave-idle",
         "title": "星絨法師：自走遠征",
         "category": "strategy",
-        "description": "讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。",
-        "note": "全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退",
+        "description": "小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。",
+        "note": "置中捲動世界・統一背包・換裝戰力提示・法師自動冒險",
         "art": "starweave-idle",
         "color": "#f4e7cc",
         "background": "#708b73",
         "word": "星",
         "status": "ready",
         "url": "./games/starweave-idle.html",
-        "badge": "自走冒險 · 第一版"
+        "badge": "自走冒險 · 背包新版"
       },
       "runtimeFiles": {
-        "games/starweave-idle.html": "7d4f79174c01619cf333a2dc68c2fc01da07bcab5f0c32036a484320bf538458",
-        "games/starweave-idle/engine.js": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
-        "games/starweave-idle/render.js": "e7482d52ac2e6eea1373f6ddc2a4e18144b7aba01ad38be2d06e7ec318d9e59c",
+        "games/starweave-idle.html": "9b3d296fa9aa478303bb79d8b30097192eeee5b13f7d1fbb1193deb157da27de",
+        "games/starweave-idle/engine.js": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
+        "games/starweave-idle/render.js": "e78fd34a30b1c4de2e081c411278accad16eda36770fb9c6467078cc6f69365f",
         "games/starweave-idle/storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
-        "games/starweave-idle/ui.js": "dc9bb002bbdb0c2c86ace97daa1c4372cc0a08748ca05bc1b8ebae81069e66fe",
-        "games/starweave-idle/style.css": "d2113cec36cb18e1613b9160e1fdb16020832f9d55d228c00b6ac60122f30b89",
-        "games/starweave-idle/art.svg": "12aeb545741f087839e1b624992b5dc5d91b8b82bc06722e113a804b374545d7"
+        "games/starweave-idle/ui.js": "1d7455f7d56e13b8afe01e58e1f4e8cb3fed4da6eafd216a46c6a2f31cb3f9d9",
+        "games/starweave-idle/style.css": "602befdc0958d6b16b0606066af3c8e940a0434f4f2253919def41225522dca9",
+        "games/starweave-idle/art.svg": "0ad4a4802847e6404fdd8ff7b1b9b1f9db565c9119937e4b0dbf6c79aab3ebb2"
       },
       "publishFiles": {
-        "games/starweave-idle/README.md": "740be33b940da07b0e7e90646d0776ae3473c892964a98290d0f4dfd5a24dc16",
-        "games/starweave-idle/art.svg": "12aeb545741f087839e1b624992b5dc5d91b8b82bc06722e113a804b374545d7",
-        "games/starweave-idle/asset-provenance.json": "f4355814aba64f0d2ffc38630149b45c3dbd7b47b237a5199f5efa7e9e07a745",
-        "games/starweave-idle/cap-verification-results.json": "335a2598cbfd88efd63fae9c1b1bfd0043b2b72ce0d0a70a5c1adc874a421cdc",
-        "games/starweave-idle/catalog.json": "af2933b05b5fb45cb8fea8f7de4df8fda95a37d167e61b6b2580ed23ebb6c423",
-        "games/starweave-idle/engine-verification-results.json": "407edbf95c0b393509d29205a42ce7ffde06b00415da39589c6efd3c9e782be3",
-        "games/starweave-idle/engine.js": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
-        "games/starweave-idle/realtime-verification.json": "3240f49004baecfefab021ccfb256105860cb8973ea57bcdcee95524dbf0ee2b",
-        "games/starweave-idle/release-manifest.json": "5cb6b9620beba5eb2087001ff5225ff2b64613f698bf92acbf173f0c61a98c5b",
-        "games/starweave-idle/render.js": "e7482d52ac2e6eea1373f6ddc2a4e18144b7aba01ad38be2d06e7ec318d9e59c",
+        "games/starweave-idle/README.md": "a65c9d6a8c28075a85a3b378f7d5e79e7cdf3a31121e1c5909099b3c9f661bbf",
+        "games/starweave-idle/art.svg": "0ad4a4802847e6404fdd8ff7b1b9b1f9db565c9119937e4b0dbf6c79aab3ebb2",
+        "games/starweave-idle/asset-provenance.json": "a62102693cab7f6fc14c297ed1161ce1dbb3a8e2c972be8944258fd15ddc9460",
+        "games/starweave-idle/cap-verification-results.json": "2e039657ffd71390060af2d28209cabb6a7ed0c297a8477c8cee69946e5c9ddb",
+        "games/starweave-idle/catalog.json": "e52194309c6f0e2a661061fa6d3b73d209732dd4754ab5f23a51e85375994d95",
+        "games/starweave-idle/engine-verification-results.json": "88287f223fc26c5858d838cd8bc92a3cfa04d830700f0b8cfc1f5607e1e7bc8c",
+        "games/starweave-idle/engine.js": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
+        "games/starweave-idle/realtime-verification.json": "a1176bca6392fc5ff3708945a330b9cad7f874cef78f1a148eb08f342f4f3612",
+        "games/starweave-idle/release-manifest.json": "540407cf44e1a5fe9ea2416d4f6c57a7a6e5313ebc75a4ff43fbb89f92d9862f",
+        "games/starweave-idle/render.js": "e78fd34a30b1c4de2e081c411278accad16eda36770fb9c6467078cc6f69365f",
         "games/starweave-idle/storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
-        "games/starweave-idle/style.css": "d2113cec36cb18e1613b9160e1fdb16020832f9d55d228c00b6ac60122f30b89",
-        "games/starweave-idle/ui-verification.json": "5665fd026cae3ded2360edfafb444a7211532b6db260235beedafc1aa78385cb",
-        "games/starweave-idle/ui.js": "dc9bb002bbdb0c2c86ace97daa1c4372cc0a08748ca05bc1b8ebae81069e66fe",
-        "games/starweave-idle/verification-report.json": "fdb55712e74308effae31cbdecc44a8ed514cc4b91afd538d0222d85556ea8a1",
-        "games/starweave-idle/verify-cap.cjs": "71fb71fe447294a85dc6e380086c1ac3edf23809ff0d4f9dbc099d41d97419ff",
-        "games/starweave-idle/verify-engine.cjs": "f6262a4ced9c9fefc105c1339b485129097f66c4616fa6377fde03a18469fbce",
-        "games/starweave-idle/verify-ui.cjs": "24866620e4febe2a365bb39170c30960ac2b02986cbdb41e34bf63f19a154d6a",
-        "games/starweave-idle/verify.cjs": "fd8e1c6eb8cbdea2ae5b8ea636c2c46d076da4662ff63177734bf3374316bb83",
-        "games/starweave-idle.html": "7d4f79174c01619cf333a2dc68c2fc01da07bcab5f0c32036a484320bf538458"
+        "games/starweave-idle/style.css": "602befdc0958d6b16b0606066af3c8e940a0434f4f2253919def41225522dca9",
+        "games/starweave-idle/ui-verification.json": "d2003786ae1877a399b1555b9cff5e6321d27bbb0de54bd0a06864bd644d980a",
+        "games/starweave-idle/ui.js": "1d7455f7d56e13b8afe01e58e1f4e8cb3fed4da6eafd216a46c6a2f31cb3f9d9",
+        "games/starweave-idle/verification-report.json": "d3bd397e3e58b63db78b8597a98b8cf28e3ad641a1437796e803805c16792bf9",
+        "games/starweave-idle/verify-cap.cjs": "f5bebaf36e9b39cccc1ffc98508163a384bdfc9e24181d403d45ef34b0a4f8f6",
+        "games/starweave-idle/verify-engine.cjs": "a20523ddbb363088e98021e99faf4d16c77aabf6494ed32a2dbedaf50e8a6305",
+        "games/starweave-idle/verify-ui.cjs": "2f031ec791853ac47c405df549efa8ca7f68ecd404bbf008aaa7e448488b1f4a",
+        "games/starweave-idle/verify.cjs": "e841c5517bcb5f70e9faff6771ac67bfd717a765cead11c661bfc7cb7708a048",
+        "games/starweave-idle.html": "9b3d296fa9aa478303bb79d8b30097192eeee5b13f7d1fbb1193deb157da27de"
       },
       "storageNamespace": "arcade.starweave-idle.save.v1",
       "storageKeys": [
@@ -316,7 +316,8 @@
       "lockNames": [
         "arcade.starweave-idle.save.v1.writer"
       ],
-      "sourceTransforms": []
+      "sourceTransforms": [],
+      "revision": "v2-unified-backpack-continuous-world"
     }
   ],
   "rootReversibleChanges": {
@@ -379,6 +380,21 @@
       {
         "before": "  { id: 'simulation', title: '經營冒險', description: '規劃資源、探索世界，或即時指揮航線。', examples: '鐵道・餐廳・空中指揮所', icon: '✈', color: '#a8d9d2', gameIds: ['tiny-orbit', 'railway-town', 'merge-bistro', 'space-rescue', 'backpack-dungeon', 'island-colony', 'air-traffic', 'hotel-manager', 'repair-shop', 'museum-curator', 'theater-manager', 'caravan-trade', 'tower-defense', 'deep-sea-treasure', 'time-loop-adventure', 'conservation-park', 'alchemy-lab'] },",
         "after": "  {\"id\":\"simulation\",\"title\":\"經營冒險\",\"description\":\"規劃資源、探索世界，或即時指揮航線。\",\"examples\":\"鐵道・餐廳・空中指揮所\",\"icon\":\"✈\",\"color\":\"#a8d9d2\",\"gameIds\":[\"tiny-orbit\",\"railway-town\",\"merge-bistro\",\"space-rescue\",\"backpack-dungeon\",\"island-colony\",\"air-traffic\",\"hotel-manager\",\"repair-shop\",\"museum-curator\",\"theater-manager\",\"caravan-trade\",\"tower-defense\",\"deep-sea-treasure\",\"time-loop-adventure\",\"conservation-park\",\"alchemy-lab\",\"starweave-idle\"]},",
+        "occurrences": 1
+      },
+      {
+        "before": "20261005-starweave-idle-v1",
+        "after": "20261005-starweave-unified-v2",
+        "occurrences": 1
+      },
+      {
+        "before": "{\"id\":\"starweave-idle\",\"title\":\"星絨法師：自走遠征\",\"category\":\"strategy\",\"description\":\"讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。\",\"note\":\"全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退\",\"art\":\"starweave-idle\",\"color\":\"#f4e7cc\",\"background\":\"#708b73\",\"word\":\"星\",\"status\":\"ready\",\"url\":\"./games/starweave-idle.html\",\"badge\":\"自走冒險 · 第一版\"}",
+        "after": "{\"id\":\"starweave-idle\",\"title\":\"星絨法師：自走遠征\",\"category\":\"strategy\",\"description\":\"小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。\",\"note\":\"置中捲動世界・統一背包・換裝戰力提示・法師自動冒險\",\"art\":\"starweave-idle\",\"color\":\"#f4e7cc\",\"background\":\"#708b73\",\"word\":\"星\",\"status\":\"ready\",\"url\":\"./games/starweave-idle.html\",\"badge\":\"自走冒險 · 背包新版\"}",
+        "occurrences": 1
+      },
+      {
+        "before": "{\"starweave-idle\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/starweave-idle/art.svg\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"}",
+        "after": "{\"starweave-idle\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/starweave-idle/art.svg?v=2\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"}",
         "occurrences": 1
       }
     ],
@@ -487,6 +503,11 @@
         "before": "四百零一個小世界，二十五種探索方向。",
         "after": "四百零一個小世界，二十五種探索方向。經營冒險新增星絨法師：自走遠征，自動探索、施法與撿寶，由你配點、換裝與強化。",
         "occurrences": 1
+      },
+      {
+        "before": "20261005-starweave-idle-v1",
+        "after": "20261005-starweave-unified-v2",
+        "occurrences": 2
       }
     ],
     "README.md": [
@@ -579,6 +600,16 @@
         "before": "搜尋始終涵蓋全部 400 款",
         "after": "搜尋始終涵蓋全部 401 款",
         "occurrences": 1
+      },
+      {
+        "before": "[星絨法師：自走遠征](games/starweave-idle.html) 加入「經營冒險」，該分類現有 18 款。原創可愛 2D 放置冒險：小法師自動探索、施法、拾取戰利品、撤退及回復；你負責屬性與技能配點、裝備選擇、戰利品籃批量出售與強化。五種視覺地區循環變化，並非數千張手工地圖。沒有離線收益；分頁背景時暫停。戰利品籃達安全容量會保留最後掉落並停止推進，出售後可繼續。",
+        "after": "[星絨法師：自走遠征](games/starweave-idle.html) 更新為統一背包與連續世界版本，仍在「經營冒險」18 款之中。小法師保持畫面中央，沿右上方自動探索；敵人由左上、右上、右下逐步接近，左下保留回營退路。小法師會實際走回安全營地，才回復並再次遠征。所有舊背包與戰利品籃物品合併保存，保留鎖定與強化；不自動出售。背包分頁顯示，可勾選物品後確認出售，已裝備或鎖定物品受保護。換裝提示比較整套角色的戰力指標，而非只比單件物品數字；指標不保證實際勝負。五種視覺地區循環變化，沒有離線收益；分頁背景時暫停。",
+        "occurrences": 1
+      },
+      {
+        "before": "只新增這個入口及其專屬資產／存檔；原有 400 筆記錄、相對次序、分類成員、插畫、網址與所有既有遊戲檔案完整保留。經典區仍為十款。來源包含 24 項核心測試、10 組合法操作成長模擬、自然滿籃保全／出售後恢復、38 項介面儲存檢查；兩次 70 秒正常倍速引擎記錄依相同引擎雜湊沿用，並非瀏覽器 FPS、真人長玩或樂趣認證。",
+        "after": "本次只修改既有法師頁面與其專屬資產、驗證及這張卡片的介紹。401 款、25 類及排列不變；其他 400 款遊戲與其存檔完全保留，法師的原有儲存命名空間也不變。來源包含 14 項引擎檢查、6 組空間成長模擬、10,005 件物品保存壓力測試、53 項介面檢查及 960 個斷言。兩次約 223.7 秒正常倍速引擎記錄驗證移動、實際撤退、營地回復及再出發；不是瀏覽器 FPS、真人長玩或樂趣認證。背包可隨收集擴充，但仍受瀏覽器記憶體與儲存限制。",
+        "occurrences": 1
       }
     ],
     "verify-all.cjs": [
@@ -590,14 +621,14 @@
     ]
   },
   "rootFiles": {
-    "app.js": "681e670675e985cb742fd23472b53ad2be097c9587d6c4bbf53d6bdad9441f67",
-    "index.html": "6609bb95bb1506c0ae62f6253086422bd5f16865911eab2ccaa9a5c912ee4aa9",
-    "README.md": "2fd5e9745d7a411878932f0f45b3056987946a59236a6b40da16795ea9ee76f5",
+    "app.js": "a608ea80fe672ea9be5d5e11f14df5d53c9852766007dc513eebce5195bfd219",
+    "index.html": "8b90bd853117d24c3a911e959f8389fdedcc482c61a71a06bed86e2e3f10837a",
+    "README.md": "a4e5b06f65ff35c6a1250b0497867b4994d689094fa473eb87cebe4fa0d30abe",
     "verify-all.cjs": "b0a97c09b7ed6dbbe43191a4d947db0efe4842739927ebb07bc1e3183c47d6a9"
   },
   "supportFiles": {
     "garden-aquarium-baseline.json": "dabab7c18fe61f01decb5cbefbcde4dbffea7a4db0f492d8887a133b3559a05e",
-    "verify-garden-aquarium.cjs": "63f61feba2c419ebe99e4cfb4cd2667e1c089e9e2d3572fc15b0f4880269adc0",
+    "verify-garden-aquarium.cjs": "23ef9333af109ced28ca70cf983b79265736a18bdea551478c7297cba6dd6c8f",
     "verification/verify-wondertide.cjs": "f2a36010daa68c6d5369f1d910093573a7ab199929525c975d5080f15c260db6",
     "verification/wondertide-browser-qa-plan.md": "ff5336b25b0ed3b3758580c456851b822827e41562b29c3f7116098f5204356e",
     "verification/wondertide-legacy-fixtures.json": "ba4e8b21b1571ab630d231fd2536237bccfe411dcb2cab4c29172c04dd4c7a02",
@@ -611,7 +642,7 @@
     "commercialQualityCertified": false,
     "twentyMinutesPerLevelVerified": false
   },
-  "scope": "401/25 catalog; append original Starweave Idle to simulation category only. All previous games, balance, saves and classic category preserved.",
+  "scope": "Revise only existing Starweave Idle to unified backpack, whole-build comparison and centered continuous world. Counts401/25 unchanged, simulation18/classics10. Other400 games and mage storage namespace preserved.",
   "sourceReviewBindings": {
     "garden-watchline": {
       "accepted": true,
@@ -633,18 +664,17 @@
     },
     "starweave-idle": {
       "accepted": true,
-      "runtimeSHA256": "28e5cdc7561e2deda90836e626ed01d501e5d9a2103d7a27e3b147e837465b2f",
-      "scope": "Independent exact-source engine and UI review, simulated legal actions and source-bound retained normal-speed engine evidence; actual browser and human acceptance remain separate.",
+      "runtimeSHA256": "19e530a79722e0e28ad51f2481e8ad41a9344989b97136c9c745b463be3c7361",
+      "scope": "Independent exact-source V2 engine/spatial/inventory/UI evidence, retained final-engine actual-time trace, and private legacy-save preservation. Browser and human acceptance remain separate.",
       "actualBrowser": false
     }
   },
   "latestIntegration": {
-    "baseCommit": "060faa55de099853e1e31b427d7729f126ac49ed",
-    "baseTreeSHA": "8bf7d0bbee0744d89f13c506b683d5ef879b8774",
-    "baseBlobCount": 3828,
-    "baseCatalogCount": 400,
+    "baseCommit": "4254603df9278e9734585a8b15bdcc39d418e85c",
+    "baseTreeSHA": "61c7b697faf09e1c27a58f0c766761333a870b69",
+    "baseBlobCount": 3848,
+    "baseCatalogCount": 401,
     "baseClassicCount": 10,
-    "addedID": "starweave-idle",
     "previousAddedRegistryRecords": [
       {
         "id": "garden-watchline",
@@ -725,7 +755,10 @@
       "actualBrowserQAPassed": false,
       "allLegacyEnginesRerun": false
     },
-    "addedFiles": [
+    "addedFiles": [],
+    "modifiedExisting": [
+      "README.md",
+      "app.js",
       "games/starweave-idle.html",
       "games/starweave-idle/README.md",
       "games/starweave-idle/art.svg",
@@ -737,7 +770,6 @@
       "games/starweave-idle/realtime-verification.json",
       "games/starweave-idle/release-manifest.json",
       "games/starweave-idle/render.js",
-      "games/starweave-idle/storage.js",
       "games/starweave-idle/style.css",
       "games/starweave-idle/ui-verification.json",
       "games/starweave-idle/ui.js",
@@ -745,17 +777,13 @@
       "games/starweave-idle/verify-cap.cjs",
       "games/starweave-idle/verify-engine.cjs",
       "games/starweave-idle/verify-ui.cjs",
-      "games/starweave-idle/verify.cjs"
-    ],
-    "modifiedExisting": [
-      "README.md",
-      "app.js",
+      "games/starweave-idle/verify.cjs",
       "garden-aquarium-release.json",
       "index.html",
       "verify-garden-aquarium.cjs"
     ],
     "primaryCategory": "simulation",
-    "preservedPreviousGameFiles": true,
+    "preservedPreviousGameFiles": false,
     "retainedBaselineVerification": {
       "baseCommit": "060faa55de099853e1e31b427d7729f126ac49ed",
       "baseTreeSHA": "8bf7d0bbee0744d89f13c506b683d5ef879b8774",
@@ -808,8 +836,53 @@
         }
       ],
       "evidenceSHA256": "291ba83880b179a30ae1f7c3da978b0103984a7630b0f6547bd7fc96d2932f63",
-      "condition": "No previously published game source, asset, report or test file changed; candidate whole-tree preservation independently verified.",
+      "condition": "PR50 game sources remain byte-identical; affected Starweave V2 source is verified separately.",
       "replayedInScopedRun": false
+    },
+    "updatedID": "starweave-idle",
+    "preservedOtherGameFiles": true,
+    "unchangedStorageFile": "games/starweave-idle/storage.js",
+    "registryUpdate": {
+      "id": "starweave-idle",
+      "before": {
+        "id": "starweave-idle",
+        "title": "星絨法師：自走遠征",
+        "category": "strategy",
+        "description": "讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。",
+        "note": "全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退",
+        "art": "starweave-idle",
+        "color": "#f4e7cc",
+        "background": "#708b73",
+        "word": "星",
+        "status": "ready",
+        "url": "./games/starweave-idle.html",
+        "badge": "自走冒險 · 第一版"
+      },
+      "after": {
+        "id": "starweave-idle",
+        "title": "星絨法師：自走遠征",
+        "category": "strategy",
+        "description": "小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。",
+        "note": "置中捲動世界・統一背包・換裝戰力提示・法師自動冒險",
+        "art": "starweave-idle",
+        "color": "#f4e7cc",
+        "background": "#708b73",
+        "word": "星",
+        "status": "ready",
+        "url": "./games/starweave-idle.html",
+        "badge": "自走冒險 · 背包新版"
+      },
+      "allowedChanges": [
+        "description",
+        "note",
+        "badge"
+      ]
+    },
+    "artMarkupUpdate": {
+      "key": "starweave-idle",
+      "beforeSHA256": "05a4f9cc12ce3a573e15fa9269c09a6c2e281cac6df5741a82da3999127449f5",
+      "afterSHA256": "572b7efe92696a4be2390af67acee8925229a90bfa3650dfe9d17e5316fc2fa3",
+      "purpose": "V2 cover cache token; no other art markup changes."
     }
   },
   "nonClassicIDs": [
