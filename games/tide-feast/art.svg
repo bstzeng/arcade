@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520" fill="none">
+  <title>潮汐食物鏈 — a little light in the living ocean</title>
+  <desc>Original layered vector illustration: a luminous golden young fish explores a deep teal ocean among green shoals, coral, kelp, and a large vermilion predator.</desc>
+  <defs>
+    <linearGradient id="water" x1="125" y1="0" x2="677" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#156B80"/>
+      <stop offset=".52" stop-color="#0D465F"/>
+      <stop offset="1" stop-color="#082B43"/>
+    </linearGradient>
+    <radialGradient id="glade" cx="0" cy="0" r="1" gradientTransform="translate(319 258) rotate(90) scale(226 275)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4BBBA4" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#4BBBA4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ray" x1="255" y1="0" x2="255" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A5EFD1" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#A5EFD1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="285" y1="224" x2="389" y2="317" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEDA4"/>
+      <stop offset=".59" stop-color="#FFD371"/>
+      <stop offset="1" stop-color="#F3A153"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="800" height="520" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#water)" d="M0 0h800v520H0z"/>
+    <path fill="url(#glade)" d="M0 0h800v520H0z"/>
+    <path fill="url(#ray)" d="M118-30 259-30 513 449 357 468Z"/>
+    <path fill="url(#ray)" d="M291-20 346-20 571 384 515 398Z"/>
+    <path fill="url(#ray)" d="M-35-30 25-30 180 335 132 346Z"/>
+    <path d="M-33 44C70 77 129 19 234 29s133 45 249 20 201-29 348-2" stroke="#69C2C2" stroke-opacity=".13" stroke-width="2"/>
+    <path d="M-30 67C82 99 159 45 255 57s137 36 245 14 219-23 324-2" stroke="#69C2C2" stroke-opacity=".08" stroke-width="2"/>
+    <path d="M-80 387C82 282 133 372 233 378s132-89 255-40 161-35 257-43l103 236H-63Z" fill="#0D4055"/>
+    <path d="M-40 440C73 347 173 433 244 426s161-74 265-24 172-59 319-63v202H-40Z" fill="#0B3549"/>
+    <!-- Far shoal: subtle indigo silhouettes. -->
+    <g fill="#498798" opacity=".32">
+      <path d="m121 127-13-8 2 12-2 11 13-8c10 12 30 6 35-3-6-9-25-16-35-4Z"/>
+      <path d="m172 106-9-6 1 8-1 8 9-6c8 8 22 4 26-2-4-7-18-12-26-2Z"/>
+      <path d="m183 148-11-7 2 10-2 9 11-7c9 10 25 4 30-2-5-8-21-13-30-3Z"/>
+      <path d="m225 128-8-5 1 7-1 7 8-6c7 8 19 4 23-1-4-6-16-10-23-2Z"/>
+      <path d="m695 329 11-6-1 9 1 8-11-6c-8 10-24 4-28-2 4-7 20-12 28-3Z"/>
+      <path d="m722 347 8-5-1 7 1 6-8-5c-6 7-17 3-20-1 3-5 14-9 20-2Z"/>
+    </g>
+    <!-- Distant kelp and winding seabed. -->
+    <g fill="#125666">
+      <path d="M87 520c-23-63-46-96-44-153 2-34 20-72 12-110 23 26 14 59 11 90-4 43 37 79 42 173Z"/>
+      <path d="M101 448c-16-50 15-70 22-104 8-34 6-39 1-57 31 34 13 72-3 107-9 20-2 38 6 54Z"/>
+      <path d="M704 507c-10-74 3-118 19-159 11-29 18-51 7-80 27 29 20 61 7 94-16 39-4 93-5 145Z"/>
+      <path d="M756 511c-6-44 5-61 22-86s15-48 11-64c26 41-4 63-5 95-1 26 5 41 6 55Z"/>
+    </g>
+    <!-- A large hunter cruises through the darker upper water. -->
+    <g transform="rotate(-9 633 184)">
+      <path d="m720 177 73-54-10 58 12 52-75-32Z" fill="#B95555"/>
+      <path d="m754 180 27-40-9 42 9 33-31-23Z" fill="#DD7866"/>
+      <path d="m617 141 36-52 30 55Z" fill="#CE635E"/>
+      <path d="m626 217 38 40 22-51Z" fill="#A84550"/>
+      <path d="M746 185c-20-39-65-67-119-55-44 10-74 31-97 58l25 9-11 13c31 20 60 29 98 26 50-5 85-23 104-51Z" fill="#E67A69"/>
+      <path d="M544 210c33 3 63 6 101-2 40-8 73-23 91-38l10 15c-20 28-57 47-104 51-37 3-67-6-98-26Z" fill="#C45858"/>
+      <path d="M567 159c32-20 60-25 95-19" stroke="#F4AA87" stroke-opacity=".7" stroke-width="5" stroke-linecap="round"/>
+      <path d="m641 184 32-14-4 32c-11-3-18-7-28-18Z" fill="#A74450"/>
+      <path d="M614 160c-10 13-12 29-8 44" stroke="#B54D54" stroke-width="4" stroke-linecap="round"/>
+      <path d="m542 187 45 11-30 8-13 4 11-13-25-9Z" fill="#702F42"/>
+      <path d="m550 191 10 3-5 7Z" fill="#FDE3BE"/>
+      <path d="m568 196 10 2-6 5Z" fill="#FDE3BE"/>
+      <circle cx="579" cy="171" r="9" fill="#FFD796"/>
+      <circle cx="577" cy="172" r="4.5" fill="#292E41"/>
+      <path d="m570 163 17-1" stroke="#B44C54" stroke-width="5" stroke-linecap="round"/>
+      <path d="m663 117 8 21" stroke="#E18371" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- The newborn: simple warm shapes, bright attentive eye. -->
+    <g transform="rotate(-6 334 276)">
+      <path d="M279 267c-18-20-41-25-61-30 4 14 12 26 19 36-10 14-14 28-13 41 27-7 43-16 58-29Z" fill="#F4A458"/>
+      <path d="M262 272c-14-9-23-15-34-24l17 25-12 27c14-7 23-14 30-22Z" fill="#FFD07C"/>
+      <path d="M307 236c10-25 31-35 51-34l-6 33Z" fill="#ECAE5C"/>
+      <path d="M313 238c10-20 21-27 31-29l-4 25Z" fill="#FFDC85"/>
+      <path d="m313 308 37 29 13-32Z" fill="#F09C55"/>
+      <path d="M274 274c4-28 28-47 62-47 35 0 66 20 78 48-7 27-31 47-67 46-39-1-66-17-73-47Z" fill="url(#hero)"/>
+      <path d="M286 290c25 19 66 28 99 9 11-6 19-12 28-21-8 26-32 44-66 43-29-1-50-10-61-31Z" fill="#EFAC60" opacity=".65"/>
+      <path d="M294 253c14-16 38-21 57-17" stroke="#FFF4BE" stroke-width="7" stroke-linecap="round"/>
+      <path d="M331 276c-2 9-1 17 3 23" stroke="#D48A4E" stroke-width="3" stroke-linecap="round"/>
+      <path d="M326 280c-17-12-25-7-32 0 8 12 19 17 30 14Z" fill="#FFE39A"/>
+      <path d="m302 281 18 6" stroke="#ECA959" stroke-width="2" stroke-linecap="round"/>
+      <ellipse cx="377" cy="264" rx="12" ry="13" fill="#FFF9D9"/>
+      <ellipse cx="380" cy="265" rx="6.5" ry="8" fill="#263C46"/>
+      <circle cx="382" cy="261" r="2.4" fill="#FFF"/>
+      <path d="M397 283q7 4 12-1" stroke="#A66643" stroke-width="2.8" stroke-linecap="round"/>
+      <ellipse cx="365" cy="287" rx="8" ry="4" fill="#F1AB63"/>
+    </g>
+    <!-- Edible little moonfish, spaced into a sweeping shoal. -->
+    <g transform="translate(466 336) rotate(-16)">
+      <path d="m-24-2-18-14 3 16-3 15 18-13Z" fill="#69A77B"/>
+      <path d="m-4-13 6-11 8 11" fill="#8CC794"/>
+      <path d="M-27 0C-20-22 10-21 24 0 9 20-19 21-27 0Z" fill="#A3D69B"/>
+      <path d="M-23 5C-11 12 6 12 21 2 8 21-18 20-23 5Z" fill="#6FB78A"/>
+      <path d="m-7 0-6 7 12-2" fill="#D1E8A7"/>
+      <circle cx="11" cy="-3" r="3.7" fill="#EDF5C8"/><circle cx="12" cy="-3" r="2" fill="#21494C"/>
+    </g>
+    <g transform="translate(527 295) rotate(-12) scale(.75)">
+      <path d="m-24-2-18-14 3 16-3 15 18-13Z" fill="#609F80"/>
+      <path d="m-4-13 6-11 8 11" fill="#8FC99B"/>
+      <path d="M-27 0C-20-22 10-21 24 0 9 20-19 21-27 0Z" fill="#A8D5A1"/>
+      <path d="M-23 5C-11 12 6 12 21 2 8 21-18 20-23 5Z" fill="#77B58C"/>
+      <circle cx="11" cy="-3" r="3.7" fill="#F0F5CB"/><circle cx="12" cy="-3" r="2" fill="#21494C"/>
+    </g>
+    <g transform="translate(537 363) rotate(-13) scale(.88)">
+      <path d="m-24-2-18-14 3 16-3 15 18-13Z" fill="#70B191"/>
+      <path d="m-4-13 6-11 8 11" fill="#91CCA3"/>
+      <path d="M-27 0C-20-22 10-21 24 0 9 20-19 21-27 0Z" fill="#BBDCAA"/>
+      <path d="M-23 5C-11 12 6 12 21 2 8 21-18 20-23 5Z" fill="#86BE96"/>
+      <circle cx="11" cy="-3" r="3.7" fill="#F0F5CB"/><circle cx="12" cy="-3" r="2" fill="#21494C"/>
+    </g>
+    <g transform="translate(592 330) rotate(-17) scale(.61)">
+      <path d="m-24-2-18-14 3 16-3 15 18-13Z" fill="#619C82"/>
+      <path d="M-27 0C-20-22 10-21 24 0 9 20-19 21-27 0Z" fill="#8BC4A0"/>
+      <circle cx="11" cy="-3" r="3.7" fill="#EAF1CA"/><circle cx="12" cy="-3" r="2" fill="#21494C"/>
+    </g>
+    <!-- Plankton, tiny twinkles and suspended bubbles. -->
+    <g fill="#D7EAA8">
+      <circle cx="169" cy="228" r="2.8"/><circle cx="207" cy="192" r="1.8"/><circle cx="265" cy="181" r="3.4"/>
+      <circle cx="328" cy="167" r="2"/><circle cx="412" cy="207" r="3"/><circle cx="431" cy="299" r="2.4"/>
+      <circle cx="393" cy="369" r="2"/><circle cx="342" cy="390" r="3"/><circle cx="252" cy="352" r="2.4"/>
+      <circle cx="627" cy="269" r="2"/><circle cx="607" cy="405" r="2.3"/><circle cx="88" cy="187" r="2"/>
+    </g>
+    <g fill="#B8E6C2" opacity=".55">
+      <circle cx="129" cy="296" r="1.4"/><circle cx="469" cy="251" r="1.3"/><circle cx="240" cy="412" r="1.4"/>
+      <circle cx="383" cy="125" r="1.6"/><circle cx="506" cy="103" r="1.7"/><circle cx="677" cy="400" r="1.5"/>
+      <circle cx="561" cy="436" r="1.4"/><circle cx="174" cy="366" r="1.8"/><circle cx="716" cy="82" r="1.5"/>
+    </g>
+    <g stroke="#AEDCC4" stroke-opacity=".38" stroke-width="1.5">
+      <circle cx="422" cy="157" r="7"/><circle cx="438" cy="126" r="3.5"/><circle cx="150" cy="318" r="4.5"/>
+      <circle cx="192" cy="267" r="3"/><circle cx="674" cy="286" r="5"/>
+    </g>
+    <g fill="#ECF3B3">
+      <path d="m294 371 2-6 2 6 6 2-6 2-2 6-2-6-6-2Z"/>
+      <path d="m449 224 1.5-4.5 1.5 4.5 4.5 1.5-4.5 1.5-1.5 4.5-1.5-4.5-4.5-1.5Z"/>
+    </g>
+    <!-- Seabed foreground frames the open-water play space. -->
+    <path d="M-24 494c74-56 160-23 229-14 88 12 122-6 179-12 98-10 121 35 205 13 73-19 160-25 235-11v63H-24Z" fill="#082E3D"/>
+    <path d="M-21 513c65-43 117-36 176-23 82 18 109 9 174 6 88-6 123 29 217 10 78-15 165-36 272-20v51H-21Z" fill="#072633"/>
+    <g fill="#286E70">
+      <path d="M22 519c25-63 41-104 20-160 44 39 33 88-1 160Z"/>
+      <path d="M29 501c-28-41-40-61-32-101 10 39 45 52 45 91Z"/>
+      <path d="M47 518c1-36 17-70 40-87-13 32-11 59-22 87Z"/>
+      <path d="M768 520c-21-47-39-88-23-135-36 38-24 82 4 135Z"/>
+      <path d="M773 488c34-42 27-65 17-83 0 32-22 44-27 73Z"/>
+    </g>
+    <g stroke="#D78873" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M118 502v-65m0 26-21-14v-26m21 27 21-19v-20m-21 38v-29m-21 16-13-13m55 13 15-8"/>
+    </g>
+    <g stroke="#E4A48A" stroke-width="3" stroke-linecap="round">
+      <path d="M116 493v-48m-21-3v-15m42-4v-9"/>
+    </g>
+    <g fill="#B17579">
+      <path d="M622 497c-15-17-16-36-7-39 10-3 10 12 12 21-2-33 5-44 14-41s6 24 0 45c11-24 19-29 25-23s-1 22-17 40Z"/>
+      <path d="M670 496c-5-24 1-39 9-37s9 16 5 30c13-19 24-22 26-13s-8 18-20 25Z"/>
+    </g>
+    <g fill="#5B8D87">
+      <ellipse cx="188" cy="493" rx="16" ry="6"/><ellipse cx="572" cy="498" rx="10" ry="4"/><ellipse cx="711" cy="497" rx="17" ry="6"/>
+    </g>
+    <g fill="#A0B39A" opacity=".65">
+      <circle cx="168" cy="507" r="2"/><circle cx="218" cy="493" r="1.5"/><circle cx="581" cy="514" r="1.5"/><circle cx="724" cy="510" r="2"/>
+    </g>
+  </g>
+</svg>
