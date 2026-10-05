@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "garden-aquarium-30-campaign-release",
-  "build": "20261005-starweave-unified-v2",
+  "build": "20261005-starweave-bestiary-v3",
   "baseCommit": "06cb82afb849cd0723ab54a6017405ee7aa09bf6",
   "baseTreeSHA": "a5a404bf096c3aad2b87f1e784dd8e1bc91f1ccc",
   "gameCount": 401,
@@ -60,15 +60,15 @@
       "id": "starweave-idle",
       "title": "星絨法師：自走遠征",
       "category": "strategy",
-      "description": "小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。",
-      "note": "置中捲動世界・統一背包・換裝戰力提示・法師自動冒險",
+      "description": "小法師自動遠征，邂逅 50 種怪物與 10 位首領，收寶、配點與強化。",
+      "note": "50 種怪物・10 位首領・可愛圖鑑・置中捲動自動冒險",
       "art": "starweave-idle",
       "color": "#f4e7cc",
       "background": "#708b73",
       "word": "星",
       "status": "ready",
       "url": "./games/starweave-idle.html",
-      "badge": "自走冒險 · 背包新版"
+      "badge": "自走冒險 · 怪物圖鑑"
     }
   ],
   "category": {
@@ -267,46 +267,50 @@
         "id": "starweave-idle",
         "title": "星絨法師：自走遠征",
         "category": "strategy",
-        "description": "小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。",
-        "note": "置中捲動世界・統一背包・換裝戰力提示・法師自動冒險",
+        "description": "小法師自動遠征，邂逅 50 種怪物與 10 位首領，收寶、配點與強化。",
+        "note": "50 種怪物・10 位首領・可愛圖鑑・置中捲動自動冒險",
         "art": "starweave-idle",
         "color": "#f4e7cc",
         "background": "#708b73",
         "word": "星",
         "status": "ready",
         "url": "./games/starweave-idle.html",
-        "badge": "自走冒險 · 背包新版"
+        "badge": "自走冒險 · 怪物圖鑑"
       },
       "runtimeFiles": {
-        "games/starweave-idle.html": "9b3d296fa9aa478303bb79d8b30097192eeee5b13f7d1fbb1193deb157da27de",
-        "games/starweave-idle/engine.js": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
-        "games/starweave-idle/render.js": "e78fd34a30b1c4de2e081c411278accad16eda36770fb9c6467078cc6f69365f",
+        "games/starweave-idle.html": "5517edbeed9470f0a35cb2c0031f1eafffb3b9c01a3f154b36d9c10475fc3cff",
+        "games/starweave-idle/engine.js": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+        "games/starweave-idle/render.js": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525",
         "games/starweave-idle/storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
-        "games/starweave-idle/ui.js": "1d7455f7d56e13b8afe01e58e1f4e8cb3fed4da6eafd216a46c6a2f31cb3f9d9",
-        "games/starweave-idle/style.css": "602befdc0958d6b16b0606066af3c8e940a0434f4f2253919def41225522dca9",
-        "games/starweave-idle/art.svg": "0ad4a4802847e6404fdd8ff7b1b9b1f9db565c9119937e4b0dbf6c79aab3ebb2"
+        "games/starweave-idle/ui.js": "d267326121361c7adcab72a55a278b21fcdab628cfff72e9f53931bce05f622b",
+        "games/starweave-idle/style.css": "33ea8baf9af141a39a91cb118c9bdd84a0e320506b78111ddb5ad530b5a3534b",
+        "games/starweave-idle/art.svg": "0ad4a4802847e6404fdd8ff7b1b9b1f9db565c9119937e4b0dbf6c79aab3ebb2",
+        "games/starweave-idle/bestiary.js": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43"
       },
       "publishFiles": {
-        "games/starweave-idle/README.md": "a65c9d6a8c28075a85a3b378f7d5e79e7cdf3a31121e1c5909099b3c9f661bbf",
+        "games/starweave-idle.html": "5517edbeed9470f0a35cb2c0031f1eafffb3b9c01a3f154b36d9c10475fc3cff",
+        "games/starweave-idle/README.md": "e81a16640f2b83c5be1921148f96bbb8003bcb3d2f718b9fea26171bb7ffe94e",
         "games/starweave-idle/art.svg": "0ad4a4802847e6404fdd8ff7b1b9b1f9db565c9119937e4b0dbf6c79aab3ebb2",
-        "games/starweave-idle/asset-provenance.json": "a62102693cab7f6fc14c297ed1161ce1dbb3a8e2c972be8944258fd15ddc9460",
-        "games/starweave-idle/cap-verification-results.json": "2e039657ffd71390060af2d28209cabb6a7ed0c297a8477c8cee69946e5c9ddb",
-        "games/starweave-idle/catalog.json": "e52194309c6f0e2a661061fa6d3b73d209732dd4754ab5f23a51e85375994d95",
-        "games/starweave-idle/engine-verification-results.json": "88287f223fc26c5858d838cd8bc92a3cfa04d830700f0b8cfc1f5607e1e7bc8c",
-        "games/starweave-idle/engine.js": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
-        "games/starweave-idle/realtime-verification.json": "a1176bca6392fc5ff3708945a330b9cad7f874cef78f1a148eb08f342f4f3612",
-        "games/starweave-idle/release-manifest.json": "540407cf44e1a5fe9ea2416d4f6c57a7a6e5313ebc75a4ff43fbb89f92d9862f",
-        "games/starweave-idle/render.js": "e78fd34a30b1c4de2e081c411278accad16eda36770fb9c6467078cc6f69365f",
+        "games/starweave-idle/asset-provenance.json": "b480ca4c2b971e19fff9b2f26c949930d5ffd2724db38bae7f631d7bea5f644c",
+        "games/starweave-idle/bestiary-verification.json": "827e30db782ebebcfd035f24da25043a903e1d75572de83c096da59e6243f937",
+        "games/starweave-idle/bestiary.js": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
+        "games/starweave-idle/cap-verification-results.json": "d9a66e2127452d1bed7342d6e537fcbffbcc4a8d7e5a2fe4b3dd0d1160b2e21b",
+        "games/starweave-idle/catalog.json": "763ac373198e5d7979c87e470d17808b70f0645c4a19f6da0542d8e7655dddbc",
+        "games/starweave-idle/engine-verification-results.json": "f9cd63a6fcd99f8a4986d092dcd8b829e8294bf3091c4487bb68cc790559dbaa",
+        "games/starweave-idle/engine.js": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+        "games/starweave-idle/realtime-verification.json": "435aeb97e3a78b64bac478d849401fce76dae8750ae4e94e2f701c1d17c6e435",
+        "games/starweave-idle/release-manifest.json": "391eba0b57de4f25845d3d5e9412c6bbfbdf220d6eac2e196164086cab1f9902",
+        "games/starweave-idle/render-verification.json": "5bdeecc49079c942478ffacc1cf2ca0d3029b1e0a3a96cee8c303457b52faaa5",
+        "games/starweave-idle/render.js": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525",
         "games/starweave-idle/storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
-        "games/starweave-idle/style.css": "602befdc0958d6b16b0606066af3c8e940a0434f4f2253919def41225522dca9",
-        "games/starweave-idle/ui-verification.json": "d2003786ae1877a399b1555b9cff5e6321d27bbb0de54bd0a06864bd644d980a",
-        "games/starweave-idle/ui.js": "1d7455f7d56e13b8afe01e58e1f4e8cb3fed4da6eafd216a46c6a2f31cb3f9d9",
-        "games/starweave-idle/verification-report.json": "d3bd397e3e58b63db78b8597a98b8cf28e3ad641a1437796e803805c16792bf9",
+        "games/starweave-idle/style.css": "33ea8baf9af141a39a91cb118c9bdd84a0e320506b78111ddb5ad530b5a3534b",
+        "games/starweave-idle/ui-verification.json": "92ec796afca6af93681194b5d2dede22a75f0271c5bc083967d2391046bb1cd1",
+        "games/starweave-idle/ui.js": "d267326121361c7adcab72a55a278b21fcdab628cfff72e9f53931bce05f622b",
+        "games/starweave-idle/verification-report.json": "62c71b27c8f8f8f422b29523a373ae3287456b674466b1e8f87c4b85a5eedc70",
         "games/starweave-idle/verify-cap.cjs": "f5bebaf36e9b39cccc1ffc98508163a384bdfc9e24181d403d45ef34b0a4f8f6",
-        "games/starweave-idle/verify-engine.cjs": "a20523ddbb363088e98021e99faf4d16c77aabf6494ed32a2dbedaf50e8a6305",
-        "games/starweave-idle/verify-ui.cjs": "2f031ec791853ac47c405df549efa8ca7f68ecd404bbf008aaa7e448488b1f4a",
-        "games/starweave-idle/verify.cjs": "e841c5517bcb5f70e9faff6771ac67bfd717a765cead11c661bfc7cb7708a048",
-        "games/starweave-idle.html": "9b3d296fa9aa478303bb79d8b30097192eeee5b13f7d1fbb1193deb157da27de"
+        "games/starweave-idle/verify-engine.cjs": "c8a09a4d60f95f55be2eaabd9c8be4d89bd1ca49db1b03d2b344d6414da72a19",
+        "games/starweave-idle/verify-ui.cjs": "24b840ea30448c7deb8fc42792f60176e030bf55db103126ba9eec463b140287",
+        "games/starweave-idle/verify.cjs": "234cd25e1347b1cc5c67034de9abdc9333bf33805c0f97e2eabadd62c48fa605"
       },
       "storageNamespace": "arcade.starweave-idle.save.v1",
       "storageKeys": [
@@ -317,7 +321,7 @@
         "arcade.starweave-idle.save.v1.writer"
       ],
       "sourceTransforms": [],
-      "revision": "v2-unified-backpack-continuous-world"
+      "revision": "v3-fifty-creatures-ten-bosses-r2-cone-boundary"
     }
   ],
   "rootReversibleChanges": {
@@ -395,6 +399,21 @@
       {
         "before": "{\"starweave-idle\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/starweave-idle/art.svg\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"}",
         "after": "{\"starweave-idle\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/starweave-idle/art.svg?v=2\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"}",
+        "occurrences": 1
+      },
+      {
+        "before": "20261005-starweave-unified-v2",
+        "after": "20261005-starweave-bestiary-v3",
+        "occurrences": 1
+      },
+      {
+        "before": "{\"id\":\"starweave-idle\",\"title\":\"星絨法師：自走遠征\",\"category\":\"strategy\",\"description\":\"小法師沿右上方自動遠征，收集裝備、比較戰力，再從安全退路回營。\",\"note\":\"置中捲動世界・統一背包・換裝戰力提示・法師自動冒險\",\"art\":\"starweave-idle\",\"color\":\"#f4e7cc\",\"background\":\"#708b73\",\"word\":\"星\",\"status\":\"ready\",\"url\":\"./games/starweave-idle.html\",\"badge\":\"自走冒險 · 背包新版\"}",
+        "after": "{\"id\":\"starweave-idle\",\"title\":\"星絨法師：自走遠征\",\"category\":\"strategy\",\"description\":\"小法師自動遠征，邂逅 50 種怪物與 10 位首領，收寶、配點與強化。\",\"note\":\"50 種怪物・10 位首領・可愛圖鑑・置中捲動自動冒險\",\"art\":\"starweave-idle\",\"color\":\"#f4e7cc\",\"background\":\"#708b73\",\"word\":\"星\",\"status\":\"ready\",\"url\":\"./games/starweave-idle.html\",\"badge\":\"自走冒險 · 怪物圖鑑\"}",
+        "occurrences": 1
+      },
+      {
+        "before": "{\"starweave-idle\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/starweave-idle/art.svg?v=2\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"}",
+        "after": "{\"starweave-idle\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/starweave-idle/art.svg?v=3\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"}",
         "occurrences": 1
       }
     ],
@@ -508,6 +527,11 @@
         "before": "20261005-starweave-idle-v1",
         "after": "20261005-starweave-unified-v2",
         "occurrences": 2
+      },
+      {
+        "before": "20261005-starweave-unified-v2",
+        "after": "20261005-starweave-bestiary-v3",
+        "occurrences": 2
       }
     ],
     "README.md": [
@@ -610,6 +634,16 @@
         "before": "只新增這個入口及其專屬資產／存檔；原有 400 筆記錄、相對次序、分類成員、插畫、網址與所有既有遊戲檔案完整保留。經典區仍為十款。來源包含 24 項核心測試、10 組合法操作成長模擬、自然滿籃保全／出售後恢復、38 項介面儲存檢查；兩次 70 秒正常倍速引擎記錄依相同引擎雜湊沿用，並非瀏覽器 FPS、真人長玩或樂趣認證。",
         "after": "本次只修改既有法師頁面與其專屬資產、驗證及這張卡片的介紹。401 款、25 類及排列不變；其他 400 款遊戲與其存檔完全保留，法師的原有儲存命名空間也不變。來源包含 14 項引擎檢查、6 組空間成長模擬、10,005 件物品保存壓力測試、53 項介面檢查及 960 個斷言。兩次約 223.7 秒正常倍速引擎記錄驗證移動、實際撤退、營地回復及再出發；不是瀏覽器 FPS、真人長玩或樂趣認證。背包可隨收集擴充，但仍受瀏覽器記憶體與儲存限制。",
         "occurrences": 1
+      },
+      {
+        "before": "[星絨法師：自走遠征](games/starweave-idle.html) 更新為統一背包與連續世界版本，仍在「經營冒險」18 款之中。",
+        "after": "[星絨法師：自走遠征](games/starweave-idle.html) 新增 50 種普通怪物與 10 位首領，仍在「經營冒險」18 款之中。菁英狀態不另算一種普通怪物。每個地區有十種普通怪物、兩位首領；60 個固定身分具有原創輪廓、移動與攻擊角色，十位首領各有可預警的招式。遊戲內圖鑑每頁顯示 12 個項目，可篩選種類與地區，記錄遭遇及擊倒。統一背包與連續世界功能保留。",
+        "occurrences": 1
+      },
+      {
+        "before": "本次只修改既有法師頁面與其專屬資產、驗證及這張卡片的介紹。401 款、25 類及排列不變；其他 400 款遊戲與其存檔完全保留，法師的原有儲存命名空間也不變。來源包含 14 項引擎檢查、6 組空間成長模擬、10,005 件物品保存壓力測試、53 項介面檢查及 960 個斷言。兩次約 223.7 秒正常倍速引擎記錄驗證移動、實際撤退、營地回復及再出發；不是瀏覽器 FPS、真人長玩或樂趣認證。背包可隨收集擴充，但仍受瀏覽器記憶體與儲存限制。",
+        "after": "本次只修改既有法師頁面與其專屬資產、驗證及這張卡片的介紹。401 款、25 類及排列不變；其他 400 款遊戲與其存檔完全保留，法師的原有儲存命名空間也不變。來源 gate 包含 17 項公開引擎檢查、3 組合法成長模擬、10,005 件物品保存壓力測試、63 項介面檢查及 1,769 個斷言。所有 60 種生物實際攻擊、十位首領以合法動作擊倒的證據來自加速模擬；兩次 90 秒正常倍速引擎短程記錄另行保存，沒有把它們當成首領實戰或瀏覽器／真人長玩認證。視覺來源檢查確認 60 個不同單色幾何與輪廓，實際裝置可讀性、手機操作及樂趣仍需上線驗收。背包仍受瀏覽器記憶體與儲存限制。",
+        "occurrences": 1
       }
     ],
     "verify-all.cjs": [
@@ -621,14 +655,14 @@
     ]
   },
   "rootFiles": {
-    "app.js": "a608ea80fe672ea9be5d5e11f14df5d53c9852766007dc513eebce5195bfd219",
-    "index.html": "8b90bd853117d24c3a911e959f8389fdedcc482c61a71a06bed86e2e3f10837a",
-    "README.md": "a4e5b06f65ff35c6a1250b0497867b4994d689094fa473eb87cebe4fa0d30abe",
+    "app.js": "1889a2e57116615eb5f4140064e2779e5ded2bd05833dec87e55acb21abf5feb",
+    "index.html": "016b2dc99d3a18ba863f39357ca7cf286c3794c84037ae90a49a4c9da5da8a33",
+    "README.md": "90e646111dbca806b9e22857c810d4381ee95c407a3e0dec99d8afd61123942d",
     "verify-all.cjs": "b0a97c09b7ed6dbbe43191a4d947db0efe4842739927ebb07bc1e3183c47d6a9"
   },
   "supportFiles": {
     "garden-aquarium-baseline.json": "dabab7c18fe61f01decb5cbefbcde4dbffea7a4db0f492d8887a133b3559a05e",
-    "verify-garden-aquarium.cjs": "23ef9333af109ced28ca70cf983b79265736a18bdea551478c7297cba6dd6c8f",
+    "verify-garden-aquarium.cjs": "db9693ce983affeae697f371ed6edb5ff241212db16cd1add426c75c83abebfb",
     "verification/verify-wondertide.cjs": "f2a36010daa68c6d5369f1d910093573a7ab199929525c975d5080f15c260db6",
     "verification/wondertide-browser-qa-plan.md": "ff5336b25b0ed3b3758580c456851b822827e41562b29c3f7116098f5204356e",
     "verification/wondertide-legacy-fixtures.json": "ba4e8b21b1571ab630d231fd2536237bccfe411dcb2cab4c29172c04dd4c7a02",
@@ -642,7 +676,7 @@
     "commercialQualityCertified": false,
     "twentyMinutesPerLevelVerified": false
   },
-  "scope": "Revise only existing Starweave Idle to unified backpack, whole-build comparison and centered continuous world. Counts401/25 unchanged, simulation18/classics10. Other400 games and mage storage namespace preserved.",
+  "scope": "Existing Starweave V3 expansion: exactly50 normal species+10 bosses, elites excluded, fixed cone warning geometry. Counts401/25 and all ordering unchanged; other400 games and existing save namespace preserved.",
   "sourceReviewBindings": {
     "garden-watchline": {
       "accepted": true,
@@ -664,14 +698,14 @@
     },
     "starweave-idle": {
       "accepted": true,
-      "runtimeSHA256": "19e530a79722e0e28ad51f2481e8ad41a9344989b97136c9c745b463be3c7361",
-      "scope": "Independent exact-source V2 engine/spatial/inventory/UI evidence, retained final-engine actual-time trace, and private legacy-save preservation. Browser and human acceptance remain separate.",
+      "runtimeSHA256": "43f12fd9ac1ab6cb3d59767143a72e4d79a9b77f59c8fd6b9ca4f9c062333389",
+      "scope": "Independent exact-source V3 roster, engine, renderer, inventory and UI evidence; source-bound actual-time traces distinct from accelerated all-boss witnesses; private earned-save compatibility. Actual V3 browser/human acceptance remains separate.",
       "actualBrowser": false
     }
   },
   "latestIntegration": {
-    "baseCommit": "4254603df9278e9734585a8b15bdcc39d418e85c",
-    "baseTreeSHA": "61c7b697faf09e1c27a58f0c766761333a870b69",
+    "baseCommit": "87c08490635b0766e00182b7681aeebb1cda7c9e",
+    "baseTreeSHA": "284fb6ffad5fcb123ca66cd65a4cb168c87e0e7a",
     "baseBlobCount": 3848,
     "baseCatalogCount": 401,
     "baseClassicCount": 10,
@@ -755,13 +789,16 @@
       "actualBrowserQAPassed": false,
       "allLegacyEnginesRerun": false
     },
-    "addedFiles": [],
+    "addedFiles": [
+      "games/starweave-idle/bestiary-verification.json",
+      "games/starweave-idle/bestiary.js",
+      "games/starweave-idle/render-verification.json"
+    ],
     "modifiedExisting": [
       "README.md",
       "app.js",
       "games/starweave-idle.html",
       "games/starweave-idle/README.md",
-      "games/starweave-idle/art.svg",
       "games/starweave-idle/asset-provenance.json",
       "games/starweave-idle/cap-verification-results.json",
       "games/starweave-idle/catalog.json",
@@ -774,7 +811,6 @@
       "games/starweave-idle/ui-verification.json",
       "games/starweave-idle/ui.js",
       "games/starweave-idle/verification-report.json",
-      "games/starweave-idle/verify-cap.cjs",
       "games/starweave-idle/verify-engine.cjs",
       "games/starweave-idle/verify-ui.cjs",
       "games/starweave-idle/verify.cjs",
@@ -836,7 +872,7 @@
         }
       ],
       "evidenceSHA256": "291ba83880b179a30ae1f7c3da978b0103984a7630b0f6547bd7fc96d2932f63",
-      "condition": "PR50 game sources remain byte-identical; affected Starweave V2 source is verified separately.",
+      "condition": "PR50 game sources remain byte-identical; affected Starweave V3 source is verified separately.",
       "replayedInScopedRun": false
     },
     "updatedID": "starweave-idle",
@@ -845,20 +881,6 @@
     "registryUpdate": {
       "id": "starweave-idle",
       "before": {
-        "id": "starweave-idle",
-        "title": "星絨法師：自走遠征",
-        "category": "strategy",
-        "description": "讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。",
-        "note": "全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退",
-        "art": "starweave-idle",
-        "color": "#f4e7cc",
-        "background": "#708b73",
-        "word": "星",
-        "status": "ready",
-        "url": "./games/starweave-idle.html",
-        "badge": "自走冒險 · 第一版"
-      },
-      "after": {
         "id": "starweave-idle",
         "title": "星絨法師：自走遠征",
         "category": "strategy",
@@ -872,6 +894,20 @@
         "url": "./games/starweave-idle.html",
         "badge": "自走冒險 · 背包新版"
       },
+      "after": {
+        "id": "starweave-idle",
+        "title": "星絨法師：自走遠征",
+        "category": "strategy",
+        "description": "小法師自動遠征，邂逅 50 種怪物與 10 位首領，收寶、配點與強化。",
+        "note": "50 種怪物・10 位首領・可愛圖鑑・置中捲動自動冒險",
+        "art": "starweave-idle",
+        "color": "#f4e7cc",
+        "background": "#708b73",
+        "word": "星",
+        "status": "ready",
+        "url": "./games/starweave-idle.html",
+        "badge": "自走冒險 · 怪物圖鑑"
+      },
       "allowedChanges": [
         "description",
         "note",
@@ -880,9 +916,19 @@
     },
     "artMarkupUpdate": {
       "key": "starweave-idle",
-      "beforeSHA256": "05a4f9cc12ce3a573e15fa9269c09a6c2e281cac6df5741a82da3999127449f5",
-      "afterSHA256": "572b7efe92696a4be2390af67acee8925229a90bfa3650dfe9d17e5316fc2fa3",
-      "purpose": "V2 cover cache token; no other art markup changes."
+      "beforeSHA256": "572b7efe92696a4be2390af67acee8925229a90bfa3650dfe9d17e5316fc2fa3",
+      "afterSHA256": "bf54f9eec1ffbbd715d9c0852758c70557f0850e047c8013e25d4d26f03ed36f",
+      "purpose": "Consistent V3 asset cache token; cover SVG bytes and other art markup unchanged."
+    },
+    "unchangedOwnedFiles": [
+      "games/starweave-idle/art.svg",
+      "games/starweave-idle/storage.js",
+      "games/starweave-idle/verify-cap.cjs"
+    ],
+    "roster": {
+      "normalSpecies": 50,
+      "bossSpecies": 10,
+      "eliteVariantsCountAsSpecies": false
     }
   },
   "nonClassicIDs": [
