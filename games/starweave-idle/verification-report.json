@@ -1,20 +1,21 @@
 {
   "status": "passed",
-  "version": 2,
-  "groups": 6,
+  "version": 3,
+  "groups": 7,
   "checks": [
-    "Local closure and shared v2 asset cache tokens",
+    "Local closure and shared v3 asset cache tokens",
     "Same game identity and isolated persistent save key",
     "Independent spatial, progression, whole-build comparison and migration regression",
     "No 18 or 2000 item cap; synthetic v1 items and locks all preserved",
-    "Retained actual-time movement, southwest retreat, camp healing and retry evidence",
+    "Final-hash actual-time engine runs are distinct from accelerated all-boss witnesses",
+    "Exact50 normal and10 boss roster, geometry and artwork bindings",
     "Independent unified-bag, selection, highlight, lifecycle and persistence UI audit"
   ],
-  "engineSha256": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
-  "engineChecks": 14,
-  "spatialRuns": 6,
-  "uiChecks": 53,
-  "uiAssertions": 960,
+  "engineSha256": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+  "engineChecks": 17,
+  "legalProgressionRuns": 3,
+  "uiChecks": 63,
+  "uiAssertions": 1769,
   "inventoryItems": 10005,
   "scope": "Source/static/VM and legal simulation gate. Retained actual-time engine trace is separate from accelerated runs. This is not actual browser or human-play acceptance."
 }

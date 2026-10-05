@@ -3,43 +3,70 @@
   "title": "星絨法師：自走遠征",
   "entry": "games/starweave-idle.html",
   "categoryRecommendation": "simulation",
-  "revision": "v2-unified-backpack-continuous-world",
-  "baseMainCommit": "4254603df9278e9734585a8b15bdcc39d418e85c",
-  "engineSha256": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
+  "revision": "v3-fifty-creatures-ten-bosses-r2-cone-boundary",
+  "baseMainCommit": "87c08490635b0766e00182b7681aeebb1cda7c9e",
+  "baseTree": "284fb6ffad5fcb123ca66cd65a4cb168c87e0e7a",
   "buildRequired": false,
   "networkDependencies": [],
   "saveNamespace": "arcade.starweave-idle.save.v1",
-  "saveEnvelopeVersion": 2,
+  "saveEnvelopeVersion": 3,
   "legacyVersionsAccepted": [
-    1
+    1,
+    2
   ],
   "automatedSourceGate": "node games/starweave-idle/verify.cjs",
-  "verification": {
-    "publicEngineTests": 14,
-    "spatialProgressionRuns": 6,
-    "privateActualSaveMigration": true,
-    "uiStorageChecks": 53,
-    "uiStorageAssertions": 960,
-    "realTimeEngineRuns": 2,
-    "realTimeSecondsEach": 223.693431546,
-    "naturalRealTimeRetreatHealRetry": true,
-    "unifiedBagRoundTripItems": 10005,
-    "browserTestedForV2": false,
-    "manualLongSessionTested": false
+  "sourceHashes": {
+    "engine.js": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+    "bestiary.js": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
+    "render.js": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525",
+    "ui.js": "d267326121361c7adcab72a55a278b21fcdab628cfff72e9f53931bce05f622b",
+    "style.css": "33ea8baf9af141a39a91cb118c9bdd84a0e320506b78111ddb5ad530b5a3534b",
+    "storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13"
   },
-  "revisedBehavior": [
-    "Every existing bag and legacy basket item is kept in one growing backpack.",
-    "At most 30 bag item cards rendered per page; selection is ID-based with explicit sale confirmation.",
-    "Whole-build combat power replacement comparisons drive highlight and current-to-after preview.",
-    "World coordinates and an exact hero-follow camera replace the stationary arena.",
-    "Three enemies maximum; NW/NE/SE arrivals begin offscreen 3.8 seconds apart.",
-    "A reserved southwest corridor and physical retreat lead to the last safe camp."
+  "roster": {
+    "normalSpecies": 50,
+    "bossSpecies": 10,
+    "normalPerBiome": 10,
+    "bossPerBiome": 2,
+    "normalElitesCountAsExtraSpecies": false,
+    "bossCadence": "Final encounter of every third depth:3,6,9...; regional pair alternates.",
+    "activeEnemyMaximum": 3,
+    "activeBossMaximum": 1,
+    "hazardMaximum": 16,
+    "hostileShotMaximum": 18
+  },
+  "verification": {
+    "publicEngineTests": 17,
+    "additionalPrivateLegacyChecks": 2,
+    "legalProgressionRuns": 3,
+    "allNormalSpeciesAttacked": 50,
+    "allBossSpeciesAttackedAndDefeated": 10,
+    "allBossLegalRunSimulatedSeconds": 2203.55,
+    "uiStorageChecks": 63,
+    "uiStorageAssertions": 1769,
+    "actualTimeEngineRuns": 2,
+    "actualSecondsEach": 90.012848523,
+    "uniqueMonochromeGeometryRenders": 60,
+    "uniqueAlphaSilhouettes": 60,
+    "safeStripPixelsChecked": 219068,
+    "inventoryRoundTripItems": 10005,
+    "latestActualV2MigrationCheckedPrivately": true,
+    "browserTestedForV3": false,
+    "coneBoundaryMatchesEngine": true,
+    "coneBoundaryRegression": "Actual engine hit tests and raster probes agree inside/outside the cone half-angle; independently cross-checked at live .2/.35 spreads."
+  },
+  "behavior": [
+    "50 normal species and10 bosses have stable IDs, original anatomy, individually tuned movement and attack roles.",
+    "Ten bosses have distinct telegraphed patterns; large hazards preserve the southwest escape strip.",
+    "Small visible basic projectiles provide pressure; all enemy magic clears on physical retreat.",
+    "An in-game12-card paginated bestiary records encounters and kills.",
+    "Existing whole-build gear highlights, unlimited paginated backpack and protected selected-item sales remain."
   ],
   "limits": [
-    "Combat power is a comparative build index, not a guarantee of winning or exact DPS.",
-    "Five visual regions cycle with depth; five finite skills, rank10 each.",
-    "No automatic allocation/equipping; unattended builds can plateau while safely farming.",
-    "No offline gains. Browser memory/storage quotas still apply to a growing inventory.",
-    "Import safety limit32MiB; level999 and depth9999 maximum."
+    "Combat power is a comparative build index, not guaranteed victory or exact DPS.",
+    "Five regions cycle; finite five-skill tree at rank10 each.",
+    "No offline gains or automatic allocation/equipping; browser memory/storage quotas still apply.",
+    "Import safety limit32MiB; level999 and depth9999 maximum.",
+    "Native Canvas and VM tests are not browser/mobile performance or human-play certification."
   ]
 }

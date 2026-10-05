@@ -1,6 +1,6 @@
 {
-  "suite": "Starweave v2 independent unified-backpack UI and storage audit",
-  "generatedAt": "2026-10-05T07:29:41.655Z",
+  "suite": "Starweave v3 independent bestiary, UI, unified-backpack and storage audit",
+  "generatedAt": "2026-10-05T08:30:32.539Z",
   "environment": {
     "node": "v24.19.0",
     "browserUsed": false,
@@ -13,17 +13,18 @@
     "Source-only accessibility findings require live-browser verification after publication."
   ],
   "sourceDigests": {
-    "../starweave-idle.html": "9b3d296fa9aa478303bb79d8b30097192eeee5b13f7d1fbb1193deb157da27de",
-    "engine.js": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
+    "../starweave-idle.html": "5517edbeed9470f0a35cb2c0031f1eafffb3b9c01a3f154b36d9c10475fc3cff",
+    "bestiary.js": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
+    "engine.js": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
     "storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
-    "render.js": "e78fd34a30b1c4de2e081c411278accad16eda36770fb9c6467078cc6f69365f",
-    "ui.js": "1d7455f7d56e13b8afe01e58e1f4e8cb3fed4da6eafd216a46c6a2f31cb3f9d9",
-    "style.css": "602befdc0958d6b16b0606066af3c8e940a0434f4f2253919def41225522dca9"
+    "render.js": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525",
+    "ui.js": "d267326121361c7adcab72a55a278b21fcdab628cfff72e9f53931bce05f622b",
+    "style.css": "33ea8baf9af141a39a91cb118c9bdd84a0e320506b78111ddb5ad530b5a3534b"
   },
   "measurements": {
     "v1Migration": {
       "fixture": "generated deterministic synthetic v1 fixture",
-      "sha256": "5246a8d29724c03b2b97fb8a4570af2856053dd457a93f48bcd88cb8894d671c",
+      "sha256": "a488980fcea346d21d6251ff7355a51e0a132180f88eb9c0bdb805ce9511af6c",
       "unifiedBag": 19,
       "worn": 2,
       "locked": 2,
@@ -37,12 +38,12 @@
       "items": 2105,
       "pageSize": 30,
       "pageCount": 71,
-      "initialRenderedNodeCount": 763,
+      "initialRenderedNodeCount": 796,
       "finalPageCards": 5,
-      "serializedBytes": 221995,
+      "serializedBytes": 222012,
       "comparisonCallsOnInitialRender": 2105,
       "cachedComparisonCallsOnGoldChange": 0,
-      "elapsedMs": 1110
+      "elapsedMs": 1340
     },
     "importBoundary": {
       "maximumBytes": 33554432,
@@ -50,19 +51,32 @@
       "rejectedBeforeRead": true,
       "exactMaximumAccepted": true,
       "oversizedReturnedTextRejected": true
+    },
+    "roster": {
+      "total": 60,
+      "normal": 50,
+      "boss": 10,
+      "biomes": 5,
+      "allDefinitionsAvailableBeforeDiscovery": true
+    },
+    "cacheProtection": {
+      "assetQueryVersion": 3,
+      "catalogBeforeEngine": true,
+      "missingCatalogRejects": true,
+      "forcedStaleResponsesNotSimulated": true
     }
   },
   "counts": {
-    "tests": 53,
-    "passed": 53,
+    "tests": 63,
+    "passed": 63,
     "failed": 0,
-    "assertions": 960
+    "assertions": 1769
   },
   "results": [
     {
       "name": "HTML IDs, local asset references and script order are valid",
       "status": "passed",
-      "assertions": 119
+      "assertions": 135
     },
     {
       "name": "Zero-input boot advances actual engine and renderer continuously",
@@ -212,7 +226,7 @@
     {
       "name": "Responsive and accessibility source safeguards exist",
       "status": "passed",
-      "assertions": 13
+      "assertions": 18
     },
     {
       "name": "Unified backpack controls have no active basket, stash, retrieve, or 18-slot dependencies",
@@ -300,6 +314,56 @@
       "assertions": 38
     },
     {
+      "name": "V3 catalog exposes exactly 50 normal and 10 boss identities with complete descriptions",
+      "status": "passed",
+      "assertions": 188
+    },
+    {
+      "name": "All 60 bestiary cards are visible through five bounded pages and invoke the actual renderer",
+      "status": "passed",
+      "assertions": 327
+    },
+    {
+      "name": "Bestiary normal, boss and biome filter combinations expose exactly the matching roster",
+      "status": "passed",
+      "assertions": 91
+    },
+    {
+      "name": "Three navigation buttons keep focus, native keyboard reachability and exclusive aria/hidden state",
+      "status": "passed",
+      "assertions": 94
+    },
+    {
+      "name": "Real spawn and kill update discovered status, encounter counts and visible bestiary cards",
+      "status": "passed",
+      "assertions": 12
+    },
+    {
+      "name": "Boss HUD uses a real scheduled boss name, HP ratio and windup tell then clears after death",
+      "status": "passed",
+      "assertions": 14
+    },
+    {
+      "name": "Boss HUD is hidden immediately on real damage-triggered retreat despite living enemies",
+      "status": "passed",
+      "assertions": 7
+    },
+    {
+      "name": "V2 synthetic save migrates unchanged inventory and world into V3 with empty discoveries",
+      "status": "passed",
+      "assertions": 39
+    },
+    {
+      "name": "V3 cache tokens and catalog-first dependency checks protect old V2 asset order",
+      "status": "passed",
+      "assertions": 7
+    },
+    {
+      "name": "Bestiary navigation does not alter backpack selection, filters or selected-sale safety",
+      "status": "passed",
+      "assertions": 8
+    },
+    {
       "name": "Storage lease deny/expire/release never deletes a foreign lease",
       "status": "passed",
       "assertions": 12
@@ -322,7 +386,7 @@
     {
       "name": "Every audited production source remained stable throughout run",
       "status": "passed",
-      "assertions": 6
+      "assertions": 7
     }
   ]
 }

@@ -1,0 +1,164 @@
+{
+  "status": "passed",
+  "source": "games/starweave-idle/bestiary.js",
+  "sha256": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
+  "catalog": {
+    "ok": true,
+    "errors": [],
+    "normalCount": 50,
+    "bossCount": 10,
+    "geometryCount": 60,
+    "bodyCount": 15
+  },
+  "checks": [
+    "CommonJS export",
+    "browser global export",
+    "browser/CommonJS data equivalence",
+    "unique IDs",
+    "unique Traditional Chinese names",
+    "60 distinct geometry fingerprints",
+    "50 distinct normal stat tuples",
+    "all feature tokens in shared vocabulary",
+    "15 body families",
+    "10 boss body families",
+    "10 unique boss patterns",
+    "10 combat roles per biome",
+    "10 normal + 2 boss per biome",
+    "numeric tuning bounds",
+    "immutable reference data",
+    "invalid lookup handling",
+    "no level unlock fields"
+  ],
+  "biomeStats": [
+    {
+      "index": 0,
+      "name": "薄荷林徑",
+      "normalCount": 10,
+      "bossCount": 2,
+      "bodyCount": 10,
+      "attacks": [
+        "bolt",
+        "burst",
+        "charge",
+        "drain",
+        "fan",
+        "guard",
+        "mortar",
+        "pulse",
+        "sweep",
+        "touch"
+      ],
+      "meanNormalHp": 0.981,
+      "meanNormalDamage": 0.845,
+      "bossPatterns": [
+        "root-lanes",
+        "petal-orbit"
+      ]
+    },
+    {
+      "index": 1,
+      "name": "月傘洞窟",
+      "normalCount": 10,
+      "bossCount": 2,
+      "bodyCount": 10,
+      "attacks": [
+        "bolt",
+        "burst",
+        "charge",
+        "drain",
+        "fan",
+        "guard",
+        "mortar",
+        "pulse",
+        "sweep",
+        "touch"
+      ],
+      "meanNormalHp": 1.002,
+      "meanNormalDamage": 0.899,
+      "bossPatterns": [
+        "spore-garden",
+        "crystal-cross"
+      ]
+    },
+    {
+      "index": 2,
+      "name": "霜鈴遺跡",
+      "normalCount": 10,
+      "bossCount": 2,
+      "bodyCount": 10,
+      "attacks": [
+        "bolt",
+        "burst",
+        "charge",
+        "drain",
+        "fan",
+        "guard",
+        "mortar",
+        "pulse",
+        "sweep",
+        "touch"
+      ],
+      "meanNormalHp": 1.089,
+      "meanNormalDamage": 0.921,
+      "bossPatterns": [
+        "frost-comets",
+        "bell-cones"
+      ]
+    },
+    {
+      "index": 3,
+      "name": "琥珀曠野",
+      "normalCount": 10,
+      "bossCount": 2,
+      "bodyCount": 10,
+      "attacks": [
+        "bolt",
+        "burst",
+        "charge",
+        "drain",
+        "fan",
+        "guard",
+        "mortar",
+        "pulse",
+        "sweep",
+        "touch"
+      ],
+      "meanNormalHp": 1.072,
+      "meanNormalDamage": 0.922,
+      "bossPatterns": [
+        "sand-serpent",
+        "amber-triad"
+      ]
+    },
+    {
+      "index": 4,
+      "name": "星夜書庫",
+      "normalCount": 10,
+      "bossCount": 2,
+      "bodyCount": 10,
+      "attacks": [
+        "bolt",
+        "burst",
+        "charge",
+        "drain",
+        "fan",
+        "guard",
+        "mortar",
+        "pulse",
+        "sweep",
+        "touch"
+      ],
+      "meanNormalHp": 1.003,
+      "meanNormalDamage": 0.912,
+      "bossPatterns": [
+        "ink-labyrinth",
+        "page-storm"
+      ]
+    }
+  ],
+  "scope": "Catalog schema and semantic diversity only. Renderer geometry, attack implementation, balance simulations, browser visual quality, and live encounter reachability need integration tests.",
+  "refinements": [
+    "Drooping ears have explicit lop geometry token for moon rabbit; coordinated with renderer.",
+    "Boss descriptions reconciled with actual engine hazard geometry: bell cones, sand charge, amber circles, page ring/line."
+  ]
+}
