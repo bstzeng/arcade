@@ -1,6 +1,6 @@
 {
-  "suite": "Starweave independent offline UI and storage audit",
-  "generatedAt": "2026-10-05T06:46:16.140Z",
+  "suite": "Starweave v2 independent unified-backpack UI and storage audit",
+  "generatedAt": "2026-10-05T07:29:41.655Z",
   "environment": {
     "node": "v24.19.0",
     "browserUsed": false,
@@ -13,24 +13,56 @@
     "Source-only accessibility findings require live-browser verification after publication."
   ],
   "sourceDigests": {
-    "../starweave-idle.html": "7d4f79174c01619cf333a2dc68c2fc01da07bcab5f0c32036a484320bf538458",
-    "engine.js": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
+    "../starweave-idle.html": "9b3d296fa9aa478303bb79d8b30097192eeee5b13f7d1fbb1193deb157da27de",
+    "engine.js": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
     "storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
-    "render.js": "e7482d52ac2e6eea1373f6ddc2a4e18144b7aba01ad38be2d06e7ec318d9e59c",
-    "ui.js": "dc9bb002bbdb0c2c86ace97daa1c4372cc0a08748ca05bc1b8ebae81069e66fe",
-    "style.css": "d2113cec36cb18e1613b9160e1fdb16020832f9d55d228c00b6ac60122f30b89"
+    "render.js": "e78fd34a30b1c4de2e081c411278accad16eda36770fb9c6467078cc6f69365f",
+    "ui.js": "1d7455f7d56e13b8afe01e58e1f4e8cb3fed4da6eafd216a46c6a2f31cb3f9d9",
+    "style.css": "602befdc0958d6b16b0606066af3c8e940a0434f4f2253919def41225522dca9"
+  },
+  "measurements": {
+    "v1Migration": {
+      "fixture": "generated deterministic synthetic v1 fixture",
+      "sha256": "5246a8d29724c03b2b97fb8a4570af2856053dd457a93f48bcd88cb8894d671c",
+      "unifiedBag": 19,
+      "worn": 2,
+      "locked": 2,
+      "gold": 500
+    },
+    "misleadingItem": {
+      "itemOnlyDelta": 1,
+      "wholeBuildDelta": -3
+    },
+    "largeInventory": {
+      "items": 2105,
+      "pageSize": 30,
+      "pageCount": 71,
+      "initialRenderedNodeCount": 763,
+      "finalPageCards": 5,
+      "serializedBytes": 221995,
+      "comparisonCallsOnInitialRender": 2105,
+      "cachedComparisonCallsOnGoldChange": 0,
+      "elapsedMs": 1110
+    },
+    "importBoundary": {
+      "maximumBytes": 33554432,
+      "rejectedBytes": 33554433,
+      "rejectedBeforeRead": true,
+      "exactMaximumAccepted": true,
+      "oversizedReturnedTextRejected": true
+    }
   },
   "counts": {
-    "tests": 38,
-    "passed": 38,
+    "tests": 53,
+    "passed": 53,
     "failed": 0,
-    "assertions": 321
+    "assertions": 960
   },
   "results": [
     {
       "name": "HTML IDs, local asset references and script order are valid",
       "status": "passed",
-      "assertions": 100
+      "assertions": 119
     },
     {
       "name": "Zero-input boot advances actual engine and renderer continuously",
@@ -61,11 +93,6 @@
       "name": "Attribute/skill eligibility and repeated delegated clicks cannot overspend",
       "status": "passed",
       "assertions": 9
-    },
-    {
-      "name": "Inventory tabs, equip/stash/retrieve/lock and repeated sale use actual UI actions",
-      "status": "passed",
-      "assertions": 13
     },
     {
       "name": "Reset Cancel, Escape and repeated Confirm are transactional",
@@ -168,11 +195,6 @@
       "assertions": 4
     },
     {
-      "name": "Basket pagination expands deterministically and locked bulk-sale items remain",
-      "status": "passed",
-      "assertions": 8
-    },
-    {
       "name": "Reduced motion settings take OS preference initially and survive saved settings",
       "status": "passed",
       "assertions": 5
@@ -191,6 +213,91 @@
       "name": "Responsive and accessibility source safeguards exist",
       "status": "passed",
       "assertions": 13
+    },
+    {
+      "name": "Unified backpack controls have no active basket, stash, retrieve, or 18-slot dependencies",
+      "status": "passed",
+      "assertions": 19
+    },
+    {
+      "name": "V1 migration checkpoint appears as all 19 unified bag items, 2 worn items and 2 locks",
+      "status": "passed",
+      "assertions": 14
+    },
+    {
+      "name": "Both pager control pairs show exactly 30 cards, bound the last page, and reset for a new filter",
+      "status": "passed",
+      "assertions": 15
+    },
+    {
+      "name": "All sort choices and combined slot, upgrade, unlocked, locked filters reflect current actual items",
+      "status": "passed",
+      "assertions": 77
+    },
+    {
+      "name": "Positive equip highlighting and detail current-to-next use full build rather than item-only power",
+      "status": "passed",
+      "assertions": 19
+    },
+    {
+      "name": "HUD, cached highlights and open detail recompute after points, skill, bag enhancement, worn enhancement and equip",
+      "status": "passed",
+      "assertions": 362
+    },
+    {
+      "name": "Checkbox selection survives sort, filters and pages; new arrivals never become automatically selected",
+      "status": "passed",
+      "assertions": 11
+    },
+    {
+      "name": "Selected sale confirms exact count and value, excludes newly gained items, and never pays twice",
+      "status": "passed",
+      "assertions": 15
+    },
+    {
+      "name": "Cancel and Escape destroy pending sale callbacks and preserve selected items",
+      "status": "passed",
+      "assertions": 10
+    },
+    {
+      "name": "Single-item sale uses the same exact snapshot confirmation and closes obsolete details after selling",
+      "status": "passed",
+      "assertions": 5
+    },
+    {
+      "name": "Locked and worn items are excluded, equipped selections prune, and locks revalidate before sale",
+      "status": "passed",
+      "assertions": 12
+    },
+    {
+      "name": "Changed item enhancement price rejects an old sale rather than silently selling at a changed value",
+      "status": "passed",
+      "assertions": 4
+    },
+    {
+      "name": "Sale loses authority immediately after lease theft and cannot overwrite another session",
+      "status": "passed",
+      "assertions": 4
+    },
+    {
+      "name": "Hide, reload and persisted pageshow invalidate an old sale session without selling restored items",
+      "status": "passed",
+      "assertions": 10
+    },
+    {
+      "name": "2,105-item backpack stays at 30 card nodes, caches comparisons, paginates, and exports without truncation",
+      "status": "passed",
+      "assertions": 16
+    },
+    {
+      "name": "Import rejects over 32 MiB before reading, accepts exact 32 MiB, and independently guards oversized returned text",
+      "status": "passed",
+      "assertions": 10
+    },
+    {
+      "name": "RAF maintains a single chain through repeated bag changes, item Escape and sale confirmation cycles",
+      "status": "passed",
+      "assertions": 38
     },
     {
       "name": "Storage lease deny/expire/release never deletes a foreign lease",

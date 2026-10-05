@@ -1,387 +1,3809 @@
 {
-  "engine": "games/starweave-idle/engine.js",
-  "sha256": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
-  "date": "2026-10-05T06:22:47.501Z",
-  "tests": [],
-  "simulations": [],
-  "wallClock": [
+  "type": "Actual wall-clock simulation, one tick per real timer interval; no time acceleration",
+  "started": "2026-10-05T07:27:51.581Z",
+  "updated": "2026-10-05T07:31:35.275Z",
+  "elapsedSeconds": 223.693431546,
+  "done": true,
+  "engineSha256": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
+  "cases": [
     {
-      "seed": 20261006,
-      "policy": "ordinary allocation/equip/enhance/sell every 5 seconds",
-      "realElapsedSeconds": 70.002811685,
-      "ticks": 4300,
-      "maxTickDeltaSeconds": 0.02978855699999258,
-      "simulatedSeconds": 70.002,
-      "level": 4,
-      "depth": 3,
-      "frontier": 3,
-      "mode": "combat",
-      "kills": 19,
-      "elites": 2,
-      "retreats": 0,
-      "gold": 41,
-      "bag": 5,
-      "basket": 0,
-      "attrPoints": 0,
-      "skillPoints": 0,
-      "skills": {
-        "fire": 2,
-        "ice": 1,
-        "shield": 1,
-        "lightning": 0,
-        "meteor": 0
-      },
-      "actions": {
-        "equip": 6,
-        "attribute": 9,
-        "skill": 3,
-        "enhance": 5
-      },
-      "checkpoints": [
+      "seed": 731,
+      "label": "no-input",
+      "events": [
         {
-          "simulatedSeconds": 10.002,
+          "from": "camp",
+          "to": "travel",
+          "time": 1.8179580229999999,
           "level": 1,
-          "depth": 1,
-          "frontier": 1,
-          "mode": "advance",
-          "kills": 2,
-          "elites": 0,
-          "retreats": 0,
-          "gold": 10,
+          "xp": 0,
+          "gold": 0,
           "bag": 0,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 0,
+            "y": 0,
+            "hp": 135.5,
+            "mana": 48,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 0,
+          "kills": 0,
+          "retreats": 0,
+          "power": 236
         },
         {
-          "simulatedSeconds": 20.012,
-          "level": 2,
+          "from": "travel",
+          "to": "combat",
+          "time": 3.1981569530000007,
+          "level": 1,
+          "xp": 0,
+          "gold": 0,
+          "bag": 0,
           "depth": 1,
           "frontier": 1,
           "mode": "combat",
-          "kills": 5,
-          "elites": 0,
+          "player": {
+            "x": 105.40238646125701,
+            "y": -105.40238646125701,
+            "hp": 135.5,
+            "mana": 48,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 149.06148443999996,
+          "kills": 0,
           "retreats": 0,
-          "gold": 25,
+          "power": 236
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 16.658423403,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 254.00864832805988,
+            "y": -254.00864832805988,
+            "hp": 135.5,
+            "mana": 41.40807286830001,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 359.33472793200013,
+          "kills": 3,
+          "retreats": 0,
+          "power": 236
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 18.47435816599999,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 63.03422001130993,
+            "y": -298.6426766632484,
+            "hp": 135.5,
+            "mana": 47.400657586199976,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 359.33472793200013,
+          "kills": 3,
+          "retreats": 0,
+          "power": 236
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 21.284762728,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 360.15404001452254,
+            "y": -360.15404001452254,
+            "hp": 135.5,
+            "mana": 48,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 509.3347279320002,
+          "kills": 3,
+          "retreats": 0,
+          "power": 236
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 34.53994490800006,
+          "level": 2,
+          "xp": 22,
+          "gold": 30,
           "bag": 2,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 2,
-            "ice": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 508.6954179995403,
+            "y": -508.6954179995403,
+            "hp": 148.5,
+            "mana": 44.66439023730004,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 719.4039592520006,
+          "kills": 6,
+          "retreats": 0,
+          "power": 260
         },
         {
-          "simulatedSeconds": 30.01,
+          "from": "loot",
+          "to": "travel",
+          "time": 36.35700824100008,
           "level": 2,
+          "xp": 22,
+          "gold": 30,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 317.2320074996205,
+            "y": -551.7420749763053,
+            "hp": 148.5,
+            "mana": 50.6606992362,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 719.4039592520006,
+          "kills": 6,
+          "retreats": 0,
+          "power": 260
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 39.16524811500009,
+          "level": 2,
+          "xp": 22,
+          "gold": 30,
+          "bag": 2,
           "depth": 1,
           "frontier": 1,
           "mode": "combat",
-          "kills": 8,
-          "elites": 1,
-          "retreats": 0,
-          "gold": 38,
-          "bag": 3,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 2,
-            "ice": 0,
+          "player": {
+            "x": 613.9393445577407,
+            "y": -614.5873091245455,
+            "hp": 148.5,
+            "mana": 51,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 868.6995276871619,
+          "kills": 6,
+          "retreats": 0,
+          "power": 260
         },
         {
-          "simulatedSeconds": 40.004,
-          "level": 3,
-          "depth": 2,
-          "frontier": 2,
+          "from": "combat",
+          "to": "loot",
+          "time": 52.3579234750001,
+          "level": 2,
+          "xp": 64,
+          "gold": 45,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 762.7066519006005,
+            "y": -763.3546164674053,
+            "hp": 148.5,
+            "mana": 44.42618439029998,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1079.0882713691608,
+          "kills": 9,
+          "retreats": 0,
+          "power": 260
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 54.16867451000008,
+          "level": 2,
+          "xp": 64,
+          "gold": 45,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 571.8691024338334,
+            "y": -806.0767202797031,
+            "hp": 148.5,
+            "mana": 50.401662805799994,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1079.0882713691608,
+          "kills": 9,
+          "retreats": 0,
+          "power": 260
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 56.98059290000007,
+          "level": 2,
+          "xp": 64,
+          "gold": 45,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
           "mode": "combat",
-          "kills": 10,
-          "elites": 1,
-          "retreats": 0,
-          "gold": 33,
-          "bag": 3,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 2,
-            "ice": 1,
+          "player": {
+            "x": 868.9520192538499,
+            "y": -869.0659856127306,
+            "hp": 148.5,
+            "mana": 51,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1228.9643170654733,
+          "kills": 9,
+          "retreats": 0,
+          "power": 260
         },
         {
-          "simulatedSeconds": 50.014,
+          "from": "combat",
+          "to": "loot",
+          "time": 70.43014301300018,
           "level": 3,
-          "depth": 2,
-          "frontier": 2,
-          "mode": "advance",
-          "kills": 13,
-          "elites": 1,
-          "retreats": 0,
-          "gold": 32,
-          "bag": 4,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 2,
-            "ice": 1,
-            "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
-        },
-        {
-          "simulatedSeconds": 60.012,
-          "level": 3,
-          "depth": 2,
-          "frontier": 2,
-          "mode": "combat",
-          "kills": 16,
-          "elites": 1,
-          "retreats": 0,
-          "gold": 31,
+          "xp": 35,
+          "gold": 75,
           "bag": 5,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 2,
-            "ice": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 1005.6469243358013,
+            "y": -1005.760890694682,
+            "hp": 161.5,
+            "mana": 47.80631289179999,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1439.4102435094708,
+          "kills": 12,
+          "retreats": 0,
+          "power": 285
         },
         {
-          "simulatedSeconds": 70.002,
+          "from": "loot",
+          "to": "travel",
+          "time": 72.2446087800001,
+          "level": 3,
+          "xp": 35,
+          "gold": 75,
+          "bag": 5,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 817.3601287815096,
+            "y": -1060.0684109168847,
+            "hp": 161.5,
+            "mana": 53.7940499229,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 1439.4102435094708,
+          "kills": 12,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 75.1279586020001,
+          "level": 3,
+          "xp": 35,
+          "gold": 75,
+          "bag": 5,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1122.2252152595727,
+            "y": -1123.5376799940273,
+            "hp": 161.5,
+            "mana": 54,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 1587.9941721709547,
+          "kills": 12,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 88.97691330000029,
+          "level": 3,
+          "xp": 92,
+          "gold": 96,
+          "bag": 7,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 1270.802011240382,
+            "y": -1272.1144759748368,
+            "hp": 152.47121387928885,
+            "mana": 50.204238784800005,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 1798.113492100956,
+          "kills": 15,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 90.78141002000032,
+          "level": 3,
+          "xp": 92,
+          "gold": 96,
+          "bag": 7,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1081.5632258468231,
+            "y": -1318.6880417183174,
+            "hp": 152.47121387928885,
+            "mana": 54,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 1798.113492100956,
+          "kills": 15,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 93.5694923210003,
+          "level": 3,
+          "xp": 92,
+          "gold": 96,
+          "bag": 7,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1376.8968220322547,
+            "y": -1377.3995277309507,
+            "hp": 152.47121387928885,
+            "mana": 54,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 1947.5816263149177,
+          "kills": 15,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 107.66390174000031,
           "level": 4,
+          "xp": 4,
+          "gold": 117,
+          "bag": 10,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 1525.742423574058,
+            "y": -1526.245129272754,
+            "hp": 174.5,
+            "mana": 57,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2158.0810947149175,
+          "kills": 18,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 109.46932406500035,
+          "level": 4,
+          "xp": 4,
+          "gold": 117,
+          "bag": 10,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1336.940973881022,
+            "y": -1574.9626941733977,
+            "hp": 174.5,
+            "mana": 57,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2158.0810947149175,
+          "kills": 18,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 112.2427736660004,
+          "level": 4,
+          "xp": 4,
+          "gold": 117,
+          "bag": 10,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1631.0202168488079,
+            "y": -1631.8586650618347,
+            "hp": 174.5,
+            "mana": 57,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2307.2037835893957,
+          "kills": 18,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 126.12028944300025,
+          "level": 4,
+          "xp": 61,
+          "gold": 138,
+          "bag": 11,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 1779.5722521577268,
+            "y": -1780.4107003707536,
+            "hp": 165.56526373471294,
+            "mana": 52.98557847479997,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2517.2880866413957,
+          "kills": 21,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 127.93594012700024,
+          "level": 4,
+          "xp": 61,
+          "gold": 138,
+          "bag": 11,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1589.6835734677227,
+            "y": -1829.336002746523,
+            "hp": 165.56526373471294,
+            "mana": 57,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2517.2880866413957,
+          "kills": 21,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 130.71927999100035,
+          "level": 4,
+          "xp": 61,
+          "gold": 138,
+          "bag": 11,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1884.925812732592,
+            "y": -1885.8409068517176,
+            "hp": 165.56526373471294,
+            "mana": 57,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2666.334717690618,
+          "kills": 21,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 147.4765929040003,
+          "level": 4,
+          "xp": 156,
+          "gold": 180,
+          "bag": 14,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 2026.1204654728274,
+            "y": -2027.035559591953,
+            "hp": 132.95347636641517,
+            "mana": 49.33553456189996,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2876.8326132986194,
+          "kills": 24,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 149.2827561690003,
+          "level": 4,
+          "xp": 156,
+          "gold": 180,
+          "bag": 14,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 1840.7639847762798,
+            "y": -2087.8103577671154,
+            "hp": 132.95347636641517,
+            "mana": 55.29587333639999,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 2876.8326132986194,
+          "kills": 24,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 152.09848436900018,
+          "level": 4,
+          "xp": 156,
+          "gold": 180,
+          "bag": 14,
           "depth": 3,
           "frontier": 3,
           "mode": "combat",
-          "kills": 19,
-          "elites": 2,
+          "player": {
+            "x": 2140.293866380053,
+            "y": -2140.293866380053,
+            "hp": 132.95347636641517,
+            "mana": 57,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3026.83261329862,
+          "kills": 24,
           "retreats": 0,
-          "gold": 41,
-          "bag": 5,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 2,
-            "ice": 1,
-            "shield": 1,
-            "lightning": 0,
-            "meteor": 0
-          }
+          "power": 309
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 169.90962752500047,
+          "level": 5,
+          "xp": 29,
+          "gold": 207,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 2260.3104287255505,
+            "y": -2260.3104287255505,
+            "hp": 104.3056868051917,
+            "mana": 52.461798165300024,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3237.174656638616,
+          "kills": 27,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 171.72459518400055,
+          "level": 5,
+          "xp": 29,
+          "gold": 207,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 2203.4354825157125,
+            "y": -2364.300171757296,
+            "hp": 104.3056868051917,
+            "mana": 58.45119144000006,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3237.174656638616,
+          "kills": 27,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 173.50635043600073,
+          "level": 5,
+          "xp": 29,
+          "gold": 207,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2393.4283261643454,
+            "y": -2394.8265161378913,
+            "hp": 104.3056868051917,
+            "mana": 60,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3385.807469041234,
+          "kills": 27,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 191.09990720200085,
+          "level": 5,
+          "xp": 101,
+          "gold": 234,
+          "bag": 16,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 2542.19673626526,
+            "y": -2543.594926238806,
+            "hp": 62.65567650617359,
+            "mana": 52.80846999300003,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3596.1977722586303,
+          "kills": 30,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 192.91830367800083,
+          "level": 5,
+          "xp": 101,
+          "gold": 234,
+          "bag": 16,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 2457.6980697647973,
+            "y": -2620.5052590388295,
+            "hp": 62.65567650617359,
+            "mana": 58.809178363799994,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3596.1977722586303,
+          "kills": 30,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 194.6951276580009,
+          "level": 5,
+          "xp": 101,
+          "gold": 234,
+          "bag": 16,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2647.5057617360794,
+            "y": -2648.7452090775123,
+            "hp": 62.65567650617359,
+            "mana": 60,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3745.014976328126,
+          "kills": 30,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "from": "combat",
+          "to": "retreat",
+          "time": 207.74372574200103,
+          "level": 5,
+          "xp": 125,
+          "gold": 243,
+          "bag": 17,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "retreat",
+          "player": {
+            "x": 2752.154995775283,
+            "y": -2753.394443116716,
+            "hp": 34.889002973494854,
+            "mana": 60,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3955.221800038124,
+          "kills": 31,
+          "retreats": 1,
+          "power": 333
+        },
+        {
+          "from": "retreat",
+          "to": "camp",
+          "time": 216.04883156600098,
+          "level": 5,
+          "xp": 125,
+          "gold": 243,
+          "bag": 17,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "camp",
+          "player": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468,
+            "hp": 34.889002973494854,
+            "mana": 60,
+            "shield": 0,
+            "face": -1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 2647.921558007918,
+          "kills": 31,
+          "retreats": 1,
+          "power": 333
+        },
+        {
+          "from": "camp",
+          "to": "travel",
+          "time": 222.31814318300079,
+          "level": 5,
+          "xp": 125,
+          "gold": 243,
+          "bag": 17,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468,
+            "hp": 187.5,
+            "mana": 60,
+            "shield": 0,
+            "face": -1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 2647.921558007918,
+          "kills": 31,
+          "retreats": 1,
+          "power": 333
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 223.6929493710008,
+          "level": 5,
+          "xp": 125,
+          "gold": 243,
+          "bag": 17,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 1977.3538457794648,
+            "y": -1977.3538457794648,
+            "hp": 187.5,
+            "mana": 60,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 2796.4006263119168,
+          "kills": 31,
+          "retreats": 1,
+          "power": 333
         }
       ],
-      "engineOnly": true,
-      "browserTest": false
+      "samples": [
+        {
+          "time": 0.021437292,
+          "level": 1,
+          "xp": 0,
+          "gold": 0,
+          "bag": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "camp",
+          "player": {
+            "x": 0,
+            "y": 0,
+            "hp": 135.5,
+            "mana": 48,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 0,
+          "kills": 0,
+          "retreats": 0,
+          "power": 236
+        },
+        {
+          "time": 10.017275796999998,
+          "level": 1,
+          "xp": 14,
+          "gold": 5,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 230.7703610453008,
+            "y": -230.7703610453008,
+            "hp": 135.5,
+            "mana": 43.332715503600014,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 326.3585743840002,
+          "kills": 1,
+          "retreats": 0,
+          "power": 236
+        },
+        {
+          "time": 20.046369460999998,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 229.28607869862876,
+            "y": -333.061041912089,
+            "hp": 135.5,
+            "mana": 48,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 397.63946236456786,
+          "kills": 3,
+          "retreats": 0,
+          "power": 236
+        },
+        {
+          "time": 30.011659693,
+          "level": 1,
+          "xp": 56,
+          "gold": 20,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 508.6954179995403,
+            "y": -508.6954179995403,
+            "hp": 135.5,
+            "mana": 48,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 719.4039592520006,
+          "kills": 4,
+          "retreats": 0,
+          "power": 236
+        },
+        {
+          "time": 40.010581949000105,
+          "level": 2,
+          "xp": 22,
+          "gold": 30,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 629.4806180038239,
+            "y": -630.1285825706287,
+            "hp": 148.5,
+            "mana": 51,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 890.6782073711616,
+          "kills": 6,
+          "retreats": 0,
+          "power": 260
+        },
+        {
+          "time": 50.01288597300009,
+          "level": 2,
+          "xp": 50,
+          "gold": 40,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 762.7066519006005,
+            "y": -763.3546164674053,
+            "hp": 148.5,
+            "mana": 48.616444857000026,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1079.0882713691608,
+          "kills": 8,
+          "retreats": 0,
+          "power": 260
+        },
+        {
+          "time": 60.00592784600007,
+          "level": 2,
+          "xp": 64,
+          "gold": 45,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 924.5721255014577,
+            "y": -924.6860918603384,
+            "hp": 148.5,
+            "mana": 51,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1307.6230256614726,
+          "kills": 9,
+          "retreats": 0,
+          "power": 260
+        },
+        {
+          "time": 70.00631301000014,
+          "level": 3,
+          "xp": 21,
+          "gold": 70,
+          "bag": 4,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 998.2275174943105,
+            "y": -998.3414838531912,
+            "hp": 161.5,
+            "mana": 46.40767388190001,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1439.4102435094708,
+          "kills": 11,
+          "retreats": 0,
+          "power": 285
+        },
+        {
+          "time": 80.00669102500014,
+          "level": 3,
+          "xp": 35,
+          "gold": 75,
+          "bag": 5,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1211.9196195369204,
+            "y": -1213.2320842713752,
+            "hp": 161.5,
+            "mana": 54,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 1714.8412151689556,
+          "kills": 12,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "time": 90.00912197100033,
+          "level": 3,
+          "xp": 92,
+          "gold": 96,
+          "bag": 7,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 1162.5535932700013,
+            "y": -1298.75549885229,
+            "hp": 152.47121387928885,
+            "mana": 53.6105273991,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 1798.113492100956,
+          "kills": 15,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "time": 100.01690282700027,
+          "level": 3,
+          "xp": 92,
+          "gold": 96,
+          "bag": 7,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1495.4310219692902,
+            "y": -1495.9337276679862,
+            "hp": 152.47121387928885,
+            "mana": 49.16217114059999,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2115.2142994709175,
+          "kills": 15,
+          "retreats": 0,
+          "power": 284
+        },
+        {
+          "time": 110.00294133500036,
+          "level": 4,
+          "xp": 4,
+          "gold": 117,
+          "bag": 10,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1393.5224104932306,
+            "y": -1585.9095931718655,
+            "hp": 174.5,
+            "mana": 57,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2158.0810947149175,
+          "kills": 18,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "time": 120.01785074100034,
+          "level": 4,
+          "xp": 23,
+          "gold": 124,
+          "bag": 11,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1773.9632696723024,
+            "y": -1774.8017178853293,
+            "hp": 174.5,
+            "mana": 56.64298176059998,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2509.3557875393954,
+          "kills": 19,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "time": 130.0147427010004,
+          "level": 4,
+          "xp": 61,
+          "gold": 138,
+          "bag": 11,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1810.1921555764493,
+            "y": -1871.538013940619,
+            "hp": 165.56526373471294,
+            "mana": 57,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2603.376369364616,
+          "kills": 21,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "time": 140.01041698500023,
+          "level": 4,
+          "xp": 80,
+          "gold": 145,
+          "bag": 12,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 2033.7703021425077,
+            "y": -2034.6853962616333,
+            "hp": 165.56526373471294,
+            "mana": 48.53981153819994,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 846.790388294946,
+            "y": -846.790388294946
+          },
+          "route": 2876.8326132986194,
+          "kills": 22,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "time": 150.00810481900024,
+          "level": 4,
+          "xp": 156,
+          "gold": 180,
+          "bag": 14,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 1917.9260818002851,
+            "y": -2101.3306702049545,
+            "hp": 132.95347636641517,
+            "mana": 57,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 2876.8326132986194,
+          "kills": 24,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "time": 160.00740410700038,
+          "level": 4,
+          "xp": 156,
+          "gold": 180,
+          "bag": 14,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2285.697586623648,
+            "y": -2285.697586623648,
+            "hp": 132.95347636641517,
+            "mana": 52.54893296879996,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3232.4645264866153,
+          "kills": 24,
+          "retreats": 0,
+          "power": 309
+        },
+        {
+          "time": 170.00883629100048,
+          "level": 5,
+          "xp": 29,
+          "gold": 207,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 2255.1690703856943,
+            "y": -2269.7108513760313,
+            "hp": 104.3056868051917,
+            "mana": 52.78918709310002,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3237.174656638616,
+          "kills": 27,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "time": 180.01926700800058,
+          "level": 5,
+          "xp": 29,
+          "gold": 207,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2513.166840471795,
+            "y": -2514.5650304453407,
+            "hp": 104.3056868051917,
+            "mana": 51.99400786650004,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3555.143299913235,
+          "kills": 27,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "time": 190.00726429100087,
+          "level": 5,
+          "xp": 77,
+          "gold": 225,
+          "bag": 16,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2542.19673626526,
+            "y": -2543.594926238806,
+            "hp": 62.65567650617359,
+            "mana": 60,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3596.1977722586303,
+          "kills": 29,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "time": 200.0014796120008,
+          "level": 5,
+          "xp": 101,
+          "gold": 234,
+          "bag": 16,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2745.061855437011,
+            "y": -2746.301302778444,
+            "hp": 62.65567650617359,
+            "mana": 60,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3882.9801271321253,
+          "kills": 30,
+          "retreats": 0,
+          "power": 333
+        },
+        {
+          "time": 210.00343613900097,
+          "level": 5,
+          "xp": 125,
+          "gold": 243,
+          "bag": 17,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "retreat",
+          "player": {
+            "x": 2512.645283571347,
+            "y": -2513.547310505205,
+            "hp": 34.889002973494854,
+            "mana": 60,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 3955.221800038124,
+          "kills": 31,
+          "retreats": 1,
+          "power": 333
+        },
+        {
+          "time": 220.00842557700085,
+          "level": 5,
+          "xp": 125,
+          "gold": 243,
+          "bag": 17,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "camp",
+          "player": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468,
+            "hp": 131.4041069916193,
+            "mana": 60,
+            "shield": 0,
+            "face": -1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1872.3632897174468,
+            "y": -1872.3632897174468
+          },
+          "route": 2647.921558007918,
+          "kills": 31,
+          "retreats": 1,
+          "power": 333
+        }
+      ],
+      "errors": [],
+      "actions": [],
+      "retreatObserved": true,
+      "campAfterRetreat": true,
+      "retryAfterCamp": true,
+      "maxMove": 21.232746971999184,
+      "maxEnemies": 3,
+      "final": {
+        "time": 223.6929493710008,
+        "level": 5,
+        "xp": 125,
+        "gold": 243,
+        "bag": 17,
+        "depth": 3,
+        "frontier": 3,
+        "mode": "combat",
+        "player": {
+          "x": 1977.3538457794648,
+          "y": -1977.3538457794648,
+          "hp": 187.5,
+          "mana": 60,
+          "shield": 0,
+          "face": 1,
+          "moving": false
+        },
+        "camp": {
+          "x": 1872.3632897174468,
+          "y": -1872.3632897174468
+        },
+        "route": 2796.4006263119168,
+        "kills": 31,
+        "retreats": 1,
+        "power": 333
+      }
     },
     {
-      "seed": 20261005,
-      "policy": "no input",
-      "realElapsedSeconds": 70.010685115,
-      "ticks": 4301,
-      "maxTickDeltaSeconds": 0.029487019999998667,
-      "simulatedSeconds": 70.011,
-      "level": 3,
-      "depth": 2,
-      "frontier": 2,
-      "mode": "combat",
-      "kills": 16,
-      "elites": 1,
-      "retreats": 0,
-      "gold": 109,
-      "bag": 9,
-      "basket": 0,
-      "attrPoints": 6,
-      "skillPoints": 2,
-      "skills": {
-        "fire": 1,
-        "ice": 0,
-        "shield": 0,
-        "lightning": 0,
-        "meteor": 0
-      },
-      "actions": {},
-      "checkpoints": [
+      "seed": 903,
+      "label": "normal-build-spending",
+      "events": [
         {
-          "simulatedSeconds": 10.001,
+          "from": "camp",
+          "to": "travel",
+          "time": 1.8179580229999999,
           "level": 1,
-          "depth": 1,
-          "frontier": 1,
-          "mode": "advance",
-          "kills": 2,
-          "elites": 0,
-          "retreats": 0,
-          "gold": 10,
+          "xp": 0,
+          "gold": 0,
           "bag": 0,
-          "basket": 0,
-          "attrPoints": 0,
-          "skillPoints": 0,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 0,
+            "y": 0,
+            "hp": 128.3,
+            "mana": 52.6,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 0,
+          "kills": 0,
+          "retreats": 0,
+          "power": 214
         },
         {
-          "simulatedSeconds": 20.011,
-          "level": 2,
+          "from": "travel",
+          "to": "combat",
+          "time": 3.1981569530000007,
+          "level": 1,
+          "xp": 0,
+          "gold": 0,
+          "bag": 0,
           "depth": 1,
           "frontier": 1,
           "mode": "combat",
-          "kills": 5,
-          "elites": 0,
+          "player": {
+            "x": 105.40238646125701,
+            "y": -105.40238646125701,
+            "hp": 128.3,
+            "mana": 52.6,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 149.06148443999996,
+          "kills": 0,
           "retreats": 0,
-          "gold": 25,
+          "power": 214
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 16.617756634,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
           "bag": 1,
-          "basket": 0,
-          "attrPoints": 3,
-          "skillPoints": 1,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 254.04724821710937,
+            "y": -254.04724821710937,
+            "hp": 128.3,
+            "mana": 56.042777758800014,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 359.33472793200013,
+          "kills": 3,
+          "retreats": 0,
+          "power": 254
         },
         {
-          "simulatedSeconds": 30.011,
-          "level": 2,
+          "from": "loot",
+          "to": "travel",
+          "time": 18.43383072999999,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 65.1465261118493,
+            "y": -306.8283870169824,
+            "hp": 128.3,
+            "mana": 62.21742968520002,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 359.33472793200013,
+          "kills": 3,
+          "retreats": 0,
+          "power": 267
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 21.202709101,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
+          "bag": 1,
           "depth": 1,
           "frontier": 1,
           "mode": "combat",
-          "kills": 7,
-          "elites": 0,
-          "retreats": 0,
-          "gold": 35,
-          "bag": 2,
-          "basket": 0,
-          "attrPoints": 3,
-          "skillPoints": 1,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
+          "player": {
+            "x": 359.4165003048259,
+            "y": -360.02072209962984,
+            "hp": 128.3,
+            "mana": 62.7,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 508.71893860020504,
+          "kills": 3,
+          "retreats": 0,
+          "power": 267
         },
         {
-          "simulatedSeconds": 40.005,
+          "from": "combat",
+          "to": "loot",
+          "time": 34.62024254900006,
           "level": 2,
-          "depth": 2,
-          "frontier": 2,
+          "xp": 22,
+          "gold": 13,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 508.2139234003093,
+            "y": -508.81814519511323,
+            "hp": 155.3,
+            "mana": 63.10333300320002,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 719.1502723880053,
+          "kills": 6,
+          "retreats": 0,
+          "power": 356
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 36.43780247400008,
+          "level": 2,
+          "xp": 22,
+          "gold": 13,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 316.98892261022434,
+            "y": -553.1498940126309,
+            "hp": 155.3,
+            "mana": 69.28303674819996,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 719.1502723880053,
+          "kills": 6,
+          "retreats": 0,
+          "power": 356
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 39.24594687300009,
+          "level": 2,
+          "xp": 22,
+          "gold": 13,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
           "mode": "combat",
+          "player": {
+            "x": 614.0060884049794,
+            "y": -614.4631554037717,
+            "hp": 155.3,
+            "mana": 69.7,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 868.6589327762781,
+          "kills": 6,
+          "retreats": 0,
+          "power": 356
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 52.420249152000096,
+          "level": 2,
+          "xp": 64,
+          "gold": 11,
+          "bag": 3,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 762.7655513130983,
+            "y": -763.2226183118905,
+            "hp": 155.3,
+            "mana": 69.41766036,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1079.0365827522771,
           "kills": 9,
-          "elites": 1,
           "retreats": 0,
-          "gold": 60,
+          "power": 432
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 54.22825650300008,
+          "level": 2,
+          "xp": 64,
+          "gold": 11,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 572.1416366163724,
+            "y": -805.5412062565397,
+            "hp": 169.9,
+            "mana": 75.5,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1079.0365827522771,
+          "kills": 9,
+          "retreats": 0,
+          "power": 507
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 57.04061237900006,
+          "level": 2,
+          "xp": 64,
+          "gold": 11,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 869.0601019904766,
+            "y": -869.0601019904766,
+            "hp": 169.9,
+            "mana": 75.5,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1229.0365827522774,
+          "kills": 9,
+          "retreats": 0,
+          "power": 507
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 69.98609162600013,
+          "level": 3,
+          "xp": 35,
+          "gold": 19,
           "bag": 4,
-          "basket": 0,
-          "attrPoints": 3,
-          "skillPoints": 1,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 1017.8634092624515,
+            "y": -1017.8634092624515,
+            "hp": 182.9,
+            "mana": 64.2787201884,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1439.476238022275,
+          "kills": 12,
+          "retreats": 0,
+          "power": 640
         },
         {
-          "simulatedSeconds": 50.013,
+          "from": "loot",
+          "to": "travel",
+          "time": 71.8035447910001,
           "level": 3,
+          "xp": 35,
+          "gold": 19,
+          "bag": 4,
           "depth": 2,
           "frontier": 2,
-          "mode": "loot",
-          "kills": 13,
-          "elites": 1,
-          "retreats": 0,
-          "gold": 88,
-          "bag": 7,
-          "basket": 0,
-          "attrPoints": 6,
-          "skillPoints": 2,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
+          "mode": "travel",
+          "player": {
+            "x": 825.8015708364185,
+            "y": -1058.360675907166,
+            "hp": 182.9,
+            "mana": 70.82155158239999,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 1439.476238022275,
+          "kills": 12,
+          "retreats": 0,
+          "power": 640
         },
         {
-          "simulatedSeconds": 60.012,
+          "from": "travel",
+          "to": "combat",
+          "time": 74.62218910600008,
           "level": 3,
-          "depth": 2,
-          "frontier": 2,
-          "mode": "loot",
-          "kills": 15,
-          "elites": 1,
-          "retreats": 0,
-          "gold": 102,
-          "bag": 8,
-          "basket": 0,
-          "attrPoints": 6,
-          "skillPoints": 2,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
-            "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
-        },
-        {
-          "simulatedSeconds": 70.011,
-          "level": 3,
+          "xp": 35,
+          "gold": 19,
+          "bag": 4,
           "depth": 2,
           "frontier": 2,
           "mode": "combat",
-          "kills": 16,
-          "elites": 1,
-          "retreats": 0,
-          "gold": 109,
-          "bag": 9,
-          "basket": 0,
-          "attrPoints": 6,
-          "skillPoints": 2,
-          "skills": {
-            "fire": 1,
-            "ice": 0,
+          "player": {
+            "x": 1123.1094697432904,
+            "y": -1123.749089262567,
+            "hp": 182.9,
+            "mana": 80.96867111639993,
             "shield": 0,
-            "lightning": 0,
-            "meteor": 0
-          }
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 1588.7689234400764,
+          "kills": 12,
+          "retreats": 0,
+          "power": 640
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 87.89425036700024,
+          "level": 3,
+          "xp": 92,
+          "gold": 40,
+          "bag": 5,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 1271.9380173643556,
+            "y": -1272.577636883632,
+            "hp": 199.7,
+            "mana": 57.33971013479992,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 1799.2442739540768,
+          "kills": 15,
+          "retreats": 0,
+          "power": 689
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 89.6964934810003,
+          "level": 3,
+          "xp": 92,
+          "gold": 6,
+          "bag": 5,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1081.7413029990694,
+            "y": -1313.9396700405734,
+            "hp": 199.7,
+            "mana": 63.82778534519994,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 1799.2442739540768,
+          "kills": 15,
+          "retreats": 0,
+          "power": 698
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 92.49286118800032,
+          "level": 3,
+          "xp": 92,
+          "gold": 6,
+          "bag": 5,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1376.8747399535425,
+            "y": -1378.0092627811534,
+            "hp": 199.7,
+            "mana": 73.89470909039984,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 1947.997159716043,
+          "kills": 15,
+          "retreats": 0,
+          "power": 698
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 105.67126901600027,
+          "level": 4,
+          "xp": 4,
+          "gold": 27,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 1525.4736911157424,
+            "y": -1526.6082139433533,
+            "hp": 219.9,
+            "mana": 90.3,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2158.147811804043,
+          "kills": 18,
+          "retreats": 0,
+          "power": 729
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 107.4827601530003,
+          "level": 4,
+          "xp": 4,
+          "gold": 27,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1334.131276973972,
+            "y": -1567.3942186104655,
+            "hp": 233.9,
+            "mana": 95.3,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2158.147811804043,
+          "kills": 18,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 110.30426747100039,
+          "level": 4,
+          "xp": 4,
+          "gold": 27,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1631.9125743540978,
+            "y": -1632.0647519749168,
+            "hp": 233.9,
+            "mana": 95.3,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2307.980501086383,
+          "kills": 18,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 122.65204139300029,
+          "level": 4,
+          "xp": 61,
+          "gold": 48,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 1780.5429762795932,
+            "y": -1780.695153900412,
+            "hp": 233.9,
+            "mana": 75.65947754659999,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2518.175631270383,
+          "kills": 21,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 124.46877043800023,
+          "level": 4,
+          "xp": 61,
+          "gold": 48,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1588.635521066462,
+            "y": -1821.543804096822,
+            "hp": 233.9,
+            "mana": 82.56304791760007,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2518.175631270383,
+          "kills": 21,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 127.28881931200024,
+          "level": 4,
+          "xp": 61,
+          "gold": 48,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1886.1772341321168,
+            "y": -1886.5740877187768,
+            "hp": 233.9,
+            "mana": 93.27923363880014,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2667.7380434112783,
+          "kills": 21,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 139.7936304730002,
+          "level": 4,
+          "xp": 156,
+          "gold": 37,
+          "bag": 8,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 2034.7542209652893,
+            "y": -2035.151074551949,
+            "hp": 233.9,
+            "mana": 74.08573352719988,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2877.857633247279,
+          "kills": 24,
+          "retreats": 0,
+          "power": 773
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 141.60335565600036,
+          "level": 4,
+          "xp": 156,
+          "gold": 37,
+          "bag": 8,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 1843.9508950771817,
+            "y": -2077.5175509913,
+            "hp": 233.9,
+            "mana": 80.96268922259983,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 2877.857633247279,
+          "kills": 24,
+          "retreats": 0,
+          "power": 772
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 144.40801153600034,
+          "level": 4,
+          "xp": 156,
+          "gold": 37,
+          "bag": 8,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2140.161903942014,
+            "y": -2140.8355239732887,
+            "hp": 233.9,
+            "mana": 91.6203815665999,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3027.122311521079,
+          "kills": 24,
+          "retreats": 0,
+          "power": 772
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 157.23203831200036,
+          "level": 5,
+          "xp": 29,
+          "gold": 37,
+          "bag": 9,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 2288.9440854513814,
+            "y": -2289.617705482656,
+            "hp": 255.75952847149506,
+            "mana": 87.55310102279995,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3237.5320904510822,
+          "kills": 27,
+          "retreats": 0,
+          "power": 974
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 159.03725413000043,
+          "level": 5,
+          "xp": 29,
+          "gold": 37,
+          "bag": 9,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 2100.9764141915803,
+            "y": -2341.375276538535,
+            "hp": 255.75952847149506,
+            "mana": 95.13500745839997,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3237.5320904510822,
+          "kills": 27,
+          "retreats": 0,
+          "power": 974
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 161.79751342600048,
+          "level": 5,
+          "xp": 29,
+          "gold": 37,
+          "bag": 9,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2394.196745955912,
+            "y": -2395.1360342508297,
+            "hp": 255.75952847149506,
+            "mana": 106.72809650160005,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3386.569686243208,
+          "kills": 27,
+          "retreats": 0,
+          "power": 974
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 174.7964539440007,
+          "level": 5,
+          "xp": 101,
+          "gold": 22,
+          "bag": 12,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 2542.964898520477,
+            "y": -2543.904186815395,
+            "hp": 286.70884739403755,
+            "mana": 71.79074769340092,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3596.959625249206,
+          "kills": 30,
+          "retreats": 0,
+          "power": 1075
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 176.59770379600062,
+          "level": 5,
+          "xp": 101,
+          "gold": 22,
+          "bag": 12,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 2355.1223887998367,
+            "y": -2594.4912557950797,
+            "hp": 303.96277290942777,
+            "mana": 81.88296341177264,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3596.959625249206,
+          "kills": 30,
+          "retreats": 0,
+          "power": 1092
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 179.35462996100065,
+          "level": 5,
+          "xp": 101,
+          "gold": 22,
+          "bag": 12,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2647.8041922304396,
+            "y": -2649.183566226418,
+            "hp": 303.96277290942777,
+            "mana": 92.91066807177262,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3745.5359638669743,
+          "kills": 30,
+          "retreats": 0,
+          "power": 1092
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 192.15983087000077,
+          "level": 5,
+          "xp": 173,
+          "gold": 22,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 2796.3603116254862,
+            "y": -2797.7396856214646,
+            "hp": 305.3627729094278,
+            "mana": 58.1314717077728,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3955.626042688966,
+          "kills": 33,
+          "retreats": 0,
+          "power": 1108
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 193.96976912100084,
+          "level": 5,
+          "xp": 173,
+          "gold": 22,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 2606.5333542681706,
+            "y": -2844.382471075609,
+            "hp": 305.3627729094278,
+            "mana": 65.37122471177274,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3955.626042688966,
+          "kills": 33,
+          "retreats": 0,
+          "power": 1108
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 196.76304931900074,
+          "level": 5,
+          "xp": 173,
+          "gold": 22,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2902.460641803953,
+            "y": -2902.98622925967,
+            "hp": 305.3627729094278,
+            "mana": 76.54434550377277,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 4105.070850347312,
+          "kills": 33,
+          "retreats": 0,
+          "power": 1108
+        },
+        {
+          "from": "combat",
+          "to": "loot",
+          "time": 209.96176598900098,
+          "level": 6,
+          "xp": 32,
+          "gold": 34,
+          "bag": 18,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 3051.329130939863,
+            "y": -3051.8547183955798,
+            "hp": 350.0394726641578,
+            "mana": 99.01229739200014,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 4315.602686693308,
+          "kills": 36,
+          "retreats": 0,
+          "power": 1256
+        },
+        {
+          "from": "loot",
+          "to": "travel",
+          "time": 211.7739042300009,
+          "level": 6,
+          "xp": 32,
+          "gold": 34,
+          "bag": 18,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "travel",
+          "player": {
+            "x": 2861.4941058721556,
+            "y": -3099.4512664843523,
+            "hp": 350.0394726641578,
+            "mana": 106.2608503560001,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 2888.548804624003,
+            "y": -2888.548804624003
+          },
+          "route": 4315.602686693308,
+          "kills": 36,
+          "retreats": 0,
+          "power": 1254
+        },
+        {
+          "from": "travel",
+          "to": "combat",
+          "time": 214.55288977500103,
+          "level": 6,
+          "xp": 32,
+          "gold": 34,
+          "bag": 18,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "combat",
+          "player": {
+            "x": 3155.9907937493317,
+            "y": -3157.330288242401,
+            "hp": 350.0394726641578,
+            "mana": 117.37679253600008,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 2888.548804624003,
+            "y": -2888.548804624003
+          },
+          "route": 4464.192148884346,
+          "kills": 36,
+          "retreats": 0,
+          "power": 1254
         }
       ],
-      "engineOnly": true,
-      "browserTest": false
+      "samples": [
+        {
+          "time": 0.021437292,
+          "level": 1,
+          "xp": 0,
+          "gold": 0,
+          "bag": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "camp",
+          "player": {
+            "x": 0,
+            "y": 0,
+            "hp": 128.3,
+            "mana": 52.6,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 0,
+          "kills": 0,
+          "retreats": 0,
+          "power": 214
+        },
+        {
+          "time": 10.017275796999998,
+          "level": 1,
+          "xp": 0,
+          "gold": 0,
+          "bag": 0,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 230.7703610453008,
+            "y": -230.7703610453008,
+            "hp": 128.3,
+            "mana": 48.06400991279998,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 326.3585743840002,
+          "kills": 0,
+          "retreats": 0,
+          "power": 214
+        },
+        {
+          "time": 20.046369460999998,
+          "level": 1,
+          "xp": 42,
+          "gold": 15,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "travel",
+          "player": {
+            "x": 236.52340410204016,
+            "y": -337.80652654505445,
+            "hp": 128.3,
+            "mana": 62.7,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 406.1125885989602,
+          "kills": 3,
+          "retreats": 0,
+          "power": 267
+        },
+        {
+          "time": 30.011659693,
+          "level": 1,
+          "xp": 56,
+          "gold": 3,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 507.97580591030675,
+            "y": -508.5800277051107,
+            "hp": 128.3,
+            "mana": 62.7,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 718.8135234042054,
+          "kills": 4,
+          "retreats": 0,
+          "power": 274
+        },
+        {
+          "time": 40.010581949000105,
+          "level": 2,
+          "xp": 22,
+          "gold": 13,
+          "bag": 1,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 628.0637332366692,
+            "y": -628.5208002354615,
+            "hp": 155.3,
+            "mana": 69.7,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 888.5394447522779,
+          "kills": 6,
+          "retreats": 0,
+          "power": 356
+        },
+        {
+          "time": 50.01288597300009,
+          "level": 2,
+          "xp": 50,
+          "gold": 6,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 762.7655513130983,
+            "y": -763.2226183118905,
+            "hp": 155.3,
+            "mana": 75.5,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1079.0365827522771,
+          "kills": 8,
+          "retreats": 0,
+          "power": 432
+        },
+        {
+          "time": 60.00592784600007,
+          "level": 2,
+          "xp": 64,
+          "gold": 11,
+          "bag": 2,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "combat",
+          "player": {
+            "x": 923.5767635423756,
+            "y": -923.5767635423756,
+            "hp": 169.9,
+            "mana": 75.5,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1306.1347848942767,
+          "kills": 9,
+          "retreats": 0,
+          "power": 507
+        },
+        {
+          "time": 70.00631301000014,
+          "level": 3,
+          "xp": 35,
+          "gold": 19,
+          "bag": 4,
+          "depth": 1,
+          "frontier": 1,
+          "mode": "loot",
+          "player": {
+            "x": 1015.7264869684678,
+            "y": -1018.3139907660322,
+            "hp": 182.9,
+            "mana": 64.35151717080002,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 0,
+            "y": 0
+          },
+          "route": 1439.476238022275,
+          "kills": 12,
+          "retreats": 0,
+          "power": 640
+        },
+        {
+          "time": 80.00669102500014,
+          "level": 3,
+          "xp": 35,
+          "gold": 19,
+          "bag": 4,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1222.1023330694497,
+            "y": -1222.7419525887262,
+            "hp": 182.9,
+            "mana": 61.944496503599986,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 1728.765973334077,
+          "kills": 12,
+          "retreats": 0,
+          "power": 640
+        },
+        {
+          "time": 90.00912197100033,
+          "level": 3,
+          "xp": 92,
+          "gold": 6,
+          "bag": 5,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1114.7366492522176,
+            "y": -1321.102526335639,
+            "hp": 199.7,
+            "mana": 64.95324790919996,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 1799.2442739540768,
+          "kills": 15,
+          "retreats": 0,
+          "power": 698
+        },
+        {
+          "time": 100.01690282700027,
+          "level": 3,
+          "xp": 111,
+          "gold": 13,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1515.2025624400808,
+            "y": -1516.3370852676917,
+            "hp": 206.9,
+            "mana": 72.42651322260953,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2143.6222423300433,
+          "kills": 16,
+          "retreats": 0,
+          "power": 701
+        },
+        {
+          "time": 110.00294133500036,
+          "level": 4,
+          "xp": 4,
+          "gold": 27,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "travel",
+          "player": {
+            "x": 1600.110676432307,
+            "y": -1625.1581875979787,
+            "hp": 233.9,
+            "mana": 95.3,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2280.609484905648,
+          "kills": 18,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "time": 120.01785074100034,
+          "level": 4,
+          "xp": 42,
+          "gold": 41,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1780.5429762795932,
+            "y": -1780.695153900412,
+            "hp": 233.9,
+            "mana": 80.64955306900002,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2518.175631270383,
+          "kills": 20,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "time": 130.0147427010004,
+          "level": 4,
+          "xp": 61,
+          "gold": 48,
+          "bag": 6,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "combat",
+          "player": {
+            "x": 1936.2927258793973,
+            "y": -1936.6895794660572,
+            "hp": 233.9,
+            "mana": 95.3,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2738.612051525279,
+          "kills": 21,
+          "retreats": 0,
+          "power": 763
+        },
+        {
+          "time": 140.01041698500023,
+          "level": 4,
+          "xp": 156,
+          "gold": 37,
+          "bag": 8,
+          "depth": 2,
+          "frontier": 2,
+          "mode": "loot",
+          "player": {
+            "x": 2011.897939864801,
+            "y": -2040.2261438162177,
+            "hp": 233.9,
+            "mana": 74.90952227279983,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 850.1572418175411,
+            "y": -850.1572418175411
+          },
+          "route": 2877.857633247279,
+          "kills": 24,
+          "retreats": 0,
+          "power": 773
+        },
+        {
+          "time": 150.00810481900024,
+          "level": 4,
+          "xp": 156,
+          "gold": 37,
+          "bag": 8,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2243.1183662698672,
+            "y": -2243.791986301142,
+            "hp": 233.9,
+            "mana": 95.3,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3172.7247368790836,
+          "kills": 24,
+          "retreats": 0,
+          "power": 772
+        },
+        {
+          "time": 160.00740410700038,
+          "level": 5,
+          "xp": 29,
+          "gold": 37,
+          "bag": 9,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "travel",
+          "player": {
+            "x": 2204.0347386502026,
+            "y": -2360.270602037001,
+            "hp": 255.75952847149506,
+            "mana": 99.20963736179996,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3237.5320904510822,
+          "kills": 27,
+          "retreats": 0,
+          "power": 974
+        },
+        {
+          "time": 170.00883629100048,
+          "level": 5,
+          "xp": 53,
+          "gold": 4,
+          "bag": 10,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2542.964898520477,
+            "y": -2543.904186815395,
+            "hp": 281.0586232997691,
+            "mana": 82.49113538435816,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3596.959625249206,
+          "kills": 28,
+          "retreats": 0,
+          "power": 1062
+        },
+        {
+          "time": 180.01926700800058,
+          "level": 5,
+          "xp": 101,
+          "gold": 22,
+          "bag": 12,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2660.023395667439,
+            "y": -2661.4027696634175,
+            "hp": 303.96277290942777,
+            "mana": 95.56921625977259,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3762.816527088975,
+          "kills": 30,
+          "retreats": 0,
+          "power": 1092
+        },
+        {
+          "time": 190.00726429100087,
+          "level": 5,
+          "xp": 149,
+          "gold": 13,
+          "bag": 14,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2796.3603116254862,
+            "y": -2797.7396856214646,
+            "hp": 305.3627729094278,
+            "mana": 92.52120539177271,
+            "shield": 0,
+            "face": 1,
+            "moving": false
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 3955.626042688966,
+          "kills": 32,
+          "retreats": 0,
+          "power": 1108
+        },
+        {
+          "time": 200.0014796120008,
+          "level": 5,
+          "xp": 173,
+          "gold": 22,
+          "bag": 15,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "combat",
+          "player": {
+            "x": 2961.998458339039,
+            "y": -2962.524045794756,
+            "hp": 305.3627729094278,
+            "mana": 89.4980666757728,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 4189.270037965312,
+          "kills": 33,
+          "retreats": 0,
+          "power": 1108
+        },
+        {
+          "time": 210.00343613900097,
+          "level": 6,
+          "xp": 32,
+          "gold": 34,
+          "bag": 18,
+          "depth": 3,
+          "frontier": 3,
+          "mode": "loot",
+          "player": {
+            "x": 3046.9638712754245,
+            "y": -3052.949201837001,
+            "hp": 350.0394726641578,
+            "mana": 99.1789779920001,
+            "shield": 0,
+            "face": -1,
+            "moving": true
+          },
+          "camp": {
+            "x": 1868.81034147999,
+            "y": -1868.81034147999
+          },
+          "route": 4315.602686693308,
+          "kills": 36,
+          "retreats": 0,
+          "power": 1256
+        },
+        {
+          "time": 220.00842557700085,
+          "level": 6,
+          "xp": 90,
+          "gold": 56,
+          "bag": 20,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "combat",
+          "player": {
+            "x": 3256.2895991249375,
+            "y": -3257.6290936180067,
+            "hp": 371.1717365912656,
+            "mana": 96.32246737199382,
+            "shield": 0,
+            "face": 1,
+            "moving": true
+          },
+          "camp": {
+            "x": 2888.548804624003,
+            "y": -2888.548804624003
+          },
+          "route": 4606.036079736346,
+          "kills": 38,
+          "retreats": 0,
+          "power": 1265
+        }
+      ],
+      "errors": [],
+      "actions": [
+        {
+          "time": 13.002916302999996,
+          "type": "equip",
+          "id": "g8",
+          "delta": 40,
+          "ok": true,
+          "message": "穿上 星火法帽"
+        },
+        {
+          "time": 17.011315839,
+          "type": "equip",
+          "id": "g10",
+          "delta": 13,
+          "ok": true,
+          "message": "穿上 星火法杖"
+        },
+        {
+          "time": 28.012068675,
+          "type": "enhance",
+          "id": "g10",
+          "ok": true,
+          "message": "星火法杖 強化至 +1"
+        },
+        {
+          "time": 31.012362672999995,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 31.012362672999995,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 31.012362672999995,
+          "type": "attribute",
+          "key": "vit",
+          "ok": true,
+          "message": "體質 +1"
+        },
+        {
+          "time": 31.012362672999995,
+          "type": "skill",
+          "key": "fire",
+          "ok": true,
+          "message": "絨火彈提升至 2 級"
+        },
+        {
+          "time": 46.00385571800013,
+          "type": "equip",
+          "id": "g20",
+          "delta": 1,
+          "ok": true,
+          "message": "穿上 月影法杖"
+        },
+        {
+          "time": 46.00385571800013,
+          "type": "enhance",
+          "id": "g20",
+          "ok": true,
+          "message": "月影法杖 強化至 +1"
+        },
+        {
+          "time": 48.00790268300008,
+          "type": "equip",
+          "id": "g23",
+          "delta": 68,
+          "ok": true,
+          "message": "穿上 星火戒指"
+        },
+        {
+          "time": 53.007333310000085,
+          "type": "equip",
+          "id": "g25",
+          "delta": 75,
+          "ok": true,
+          "message": "穿上 星火護符"
+        },
+        {
+          "time": 67.01780790800014,
+          "type": "attribute",
+          "key": "focus",
+          "ok": true,
+          "message": "專注 +1"
+        },
+        {
+          "time": 67.01780790800014,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 67.01780790800014,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 67.01780790800014,
+          "type": "skill",
+          "key": "ice",
+          "ok": true,
+          "message": "霜花環提升至 1 級"
+        },
+        {
+          "time": 67.01780790800014,
+          "type": "equip",
+          "id": "g31",
+          "delta": 13,
+          "ok": true,
+          "message": "穿上 月影法杖"
+        },
+        {
+          "time": 67.01780790800014,
+          "type": "enhance",
+          "id": "g31",
+          "ok": true,
+          "message": "月影法杖 強化至 +1"
+        },
+        {
+          "time": 84.01744687000024,
+          "type": "equip",
+          "id": "g40",
+          "delta": 49,
+          "ok": true,
+          "message": "穿上 星火短靴"
+        },
+        {
+          "time": 88.01501112500024,
+          "type": "enhance",
+          "id": "g31",
+          "ok": true,
+          "message": "月影法杖 強化至 +2"
+        },
+        {
+          "time": 99.01676899800025,
+          "type": "equip",
+          "id": "g45",
+          "delta": 3,
+          "ok": true,
+          "message": "穿上 晨露長袍"
+        },
+        {
+          "time": 106.01389509800025,
+          "type": "attribute",
+          "key": "vit",
+          "ok": true,
+          "message": "體質 +1"
+        },
+        {
+          "time": 106.01389509800025,
+          "type": "attribute",
+          "key": "focus",
+          "ok": true,
+          "message": "專注 +1"
+        },
+        {
+          "time": 106.01389509800025,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 106.01389509800025,
+          "type": "skill",
+          "key": "shield",
+          "ok": true,
+          "message": "星紗護罩提升至 1 級"
+        },
+        {
+          "time": 134.00041848100025,
+          "type": "enhance",
+          "id": "g31",
+          "ok": true,
+          "message": "月影法杖 強化至 +3"
+        },
+        {
+          "time": 155.0159547190002,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 155.0159547190002,
+          "type": "attribute",
+          "key": "vit",
+          "ok": true,
+          "message": "體質 +1"
+        },
+        {
+          "time": 155.0159547190002,
+          "type": "attribute",
+          "key": "focus",
+          "ok": true,
+          "message": "專注 +1"
+        },
+        {
+          "time": 155.0159547190002,
+          "type": "skill",
+          "key": "lightning",
+          "ok": true,
+          "message": "跳跳雷光提升至 1 級"
+        },
+        {
+          "time": 155.0159547190002,
+          "type": "equip",
+          "id": "g68",
+          "delta": 44,
+          "ok": true,
+          "message": "穿上 星火護符"
+        },
+        {
+          "time": 156.00498363700024,
+          "type": "equip",
+          "id": "g60",
+          "delta": 10,
+          "ok": true,
+          "message": "穿上 晨露法杖"
+        },
+        {
+          "time": 156.00498363700024,
+          "type": "enhance",
+          "id": "g60",
+          "ok": true,
+          "message": "晨露法杖 強化至 +1"
+        },
+        {
+          "time": 170.00883629100048,
+          "type": "equip",
+          "id": "g73",
+          "delta": 75,
+          "ok": true,
+          "message": "穿上 守望戒指"
+        },
+        {
+          "time": 170.00883629100048,
+          "type": "enhance",
+          "id": "g60",
+          "ok": true,
+          "message": "晨露法杖 強化至 +2"
+        },
+        {
+          "time": 172.00835556300055,
+          "type": "equip",
+          "id": "g76",
+          "delta": 11,
+          "ok": true,
+          "message": "穿上 守望法杖"
+        },
+        {
+          "time": 173.0006865400007,
+          "type": "equip",
+          "id": "g62",
+          "delta": 2,
+          "ok": true,
+          "message": "穿上 月影法帽"
+        },
+        {
+          "time": 175.01672922900065,
+          "type": "equip",
+          "id": "g78",
+          "delta": 17,
+          "ok": true,
+          "message": "穿上 守望法帽"
+        },
+        {
+          "time": 186.00919155000082,
+          "type": "enhance",
+          "id": "g76",
+          "ok": true,
+          "message": "守望法杖 強化至 +1"
+        },
+        {
+          "time": 209.00565103200097,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 209.00565103200097,
+          "type": "attribute",
+          "key": "int",
+          "ok": true,
+          "message": "智力 +1"
+        },
+        {
+          "time": 209.00565103200097,
+          "type": "attribute",
+          "key": "vit",
+          "ok": true,
+          "message": "體質 +1"
+        },
+        {
+          "time": 209.00565103200097,
+          "type": "skill",
+          "key": "fire",
+          "ok": true,
+          "message": "絨火彈提升至 3 級"
+        },
+        {
+          "time": 209.00565103200097,
+          "type": "enhance",
+          "id": "g76",
+          "ok": true,
+          "message": "守望法杖 強化至 +2"
+        },
+        {
+          "time": 220.00842557700085,
+          "type": "equip",
+          "id": "g100",
+          "delta": 11,
+          "ok": true,
+          "message": "穿上 晨露長袍"
+        }
+      ],
+      "retreatObserved": false,
+      "campAfterRetreat": false,
+      "retryAfterCamp": false,
+      "maxMove": 20.323772099999697,
+      "maxEnemies": 2,
+      "final": {
+        "time": 223.6929493710008,
+        "level": 6,
+        "xp": 90,
+        "gold": 56,
+        "bag": 20,
+        "depth": 4,
+        "frontier": 4,
+        "mode": "combat",
+        "player": {
+          "x": 3304.7468257640367,
+          "y": -3306.086320257106,
+          "hp": 371.1717365912656,
+          "mana": 111.42901492739384,
+          "shield": 0,
+          "face": 1,
+          "moving": false
+        },
+        "camp": {
+          "x": 2888.548804624003,
+          "y": -2888.548804624003
+        },
+        "route": 4674.564946844348,
+        "kills": 38,
+        "retreats": 0,
+        "power": 1265
+      }
     }
   ],
-  "observations": []
+  "passed": 2,
+  "failed": 0,
+  "scope": "Actual timer-driven engine execution on the final engine hash; no time acceleration, browser, or human gameplay claim."
 }

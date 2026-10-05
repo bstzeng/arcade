@@ -3,30 +3,43 @@
   "title": "星絨法師：自走遠征",
   "entry": "games/starweave-idle.html",
   "categoryRecommendation": "simulation",
-  "revision": "initial-complete-v1",
-  "engineSha256": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
+  "revision": "v2-unified-backpack-continuous-world",
+  "baseMainCommit": "4254603df9278e9734585a8b15bdcc39d418e85c",
+  "engineSha256": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
   "buildRequired": false,
   "networkDependencies": [],
   "saveNamespace": "arcade.starweave-idle.save.v1",
+  "saveEnvelopeVersion": 2,
+  "legacyVersionsAccepted": [
+    1
+  ],
   "automatedSourceGate": "node games/starweave-idle/verify.cjs",
   "verification": {
-    "engineFocusedTests": 24,
-    "progressionScenarios": 10,
-    "uiStorageChecks": 38,
-    "uiStorageAssertions": 321,
+    "publicEngineTests": 14,
+    "spatialProgressionRuns": 6,
+    "privateActualSaveMigration": true,
+    "uiStorageChecks": 53,
+    "uiStorageAssertions": 960,
     "realTimeEngineRuns": 2,
-    "realTimeSecondsEach": 70,
-    "naturalInventoryCapSimulatedHours": 5.168263888888889,
-    "missingLootAtCap": 0,
-    "browserTested": false,
+    "realTimeSecondsEach": 223.693431546,
+    "naturalRealTimeRetreatHealRetry": true,
+    "unifiedBagRoundTripItems": 10005,
+    "browserTestedForV2": false,
     "manualLongSessionTested": false
   },
+  "revisedBehavior": [
+    "Every existing bag and legacy basket item is kept in one growing backpack.",
+    "At most 30 bag item cards rendered per page; selection is ID-based with explicit sale confirmation.",
+    "Whole-build combat power replacement comparisons drive highlight and current-to-after preview.",
+    "World coordinates and an exact hero-follow camera replace the stationary arena.",
+    "Three enemies maximum; NW/NE/SE arrivals begin offscreen 3.8 seconds apart.",
+    "A reserved southwest corridor and physical retreat lead to the last safe camp."
+  ],
   "limits": [
-    "Five cycling visual regions, not thousands of unique handcrafted maps.",
-    "Manual allocation and equipping; unattended progression may plateau while safely farming.",
-    "Finite five-skill tree, rank 10 each; surplus skill points are retained.",
-    "Basket safety stop at 2000 items; final-wave loot retained, no autosale.",
-    "No offline gains; background pages pause.",
-    "Level limit 999, depth limit 9999; repeatable exploration remains."
+    "Combat power is a comparative build index, not a guarantee of winning or exact DPS.",
+    "Five visual regions cycle with depth; five finite skills, rank10 each.",
+    "No automatic allocation/equipping; unattended builds can plateau while safely farming.",
+    "No offline gains. Browser memory/storage quotas still apply to a growing inventory.",
+    "Import safety limit32MiB; level999 and depth9999 maximum."
   ]
 }
