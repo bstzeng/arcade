@@ -1,0 +1,726 @@
+[
+  {
+    "schema": 1,
+    "level": {
+      "id": "01",
+      "chapter": 1,
+      "title": "第一缸微光",
+      "initial": {
+        "cash": 58,
+        "seed": 15,
+        "capacity": 5,
+        "fish": [
+          {
+            "species": "ember",
+            "x": 260,
+            "y": 220
+          },
+          {
+            "species": "ember",
+            "x": 580,
+            "y": 330
+          }
+        ],
+        "helpers": [
+          "collector"
+        ],
+        "currents": [],
+        "shelters": [
+          {
+            "x": 760,
+            "y": 350,
+            "r": 70
+          }
+        ],
+        "waves": []
+      },
+      "objective": {
+        "minFish": 2,
+        "healthyFor": 15,
+        "phases": [
+          {
+            "name": "安裝循環濾器",
+            "cost": 28,
+            "meals": 4,
+            "adults": 1
+          },
+          {
+            "name": "栽植安心水草",
+            "cost": 45,
+            "meals": 10,
+            "adults": 2
+          },
+          {
+            "name": "點亮保育紀錄",
+            "cost": 65,
+            "meals": 18,
+            "adults": 2
+          }
+        ]
+      },
+      "mechanicFocus": [
+        "單魚照護",
+        "收幣路線",
+        "小目標建設"
+      ],
+      "intendedDecision": "先供應即將飢餓的魚或先撿即將消失的硬幣；升級高營養食物與留建設資金間取捨。",
+      "distinctnessRationale": "開闊雙魚缸沒有外敵，三段建設逐步要求餵食與成長，建立照護與現金流。",
+      "estimatedMinutes": [
+        4,
+        6
+      ],
+      "estimateStatus": "unmeasured_design_estimate"
+    },
+    "id": "01",
+    "runID": "legacy-01",
+    "rng": 2745014041,
+    "nextID": 4,
+    "time": 2.0000000000000027,
+    "ticks": 60,
+    "status": "running",
+    "paused": false,
+    "reason": "",
+    "cash": 58,
+    "spent": 0,
+    "earned": 0,
+    "foodLevel": 1,
+    "mode": "pellet",
+    "breeding": false,
+    "fish": [
+      {
+        "id": 1,
+        "species": "ember",
+        "x": 296.136453328129,
+        "y": 241.7534785589841,
+        "vx": 16.013039800732894,
+        "vy": 13.816839593052537,
+        "dir": 1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 2.319739951876458,
+        "shield": 0
+      },
+      {
+        "id": 2,
+        "species": "ember",
+        "x": 576.6796961162245,
+        "y": 290.9344430949908,
+        "vx": 12.066079703184418,
+        "vy": -17.37044100178234,
+        "dir": 1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 4.815612234269055,
+        "shield": 0
+      }
+    ],
+    "food": [],
+    "coins": [],
+    "invaders": [],
+    "helpers": [
+      {
+        "id": 3,
+        "type": "collector",
+        "x": 420,
+        "y": 490,
+        "timer": 2.0000000000000027
+      }
+    ],
+    "effects": [],
+    "phase": 0,
+    "healthy": 0,
+    "wave": 0,
+    "attackCooldown": 0,
+    "metrics": {
+      "meals": 0,
+      "wasted": 0,
+      "born": 0,
+      "kills": 0,
+      "shots": 0,
+      "hits": 0,
+      "diets": {
+        "pellet": 0,
+        "algae": 0,
+        "live": 0
+      },
+      "deaths": 0,
+      "helperFood": 0,
+      "helperCoins": 0,
+      "helperClean": 0,
+      "helperHeal": 0
+    },
+    "rewardClaimed": false
+  },
+  {
+    "schema": 1,
+    "level": {
+      "id": "25",
+      "chapter": 3,
+      "title": "雙門裝甲警報",
+      "initial": {
+        "cash": 112,
+        "seed": 2515,
+        "capacity": 8,
+        "fish": [
+          {
+            "species": "ember",
+            "x": 250,
+            "y": 180
+          },
+          {
+            "species": "ribbon",
+            "x": 360,
+            "y": 380
+          },
+          {
+            "species": "shield",
+            "x": 640,
+            "y": 200
+          },
+          {
+            "species": "pearl",
+            "x": 690,
+            "y": 420
+          }
+        ],
+        "helpers": [
+          "shield",
+          "collector"
+        ],
+        "currents": [
+          {
+            "x": 400,
+            "y": 80,
+            "w": 140,
+            "h": 420,
+            "vx": 0,
+            "vy": -14
+          }
+        ],
+        "shelters": [
+          {
+            "x": 220,
+            "y": 440,
+            "r": 60
+          },
+          {
+            "x": 780,
+            "y": 430,
+            "r": 60
+          }
+        ],
+        "waves": [
+          {
+            "at": 24,
+            "kind": "armor",
+            "x": 35,
+            "y": 220
+          },
+          {
+            "at": 52,
+            "kind": "hunter",
+            "x": 960,
+            "y": 170
+          },
+          {
+            "at": 82,
+            "kind": "lure",
+            "x": 40,
+            "y": 400
+          }
+        ]
+      },
+      "objective": {
+        "minFish": 4,
+        "healthyFor": 20,
+        "phases": [
+          {
+            "name": "重啟北側濾器",
+            "cost": 40,
+            "meals": 8,
+            "adults": 2
+          },
+          {
+            "name": "修復避難水草",
+            "cost": 70,
+            "meals": 20,
+            "adults": 3,
+            "kills": 1
+          },
+          {
+            "name": "封閉三道入口",
+            "cost": 100,
+            "meals": 34,
+            "adults": 4,
+            "kills": 3
+          }
+        ]
+      },
+      "mechanicFocus": [
+        "裝甲弱點",
+        "雙路入侵",
+        "戰鬥照護"
+      ],
+      "intendedDecision": "裝甲眼睛開啟時集中攻擊，平時補食；可用護盾保魚或餵食夥伴穩住双食性供給。",
+      "distinctnessRationale": "中央上升流分隔兩處棲地，三類來襲按不同入口與行為出現；存款不能取代擊退目標。",
+      "estimatedMinutes": [
+        5,
+        8
+      ],
+      "estimateStatus": "unmeasured_design_estimate"
+    },
+    "id": "25",
+    "runID": "legacy-25",
+    "rng": 3281471671,
+    "nextID": 7,
+    "time": 2.0000000000000027,
+    "ticks": 60,
+    "status": "running",
+    "paused": false,
+    "reason": "",
+    "cash": 112,
+    "spent": 0,
+    "earned": 0,
+    "foodLevel": 1,
+    "mode": "pellet",
+    "breeding": false,
+    "fish": [
+      {
+        "id": 1,
+        "species": "ember",
+        "x": 285.8054330924653,
+        "y": 202.37471874136372,
+        "vx": 16.33611404230764,
+        "vy": 13.433312249654563,
+        "dir": 1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 2.124219700988851,
+        "shield": 0
+      },
+      {
+        "id": 2,
+        "species": "ribbon",
+        "x": 336.49839146300843,
+        "y": 351.7259534972498,
+        "vx": -8.96878783826496,
+        "vy": -16.12337882430945,
+        "dir": -1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 3.3040035352033947,
+        "shield": 0
+      },
+      {
+        "id": 3,
+        "species": "shield",
+        "x": 647.8507422801433,
+        "y": 231.30139884065653,
+        "vx": -5.920663322973834,
+        "vy": 16.042311112055906,
+        "dir": -1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 6.208649517530594,
+        "shield": 0
+      },
+      {
+        "id": 4,
+        "species": "pearl",
+        "x": 662.7493877592115,
+        "y": 428.8901678728612,
+        "vx": -15.682880802313663,
+        "vy": 1.4524977591795285,
+        "dir": -1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 5.6003826543905495,
+        "shield": 0
+      }
+    ],
+    "food": [],
+    "coins": [],
+    "invaders": [],
+    "helpers": [
+      {
+        "id": 5,
+        "type": "shield",
+        "x": 384.6946039424665,
+        "y": 418.3758119251874,
+        "timer": 2.0000000000000027,
+        "vx": -16.888928243500523,
+        "vy": -28.350733725706117,
+        "dir": -1
+      },
+      {
+        "id": 6,
+        "type": "collector",
+        "x": 530,
+        "y": 490,
+        "timer": 2.0000000000000027
+      }
+    ],
+    "effects": [],
+    "phase": 0,
+    "healthy": 0,
+    "wave": 0,
+    "attackCooldown": 0,
+    "metrics": {
+      "meals": 0,
+      "wasted": 0,
+      "born": 0,
+      "kills": 0,
+      "shots": 0,
+      "hits": 0,
+      "diets": {
+        "pellet": 0,
+        "algae": 0,
+        "live": 0
+      },
+      "deaths": 0,
+      "helperFood": 0,
+      "helperCoins": 0,
+      "helperClean": 0,
+      "helperHeal": 0
+    },
+    "rewardClaimed": false
+  },
+  {
+    "schema": 1,
+    "level": {
+      "id": "50",
+      "chapter": 5,
+      "title": "奇潮生命展館",
+      "initial": {
+        "cash": 150,
+        "seed": 5015,
+        "capacity": 10,
+        "fish": [
+          {
+            "species": "ember",
+            "x": 210,
+            "y": 170
+          },
+          {
+            "species": "ember",
+            "x": 280,
+            "y": 390
+          },
+          {
+            "species": "ribbon",
+            "x": 430,
+            "y": 390
+          },
+          {
+            "species": "lantern",
+            "x": 620,
+            "y": 180
+          },
+          {
+            "species": "shield",
+            "x": 740,
+            "y": 360
+          },
+          {
+            "species": "pearl",
+            "x": 810,
+            "y": 210
+          }
+        ],
+        "helpers": [
+          "nurse",
+          "collector"
+        ],
+        "currents": [
+          {
+            "x": 60,
+            "y": 240,
+            "w": 390,
+            "h": 130,
+            "vx": 27,
+            "vy": 0
+          },
+          {
+            "x": 570,
+            "y": 230,
+            "w": 380,
+            "h": 140,
+            "vx": -22,
+            "vy": 0
+          }
+        ],
+        "shelters": [
+          {
+            "x": 260,
+            "y": 440,
+            "r": 70
+          },
+          {
+            "x": 760,
+            "y": 420,
+            "r": 70
+          }
+        ],
+        "waves": [
+          {
+            "at": 20,
+            "kind": "lure",
+            "x": 35,
+            "y": 330
+          },
+          {
+            "at": 44,
+            "kind": "armor",
+            "x": 960,
+            "y": 190
+          },
+          {
+            "at": 65,
+            "kind": "hunter",
+            "x": 40,
+            "y": 150
+          },
+          {
+            "at": 88,
+            "kind": "hunter",
+            "x": 960,
+            "y": 390
+          },
+          {
+            "at": 108,
+            "kind": "armor",
+            "x": 40,
+            "y": 390
+          }
+        ]
+      },
+      "objective": {
+        "minFish": 6,
+        "healthyFor": 30,
+        "phases": [
+          {
+            "name": "修復三食性棲地",
+            "cost": 55,
+            "meals": 15,
+            "adults": 3,
+            "diets": 3
+          },
+          {
+            "name": "建立育幼保護區",
+            "cost": 100,
+            "meals": 35,
+            "adults": 5,
+            "born": 1,
+            "kills": 2
+          },
+          {
+            "name": "開啟生命展館",
+            "cost": 155,
+            "meals": 58,
+            "adults": 6,
+            "kills": 5
+          }
+        ]
+      },
+      "mechanicFocus": [
+        "三食性",
+        "繁殖控制",
+        "夥伴配隊",
+        "持續健康生態"
+      ],
+      "intendedDecision": "在出生後關閉繁殖以控制照護壓力，將兩個夥伴席位分配給醫護、撿幣、防禦或自動餵食，並保留外敵期間現金。",
+      "distinctnessRationale": "相向水流、三食性與必要繁殖會增加真實魚群壓力，五波威脅後需持續健康，不能只堆存款。",
+      "estimatedMinutes": [
+        6,
+        9
+      ],
+      "estimateStatus": "unmeasured_design_estimate"
+    },
+    "id": "50",
+    "runID": "legacy-50",
+    "rng": 1682793637,
+    "nextID": 9,
+    "time": 2.0000000000000027,
+    "ticks": 60,
+    "status": "running",
+    "paused": false,
+    "reason": "",
+    "cash": 150,
+    "spent": 0,
+    "earned": 0,
+    "foodLevel": 1,
+    "mode": "pellet",
+    "breeding": false,
+    "fish": [
+      {
+        "id": 1,
+        "species": "ember",
+        "x": 247.2144395075923,
+        "y": 190.04341562358545,
+        "vx": 17.769832198053958,
+        "vy": 11.469767375714513,
+        "dir": 1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 1.9286994501012429,
+        "shield": 0
+      },
+      {
+        "id": 2,
+        "species": "ember",
+        "x": 312.8390124097105,
+        "y": 365.15100424293075,
+        "vx": 22.2628769999773,
+        "vy": -20.612670027986574,
+        "dir": 1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 1.7923948361377748,
+        "shield": 0
+      },
+      {
+        "id": 3,
+        "species": "ribbon",
+        "x": 464.13912591545335,
+        "y": 376.50723997050096,
+        "vx": 17.992414213786606,
+        "vy": -4.083568385558105,
+        "dir": 1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 4.7678372945646,
+        "shield": 0
+      },
+      {
+        "id": 4,
+        "species": "lantern",
+        "x": 598.269559689907,
+        "y": 186.79542447688834,
+        "vx": 15.333466480514957,
+        "vy": 9.42787386906105,
+        "dir": 1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 2.7159501849135785,
+        "shield": 0
+      },
+      {
+        "id": 5,
+        "species": "shield",
+        "x": 662.3907093337659,
+        "y": 365.86281109494286,
+        "vx": -39.063946845806896,
+        "vy": 1.109827934175779,
+        "dir": -1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 5.275758358391486,
+        "shield": 0
+      },
+      {
+        "id": 6,
+        "species": "pearl",
+        "x": 782.3539134849922,
+        "y": 237.07387656667987,
+        "vx": -33.865529986005484,
+        "vy": 10.357205132235471,
+        "dir": -1,
+        "hunger": 62.10000000000008,
+        "health": 100,
+        "meals": 0,
+        "adult": false,
+        "coinTimer": 12,
+        "breedTimer": 0,
+        "wander": 3.2617166307920042,
+        "shield": 0
+      }
+    ],
+    "food": [],
+    "coins": [],
+    "invaders": [],
+    "helpers": [
+      {
+        "id": 7,
+        "type": "nurse",
+        "x": 420,
+        "y": 490,
+        "timer": 2.0000000000000027
+      },
+      {
+        "id": 8,
+        "type": "collector",
+        "x": 530,
+        "y": 490,
+        "timer": 2.0000000000000027
+      }
+    ],
+    "effects": [],
+    "phase": 0,
+    "healthy": 0,
+    "wave": 0,
+    "attackCooldown": 0,
+    "metrics": {
+      "meals": 0,
+      "wasted": 0,
+      "born": 0,
+      "kills": 0,
+      "shots": 0,
+      "hits": 0,
+      "diets": {
+        "pellet": 0,
+        "algae": 0,
+        "live": 0
+      },
+      "deaths": 0,
+      "helperFood": 0,
+      "helperCoins": 0,
+      "helperClean": 0,
+      "helperHeal": 0
+    },
+    "rewardClaimed": false
+  }
+]
