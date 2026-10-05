@@ -3,20 +3,21 @@
   "title": "星絨法師：自走遠征",
   "entry": "games/starweave-idle.html",
   "categoryRecommendation": "simulation",
-  "revision": "v3-fifty-creatures-ten-bosses-r2-cone-boundary",
-  "baseMainCommit": "87c08490635b0766e00182b7681aeebb1cda7c9e",
-  "baseTree": "284fb6ffad5fcb123ca66cd65a4cb168c87e0e7a",
+  "revision": "v4-northeast-continuous-flow",
+  "baseMainCommit": "af6de196d005f7ad5d2020bcc452e0e819928b6d",
+  "baseTree": "0728190635784f65efcfa35ae56cc2041c7301b2",
   "buildRequired": false,
   "networkDependencies": [],
   "saveNamespace": "arcade.starweave-idle.save.v1",
   "saveEnvelopeVersion": 3,
   "legacyVersionsAccepted": [
     1,
-    2
+    2,
+    3
   ],
   "automatedSourceGate": "node games/starweave-idle/verify.cjs",
   "sourceHashes": {
-    "engine.js": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+    "engine.js": "dc2bd50dc7ab3bb746569de4ddcca04f8529fb0e84d362e2f046d364b4375baf",
     "bestiary.js": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
     "render.js": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525",
     "ui.js": "d267326121361c7adcab72a55a278b21fcdab628cfff72e9f53931bce05f622b",
@@ -33,34 +34,28 @@
     "activeEnemyMaximum": 3,
     "activeBossMaximum": 1,
     "hazardMaximum": 16,
-    "hostileShotMaximum": 18
+    "hostileShotMaximum": 18,
+    "entryRule": "All normal and boss future arrivals use three adjacent NE lanes, not three directions; .55 seconds apart."
   },
   "verification": {
-    "publicEngineTests": 17,
-    "additionalPrivateLegacyChecks": 2,
-    "legalProgressionRuns": 3,
-    "allNormalSpeciesAttacked": 50,
-    "allBossSpeciesAttackedAndDefeated": 10,
-    "allBossLegalRunSimulatedSeconds": 2203.55,
+    "publicEngineTests": 23,
+    "comprehensiveIndependentEngineChecks": 26,
     "uiStorageChecks": 63,
-    "uiStorageAssertions": 1769,
+    "uiStorageAssertions": 1771,
     "actualTimeEngineRuns": 2,
-    "actualSecondsEach": 90.012848523,
-    "uniqueMonochromeGeometryRenders": 60,
-    "uniqueAlphaSilhouettes": 60,
-    "safeStripPixelsChecked": 219068,
+    "actualSecondsEach": 90.01044827999999,
+    "allSpeciesNERouteFixtures": 180,
+    "allBossesLegallyDefeated": 10,
     "inventoryRoundTripItems": 10005,
-    "latestActualV2MigrationCheckedPrivately": true,
-    "browserTestedForV3": false,
-    "coneBoundaryMatchesEngine": true,
-    "coneBoundaryRegression": "Actual engine hit tests and raster probes agree inside/outside the cone half-angle; independently cross-checked at live .2/.35 spreads."
+    "latestActualV3MigrationCheckedPrivately": true,
+    "browserTestedForV4": false,
+    "unchangedArtProofRetained": true
   },
   "behavior": [
-    "50 normal species and10 bosses have stable IDs, original anatomy, individually tuned movement and attack roles.",
-    "Ten bosses have distinct telegraphed patterns; large hazards preserve the southwest escape strip.",
-    "Small visible basic projectiles provide pressure; all enemy magic clears on physical retreat.",
-    "An in-game12-card paginated bestiary records encounters and kills.",
-    "Existing whole-build gear highlights, unlimited paginated backpack and protected selected-item sales remain."
+    "All future normal/boss arrivals come from the visible-cued NE entrance fan; existing live actors are not teleported or deleted.",
+    "Nearby actors retain readable spacing, remain in the NE quadrant and cannot block the SW exit.",
+    "Travel, full-health preparation and post-loot empty waits are shortened; health recovery, damage, skills and attack telegraphs keep their existing rules.",
+    "All50 monsters,10 bosses, original art, bestiary, backpack and whole-build comparison remain unchanged."
   ],
   "limits": [
     "Combat power is a comparative build index, not guaranteed victory or exact DPS.",
@@ -68,5 +63,54 @@
     "No offline gains or automatic allocation/equipping; browser memory/storage quotas still apply.",
     "Import safety limit32MiB; level999 and depth9999 maximum.",
     "Native Canvas and VM tests are not browser/mobile performance or human-play certification."
-  ]
+  ],
+  "runtimeVersion": 4,
+  "flow": {
+    "lanes": [
+      [
+        210,
+        -325
+      ],
+      [
+        275,
+        -340
+      ],
+      [
+        345,
+        -315
+      ]
+    ],
+    "xJitter": 12,
+    "arrivalGapSeconds": 0.55,
+    "attackGraceSeconds": 1.05,
+    "travelDistance": 70,
+    "fullHealthCampSeconds": 0.65,
+    "lootPauseSeconds": 0.6,
+    "normalMinimumSpacing": 32,
+    "bossMinimumSpacing": 48,
+    "retreatCampOvershootPrevented": true
+  },
+  "retainedGeometryProof": {
+    "originalEngineSha256": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+    "currentEngineSha256": "dc2bd50dc7ab3bb746569de4ddcca04f8529fb0e84d362e2f046d364b4375baf",
+    "hazardContainsFunctionSha256": "7badfd72b6f56481b386404faf8c098c99ded7b7cf951e0e21494631f51dbba2",
+    "exactFunctionUnchanged": true,
+    "renderCatalogStylesUIRuntimeArtStorageUnchanged": true
+  },
+  "pacingSummary": {
+    "method": "Same-seed accelerated fresh-start create/tick/ordinary-act scenarios; not actual browser timing.",
+    "seed731FirstDamageSeconds": {
+      "v3": 9,
+      "v4": 2.7
+    },
+    "seed731UnspentMeanInterKillSeconds": {
+      "v3": 9.353,
+      "v4": 5.33
+    },
+    "seed731OrdinaryMeanInterKillSeconds": {
+      "v3": 5.846,
+      "v4": 2.528
+    },
+    "caveat": "A few unspent-build resupply tails are longer because encounters are denser; healing is preserved rather than skipped."
+  }
 }

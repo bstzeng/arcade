@@ -1,6 +1,6 @@
 {
-  "suite": "Starweave v3 independent bestiary, UI, unified-backpack and storage audit",
-  "generatedAt": "2026-10-05T08:30:32.539Z",
+  "suite": "Starweave v4 independent bestiary, UI, unified-backpack and storage audit",
+  "generatedAt": "2026-10-05T09:25:47.057Z",
   "environment": {
     "node": "v24.19.0",
     "browserUsed": false,
@@ -13,9 +13,9 @@
     "Source-only accessibility findings require live-browser verification after publication."
   ],
   "sourceDigests": {
-    "../starweave-idle.html": "5517edbeed9470f0a35cb2c0031f1eafffb3b9c01a3f154b36d9c10475fc3cff",
+    "../starweave-idle.html": "0b3bdbdd9ac5e972f46bb5fe3581686eb7569cf03d38d808aafc572052814614",
     "bestiary.js": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
-    "engine.js": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+    "engine.js": "dc2bd50dc7ab3bb746569de4ddcca04f8529fb0e84d362e2f046d364b4375baf",
     "storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
     "render.js": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525",
     "ui.js": "d267326121361c7adcab72a55a278b21fcdab628cfff72e9f53931bce05f622b",
@@ -24,7 +24,7 @@
   "measurements": {
     "v1Migration": {
       "fixture": "generated deterministic synthetic v1 fixture",
-      "sha256": "a488980fcea346d21d6251ff7355a51e0a132180f88eb9c0bdb805ce9511af6c",
+      "sha256": "66a59f6e4c355b84c9ed5c4f9b0c1cb0ed0a75875457ffdb269edc8b0d33d8de",
       "unifiedBag": 19,
       "worn": 2,
       "locked": 2,
@@ -43,7 +43,7 @@
       "serializedBytes": 222012,
       "comparisonCallsOnInitialRender": 2105,
       "cachedComparisonCallsOnGoldChange": 0,
-      "elapsedMs": 1340
+      "elapsedMs": 1097
     },
     "importBoundary": {
       "maximumBytes": 33554432,
@@ -70,13 +70,13 @@
     "tests": 63,
     "passed": 63,
     "failed": 0,
-    "assertions": 1769
+    "assertions": 1771
   },
   "results": [
     {
       "name": "HTML IDs, local asset references and script order are valid",
       "status": "passed",
-      "assertions": 135
+      "assertions": 137
     },
     {
       "name": "Zero-input boot advances actual engine and renderer continuously",
