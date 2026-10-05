@@ -1,7 +1,7 @@
 {
   "id": "stormfront-command",
   "title": "磁暴前線",
-  "phase": "ten_mission_realtime_group_controls",
+  "phase": "ten_mission_native_selection_guard",
   "releaseReady": false,
   "entry": "games/stormfront-command.html",
   "runtimeFiles": [
@@ -95,12 +95,13 @@
     "sourcePerformance": "verification/stormfront-command/performance-final-report.json",
     "creditRoundingRegression": "verification/stormfront-command/roundoff-report.json",
     "finalPresentationAudit": "verification/renderer-independent/revision7-review/ENGINE-BINDING-ADDENDUM.md",
-    "presentationPatchTests": "verification/stormfront-command/realtime-controls-report.json",
+    "presentationPatchTests": "verification/stormfront-command/native-selection-guard-report.json",
     "logisticsGuidanceTests": "verification/stormfront-command/logistics-guidance-tests.cjs",
     "constructionOverlayTests": "verification/stormfront-command/logistics-render-report.json",
     "ordinaryInputRegression": "verification/stormfront-command/pointer-mode-after.json",
     "nativeGroupControls": "verification/stormfront-command/realtime-native-report.json",
-    "continuousOrdinaryBrowserCombat": "pending"
+    "continuousOrdinaryBrowserCombat": "pending",
+    "nativeSelectionInterferenceRetest": "pending"
   },
   "assetProvenance": "games/stormfront-command/asset-provenance.json",
   "blockers": [
@@ -126,18 +127,14 @@
     "games/stormfront-command/guidance.js"
   ],
   "presentationPatch": {
-    "baseRuntimeDigest": "d276d02ab7c0faa5b6e30e7b3ac79611a0f9ea71a53f90db83978ccc66042244",
+    "baseRuntimeDigest": "73273d72b33f370696a8ddae046dac635e89000b44e8e63f16c303e60397a4a8",
     "engineCampaignStorageUnchanged": true,
     "features": [
-      "visible mouse and touch group selection modes",
-      "live marquee selection count and highlight preview",
-      "running new and retried missions",
-      "modeless in-game help without automatic pause",
-      "whole-gesture cancellation and outside-release safety",
-      "bounded visible-stall catch-up without auto-pause"
+      "clear old browser text selection only on accepted battlefield pointer start",
+      "suppress native pointer selection and HTML drag defaults for battlefield gestures",
+      "scope no-text-selection CSS to battlefield and selection controls"
     ],
-    "actualBrowserGeometryRetest": "pending",
-    "continuousBrowserCombatTrial": "pending",
+    "actualBrowserGeometryRetest": "pending_targeted_125_percent_native_selection_retest",
     "balanceChange": false,
     "autoOrders": false
   },
