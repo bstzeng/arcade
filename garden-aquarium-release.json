@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "id": "garden-aquarium-30-campaign-release",
+  "build": "20261005-garden-aquarium-30-v1",
+  "baseCommit": "06cb82afb849cd0723ab54a6017405ee7aa09bf6",
+  "baseTreeSHA": "a5a404bf096c3aad2b87f1e784dd8e1bc91f1ccc",
+  "gameCount": 399,
+  "categoryCount": 25,
+  "classicCards": 9,
+  "appendedIDs": [
+    "garden-watchline",
+    "wondertide-aquarium"
+  ],
+  "registryRecords": [
+    {
+      "id": "garden-watchline",
+      "title": "花園守望隊",
+      "category": "classic30",
+      "description": "種下暖燈花，搭配八種植物守護小屋。三十座原創花園，讓每次補位都有轉機。",
+      "note": "六章 30 關・八種植物・七種苔影・可暫停布陣",
+      "art": "classic30-garden-watchline",
+      "color": "#e9c77d",
+      "background": "#315543",
+      "word": "芽",
+      "status": "ready",
+      "url": "./games/garden-watchline.html",
+      "badge": "30 關 · 植物防線"
+    },
+    {
+      "id": "wondertide-aquarium",
+      "title": "奇潮水族館",
+      "category": "classic30",
+      "description": "餵養微光魚群、收集貝幣，守護 30 座會成長的水族箱。",
+      "note": "五章 30 缸・六位夥伴・三種入侵者・有限救援補給",
+      "art": "classic30-wondertide-aquarium",
+      "color": "#eeca95",
+      "background": "#164955",
+      "word": "養",
+      "status": "ready",
+      "url": "./games/wondertide-aquarium.html",
+      "badge": "30 缸 · 照護防守"
+    }
+  ],
+  "category": {
+    "id": "classic30",
+    "title": "經典",
+    "description": "彈珠、救援、消除、即時戰略、樂園經營、植物防線與水族照護；各版本狀態以卡片標示為準。",
+    "examples": "彈珠・救援・消除・戰略・樂園・植物・水族",
+    "icon": "✧",
+    "color": "#a8bd7a",
+    "gameIds": [
+      "mosskin-migration",
+      "orbit-marble-chain",
+      "starport-pinball",
+      "puffball-shift",
+      "prismatic-cascade",
+      "stormfront-command",
+      "skyrail-park",
+      "garden-watchline",
+      "wondertide-aquarium"
+    ]
+  },
+  "games": [
+    {
+      "slug": "garden-watchline",
+      "registryRecord": {
+        "id": "garden-watchline",
+        "title": "花園守望隊",
+        "category": "classic30",
+        "description": "種下暖燈花，搭配八種植物守護小屋。三十座原創花園，讓每次補位都有轉機。",
+        "note": "六章 30 關・八種植物・七種苔影・可暫停布陣",
+        "art": "classic30-garden-watchline",
+        "color": "#e9c77d",
+        "background": "#315543",
+        "word": "芽",
+        "status": "ready",
+        "url": "./games/garden-watchline.html",
+        "badge": "30 關 · 植物防線"
+      },
+      "runtimeFiles": {
+        "games/garden-watchline.html": "8f23df8e5c8549e4c06a92b1ec198c3a354779d133b1eec5c132ee3380941e9c",
+        "games/garden-watchline/engine.js": "a9f08c3496456baf58b4173ebc14ba0e6225a8999cf2ee618f1b3ed6b826e106",
+        "games/garden-watchline/app.js": "10c16de7c19170642b284f72b4a6d0db03dbf4ed0f5875ae12d03ddec6969571",
+        "games/garden-watchline/render.js": "bf7b35aae0e7bbaa6acf02bb5512c13940d4ca741b52373baee97b23f1300649",
+        "games/garden-watchline/levels.js": "124f65341de0d61286bee81784b9369f8c8e768b50010be8d3d308c7b9f65dd7",
+        "games/garden-watchline/style.css": "288aec7a3c0b5b7f16a348e62e1658291b4ca07d2e4314aafa497aaa5171658d",
+        "games/garden-watchline/art.svg": "c5c1ce73067ea17621418bc73622bfc040e404d8fb4defeff28aad5f1d1d64fd"
+      },
+      "publishFiles": {
+        "games/garden-watchline/README.md": "a6ac5b9db711625ae6d944918e561763538550d35586bdcdbf36a93d051f05c9",
+        "games/garden-watchline/app.js": "10c16de7c19170642b284f72b4a6d0db03dbf4ed0f5875ae12d03ddec6969571",
+        "games/garden-watchline/art.svg": "c5c1ce73067ea17621418bc73622bfc040e404d8fb4defeff28aad5f1d1d64fd",
+        "games/garden-watchline/asset-provenance.json": "f9b39d48ee0fa5c909e6ff0721731e90a75681d66e9354b739aab714cc06aa1f",
+        "games/garden-watchline/balance-audit.cjs": "3d9dd46bbfdc3918a2b17291955f5b28132cc0b06d4900d8ea1af11a986a150a",
+        "games/garden-watchline/balance-audit.json": "439463092ec5c6700324298e5c4fc860e9c4ecd1f34e348d03f79aa3ad596111",
+        "games/garden-watchline/catalog.json": "27d53d56e1e6f254a8b202ea61d92904df6dc7395a2ed65a40c5364b43926b74",
+        "games/garden-watchline/coherent-report.json": "bf6571c04650d71e666d9237856baea2d9a26aa320f8e3265034cba88315bcd1",
+        "games/garden-watchline/coherent-strategy.cjs": "9fb3e9241219214150f4126e1b51916b15d4905ede1366a2eab28c1d83d2ec4d",
+        "games/garden-watchline/design.md": "12e5772f259814eb1b4d2b2cc476393d4e7a1cc7a29e5e4d3d1c66fabcdf4db8",
+        "games/garden-watchline/engine.js": "a9f08c3496456baf58b4173ebc14ba0e6225a8999cf2ee618f1b3ed6b826e106",
+        "games/garden-watchline/levels.js": "124f65341de0d61286bee81784b9369f8c8e768b50010be8d3d308c7b9f65dd7",
+        "games/garden-watchline/release-manifest.json": "ed7ff9a3e24ed992b97eb25a68814cde60ad2e5cb4e828d8f94e9bcb0c40a87e",
+        "games/garden-watchline/render.js": "bf7b35aae0e7bbaa6acf02bb5512c13940d4ca741b52373baee97b23f1300649",
+        "games/garden-watchline/replay-report.json": "f246c3e315f4b9851a2333e5fd99b9c582a42d6fa94ddf5a18bc75057226b0fe",
+        "games/garden-watchline/replay.cjs": "3d842b2254c868e1615fd8e9837444cbb421b3ee6427eb871d186ed3cbfebf2c",
+        "games/garden-watchline/shield-first-audit.cjs": "6c26da4bd5afa36ab2d61483aa3b97d2446bc4bc9f26b73bf322d882a06bee78",
+        "games/garden-watchline/shield-first-audit.json": "2947e1ecb28026d10b6a54d7a2fa1d5f3dc76bbb3fa563fef25006462381d20f",
+        "games/garden-watchline/shield-first-witness-verification.json": "cce80c1d56269771df837cfe3cafc3d3205c2041595b1b84b26a8dbb5f4b88a2",
+        "games/garden-watchline/solutions.json": "2d9477e2aebb879b1223d2d3bf93f570ce3711439573f1fa5e425c05ffd2ef56",
+        "games/garden-watchline/style.css": "288aec7a3c0b5b7f16a348e62e1658291b4ca07d2e4314aafa497aaa5171658d",
+        "games/garden-watchline/verification-report.json": "ae88ebdeaa90cc61079f281f3f5fdc6565fbcf7be2e24f2747202be8ca21d941",
+        "games/garden-watchline/verify.cjs": "2307a10174e29a1209f09962e336b6ad41fcac3342b208857118805c99bca596",
+        "games/garden-watchline.html": "8f23df8e5c8549e4c06a92b1ec198c3a354779d133b1eec5c132ee3380941e9c"
+      },
+      "storageNamespace": "arcade.classic30.garden-watchline.v1",
+      "storageKeys": [
+        "arcade.classic30.garden-watchline.v1.progress",
+        "arcade.classic30.garden-watchline.v1.session",
+        "arcade.classic30.garden-watchline.v1.settings"
+      ],
+      "sourceTransforms": [],
+      "levels": 30,
+      "chapters": 6
+    },
+    {
+      "slug": "wondertide-aquarium",
+      "registryRecord": {
+        "id": "wondertide-aquarium",
+        "title": "奇潮水族館",
+        "category": "classic30",
+        "description": "餵養微光魚群、收集貝幣，守護 30 座會成長的水族箱。",
+        "note": "五章 30 缸・六位夥伴・三種入侵者・有限救援補給",
+        "art": "classic30-wondertide-aquarium",
+        "color": "#eeca95",
+        "background": "#164955",
+        "word": "養",
+        "status": "ready",
+        "url": "./games/wondertide-aquarium.html",
+        "badge": "30 缸 · 照護防守"
+      },
+      "runtimeFiles": {
+        "games/wondertide-aquarium.html": "1c56d4498971c4ca93bdb68a76932c15bea2852ab93edfb3df86250a0a3deabd",
+        "games/wondertide-aquarium/levels.js": "5334f3100b0d2d09ef6b5fa56c5d26edd03847d595677b5c2bb387163865342c",
+        "games/wondertide-aquarium/legacy-levels.js": "ea2e18135a2e6c3d0ee902cd3c4f4ac74fd6a4e6d8fc661804a7d3ee7bcc9532",
+        "games/wondertide-aquarium/engine.js": "7a1818d9e35f257c961a3897c31ac0e2a89155a5775eeda9746ab98527bb508f",
+        "games/wondertide-aquarium/storage.js": "d0adbce39385a4f6fc3f9ad793d39e6bd56d3e6fc481ec45d6d38f548ffd004c",
+        "games/wondertide-aquarium/render.js": "447b219bf8ef0844d4e9850e9abbe6b2c4e387350601e583b962ae551ed57d4c",
+        "games/wondertide-aquarium/ui.js": "6d56aa6b592d97d575b65cfcbc61a05ed28d2fa7ef79774311e704a2bb97a538",
+        "games/wondertide-aquarium/style.css": "c3b00938790f8d4b8ab60456f1548ee27d537fd9ec9543a368dbc6b38e735ea3",
+        "games/wondertide-aquarium/art.svg": "8ba1eb45b1f0842cea4fe144eb1f1f90004bfa37c6c783d5fb6821632a2ba405"
+      },
+      "publishFiles": {
+        "games/wondertide-aquarium/SLICE.md": "4fe3f43d9e9266792f56695b627d458c99ec26841f0a86b562ffd1565063d439",
+        "games/wondertide-aquarium/art.svg": "8ba1eb45b1f0842cea4fe144eb1f1f90004bfa37c6c783d5fb6821632a2ba405",
+        "games/wondertide-aquarium/asset-provenance.json": "47b6c7195297498a4a1a117f6deaf8379fc29c89fa95ae5d657f6b2067cc0d15",
+        "games/wondertide-aquarium/catalog.json": "ce594267f20dab7a29506629021943a7a030f01d3d571980586cc57f91c572ff",
+        "games/wondertide-aquarium/engine.js": "7a1818d9e35f257c961a3897c31ac0e2a89155a5775eeda9746ab98527bb508f",
+        "games/wondertide-aquarium/legacy-levels.js": "ea2e18135a2e6c3d0ee902cd3c4f4ac74fd6a4e6d8fc661804a7d3ee7bcc9532",
+        "games/wondertide-aquarium/legacy-levels.json": "d48ee0df580b4c47bc18c31b8bb3b5dc76492a5feaa05897d3e0bd9a42f5fa07",
+        "games/wondertide-aquarium/levels.js": "5334f3100b0d2d09ef6b5fa56c5d26edd03847d595677b5c2bb387163865342c",
+        "games/wondertide-aquarium/levels.json": "8617a251590cb384be9518f2d0a0ce63c83f18ea72d169726a1725e7011a1d75",
+        "games/wondertide-aquarium/release-manifest.json": "d62d6559f985c874a979a5f92598806dfc2a6b1ff5b1c24e50d16a2166179e36",
+        "games/wondertide-aquarium/render.js": "447b219bf8ef0844d4e9850e9abbe6b2c4e387350601e583b962ae551ed57d4c",
+        "games/wondertide-aquarium/storage.js": "d0adbce39385a4f6fc3f9ad793d39e6bd56d3e6fc481ec45d6d38f548ffd004c",
+        "games/wondertide-aquarium/style.css": "c3b00938790f8d4b8ab60456f1548ee27d537fd9ec9543a368dbc6b38e735ea3",
+        "games/wondertide-aquarium/test-adapter.cjs": "a79e5be8c2724b5d856c5ef9a2aeafe8d5cc910a0a2c8a1251f1921148bc92c9",
+        "games/wondertide-aquarium/ui.js": "6d56aa6b592d97d575b65cfcbc61a05ed28d2fa7ef79774311e704a2bb97a538",
+        "games/wondertide-aquarium/witnesses.json": "869c7029fbb56dc1f83d397de31930d7045c912e22cd97b40aaa86f58678965d",
+        "games/wondertide-aquarium.html": "1c56d4498971c4ca93bdb68a76932c15bea2852ab93edfb3df86250a0a3deabd"
+      },
+      "storageNamespace": "arcade.classic30.wondertide-aquarium.v1",
+      "storageKeys": [
+        "arcade.classic30.wondertide-aquarium.v1"
+      ],
+      "sourceTransforms": [],
+      "levels": 30,
+      "chapters": 5
+    }
+  ],
+  "rootReversibleChanges": {
+    "app.js": [
+      {
+        "before": "20261004-park-rides15-hearts-touch-v2",
+        "after": "20261005-garden-aquarium-30-v1",
+        "occurrences": 1
+      },
+      {
+        "before": "\n];\nconst categoryNames = ",
+        "after": ",\n  {\"id\":\"garden-watchline\",\"title\":\"花園守望隊\",\"category\":\"classic30\",\"description\":\"種下暖燈花，搭配八種植物守護小屋。三十座原創花園，讓每次補位都有轉機。\",\"note\":\"六章 30 關・八種植物・七種苔影・可暫停布陣\",\"art\":\"classic30-garden-watchline\",\"color\":\"#e9c77d\",\"background\":\"#315543\",\"word\":\"芽\",\"status\":\"ready\",\"url\":\"./games/garden-watchline.html\",\"badge\":\"30 關 · 植物防線\"},\n  {\"id\":\"wondertide-aquarium\",\"title\":\"奇潮水族館\",\"category\":\"classic30\",\"description\":\"餵養微光魚群、收集貝幣，守護 30 座會成長的水族箱。\",\"note\":\"五章 30 缸・六位夥伴・三種入侵者・有限救援補給\",\"art\":\"classic30-wondertide-aquarium\",\"color\":\"#eeca95\",\"background\":\"#164955\",\"word\":\"養\",\"status\":\"ready\",\"url\":\"./games/wondertide-aquarium.html\",\"badge\":\"30 缸 · 照護防守\"}\n];\nconst categoryNames = ",
+        "occurrences": 1
+      },
+      {
+        "before": "const categories = [",
+        "after": "Object.assign(artMarkup, {\"classic30-garden-watchline\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/garden-watchline/art.svg\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\",\"classic30-wondertide-aquarium\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/wondertide-aquarium/art.svg\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"});\nconst categories = [",
+        "occurrences": 1
+      },
+      {
+        "before": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略與樂園經營；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・苔精・彩珠・毛球・晶彩・戰略・樂園\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\"]}",
+        "after": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略、樂園經營、植物防線與水族照護；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・救援・消除・戰略・樂園・植物・水族\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\",\"garden-watchline\",\"wondertide-aquarium\"]}",
+        "occurrences": 1
+      }
+    ],
+    "index.html": [
+      {
+        "before": "20261004-park-rides15-hearts-touch-v2",
+        "after": "20261005-garden-aquarium-30-v1",
+        "occurrences": 2
+      },
+      {
+        "before": "397",
+        "after": "399",
+        "occurrences": 5
+      },
+      {
+        "before": "三百九十七",
+        "after": "三百九十九",
+        "occurrences": 2
+      },
+      {
+        "before": "共收錄七款",
+        "after": "共收錄九款",
+        "occurrences": 1
+      },
+      {
+        "before": "磁暴前線與雲霄歡樂園兩款各10關開發版，共收錄九款",
+        "after": "磁暴前線與雲霄歡樂園兩款各10關開發版，另有花園守望隊30關與奇潮水族館30缸，共收錄九款",
+        "occurrences": 1
+      },
+      {
+        "before": "<span data-category-count>7</span>",
+        "after": "<span data-category-count>9</span>",
+        "occurrences": 1
+      },
+      {
+        "before": "彈珠・苔精・彩珠・毛球・晶彩・戰略・樂園",
+        "after": "彈珠・救援・消除・戰略・樂園・植物・水族",
+        "occurrences": 1
+      },
+      {
+        "before": "經典區收錄七款遊戲，新增磁暴前線與雲霄歡樂園，兩款各有 10 關並標示為開發版。",
+        "after": "經典區收錄九款遊戲，新增花園守望隊 30 關植物防線與奇潮水族館 30 缸照護防守。磁暴前線與雲霄歡樂園各有 10 關，仍標示為開發版。",
+        "occurrences": 1
+      }
+    ],
+    "README.md": [
+      {
+        "before": "# Arcade · 遊戲小宇宙\n\n輕量、響應式的繁體中文遊戲入口網站。原生 HTML / CSS / JavaScript，無套件、無外部字型、無追蹤，也不需要建置。\n\n入口目錄收錄三百九十七款遊戲；各款的滑鼠、觸控與鍵盤功能以玩法說明為準。空中指揮所的航線繪製需要滑鼠、觸控或觸控筆，鍵盤可控制暫停、說明與重開。\n\n## 傷心小棧（紅心大戰）入口升級\n\n仍使用原有 `hearts` 卡片與網址，保留牌桌接龍分類、卡片位置和插畫；目錄維持 **397 款、25 類**。新版提供隨機洗牌、完整累積計分對局與三種 AI 難度，不新增第二張 Hearts 卡片。\n\n- [傷心小棧](games/hearts.html)：四人紅心大戰，與三位只使用自身手牌與允許資訊的 AI 對戰。新規則只在紅心打出後破心；Q♠ 不會破心。\n- [指定牌局與同機練習](games/hearts-practice.html)：保留原本 100 個指定牌局、同機模式、規則引擎、資料、證明與舊存檔；清楚標示其 Q♠ 也會破心的舊版變體。\n\n新版牌局、偏好與結果使用獨立 v3 儲存鍵，不讀取、搬移或覆蓋舊練習存檔。支援安全分頁鎖的瀏覽器只允許一個分頁持有牌局寫入權；暫停、隱藏或離開後可由另一分頁接續最新進度。不支援安全分頁鎖的環境會明確提示只在記憶體中遊玩，保護已有牌局與結果資料。\n\n來源規則、AI、控制器與並行分頁測試和實際瀏覽器驗收分開記錄。上線後仍需驗證完整回合／對局、手機版、焦點、存取及跨分頁接續；不把離線測試當作已完成實際試玩。\n\n## 經典區的七款遊戲\n\n目錄合計 **397 款、25 類**。「經典」分類（classic30）新增磁暴前線與雲霄歡樂園，收錄以下七款。兩款新作各具 10 關已製作內容，卡片標示為開發版；一般操作、手機互動和每關 20 分鐘有意義體驗仍待實際驗證。該批發布時原有 395 筆遊戲記錄的內容、順序、玩法、網址、插畫及存檔保持原樣；本次 Hearts 升級例外已於上節說明；原有「休閒反應」中的 100 關彈珠台仍完整保留。未列出的其他規劃作品沒有加入。\n\n- [苔精大遷徙](games/mosskin-migration.html)：50 關群體救援與地形工程。\n- [星環彩珠](games/orbit-marble-chain.html)：50 關彩珠連鎖，提供同機競分。\n- [星港發射台](games/starport-pinball.html)：目前公開的雙桌 20 關彈珠開發測試版。\n- [毛球滑滑樂・新版測試版](previews/puzzle-premium-v1/games/puffball-shift.html)：50 關整行滑動群消，沿用獨立試玩網址與存檔。\n- [晶彩連鎖・新版測試版](previews/puzzle-premium-v1/games/prismatic-cascade.html)：50 關晶石交換益智，沿用獨立試玩網址與存檔。\n- [磁暴前線・10 關開發版](games/stormfront-command.html)：採礦建設、管理電力、組成混編部隊並接管戰場目標。\n- [雲霄歡樂園・10 關開發版](games/skyrail-park.html)：設計步道、排隊區及雲霄飛車，照顧遊客、員工與營運現金流。\n\n兩款新作使用自己的正式儲存命名空間，不搬移、清除或重設其他作品的存檔。毛球與晶彩仍使用原測試路徑，不覆蓋舊正式頁面。苔精的本機草稿與主線進度分開保存，試玩草稿不會取得主線獎章；多個編輯分頁採最後儲存的版本，不提供協作同步。\n\n合法動作重播、來源驗證、正常倍速引擎耐久及離線控制器測試，與實際瀏覽器、手機操作和一般玩家時長分開記錄。自動通關時間不等於人工遊玩時間；不宣稱兩款的每一關已滿足 20 分鐘體驗、商業品質認證或保證遊玩時數。部署後仍須實際試玩及修正。\n\n`node verify-all.cjs` 執行目前的目錄整合檢查：397 筆目錄、25 個分類、經典區七張卡片、搜尋／網址／返回操作、精確版本連結、兩款新作十關資料及資產閉包，以及所有非指定舊檔案的逐位元組保存。此命令不宣稱重新跑完所有舊遊戲引擎，也不替代瀏覽器或人工時長驗收。下方舊批次的數字與測試說明是各自發行時的歷史記錄。\n\n",
+        "after": "# Arcade · 遊戲小宇宙\n\n輕量、響應式的繁體中文遊戲入口網站。原生 HTML / CSS / JavaScript，無套件、無外部字型、無追蹤，也不需要建置。\n\n入口目錄收錄三百九十九款遊戲，合計 **399 款、25 類**。各款的滑鼠、觸控與鍵盤功能以玩法說明為準；空中指揮所的航線繪製需要滑鼠、觸控或觸控筆。\n\n## 經典區的九款遊戲\n\n本批新增兩款原創單人遊戲。花園守望隊提供六章 30 關植物防線，奇潮水族館提供五章 30 缸照護與防守。關卡可自由選擇，進度在本機保存，具有有限救援與失誤恢復機制；自動放置不管仍會失敗。來源與合法動作模擬已驗證，實際瀏覽器、觸控、一般玩家難度與耐玩度另行驗收，不把模擬時間當成人工遊玩時間或商業品質認證。\n\n- [苔精大遷徙](games/mosskin-migration.html)：50 關群體救援與地形工程。\n- [星環彩珠](games/orbit-marble-chain.html)：50 關彩珠連鎖，提供同機競分。\n- [星港發射台](games/starport-pinball.html)：雙桌 20 關開發測試版。\n- [毛球滑滑樂・新版測試版](previews/puzzle-premium-v1/games/puffball-shift.html)：50 關整行滑動群消，沿用獨立試玩網址與存檔。\n- [晶彩連鎖・新版測試版](previews/puzzle-premium-v1/games/prismatic-cascade.html)：50 關晶石交換益智，沿用獨立試玩網址與存檔。\n- [磁暴前線・10 關開發版](games/stormfront-command.html)：採礦建設、電力管理、混編部隊與戰場接管。\n- [雲霄歡樂園・10 關開發版](games/skyrail-park.html)：十五款遊具與逐段自建雲霄飛車，經營十座原創樂園。\n- [花園守望隊](games/garden-watchline.html)：六章 30 關、八種植物與七種敵人；可暫停布陣、移植退款，利用防線組合與有限援護守住小屋。\n- [奇潮水族館](games/wondertide-aquarium.html)：五章 30 缸、五種魚群、六位夥伴與三種入侵者；餵食、收幣、育幼、棲地建設與主動防守。\n\n原有 397 筆遊戲記錄及次序、分類成員、插畫、玩法、網址與存檔逐位元組保留；僅經典分類追加以上兩作。各作使用自己的儲存命名空間，不搬移或清除其他遊戲存檔。奇潮水族館另保留未公開舊原型 01／25／50 的匯入相容性，舊關完成不會冒充新 30 缸進度。毛球與晶彩維持原獨立測試路徑，磁暴前線故事設計未納入本批實作。磁暴前線與樂園每關一般操作的 20 分鐘體驗仍待驗證。\n\n`node verify-all.cjs` 執行 399 筆目錄、25 個分類、九張經典卡片、搜尋／網址／返回、版本連結、兩作各 30 關、資產閉包、儲存命名空間與既有檔案保存檢查；並在隔離副本重建先前發布的根檔案、重跑先前完整整合 gate，及新作設計者提供的合法動作測試。歷史引擎證明仍以相同位元組沿用，不宣稱所有舊引擎重新跑完。`node verify-garden-aquarium.cjs --catalog-only` 只跑目錄與位元組／資產檢查。所有測試均不替代真實瀏覽器與人工試玩。\n\n## 傷心小棧（紅心大戰）入口升級\n\n沿用原有 `hearts` 卡片、牌桌接龍分類、位置與插畫，提供隨機洗牌、完整累積計分對局與三種 AI 難度。Q♠ 不會破心。\n\n- [傷心小棧](games/hearts.html)：四人紅心大戰，三位 AI 只使用自身手牌與允許資訊。\n- [指定牌局與同機練習](games/hearts-practice.html)：原本 100 個指定牌局、同機模式與存檔仍在，明確標示 Q♠ 也會破心的舊版變體。\n\n新版獨立 v3 存檔及分頁保護保持原樣，不讀取、搬移或覆蓋舊練習存檔。以下舊批次數字是各自發布時的歷史記錄。\n\n",
+        "occurrences": 1
+      },
+      {
+        "before": "「經典」包含星港發射台、苔精大遷徙、星環彩珠、毛球滑滑樂、晶彩連鎖、磁暴前線與雲霄歡樂園七款",
+        "after": "「經典」包含星港發射台、苔精大遷徙、星環彩珠、毛球滑滑樂、晶彩連鎖、磁暴前線、雲霄歡樂園、花園守望隊與奇潮水族館九款",
+        "occurrences": 1
+      },
+      {
+        "before": "搜尋始終涵蓋全部 397 款",
+        "after": "搜尋始終涵蓋全部 399 款",
+        "occurrences": 1
+      }
+    ],
+    "verify-all.cjs": [
+      {
+        "before": "if (fs.existsSync(__dirname + '/classic-duo-release.json'))",
+        "after": "if (fs.existsSync(__dirname + '/garden-aquarium-release.json')) require('./verify-garden-aquarium.cjs');\nelse if (fs.existsSync(__dirname + '/classic-duo-release.json'))",
+        "occurrences": 1
+      }
+    ]
+  },
+  "rootFiles": {
+    "app.js": "72ca940b075aca7a640c8fedf6b468a117aa690ae1d898080045734981e0156c",
+    "index.html": "a956fafe4e02781abda36071b08a42271dc660d5c280ad0f363343b6e94bbe10",
+    "README.md": "47a5eee72e13383ce67f1494a21d85c7a47947b96fbfb92d92f100ac378db2b9",
+    "verify-all.cjs": "b0a97c09b7ed6dbbe43191a4d947db0efe4842739927ebb07bc1e3183c47d6a9"
+  },
+  "supportFiles": {
+    "garden-aquarium-baseline.json": "dabab7c18fe61f01decb5cbefbcde4dbffea7a4db0f492d8887a133b3559a05e",
+    "verify-garden-aquarium.cjs": "656500c85ed7f459b86db31bee24c0e457b0669e8dbfaf117697b52f31dbcd8c",
+    "verification/verify-wondertide.cjs": "f2a36010daa68c6d5369f1d910093573a7ab199929525c975d5080f15c260db6",
+    "verification/wondertide-browser-qa-plan.md": "ff5336b25b0ed3b3758580c456851b822827e41562b29c3f7116098f5204356e",
+    "verification/wondertide-legacy-fixtures.json": "ba4e8b21b1571ab630d231fd2536237bccfe411dcb2cab4c29172c04dd4c7a02",
+    "verification/wondertide-report.json": "2d55d0aa158cbaa2b95d63649fec630fa4e187fee72e24054ab3b8ee5a532810"
+  },
+  "sourceGatesAccepted": true,
+  "claims": {
+    "actualBrowserQAPassed": false,
+    "humanDifficultyVerified": false,
+    "allLegacyEnginesRerun": false,
+    "commercialQualityCertified": false,
+    "twentyMinutesPerLevelVerified": false
+  },
+  "scope": "Two original 30-stage campaigns. Preserve all prior game files and entries. New catalog plus source checks; browser acceptance remains separate.",
+  "sourceReviewBindings": {
+    "garden-watchline": {
+      "accepted": true,
+      "runtimeSHA256": "5bd3ae48a4bead0ec1e4cfdb45f11c785697b706b74d986cfe969aed398a12c0",
+      "scope": "Independent source, legal-action simulation, persistence, controller VM and mocked renderer review. Actual browser and human play testing are separate.",
+      "actualBrowser": false
+    },
+    "wondertide-aquarium": {
+      "accepted": true,
+      "runtimeSHA256": "742a9bff1f691438b719197ce84e2583fbd08cd27a5f8b0401efdaff98f6825f",
+      "scope": "Independent source, legal-action simulation, persistence, controller VM and mocked renderer review. Actual browser and human play testing are separate.",
+      "actualBrowser": false
+    }
+  }
+}
