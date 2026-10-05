@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "garden-watchline",
+  "title": "花園守望隊",
+  "entry": "games/garden-watchline.html",
+  "runtimeFiles": [
+    "games/garden-watchline.html",
+    "games/garden-watchline/engine.js",
+    "games/garden-watchline/app.js",
+    "games/garden-watchline/render.js",
+    "games/garden-watchline/levels.js",
+    "games/garden-watchline/style.css",
+    "games/garden-watchline/art.svg"
+  ],
+  "sourceFiles": {
+    "games/garden-watchline.html": "8f23df8e5c8549e4c06a92b1ec198c3a354779d133b1eec5c132ee3380941e9c",
+    "games/garden-watchline/engine.js": "a9f08c3496456baf58b4173ebc14ba0e6225a8999cf2ee618f1b3ed6b826e106",
+    "games/garden-watchline/app.js": "10c16de7c19170642b284f72b4a6d0db03dbf4ed0f5875ae12d03ddec6969571",
+    "games/garden-watchline/render.js": "bf7b35aae0e7bbaa6acf02bb5512c13940d4ca741b52373baee97b23f1300649",
+    "games/garden-watchline/levels.js": "124f65341de0d61286bee81784b9369f8c8e768b50010be8d3d308c7b9f65dd7",
+    "games/garden-watchline/style.css": "288aec7a3c0b5b7f16a348e62e1658291b4ca07d2e4314aafa497aaa5171658d",
+    "games/garden-watchline/art.svg": "c5c1ce73067ea17621418bc73622bfc040e404d8fb4defeff28aad5f1d1d64fd"
+  },
+  "dependencies": [],
+  "campaign": {
+    "authoredStages": 30,
+    "chapters": 6,
+    "waves": 141,
+    "explicitEnemySpawns": 1857,
+    "allStagesSelectable": true
+  },
+  "persistence": {
+    "keys": [
+      "arcade.classic30.garden-watchline.v1.progress",
+      "arcade.classic30.garden-watchline.v1.session",
+      "arcade.classic30.garden-watchline.v1.settings"
+    ],
+    "pauseOnBlur": true,
+    "offlineCatchUp": false
+  },
+  "forgiveness": [
+    "pause-to-plan",
+    "80 percent relocation refund",
+    "one rescue cart per active lane",
+    "five cottage hearts",
+    "three finite aid-rain uses"
+  ],
+  "commands": [
+    [
+      "node",
+      "games/garden-watchline/verify.cjs"
+    ],
+    [
+      "node",
+      "games/garden-watchline/replay.cjs"
+    ],
+    [
+      "node",
+      "games/garden-watchline/coherent-strategy.cjs"
+    ],
+    [
+      "node",
+      "games/garden-watchline/balance-audit.cjs"
+    ],
+    [
+      "node",
+      "games/garden-watchline/shield-first-audit.cjs"
+    ]
+  ],
+  "claims": {
+    "sourceReviewAccepted": true,
+    "actualBrowserQAPassed": false,
+    "humanEnjoymentVerified": false,
+    "hourEnduranceTested": false,
+    "commercialQualityCertified": false
+  }
+}
