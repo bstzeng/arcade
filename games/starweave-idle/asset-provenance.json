@@ -4,15 +4,119 @@
     {
       "file": "render.js",
       "type": "original procedural Canvas 2D artwork",
-      "source": "Created specifically for this game. Original world-anchored procedural terrain, deterministic bounded tile cache, five illustrated biomes, a northeast expedition trail, a persistent tent, characters, equipment icons and effects. All visual geometry is original; no external media dependencies."
+      "source": "Created specifically for this game. Original world-anchored procedural terrain, deterministic bounded tile cache, five illustrated biomes, a northeast expedition trail, a persistent tent, characters, equipment icons and effects. All visual geometry is original; no external media dependencies. V3 adds a 15-body creature drawing system with 50 normal species and 10 distinct boss designs. Every catalog entry has an original body/appendage/ornament combination; every boss has a bespoke scene accessory. Patterned world-space circle, ring, line and cone telegraphs are drawn under actors and clipped out of the southwest escape strip. Small coral hostile shots are separate from friendly magic.",
+      "sha256": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525"
     },
     {
       "file": "art.svg",
       "type": "original SVG cover illustration",
-      "source": "Created specifically for this game. Original SVG cover artwork matching the centered mage, northeast woodland trail, southwest tent and three-direction enemy approach. Uses generic local system serif and sans-serif fonts."
+      "source": "Created specifically for this game. Original SVG cover artwork matching the centered mage, northeast woodland trail, southwest tent and three-direction enemy approach. Uses generic local system serif and sans-serif fonts.",
+      "sha256": "0ad4a4802847e6404fdd8ff7b1b9b1f9db565c9119937e4b0dbf6c79aab3ebb2"
+    },
+    {
+      "file": "bestiary.js",
+      "type": "original creature catalog and anatomy descriptions",
+      "source": "60 original named creatures written for Starweave. Creature anatomy and art are original procedural geometry; no third-party characters or media.",
+      "sha256": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43"
     }
   ],
   "externalAssets": [],
-  "motion": "Reduced-motion rendering freezes decorative animation and movement bobbing; essential state, combat effects and projectiles remain visible.",
-  "worldRendering": "World coordinates drive one shared camera transform for terrain, camp, enemies, projectiles, loot and the mage. Terrain and route details are indexed by stable world coordinates; only visible cells are drawn and the tile cache is capped at 48 tiles. No fixed arena, portal or basket artwork."
+  "motion": "Reduced-motion rendering freezes creature gaits, decorative appendage animation, and telegraph dash motion. All 60 creatures produce byte-identical images at different times in reduced-motion mode; essential state, telegraph countdowns, combat effects and actual world movement remain visible.",
+  "worldRendering": "World coordinates drive one shared camera transform for terrain, camp, enemies, projectiles, loot and the mage. Terrain and route details are indexed by stable world coordinates; only visible cells are drawn and the tile cache is capped at 48 tiles. No fixed arena, portal or basket artwork.",
+  "creatureArt": {
+    "normalSpecies": 50,
+    "bossSpecies": 10,
+    "bodyFamilies": 15,
+    "uniqueMonochromeGeometryRenders": 60,
+    "uniqueAlphaSilhouettes": 60,
+    "signature": "All 60 are distinct after replacing every palette with the same four colors; thresholded alpha silhouette masks are also all distinct.",
+    "galleryAPI": "StarweaveRender.drawCreature(ctx, definition, x, y, size=64, time=0, options={reducedMotion:false}); x/y are ground anchors and size is nominal pixels.",
+    "originality": "Original Canvas 2D vector paths and shapes only. No copyrighted character references, external illustrations, imported image assets, or recolor-only species."
+  },
+  "verification": {
+    "method": "Offline @napi-rs/canvas; no browser; all 60 catalog creatures rendered with production drawCreature; six production world samples; cone half-angle boundary regression against engine.hazardContains and production raster; 240 timed cached frames after 40 warm-up frames.",
+    "checks": {
+      "allCreaturesRender": true,
+      "reducedMotionAll60ByteIdenticalAcrossTime": true,
+      "southwestHazardClipAllFourShapes": true,
+      "coneBoundaryMatchesEngine": true,
+      "coneBoundaryProbes": [
+        {
+          "spreadHalfAngle": 0.6,
+          "angularOffset": -0.63,
+          "distance": 200,
+          "world": {
+            "x": -69.04530458573875,
+            "y": -147.58999679085557
+          },
+          "engineInside": false,
+          "oldVisibleWedgeInside": false,
+          "renderedTelegraphPresent": false,
+          "expectedInside": false
+        },
+        {
+          "spreadHalfAngle": 0.6,
+          "angularOffset": -0.44999999999999996,
+          "distance": 200,
+          "world": {
+            "x": -34.17096531582486,
+            "y": -138.8558661851669
+          },
+          "engineInside": true,
+          "oldVisibleWedgeInside": false,
+          "renderedTelegraphPresent": true,
+          "expectedInside": true
+        },
+        {
+          "spreadHalfAngle": 0.6,
+          "angularOffset": 0.44999999999999996,
+          "distance": 200,
+          "world": {
+            "x": 88.85586618516689,
+            "y": -15.829034684175141
+          },
+          "engineInside": true,
+          "oldVisibleWedgeInside": false,
+          "renderedTelegraphPresent": true,
+          "expectedInside": true
+        },
+        {
+          "spreadHalfAngle": 0.6,
+          "angularOffset": 0.63,
+          "distance": 200,
+          "world": {
+            "x": 97.5899967908556,
+            "y": 19.045304585738787
+          },
+          "engineInside": false,
+          "oldVisibleWedgeInside": false,
+          "renderedTelegraphPresent": false,
+          "expectedInside": false
+        }
+      ],
+      "safeStripPixelsChecked": 219068,
+      "unchangedSections": {
+        "terrainCampsite": true,
+        "mage": true,
+        "equipmentIcons": true
+      }
+    },
+    "renderPerformance": {
+      "frameCount": 240,
+      "worldPixels": "960x540",
+      "enemies": 3,
+      "hazards": 16,
+      "medianMs": 15.231267000000116,
+      "p95Ms": 17.86173800000006,
+      "maxMs": 23.401018999999906,
+      "meanMs": 15.453147929166688,
+      "scope": "Node native Canvas CPU benchmark; not a browser/mobile frame-rate claim"
+    },
+    "sourceHashes": {
+      "render.js": "cd0f324b2aaf20fe74f2c9a5639368b09b4926e8956fb43b8822f6cb60df2525",
+      "bestiary.js": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
+      "engine.js": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7"
+    },
+    "verifiedAt": "2026-10-05T08:29:28.937Z"
+  }
 }
