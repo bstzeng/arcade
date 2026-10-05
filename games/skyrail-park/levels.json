@@ -3294,7 +3294,7 @@
       },
       {
         "title": "二、午餐不是單一路口",
-        "text": "熱浪增加需求，擴充攤位、北側輪台及備貨；別只加高價而讓客人找不到可負擔餐點。",
+        "text": "熱浪增加需求。北側觀景輪須真正載客，並有同區、可步行抵達且使用過的餐飲、飲水及洗手間；保持備貨與合理單價。",
         "goals": {
           "openRides": 3,
           "servicedSites": 1,
@@ -3338,10 +3338,9 @@
               3,
               5,
               10,
-              17
+              6
             ],
             "rideTypes": [
-              "carousel",
               "wheel"
             ],
             "maxRoute": 16
@@ -3350,10 +3349,10 @@
       },
       {
         "title": "三、東側晚風庭",
-        "text": "東側鞦韆与在地補給形成另一個目的地，避免全部店門都擠在入口走道。",
+        "text": "東側鞦韆與在地補給形成第三個目的地；市集旋轉台、北側觀景輪和東庭各自保有使用過且有庫存的三類服務。",
         "goals": {
           "openRides": 4,
-          "servicedSites": 2,
+          "servicedSites": 3,
           "satisfaction": 75,
           "operatingProfit": 1500
         },
@@ -3390,21 +3389,32 @@
           {
             "rect": [
               3,
-              5,
+              13,
               10,
-              17
+              9
             ],
             "rideTypes": [
-              "carousel",
+              "carousel"
+            ],
+            "maxRoute": 16
+          },
+          {
+            "rect": [
+              3,
+              5,
+              10,
+              6
+            ],
+            "rideTypes": [
               "wheel"
             ],
             "maxRoute": 16
           },
           {
             "rect": [
+              23,
               14,
-              14,
-              18,
+              9,
               10
             ],
             "rideTypes": [
@@ -3460,11 +3470,11 @@
       },
       {
         "title": "五、向日葵天棚",
-        "text": "新飛車穿過市場帶與北廊，攤位上方預留兩層淨空，適時補能並完成首班載客。",
+        "text": "新飛車穿過市場帶與北廊，在至少兩間使用過、仍有庫存且接通公共步道的飲食攤位上方保留兩層淨空；完成首班載客，並維持三個完整服務區。",
         "goals": {
           "openRides": 5,
           "commissionedCoasters": 1,
-          "servicedSites": 2,
+          "servicedSites": 3,
           "healthyRides": 4,
           "scenery": 9,
           "benches": 8,
@@ -3503,21 +3513,32 @@
           {
             "rect": [
               3,
-              5,
+              13,
               10,
-              17
+              9
             ],
             "rideTypes": [
-              "carousel",
+              "carousel"
+            ],
+            "maxRoute": 16
+          },
+          {
+            "rect": [
+              3,
+              5,
+              10,
+              6
+            ],
+            "rideTypes": [
               "wheel"
             ],
             "maxRoute": 16
           },
           {
             "rect": [
+              23,
               14,
-              14,
-              18,
+              9,
               10
             ],
             "rideTypes": [
@@ -3555,12 +3576,23 @@
               ],
               "minSegments": 15
             }
-          ]
+          ],
+          "stallOverpass": {
+            "rect": [
+              13,
+              19,
+              9,
+              1
+            ],
+            "minStalls": 2,
+            "minClearance": 2
+          }
         },
         "operatingCost": 6,
         "wageCost": 4
       }
-    ]
+    ],
+    "missionRevision": 2
   },
   {
     "id": "08",
