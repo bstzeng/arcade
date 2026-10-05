@@ -1,55 +1,55 @@
 {
-  "schema": "starweave-v3-independent-verification-1",
-  "started": "2026-10-05T08:19:12.156Z",
-  "engineSha256": "c105ff95020831832fb230409b41cfb491b12fe13464e1cd384166e7624458d7",
+  "schema": "starweave-v4-independent-verification-1",
+  "started": "2026-10-05T09:25:28.837Z",
+  "engineSha256": "dc2bd50dc7ab3bb746569de4ddcca04f8529fb0e84d362e2f046d364b4375baf",
   "catalogSha256": "8e2b72c9cba00f16fd89689084f8031d300cce8842c0b2521a9419580eb20a43",
   "tests": [
     {
       "name": "Real-time Zero-input run",
       "pass": true,
-      "milliseconds": 0.2712900000042282,
+      "milliseconds": 0.2286820000008447,
       "details": {
         "final": {
-          "time": 90.01284852300005,
-          "level": 3,
-          "xp": 73,
-          "gold": 89,
-          "depth": 2,
-          "frontier": 2,
-          "encounter": 0,
+          "time": 90.0104482800002,
+          "level": 5,
+          "xp": 29,
+          "gold": 207,
+          "depth": 3,
+          "frontier": 3,
+          "encounter": 1,
           "mode": "combat",
-          "hp": 159.59312037130582,
-          "maxHp": 161.5,
-          "mana": 51.473272601400005,
+          "hp": 175.03831691853378,
+          "maxHp": 187.5,
+          "mana": 53.16972295649998,
           "position": {
-            "x": 1317.1453571529964,
-            "y": -1317.79074323822
+            "x": 827.7272930254042,
+            "y": -827.9082639195591
           },
           "camp": {
-            "x": 939.2449983926182,
-            "y": -939.2449983926182
+            "x": 671.5580243180059,
+            "y": -671.5580243180059
           },
-          "bag": 8,
-          "power": 284,
+          "bag": 20,
+          "power": 333,
           "metrics": {
-            "kills": 14,
-            "elites": 1,
-            "drops": 8,
+            "kills": 27,
+            "elites": 2,
+            "drops": 20,
             "retreats": 0,
-            "areas": 1,
+            "areas": 2,
             "sold": 0,
-            "earned": 89,
-            "casts": 13
+            "earned": 207,
+            "casts": 24
           },
-          "discovered": 13
+          "discovered": 26
         },
         "max": {
-          "playerSpeed": 108.00000000000757,
-          "enemySpeed": 177.87019001444196,
+          "playerSpeed": 108.00000000000391,
+          "enemySpeed": 183.69372054199005,
           "actors": 3,
           "bosses": 0,
-          "hazards": 3,
-          "hostileShots": 1,
+          "hazards": 4,
+          "hostileShots": 2,
           "friendlyShots": 2
         },
         "actions": {},
@@ -60,56 +60,57 @@
     {
       "name": "Real-time Normal public-action run",
       "pass": true,
-      "milliseconds": 0.007146999996621162,
+      "milliseconds": 0.010010999991209246,
       "details": {
         "final": {
-          "time": 90.01284852300005,
-          "level": 3,
-          "xp": 54,
-          "gold": 0,
-          "depth": 2,
-          "frontier": 2,
+          "time": 90.0104482800002,
+          "level": 6,
+          "xp": 186,
+          "gold": 8,
+          "depth": 4,
+          "frontier": 4,
           "encounter": 0,
           "mode": "combat",
-          "hp": 187.8,
-          "maxHp": 187.8,
-          "mana": 53.76670503050005,
+          "hp": 319.5,
+          "maxHp": 319.5,
+          "mana": 139.70529666500005,
           "position": {
-            "x": 1266.869269910368,
-            "y": -1267.3757501269095
+            "x": 1437.3677545653934,
+            "y": -1437.927343972916
           },
           "camp": {
-            "x": 849.6209246299395,
-            "y": -849.6209246299395
+            "x": 1277.8833959319404,
+            "y": -1277.8833959319404
           },
-          "bag": 4,
-          "power": 511,
+          "bag": 9,
+          "power": 1586,
           "metrics": {
-            "kills": 13,
-            "elites": 1,
-            "drops": 6,
+            "kills": 38,
+            "elites": 3,
+            "drops": 26,
             "retreats": 0,
-            "areas": 1,
-            "sold": 0,
-            "earned": 82,
-            "casts": 14
+            "areas": 3,
+            "sold": 13,
+            "earned": 391,
+            "casts": 35
           },
-          "discovered": 13
+          "discovered": 34
         },
         "max": {
-          "playerSpeed": 108.00000000000503,
-          "enemySpeed": 177.8719058680889,
-          "actors": 2,
-          "bosses": 0,
-          "hazards": 1,
-          "hostileShots": 1,
-          "friendlyShots": 2
+          "playerSpeed": 108.00000000000784,
+          "enemySpeed": 183.64429249348203,
+          "actors": 3,
+          "bosses": 1,
+          "hazards": 4,
+          "hostileShots": 2,
+          "friendlyShots": 4
         },
         "actions": {
-          "equip": 5,
-          "enhance": 4,
-          "attribute": 6,
-          "skill": 2
+          "equip": 12,
+          "enhance": 21,
+          "attribute": 15,
+          "skill": 5,
+          "sellAll": 1
         },
         "errors": [],
         "retreatObserved": false
@@ -120,60 +121,88 @@
     {
       "label": "Zero-input run",
       "kind": "Actual normal-clock engine runs: one tick per real timer interval, no acceleration",
-      "seed": 2389090591,
+      "initialRngState": 2389090591,
       "actions": {},
       "errors": [],
-      "spawns": 15,
+      "spawns": 30,
       "spawnSectors": {
-        "NW": 5,
-        "NE": 5,
-        "SE": 5
+        "NW": 0,
+        "NE": 30,
+        "SE": 0
       },
       "seenSpecies": {
         "forest-dewblob": 1,
-        "forest-willowsprite": 1,
-        "forest-fernfox": 2,
-        "forest-acornbeetle": 1,
-        "forest-cloverturtle": 2,
-        "forest-leafrabbit": 1,
-        "forest-barksnail": 1,
-        "forest-petalmoth": 1,
+        "forest-willowsprite": 2,
+        "forest-fernfox": 1,
         "forest-teacap": 1,
-        "forest-reedbird": 1,
-        "cave-lanternmoth": 1,
+        "forest-leafrabbit": 1,
+        "forest-cloverturtle": 1,
+        "forest-reedbird": 2,
+        "forest-barksnail": 1,
+        "forest-acornbeetle": 1,
+        "forest-petalmoth": 1,
         "cave-bellmushroom": 1,
-        "cave-wallgecko": 1
+        "cave-moonrabbit": 1,
+        "cave-spiralsnail": 2,
+        "cave-lanternmoth": 2,
+        "cave-wallgecko": 1,
+        "cave-puffsprite": 1,
+        "cave-jellyspore": 1,
+        "cave-crystalcrab": 1,
+        "cave-ribbonsnake": 1,
+        "cave-velvetbeetle": 1,
+        "ice-frostfox": 1,
+        "ice-snowhare": 1,
+        "ice-bellbird": 1,
+        "ice-glasssnail": 1,
+        "ice-iciclebeetle": 1,
+        "ice-cometsnake": 1
       },
       "castSpecies": {
-        "forest-willowsprite": 1,
-        "forest-fernfox": 2,
-        "forest-leafrabbit": 1,
-        "forest-petalmoth": 1,
+        "forest-willowsprite": 2,
+        "forest-fernfox": 1,
         "forest-teacap": 1,
-        "forest-reedbird": 1,
-        "cave-lanternmoth": 1,
-        "cave-bellmushroom": 1
+        "forest-reedbird": 2,
+        "forest-barksnail": 1,
+        "forest-petalmoth": 1,
+        "cave-bellmushroom": 1,
+        "cave-moonrabbit": 1,
+        "cave-spiralsnail": 2,
+        "cave-lanternmoth": 3,
+        "cave-wallgecko": 1,
+        "cave-puffsprite": 1,
+        "cave-jellyspore": 1,
+        "cave-ribbonsnake": 1,
+        "cave-crystalcrab": 1,
+        "cave-velvetbeetle": 1,
+        "ice-frostfox": 1,
+        "ice-bellbird": 2,
+        "ice-snowhare": 1,
+        "ice-glasssnail": 1,
+        "ice-iciclebeetle": 1,
+        "ice-cometsnake": 1
       },
       "shapeKinds": {
-        "line": 4,
-        "cone": 2,
-        "circle": 7
+        "line": 13,
+        "cone": 3,
+        "circle": 18,
+        "ring": 1
       },
       "bosses": {},
       "retreats": [],
       "max": {
-        "playerSpeed": 108.00000000000757,
-        "enemySpeed": 177.87019001444196,
+        "playerSpeed": 108.00000000000391,
+        "enemySpeed": 183.69372054199005,
         "actors": 3,
         "bosses": 0,
-        "hazards": 3,
-        "hostileShots": 1,
+        "hazards": 4,
+        "hostileShots": 2,
         "friendlyShots": 2
       },
-      "sampledTicks": 4419,
+      "sampledTicks": 4365,
       "checkpoints": [
         {
-          "time": 0.020424125000000005,
+          "time": 0.020433576000000002,
           "level": 1,
           "xp": 0,
           "gold": 0,
@@ -207,143 +236,41 @@
           "discovered": 0
         },
         {
-          "time": 10.004626726999996,
-          "level": 1,
-          "xp": 14,
-          "gold": 5,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 0,
-          "mode": "combat",
-          "hp": 135.5,
-          "maxHp": 135.5,
-          "mana": 44.59395199109996,
-          "position": {
-            "x": 230.18270001721274,
-            "y": -230.18270001721274
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 1,
-          "power": 236,
-          "metrics": {
-            "kills": 1,
-            "elites": 0,
-            "drops": 1,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 5,
-            "casts": 1
-          },
-          "discovered": 2
-        },
-        {
-          "time": 20.00896771299999,
+          "time": 10.017710524999993,
           "level": 1,
           "xp": 42,
           "gold": 15,
           "depth": 1,
           "frontier": 1,
           "encounter": 1,
-          "mode": "travel",
-          "hp": 134.3173889361702,
+          "mode": "combat",
+          "hp": 133.26332255319147,
           "maxHp": 135.5,
-          "mana": 48,
+          "mana": 39.47120766329999,
           "position": {
-            "x": 218.61424223604655,
-            "y": -330.46653380978245
+            "x": 148.54769259305257,
+            "y": -148.846702898979
           },
           "camp": {
             "x": 0,
             "y": 0
           },
-          "bag": 3,
+          "bag": 2,
           "power": 236,
           "metrics": {
             "kills": 3,
             "elites": 0,
-            "drops": 3,
+            "drops": 2,
             "retreats": 0,
             "areas": 0,
             "sold": 0,
             "earned": 15,
             "casts": 3
           },
-          "discovered": 3
-        },
-        {
-          "time": 30.00113842299999,
-          "level": 1,
-          "xp": 56,
-          "gold": 20,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 1,
-          "mode": "combat",
-          "hp": 134.3173889361702,
-          "maxHp": 135.5,
-          "mana": 45.133078640700006,
-          "position": {
-            "x": 507.9767714106215,
-            "y": -508.20331805758576
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 3,
-          "power": 236,
-          "metrics": {
-            "kills": 4,
-            "elites": 0,
-            "drops": 3,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 20,
-            "casts": 4
-          },
           "discovered": 6
         },
         {
-          "time": 40.01011482299997,
-          "level": 2,
-          "xp": 22,
-          "gold": 30,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 2,
-          "mode": "combat",
-          "hp": 147.3433683029453,
-          "maxHp": 148.5,
-          "mana": 51,
-          "position": {
-            "x": 613.9220751061366,
-            "y": -614.7914034421442
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 5,
-          "power": 260,
-          "metrics": {
-            "kills": 6,
-            "elites": 0,
-            "drops": 5,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 30,
-            "casts": 5
-          },
-          "discovered": 7
-        },
-        {
-          "time": 50.01267537199997,
+          "time": 20.013061459000035,
           "level": 2,
           "xp": 36,
           "gold": 35,
@@ -351,135 +278,67 @@
           "frontier": 1,
           "encounter": 2,
           "mode": "combat",
-          "hp": 146.4155208976157,
+          "hp": 147.35607854137447,
           "maxHp": 148.5,
-          "mana": 50.621003707800014,
+          "mana": 51,
           "position": {
-            "x": 736.3428152703614,
-            "y": -737.212143606369
+            "x": 310.9847710907104,
+            "y": -311.16947326607016
           },
           "camp": {
             "x": 0,
             "y": 0
           },
-          "bag": 5,
+          "bag": 4,
           "power": 260,
           "metrics": {
             "kills": 7,
             "elites": 0,
-            "drops": 5,
+            "drops": 4,
             "retreats": 0,
             "areas": 0,
             "sold": 0,
             "earned": 35,
-            "casts": 6
+            "casts": 5
           },
           "discovered": 9
         },
         {
-          "time": 60.001248329999974,
-          "level": 2,
-          "xp": 64,
-          "gold": 45,
+          "time": 30.009569095000032,
+          "level": 3,
+          "xp": 35,
+          "gold": 75,
           "depth": 1,
           "frontier": 1,
           "encounter": 3,
-          "mode": "combat",
-          "hp": 145.01739467040673,
-          "maxHp": 148.5,
-          "mana": 51,
+          "mode": "loot",
+          "hp": 161.5,
+          "maxHp": 161.5,
+          "mana": 54,
           "position": {
-            "x": 987.2426292375709,
-            "y": -987.1399370698583
+            "x": 377.66018097153614,
+            "y": -385.5232747747247
           },
           "camp": {
             "x": 0,
             "y": 0
           },
-          "bag": 6,
-          "power": 260,
+          "bag": 7,
+          "power": 285,
           "metrics": {
-            "kills": 9,
-            "elites": 0,
-            "drops": 6,
+            "kills": 12,
+            "elites": 1,
+            "drops": 7,
             "retreats": 0,
             "areas": 0,
             "sold": 0,
-            "earned": 45,
+            "earned": 75,
             "casts": 8
           },
           "discovered": 10
         },
         {
-          "time": 70.01202303599996,
-          "level": 3,
-          "xp": 21,
-          "gold": 70,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 3,
-          "mode": "combat",
-          "hp": 161.5,
-          "maxHp": 161.5,
-          "mana": 54,
-          "position": {
-            "x": 1053.9913170139764,
-            "y": -1053.8886248462638
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 8,
-          "power": 285,
-          "metrics": {
-            "kills": 11,
-            "elites": 1,
-            "drops": 8,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 70,
-            "casts": 10
-          },
-          "discovered": 10
-        },
-        {
-          "time": 80.01344805699988,
-          "level": 3,
-          "xp": 35,
-          "gold": 75,
-          "depth": 2,
-          "frontier": 2,
-          "encounter": 0,
-          "mode": "combat",
-          "hp": 161.5,
-          "maxHp": 161.5,
-          "mana": 54,
-          "position": {
-            "x": 1232.7717573893422,
-            "y": -1233.4171434745658
-          },
-          "camp": {
-            "x": 939.2449983926182,
-            "y": -939.2449983926182
-          },
-          "bag": 8,
-          "power": 284,
-          "metrics": {
-            "kills": 12,
-            "elites": 1,
-            "drops": 8,
-            "retreats": 0,
-            "areas": 1,
-            "sold": 0,
-            "earned": 75,
-            "casts": 11
-          },
-          "discovered": 11
-        },
-        {
-          "time": 90.01284852300005,
+          "time": 40.084167298999986,
           "level": 3,
           "xp": 73,
           "gold": 89,
@@ -487,125 +346,357 @@
           "frontier": 2,
           "encounter": 0,
           "mode": "combat",
-          "hp": 159.59312037130582,
+          "hp": 155.49766298695124,
           "maxHp": 161.5,
-          "mana": 51.473272601400005,
+          "mana": 46.0476243591,
           "position": {
-            "x": 1317.1453571529964,
-            "y": -1317.79074323822
+            "x": 428.62623225581444,
+            "y": -428.99437982993175
           },
           "camp": {
-            "x": 939.2449983926182,
-            "y": -939.2449983926182
+            "x": 314.09067625298474,
+            "y": -314.09067625298474
           },
-          "bag": 8,
+          "bag": 9,
           "power": 284,
           "metrics": {
             "kills": 14,
             "elites": 1,
-            "drops": 8,
+            "drops": 9,
             "retreats": 0,
             "areas": 1,
             "sold": 0,
             "earned": 89,
-            "casts": 13
+            "casts": 11
           },
           "discovered": 13
+        },
+        {
+          "time": 50.00146614899998,
+          "level": 3,
+          "xp": 130,
+          "gold": 110,
+          "depth": 2,
+          "frontier": 2,
+          "encounter": 1,
+          "mode": "combat",
+          "hp": 150.01538405445544,
+          "maxHp": 161.5,
+          "mana": 54,
+          "position": {
+            "x": 497.17083697638054,
+            "y": -497.43848951212806
+          },
+          "camp": {
+            "x": 314.09067625298474,
+            "y": -314.09067625298474
+          },
+          "bag": 11,
+          "power": 284,
+          "metrics": {
+            "kills": 17,
+            "elites": 1,
+            "drops": 11,
+            "retreats": 0,
+            "areas": 1,
+            "sold": 0,
+            "earned": 110,
+            "casts": 13
+          },
+          "discovered": 16
+        },
+        {
+          "time": 60.03069637600003,
+          "level": 4,
+          "xp": 42,
+          "gold": 131,
+          "depth": 2,
+          "frontier": 2,
+          "encounter": 2,
+          "mode": "combat",
+          "hp": 168.8603944693508,
+          "maxHp": 174.5,
+          "mana": 48.2566801842,
+          "position": {
+            "x": 634.8191728152101,
+            "y": -634.984787830766
+          },
+          "camp": {
+            "x": 314.09067625298474,
+            "y": -314.09067625298474
+          },
+          "bag": 13,
+          "power": 309,
+          "metrics": {
+            "kills": 20,
+            "elites": 1,
+            "drops": 13,
+            "retreats": 0,
+            "areas": 1,
+            "sold": 0,
+            "earned": 131,
+            "casts": 16
+          },
+          "discovered": 19
+        },
+        {
+          "time": 70.01618209700013,
+          "level": 4,
+          "xp": 137,
+          "gold": 173,
+          "depth": 2,
+          "frontier": 2,
+          "encounter": 3,
+          "mode": "combat",
+          "hp": 162.05855844531308,
+          "maxHp": 174.5,
+          "mana": 57,
+          "position": {
+            "x": 676.5379973037316,
+            "y": -676.5379973037316
+          },
+          "camp": {
+            "x": 314.09067625298474,
+            "y": -314.09067625298474
+          },
+          "bag": 16,
+          "power": 309,
+          "metrics": {
+            "kills": 23,
+            "elites": 2,
+            "drops": 16,
+            "retreats": 0,
+            "areas": 1,
+            "sold": 0,
+            "earned": 173,
+            "casts": 18
+          },
+          "discovered": 20
+        },
+        {
+          "time": 80.01047732700015,
+          "level": 5,
+          "xp": 5,
+          "gold": 198,
+          "depth": 3,
+          "frontier": 3,
+          "encounter": 0,
+          "mode": "combat",
+          "hp": 184.66779929966677,
+          "maxHp": 187.5,
+          "mana": 60,
+          "position": {
+            "x": 742.3619681168634,
+            "y": -742.4916138540949
+          },
+          "camp": {
+            "x": 671.5580243180059,
+            "y": -671.5580243180059
+          },
+          "bag": 19,
+          "power": 333,
+          "metrics": {
+            "kills": 26,
+            "elites": 2,
+            "drops": 19,
+            "retreats": 0,
+            "areas": 2,
+            "sold": 0,
+            "earned": 198,
+            "casts": 21
+          },
+          "discovered": 23
+        },
+        {
+          "time": 90.0104482800002,
+          "level": 5,
+          "xp": 29,
+          "gold": 207,
+          "depth": 3,
+          "frontier": 3,
+          "encounter": 1,
+          "mode": "combat",
+          "hp": 175.03831691853378,
+          "maxHp": 187.5,
+          "mana": 53.16972295649998,
+          "position": {
+            "x": 827.7272930254042,
+            "y": -827.9082639195591
+          },
+          "camp": {
+            "x": 671.5580243180059,
+            "y": -671.5580243180059
+          },
+          "bag": 20,
+          "power": 333,
+          "metrics": {
+            "kills": 27,
+            "elites": 2,
+            "drops": 20,
+            "retreats": 0,
+            "areas": 2,
+            "sold": 0,
+            "earned": 207,
+            "casts": 24
+          },
+          "discovered": 26
         }
       ],
       "currentRetreat": null,
       "final": {
-        "time": 90.01284852300005,
-        "level": 3,
-        "xp": 73,
-        "gold": 89,
-        "depth": 2,
-        "frontier": 2,
-        "encounter": 0,
+        "time": 90.0104482800002,
+        "level": 5,
+        "xp": 29,
+        "gold": 207,
+        "depth": 3,
+        "frontier": 3,
+        "encounter": 1,
         "mode": "combat",
-        "hp": 159.59312037130582,
-        "maxHp": 161.5,
-        "mana": 51.473272601400005,
+        "hp": 175.03831691853378,
+        "maxHp": 187.5,
+        "mana": 53.16972295649998,
         "position": {
-          "x": 1317.1453571529964,
-          "y": -1317.79074323822
+          "x": 827.7272930254042,
+          "y": -827.9082639195591
         },
         "camp": {
-          "x": 939.2449983926182,
-          "y": -939.2449983926182
+          "x": 671.5580243180059,
+          "y": -671.5580243180059
         },
-        "bag": 8,
-        "power": 284,
+        "bag": 20,
+        "power": 333,
         "metrics": {
-          "kills": 14,
-          "elites": 1,
-          "drops": 8,
+          "kills": 27,
+          "elites": 2,
+          "drops": 20,
           "retreats": 0,
-          "areas": 1,
+          "areas": 2,
           "sold": 0,
-          "earned": 89,
-          "casts": 13
+          "earned": 207,
+          "casts": 24
         },
-        "discovered": 13
+        "discovered": 26
       }
     },
     {
       "label": "Normal public-action run",
       "kind": "Actual normal-clock engine runs: one tick per real timer interval, no acceleration",
-      "seed": 1281998349,
+      "initialRngState": 1281998349,
       "actions": {
-        "equip": 5,
-        "enhance": 4,
-        "attribute": 6,
-        "skill": 2
+        "equip": 12,
+        "enhance": 21,
+        "attribute": 15,
+        "skill": 5,
+        "sellAll": 1
       },
       "errors": [],
-      "spawns": 15,
+      "spawns": 39,
       "spawnSectors": {
-        "NW": 5,
-        "NE": 5,
-        "SE": 5
+        "NW": 0,
+        "NE": 39,
+        "SE": 0
       },
       "seenSpecies": {
-        "forest-dewblob": 2,
+        "forest-dewblob": 1,
         "forest-fernfox": 1,
         "forest-acornbeetle": 1,
-        "forest-leafrabbit": 1,
-        "forest-reedbird": 1,
-        "forest-barksnail": 1,
         "forest-petalmoth": 2,
-        "forest-cloverturtle": 1,
-        "forest-teacap": 1,
         "forest-willowsprite": 1,
-        "cave-crystalcrab": 1,
+        "forest-leafrabbit": 1,
+        "forest-barksnail": 1,
+        "forest-reedbird": 1,
+        "forest-teacap": 2,
+        "forest-cloverturtle": 1,
+        "cave-jellyspore": 1,
+        "cave-puffsprite": 1,
+        "cave-spiralsnail": 1,
         "cave-moonrabbit": 1,
-        "cave-lanternmoth": 1
+        "cave-crystalcrab": 1,
+        "cave-lanternmoth": 2,
+        "cave-velvetbeetle": 2,
+        "cave-bellmushroom": 1,
+        "cave-ribbonsnake": 1,
+        "cave-wallgecko": 1,
+        "ice-snowhare": 1,
+        "ice-frostfox": 1,
+        "ice-glasssnail": 1,
+        "ice-bellbird": 1,
+        "ice-snowturtle": 1,
+        "ice-snowmoth": 2,
+        "ice-cometsnake": 1,
+        "ice-iciclebeetle": 1,
+        "ice-runegolem": 1,
+        "ice-ruincrab": 1,
+        "ice-cometcoil": 1,
+        "wild-cactuscrab": 1,
+        "wild-seedturtle": 1,
+        "wild-claygolem": 1
       },
       "castSpecies": {
         "forest-fernfox": 1,
+        "forest-petalmoth": 2,
+        "forest-leafrabbit": 1,
         "forest-reedbird": 1,
-        "forest-teacap": 1
+        "forest-teacap": 2,
+        "cave-spiralsnail": 1,
+        "cave-moonrabbit": 1,
+        "cave-lanternmoth": 2,
+        "cave-bellmushroom": 1,
+        "cave-ribbonsnake": 1,
+        "ice-frostfox": 1,
+        "ice-glasssnail": 1,
+        "ice-bellbird": 1,
+        "ice-snowmoth": 1,
+        "ice-runegolem": 1,
+        "ice-cometcoil": 1,
+        "wild-seedturtle": 1
       },
       "shapeKinds": {
-        "cone": 1,
-        "line": 1,
-        "circle": 1
+        "cone": 3,
+        "circle": 18,
+        "line": 6,
+        "ring": 1
       },
-      "bosses": {},
+      "bosses": {
+        "ice-cometcoil": {
+          "id": "ice-cometcoil",
+          "name": "星霜長鱗",
+          "pattern": "frost-comets",
+          "firstDepth": 3,
+          "firstSeen": 78.96264869200016,
+          "maxHp": 296,
+          "attack": 24.358507180664176,
+          "cooldown": 5.1,
+          "windup": 1.7,
+          "casts": 1,
+          "hazardKinds": [
+            "circle"
+          ],
+          "maxHazardDamage": 19.486805744531342,
+          "kills": 1,
+          "firstTell": 80.25418659100016,
+          "resolvedHazardIds": [
+            "h119",
+            "h120",
+            "h121"
+          ],
+          "firstKill": 84.61264221900015
+        }
+      },
       "retreats": [],
       "max": {
-        "playerSpeed": 108.00000000000503,
-        "enemySpeed": 177.8719058680889,
-        "actors": 2,
-        "bosses": 0,
-        "hazards": 1,
-        "hostileShots": 1,
-        "friendlyShots": 2
+        "playerSpeed": 108.00000000000784,
+        "enemySpeed": 183.64429249348203,
+        "actors": 3,
+        "bosses": 1,
+        "hazards": 4,
+        "hostileShots": 2,
+        "friendlyShots": 4
       },
-      "sampledTicks": 4419,
+      "sampledTicks": 4365,
       "checkpoints": [
         {
-          "time": 0.020424125000000005,
+          "time": 0.020433576000000002,
           "level": 1,
           "xp": 0,
           "gold": 0,
@@ -639,177 +730,41 @@
           "discovered": 0
         },
         {
-          "time": 10.004626726999996,
-          "level": 1,
-          "xp": 14,
-          "gold": 5,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 0,
-          "mode": "combat",
-          "hp": 128.3,
-          "maxHp": 128.3,
-          "mana": 50.05004959739999,
-          "position": {
-            "x": 230.18270001721274,
-            "y": -230.18270001721274
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 0,
-          "power": 214,
-          "metrics": {
-            "kills": 1,
-            "elites": 0,
-            "drops": 0,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 5,
-            "casts": 1
-          },
-          "discovered": 2
-        },
-        {
-          "time": 20.00896771299999,
+          "time": 10.017710524999993,
           "level": 1,
           "xp": 42,
           "gold": 15,
           "depth": 1,
           "frontier": 1,
-          "encounter": 0,
-          "mode": "loot",
+          "encounter": 1,
+          "mode": "combat",
           "hp": 127.23383529411765,
           "maxHp": 128.3,
-          "mana": 52.6,
+          "mana": 45.73788891720001,
           "position": {
-            "x": 198.72981395933806,
-            "y": -264.87521957782144
+            "x": 199.04493161894027,
+            "y": -199.5524217700602
           },
           "camp": {
             "x": 0,
             "y": 0
           },
-          "bag": 1,
-          "power": 228,
+          "bag": 2,
+          "power": 244,
           "metrics": {
             "kills": 3,
             "elites": 0,
-            "drops": 1,
+            "drops": 2,
             "retreats": 0,
             "areas": 0,
             "sold": 0,
             "earned": 15,
             "casts": 3
           },
-          "discovered": 3
-        },
-        {
-          "time": 30.00113842299999,
-          "level": 1,
-          "xp": 56,
-          "gold": 3,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 1,
-          "mode": "combat",
-          "hp": 127.23383529411765,
-          "maxHp": 128.3,
-          "mana": 49.91892950859998,
-          "position": {
-            "x": 466.3719691963124,
-            "y": -467.67338847529845
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 1,
-          "power": 234,
-          "metrics": {
-            "kills": 4,
-            "elites": 0,
-            "drops": 1,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 20,
-            "casts": 4
-          },
-          "discovered": 5
-        },
-        {
-          "time": 40.01011482299997,
-          "level": 2,
-          "xp": 8,
-          "gold": 8,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 1,
-          "mode": "combat",
-          "hp": 155.3,
-          "maxHp": 155.3,
-          "mana": 59.6,
-          "position": {
-            "x": 506.6932948356405,
-            "y": -507.9947141146265
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 1,
-          "power": 314,
-          "metrics": {
-            "kills": 5,
-            "elites": 0,
-            "drops": 1,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 25,
-            "casts": 5
-          },
           "discovered": 6
         },
         {
-          "time": 50.01267537199997,
-          "level": 2,
-          "xp": 22,
-          "gold": 13,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 2,
-          "mode": "combat",
-          "hp": 155.3,
-          "maxHp": 155.3,
-          "mana": 59.6,
-          "position": {
-            "x": 684.3777045111119,
-            "y": -684.7504861588302
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 1,
-          "power": 314,
-          "metrics": {
-            "kills": 6,
-            "elites": 0,
-            "drops": 1,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 30,
-            "casts": 6
-          },
-          "discovered": 8
-        },
-        {
-          "time": 60.001248329999974,
+          "time": 20.013061459000035,
           "level": 2,
           "xp": 50,
           "gold": 6,
@@ -817,67 +772,33 @@
           "frontier": 1,
           "encounter": 2,
           "mode": "combat",
-          "hp": 156.7,
-          "maxHp": 156.7,
-          "mana": 52.7013742844,
+          "hp": 164.15927832167833,
+          "maxHp": 165.3,
+          "mana": 64.7,
           "position": {
-            "x": 740.0002567584559,
-            "y": -740.3730384061741
+            "x": 266.6152411031493,
+            "y": -266.9569863931294
           },
           "camp": {
             "x": 0,
             "y": 0
           },
           "bag": 2,
-          "power": 315,
+          "power": 435,
           "metrics": {
             "kills": 8,
             "elites": 0,
-            "drops": 2,
+            "drops": 4,
             "retreats": 0,
             "areas": 0,
             "sold": 0,
             "earned": 40,
-            "casts": 9
+            "casts": 5
           },
           "discovered": 9
         },
         {
-          "time": 70.01202303599996,
-          "level": 2,
-          "xp": 64,
-          "gold": 11,
-          "depth": 1,
-          "frontier": 1,
-          "encounter": 3,
-          "mode": "combat",
-          "hp": 156.7,
-          "maxHp": 156.7,
-          "mana": 65.1,
-          "position": {
-            "x": 953.2605564129652,
-            "y": -953.645030662398
-          },
-          "camp": {
-            "x": 0,
-            "y": 0
-          },
-          "bag": 2,
-          "power": 358,
-          "metrics": {
-            "kills": 9,
-            "elites": 0,
-            "drops": 3,
-            "retreats": 0,
-            "areas": 0,
-            "sold": 0,
-            "earned": 45,
-            "casts": 9
-          },
-          "discovered": 10
-        },
-        {
-          "time": 80.01344805699988,
+          "time": 30.009569095000032,
           "level": 3,
           "xp": 35,
           "gold": 15,
@@ -885,107 +806,277 @@
           "frontier": 2,
           "encounter": 0,
           "mode": "travel",
-          "hp": 185.6,
-          "maxHp": 185.6,
-          "mana": 64.03979983599996,
+          "hp": 182.93028634792194,
+          "maxHp": 185.5,
+          "mana": 64.57215991079998,
           "position": {
-            "x": 898.413582884015,
-            "y": -1073.8901210164536
+            "x": 469.99823433883387,
+            "y": -472.1468590152199
           },
           "camp": {
-            "x": 849.6209246299395,
-            "y": -849.6209246299395
+            "x": 324.4465261442413,
+            "y": -324.4465261442413
           },
           "bag": 4,
-          "power": 509,
+          "power": 568,
           "metrics": {
             "kills": 12,
             "elites": 1,
-            "drops": 6,
+            "drops": 7,
             "retreats": 0,
             "areas": 1,
             "sold": 0,
             "earned": 75,
-            "casts": 12
+            "casts": 8
           },
           "discovered": 10
         },
         {
-          "time": 90.01284852300005,
+          "time": 40.084167298999986,
           "level": 3,
-          "xp": 54,
-          "gold": 0,
+          "xp": 92,
+          "gold": 2,
           "depth": 2,
           "frontier": 2,
-          "encounter": 0,
+          "encounter": 1,
           "mode": "combat",
-          "hp": 187.8,
-          "maxHp": 187.8,
-          "mana": 53.76670503050005,
+          "hp": 181.9275739146787,
+          "maxHp": 186.8,
+          "mana": 59.93059579240003,
           "position": {
-            "x": 1266.869269910368,
-            "y": -1267.3757501269095
+            "x": 590.8875980577894,
+            "y": -591.1378421683771
           },
           "camp": {
-            "x": 849.6209246299395,
-            "y": -849.6209246299395
+            "x": 324.4465261442413,
+            "y": -324.4465261442413
           },
-          "bag": 4,
-          "power": 511,
+          "bag": 6,
+          "power": 621,
           "metrics": {
-            "kills": 13,
+            "kills": 15,
             "elites": 1,
-            "drops": 6,
+            "drops": 9,
             "retreats": 0,
             "areas": 1,
             "sold": 0,
-            "earned": 82,
-            "casts": 14
+            "earned": 96,
+            "casts": 12
           },
-          "discovered": 13
+          "discovered": 16
+        },
+        {
+          "time": 50.00146614899998,
+          "level": 4,
+          "xp": 42,
+          "gold": 15,
+          "depth": 2,
+          "frontier": 2,
+          "encounter": 2,
+          "mode": "combat",
+          "hp": 212.21726038339418,
+          "maxHp": 213.8,
+          "mana": 86.4,
+          "position": {
+            "x": 693.2155466157812,
+            "y": -693.3506131138531
+          },
+          "camp": {
+            "x": 324.4465261442413,
+            "y": -324.4465261442413
+          },
+          "bag": 10,
+          "power": 699,
+          "metrics": {
+            "kills": 20,
+            "elites": 1,
+            "drops": 13,
+            "retreats": 0,
+            "areas": 1,
+            "sold": 0,
+            "earned": 131,
+            "casts": 15
+          },
+          "discovered": 19
+        },
+        {
+          "time": 60.03069637600003,
+          "level": 4,
+          "xp": 180,
+          "gold": 10,
+          "depth": 3,
+          "frontier": 3,
+          "encounter": 0,
+          "mode": "combat",
+          "hp": 242.19512712512037,
+          "maxHp": 246.1,
+          "mana": 90.01301662313047,
+          "position": {
+            "x": 949.3958718829062,
+            "y": -949.4837243268671
+          },
+          "camp": {
+            "x": 796.3735169585561,
+            "y": -796.3735169585561
+          },
+          "bag": 1,
+          "power": 861,
+          "metrics": {
+            "kills": 25,
+            "elites": 2,
+            "drops": 18,
+            "retreats": 0,
+            "areas": 2,
+            "sold": 13,
+            "earned": 189,
+            "casts": 20
+          },
+          "discovered": 23
+        },
+        {
+          "time": 70.01618209700013,
+          "level": 5,
+          "xp": 77,
+          "gold": 19,
+          "depth": 3,
+          "frontier": 3,
+          "encounter": 1,
+          "mode": "combat",
+          "hp": 277.8928111152862,
+          "maxHp": 283.2,
+          "mana": 78.01629636000003,
+          "position": {
+            "x": 1018.0537603574793,
+            "y": -1018.1708938462642
+          },
+          "camp": {
+            "x": 796.3735169585561,
+            "y": -796.3735169585561
+          },
+          "bag": 4,
+          "power": 1037,
+          "metrics": {
+            "kills": 29,
+            "elites": 2,
+            "drops": 21,
+            "retreats": 0,
+            "areas": 2,
+            "sold": 13,
+            "earned": 225,
+            "casts": 25
+          },
+          "discovered": 26
+        },
+        {
+          "time": 80.01047732700015,
+          "level": 5,
+          "xp": 173,
+          "gold": 28,
+          "depth": 3,
+          "frontier": 3,
+          "encounter": 3,
+          "mode": "combat",
+          "hp": 277.03227369144633,
+          "maxHp": 284.6,
+          "mana": 65.99347728,
+          "position": {
+            "x": 1339.6353166553686,
+            "y": -1339.6353166553686
+          },
+          "camp": {
+            "x": 796.3735169585561,
+            "y": -796.3735169585561
+          },
+          "bag": 6,
+          "power": 1043,
+          "metrics": {
+            "kills": 33,
+            "elites": 2,
+            "drops": 23,
+            "retreats": 0,
+            "areas": 2,
+            "sold": 13,
+            "earned": 261,
+            "casts": 29
+          },
+          "discovered": 31
+        },
+        {
+          "time": 90.0104482800002,
+          "level": 6,
+          "xp": 186,
+          "gold": 8,
+          "depth": 4,
+          "frontier": 4,
+          "encounter": 0,
+          "mode": "combat",
+          "hp": 319.5,
+          "maxHp": 319.5,
+          "mana": 139.70529666500005,
+          "position": {
+            "x": 1437.3677545653934,
+            "y": -1437.927343972916
+          },
+          "camp": {
+            "x": 1277.8833959319404,
+            "y": -1277.8833959319404
+          },
+          "bag": 9,
+          "power": 1586,
+          "metrics": {
+            "kills": 38,
+            "elites": 3,
+            "drops": 26,
+            "retreats": 0,
+            "areas": 3,
+            "sold": 13,
+            "earned": 391,
+            "casts": 35
+          },
+          "discovered": 34
         }
       ],
       "currentRetreat": null,
       "final": {
-        "time": 90.01284852300005,
-        "level": 3,
-        "xp": 54,
-        "gold": 0,
-        "depth": 2,
-        "frontier": 2,
+        "time": 90.0104482800002,
+        "level": 6,
+        "xp": 186,
+        "gold": 8,
+        "depth": 4,
+        "frontier": 4,
         "encounter": 0,
         "mode": "combat",
-        "hp": 187.8,
-        "maxHp": 187.8,
-        "mana": 53.76670503050005,
+        "hp": 319.5,
+        "maxHp": 319.5,
+        "mana": 139.70529666500005,
         "position": {
-          "x": 1266.869269910368,
-          "y": -1267.3757501269095
+          "x": 1437.3677545653934,
+          "y": -1437.927343972916
         },
         "camp": {
-          "x": 849.6209246299395,
-          "y": -849.6209246299395
+          "x": 1277.8833959319404,
+          "y": -1277.8833959319404
         },
-        "bag": 4,
-        "power": 511,
+        "bag": 9,
+        "power": 1586,
         "metrics": {
-          "kills": 13,
-          "elites": 1,
-          "drops": 6,
+          "kills": 38,
+          "elites": 3,
+          "drops": 26,
           "retreats": 0,
-          "areas": 1,
-          "sold": 0,
-          "earned": 82,
-          "casts": 14
+          "areas": 3,
+          "sold": 13,
+          "earned": 391,
+          "casts": 35
         },
-        "discovered": 13
+        "discovered": 34
       }
     }
   ],
   "kind": "Actual normal-clock engine runs: one tick per real timer interval, no acceleration",
   "requestedSeconds": 90,
-  "elapsedSeconds": 90.012848523,
-  "finished": "2026-10-05T08:20:42.174Z",
+  "elapsedSeconds": 90.01044827999999,
+  "finished": "2026-10-05T09:26:58.852Z",
   "passed": 2,
   "failed": 0
 }
