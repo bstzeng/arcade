@@ -1,0 +1,27 @@
+{
+  "game": "tide-feast",
+  "title": "潮汐食物鏈",
+  "assets": [
+    {
+      "path": "art.svg",
+      "type": "original-vector-illustration",
+      "description": "An original layered underwater scene with a golden newborn fish, a green shoal, a coral-red predator, luminous plankton, kelp, and coral.",
+      "provenance": "Original authored SVG graphics created for this game. No external assets, stock imagery, fonts, or borrowed intellectual property were used.",
+      "external_sources": []
+    },
+    {
+      "path": "render.js",
+      "type": "original-procedural-canvas",
+      "description": "Nine original fish silhouettes, player fish, underwater plants, light rays, plankton and effects, authored as Canvas drawing commands.",
+      "provenance": "Original programmatic artwork created for this game; no external images or fonts.",
+      "external_sources": []
+    },
+    {
+      "path": "ui.js",
+      "type": "original-synthesized-audio",
+      "description": "Short feeding, growth and damage cues generated with Web Audio oscillators after user enables audio.",
+      "provenance": "Original synthesized tones; no recordings, music or external samples.",
+      "external_sources": []
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "integrationChecks": [
+    {
+      "target": "../index.html?category=classic30",
+      "status": "pending-in-arcade-integration",
+      "scope": "Existing arcade lobby is outside this game-owned candidate allowlist; verify after integration."
+    }
+  ],
+  "suite": "Tide Feast independent offline interface audit",
+  "generatedAt": "2026-10-05T04:49:35.898Z",
+  "environment": {
+    "node": "v24.19.0",
+    "dependencies": "Node built-ins only",
+    "browserUsed": false
+  },
+  "method": "Production scripts evaluated unchanged in Node VM with event-capable DOM and finite-checking canvas mocks; actual UI handlers receive keyboard/pointer/storage/lifecycle events.",
+  "limitations": [
+    "Offline DOM does not prove real-browser layout, accessibility tree, focus trapping, canvas raster quality or touch feel.",
+    "Responsive coverage combines actual renderer execution at target dimensions with static CSS inspection. No screenshot or browser interaction is claimed.",
+    "Native pointer capture, permission denial and storage events are simulated at the handler boundary."
+  ],
+  "responsiveAssessment": [
+    {
+      "viewport": "390×844 portrait",
+      "estimatedStage": "374×739",
+      "finding": "600px breakpoint reduces HUD/control dimensions; single-column guide, 2-column species grid; overlay padded 25px."
+    },
+    {
+      "viewport": "1440×900 desktop",
+      "estimatedStage": "1388×765",
+      "finding": "Max-1400 desktop rule and max-width container constrain canvas; 2-column guide and 3-column species grid."
+    },
+    {
+      "viewport": "844×390 landscape",
+      "estimatedStage": "814×302",
+      "finding": "Short-height media query sets 61px header, 302px stage and compact overlay; story hint/intro metadata hidden, with scrollable overlay safeguard."
+    }
+  ],
+  "sourceDigests": {
+    "../tide-feast.html": "b829fcc6e0a82c8d5bb51f163a21545f3da2a22bd38f953bd01710e08b6df1a6",
+    "engine.js": "64aa1fee167652cdd915e20b19c68e7c1404f228c5e071daf936e7a556cc190b",
+    "storage.js": "c0c182b878aeb383daf32aeb5ed5025961318892419c4eeebe69507c6376c3d6",
+    "render.js": "218601b177276c6c54830c176c217d2111dd7275408c0d68c3ee4b18ecf00c7b",
+    "ui.js": "1acfe88eac13173cff891e09dd8c4fa7afe58c37f7425f8de776bfde464a7884",
+    "style.css": "91d26d0385fc28335b46ed51c4160a7b8e9be9964a0a4af05606161b05b1c535"
+  },
+  "counts": {
+    "tests": 32,
+    "passed": 32,
+    "failed": 0,
+    "assertions": 29147
+  },
+  "results": [
+    {
+      "name": "HTML IDs are unique and all literal UI references resolve",
+      "status": "passed",
+      "assertions": 102
+    },
+    {
+      "name": "HTML assets are local and owned asset references resolve",
+      "status": "passed",
+      "assertions": 20
+    },
+    {
+      "name": "Initial boot creates real renderer, HUD, nine species and paused overlay",
+      "status": "passed",
+      "assertions": 183
+    },
+    {
+      "name": "Start, pause and resume drive actual event handlers and preserve state",
+      "status": "passed",
+      "assertions": 797
+    },
+    {
+      "name": "New journey cancellation preserves progress and confirmation preserves best",
+      "status": "passed",
+      "assertions": 64
+    },
+    {
+      "name": "Guide both close controls leave safe pause; restart switches dialogs",
+      "status": "passed",
+      "assertions": 388
+    },
+    {
+      "name": "Keyboard lowercase, uppercase, arrows, boost, keyup and pause controls",
+      "status": "passed",
+      "assertions": 351
+    },
+    {
+      "name": "Keyboard ignores ctrl/meta/alt and form inputs without swallowing shortcuts",
+      "status": "passed",
+      "assertions": 1077
+    },
+    {
+      "name": "Keyboard ignores contenteditable and nested editable descendants",
+      "status": "passed",
+      "assertions": 306
+    },
+    {
+      "name": "Keyboard does not move while dialog open or button focused",
+      "status": "passed",
+      "assertions": 301
+    },
+    {
+      "name": "Mouse down/move/up, pointer identity, cancel and lost capture",
+      "status": "passed",
+      "assertions": 1397
+    },
+    {
+      "name": "Touch joystick uses relative displacement and separate boost pointer",
+      "status": "passed",
+      "assertions": 880
+    },
+    {
+      "name": "Boost pointer cancellation and lost capture both release acceleration",
+      "status": "passed",
+      "assertions": 897
+    },
+    {
+      "name": "Blur and hidden document pause, save and clear every input",
+      "status": "passed",
+      "assertions": 1012
+    },
+    {
+      "name": "Resize clears controls and updates renderer backing size with DPR cap",
+      "status": "passed",
+      "assertions": 181
+    },
+    {
+      "name": "Running save reloads paused with no elapsed wall-time simulation",
+      "status": "passed",
+      "assertions": 2431
+    },
+    {
+      "name": "Periodic save and pagehide write paused snapshot without other-game mutation",
+      "status": "passed",
+      "assertions": 6383
+    },
+    {
+      "name": "Corrupted primary restores known good backup with visible warning",
+      "status": "passed",
+      "assertions": 167
+    },
+    {
+      "name": "Storage denied and full remain playable with explicit warning and badge",
+      "status": "passed",
+      "assertions": 355
+    },
+    {
+      "name": "Cross-tab storage event pauses immediately and load-latest remains paused",
+      "status": "passed",
+      "assertions": 511
+    },
+    {
+      "name": "Save-time comparison detects unannounced cross-tab updates",
+      "status": "passed",
+      "assertions": 57
+    },
+    {
+      "name": "Temporary play never overwrites another tab through autosave or pagehide",
+      "status": "passed",
+      "assertions": 6382
+    },
+    {
+      "name": "Temporary play ignores later foreign updates instead of repeatedly blocking",
+      "status": "passed",
+      "assertions": 57
+    },
+    {
+      "name": "Lost-game overlay and revival retain best and resume safely",
+      "status": "passed",
+      "assertions": 203
+    },
+    {
+      "name": "Reduced-motion switch and audio-unavailable control are safe",
+      "status": "passed",
+      "assertions": 218
+    },
+    {
+      "name": "Actual renderer stays finite across desktop, portrait, landscape and growth",
+      "status": "passed",
+      "assertions": 3912
+    },
+    {
+      "name": "Every HTML button has a wired action and close targets are dialogs",
+      "status": "passed",
+      "assertions": 72
+    },
+    {
+      "name": "Loss reload stays safe; guide close returns focus to available revival",
+      "status": "passed",
+      "assertions": 254
+    },
+    {
+      "name": "Unrelated and same-value storage events do not interrupt play",
+      "status": "passed",
+      "assertions": 56
+    },
+    {
+      "name": "Unrecoverable primary and backup failures stay explicit and playable",
+      "status": "passed",
+      "assertions": 112
+    },
+    {
+      "name": "Responsive CSS has explicit portrait, desktop, landscape and focus safeguards",
+      "status": "passed",
+      "assertions": 15
+    },
+    {
+      "name": "Audited source files remained stable throughout the run",
+      "status": "passed",
+      "assertions": 6
+    }
+  ]
+}

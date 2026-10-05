@@ -1,0 +1,54 @@
+{
+  "game": "tide-feast",
+  "title": "潮汐食物鏈",
+  "version": "1.0.0",
+  "mode": "single-player endless growth ocean",
+  "entry": "games/tide-feast.html",
+  "category": "classic30",
+  "sourceFreeze": "2026-10-05T04:51:00Z",
+  "runtime": "Native HTML/CSS/Canvas/JavaScript; no build or external dependencies",
+  "storageKeys": [
+    "arcade.tide-feast.v1",
+    "arcade.tide-feast.v1.backup"
+  ],
+  "rules": {
+    "newbornLengthCM": 2,
+    "edibleMaximumRatio": 0.92,
+    "predatorMinimumRatio": 1.12,
+    "health": 3,
+    "onDefeat": "Pause, explain predator, optionally revive at 90% length with 2 cm floor and 8 seconds invulnerability; retain best.",
+    "growth": "Physical length from nutrition; no number addition. Relative gains diminish for equal-proportion prey as the player grows.",
+    "progression": "28% length per level, gradually increasing speed; continuous scrolling ocean with local population streaming.",
+    "species": 9,
+    "maxFish": 92,
+    "maxPlankton": 180,
+    "maxEffects": 40
+  },
+  "verification": {
+    "engineTests": 26,
+    "uiTests": 32,
+    "engineReport": "engine-verification.json",
+    "uiReport": "ui-verification.json",
+    "command": "node games/tide-feast/verify.cjs",
+    "actualBrowser": "pending separate integration and live-browser acceptance",
+    "humanDifficulty": "not established by automated pilots",
+    "nativeCanvasPreviews": "rendered and visually inspected separately; not browser screenshots"
+  },
+  "sourceHashes": {
+    "../tide-feast.html": "b829fcc6e0a82c8d5bb51f163a21545f3da2a22bd38f953bd01710e08b6df1a6",
+    "README.md": "925b4f1bfcac26b88ed5c3abbba8ae3815ce23ddb80350f2fb051c388a631a0e",
+    "art.svg": "a5c817b4fa76637fdea5bd0aeb180a1f11c27b743763b16b2774d187468aa65f",
+    "asset-provenance.json": "44046dec96a2ec8f8bce33b2eccbbb78ec7f6a25eb8afc727aa661c8b98b78eb",
+    "catalog.json": "7d31961b7219979b2061bba31e7fb7fe5c7b580616551c4717519045f5b33bdf",
+    "engine-verification.json": "60ae257847f1f7cf8b600c91e1b3cad3e5ea13996f4fa2228afd0667faf64c45",
+    "engine.js": "64aa1fee167652cdd915e20b19c68e7c1404f228c5e071daf936e7a556cc190b",
+    "render.js": "218601b177276c6c54830c176c217d2111dd7275408c0d68c3ee4b18ecf00c7b",
+    "storage.js": "c0c182b878aeb383daf32aeb5ed5025961318892419c4eeebe69507c6376c3d6",
+    "style.css": "91d26d0385fc28335b46ed51c4160a7b8e9be9964a0a4af05606161b05b1c535",
+    "ui-verification.json": "5912917aab62f3e5db0950d9327decbd193bf14154b549f567aaba84b6561b68",
+    "ui.js": "1acfe88eac13173cff891e09dd8c4fa7afe58c37f7425f8de776bfde464a7884",
+    "verify-engine.cjs": "e2f46ba7b629052822c15ab1686e0d89d5a992ac1f51fae63cb1bb7b2d62fac5",
+    "verify-ui.cjs": "d653dbb181fa3364acd06ec0567145915173bcd13bfe881f56c8ab1ee82f0570",
+    "verify.cjs": "7580b16cb79ac3554113bdd91c5b50d55a049e80dfed41e951cbd3e84cc822df"
+  }
+}

@@ -1,0 +1,1582 @@
+{
+  "generatedAt": "2026-10-05T04:49:12.820Z",
+  "engineSHA256": "64aa1fee167652cdd915e20b19c68e7c1404f228c5e071daf936e7a556cc190b",
+  "method": "Dependency-free Node engine verification. Autonomous runs use only input x/y/boost after start; no teleports, forced food, invulnerability or size edits during runs. Later-size runs are explicitly labeled population fixtures, not progression evidence.",
+  "tests": [
+    {
+      "name": "newborn initialization is 2 cm, three hearts, tutorial grace, bounded population",
+      "passed": true,
+      "milliseconds": 1.74
+    },
+    {
+      "name": "exact prey/peer/danger thresholds",
+      "passed": true,
+      "milliseconds": 0.16
+    },
+    {
+      "name": "same-proportion growth is positive, modest and diminishing relative to player length",
+      "passed": true,
+      "milliseconds": 0.1,
+      "detail": [
+        {
+          "size": 3.2,
+          "preyRatio": 0.9,
+          "gain": 0.13198719053235797,
+          "relative": 0.041245997041361865,
+          "planktonGain": 0.016287267382706975
+        },
+        {
+          "size": 10,
+          "preyRatio": 0.9,
+          "gain": 0.28310290570268926,
+          "relative": 0.028310290570268924,
+          "planktonGain": 0.0058788312901269695
+        },
+        {
+          "size": 100,
+          "preyRatio": 0.9,
+          "gain": 1.7331056965860654,
+          "relative": 0.017331056965860653,
+          "planktonGain": 0.00035254121823856003
+        },
+        {
+          "size": 1000,
+          "preyRatio": 0.9,
+          "gain": 12.48861162870628,
+          "relative": 0.01248861162870628,
+          "planktonGain": 0.000017844671265952885
+        },
+        {
+          "size": 10000,
+          "preyRatio": 0.9,
+          "gain": 97.61370010361497,
+          "relative": 0.009761370010361498,
+          "planktonGain": 8.947982343130573e-7
+        }
+      ]
+    },
+    {
+      "name": "levels and swim speed rise at every level boundary",
+      "passed": true,
+      "milliseconds": 0.25,
+      "detail": [
+        {
+          "level": 1,
+          "size": 2,
+          "speed": 12,
+          "bodyLengthsPerSecond": 6,
+          "viewHeightsPerSecond": 0.25
+        },
+        {
+          "level": 5,
+          "size": 5.36870912,
+          "speed": 38.505073583764215,
+          "bodyLengthsPerSecond": 7.172128853157948,
+          "viewHeightsPerSecond": 0.37875503299472807
+        },
+        {
+          "level": 10,
+          "size": 18.446744073709556,
+          "speed": 112.78570478666305,
+          "bodyLengthsPerSecond": 6.11412530775044,
+          "viewHeightsPerSecond": 0.43420680743952367
+        },
+        {
+          "level": 20,
+          "size": 217.7807148294007,
+          "speed": 830.322046892256,
+          "bodyLengthsPerSecond": 3.8126518573634574,
+          "viewHeightsPerSecond": 0.48965858188431927
+        },
+        {
+          "level": 30,
+          "size": 2571.100870814386,
+          "speed": 5779.61833426464,
+          "bodyLengthsPerSecond": 2.2479158246459496,
+          "viewHeightsPerSecond": 0.5220957905329724
+        },
+        {
+          "level": 40,
+          "size": 30354.201441027042,
+          "speed": 39393.91747883496,
+          "bodyLengthsPerSecond": 1.2978077369411456,
+          "viewHeightsPerSecond": 0.5451103563291149
+        }
+      ]
+    },
+    {
+      "name": "fixture collisions: smaller prey eaten, peer untouched, bigger predator never eaten",
+      "passed": true,
+      "milliseconds": 1.36
+    },
+    {
+      "name": "fixture plankton feeding at 2 cm has small physical growth",
+      "passed": true,
+      "milliseconds": 0.47
+    },
+    {
+      "name": "fixture input-driven normalized movement, acceleration and no hard world wall",
+      "passed": true,
+      "milliseconds": 24.32,
+      "detail": {
+        "x": 5996.340989615729,
+        "distance": 6015.314026854892
+      }
+    },
+    {
+      "name": "fixture movement: dash is faster, consumes bounded energy and regenerates",
+      "passed": true,
+      "milliseconds": 2.33,
+      "detail": {
+        "normalDistance": 60.13272192266943,
+        "dashDistanceFirstSecond": 111.20403721474679,
+        "postRegenerationEnergy": 100
+      }
+    },
+    {
+      "name": "fixture dash exhaustion stays locked while held, even after full recharge",
+      "passed": true,
+      "milliseconds": 3.62,
+      "detail": {
+        "firstExhaustionSeconds": 2.33333333333333,
+        "heldRecoverySeconds": 10,
+        "unexpectedBoostTicks": 0,
+        "restoredLock": true
+      }
+    },
+    {
+      "name": "fixture dash unlock threshold is 24 energy and revival clears the lock",
+      "passed": true,
+      "milliseconds": 1.1
+    },
+    {
+      "name": "fixture invulnerability, damage, passive healing, lethal stop and 90% revival",
+      "passed": true,
+      "milliseconds": 7.37,
+      "detail": {
+        "revivedSize": 9,
+        "revivedFish": 92
+      }
+    },
+    {
+      "name": "fixture revival has 2 cm floor",
+      "passed": true,
+      "milliseconds": 0.21
+    },
+    {
+      "name": "pause freezes simulation, clears velocity, and resumes without unintended drift",
+      "passed": true,
+      "milliseconds": 5.87
+    },
+    {
+      "name": "seed and input sequence are deterministic",
+      "passed": true,
+      "milliseconds": 109.31
+    },
+    {
+      "name": "fixture species have diverse shapes, speeds and active movement behaviors",
+      "passed": true,
+      "milliseconds": 2.99,
+      "detail": [
+        {
+          "species": "glass",
+          "behavior": "school",
+          "speed": 0.74,
+          "dx": 11.765993114253433,
+          "dy": -0.07207467171792814,
+          "angle": 0.13621682472339713
+        },
+        {
+          "species": "moss",
+          "behavior": "graze",
+          "speed": 0.48,
+          "dx": 16.375998652956696,
+          "dy": 0.313171249563311,
+          "angle": 0.135659103307123
+        },
+        {
+          "species": "ribbon",
+          "behavior": "weave",
+          "speed": 0.96,
+          "dx": 55.05578623258407,
+          "dy": 15.129280725141143,
+          "angle": 0.5082591400885804
+        },
+        {
+          "species": "sun",
+          "behavior": "graze",
+          "speed": 0.6,
+          "dx": 37.27302077478089,
+          "dy": 2.098554982314454,
+          "angle": 0.135659103307123
+        },
+        {
+          "species": "dart",
+          "behavior": "dart",
+          "speed": 1.14,
+          "dx": 50.98781648319164,
+          "dy": 1.7942098979929142,
+          "angle": 0.079659103307123
+        },
+        {
+          "species": "shield",
+          "behavior": "cruise",
+          "speed": 0.56,
+          "dx": 34.85986229050832,
+          "dy": 0.8799803241308837,
+          "angle": 0.079659103307123
+        },
+        {
+          "species": "lantern",
+          "behavior": "ambush",
+          "speed": 0.67,
+          "dx": 40.24146413539711,
+          "dy": 1.1847409547899588,
+          "angle": 0.079659103307123
+        },
+        {
+          "species": "sail",
+          "behavior": "hunter",
+          "speed": 0.98,
+          "dx": 118.52697038382212,
+          "dy": 5.486756205365964,
+          "angle": 0.079659103307123
+        },
+        {
+          "species": "ancient",
+          "behavior": "cruise",
+          "speed": 0.65,
+          "dx": 180.01839043048676,
+          "dy": 8.350783311327177,
+          "angle": 0.079659103307123
+        }
+      ]
+    },
+    {
+      "name": "save round-trip preserves progress and resumes safely paused",
+      "passed": true,
+      "milliseconds": 8.13
+    },
+    {
+      "name": "malformed and corrupted saves are rejected without changing source state",
+      "passed": true,
+      "milliseconds": 7.75,
+      "detail": {
+        "rejectedVariants": 22
+      }
+    },
+    {
+      "name": "time-step validation and bounded substepping",
+      "passed": true,
+      "milliseconds": 0.28
+    },
+    {
+      "name": "fixture astronomical-distance rebasing preserves local position differences",
+      "passed": true,
+      "milliseconds": 0.23
+    },
+    {
+      "name": "zero time step is a true no-op even with overlapping food and enemies",
+      "passed": true,
+      "milliseconds": 0.31
+    },
+    {
+      "name": "fixture spatial grid cannot freeze on an astronomical query radius",
+      "passed": true,
+      "milliseconds": 3.32,
+      "detail": {
+        "astronomicalQueryObjects": 3
+      }
+    },
+    {
+      "name": "fixture prey flees and predator visibly warns before hunting",
+      "passed": true,
+      "milliseconds": 1.91,
+      "detail": {
+        "warningSeconds": 0.8,
+        "postWarningState": "hunt"
+      }
+    },
+    {
+      "name": "fixture incoming fish spawn beyond the rectangular viewport",
+      "passed": true,
+      "milliseconds": 12.73,
+      "detail": {
+        "observed": 480,
+        "aspects": [
+          0.45,
+          1.65,
+          2.5
+        ]
+      }
+    },
+    {
+      "name": "fixture baby revival population stays local far from origin",
+      "passed": true,
+      "milliseconds": 0.48,
+      "detail": {
+        "worldX": 10000,
+        "worldY": -12000,
+        "revivedSize": 2.43
+      }
+    },
+    {
+      "name": "all autonomous runs retain valid bounded pools",
+      "passed": true,
+      "milliseconds": 0.17,
+      "detail": {
+        "runs": 15
+      }
+    },
+    {
+      "name": "fixture sustained swimming remains bounded over 30 simulated minutes",
+      "passed": true,
+      "milliseconds": 4156.33,
+      "detail": {
+        "simulatedSeconds": 1800,
+        "ticks": 108000,
+        "revivals": 46,
+        "maximumFish": 92,
+        "maximumPlankton": 161,
+        "maximumEffects": 34,
+        "milliseconds": 4156.11,
+        "averageMillisecondsPerTick": 0.03848,
+        "note": "Population fixture, legal revival API after death, continuous input. Node engine timing is not browser rendering/FPS evidence."
+      }
+    }
+  ],
+  "observations": [
+    "A nearest-food plus local-repulsion heuristic is a repeatable balance probe, not proof of human difficulty or optimal play. Targets are selected from the whole bounded local pool; this grants more awareness than an ordinary player viewport.",
+    "Fish can only be eaten at or below 92% of player length. The 92–112% band behaves as harmless peers, so some slightly smaller fish intentionally remain inedible.",
+    "The player physical length can jump when overlapping many prey in the same tick; single equal-ratio prey growth diminishes with scale. Rendering smoothness is outside this engine-only review.",
+    "Dash exhaustion now locks further boosts. Holding boost through full energy recovery never retriggers dash; releasing at or above 24 energy clears the lock. This removes the former automatic recharge/boost pulses.",
+    "All later-size population starts are fixtures and do not claim the newborn naturally reached 10/100/1000 cm."
+  ],
+  "simulations": [
+    {
+      "scenario": "natural newborn input-only heuristic",
+      "seed": 17,
+      "startSize": 2,
+      "requestedSeconds": 240,
+      "elapsedSeconds": 240,
+      "status": "running",
+      "finalSize": 51.0412,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 264,
+      "planktonEaten": 263,
+      "eligibleForSmallestFishAt": 3.78,
+      "first31At": 3.95,
+      "firstFishAt": 8.33,
+      "distance": 27348.72,
+      "initial": {
+        "fish": 18,
+        "plankton": 156,
+        "prey": 0,
+        "danger": 18,
+        "visiblePrey": 0,
+        "visiblePlankton": 156,
+        "species": [
+          "glass",
+          "moss"
+        ]
+      },
+      "meanVisiblePrey": 15.63,
+      "meanLocalPrey": 55.44,
+      "zeroVisiblePreyFraction": 0.021,
+      "maxLengthDeltaRatio": 0.036685,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 24
+      },
+      "wallMilliseconds": 2793.41,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 2,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        },
+        {
+          "time": 30.02,
+          "size": 5.7882,
+          "health": 3,
+          "fishEaten": 28,
+          "planktonEaten": 66
+        },
+        {
+          "time": 60.02,
+          "size": 8.8771,
+          "health": 3,
+          "fishEaten": 65,
+          "planktonEaten": 106
+        },
+        {
+          "time": 90.02,
+          "size": 13.184,
+          "health": 3,
+          "fishEaten": 98,
+          "planktonEaten": 144
+        },
+        {
+          "time": 120.02,
+          "size": 17.0144,
+          "health": 3,
+          "fishEaten": 125,
+          "planktonEaten": 159
+        },
+        {
+          "time": 150.02,
+          "size": 22.4489,
+          "health": 3,
+          "fishEaten": 162,
+          "planktonEaten": 187
+        },
+        {
+          "time": 180.02,
+          "size": 28.7317,
+          "health": 3,
+          "fishEaten": 194,
+          "planktonEaten": 199
+        },
+        {
+          "time": 210.02,
+          "size": 38.2469,
+          "health": 3,
+          "fishEaten": 227,
+          "planktonEaten": 230
+        }
+      ]
+    },
+    {
+      "scenario": "natural newborn input-only heuristic",
+      "seed": 143,
+      "startSize": 2,
+      "requestedSeconds": 240,
+      "elapsedSeconds": 240,
+      "status": "running",
+      "finalSize": 64.7523,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 299,
+      "planktonEaten": 469,
+      "eligibleForSmallestFishAt": 4.3,
+      "first31At": 5.57,
+      "firstFishAt": 7.87,
+      "distance": 32883.13,
+      "initial": {
+        "fish": 18,
+        "plankton": 156,
+        "prey": 0,
+        "danger": 18,
+        "visiblePrey": 0,
+        "visiblePlankton": 156,
+        "species": [
+          "glass",
+          "moss"
+        ]
+      },
+      "meanVisiblePrey": 16.35,
+      "meanLocalPrey": 55.65,
+      "zeroVisiblePreyFraction": 0.025,
+      "maxLengthDeltaRatio": 0.038829,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 24
+      },
+      "wallMilliseconds": 2620.71,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 2,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        },
+        {
+          "time": 30.02,
+          "size": 6.3598,
+          "health": 3,
+          "fishEaten": 32,
+          "planktonEaten": 135
+        },
+        {
+          "time": 60.02,
+          "size": 8.5944,
+          "health": 3,
+          "fishEaten": 56,
+          "planktonEaten": 147
+        },
+        {
+          "time": 90.02,
+          "size": 14.4416,
+          "health": 3,
+          "fishEaten": 114,
+          "planktonEaten": 245
+        },
+        {
+          "time": 120.02,
+          "size": 22.2043,
+          "health": 3,
+          "fishEaten": 159,
+          "planktonEaten": 277
+        },
+        {
+          "time": 150.02,
+          "size": 30.7669,
+          "health": 3,
+          "fishEaten": 192,
+          "planktonEaten": 333
+        },
+        {
+          "time": 180.02,
+          "size": 39.491,
+          "health": 3,
+          "fishEaten": 228,
+          "planktonEaten": 385
+        },
+        {
+          "time": 210.02,
+          "size": 52.0175,
+          "health": 3,
+          "fishEaten": 271,
+          "planktonEaten": 438
+        }
+      ]
+    },
+    {
+      "scenario": "natural newborn input-only heuristic",
+      "seed": 999,
+      "startSize": 2,
+      "requestedSeconds": 240,
+      "elapsedSeconds": 240,
+      "status": "running",
+      "finalSize": 60.186,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 281,
+      "planktonEaten": 313,
+      "eligibleForSmallestFishAt": 6.22,
+      "first31At": 6.65,
+      "firstFishAt": 10.22,
+      "distance": 28466.36,
+      "initial": {
+        "fish": 18,
+        "plankton": 156,
+        "prey": 0,
+        "danger": 18,
+        "visiblePrey": 0,
+        "visiblePlankton": 156,
+        "species": [
+          "moss",
+          "glass"
+        ]
+      },
+      "meanVisiblePrey": 15.24,
+      "meanLocalPrey": 56.7,
+      "zeroVisiblePreyFraction": 0.033,
+      "maxLengthDeltaRatio": 0.036148,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 23
+      },
+      "wallMilliseconds": 3078.47,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 2,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        },
+        {
+          "time": 30.02,
+          "size": 4.3754,
+          "health": 3,
+          "fishEaten": 12,
+          "planktonEaten": 71
+        },
+        {
+          "time": 60.02,
+          "size": 7.3612,
+          "health": 3,
+          "fishEaten": 48,
+          "planktonEaten": 89
+        },
+        {
+          "time": 90.02,
+          "size": 10.762,
+          "health": 3,
+          "fishEaten": 87,
+          "planktonEaten": 101
+        },
+        {
+          "time": 120.02,
+          "size": 15.372,
+          "health": 3,
+          "fishEaten": 123,
+          "planktonEaten": 141
+        },
+        {
+          "time": 150.02,
+          "size": 24.7471,
+          "health": 3,
+          "fishEaten": 174,
+          "planktonEaten": 181
+        },
+        {
+          "time": 180.02,
+          "size": 34.7819,
+          "health": 3,
+          "fishEaten": 211,
+          "planktonEaten": 206
+        },
+        {
+          "time": 210.02,
+          "size": 49.6851,
+          "health": 3,
+          "fishEaten": 251,
+          "planktonEaten": 264
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 10 cm, then input-only heuristic",
+      "seed": 17,
+      "startSize": 10,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 34.959,
+      "health": 3,
+      "bites": 2,
+      "fishEaten": 143,
+      "planktonEaten": 224,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.23,
+      "distance": 14890.69,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 59,
+        "danger": 24,
+        "visiblePrey": 59,
+        "visiblePlankton": 156,
+        "species": [
+          "glass",
+          "ribbon",
+          "moss",
+          "sun"
+        ]
+      },
+      "meanVisiblePrey": 19.19,
+      "meanLocalPrey": 60.1,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.028688,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 37
+      },
+      "wallMilliseconds": 1746.05,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 10,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        },
+        {
+          "time": 30.02,
+          "size": 15.3515,
+          "health": 3,
+          "fishEaten": 45,
+          "planktonEaten": 93
+        },
+        {
+          "time": 60.02,
+          "size": 20.7933,
+          "health": 3,
+          "fishEaten": 79,
+          "planktonEaten": 131
+        },
+        {
+          "time": 90.02,
+          "size": 27.2557,
+          "health": 3,
+          "fishEaten": 108,
+          "planktonEaten": 178
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 10 cm, then input-only heuristic",
+      "seed": 143,
+      "startSize": 10,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 40.4155,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 154,
+      "planktonEaten": 234,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.22,
+      "distance": 16594.29,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 55,
+        "danger": 25,
+        "visiblePrey": 55,
+        "visiblePlankton": 156,
+        "species": [
+          "moss",
+          "ribbon",
+          "sun",
+          "glass",
+          "dart"
+        ]
+      },
+      "meanVisiblePrey": 18.63,
+      "meanLocalPrey": 57.91,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.027146,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 24
+      },
+      "wallMilliseconds": 1664.34,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 10.0483,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 8
+        },
+        {
+          "time": 30.02,
+          "size": 15.2518,
+          "health": 3,
+          "fishEaten": 38,
+          "planktonEaten": 86
+        },
+        {
+          "time": 60.02,
+          "size": 22.3957,
+          "health": 3,
+          "fishEaten": 78,
+          "planktonEaten": 120
+        },
+        {
+          "time": 90.02,
+          "size": 31.5297,
+          "health": 3,
+          "fishEaten": 122,
+          "planktonEaten": 164
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 10 cm, then input-only heuristic",
+      "seed": 999,
+      "startSize": 10,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 42.1212,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 158,
+      "planktonEaten": 162,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.22,
+      "distance": 16624.09,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 61,
+        "danger": 21,
+        "visiblePrey": 61,
+        "visiblePlankton": 156,
+        "species": [
+          "glass",
+          "moss",
+          "sun",
+          "ribbon",
+          "dart"
+        ]
+      },
+      "meanVisiblePrey": 18.68,
+      "meanLocalPrey": 58.85,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.025622,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 16
+      },
+      "wallMilliseconds": 1569.62,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 10,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        },
+        {
+          "time": 30.02,
+          "size": 14.9177,
+          "health": 3,
+          "fishEaten": 47,
+          "planktonEaten": 59
+        },
+        {
+          "time": 60.02,
+          "size": 24.5168,
+          "health": 3,
+          "fishEaten": 99,
+          "planktonEaten": 84
+        },
+        {
+          "time": 90.02,
+          "size": 30.5843,
+          "health": 3,
+          "fishEaten": 122,
+          "planktonEaten": 131
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 100 cm, then input-only heuristic",
+      "seed": 17,
+      "startSize": 100,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 252.9137,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 176,
+      "planktonEaten": 250,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.2,
+      "distance": 82579.74,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 59,
+        "danger": 24,
+        "visiblePrey": 59,
+        "visiblePlankton": 156,
+        "species": [
+          "sun",
+          "shield",
+          "dart",
+          "lantern",
+          "ribbon",
+          "moss"
+        ]
+      },
+      "meanVisiblePrey": 13.63,
+      "meanLocalPrey": 51.86,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.017294,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 31
+      },
+      "wallMilliseconds": 1516.35,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 100.0003,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 1
+        },
+        {
+          "time": 30.02,
+          "size": 129.3466,
+          "health": 3,
+          "fishEaten": 47,
+          "planktonEaten": 66
+        },
+        {
+          "time": 60.02,
+          "size": 169.4846,
+          "health": 3,
+          "fishEaten": 94,
+          "planktonEaten": 154
+        },
+        {
+          "time": 90.02,
+          "size": 211.3341,
+          "health": 3,
+          "fishEaten": 138,
+          "planktonEaten": 205
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 100 cm, then input-only heuristic",
+      "seed": 143,
+      "startSize": 100,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 261.7305,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 165,
+      "planktonEaten": 168,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.12,
+      "distance": 81852.52,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 55,
+        "danger": 25,
+        "visiblePrey": 55,
+        "visiblePlankton": 156,
+        "species": [
+          "dart",
+          "lantern",
+          "shield",
+          "ribbon",
+          "sun",
+          "moss",
+          "sail"
+        ]
+      },
+      "meanVisiblePrey": 12.57,
+      "meanLocalPrey": 48.66,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.018241,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 34
+      },
+      "wallMilliseconds": 1493.87,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 100.0054,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 15
+        },
+        {
+          "time": 30.02,
+          "size": 136.9919,
+          "health": 3,
+          "fishEaten": 50,
+          "planktonEaten": 50
+        },
+        {
+          "time": 60.02,
+          "size": 167.0032,
+          "health": 3,
+          "fishEaten": 88,
+          "planktonEaten": 97
+        },
+        {
+          "time": 90.02,
+          "size": 204.2092,
+          "health": 3,
+          "fishEaten": 121,
+          "planktonEaten": 108
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 100 cm, then input-only heuristic",
+      "seed": 999,
+      "startSize": 100,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 255.1347,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 168,
+      "planktonEaten": 201,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.15,
+      "distance": 81876.4,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 61,
+        "danger": 21,
+        "visiblePrey": 61,
+        "visiblePlankton": 156,
+        "species": [
+          "ribbon",
+          "dart",
+          "shield",
+          "sun",
+          "lantern",
+          "moss",
+          "sail"
+        ]
+      },
+      "meanVisiblePrey": 13.13,
+      "meanLocalPrey": 49.86,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.016015,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 22
+      },
+      "wallMilliseconds": 1451.65,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 100,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        },
+        {
+          "time": 30.02,
+          "size": 133.6691,
+          "health": 3,
+          "fishEaten": 50,
+          "planktonEaten": 90
+        },
+        {
+          "time": 60.02,
+          "size": 162.9755,
+          "health": 3,
+          "fishEaten": 80,
+          "planktonEaten": 103
+        },
+        {
+          "time": 90.02,
+          "size": 196.2397,
+          "health": 3,
+          "fishEaten": 122,
+          "planktonEaten": 138
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 1000 cm, then input-only heuristic",
+      "seed": 17,
+      "startSize": 1000,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 1693.9987,
+      "health": 3,
+      "bites": 0,
+      "fishEaten": 127,
+      "planktonEaten": 238,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.08,
+      "distance": 400872.52,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 59,
+        "danger": 24,
+        "visiblePrey": 59,
+        "visiblePlankton": 156,
+        "species": [
+          "shield",
+          "ancient",
+          "lantern",
+          "sail",
+          "dart"
+        ]
+      },
+      "meanVisiblePrey": 9.7,
+      "meanLocalPrey": 40.62,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.012371,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 158,
+        "effects": 40
+      },
+      "wallMilliseconds": 1499.1,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 1000.0002,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 9
+        },
+        {
+          "time": 30.02,
+          "size": 1125.2081,
+          "health": 3,
+          "fishEaten": 38,
+          "planktonEaten": 102
+        },
+        {
+          "time": 60.02,
+          "size": 1278.4224,
+          "health": 3,
+          "fishEaten": 67,
+          "planktonEaten": 180
+        },
+        {
+          "time": 90.02,
+          "size": 1443.7764,
+          "health": 3,
+          "fishEaten": 93,
+          "planktonEaten": 204
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 1000 cm, then input-only heuristic",
+      "seed": 143,
+      "startSize": 1000,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 1720.7033,
+      "health": 2,
+      "bites": 4,
+      "fishEaten": 135,
+      "planktonEaten": 296,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.02,
+      "distance": 398911.46,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 55,
+        "danger": 25,
+        "visiblePrey": 55,
+        "visiblePlankton": 156,
+        "species": [
+          "sail",
+          "ancient",
+          "lantern",
+          "shield",
+          "dart"
+        ]
+      },
+      "meanVisiblePrey": 9.1,
+      "meanLocalPrey": 40.58,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.012684,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 40
+      },
+      "wallMilliseconds": 1400.25,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 1012.0282,
+          "health": 3,
+          "fishEaten": 2,
+          "planktonEaten": 26
+        },
+        {
+          "time": 30.02,
+          "size": 1125.2543,
+          "health": 1,
+          "fishEaten": 36,
+          "planktonEaten": 102
+        },
+        {
+          "time": 60.02,
+          "size": 1326.5361,
+          "health": 1,
+          "fishEaten": 73,
+          "planktonEaten": 177
+        },
+        {
+          "time": 90.02,
+          "size": 1454.6602,
+          "health": 1,
+          "fishEaten": 98,
+          "planktonEaten": 257
+        }
+      ]
+    },
+    {
+      "scenario": "fixture population at 1000 cm, then input-only heuristic",
+      "seed": 999,
+      "startSize": 1000,
+      "requestedSeconds": 120,
+      "elapsedSeconds": 120,
+      "status": "running",
+      "finalSize": 1678.5192,
+      "health": 3,
+      "bites": 3,
+      "fishEaten": 122,
+      "planktonEaten": 191,
+      "eligibleForSmallestFishAt": 0.02,
+      "first31At": 0.02,
+      "firstFishAt": 0.03,
+      "distance": 408944.53,
+      "initial": {
+        "fish": 92,
+        "plankton": 156,
+        "prey": 61,
+        "danger": 21,
+        "visiblePrey": 61,
+        "visiblePlankton": 156,
+        "species": [
+          "dart",
+          "lantern",
+          "sail",
+          "shield",
+          "ancient"
+        ]
+      },
+      "meanVisiblePrey": 9.32,
+      "meanLocalPrey": 42.05,
+      "zeroVisiblePreyFraction": 0,
+      "maxLengthDeltaRatio": 0.009514,
+      "poolPeaks": {
+        "fish": 92,
+        "plankton": 161,
+        "effects": 36
+      },
+      "wallMilliseconds": 1264.98,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 1000.0001,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 3
+        },
+        {
+          "time": 30.02,
+          "size": 1192.7844,
+          "health": 3,
+          "fishEaten": 45,
+          "planktonEaten": 52
+        },
+        {
+          "time": 60.02,
+          "size": 1310.2453,
+          "health": 1,
+          "fishEaten": 66,
+          "planktonEaten": 107
+        },
+        {
+          "time": 90.02,
+          "size": 1524.9915,
+          "health": 1,
+          "fishEaten": 98,
+          "planktonEaten": 142
+        }
+      ]
+    },
+    {
+      "scenario": "natural newborn stationary",
+      "seed": 17,
+      "startSize": 2,
+      "requestedSeconds": 600,
+      "elapsedSeconds": 28.48,
+      "status": "lost",
+      "finalSize": 2.0611,
+      "health": 0,
+      "bites": 3,
+      "fishEaten": 0,
+      "planktonEaten": 3,
+      "eligibleForSmallestFishAt": null,
+      "first31At": null,
+      "firstFishAt": null,
+      "distance": 0,
+      "initial": {
+        "fish": 18,
+        "plankton": 156,
+        "prey": 0,
+        "danger": 18,
+        "visiblePrey": 0,
+        "visiblePlankton": 156,
+        "species": [
+          "glass",
+          "moss"
+        ]
+      },
+      "meanVisiblePrey": 0,
+      "meanLocalPrey": 0,
+      "zeroVisiblePreyFraction": 1,
+      "maxLengthDeltaRatio": 0.030541,
+      "poolPeaks": {
+        "fish": 18,
+        "plankton": 156,
+        "effects": 4
+      },
+      "wallMilliseconds": 47.45,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 2,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        }
+      ]
+    },
+    {
+      "scenario": "natural newborn stationary",
+      "seed": 143,
+      "startSize": 2,
+      "requestedSeconds": 600,
+      "elapsedSeconds": 40.75,
+      "status": "lost",
+      "finalSize": 2,
+      "health": 0,
+      "bites": 3,
+      "fishEaten": 0,
+      "planktonEaten": 0,
+      "eligibleForSmallestFishAt": null,
+      "first31At": null,
+      "firstFishAt": null,
+      "distance": 0,
+      "initial": {
+        "fish": 18,
+        "plankton": 156,
+        "prey": 0,
+        "danger": 18,
+        "visiblePrey": 0,
+        "visiblePlankton": 156,
+        "species": [
+          "glass",
+          "moss"
+        ]
+      },
+      "meanVisiblePrey": 0,
+      "meanLocalPrey": 0,
+      "zeroVisiblePreyFraction": 1,
+      "maxLengthDeltaRatio": 0,
+      "poolPeaks": {
+        "fish": 18,
+        "plankton": 156,
+        "effects": 1
+      },
+      "wallMilliseconds": 69.45,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 2,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        },
+        {
+          "time": 30.02,
+          "size": 2,
+          "health": 2,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        }
+      ]
+    },
+    {
+      "scenario": "natural newborn stationary",
+      "seed": 999,
+      "startSize": 2,
+      "requestedSeconds": 600,
+      "elapsedSeconds": 26.55,
+      "status": "lost",
+      "finalSize": 2,
+      "health": 0,
+      "bites": 3,
+      "fishEaten": 0,
+      "planktonEaten": 0,
+      "eligibleForSmallestFishAt": null,
+      "first31At": null,
+      "firstFishAt": null,
+      "distance": 0,
+      "initial": {
+        "fish": 18,
+        "plankton": 156,
+        "prey": 0,
+        "danger": 18,
+        "visiblePrey": 0,
+        "visiblePlankton": 156,
+        "species": [
+          "moss",
+          "glass"
+        ]
+      },
+      "meanVisiblePrey": 0,
+      "meanLocalPrey": 0,
+      "zeroVisiblePreyFraction": 1,
+      "maxLengthDeltaRatio": 0,
+      "poolPeaks": {
+        "fish": 18,
+        "plankton": 156,
+        "effects": 1
+      },
+      "wallMilliseconds": 45.88,
+      "milestones": [
+        {
+          "time": 0.02,
+          "size": 2,
+          "health": 3,
+          "fishEaten": 0,
+          "planktonEaten": 0
+        }
+      ]
+    }
+  ],
+  "balanceSummary": {
+    "newbornSeeds": 3,
+    "newbornFirstFishTimes": [
+      {
+        "seed": 17,
+        "seconds": 8.33,
+        "finalSize": 51.0412,
+        "status": "running"
+      },
+      {
+        "seed": 143,
+        "seconds": 7.87,
+        "finalSize": 64.7523,
+        "status": "running"
+      },
+      {
+        "seed": 999,
+        "seconds": 10.22,
+        "finalSize": 60.186,
+        "status": "running"
+      }
+    ],
+    "laterFixtureSummary": [
+      {
+        "size": 10,
+        "seed": 17,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 143,
+        "finalSize": 34.959,
+        "meanVisiblePrey": 19.19
+      },
+      {
+        "size": 10,
+        "seed": 143,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 154,
+        "finalSize": 40.4155,
+        "meanVisiblePrey": 18.63
+      },
+      {
+        "size": 10,
+        "seed": 999,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 158,
+        "finalSize": 42.1212,
+        "meanVisiblePrey": 18.68
+      },
+      {
+        "size": 100,
+        "seed": 17,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 176,
+        "finalSize": 252.9137,
+        "meanVisiblePrey": 13.63
+      },
+      {
+        "size": 100,
+        "seed": 143,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 165,
+        "finalSize": 261.7305,
+        "meanVisiblePrey": 12.57
+      },
+      {
+        "size": 100,
+        "seed": 999,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 168,
+        "finalSize": 255.1347,
+        "meanVisiblePrey": 13.13
+      },
+      {
+        "size": 1000,
+        "seed": 17,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 127,
+        "finalSize": 1693.9987,
+        "meanVisiblePrey": 9.7
+      },
+      {
+        "size": 1000,
+        "seed": 143,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 135,
+        "finalSize": 1720.7033,
+        "meanVisiblePrey": 9.1
+      },
+      {
+        "size": 1000,
+        "seed": 999,
+        "status": "running",
+        "elapsed": 120,
+        "fishEaten": 122,
+        "finalSize": 1678.5192,
+        "meanVisiblePrey": 9.32
+      }
+    ],
+    "stationaryDeaths": 3,
+    "stationaryRuns": 3,
+    "stationaryTimes": [
+      {
+        "seed": 17,
+        "status": "lost",
+        "seconds": 28.48,
+        "health": 0
+      },
+      {
+        "seed": 143,
+        "status": "lost",
+        "seconds": 40.75,
+        "health": 0
+      },
+      {
+        "seed": 999,
+        "status": "lost",
+        "seconds": 26.55,
+        "health": 0
+      }
+    ]
+  },
+  "passed": true,
+  "testCount": 26,
+  "failed": []
+}

@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
   "id": "garden-aquarium-30-campaign-release",
-  "build": "20261005-garden-aquarium-30-v1",
+  "build": "20261005-tide-feast-garden-raf-v1",
   "baseCommit": "06cb82afb849cd0723ab54a6017405ee7aa09bf6",
   "baseTreeSHA": "a5a404bf096c3aad2b87f1e784dd8e1bc91f1ccc",
-  "gameCount": 399,
+  "gameCount": 400,
   "categoryCount": 25,
-  "classicCards": 9,
+  "classicCards": 10,
   "appendedIDs": [
     "garden-watchline",
-    "wondertide-aquarium"
+    "wondertide-aquarium",
+    "tide-feast"
   ],
   "registryRecords": [
     {
@@ -39,13 +40,27 @@
       "status": "ready",
       "url": "./games/wondertide-aquarium.html",
       "badge": "30 缸 · 照護防守"
+    },
+    {
+      "id": "tide-feast",
+      "title": "潮汐食物鏈",
+      "category": "classic30",
+      "description": "從 2 公分小魚出發，吞食微光與小魚，游向無盡大海。",
+      "note": "無盡海域・九種魚・漸進成長・三顆心與安全復甦",
+      "art": "classic30-tide-feast",
+      "color": "#f1d699",
+      "background": "#125467",
+      "word": "潮",
+      "status": "ready",
+      "url": "./games/tide-feast.html",
+      "badge": "無盡成長 · 第一版"
     }
   ],
   "category": {
     "id": "classic30",
     "title": "經典",
-    "description": "彈珠、救援、消除、即時戰略、樂園經營、植物防線與水族照護；各版本狀態以卡片標示為準。",
-    "examples": "彈珠・救援・消除・戰略・樂園・植物・水族",
+    "description": "彈珠、救援、消除、即時戰略、經營、植物防線、水族照護與海洋成長；各版本狀態以卡片標示為準。",
+    "examples": "彈珠・救援・消除・戰略・經營・植物・海洋",
     "icon": "✧",
     "color": "#a8bd7a",
     "gameIds": [
@@ -57,7 +72,8 @@
       "stormfront-command",
       "skyrail-park",
       "garden-watchline",
-      "wondertide-aquarium"
+      "wondertide-aquarium",
+      "tide-feast"
     ]
   },
   "games": [
@@ -80,7 +96,7 @@
       "runtimeFiles": {
         "games/garden-watchline.html": "8f23df8e5c8549e4c06a92b1ec198c3a354779d133b1eec5c132ee3380941e9c",
         "games/garden-watchline/engine.js": "a9f08c3496456baf58b4173ebc14ba0e6225a8999cf2ee618f1b3ed6b826e106",
-        "games/garden-watchline/app.js": "10c16de7c19170642b284f72b4a6d0db03dbf4ed0f5875ae12d03ddec6969571",
+        "games/garden-watchline/app.js": "bcad5712d27768c663c14bb96e3b767c6f26100cae6c618fc81792d513f7e443",
         "games/garden-watchline/render.js": "bf7b35aae0e7bbaa6acf02bb5512c13940d4ca741b52373baee97b23f1300649",
         "games/garden-watchline/levels.js": "124f65341de0d61286bee81784b9369f8c8e768b50010be8d3d308c7b9f65dd7",
         "games/garden-watchline/style.css": "288aec7a3c0b5b7f16a348e62e1658291b4ca07d2e4314aafa497aaa5171658d",
@@ -88,7 +104,7 @@
       },
       "publishFiles": {
         "games/garden-watchline/README.md": "a6ac5b9db711625ae6d944918e561763538550d35586bdcdbf36a93d051f05c9",
-        "games/garden-watchline/app.js": "10c16de7c19170642b284f72b4a6d0db03dbf4ed0f5875ae12d03ddec6969571",
+        "games/garden-watchline/app.js": "bcad5712d27768c663c14bb96e3b767c6f26100cae6c618fc81792d513f7e443",
         "games/garden-watchline/art.svg": "c5c1ce73067ea17621418bc73622bfc040e404d8fb4defeff28aad5f1d1d64fd",
         "games/garden-watchline/asset-provenance.json": "f9b39d48ee0fa5c909e6ff0721731e90a75681d66e9354b739aab714cc06aa1f",
         "games/garden-watchline/balance-audit.cjs": "3d9dd46bbfdc3918a2b17291955f5b28132cc0b06d4900d8ea1af11a986a150a",
@@ -99,7 +115,7 @@
         "games/garden-watchline/design.md": "12e5772f259814eb1b4d2b2cc476393d4e7a1cc7a29e5e4d3d1c66fabcdf4db8",
         "games/garden-watchline/engine.js": "a9f08c3496456baf58b4173ebc14ba0e6225a8999cf2ee618f1b3ed6b826e106",
         "games/garden-watchline/levels.js": "124f65341de0d61286bee81784b9369f8c8e768b50010be8d3d308c7b9f65dd7",
-        "games/garden-watchline/release-manifest.json": "ed7ff9a3e24ed992b97eb25a68814cde60ad2e5cb4e828d8f94e9bcb0c40a87e",
+        "games/garden-watchline/release-manifest.json": "5bb0c874fdbaa47981edd1e6f07e429159d4f5fd080424c4cb64d8e1b0ca1d0c",
         "games/garden-watchline/render.js": "bf7b35aae0e7bbaa6acf02bb5512c13940d4ca741b52373baee97b23f1300649",
         "games/garden-watchline/replay-report.json": "f246c3e315f4b9851a2333e5fd99b9c582a42d6fa94ddf5a18bc75057226b0fe",
         "games/garden-watchline/replay.cjs": "3d842b2254c868e1615fd8e9837444cbb421b3ee6427eb871d186ed3cbfebf2c",
@@ -108,9 +124,10 @@
         "games/garden-watchline/shield-first-witness-verification.json": "cce80c1d56269771df837cfe3cafc3d3205c2041595b1b84b26a8dbb5f4b88a2",
         "games/garden-watchline/solutions.json": "2d9477e2aebb879b1223d2d3bf93f570ce3711439573f1fa5e425c05ffd2ef56",
         "games/garden-watchline/style.css": "288aec7a3c0b5b7f16a348e62e1658291b4ca07d2e4314aafa497aaa5171658d",
-        "games/garden-watchline/verification-report.json": "ae88ebdeaa90cc61079f281f3f5fdc6565fbcf7be2e24f2747202be8ca21d941",
+        "games/garden-watchline/verification-report.json": "399a1d3401ec658d0948fd78b0c83c5ad7320ff62e783ad3c62219f6e968a349",
         "games/garden-watchline/verify.cjs": "2307a10174e29a1209f09962e336b6ad41fcac3342b208857118805c99bca596",
-        "games/garden-watchline.html": "8f23df8e5c8549e4c06a92b1ec198c3a354779d133b1eec5c132ee3380941e9c"
+        "games/garden-watchline.html": "8f23df8e5c8549e4c06a92b1ec198c3a354779d133b1eec5c132ee3380941e9c",
+        "games/garden-watchline/verify-frame-lifecycle.cjs": "3eedca30fa566b072d5c6bf1abdb33853e5c3278342cd086468de5d6f77c8c69"
       },
       "storageNamespace": "arcade.classic30.garden-watchline.v1",
       "storageKeys": [
@@ -175,6 +192,57 @@
       "sourceTransforms": [],
       "levels": 30,
       "chapters": 5
+    },
+    {
+      "slug": "tide-feast",
+      "mode": "endless-growth",
+      "registryRecord": {
+        "id": "tide-feast",
+        "title": "潮汐食物鏈",
+        "category": "classic30",
+        "description": "從 2 公分小魚出發，吞食微光與小魚，游向無盡大海。",
+        "note": "無盡海域・九種魚・漸進成長・三顆心與安全復甦",
+        "art": "classic30-tide-feast",
+        "color": "#f1d699",
+        "background": "#125467",
+        "word": "潮",
+        "status": "ready",
+        "url": "./games/tide-feast.html",
+        "badge": "無盡成長 · 第一版"
+      },
+      "runtimeFiles": {
+        "games/tide-feast.html": "b829fcc6e0a82c8d5bb51f163a21545f3da2a22bd38f953bd01710e08b6df1a6",
+        "games/tide-feast/engine.js": "64aa1fee167652cdd915e20b19c68e7c1404f228c5e071daf936e7a556cc190b",
+        "games/tide-feast/render.js": "218601b177276c6c54830c176c217d2111dd7275408c0d68c3ee4b18ecf00c7b",
+        "games/tide-feast/storage.js": "c0c182b878aeb383daf32aeb5ed5025961318892419c4eeebe69507c6376c3d6",
+        "games/tide-feast/ui.js": "1acfe88eac13173cff891e09dd8c4fa7afe58c37f7425f8de776bfde464a7884",
+        "games/tide-feast/style.css": "91d26d0385fc28335b46ed51c4160a7b8e9be9964a0a4af05606161b05b1c535",
+        "games/tide-feast/art.svg": "a5c817b4fa76637fdea5bd0aeb180a1f11c27b743763b16b2774d187468aa65f"
+      },
+      "publishFiles": {
+        "games/tide-feast.html": "b829fcc6e0a82c8d5bb51f163a21545f3da2a22bd38f953bd01710e08b6df1a6",
+        "games/tide-feast/README.md": "925b4f1bfcac26b88ed5c3abbba8ae3815ce23ddb80350f2fb051c388a631a0e",
+        "games/tide-feast/art.svg": "a5c817b4fa76637fdea5bd0aeb180a1f11c27b743763b16b2774d187468aa65f",
+        "games/tide-feast/asset-provenance.json": "44046dec96a2ec8f8bce33b2eccbbb78ec7f6a25eb8afc727aa661c8b98b78eb",
+        "games/tide-feast/catalog.json": "7d31961b7219979b2061bba31e7fb7fe5c7b580616551c4717519045f5b33bdf",
+        "games/tide-feast/engine-verification.json": "60ae257847f1f7cf8b600c91e1b3cad3e5ea13996f4fa2228afd0667faf64c45",
+        "games/tide-feast/engine.js": "64aa1fee167652cdd915e20b19c68e7c1404f228c5e071daf936e7a556cc190b",
+        "games/tide-feast/release-manifest.json": "eff534b34bc63eafb2aff572ac1b2e8d7b8cdfd7c4755e7c0074e0b574ff2984",
+        "games/tide-feast/render.js": "218601b177276c6c54830c176c217d2111dd7275408c0d68c3ee4b18ecf00c7b",
+        "games/tide-feast/storage.js": "c0c182b878aeb383daf32aeb5ed5025961318892419c4eeebe69507c6376c3d6",
+        "games/tide-feast/style.css": "91d26d0385fc28335b46ed51c4160a7b8e9be9964a0a4af05606161b05b1c535",
+        "games/tide-feast/ui-verification.json": "5912917aab62f3e5db0950d9327decbd193bf14154b549f567aaba84b6561b68",
+        "games/tide-feast/ui.js": "1acfe88eac13173cff891e09dd8c4fa7afe58c37f7425f8de776bfde464a7884",
+        "games/tide-feast/verify-engine.cjs": "e2f46ba7b629052822c15ab1686e0d89d5a992ac1f51fae63cb1bb7b2d62fac5",
+        "games/tide-feast/verify-ui.cjs": "d653dbb181fa3364acd06ec0567145915173bcd13bfe881f56c8ab1ee82f0570",
+        "games/tide-feast/verify.cjs": "7580b16cb79ac3554113bdd91c5b50d55a049e80dfed41e951cbd3e84cc822df"
+      },
+      "storageNamespace": "arcade.tide-feast.v1",
+      "storageKeys": [
+        "arcade.tide-feast.v1",
+        "arcade.tide-feast.v1.backup"
+      ],
+      "sourceTransforms": []
     }
   ],
   "rootReversibleChanges": {
@@ -197,6 +265,26 @@
       {
         "before": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略與樂園經營；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・苔精・彩珠・毛球・晶彩・戰略・樂園\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\"]}",
         "after": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略、樂園經營、植物防線與水族照護；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・救援・消除・戰略・樂園・植物・水族\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\",\"garden-watchline\",\"wondertide-aquarium\"]}",
+        "occurrences": 1
+      },
+      {
+        "before": "20261005-garden-aquarium-30-v1",
+        "after": "20261005-tide-feast-garden-raf-v1",
+        "occurrences": 1
+      },
+      {
+        "before": "\n];\nconst categoryNames = ",
+        "after": ",\n  {\"id\":\"tide-feast\",\"title\":\"潮汐食物鏈\",\"category\":\"classic30\",\"description\":\"從 2 公分小魚出發，吞食微光與小魚，游向無盡大海。\",\"note\":\"無盡海域・九種魚・漸進成長・三顆心與安全復甦\",\"art\":\"classic30-tide-feast\",\"color\":\"#f1d699\",\"background\":\"#125467\",\"word\":\"潮\",\"status\":\"ready\",\"url\":\"./games/tide-feast.html\",\"badge\":\"無盡成長 · 第一版\"}\n];\nconst categoryNames = ",
+        "occurrences": 1
+      },
+      {
+        "before": "const categories = [",
+        "after": "Object.assign(artMarkup, {\"classic30-tide-feast\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/tide-feast/art.svg\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"});\nconst categories = [",
+        "occurrences": 1
+      },
+      {
+        "before": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略、樂園經營、植物防線與水族照護；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・救援・消除・戰略・樂園・植物・水族\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\",\"garden-watchline\",\"wondertide-aquarium\"]}",
+        "after": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略、經營、植物防線、水族照護與海洋成長；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・救援・消除・戰略・經營・植物・海洋\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\",\"garden-watchline\",\"wondertide-aquarium\",\"tide-feast\"]}",
         "occurrences": 1
       }
     ],
@@ -240,6 +328,41 @@
         "before": "經典區收錄七款遊戲，新增磁暴前線與雲霄歡樂園，兩款各有 10 關並標示為開發版。",
         "after": "經典區收錄九款遊戲，新增花園守望隊 30 關植物防線與奇潮水族館 30 缸照護防守。磁暴前線與雲霄歡樂園各有 10 關，仍標示為開發版。",
         "occurrences": 1
+      },
+      {
+        "before": "20261005-garden-aquarium-30-v1",
+        "after": "20261005-tide-feast-garden-raf-v1",
+        "occurrences": 2
+      },
+      {
+        "before": "399",
+        "after": "400",
+        "occurrences": 5
+      },
+      {
+        "before": "三百九十九",
+        "after": "四百",
+        "occurrences": 2
+      },
+      {
+        "before": "共收錄九款",
+        "after": "共收錄十款",
+        "occurrences": 1
+      },
+      {
+        "before": "經典區收錄九款遊戲，新增花園守望隊 30 關植物防線與奇潮水族館 30 缸照護防守。",
+        "after": "經典區收錄十款遊戲，新增潮汐食物鏈第一版，從新生小魚探索連續海域。花園守望隊有 30 關植物防線，奇潮水族館有 30 缸照護防守。",
+        "occurrences": 1
+      },
+      {
+        "before": "<span data-category-count>9</span>",
+        "after": "<span data-category-count>10</span>",
+        "occurrences": 1
+      },
+      {
+        "before": "彈珠・救援・消除・戰略・樂園・植物・水族",
+        "after": "彈珠・救援・消除・戰略・經營・植物・海洋",
+        "occurrences": 1
       }
     ],
     "README.md": [
@@ -257,6 +380,51 @@
         "before": "搜尋始終涵蓋全部 397 款",
         "after": "搜尋始終涵蓋全部 399 款",
         "occurrences": 1
+      },
+      {
+        "before": "三百九十九款遊戲，合計 **399 款、25 類**",
+        "after": "四百款遊戲，合計 **400 款、25 類**",
+        "occurrences": 1
+      },
+      {
+        "before": "## 經典區的九款遊戲",
+        "after": "## 經典區的十款遊戲",
+        "occurrences": 1
+      },
+      {
+        "before": "本批新增兩款原創單人遊戲。",
+        "after": "本批新增「潮汐食物鏈」第一版，從 2 cm 新生小魚吃浮游生物、逐漸吞食小魚，於連續海域成長。九種魚有不同游速；每級逐漸加速、成長幅度遞減，頭上顯示實際體長，沒有關卡終點。另修正花園守望隊在關閉地圖、取消重開及切換分頁後可能停止畫面更新的計時問題；規則、數值、關卡與存檔格式不變。\n\n先前加入的兩款原創單人遊戲保持原有內容。",
+        "occurrences": 1
+      },
+      {
+        "before": "- [奇潮水族館](games/wondertide-aquarium.html)：五章 30 缸、五種魚群、六位夥伴與三種入侵者；餵食、收幣、育幼、棲地建設與主動防守。",
+        "after": "- [奇潮水族館](games/wondertide-aquarium.html)：五章 30 缸、五種魚群、六位夥伴與三種入侵者；餵食、收幣、育幼、棲地建設與主動防守。\n- [潮汐食物鏈](games/tide-feast.html)：連續海域、九種魚、實際體長與漸減成長；三顆心、受傷保護及 90% 體長復甦。",
+        "occurrences": 1
+      },
+      {
+        "before": "原有 397 筆遊戲記錄及次序、分類成員、插畫、玩法、網址與存檔逐位元組保留；僅經典分類追加以上兩作。",
+        "after": "原有 399 筆遊戲記錄與相對次序、分類成員、插畫及網址保留，經典分類追加潮汐食物鏈。除了上述花園計時修正及相應驗證，其餘既有遊戲檔案逐位元組保留。",
+        "occurrences": 1
+      },
+      {
+        "before": "`node verify-all.cjs` 執行 399 筆目錄、25 個分類、九張經典卡片",
+        "after": "`node verify-all.cjs` 執行 400 筆目錄、25 個分類、十張經典卡片",
+        "occurrences": 1
+      },
+      {
+        "before": "及新作設計者提供的合法動作測試。",
+        "after": "及花園／水族的合法動作測試、花園畫面更新回歸、潮汐食物鏈的 26 項核心與 32 項介面測試。",
+        "occurrences": 1
+      },
+      {
+        "before": "花園守望隊與奇潮水族館九款",
+        "after": "花園守望隊、奇潮水族館與潮汐食物鏈十款",
+        "occurrences": 1
+      },
+      {
+        "before": "搜尋始終涵蓋全部 399 款",
+        "after": "搜尋始終涵蓋全部 400 款",
+        "occurrences": 1
       }
     ],
     "verify-all.cjs": [
@@ -268,14 +436,14 @@
     ]
   },
   "rootFiles": {
-    "app.js": "72ca940b075aca7a640c8fedf6b468a117aa690ae1d898080045734981e0156c",
-    "index.html": "a956fafe4e02781abda36071b08a42271dc660d5c280ad0f363343b6e94bbe10",
-    "README.md": "47a5eee72e13383ce67f1494a21d85c7a47947b96fbfb92d92f100ac378db2b9",
+    "app.js": "0df8fc3d6e45be92d0e8d96674bd769c6523ee45ad24c78e535ea5ed5bda24ff",
+    "index.html": "8a770e574fd90bd94fb0b999d41f30716c4818871c4d519015b6b2252cafd38f",
+    "README.md": "0eecbb6268a57acaffcef0f87c6836c889b49d0cfe092f6ada99a79773adcc26",
     "verify-all.cjs": "b0a97c09b7ed6dbbe43191a4d947db0efe4842739927ebb07bc1e3183c47d6a9"
   },
   "supportFiles": {
     "garden-aquarium-baseline.json": "dabab7c18fe61f01decb5cbefbcde4dbffea7a4db0f492d8887a133b3559a05e",
-    "verify-garden-aquarium.cjs": "656500c85ed7f459b86db31bee24c0e457b0669e8dbfaf117697b52f31dbcd8c",
+    "verify-garden-aquarium.cjs": "cc7a24ce63cb777d4f080b7896925f06551d1ae0e5518d7831abed6d58018ac7",
     "verification/verify-wondertide.cjs": "f2a36010daa68c6d5369f1d910093573a7ab199929525c975d5080f15c260db6",
     "verification/wondertide-browser-qa-plan.md": "ff5336b25b0ed3b3758580c456851b822827e41562b29c3f7116098f5204356e",
     "verification/wondertide-legacy-fixtures.json": "ba4e8b21b1571ab630d231fd2536237bccfe411dcb2cab4c29172c04dd4c7a02",
@@ -289,12 +457,12 @@
     "commercialQualityCertified": false,
     "twentyMinutesPerLevelVerified": false
   },
-  "scope": "Two original 30-stage campaigns. Preserve all prior game files and entries. New catalog plus source checks; browser acceptance remains separate.",
+  "scope": "400/25 catalog with first endless-growth Tide Feast version and scoped Garden RAF-clock lifecycle fix. No other game balance, campaign or RTS story changes.",
   "sourceReviewBindings": {
     "garden-watchline": {
       "accepted": true,
-      "runtimeSHA256": "5bd3ae48a4bead0ec1e4cfdb45f11c785697b706b74d986cfe969aed398a12c0",
-      "scope": "Independent source, legal-action simulation, persistence, controller VM and mocked renderer review. Actual browser and human play testing are separate.",
+      "runtimeSHA256": "c461b540630523fd323286db5474c2990d167140b35be48f159d617427fc43c8",
+      "scope": "Independent exact-source review; actual browser acceptance remains separate.",
       "actualBrowser": false
     },
     "wondertide-aquarium": {
@@ -302,6 +470,114 @@
       "runtimeSHA256": "742a9bff1f691438b719197ce84e2583fbd08cd27a5f8b0401efdaff98f6825f",
       "scope": "Independent source, legal-action simulation, persistence, controller VM and mocked renderer review. Actual browser and human play testing are separate.",
       "actualBrowser": false
+    },
+    "tide-feast": {
+      "accepted": true,
+      "runtimeSHA256": "db172f163dedd78b8c2c6385ea20bb8f27f0664a787dfb29bfefe7d3a0bbcbef",
+      "scope": "Independent exact-source review; actual browser acceptance remains separate.",
+      "actualBrowser": false
     }
+  },
+  "latestIntegration": {
+    "baseCommit": "ef586f932509f6611ee7b91b7b4dac07ccd3e6b6",
+    "baseTreeSHA": "7a8e7e6071f4b12225f26d933431fa8d96ddf8f4",
+    "baseBlobCount": 3811,
+    "baseCatalogCount": 399,
+    "baseClassicCount": 9,
+    "addedID": "tide-feast",
+    "previousAddedRegistryRecords": [
+      {
+        "id": "garden-watchline",
+        "title": "花園守望隊",
+        "category": "classic30",
+        "description": "種下暖燈花，搭配八種植物守護小屋。三十座原創花園，讓每次補位都有轉機。",
+        "note": "六章 30 關・八種植物・七種苔影・可暫停布陣",
+        "art": "classic30-garden-watchline",
+        "color": "#e9c77d",
+        "background": "#315543",
+        "word": "芽",
+        "status": "ready",
+        "url": "./games/garden-watchline.html",
+        "badge": "30 關 · 植物防線"
+      },
+      {
+        "id": "wondertide-aquarium",
+        "title": "奇潮水族館",
+        "category": "classic30",
+        "description": "餵養微光魚群、收集貝幣，守護 30 座會成長的水族箱。",
+        "note": "五章 30 缸・六位夥伴・三種入侵者・有限救援補給",
+        "art": "classic30-wondertide-aquarium",
+        "color": "#eeca95",
+        "background": "#164955",
+        "word": "養",
+        "status": "ready",
+        "url": "./games/wondertide-aquarium.html",
+        "badge": "30 缸 · 照護防守"
+      }
+    ],
+    "previousAddedArtHashes": {
+      "classic30-garden-watchline": "6ec5c4013763bc0de34d0b93c3275b328eae84e9df5d8434e4ffb721d8771b7c",
+      "classic30-wondertide-aquarium": "5ef3a1741a8496148302835cfe4a6b552cf34b726b24c6bd13518edb0de2eb22"
+    },
+    "gardenFramePatch": [
+      {
+        "path": "games/garden-watchline/app.js",
+        "action": "modify",
+        "beforeSHA256": "10c16de7c19170642b284f72b4a6d0db03dbf4ed0f5875ae12d03ddec6969571",
+        "afterSHA256": "bcad5712d27768c663c14bb96e3b767c6f26100cae6c618fc81792d513f7e443"
+      },
+      {
+        "path": "games/garden-watchline/verify-frame-lifecycle.cjs",
+        "action": "add",
+        "beforeSHA256": null,
+        "afterSHA256": "3eedca30fa566b072d5c6bf1abdb33853e5c3278342cd086468de5d6f77c8c69"
+      },
+      {
+        "path": "games/garden-watchline/release-manifest.json",
+        "action": "modify",
+        "beforeSHA256": "ed7ff9a3e24ed992b97eb25a68814cde60ad2e5cb4e828d8f94e9bcb0c40a87e",
+        "afterSHA256": "5bb0c874fdbaa47981edd1e6f07e429159d4f5fd080424c4cb64d8e1b0ca1d0c"
+      },
+      {
+        "path": "games/garden-watchline/verification-report.json",
+        "action": "modify",
+        "beforeSHA256": "ae88ebdeaa90cc61079f281f3f5fdc6565fbcf7be2e24f2747202be8ca21d941",
+        "afterSHA256": "399a1d3401ec658d0948fd78b0c83c5ad7320ff62e783ad3c62219f6e968a349"
+      }
+    ],
+    "gardenFrameCommand": "node games/garden-watchline/verify-frame-lifecycle.cjs",
+    "claims": {
+      "actualBrowserQAPassed": false,
+      "allLegacyEnginesRerun": false
+    },
+    "addedFiles": [
+      "games/garden-watchline/verify-frame-lifecycle.cjs",
+      "games/tide-feast.html",
+      "games/tide-feast/README.md",
+      "games/tide-feast/art.svg",
+      "games/tide-feast/asset-provenance.json",
+      "games/tide-feast/catalog.json",
+      "games/tide-feast/engine-verification.json",
+      "games/tide-feast/engine.js",
+      "games/tide-feast/release-manifest.json",
+      "games/tide-feast/render.js",
+      "games/tide-feast/storage.js",
+      "games/tide-feast/style.css",
+      "games/tide-feast/ui-verification.json",
+      "games/tide-feast/ui.js",
+      "games/tide-feast/verify-engine.cjs",
+      "games/tide-feast/verify-ui.cjs",
+      "games/tide-feast/verify.cjs"
+    ],
+    "modifiedExisting": [
+      "README.md",
+      "app.js",
+      "games/garden-watchline/app.js",
+      "games/garden-watchline/release-manifest.json",
+      "games/garden-watchline/verification-report.json",
+      "garden-aquarium-release.json",
+      "index.html",
+      "verify-garden-aquarium.cjs"
+    ]
   }
 }
