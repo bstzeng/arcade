@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "id": "wondertide-aquarium",
+  "title": "奇潮水族館",
+  "phase": "complete_30_tank_campaign_pending_browser_QA",
+  "entry": "games/wondertide-aquarium.html",
+  "engine": "games/wondertide-aquarium/engine.js",
+  "controller": "games/wondertide-aquarium/ui.js",
+  "renderer": "games/wondertide-aquarium/render.js",
+  "artFile": "games/wondertide-aquarium/art.svg",
+  "catalog": "games/wondertide-aquarium/catalog.json",
+  "runtimeFiles": [
+    "games/wondertide-aquarium.html",
+    "games/wondertide-aquarium/levels.js",
+    "games/wondertide-aquarium/legacy-levels.js",
+    "games/wondertide-aquarium/engine.js",
+    "games/wondertide-aquarium/storage.js",
+    "games/wondertide-aquarium/render.js",
+    "games/wondertide-aquarium/ui.js",
+    "games/wondertide-aquarium/style.css",
+    "games/wondertide-aquarium/art.svg"
+  ],
+  "sourceFiles": {
+    "games/wondertide-aquarium.html": "1c56d4498971c4ca93bdb68a76932c15bea2852ab93edfb3df86250a0a3deabd",
+    "games/wondertide-aquarium/levels.js": "5334f3100b0d2d09ef6b5fa56c5d26edd03847d595677b5c2bb387163865342c",
+    "games/wondertide-aquarium/legacy-levels.js": "ea2e18135a2e6c3d0ee902cd3c4f4ac74fd6a4e6d8fc661804a7d3ee7bcc9532",
+    "games/wondertide-aquarium/engine.js": "7a1818d9e35f257c961a3897c31ac0e2a89155a5775eeda9746ab98527bb508f",
+    "games/wondertide-aquarium/storage.js": "d0adbce39385a4f6fc3f9ad793d39e6bd56d3e6fc481ec45d6d38f548ffd004c",
+    "games/wondertide-aquarium/render.js": "447b219bf8ef0844d4e9850e9abbe6b2c4e387350601e583b962ae551ed57d4c",
+    "games/wondertide-aquarium/ui.js": "6d56aa6b592d97d575b65cfcbc61a05ed28d2fa7ef79774311e704a2bb97a538",
+    "games/wondertide-aquarium/style.css": "c3b00938790f8d4b8ab60456f1548ee27d537fd9ec9543a368dbc6b38e735ea3",
+    "games/wondertide-aquarium/art.svg": "8ba1eb45b1f0842cea4fe144eb1f1f90004bfa37c6c783d5fb6821632a2ba405",
+    "games/wondertide-aquarium/levels.json": "8617a251590cb384be9518f2d0a0ce63c83f18ea72d169726a1725e7011a1d75",
+    "games/wondertide-aquarium/legacy-levels.json": "d48ee0df580b4c47bc18c31b8bb3b5dc76492a5feaa05897d3e0bd9a42f5fa07",
+    "games/wondertide-aquarium/catalog.json": "ce594267f20dab7a29506629021943a7a030f01d3d571980586cc57f91c572ff",
+    "games/wondertide-aquarium/asset-provenance.json": "47b6c7195297498a4a1a117f6deaf8379fc29c89fa95ae5d657f6b2067cc0d15",
+    "games/wondertide-aquarium/SLICE.md": "4fe3f43d9e9266792f56695b627d458c99ec26841f0a86b562ffd1565063d439",
+    "games/wondertide-aquarium/test-adapter.cjs": "a79e5be8c2724b5d856c5ef9a2aeafe8d5cc910a0a2c8a1251f1921148bc92c9",
+    "games/wondertide-aquarium/witnesses.json": "869c7029fbb56dc1f83d397de31930d7045c912e22cd97b40aaa86f58678965d"
+  },
+  "dependencies": [],
+  "campaign": {
+    "authoredStages": 30,
+    "chapters": 5,
+    "stagesPerChapter": 6,
+    "scenarioIDs": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30"
+    ],
+    "allStagesSelectable": true,
+    "actualDistinctMechanics": [
+      "three diets",
+      "two-meal growth",
+      "physical coin collection",
+      "paired breeding",
+      "shelter protection",
+      "reversing/spatial currents",
+      "charging hunter",
+      "bait-seeking invader",
+      "timed armor weak point",
+      "six spatial companion jobs",
+      "three habitat construction phases",
+      "whole-tank health finish"
+    ]
+  },
+  "persistence": {
+    "keys": [
+      "arcade.classic30.wondertide-aquarium.v1"
+    ],
+    "bundleVersion": 2,
+    "engineVersion": 2,
+    "oldSchemasAccepted": [
+      1
+    ],
+    "legacyPrototypeIDs": [
+      "01",
+      "25",
+      "50"
+    ],
+    "legacyCompletionSeparation": "profile.legacyCompleted",
+    "pauseOnBlur": true,
+    "offlineCatchUp": false,
+    "testReport": "verification/wondertide-report.json"
+  },
+  "forgiveness": {
+    "warningSeconds": 8,
+    "bubbleSeconds": 6,
+    "bubbleCooldownSeconds": 32,
+    "refugeSeconds": 18,
+    "refugesPerFish": 1,
+    "limitedSuppliesPerTank": [
+      2,
+      3
+    ],
+    "supplyCash": 30,
+    "unlimitedCashGrant": false,
+    "birthSlotsReservedWhenBuying": true,
+    "inactivePolicyLosesAll30": true
+  },
+  "commands": [
+    [
+      "node",
+      "verification/verify-wondertide.cjs"
+    ]
+  ],
+  "freshReports": [
+    "verification/wondertide-report.json"
+  ],
+  "evidenceFiles": {
+    "verification/wondertide-report.json": "2d55d0aa158cbaa2b95d63649fec630fa4e187fee72e24054ab3b8ee5a532810",
+    "verification/verify-wondertide.cjs": "f2a36010daa68c6d5369f1d910093573a7ab199929525c975d5080f15c260db6"
+  },
+  "scope": {
+    "retained": "Original single-player aquarium feeding, growth, income, construction, breeding, helper pairing and active invasion defense in 30 authored tanks.",
+    "excluded": "No copied commercial assets, maps, characters, music or code; no claim of free aquarium, multiplayer, original commercial game identity, human enjoyment test or hour-endurance."
+  },
+  "claims": {
+    "all30LegalActionCampaigns": true,
+    "recoverableEconomyTested": true,
+    "actualBrowserQAPassed": false,
+    "humanEnjoymentVerified": false,
+    "hourEnduranceTested": false,
+    "publicationReady": false
+  }
+}

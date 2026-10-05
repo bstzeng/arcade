@@ -1,0 +1,28 @@
+{
+  "replayed": 90,
+  "sourceHashes": {
+    "engine.js": "a9f08c3496456baf58b4173ebc14ba0e6225a8999cf2ee618f1b3ed6b826e106",
+    "levels.js": "124f65341de0d61286bee81784b9369f8c8e768b50010be8d3d308c7b9f65dd7",
+    "shield-first-audit.cjs": "6c26da4bd5afa36ab2d61483aa3b97d2446bc4bc9f26b73bf322d882a06bee78"
+  },
+  "summary": {
+    "shieldFirst": {
+      "wins": 30,
+      "perfect": 30,
+      "losses": []
+    },
+    "shieldFirstRecovery": {
+      "wins": 30,
+      "perfect": 29,
+      "losses": []
+    },
+    "shieldFirstSlow": {
+      "wins": 28,
+      "perfect": 8,
+      "losses": [
+        27,
+        30
+      ]
+    }
+  }
+}

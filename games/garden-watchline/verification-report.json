@@ -1,0 +1,919 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-05T03:10:03.117Z",
+  "scope": "Deterministic public-engine replays with legal planting, resources, refunds, and rescue inputs; not a universal strategy guarantee or browser QA.",
+  "assertions": 8043,
+  "levels": [
+    {
+      "id": 1,
+      "title": "第一束芽光",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "time": 111,
+        "maxEnemies": 2,
+        "actions": 28,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "rain": 0,
+        "time": 120.4,
+        "maxEnemies": 2,
+        "actions": 27,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 195.4,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 2,
+      "title": "樹皮小哨站",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "time": 104.3,
+        "maxEnemies": 2,
+        "actions": 28,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "rain": 0,
+        "time": 111.1,
+        "maxEnemies": 3,
+        "actions": 27,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 198.4,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 3,
+      "title": "快腳的午後",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "time": 118.2,
+        "maxEnemies": 2,
+        "actions": 28,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "rain": 0,
+        "time": 122.8,
+        "maxEnemies": 3,
+        "actions": 27,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 122.9,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 4,
+      "title": "五條花徑",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "time": 130.1,
+        "maxEnemies": 3,
+        "actions": 44,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "rain": 0,
+        "time": 132.9,
+        "maxEnemies": 3,
+        "actions": 43,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 133.9,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 5,
+      "title": "晨露守園節",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 2,
+        "time": 132.7,
+        "maxEnemies": 6,
+        "actions": 44,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 4,
+        "rain": 0,
+        "time": 136.9,
+        "maxEnemies": 8,
+        "actions": 45,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 92.2,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 6,
+      "title": "雨點成群",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "time": 125.8,
+        "maxEnemies": 10,
+        "actions": 43,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 0,
+        "rain": 0,
+        "time": 129.9,
+        "maxEnemies": 12,
+        "actions": 42,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 199.4,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 7,
+      "title": "殼帽慢行",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 4,
+        "time": 134.2,
+        "maxEnemies": 4,
+        "actions": 48,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 4,
+        "rain": 0,
+        "time": 145.1,
+        "maxEnemies": 4,
+        "actions": 47,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 144.9,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 8,
+      "title": "穿過厚厚雨衣",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 6,
+        "time": 149.1,
+        "maxEnemies": 5,
+        "actions": 48,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 9,
+        "rain": 0,
+        "time": 165.1,
+        "maxEnemies": 6,
+        "actions": 50,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 204,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 9,
+      "title": "三葉修補所",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 12,
+        "time": 153.6,
+        "maxEnemies": 10,
+        "actions": 54,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 13,
+        "rain": 0,
+        "time": 158.8,
+        "maxEnemies": 10,
+        "actions": 54,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 147,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 10,
+      "title": "苔階雙重奏",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 30,
+        "time": 201.4,
+        "maxEnemies": 10,
+        "actions": 72,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 31,
+        "rain": 0,
+        "time": 221.2,
+        "maxEnemies": 10,
+        "actions": 72,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 113,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 11,
+      "title": "跳過第一片葉",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 8,
+        "time": 160.1,
+        "maxEnemies": 6,
+        "actions": 53,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 5,
+        "rain": 0,
+        "time": 163.3,
+        "maxEnemies": 6,
+        "actions": 48,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 121,
+        "leaks": 6
+      }
+    },
+    {
+      "id": 12,
+      "title": "風鈴的輪唱",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 19,
+        "time": 205.5,
+        "maxEnemies": 7,
+        "actions": 63,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 19,
+        "rain": 0,
+        "time": 208.2,
+        "maxEnemies": 8,
+        "actions": 61,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 115.5,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 13,
+      "title": "果籃的兩端",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 21,
+        "time": 174.7,
+        "maxEnemies": 9,
+        "actions": 64,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 21,
+        "rain": 0,
+        "time": 183.7,
+        "maxEnemies": 10,
+        "actions": 62,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 113.7,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 14,
+      "title": "晚到的急性子",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 30,
+        "time": 192.9,
+        "maxEnemies": 10,
+        "actions": 73,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 28,
+        "rain": 0,
+        "time": 221.8,
+        "maxEnemies": 10,
+        "actions": 69,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 143.4,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 15,
+      "title": "風鈴大合奏",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 21,
+        "time": 194.5,
+        "maxEnemies": 10,
+        "actions": 64,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 28,
+        "rain": 0,
+        "time": 227,
+        "maxEnemies": 14,
+        "actions": 69,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 126.7,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 16,
+      "title": "提燈來客",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 15,
+        "time": 172.8,
+        "maxEnemies": 9,
+        "actions": 58,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 17,
+        "rain": 0,
+        "time": 182.1,
+        "maxEnemies": 9,
+        "actions": 58,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 123.7,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 17,
+      "title": "小小蘑菇燈會",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 10,
+        "time": 168.6,
+        "maxEnemies": 15,
+        "actions": 54,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 9,
+        "rain": 0,
+        "time": 173.8,
+        "maxEnemies": 13,
+        "actions": 51,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 119.1,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 18,
+      "title": "月光棋盤",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 26,
+        "time": 205,
+        "maxEnemies": 10,
+        "actions": 66,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 35,
+        "rain": 0,
+        "time": 227,
+        "maxEnemies": 10,
+        "actions": 73,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 123.9,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 19,
+      "title": "一盞接著一盞",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 21,
+        "time": 224.2,
+        "maxEnemies": 11,
+        "actions": 64,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 24,
+        "rain": 0,
+        "time": 238.2,
+        "maxEnemies": 11,
+        "actions": 65,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 189.5,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 20,
+      "title": "月影守燈人",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 27,
+        "time": 204.4,
+        "maxEnemies": 13,
+        "actions": 69,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 43,
+        "rain": 0,
+        "time": 248.2,
+        "maxEnemies": 13,
+        "actions": 83,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 132.6,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 21,
+      "title": "大塊頭慢慢來",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 34,
+        "time": 227.8,
+        "maxEnemies": 9,
+        "actions": 79,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 30,
+        "rain": 0,
+        "time": 253.9,
+        "maxEnemies": 9,
+        "actions": 73,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 143.5,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 22,
+      "title": "溫室的暖陽",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 43,
+        "time": 231.9,
+        "maxEnemies": 15,
+        "actions": 86,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 49,
+        "rain": 0,
+        "time": 255.2,
+        "maxEnemies": 15,
+        "actions": 90,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 134.2,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 23,
+      "title": "霜葉的邊境",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 40,
+        "time": 233.7,
+        "maxEnemies": 10,
+        "actions": 82,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 43,
+        "rain": 0,
+        "time": 253.2,
+        "maxEnemies": 10,
+        "actions": 83,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 157.4,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 24,
+      "title": "補給接力站",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 48,
+        "time": 259.4,
+        "maxEnemies": 15,
+        "actions": 91,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 54,
+        "rain": 0,
+        "time": 305.3,
+        "maxEnemies": 16,
+        "actions": 95,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 132.9,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 25,
+      "title": "古樹溫室之心",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 38,
+        "time": 207.3,
+        "maxEnemies": 13,
+        "actions": 81,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 62,
+        "rain": 0,
+        "time": 316.8,
+        "maxEnemies": 14,
+        "actions": 103,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 140.7,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 26,
+      "title": "月下重逢",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 41,
+        "time": 225.9,
+        "maxEnemies": 17,
+        "actions": 86,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 40,
+        "rain": 0,
+        "time": 251,
+        "maxEnemies": 17,
+        "actions": 83,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 107.6,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 27,
+      "title": "月壇環形花圃",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 40,
+        "time": 232,
+        "maxEnemies": 12,
+        "actions": 80,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 66,
+        "rain": 0,
+        "time": 331.8,
+        "maxEnemies": 12,
+        "actions": 104,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 130.1,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 28,
+      "title": "三拍小夜曲",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 36,
+        "time": 194.2,
+        "maxEnemies": 13,
+        "actions": 80,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 46,
+        "rain": 0,
+        "time": 249.4,
+        "maxEnemies": 13,
+        "actions": 88,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 119.4,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 29,
+      "title": "給黎明的練習",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 52,
+        "time": 270.4,
+        "maxEnemies": 15,
+        "actions": 95,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 75,
+        "rain": 0,
+        "time": 339.4,
+        "maxEnemies": 17,
+        "actions": 116,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 130.3,
+        "leaks": 5
+      }
+    },
+    {
+      "id": 30,
+      "title": "曙光盛開之時",
+      "strong": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 55,
+        "time": 242.7,
+        "maxEnemies": 17,
+        "actions": 99,
+        "deficit": 0
+      },
+      "novice": {
+        "status": "won",
+        "lives": 5,
+        "sweeps": 0,
+        "lostPlants": 75,
+        "rain": 0,
+        "time": 344.8,
+        "maxEnemies": 16,
+        "actions": 116,
+        "deficit": 0
+      },
+      "idle": {
+        "status": "lost",
+        "time": 109.6,
+        "leaks": 5
+      }
+    }
+  ],
+  "strongWins": 30,
+  "noviceWins": 30,
+  "idleLosses": 30,
+  "sourceHashes": {
+    "engine.js": "a9f08c3496456baf58b4173ebc14ba0e6225a8999cf2ee618f1b3ed6b826e106",
+    "levels.js": "124f65341de0d61286bee81784b9369f8c8e768b50010be8d3d308c7b9f65dd7",
+    "app.js": "10c16de7c19170642b284f72b4a6d0db03dbf4ed0f5875ae12d03ddec6969571",
+    "render.js": "bf7b35aae0e7bbaa6acf02bb5512c13940d4ca741b52373baee97b23f1300649",
+    "style.css": "288aec7a3c0b5b7f16a348e62e1658291b4ca07d2e4314aafa497aaa5171658d",
+    "art.svg": "c5c1ce73067ea17621418bc73622bfc040e404d8fb4defeff28aad5f1d1d64fd"
+  }
+}
