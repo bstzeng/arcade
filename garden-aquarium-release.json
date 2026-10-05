@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "garden-aquarium-30-campaign-release",
-  "build": "20261005-tide-feast-garden-raf-v1",
+  "build": "20261005-starweave-idle-v1",
   "baseCommit": "06cb82afb849cd0723ab54a6017405ee7aa09bf6",
   "baseTreeSHA": "a5a404bf096c3aad2b87f1e784dd8e1bc91f1ccc",
-  "gameCount": 400,
+  "gameCount": 401,
   "categoryCount": 25,
   "classicCards": 10,
   "appendedIDs": [
     "garden-watchline",
     "wondertide-aquarium",
-    "tide-feast"
+    "tide-feast",
+    "starweave-idle"
   ],
   "registryRecords": [
     {
@@ -54,6 +55,20 @@
       "status": "ready",
       "url": "./games/tide-feast.html",
       "badge": "無盡成長 · 第一版"
+    },
+    {
+      "id": "starweave-idle",
+      "title": "星絨法師：自走遠征",
+      "category": "strategy",
+      "description": "讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。",
+      "note": "全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退",
+      "art": "starweave-idle",
+      "color": "#f4e7cc",
+      "background": "#708b73",
+      "word": "星",
+      "status": "ready",
+      "url": "./games/starweave-idle.html",
+      "badge": "自走冒險 · 第一版"
     }
   ],
   "category": {
@@ -243,6 +258,65 @@
         "arcade.tide-feast.v1.backup"
       ],
       "sourceTransforms": []
+    },
+    {
+      "slug": "starweave-idle",
+      "mode": "idle-adventure",
+      "primaryCategory": "simulation",
+      "registryRecord": {
+        "id": "starweave-idle",
+        "title": "星絨法師：自走遠征",
+        "category": "strategy",
+        "description": "讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。",
+        "note": "全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退",
+        "art": "starweave-idle",
+        "color": "#f4e7cc",
+        "background": "#708b73",
+        "word": "星",
+        "status": "ready",
+        "url": "./games/starweave-idle.html",
+        "badge": "自走冒險 · 第一版"
+      },
+      "runtimeFiles": {
+        "games/starweave-idle.html": "7d4f79174c01619cf333a2dc68c2fc01da07bcab5f0c32036a484320bf538458",
+        "games/starweave-idle/engine.js": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
+        "games/starweave-idle/render.js": "e7482d52ac2e6eea1373f6ddc2a4e18144b7aba01ad38be2d06e7ec318d9e59c",
+        "games/starweave-idle/storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
+        "games/starweave-idle/ui.js": "dc9bb002bbdb0c2c86ace97daa1c4372cc0a08748ca05bc1b8ebae81069e66fe",
+        "games/starweave-idle/style.css": "d2113cec36cb18e1613b9160e1fdb16020832f9d55d228c00b6ac60122f30b89",
+        "games/starweave-idle/art.svg": "12aeb545741f087839e1b624992b5dc5d91b8b82bc06722e113a804b374545d7"
+      },
+      "publishFiles": {
+        "games/starweave-idle/README.md": "740be33b940da07b0e7e90646d0776ae3473c892964a98290d0f4dfd5a24dc16",
+        "games/starweave-idle/art.svg": "12aeb545741f087839e1b624992b5dc5d91b8b82bc06722e113a804b374545d7",
+        "games/starweave-idle/asset-provenance.json": "f4355814aba64f0d2ffc38630149b45c3dbd7b47b237a5199f5efa7e9e07a745",
+        "games/starweave-idle/cap-verification-results.json": "335a2598cbfd88efd63fae9c1b1bfd0043b2b72ce0d0a70a5c1adc874a421cdc",
+        "games/starweave-idle/catalog.json": "af2933b05b5fb45cb8fea8f7de4df8fda95a37d167e61b6b2580ed23ebb6c423",
+        "games/starweave-idle/engine-verification-results.json": "407edbf95c0b393509d29205a42ce7ffde06b00415da39589c6efd3c9e782be3",
+        "games/starweave-idle/engine.js": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
+        "games/starweave-idle/realtime-verification.json": "3240f49004baecfefab021ccfb256105860cb8973ea57bcdcee95524dbf0ee2b",
+        "games/starweave-idle/release-manifest.json": "5cb6b9620beba5eb2087001ff5225ff2b64613f698bf92acbf173f0c61a98c5b",
+        "games/starweave-idle/render.js": "e7482d52ac2e6eea1373f6ddc2a4e18144b7aba01ad38be2d06e7ec318d9e59c",
+        "games/starweave-idle/storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
+        "games/starweave-idle/style.css": "d2113cec36cb18e1613b9160e1fdb16020832f9d55d228c00b6ac60122f30b89",
+        "games/starweave-idle/ui-verification.json": "5665fd026cae3ded2360edfafb444a7211532b6db260235beedafc1aa78385cb",
+        "games/starweave-idle/ui.js": "dc9bb002bbdb0c2c86ace97daa1c4372cc0a08748ca05bc1b8ebae81069e66fe",
+        "games/starweave-idle/verification-report.json": "fdb55712e74308effae31cbdecc44a8ed514cc4b91afd538d0222d85556ea8a1",
+        "games/starweave-idle/verify-cap.cjs": "71fb71fe447294a85dc6e380086c1ac3edf23809ff0d4f9dbc099d41d97419ff",
+        "games/starweave-idle/verify-engine.cjs": "f6262a4ced9c9fefc105c1339b485129097f66c4616fa6377fde03a18469fbce",
+        "games/starweave-idle/verify-ui.cjs": "24866620e4febe2a365bb39170c30960ac2b02986cbdb41e34bf63f19a154d6a",
+        "games/starweave-idle/verify.cjs": "fd8e1c6eb8cbdea2ae5b8ea636c2c46d076da4662ff63177734bf3374316bb83",
+        "games/starweave-idle.html": "7d4f79174c01619cf333a2dc68c2fc01da07bcab5f0c32036a484320bf538458"
+      },
+      "storageNamespace": "arcade.starweave-idle.save.v1",
+      "storageKeys": [
+        "arcade.starweave-idle.save.v1",
+        "arcade.starweave-idle.save.v1.lease"
+      ],
+      "lockNames": [
+        "arcade.starweave-idle.save.v1.writer"
+      ],
+      "sourceTransforms": []
     }
   ],
   "rootReversibleChanges": {
@@ -285,6 +359,26 @@
       {
         "before": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略、樂園經營、植物防線與水族照護；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・救援・消除・戰略・樂園・植物・水族\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\",\"garden-watchline\",\"wondertide-aquarium\"]}",
         "after": "{\"id\":\"classic30\",\"title\":\"經典\",\"description\":\"彈珠、救援、消除、即時戰略、經營、植物防線、水族照護與海洋成長；各版本狀態以卡片標示為準。\",\"examples\":\"彈珠・救援・消除・戰略・經營・植物・海洋\",\"icon\":\"✧\",\"color\":\"#a8bd7a\",\"gameIds\":[\"mosskin-migration\",\"orbit-marble-chain\",\"starport-pinball\",\"puffball-shift\",\"prismatic-cascade\",\"stormfront-command\",\"skyrail-park\",\"garden-watchline\",\"wondertide-aquarium\",\"tide-feast\"]}",
+        "occurrences": 1
+      },
+      {
+        "before": "20261005-tide-feast-garden-raf-v1",
+        "after": "20261005-starweave-idle-v1",
+        "occurrences": 1
+      },
+      {
+        "before": "\n];\nconst categoryNames = ",
+        "after": ",\n  {\"id\":\"starweave-idle\",\"title\":\"星絨法師：自走遠征\",\"category\":\"strategy\",\"description\":\"讓小法師自動探索、施法與撿寶，由你配點、換裝與強化。\",\"note\":\"全自動 2D 冒險・五種場景・法師成長・戰利品與安全撤退\",\"art\":\"starweave-idle\",\"color\":\"#f4e7cc\",\"background\":\"#708b73\",\"word\":\"星\",\"status\":\"ready\",\"url\":\"./games/starweave-idle.html\",\"badge\":\"自走冒險 · 第一版\"}\n];\nconst categoryNames = ",
+        "occurrences": 1
+      },
+      {
+        "before": "const categories = [",
+        "after": "Object.assign(artMarkup, {\"starweave-idle\":\"<img class=\\\"classic30-art\\\" src=\\\"./games/starweave-idle/art.svg\\\" alt=\\\"\\\" width=\\\"156\\\" height=\\\"130\\\" loading=\\\"lazy\\\" decoding=\\\"async\\\">\"});\nconst categories = [",
+        "occurrences": 1
+      },
+      {
+        "before": "  { id: 'simulation', title: '經營冒險', description: '規劃資源、探索世界，或即時指揮航線。', examples: '鐵道・餐廳・空中指揮所', icon: '✈', color: '#a8d9d2', gameIds: ['tiny-orbit', 'railway-town', 'merge-bistro', 'space-rescue', 'backpack-dungeon', 'island-colony', 'air-traffic', 'hotel-manager', 'repair-shop', 'museum-curator', 'theater-manager', 'caravan-trade', 'tower-defense', 'deep-sea-treasure', 'time-loop-adventure', 'conservation-park', 'alchemy-lab'] },",
+        "after": "  {\"id\":\"simulation\",\"title\":\"經營冒險\",\"description\":\"規劃資源、探索世界，或即時指揮航線。\",\"examples\":\"鐵道・餐廳・空中指揮所\",\"icon\":\"✈\",\"color\":\"#a8d9d2\",\"gameIds\":[\"tiny-orbit\",\"railway-town\",\"merge-bistro\",\"space-rescue\",\"backpack-dungeon\",\"island-colony\",\"air-traffic\",\"hotel-manager\",\"repair-shop\",\"museum-curator\",\"theater-manager\",\"caravan-trade\",\"tower-defense\",\"deep-sea-treasure\",\"time-loop-adventure\",\"conservation-park\",\"alchemy-lab\",\"starweave-idle\"]},",
         "occurrences": 1
       }
     ],
@@ -363,6 +457,36 @@
         "before": "彈珠・救援・消除・戰略・樂園・植物・水族",
         "after": "彈珠・救援・消除・戰略・經營・植物・海洋",
         "occurrences": 1
+      },
+      {
+        "before": "20261005-tide-feast-garden-raf-v1",
+        "after": "20261005-starweave-idle-v1",
+        "occurrences": 2
+      },
+      {
+        "before": "400",
+        "after": "401",
+        "occurrences": 5
+      },
+      {
+        "before": "四百",
+        "after": "四百零一",
+        "occurrences": 2
+      },
+      {
+        "before": "經典區新增磁暴前線",
+        "after": "經營冒險新增星絨法師自走遠征；經典區新增磁暴前線",
+        "occurrences": 1
+      },
+      {
+        "before": "<button class=\"category-tile\" type=\"button\" data-filter=\"simulation\" aria-pressed=\"false\" aria-controls=\"game-grid\" style=\"--category-color:#a8d9d2\">\n            <span class=\"category-tile-top\"><span class=\"category-icon\" aria-hidden=\"true\">✈</span><span class=\"category-size\"><span data-category-count>17</span> 款 <span aria-hidden=\"true\">↗</span></span></span>\n            <span class=\"category-title\">經營冒險</span><span class=\"category-examples\">鐵道・餐廳・空中指揮所</span>\n          </button>",
+        "after": "<button class=\"category-tile\" type=\"button\" data-filter=\"simulation\" aria-pressed=\"false\" aria-controls=\"game-grid\" style=\"--category-color:#a8d9d2\">\n            <span class=\"category-tile-top\"><span class=\"category-icon\" aria-hidden=\"true\">✈</span><span class=\"category-size\"><span data-category-count>18</span> 款 <span aria-hidden=\"true\">↗</span></span></span>\n            <span class=\"category-title\">經營冒險</span><span class=\"category-examples\">鐵道・餐廳・空中指揮所</span>\n          </button>",
+        "occurrences": 1
+      },
+      {
+        "before": "四百零一個小世界，二十五種探索方向。",
+        "after": "四百零一個小世界，二十五種探索方向。經營冒險新增星絨法師：自走遠征，自動探索、施法與撿寶，由你配點、換裝與強化。",
+        "occurrences": 1
       }
     ],
     "README.md": [
@@ -425,6 +549,36 @@
         "before": "搜尋始終涵蓋全部 399 款",
         "after": "搜尋始終涵蓋全部 400 款",
         "occurrences": 1
+      },
+      {
+        "before": "四百款遊戲，合計 **400 款、25 類**",
+        "after": "四百零一款遊戲，合計 **401 款、25 類**",
+        "occurrences": 1
+      },
+      {
+        "before": "## 經典區的十款遊戲",
+        "after": "## 星絨法師：自走遠征\n\n[星絨法師：自走遠征](games/starweave-idle.html) 加入「經營冒險」，該分類現有 18 款。原創可愛 2D 放置冒險：小法師自動探索、施法、拾取戰利品、撤退及回復；你負責屬性與技能配點、裝備選擇、戰利品籃批量出售與強化。五種視覺地區循環變化，並非數千張手工地圖。沒有離線收益；分頁背景時暫停。戰利品籃達安全容量會保留最後掉落並停止推進，出售後可繼續。\n\n只新增這個入口及其專屬資產／存檔；原有 400 筆記錄、相對次序、分類成員、插畫、網址與所有既有遊戲檔案完整保留。經典區仍為十款。來源包含 24 項核心測試、10 組合法操作成長模擬、自然滿籃保全／出售後恢復、38 項介面儲存檢查；兩次 70 秒正常倍速引擎記錄依相同引擎雜湊沿用，並非瀏覽器 FPS、真人長玩或樂趣認證。\n\n`node verify-all.cjs --new-source-only` 執行 401 筆目錄、25 類、經營冒險 18 款及經典十款、完整來源雜湊、舊檔保存與新法師 gate，沿用未變更遊戲的已驗證證據。一般 `node verify-all.cjs` 仍可額外重跑先前各套件；所有來源檢查都不替代實際瀏覽器、觸控、音效及長時間人工驗收。\n\n## 經典區的十款遊戲",
+        "occurrences": 1
+      },
+      {
+        "before": "本批新增「潮汐食物鏈」第一版",
+        "after": "先前一批新增「潮汐食物鏈」第一版",
+        "occurrences": 1
+      },
+      {
+        "before": "`node verify-all.cjs` 執行 400 筆目錄",
+        "after": "`node verify-all.cjs` 執行 401 筆目錄",
+        "occurrences": 1
+      },
+      {
+        "before": "經營冒險：17 款，鐵道、餐廳、探索與即時航線指揮",
+        "after": "經營冒險：18 款，鐵道、餐廳、探索、即時航線指揮與自走法師",
+        "occurrences": 1
+      },
+      {
+        "before": "搜尋始終涵蓋全部 400 款",
+        "after": "搜尋始終涵蓋全部 401 款",
+        "occurrences": 1
       }
     ],
     "verify-all.cjs": [
@@ -436,14 +590,14 @@
     ]
   },
   "rootFiles": {
-    "app.js": "0df8fc3d6e45be92d0e8d96674bd769c6523ee45ad24c78e535ea5ed5bda24ff",
-    "index.html": "8a770e574fd90bd94fb0b999d41f30716c4818871c4d519015b6b2252cafd38f",
-    "README.md": "0eecbb6268a57acaffcef0f87c6836c889b49d0cfe092f6ada99a79773adcc26",
+    "app.js": "681e670675e985cb742fd23472b53ad2be097c9587d6c4bbf53d6bdad9441f67",
+    "index.html": "6609bb95bb1506c0ae62f6253086422bd5f16865911eab2ccaa9a5c912ee4aa9",
+    "README.md": "2fd5e9745d7a411878932f0f45b3056987946a59236a6b40da16795ea9ee76f5",
     "verify-all.cjs": "b0a97c09b7ed6dbbe43191a4d947db0efe4842739927ebb07bc1e3183c47d6a9"
   },
   "supportFiles": {
     "garden-aquarium-baseline.json": "dabab7c18fe61f01decb5cbefbcde4dbffea7a4db0f492d8887a133b3559a05e",
-    "verify-garden-aquarium.cjs": "cc7a24ce63cb777d4f080b7896925f06551d1ae0e5518d7831abed6d58018ac7",
+    "verify-garden-aquarium.cjs": "63f61feba2c419ebe99e4cfb4cd2667e1c089e9e2d3572fc15b0f4880269adc0",
     "verification/verify-wondertide.cjs": "f2a36010daa68c6d5369f1d910093573a7ab199929525c975d5080f15c260db6",
     "verification/wondertide-browser-qa-plan.md": "ff5336b25b0ed3b3758580c456851b822827e41562b29c3f7116098f5204356e",
     "verification/wondertide-legacy-fixtures.json": "ba4e8b21b1571ab630d231fd2536237bccfe411dcb2cab4c29172c04dd4c7a02",
@@ -457,7 +611,7 @@
     "commercialQualityCertified": false,
     "twentyMinutesPerLevelVerified": false
   },
-  "scope": "400/25 catalog with first endless-growth Tide Feast version and scoped Garden RAF-clock lifecycle fix. No other game balance, campaign or RTS story changes.",
+  "scope": "401/25 catalog; append original Starweave Idle to simulation category only. All previous games, balance, saves and classic category preserved.",
   "sourceReviewBindings": {
     "garden-watchline": {
       "accepted": true,
@@ -476,15 +630,21 @@
       "runtimeSHA256": "db172f163dedd78b8c2c6385ea20bb8f27f0664a787dfb29bfefe7d3a0bbcbef",
       "scope": "Independent exact-source review; actual browser acceptance remains separate.",
       "actualBrowser": false
+    },
+    "starweave-idle": {
+      "accepted": true,
+      "runtimeSHA256": "28e5cdc7561e2deda90836e626ed01d501e5d9a2103d7a27e3b147e837465b2f",
+      "scope": "Independent exact-source engine and UI review, simulated legal actions and source-bound retained normal-speed engine evidence; actual browser and human acceptance remain separate.",
+      "actualBrowser": false
     }
   },
   "latestIntegration": {
-    "baseCommit": "ef586f932509f6611ee7b91b7b4dac07ccd3e6b6",
-    "baseTreeSHA": "7a8e7e6071f4b12225f26d933431fa8d96ddf8f4",
-    "baseBlobCount": 3811,
-    "baseCatalogCount": 399,
-    "baseClassicCount": 9,
-    "addedID": "tide-feast",
+    "baseCommit": "060faa55de099853e1e31b427d7729f126ac49ed",
+    "baseTreeSHA": "8bf7d0bbee0744d89f13c506b683d5ef879b8774",
+    "baseBlobCount": 3828,
+    "baseCatalogCount": 400,
+    "baseClassicCount": 10,
+    "addedID": "starweave-idle",
     "previousAddedRegistryRecords": [
       {
         "id": "garden-watchline",
@@ -513,11 +673,26 @@
         "status": "ready",
         "url": "./games/wondertide-aquarium.html",
         "badge": "30 缸 · 照護防守"
+      },
+      {
+        "id": "tide-feast",
+        "title": "潮汐食物鏈",
+        "category": "classic30",
+        "description": "從 2 公分小魚出發，吞食微光與小魚，游向無盡大海。",
+        "note": "無盡海域・九種魚・漸進成長・三顆心與安全復甦",
+        "art": "classic30-tide-feast",
+        "color": "#f1d699",
+        "background": "#125467",
+        "word": "潮",
+        "status": "ready",
+        "url": "./games/tide-feast.html",
+        "badge": "無盡成長 · 第一版"
       }
     ],
     "previousAddedArtHashes": {
       "classic30-garden-watchline": "6ec5c4013763bc0de34d0b93c3275b328eae84e9df5d8434e4ffb721d8771b7c",
-      "classic30-wondertide-aquarium": "5ef3a1741a8496148302835cfe4a6b552cf34b726b24c6bd13518edb0de2eb22"
+      "classic30-wondertide-aquarium": "5ef3a1741a8496148302835cfe4a6b552cf34b726b24c6bd13518edb0de2eb22",
+      "classic30-tide-feast": "684753951747ab8f030d9cf8f009cd0173e895601b5358ab56dfde747823e0d6"
     },
     "gardenFramePatch": [
       {
@@ -551,33 +726,151 @@
       "allLegacyEnginesRerun": false
     },
     "addedFiles": [
-      "games/garden-watchline/verify-frame-lifecycle.cjs",
-      "games/tide-feast.html",
-      "games/tide-feast/README.md",
-      "games/tide-feast/art.svg",
-      "games/tide-feast/asset-provenance.json",
-      "games/tide-feast/catalog.json",
-      "games/tide-feast/engine-verification.json",
-      "games/tide-feast/engine.js",
-      "games/tide-feast/release-manifest.json",
-      "games/tide-feast/render.js",
-      "games/tide-feast/storage.js",
-      "games/tide-feast/style.css",
-      "games/tide-feast/ui-verification.json",
-      "games/tide-feast/ui.js",
-      "games/tide-feast/verify-engine.cjs",
-      "games/tide-feast/verify-ui.cjs",
-      "games/tide-feast/verify.cjs"
+      "games/starweave-idle.html",
+      "games/starweave-idle/README.md",
+      "games/starweave-idle/art.svg",
+      "games/starweave-idle/asset-provenance.json",
+      "games/starweave-idle/cap-verification-results.json",
+      "games/starweave-idle/catalog.json",
+      "games/starweave-idle/engine-verification-results.json",
+      "games/starweave-idle/engine.js",
+      "games/starweave-idle/realtime-verification.json",
+      "games/starweave-idle/release-manifest.json",
+      "games/starweave-idle/render.js",
+      "games/starweave-idle/storage.js",
+      "games/starweave-idle/style.css",
+      "games/starweave-idle/ui-verification.json",
+      "games/starweave-idle/ui.js",
+      "games/starweave-idle/verification-report.json",
+      "games/starweave-idle/verify-cap.cjs",
+      "games/starweave-idle/verify-engine.cjs",
+      "games/starweave-idle/verify-ui.cjs",
+      "games/starweave-idle/verify.cjs"
     ],
     "modifiedExisting": [
       "README.md",
       "app.js",
-      "games/garden-watchline/app.js",
-      "games/garden-watchline/release-manifest.json",
-      "games/garden-watchline/verification-report.json",
       "garden-aquarium-release.json",
       "index.html",
       "verify-garden-aquarium.cjs"
-    ]
+    ],
+    "primaryCategory": "simulation",
+    "preservedPreviousGameFiles": true,
+    "retainedBaselineVerification": {
+      "baseCommit": "060faa55de099853e1e31b427d7729f126ac49ed",
+      "baseTreeSHA": "8bf7d0bbee0744d89f13c506b683d5ef879b8774",
+      "priorGatePassed": true,
+      "priorCommands": [
+        {
+          "file": "verify-all.cjs",
+          "passed": true,
+          "outputSHA256": "aa53feaee5b6506e43e6e7fbdd4e39940a1771f819166055358c265658b91449"
+        },
+        {
+          "file": "games/garden-watchline/verify.cjs",
+          "passed": true,
+          "outputSHA256": "2b4f85144723018026d7d463d3e0658711329bc45de3b7b640bb5241f72a1e84"
+        },
+        {
+          "file": "games/garden-watchline/replay.cjs",
+          "passed": true,
+          "outputSHA256": "708c61737aa5e434692b4a760ca655bfb9bd5040feb0836c0e09256dcc8f964a"
+        },
+        {
+          "file": "games/garden-watchline/coherent-strategy.cjs",
+          "passed": true,
+          "outputSHA256": "2038a152a9aa0e1f3c01e57ea2e49db1885b790db4461ce2ef029232992db07a"
+        },
+        {
+          "file": "games/garden-watchline/balance-audit.cjs",
+          "passed": true,
+          "outputSHA256": "ddc285148bb9842c45da5648e301dda24aaa7d70b318bd8de3b826c318ebf48c"
+        },
+        {
+          "file": "games/garden-watchline/shield-first-audit.cjs",
+          "passed": true,
+          "outputSHA256": "86f823bd071bcb4163ce5b1a1e5e61053dd30e232e4bcec92bcfddbc9ba4102e"
+        },
+        {
+          "file": "games/garden-watchline/verify-frame-lifecycle.cjs",
+          "passed": true,
+          "outputSHA256": "4a23bbfcd7212dc914b90b3590e9b3f519c461d8ddd258d288ae6c302b22aab8"
+        },
+        {
+          "file": "verification/verify-wondertide.cjs",
+          "passed": true,
+          "outputSHA256": "110ae2a5b3149c3ea7e454916230e792fa9ba6fd04e38361c22df3839547d009"
+        },
+        {
+          "file": "games/tide-feast/verify.cjs",
+          "passed": true,
+          "outputSHA256": "24bc31fe09e95c47420ccabd747111ba9c8a796cd4b1ae43b2c6653754daf580"
+        }
+      ],
+      "evidenceSHA256": "291ba83880b179a30ae1f7c3da978b0103984a7630b0f6547bd7fc96d2932f63",
+      "condition": "No previously published game source, asset, report or test file changed; candidate whole-tree preservation independently verified.",
+      "replayedInScopedRun": false
+    }
+  },
+  "nonClassicIDs": [
+    "starweave-idle"
+  ],
+  "categoryIntegration": {
+    "id": "simulation",
+    "before": {
+      "id": "simulation",
+      "title": "經營冒險",
+      "description": "規劃資源、探索世界，或即時指揮航線。",
+      "examples": "鐵道・餐廳・空中指揮所",
+      "icon": "✈",
+      "color": "#a8d9d2",
+      "gameIds": [
+        "tiny-orbit",
+        "railway-town",
+        "merge-bistro",
+        "space-rescue",
+        "backpack-dungeon",
+        "island-colony",
+        "air-traffic",
+        "hotel-manager",
+        "repair-shop",
+        "museum-curator",
+        "theater-manager",
+        "caravan-trade",
+        "tower-defense",
+        "deep-sea-treasure",
+        "time-loop-adventure",
+        "conservation-park",
+        "alchemy-lab"
+      ]
+    },
+    "after": {
+      "id": "simulation",
+      "title": "經營冒險",
+      "description": "規劃資源、探索世界，或即時指揮航線。",
+      "examples": "鐵道・餐廳・空中指揮所",
+      "icon": "✈",
+      "color": "#a8d9d2",
+      "gameIds": [
+        "tiny-orbit",
+        "railway-town",
+        "merge-bistro",
+        "space-rescue",
+        "backpack-dungeon",
+        "island-colony",
+        "air-traffic",
+        "hotel-manager",
+        "repair-shop",
+        "museum-curator",
+        "theater-manager",
+        "caravan-trade",
+        "tower-defense",
+        "deep-sea-treasure",
+        "time-loop-adventure",
+        "conservation-park",
+        "alchemy-lab",
+        "starweave-idle"
+      ]
+    }
   }
 }
