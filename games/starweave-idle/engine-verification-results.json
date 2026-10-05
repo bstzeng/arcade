@@ -1,0 +1,1681 @@
+{
+  "engine": "games/starweave-idle/engine.js",
+  "sha256": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
+  "date": "2026-10-05T06:31:46.136Z",
+  "tests": [
+    {
+      "name": "same seed and actions deterministic",
+      "pass": true
+    },
+    {
+      "name": "invalid or oversized delta never skips simulation",
+      "pass": true
+    },
+    {
+      "name": "level one cannot spend nonexistent points or buy locked skill",
+      "pass": true
+    },
+    {
+      "name": "inherited attribute keys cannot consume points or poison state",
+      "pass": true
+    },
+    {
+      "name": "unknown action and item do not mutate state",
+      "pass": true
+    },
+    {
+      "name": "skills unlock exactly at required levels and consume one point",
+      "pass": true
+    },
+    {
+      "name": "overflow protects locks and considers new weakest drop",
+      "pass": true
+    },
+    {
+      "name": "overflow chooses weakest existing unprotected gear",
+      "pass": true
+    },
+    {
+      "name": "all 18 protected bag slots send arriving drop to basket",
+      "pass": true
+    },
+    {
+      "name": "repeated sell and equip cannot duplicate gold or gear",
+      "pass": true
+    },
+    {
+      "name": "locked gear cannot be stashed or sold, locked basket can be retrieved",
+      "pass": true
+    },
+    {
+      "name": "enhance costs exact gold, caps at ten, and failed repeats are inert",
+      "pass": true
+    },
+    {
+      "name": "basket cap retains every final-wave drop and resumes after sale",
+      "pass": true
+    },
+    {
+      "name": "save round trip preserves long-run progression and equipment",
+      "pass": true
+    },
+    {
+      "name": "save parser rejects corrupt numeric types, budgets, ids and inventory",
+      "pass": true,
+      "detail": {
+        "mutationsRejected": 37
+      }
+    },
+    {
+      "name": "normal attack fire cast charges exact mana cost",
+      "pass": true
+    },
+    {
+      "name": "ordinary-earned gear lock stash retrieve cycle conserves inventory and money",
+      "pass": true,
+      "detail": {
+        "lock": 50,
+        "stash": 25,
+        "retrieve": 25
+      }
+    },
+    {
+      "name": "full bag retrieve fails without losing gear",
+      "pass": true
+    },
+    {
+      "name": "normal-earned skill points cannot overlevel or overspend",
+      "pass": true,
+      "detail": {
+        "simulatedSeconds": 3515.1,
+        "level": 50,
+        "depth": 62,
+        "frontier": 62,
+        "mode": "advance",
+        "kills": 827,
+        "elites": 61,
+        "retreats": 13,
+        "gold": 114887,
+        "bag": 18,
+        "basket": 0,
+        "attrPoints": 0,
+        "skillPoints": 0,
+        "skills": {
+          "fire": 10,
+          "ice": 10,
+          "shield": 10,
+          "lightning": 10,
+          "meteor": 10
+        }
+      }
+    },
+    {
+      "name": "ordinary-earned equipment swap does not manufacture HP",
+      "pass": true,
+      "detail": {
+        "simulatedSeconds": 640.2,
+        "level": 9,
+        "depth": 4,
+        "frontier": 4,
+        "mode": "combat",
+        "kills": 127,
+        "elites": 3,
+        "retreats": 7,
+        "gold": 914,
+        "bag": 18,
+        "basket": 46,
+        "attrPoints": 24,
+        "skillPoints": 8,
+        "skills": {
+          "fire": 1,
+          "ice": 0,
+          "shield": 0,
+          "lightning": 0,
+          "meteor": 0
+        }
+      }
+    },
+    {
+      "name": "zero-health restored save returns to play without input",
+      "pass": true
+    },
+    {
+      "name": "repeated equipment cycles conserve HP and mana fractions",
+      "pass": true
+    },
+    {
+      "name": "basket maximum plus one cannot load and locked cap can safely recover",
+      "pass": true
+    },
+    {
+      "name": "repeated gear swaps cannot generate free HP",
+      "pass": true
+    }
+  ],
+  "simulations": [
+    {
+      "seed": 1,
+      "requestedMinutes": 60,
+      "policy": "no input",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 89,
+      "simulatedSeconds": 3600,
+      "level": 21,
+      "depth": 1,
+      "frontier": 5,
+      "mode": "advance",
+      "kills": 857,
+      "elites": 6,
+      "retreats": 32,
+      "gold": 6217,
+      "bag": 18,
+      "basket": 395,
+      "attrPoints": 60,
+      "skillPoints": 20,
+      "skills": {
+        "fire": 1,
+        "ice": 0,
+        "shield": 0,
+        "lightning": 0,
+        "meteor": 0
+      },
+      "maxKillGapSeconds": 23,
+      "retreatTransitions": 61,
+      "farmsSeen": 30,
+      "retriesSeen": 29,
+      "actions": {},
+      "enhancementSpent": 0,
+      "saleIncome": 0,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 9,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "loot",
+          "kills": 119,
+          "elites": 3,
+          "retreats": 7,
+          "gold": 886,
+          "bag": 18,
+          "basket": 37,
+          "attrPoints": 24,
+          "skillPoints": 8,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 12,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "advance",
+          "kills": 266,
+          "elites": 3,
+          "retreats": 12,
+          "gold": 1795,
+          "bag": 18,
+          "basket": 110,
+          "attrPoints": 33,
+          "skillPoints": 11,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 15,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "combat",
+          "kills": 414,
+          "elites": 3,
+          "retreats": 16,
+          "gold": 2811,
+          "bag": 18,
+          "basket": 178,
+          "attrPoints": 42,
+          "skillPoints": 14,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 17,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "loot",
+          "kills": 566,
+          "elites": 3,
+          "retreats": 21,
+          "gold": 3811,
+          "bag": 18,
+          "basket": 243,
+          "attrPoints": 48,
+          "skillPoints": 16,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 19,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "combat",
+          "kills": 719,
+          "elites": 4,
+          "retreats": 25,
+          "gold": 4903,
+          "bag": 18,
+          "basket": 321,
+          "attrPoints": 54,
+          "skillPoints": 18,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 21,
+          "depth": 1,
+          "frontier": 5,
+          "mode": "advance",
+          "kills": 857,
+          "elites": 6,
+          "retreats": 32,
+          "gold": 6217,
+          "bag": 18,
+          "basket": 395,
+          "attrPoints": 60,
+          "skillPoints": 20,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 1,
+      "requestedMinutes": 60,
+      "policy": "ordinary allocation/equip/enhance/sell every 5 sim seconds",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 141,
+      "simulatedSeconds": 3600,
+      "level": 50,
+      "depth": 61,
+      "frontier": 64,
+      "mode": "advance",
+      "kills": 817,
+      "elites": 63,
+      "retreats": 8,
+      "gold": 120645,
+      "bag": 18,
+      "basket": 0,
+      "attrPoints": 0,
+      "skillPoints": 0,
+      "skills": {
+        "fire": 10,
+        "ice": 10,
+        "shield": 10,
+        "lightning": 10,
+        "meteor": 10
+      },
+      "maxKillGapSeconds": 24,
+      "retreatTransitions": 10,
+      "farmsSeen": 3,
+      "retriesSeen": 2,
+      "actions": {
+        "equip": 48,
+        "attribute": 147,
+        "skill": 49,
+        "enhance": 118,
+        "sell": 326
+      },
+      "enhancementSpent": 23241,
+      "saleIncome": 72022,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 19,
+          "depth": 19,
+          "frontier": 19,
+          "mode": "combat",
+          "kills": 215,
+          "elites": 18,
+          "retreats": 0,
+          "gold": 5574,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 3,
+            "ice": 4,
+            "shield": 4,
+            "lightning": 4,
+            "meteor": 4
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 29,
+          "depth": 32,
+          "frontier": 32,
+          "mode": "combat",
+          "kills": 377,
+          "elites": 31,
+          "retreats": 0,
+          "gold": 23922,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 5,
+            "ice": 6,
+            "shield": 6,
+            "lightning": 6,
+            "meteor": 6
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 36,
+          "depth": 43,
+          "frontier": 43,
+          "mode": "combat",
+          "kills": 504,
+          "elites": 42,
+          "retreats": 0,
+          "gold": 44295,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 7,
+            "ice": 8,
+            "shield": 7,
+            "lightning": 7,
+            "meteor": 7
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 41,
+          "depth": 52,
+          "frontier": 52,
+          "mode": "combat",
+          "kills": 607,
+          "elites": 51,
+          "retreats": 2,
+          "gold": 62557,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 8,
+            "ice": 9,
+            "shield": 8,
+            "lightning": 8,
+            "meteor": 8
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 46,
+          "depth": 60,
+          "frontier": 60,
+          "mode": "combat",
+          "kills": 712,
+          "elites": 59,
+          "retreats": 3,
+          "gold": 92240,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 9,
+            "ice": 10,
+            "shield": 9,
+            "lightning": 9,
+            "meteor": 9
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 50,
+          "depth": 61,
+          "frontier": 64,
+          "mode": "advance",
+          "kills": 817,
+          "elites": 63,
+          "retreats": 8,
+          "gold": 120645,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 10,
+            "ice": 10,
+            "shield": 10,
+            "lightning": 10,
+            "meteor": 10
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 20261005,
+      "requestedMinutes": 60,
+      "policy": "no input",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 87,
+      "simulatedSeconds": 3600,
+      "level": 20,
+      "depth": 5,
+      "frontier": 5,
+      "mode": "combat",
+      "kills": 840,
+      "elites": 4,
+      "retreats": 34,
+      "gold": 5908,
+      "bag": 18,
+      "basket": 394,
+      "attrPoints": 57,
+      "skillPoints": 19,
+      "skills": {
+        "fire": 1,
+        "ice": 0,
+        "shield": 0,
+        "lightning": 0,
+        "meteor": 0
+      },
+      "maxKillGapSeconds": 23,
+      "retreatTransitions": 65,
+      "farmsSeen": 31,
+      "retriesSeen": 31,
+      "actions": {},
+      "enhancementSpent": 0,
+      "saleIncome": 0,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 9,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "travel",
+          "kills": 109,
+          "elites": 3,
+          "retreats": 8,
+          "gold": 822,
+          "bag": 18,
+          "basket": 40,
+          "attrPoints": 24,
+          "skillPoints": 8,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 12,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "advance",
+          "kills": 258,
+          "elites": 3,
+          "retreats": 13,
+          "gold": 1717,
+          "bag": 18,
+          "basket": 113,
+          "attrPoints": 33,
+          "skillPoints": 11,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 15,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "loot",
+          "kills": 407,
+          "elites": 3,
+          "retreats": 18,
+          "gold": 2720,
+          "bag": 18,
+          "basket": 181,
+          "attrPoints": 42,
+          "skillPoints": 14,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 17,
+          "depth": 3,
+          "frontier": 5,
+          "mode": "combat",
+          "kills": 555,
+          "elites": 4,
+          "retreats": 23,
+          "gold": 3807,
+          "bag": 18,
+          "basket": 260,
+          "attrPoints": 48,
+          "skillPoints": 16,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 19,
+          "depth": 1,
+          "frontier": 5,
+          "mode": "camp",
+          "kills": 689,
+          "elites": 4,
+          "retreats": 30,
+          "gold": 4889,
+          "bag": 18,
+          "basket": 329,
+          "attrPoints": 54,
+          "skillPoints": 18,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 20,
+          "depth": 5,
+          "frontier": 5,
+          "mode": "combat",
+          "kills": 840,
+          "elites": 4,
+          "retreats": 34,
+          "gold": 5908,
+          "bag": 18,
+          "basket": 394,
+          "attrPoints": 57,
+          "skillPoints": 19,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 20261005,
+      "requestedMinutes": 60,
+      "policy": "ordinary allocation/equip/enhance/sell every 5 sim seconds",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 171,
+      "simulatedSeconds": 3600,
+      "level": 51,
+      "depth": 50,
+      "frontier": 50,
+      "mode": "combat",
+      "kills": 939,
+      "elites": 49,
+      "retreats": 20,
+      "gold": 128193,
+      "bag": 18,
+      "basket": 0,
+      "attrPoints": 0,
+      "skillPoints": 1,
+      "skills": {
+        "fire": 10,
+        "ice": 10,
+        "shield": 10,
+        "lightning": 10,
+        "meteor": 10
+      },
+      "maxKillGapSeconds": 23,
+      "retreatTransitions": 32,
+      "farmsSeen": 12,
+      "retriesSeen": 12,
+      "actions": {
+        "attribute": 150,
+        "skill": 49,
+        "equip": 49,
+        "enhance": 110,
+        "sell": 334
+      },
+      "enhancementSpent": 16445,
+      "saleIncome": 72700,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 19,
+          "depth": 18,
+          "frontier": 18,
+          "mode": "combat",
+          "kills": 209,
+          "elites": 17,
+          "retreats": 0,
+          "gold": 4758,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 3,
+            "ice": 4,
+            "shield": 4,
+            "lightning": 4,
+            "meteor": 4
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 29,
+          "depth": 32,
+          "frontier": 32,
+          "mode": "combat",
+          "kills": 370,
+          "elites": 31,
+          "retreats": 0,
+          "gold": 20902,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 5,
+            "ice": 6,
+            "shield": 6,
+            "lightning": 6,
+            "meteor": 6
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 35,
+          "depth": 38,
+          "frontier": 40,
+          "mode": "combat",
+          "kills": 506,
+          "elites": 39,
+          "retreats": 5,
+          "gold": 41802,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 7,
+            "ice": 7,
+            "shield": 7,
+            "lightning": 7,
+            "meteor": 7
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 41,
+          "depth": 42,
+          "frontier": 45,
+          "mode": "combat",
+          "kills": 649,
+          "elites": 44,
+          "retreats": 10,
+          "gold": 68491,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 8,
+            "ice": 9,
+            "shield": 8,
+            "lightning": 8,
+            "meteor": 8
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 46,
+          "depth": 46,
+          "frontier": 49,
+          "mode": "loot",
+          "kills": 790,
+          "elites": 48,
+          "retreats": 15,
+          "gold": 98819,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 9,
+            "ice": 10,
+            "shield": 9,
+            "lightning": 9,
+            "meteor": 9
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 51,
+          "depth": 50,
+          "frontier": 50,
+          "mode": "combat",
+          "kills": 939,
+          "elites": 49,
+          "retreats": 20,
+          "gold": 128193,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 1,
+          "skills": {
+            "fire": 10,
+            "ice": 10,
+            "shield": 10,
+            "lightning": 10,
+            "meteor": 10
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 3735928559,
+      "requestedMinutes": 60,
+      "policy": "no input",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 82,
+      "simulatedSeconds": 3600,
+      "level": 20,
+      "depth": 1,
+      "frontier": 5,
+      "mode": "loot",
+      "kills": 852,
+      "elites": 5,
+      "retreats": 33,
+      "gold": 6113,
+      "bag": 18,
+      "basket": 382,
+      "attrPoints": 57,
+      "skillPoints": 19,
+      "skills": {
+        "fire": 1,
+        "ice": 0,
+        "shield": 0,
+        "lightning": 0,
+        "meteor": 0
+      },
+      "maxKillGapSeconds": 31,
+      "retreatTransitions": 62,
+      "farmsSeen": 30,
+      "retriesSeen": 29,
+      "actions": {},
+      "enhancementSpent": 0,
+      "saleIncome": 0,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 9,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "camp",
+          "kills": 111,
+          "elites": 3,
+          "retreats": 8,
+          "gold": 846,
+          "bag": 18,
+          "basket": 38,
+          "attrPoints": 24,
+          "skillPoints": 8,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 12,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "advance",
+          "kills": 259,
+          "elites": 3,
+          "retreats": 13,
+          "gold": 1754,
+          "bag": 18,
+          "basket": 114,
+          "attrPoints": 33,
+          "skillPoints": 11,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 15,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "advance",
+          "kills": 411,
+          "elites": 3,
+          "retreats": 17,
+          "gold": 2778,
+          "bag": 18,
+          "basket": 184,
+          "attrPoints": 42,
+          "skillPoints": 14,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 17,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "loot",
+          "kills": 564,
+          "elites": 3,
+          "retreats": 22,
+          "gold": 3825,
+          "bag": 18,
+          "basket": 252,
+          "attrPoints": 48,
+          "skillPoints": 16,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 19,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "combat",
+          "kills": 716,
+          "elites": 4,
+          "retreats": 26,
+          "gold": 4870,
+          "bag": 18,
+          "basket": 330,
+          "attrPoints": 54,
+          "skillPoints": 18,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 20,
+          "depth": 1,
+          "frontier": 5,
+          "mode": "loot",
+          "kills": 852,
+          "elites": 5,
+          "retreats": 33,
+          "gold": 6113,
+          "bag": 18,
+          "basket": 382,
+          "attrPoints": 57,
+          "skillPoints": 19,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 3735928559,
+      "requestedMinutes": 60,
+      "policy": "ordinary allocation/equip/enhance/sell every 5 sim seconds",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 151,
+      "simulatedSeconds": 3600,
+      "level": 50,
+      "depth": 45,
+      "frontier": 49,
+      "mode": "combat",
+      "kills": 914,
+      "elites": 48,
+      "retreats": 19,
+      "gold": 127922,
+      "bag": 18,
+      "basket": 1,
+      "attrPoints": 0,
+      "skillPoints": 0,
+      "skills": {
+        "fire": 10,
+        "ice": 10,
+        "shield": 10,
+        "lightning": 10,
+        "meteor": 10
+      },
+      "maxKillGapSeconds": 22,
+      "retreatTransitions": 31,
+      "farmsSeen": 13,
+      "retriesSeen": 12,
+      "actions": {
+        "attribute": 147,
+        "skill": 49,
+        "equip": 43,
+        "enhance": 96,
+        "sell": 328
+      },
+      "enhancementSpent": 14218,
+      "saleIncome": 73168,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 19,
+          "depth": 18,
+          "frontier": 18,
+          "mode": "loot",
+          "kills": 210,
+          "elites": 18,
+          "retreats": 0,
+          "gold": 5315,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 3,
+            "ice": 4,
+            "shield": 4,
+            "lightning": 4,
+            "meteor": 4
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 29,
+          "depth": 32,
+          "frontier": 32,
+          "mode": "loot",
+          "kills": 372,
+          "elites": 31,
+          "retreats": 0,
+          "gold": 21227,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 5,
+            "ice": 6,
+            "shield": 6,
+            "lightning": 6,
+            "meteor": 6
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 36,
+          "depth": 43,
+          "frontier": 43,
+          "mode": "combat",
+          "kills": 506,
+          "elites": 42,
+          "retreats": 2,
+          "gold": 45931,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 7,
+            "ice": 8,
+            "shield": 7,
+            "lightning": 7,
+            "meteor": 7
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 41,
+          "depth": 40,
+          "frontier": 44,
+          "mode": "travel",
+          "kills": 638,
+          "elites": 43,
+          "retreats": 8,
+          "gold": 70533,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 8,
+            "ice": 9,
+            "shield": 8,
+            "lightning": 8,
+            "meteor": 8
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 46,
+          "depth": 47,
+          "frontier": 47,
+          "mode": "combat",
+          "kills": 773,
+          "elites": 46,
+          "retreats": 13,
+          "gold": 95494,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 9,
+            "ice": 10,
+            "shield": 9,
+            "lightning": 9,
+            "meteor": 9
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 50,
+          "depth": 45,
+          "frontier": 49,
+          "mode": "combat",
+          "kills": 914,
+          "elites": 48,
+          "retreats": 19,
+          "gold": 127922,
+          "bag": 18,
+          "basket": 1,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 10,
+            "ice": 10,
+            "shield": 10,
+            "lightning": 10,
+            "meteor": 10
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 8675309,
+      "requestedMinutes": 10,
+      "policy": "no input",
+      "tickSeconds": 0.016666666666666666,
+      "wallExecutionMs": 59,
+      "simulatedSeconds": 600,
+      "level": 9,
+      "depth": 1,
+      "frontier": 4,
+      "mode": "loot",
+      "kills": 115,
+      "elites": 3,
+      "retreats": 8,
+      "gold": 862,
+      "bag": 18,
+      "basket": 46,
+      "attrPoints": 24,
+      "skillPoints": 8,
+      "skills": {
+        "fire": 1,
+        "ice": 0,
+        "shield": 0,
+        "lightning": 0,
+        "meteor": 0
+      },
+      "maxKillGapSeconds": 22,
+      "retreatTransitions": 13,
+      "farmsSeen": 6,
+      "retriesSeen": 5,
+      "actions": {},
+      "enhancementSpent": 0,
+      "saleIncome": 0,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 9,
+          "depth": 1,
+          "frontier": 4,
+          "mode": "loot",
+          "kills": 115,
+          "elites": 3,
+          "retreats": 8,
+          "gold": 862,
+          "bag": 18,
+          "basket": 46,
+          "attrPoints": 24,
+          "skillPoints": 8,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 8675309,
+      "requestedMinutes": 10,
+      "policy": "no input",
+      "tickSeconds": 0.25,
+      "wallExecutionMs": 5,
+      "simulatedSeconds": 600,
+      "level": 9,
+      "depth": 4,
+      "frontier": 4,
+      "mode": "retreat",
+      "kills": 106,
+      "elites": 3,
+      "retreats": 7,
+      "gold": 791,
+      "bag": 18,
+      "basket": 31,
+      "attrPoints": 24,
+      "skillPoints": 8,
+      "skills": {
+        "fire": 1,
+        "ice": 0,
+        "shield": 0,
+        "lightning": 0,
+        "meteor": 0
+      },
+      "maxKillGapSeconds": 28,
+      "retreatTransitions": 12,
+      "farmsSeen": 5,
+      "retriesSeen": 5,
+      "actions": {},
+      "enhancementSpent": 0,
+      "saleIncome": 0,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 9,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "retreat",
+          "kills": 106,
+          "elites": 3,
+          "retreats": 7,
+          "gold": 791,
+          "bag": 18,
+          "basket": 31,
+          "attrPoints": 24,
+          "skillPoints": 8,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        },
+        {
+          "simulatedSeconds": 600,
+          "level": 9,
+          "depth": 4,
+          "frontier": 4,
+          "mode": "retreat",
+          "kills": 106,
+          "elites": 3,
+          "retreats": 7,
+          "gold": 791,
+          "bag": 18,
+          "basket": 31,
+          "attrPoints": 24,
+          "skillPoints": 8,
+          "skills": {
+            "fire": 1,
+            "ice": 0,
+            "shield": 0,
+            "lightning": 0,
+            "meteor": 0
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 20261005,
+      "requestedMinutes": 60,
+      "policy": "ordinary allocation/equip/enhance/sell every 30 sim seconds",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 118,
+      "simulatedSeconds": 3600,
+      "level": 50,
+      "depth": 54,
+      "frontier": 54,
+      "mode": "travel",
+      "kills": 910,
+      "elites": 53,
+      "retreats": 18,
+      "gold": 123411,
+      "bag": 18,
+      "basket": 4,
+      "attrPoints": 0,
+      "skillPoints": 0,
+      "skills": {
+        "fire": 10,
+        "ice": 10,
+        "shield": 10,
+        "lightning": 10,
+        "meteor": 10
+      },
+      "maxKillGapSeconds": 25,
+      "retreatTransitions": 28,
+      "farmsSeen": 10,
+      "retriesSeen": 10,
+      "actions": {
+        "attribute": 147,
+        "skill": 49,
+        "equip": 47,
+        "enhance": 109,
+        "sell": 114
+      },
+      "enhancementSpent": 18398,
+      "saleIncome": 70932,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 19,
+          "depth": 18,
+          "frontier": 18,
+          "mode": "combat",
+          "kills": 204,
+          "elites": 17,
+          "retreats": 0,
+          "gold": 5189,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 3,
+            "ice": 4,
+            "shield": 4,
+            "lightning": 4,
+            "meteor": 4
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 28,
+          "depth": 30,
+          "frontier": 30,
+          "mode": "combat",
+          "kills": 352,
+          "elites": 29,
+          "retreats": 0,
+          "gold": 19029,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 5,
+            "ice": 6,
+            "shield": 6,
+            "lightning": 6,
+            "meteor": 5
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 34,
+          "depth": 38,
+          "frontier": 40,
+          "mode": "advance",
+          "kills": 480,
+          "elites": 39,
+          "retreats": 4,
+          "gold": 38016,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 6,
+            "ice": 7,
+            "shield": 7,
+            "lightning": 7,
+            "meteor": 7
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 40,
+          "depth": 44,
+          "frontier": 44,
+          "mode": "combat",
+          "kills": 629,
+          "elites": 43,
+          "retreats": 7,
+          "gold": 61475,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 8,
+            "ice": 8,
+            "shield": 8,
+            "lightning": 8,
+            "meteor": 8
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 45,
+          "depth": 46,
+          "frontier": 49,
+          "mode": "combat",
+          "kills": 760,
+          "elites": 48,
+          "retreats": 14,
+          "gold": 90979,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 9,
+            "ice": 9,
+            "shield": 9,
+            "lightning": 9,
+            "meteor": 9
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 50,
+          "depth": 54,
+          "frontier": 54,
+          "mode": "travel",
+          "kills": 910,
+          "elites": 53,
+          "retreats": 18,
+          "gold": 123411,
+          "bag": 18,
+          "basket": 4,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 10,
+            "ice": 10,
+            "shield": 10,
+            "lightning": 10,
+            "meteor": 10
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    },
+    {
+      "seed": 20261005,
+      "requestedMinutes": 60,
+      "policy": "ordinary allocation/equip/enhance/sell every 60 sim seconds",
+      "tickSeconds": 0.1,
+      "wallExecutionMs": 107,
+      "simulatedSeconds": 3600,
+      "level": 49,
+      "depth": 57,
+      "frontier": 59,
+      "mode": "combat",
+      "kills": 840,
+      "elites": 58,
+      "retreats": 18,
+      "gold": 120468,
+      "bag": 18,
+      "basket": 6,
+      "attrPoints": 0,
+      "skillPoints": 0,
+      "skills": {
+        "fire": 9,
+        "ice": 10,
+        "shield": 10,
+        "lightning": 10,
+        "meteor": 10
+      },
+      "maxKillGapSeconds": 28,
+      "retreatTransitions": 23,
+      "farmsSeen": 6,
+      "retriesSeen": 5,
+      "actions": {
+        "attribute": 144,
+        "skill": 48,
+        "equip": 42,
+        "enhance": 96,
+        "sell": 57
+      },
+      "enhancementSpent": 15354,
+      "saleIncome": 67370,
+      "checkpoints": [
+        {
+          "simulatedSeconds": 600,
+          "level": 18,
+          "depth": 17,
+          "frontier": 17,
+          "mode": "travel",
+          "kills": 195,
+          "elites": 16,
+          "retreats": 0,
+          "gold": 4669,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 3,
+            "ice": 4,
+            "shield": 4,
+            "lightning": 4,
+            "meteor": 3
+          }
+        },
+        {
+          "simulatedSeconds": 1200,
+          "level": 28,
+          "depth": 30,
+          "frontier": 30,
+          "mode": "loot",
+          "kills": 354,
+          "elites": 30,
+          "retreats": 0,
+          "gold": 19228,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 5,
+            "ice": 6,
+            "shield": 6,
+            "lightning": 6,
+            "meteor": 5
+          }
+        },
+        {
+          "simulatedSeconds": 1800.1,
+          "level": 34,
+          "depth": 41,
+          "frontier": 41,
+          "mode": "combat",
+          "kills": 479,
+          "elites": 40,
+          "retreats": 2,
+          "gold": 39263,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 6,
+            "ice": 7,
+            "shield": 7,
+            "lightning": 7,
+            "meteor": 7
+          }
+        },
+        {
+          "simulatedSeconds": 2400.1,
+          "level": 40,
+          "depth": 43,
+          "frontier": 45,
+          "mode": "loot",
+          "kills": 599,
+          "elites": 44,
+          "retreats": 7,
+          "gold": 63370,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 8,
+            "ice": 8,
+            "shield": 8,
+            "lightning": 8,
+            "meteor": 8
+          }
+        },
+        {
+          "simulatedSeconds": 3000.1,
+          "level": 45,
+          "depth": 51,
+          "frontier": 51,
+          "mode": "advance",
+          "kills": 724,
+          "elites": 50,
+          "retreats": 12,
+          "gold": 92994,
+          "bag": 18,
+          "basket": 0,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 9,
+            "ice": 9,
+            "shield": 9,
+            "lightning": 9,
+            "meteor": 9
+          }
+        },
+        {
+          "simulatedSeconds": 3600,
+          "level": 49,
+          "depth": 57,
+          "frontier": 59,
+          "mode": "combat",
+          "kills": 840,
+          "elites": 58,
+          "retreats": 18,
+          "gold": 120468,
+          "bag": 18,
+          "basket": 6,
+          "attrPoints": 0,
+          "skillPoints": 0,
+          "skills": {
+            "fire": 9,
+            "ice": 10,
+            "shield": 10,
+            "lightning": 10,
+            "meteor": 10
+          }
+        }
+      ],
+      "saveRoundTrip": true
+    }
+  ],
+  "wallClock": [],
+  "observations": []
+}

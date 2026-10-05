@@ -1,0 +1,32 @@
+{
+  "game": "starweave-idle",
+  "title": "星絨法師：自走遠征",
+  "entry": "games/starweave-idle.html",
+  "categoryRecommendation": "simulation",
+  "revision": "initial-complete-v1",
+  "engineSha256": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
+  "buildRequired": false,
+  "networkDependencies": [],
+  "saveNamespace": "arcade.starweave-idle.save.v1",
+  "automatedSourceGate": "node games/starweave-idle/verify.cjs",
+  "verification": {
+    "engineFocusedTests": 24,
+    "progressionScenarios": 10,
+    "uiStorageChecks": 38,
+    "uiStorageAssertions": 321,
+    "realTimeEngineRuns": 2,
+    "realTimeSecondsEach": 70,
+    "naturalInventoryCapSimulatedHours": 5.168263888888889,
+    "missingLootAtCap": 0,
+    "browserTested": false,
+    "manualLongSessionTested": false
+  },
+  "limits": [
+    "Five cycling visual regions, not thousands of unique handcrafted maps.",
+    "Manual allocation and equipping; unattended progression may plateau while safely farming.",
+    "Finite five-skill tree, rank 10 each; surplus skill points are retained.",
+    "Basket safety stop at 2000 items; final-wave loot retained, no autosale.",
+    "No offline gains; background pages pause.",
+    "Level limit 999, depth limit 9999; repeatable exploration remains."
+  ]
+}

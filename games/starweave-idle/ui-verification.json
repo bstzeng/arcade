@@ -1,0 +1,221 @@
+{
+  "suite": "Starweave independent offline UI and storage audit",
+  "generatedAt": "2026-10-05T06:46:16.140Z",
+  "environment": {
+    "node": "v24.19.0",
+    "browserUsed": false,
+    "dependencies": "Node built-ins only"
+  },
+  "method": "Unmodified production engine/storage/renderer/UI evaluated in Node VM with event-capable mock DOM, simulated timers/visibility/locks/storage and finite-checking canvas. Direct storage module tests isolate exact ownership failures.",
+  "limitations": [
+    "Mock DOM does not prove native dialog focus trapping, keyboard file picker activation, accessibility tree, actual layout, overflow or canvas raster quality.",
+    "Storage event and lifecycle behavior are simulated at registered handler boundaries, not across real browser processes.",
+    "Source-only accessibility findings require live-browser verification after publication."
+  ],
+  "sourceDigests": {
+    "../starweave-idle.html": "7d4f79174c01619cf333a2dc68c2fc01da07bcab5f0c32036a484320bf538458",
+    "engine.js": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
+    "storage.js": "76f3ad011a111ca67c35d1b98c7e6c57384cf1cfb15c4b4b854f440730818b13",
+    "render.js": "e7482d52ac2e6eea1373f6ddc2a4e18144b7aba01ad38be2d06e7ec318d9e59c",
+    "ui.js": "dc9bb002bbdb0c2c86ace97daa1c4372cc0a08748ca05bc1b8ebae81069e66fe",
+    "style.css": "d2113cec36cb18e1613b9160e1fdb16020832f9d55d228c00b6ac60122f30b89"
+  },
+  "counts": {
+    "tests": 38,
+    "passed": 38,
+    "failed": 0,
+    "assertions": 321
+  },
+  "results": [
+    {
+      "name": "HTML IDs, local asset references and script order are valid",
+      "status": "passed",
+      "assertions": 100
+    },
+    {
+      "name": "Zero-input boot advances actual engine and renderer continuously",
+      "status": "passed",
+      "assertions": 9
+    },
+    {
+      "name": "Manual pause and resume preserve one RAF and freeze simulation",
+      "status": "passed",
+      "assertions": 5
+    },
+    {
+      "name": "Help/settings close and native Escape leave RAF alive and resume correctly",
+      "status": "passed",
+      "assertions": 14
+    },
+    {
+      "name": "Closing guide preserves prior explicit pause",
+      "status": "passed",
+      "assertions": 2
+    },
+    {
+      "name": "Item dialog allows continuing auto battle and repeated upgrade transactions stay bounded",
+      "status": "passed",
+      "assertions": 6
+    },
+    {
+      "name": "Attribute/skill eligibility and repeated delegated clicks cannot overspend",
+      "status": "passed",
+      "assertions": 9
+    },
+    {
+      "name": "Inventory tabs, equip/stash/retrieve/lock and repeated sale use actual UI actions",
+      "status": "passed",
+      "assertions": 13
+    },
+    {
+      "name": "Reset Cancel, Escape and repeated Confirm are transactional",
+      "status": "passed",
+      "assertions": 9
+    },
+    {
+      "name": "Import validation and confirmation protect current progress",
+      "status": "passed",
+      "assertions": 14
+    },
+    {
+      "name": "Export downloads current validated save and revokes its blob URL",
+      "status": "passed",
+      "assertions": 4
+    },
+    {
+      "name": "Visibility hide/resume saves, releases lease, loads fresh camp and never simulates hidden time",
+      "status": "passed",
+      "assertions": 7
+    },
+    {
+      "name": "Pagehide/pageshow preserve RAF, saved progress and prevent elapsed wall-time gains",
+      "status": "passed",
+      "assertions": 5
+    },
+    {
+      "name": "Initially background-loaded page does not claim the active writer lease",
+      "status": "passed",
+      "assertions": 3
+    },
+    {
+      "name": "Blocked storage remains playable and retains temporary progress across visibility changes",
+      "status": "passed",
+      "assertions": 4
+    },
+    {
+      "name": "Quota failure preserves unsaved progress when returning from background",
+      "status": "passed",
+      "assertions": 2
+    },
+    {
+      "name": "Corrupt saved bytes are protected, exportable, and temporary progress survives hiding",
+      "status": "passed",
+      "assertions": 7
+    },
+    {
+      "name": "Waiting tab cannot mutate and takes latest progress after ownership release",
+      "status": "passed",
+      "assertions": 6
+    },
+    {
+      "name": "Lease theft event prevents UI transactions and keeps other-game keys untouched",
+      "status": "passed",
+      "assertions": 4
+    },
+    {
+      "name": "Changed saved bytes after failed save protect both sessions and export live unsaved progress",
+      "status": "passed",
+      "assertions": 8
+    },
+    {
+      "name": "Waiting duplicate-tab export never produces a fabricated fresh-session backup",
+      "status": "passed",
+      "assertions": 1
+    },
+    {
+      "name": "Reset confirmation cannot mutate after losing tab ownership",
+      "status": "passed",
+      "assertions": 3
+    },
+    {
+      "name": "Import confirmation cannot mutate after losing tab ownership",
+      "status": "passed",
+      "assertions": 2
+    },
+    {
+      "name": "Newer file choice wins when older asynchronous import finishes late",
+      "status": "passed",
+      "assertions": 4
+    },
+    {
+      "name": "Closing settings invalidates an unfinished file read",
+      "status": "passed",
+      "assertions": 2
+    },
+    {
+      "name": "Escape from settings invalidates an unfinished file read",
+      "status": "passed",
+      "assertions": 3
+    },
+    {
+      "name": "Reset decision invalidates an earlier pending import without stale prompts",
+      "status": "passed",
+      "assertions": 2
+    },
+    {
+      "name": "Original damaged-save export disappears after explicit accepted recovery",
+      "status": "passed",
+      "assertions": 4
+    },
+    {
+      "name": "Basket pagination expands deterministically and locked bulk-sale items remain",
+      "status": "passed",
+      "assertions": 8
+    },
+    {
+      "name": "Reduced motion settings take OS preference initially and survive saved settings",
+      "status": "passed",
+      "assertions": 5
+    },
+    {
+      "name": "Keyboard-focused item action survives passive inventory/detail rerender",
+      "status": "passed",
+      "assertions": 2
+    },
+    {
+      "name": "Import action is reachable from keyboard in source",
+      "status": "passed",
+      "assertions": 1
+    },
+    {
+      "name": "Responsive and accessibility source safeguards exist",
+      "status": "passed",
+      "assertions": 13
+    },
+    {
+      "name": "Storage lease deny/expire/release never deletes a foreign lease",
+      "status": "passed",
+      "assertions": 12
+    },
+    {
+      "name": "Storage protect blocks ordinary writes; explicit force replacement is bounded",
+      "status": "passed",
+      "assertions": 6
+    },
+    {
+      "name": "Storage blocked reads/writes and quota errors explicitly avoid a false saved state",
+      "status": "passed",
+      "assertions": 11
+    },
+    {
+      "name": "Web Locks reject occupied acquisition, release ownership, and gracefully fall back",
+      "status": "passed",
+      "assertions": 5
+    },
+    {
+      "name": "Every audited production source remained stable throughout run",
+      "status": "passed",
+      "assertions": 6
+    }
+  ]
+}
