@@ -1,5 +1,5 @@
 'use strict';
-const GAME_BUILD = '20261005-starweave-bestiary-v3';
+const GAME_BUILD = '20261005-starweave-neflow-v4';
 // 新增遊戲：複製一筆資料；完成後將 status 改為 ready，並填入相對路徑 url。
 const games = [
   { id: 'number-lab', title: '數字實驗室', category: 'puzzle', description: '滑動合併相同數字，步步累積，挑戰你的 2048。', note: '數字 × 邏輯', art: 'tiles', color: '#c5b3f5', background: '#302b48', word: 'NUMBER LAB', status: 'ready', url: './games/number-lab.html' },
