@@ -1,7 +1,7 @@
 {
   "id": "stormfront-command",
   "title": "磁暴前線",
-  "phase": "ten_mission_paused_planning_patch",
+  "phase": "ten_mission_realtime_group_controls",
   "releaseReady": false,
   "entry": "games/stormfront-command.html",
   "runtimeFiles": [
@@ -95,10 +95,12 @@
     "sourcePerformance": "verification/stormfront-command/performance-final-report.json",
     "creditRoundingRegression": "verification/stormfront-command/roundoff-report.json",
     "finalPresentationAudit": "verification/renderer-independent/revision7-review/ENGINE-BINDING-ADDENDUM.md",
-    "presentationPatchTests": "verification/stormfront-command/paused-help-report.json",
+    "presentationPatchTests": "verification/stormfront-command/realtime-controls-report.json",
     "logisticsGuidanceTests": "verification/stormfront-command/logistics-guidance-tests.cjs",
     "constructionOverlayTests": "verification/stormfront-command/logistics-render-report.json",
-    "ordinaryInputRegression": "verification/stormfront-command/pointer-mode-after.json"
+    "ordinaryInputRegression": "verification/stormfront-command/pointer-mode-after.json",
+    "nativeGroupControls": "verification/stormfront-command/realtime-native-report.json",
+    "continuousOrdinaryBrowserCombat": "pending"
   },
   "assetProvenance": "games/stormfront-command/asset-provenance.json",
   "blockers": [
@@ -124,17 +126,37 @@
     "games/stormfront-command/guidance.js"
   ],
   "presentationPatch": {
-    "baseRuntimeDigest": "44aaf039cbea780d52c130d365af018c55149643d6faf8804f26a4e21286acb0",
+    "baseRuntimeDigest": "d276d02ab7c0faa5b6e30e7b3ac79611a0f9ea71a53f90db83978ccc66042244",
     "engineCampaignStorageUnchanged": true,
     "features": [
-      "paused planning status in the existing mission-clock label slot",
-      "no paused-planning battlefield overlay",
-      "Help heading focus and top reset on each opening",
-      "focus restored to the exact Help opener on close",
-      "near-map Build disclosure also reveals its strip on desktop"
+      "visible mouse and touch group selection modes",
+      "live marquee selection count and highlight preview",
+      "running new and retried missions",
+      "modeless in-game help without automatic pause",
+      "whole-gesture cancellation and outside-release safety",
+      "bounded visible-stall catch-up without auto-pause"
     ],
     "actualBrowserGeometryRetest": "pending",
+    "continuousBrowserCombatTrial": "pending",
     "balanceChange": false,
     "autoOrders": false
+  },
+  "controls": {
+    "newMissionStartsRunning": true,
+    "desktopDragBoxWasExisting": true,
+    "touchDragBox": true,
+    "explicitSelectionAndPanModes": true,
+    "liveMarqueeCountAndHighlight": true,
+    "groupMoveAttackAndAttackMove": true,
+    "formationEngineUnchanged": true,
+    "helpIsModeless": true,
+    "ordinaryCommandsPauseSimulation": false,
+    "pauseExceptions": [
+      "voluntary pause or mission menu",
+      "load or import safety",
+      "window blur or hidden document",
+      "conflicting save revision"
+    ],
+    "visibleStallMaxCatchupSeconds": 0.5
   }
 }
