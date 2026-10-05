@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "garden-aquarium-30-campaign-release",
-  "build": "20261005-starweave-neflow-v4",
+  "build": "20261005-park07-objectives-r2",
   "baseCommit": "06cb82afb849cd0723ab54a6017405ee7aa09bf6",
   "baseTreeSHA": "a5a404bf096c3aad2b87f1e784dd8e1bc91f1ccc",
   "gameCount": 401,
@@ -420,6 +420,11 @@
         "before": "20261005-starweave-bestiary-v3",
         "after": "20261005-starweave-neflow-v4",
         "occurrences": 1
+      },
+      {
+        "before": "20261005-starweave-neflow-v4",
+        "after": "20261005-park07-objectives-r2",
+        "occurrences": 1
       }
     ],
     "index.html": [
@@ -541,6 +546,11 @@
       {
         "before": "20261005-starweave-bestiary-v3",
         "after": "20261005-starweave-neflow-v4",
+        "occurrences": 2
+      },
+      {
+        "before": "20261005-starweave-neflow-v4",
+        "after": "20261005-park07-objectives-r2",
         "occurrences": 2
       }
     ],
@@ -674,6 +684,16 @@
         "before": "1,769 個斷言",
         "after": "1,771 個斷言",
         "occurrences": 1
+      },
+      {
+        "before": "## 經典區的十款遊戲",
+        "after": "## 雲霄歡樂園第 07 園任務修正\n\n新建立或確認重開的第 07 園使用任務內容版本 2：北區必須有真正營運、使用過的觀景輪，以及同區連通、有庫存且曾使用的餐飲、飲水與廁所；市集、北區及東側花園各自構成三個分離服務區。天棚雲霄飛車須以兩層地面淨空，實際跨過市集內至少兩間不同、連通、有庫存且曾使用的餐飲或飲水攤位，並符合原有軌道安全與載客條件。\n\n沒有版本標記的既有第 07 園存檔保留完整舊任務、後續目標及自由經營規則；其他九園、原始地圖、期限、遊具、價格、需求與存檔命名空間不變。未加入時間門檻或補助。來源合法輸入重播證明可完成，並非每關 20 分鐘普通操作或耐玩度驗收。\n\n`node verify-all.cjs --new-source-only` 現在執行本次 Park 07 公開回歸與完整目錄／雜湊檢查。歷史驗證在隔離副本逐位元組重建當時的根檔案與 Park 來源；原證據、驗證器和舊任務資料保持原樣。實際瀏覽器與人工試玩另行記錄。\n\n## 經典區的十款遊戲",
+        "occurrences": 1
+      },
+      {
+        "before": "`node verify-all.cjs --new-source-only` 執行 401 筆目錄、25 類、經營冒險 18 款及經典十款、完整來源雜湊、舊檔保存與新法師 gate，沿用未變更遊戲的已驗證證據。一般 `node verify-all.cjs` 仍可額外重跑先前各套件；所有來源檢查都不替代實際瀏覽器、觸控、音效及長時間人工驗收。",
+        "after": "法師來源 gate 可執行 `node games/starweave-idle/verify.cjs`。`node verify-all.cjs` 檢查 401 筆目錄、25 類、完整來源雜湊、舊檔保存並重跑各發布套件；`--new-source-only` 則只重跑最新發布的受影響套件，其他來源依完全相同位元組沿用證據。這些檢查不替代實際瀏覽器、觸控、音效及長時間人工驗收。",
+        "occurrences": 1
       }
     ],
     "verify-all.cjs": [
@@ -685,18 +705,20 @@
     ]
   },
   "rootFiles": {
-    "app.js": "abe65d9d934cc659049369d2cf87204a5cf3661512e820b3c7e87021503730e7",
-    "index.html": "48da274d154cd31086c708c4c65bf1aa86155a7a51df209babff515ee91609b9",
-    "README.md": "ac466f82b438fc3d66611bb6a8d1fa8c73bf087d0a65fa39eee081817d909691",
+    "app.js": "356ab530797f94633cc9395130435df74ad8c06750eb2cc1329449fa6124a314",
+    "index.html": "dea03e70cf3173d8d61a1215426e9b2af900c4cf34b9f5c85404898c121a61d7",
+    "README.md": "4a85006333973282c69327b2aebda3a87a4a29cd8a317690c321ee25f42e636a",
     "verify-all.cjs": "b0a97c09b7ed6dbbe43191a4d947db0efe4842739927ebb07bc1e3183c47d6a9"
   },
   "supportFiles": {
     "garden-aquarium-baseline.json": "dabab7c18fe61f01decb5cbefbcde4dbffea7a4db0f492d8887a133b3559a05e",
-    "verify-garden-aquarium.cjs": "7ca6cd8006ff4adfd46193a737256208721f703043819b514f2850128b2f80ac",
+    "verify-garden-aquarium.cjs": "87c674ccca17dd968db8a5531d9fad88887ec2081681436aff6d50c250a48b2f",
     "verification/verify-wondertide.cjs": "f2a36010daa68c6d5369f1d910093573a7ab199929525c975d5080f15c260db6",
     "verification/wondertide-browser-qa-plan.md": "ff5336b25b0ed3b3758580c456851b822827e41562b29c3f7116098f5204356e",
     "verification/wondertide-legacy-fixtures.json": "ba4e8b21b1571ab630d231fd2536237bccfe411dcb2cab4c29172c04dd4c7a02",
-    "verification/wondertide-report.json": "2d55d0aa158cbaa2b95d63649fec630fa4e187fee72e24054ab3b8ee5a532810"
+    "verification/wondertide-report.json": "2d55d0aa158cbaa2b95d63649fec630fa4e187fee72e24054ab3b8ee5a532810",
+    "verification/park07-objectives/verify.cjs": "3a9e2b8b5d41a3afeed20e65cd965d042e8a4be71b3702c3ee0c1b2ffe040ed9",
+    "verification/park07-objectives/action-tapes.json": "bc170a37cdc2d2b7f1728478639eeac7e8e7891ed04a4d11e1d2b66de815b242"
   },
   "sourceGatesAccepted": true,
   "claims": {
@@ -706,7 +728,7 @@
     "commercialQualityCertified": false,
     "twentyMinutesPerLevelVerified": false
   },
-  "scope": "Narrow existing Starweave V4 northeast-only entry and shorter empty waits; counts401/25, all cards/category order, other400 games, artwork/renderer/UI/styles/storage and hazard geometry unchanged.",
+  "scope": "Narrow fresh Park07 objective revision2 plus cache-only entry tokens. Legacy mission semantics, other400 games, catalog and save namespaces preserved; no human-duration claim.",
   "sourceReviewBindings": {
     "garden-watchline": {
       "accepted": true,
@@ -734,8 +756,8 @@
     }
   },
   "latestIntegration": {
-    "baseCommit": "af6de196d005f7ad5d2020bcc452e0e819928b6d",
-    "baseTreeSHA": "0728190635784f65efcfa35ae56cc2041c7301b2",
+    "baseCommit": "7eedca3eee72489be81215d2716f779bac7951e9",
+    "baseTreeSHA": "9f3a43d94cf58791fd806f18b87dfd03863931c3",
     "baseBlobCount": 3851,
     "baseCatalogCount": 401,
     "baseClassicCount": 10,
@@ -819,27 +841,25 @@
       "actualBrowserQAPassed": false,
       "allLegacyEnginesRerun": false
     },
-    "addedFiles": [],
+    "addedFiles": [
+      "verification/park07-objectives/verify.cjs",
+      "verification/park07-objectives/action-tapes.json"
+    ],
     "modifiedExisting": [
       "README.md",
       "app.js",
-      "games/starweave-idle.html",
-      "games/starweave-idle/README.md",
-      "games/starweave-idle/cap-verification-results.json",
-      "games/starweave-idle/engine-verification-results.json",
-      "games/starweave-idle/engine.js",
-      "games/starweave-idle/realtime-verification.json",
-      "games/starweave-idle/release-manifest.json",
-      "games/starweave-idle/ui-verification.json",
-      "games/starweave-idle/verification-report.json",
-      "games/starweave-idle/verify-engine.cjs",
-      "games/starweave-idle/verify-ui.cjs",
-      "games/starweave-idle/verify.cjs",
+      "games/skyrail-park.html",
+      "games/skyrail-park/README.md",
+      "games/skyrail-park/engine.js",
+      "games/skyrail-park/levels.js",
+      "games/skyrail-park/levels.json",
+      "games/skyrail-park/render.js",
+      "games/skyrail-park/ui.js",
       "garden-aquarium-release.json",
       "index.html",
       "verify-garden-aquarium.cjs"
     ],
-    "primaryCategory": "simulation",
+    "primaryCategory": "classic30",
     "preservedPreviousGameFiles": false,
     "retainedBaselineVerification": {
       "baseCommit": "060faa55de099853e1e31b427d7729f126ac49ed",
@@ -893,10 +913,10 @@
         }
       ],
       "evidenceSHA256": "291ba83880b179a30ae1f7c3da978b0103984a7630b0f6547bd7fc96d2932f63",
-      "condition": "PR50 game sources remain byte-identical; affected Starweave V4 source is verified separately.",
+      "condition": "Unchanged historical engines retained by exact hashes; changed Park files are reconstructed to exact historical bytes for legacy gates, and current Park revision is verified separately.",
       "replayedInScopedRun": false
     },
-    "updatedID": "starweave-idle",
+    "updatedID": "skyrail-park",
     "preservedOtherGameFiles": true,
     "unchangedStorageFile": "games/starweave-idle/storage.js",
     "registryUpdate": {
@@ -937,19 +957,7 @@
       "afterSHA256": "bf54f9eec1ffbbd715d9c0852758c70557f0850e047c8013e25d4d26f03ed36f",
       "purpose": "Unchanged V3 cover bytes, URL and cache token; no card metadata changes."
     },
-    "unchangedOwnedFiles": [
-      "games/starweave-idle/art.svg",
-      "games/starweave-idle/asset-provenance.json",
-      "games/starweave-idle/bestiary-verification.json",
-      "games/starweave-idle/bestiary.js",
-      "games/starweave-idle/catalog.json",
-      "games/starweave-idle/render-verification.json",
-      "games/starweave-idle/render.js",
-      "games/starweave-idle/storage.js",
-      "games/starweave-idle/style.css",
-      "games/starweave-idle/ui.js",
-      "games/starweave-idle/verify-cap.cjs"
-    ],
+    "unchangedOwnedFiles": [],
     "roster": {
       "normalSpecies": 50,
       "bossSpecies": 10,
@@ -972,7 +980,8 @@
         "games/starweave-idle/ui.js": "d267326121361c7adcab72a55a278b21fcdab628cfff72e9f53931bce05f622b",
         "games/starweave-idle/verify-cap.cjs": "f5bebaf36e9b39cccc1ffc98508163a384bdfc9e24181d403d45ef34b0a4f8f6"
       }
-    }
+    },
+    "affectedSource": "skyrail-park"
   },
   "nonClassicIDs": [
     "starweave-idle"
@@ -1033,6 +1042,295 @@
         "alchemy-lab",
         "starweave-idle"
       ]
+    }
+  },
+  "park07Revision": {
+    "id": "objectives-07-02",
+    "sourceAccepted": true,
+    "missionRevision": 2,
+    "freshMission": "07",
+    "legacyPolicy": "Absent revision preserves complete original07; other9 missions unchanged; unknown explicit versions reject.",
+    "sourceManifestSHA256": "5f5a86a81db842b602b7a43efd299b393d9ede324d3b7a66229d857349e09a18",
+    "ownedSourceHashes": {
+      "games/skyrail-park/README.md": "80213962206b93aca0b741b64d85993c3fc3e8a18c74941b6b0d80bd260cca26",
+      "games/skyrail-park/engine.js": "c818a1a3b28735f99901b9a6c990f506a5f872cf8b317590c9e0879f50d9d493",
+      "games/skyrail-park/levels.js": "9eac25ea95f07dac28d2a67cb0946af4c539473aafdd28fad18db527b14ca146",
+      "games/skyrail-park/levels.json": "a28fca6b567af93493a6e1cec3ec47980755cafe4ad22dc177bab7fd86a67a9c",
+      "games/skyrail-park/render.js": "bb807e749907e14d4737d90ac890976f564a9d9c973b2e8420ea45c05392f66c",
+      "games/skyrail-park/ui.js": "0cf0721cfa10ce4469a688570329d2f57ac66bcb498aef3343e57cf05bd9e19b"
+    },
+    "runtimeFiles": {
+      "games/skyrail-park/ART-PROVENANCE.md": "d7ea9bc93314ddbb3c3faef69bf56a625d6433d4f047ededc6c701bfc5f270d1",
+      "games/skyrail-park/README.md": "80213962206b93aca0b741b64d85993c3fc3e8a18c74941b6b0d80bd260cca26",
+      "games/skyrail-park/art.svg": "6f058f94e541b5757acb2af1e3afaa83e9579d733297da2215766f4ca99dbd22",
+      "games/skyrail-park/catalog.json": "baaa8603f95916c0688854297f0f60b8f7f283b700288d4f71c52087f00d65f2",
+      "games/skyrail-park/engine.js": "c818a1a3b28735f99901b9a6c990f506a5f872cf8b317590c9e0879f50d9d493",
+      "games/skyrail-park/levels.js": "9eac25ea95f07dac28d2a67cb0946af4c539473aafdd28fad18db527b14ca146",
+      "games/skyrail-park/levels.json": "a28fca6b567af93493a6e1cec3ec47980755cafe4ad22dc177bab7fd86a67a9c",
+      "games/skyrail-park/render.js": "bb807e749907e14d4737d90ac890976f564a9d9c973b2e8420ea45c05392f66c",
+      "games/skyrail-park/sound.js": "d4dd34fc8e2008bfd97b1ff7ee67b777d0c3f0b91eff947ffd48b3917a07a6c0",
+      "games/skyrail-park/spatial.js": "85ef8b3bf9ce04ca3ff134197e740805b22994595f3fb269964b59846966179d",
+      "games/skyrail-park/storage.js": "c433a84b9301e4cf12e32250cb54fb8aeaaab7358d135150a63a800cc7a27267",
+      "games/skyrail-park/style.css": "eed835bb9fafe4d6db11f26dbda159fc588002572099abdb2679c936be98e569",
+      "games/skyrail-park/ui.js": "0cf0721cfa10ce4469a688570329d2f57ac66bcb498aef3343e57cf05bd9e19b",
+      "games/skyrail-park.html": "9a7b93afaeae22871af05b2df4d9f4dae80af4f6e547aa8a2c4e6eb9a098e21e"
+    },
+    "overrides": {
+      "games/skyrail-park/README.md": {
+        "beforeSHA256": "0823819e8ed0556bcd17ce46026d7837bcc7ad7cf0585405e48962cebf394e56",
+        "beforeGitBlobSHA1": "6d78c204cd2a69c2e52ff35723eac657cbb0f349",
+        "afterSHA256": "80213962206b93aca0b741b64d85993c3fc3e8a18c74941b6b0d80bd260cca26",
+        "reversePatches": [
+          {
+            "afterStartByte": 3250,
+            "afterEndByte": 4670,
+            "beforeText": ""
+          }
+        ]
+      },
+      "games/skyrail-park/engine.js": {
+        "beforeSHA256": "1c36ff209f8153ca1ae7d2f92d7225e4ebff5df8964c610f624449d57479933f",
+        "beforeGitBlobSHA1": "a073af5aa4db47ee2838aa6d9a861e8879014fcd",
+        "afterSHA256": "c818a1a3b28735f99901b9a6c990f506a5f872cf8b317590c9e0879f50d9d493",
+        "reversePatches": [
+          {
+            "afterStartByte": 5082,
+            "afterEndByte": 5203,
+            "beforeText": ""
+          },
+          {
+            "afterStartByte": 6321,
+            "afterEndByte": 6400,
+            "beforeText": ""
+          },
+          {
+            "afterStartByte": 23935,
+            "afterEndByte": 25288,
+            "beforeText": "function currentCommission(s){return Levels.find(l=>l.id===s.id).commissions[Math.min(s.commission.index,Levels.find(l=>l.id===s.id).commissions.length-1)];}\nfunction commissionedCoaster(s,r,spec={}){if(r.type!=='coaster'||!ready(s,r)||!r.test?.safe||r.served<=(r.testedRidersAt||0))return false;if(spec.newOnly&&r.inherited)return false;if(r.track.length<(spec.minLength||8)||r.test.rise<(spec.minRise||0)||r.test.excitement<(spec.minExcitement||0)||r.test.excitement>(spec.maxExcitement??100)||r.test.comfort<(spec.minComfort||45))return false;const inRect=(p,a)=>p.x>=a[0]&&p.y>=a[1]&&p.x<a[0]+a[2]&&p.y<a[1]+a[3];if(spec.stationRegion&&!inRect(r,spec.stationRegion))return false;if(r.track.filter(t=>cell(s,t.to.x,t.to.y).water).length<(spec.minWaterCells||0))return false;return (spec.visitRegions||[]).every(v=>r.track.filter(t=>inRect(t.to,v.rect)).length>=v.minSegments);}\n"
+          },
+          {
+            "afterStartByte": 28780,
+            "afterEndByte": 29888,
+            "beforeText": "if(commissionGoals(s).every(g=>g.passed)){const c=currentCommission(s);s.commission.completed.push({index:s.commission.index,tick:s.tick,metrics:metrics(s)});if(s.commission.index===Levels.find(l=>l.id===s.id).commissions.length-1){s.mode='won';s.result={outcome:'won',reason:Levels.find(l=>l.id===s.id).commissions.length+' 份營運委託全部完成，這座歡樂園由你打造！',tick:s.tick};event(s,s.result.reason);}else{s.money+=c.grant;s.ledger.income.grants+=c.grant;s.commission.index++;s.commission.baseline={served:s.stats.served,coasterRiders:s.stats.coasterRiders,repairs:s.stats.repairs,cleaned:s.stats.cleaned,profit:operatingProfit(s)};s.weather=currentCommission(s).weather;event(s,'完成「'+c.title+'」！獲得擴建款 $'+c.grant+'。'+currentCommission(s).title+'：'+currentCommission(s).text);}}return s.result;}\nfunction spawn(s){const lev=Levels.find(l=>l.id===s.id);if(s.guests.length>=lev.initial.maxGuests)return;const charter=currentCommission(s),mix=s.tick<s.marketing.until?s.marketing.mix:charter.mix;if(rand(s)<Math.max(0,(s.admissionPrice-6)*.04))return;let v=rand(s),p=v<mix[0]?0:v<mix[0]+mix[1]?1:3;\n"
+          },
+          {
+            "afterStartByte": 39558,
+            "afterEndByte": 39874,
+            "beforeText": "function step(s,count=1){if(!Number.isInteger(count)||count<0||count>10000)throw Error('Invalid fixed-step count');for(let i=0;i<count;i++){if(s.mode!=='running')break;s.tick++;const lev=Levels.find(l=>l.id===s.id);if(s.parkOpen&&s.tick%Math.max(2,currentCommission(s).arrivalEvery-(s.tick<s.marketing.until?1:0))===0)spawn(s);\n"
+          },
+          {
+            "afterStartByte": 40602,
+            "afterEndByte": 40945,
+            "beforeText": " for(const k of ['map','rides','shops','guests','staff','events','history'])if(!Array.isArray(s[k]))fail(k);if(s.map.length!==1024||!s.objective||JSON.stringify(s.objective)!==JSON.stringify(Levels.find(l=>l.id===s.id).objective))fail('地圖或目標');\n"
+          },
+          {
+            "afterStartByte": 41130,
+            "afterEndByte": 43143,
+            "beforeText": " if(!Number.isInteger(s.topology)||s.topology<0||!Number.isInteger(s.admissionPrice)||s.admissionPrice<0||s.admissionPrice>20||!s.commission||!Number.isInteger(s.commission.index)||s.commission.index<0||s.commission.index>=Levels.find(l=>l.id===s.id).commissions.length||!Array.isArray(s.commission.completed)||!s.commission.baseline||!Number.isInteger(s.commission.baseline.served)||!Number.isInteger(s.commission.baseline.coasterRiders)||!['mild','hot','rain'].includes(s.weather)||!s.marketing||!Number.isInteger(s.marketing.until))fail('委託或營運設定');\n if(s.commission.completed.length!==(s.result?.outcome==='won'?s.commission.index+1:s.commission.index)||s.commission.completed.some((c,i)=>!c||c.index!==i||!Number.isInteger(c.tick)||c.tick<0||c.tick>s.tick||!c.metrics))fail('委託紀錄');if(!s.sandbox&&((['won','lost'].includes(s.mode))!==!!s.result||s.result&&(s.result.outcome!==s.mode||!Number.isInteger(s.result.tick)||typeof s.result.reason!=='string')))fail('結局');if(s.sandbox&&(s.result?.outcome!=='won'||!['paused','running'].includes(s.mode)))fail('自由經營');if(s.mode==='won'&&!s.sandbox&&(s.commission.index!==Levels.find(l=>l.id===s.id).commissions.length-1||!commissionGoals(s).every(g=>g.passed)))fail('未完成勝利');if(s.marketing.until>s.tick&&s.marketing.mix===null)fail('宣傳缺少客群');if(['repairs','cleaned','profit'].some(k=>!Number.isFinite(s.commission.baseline[k]))||s.commission.baseline.repairs<0||s.commission.baseline.repairs>s.stats.repairs||s.commission.baseline.cleaned<0||s.commission.baseline.cleaned>s.stats.cleaned)fail('營運委託基線');if(s.commission.baseline.served<0||s.commission.baseline.served>s.stats.served||s.commission.baseline.coasterRiders<0||s.commission.baseline.coasterRiders>s.stats.coasterRiders)fail('委託基線');if(s.marketing.mix!==null&&(!Array.isArray(s.marketing.mix)||s.marketing.mix.length!==3||s.marketing.mix.some(n=>typeof n!=='number'||n<0||n>1)||Math.abs(s.marketing.mix.reduce((a,b)=>a+b,0)-1)>.001))fail('宣傳客群');\n"
+          },
+          {
+            "afterStartByte": 43418,
+            "afterEndByte": 44183,
+            "beforeText": " if(!Number.isInteger(s.tick)||s.tick<0||!Number.isInteger(s.rng)||s.rng<0||s.rng>4294967295||!Number.isInteger(s.nextID)||s.nextID<1||s.guests.length>Levels.find(l=>l.id===s.id).initial.maxGuests||s.staff.length>12)fail('時序或數量');if(s.history.length>150||s.history.some(h=>!h||!Number.isInteger(h.tick)||h.tick<0||h.tick>s.tick||!Number.isFinite(h.money)||!Number.isFinite(h.profit)||!Number.isFinite(h.happy)||h.happy<0||h.happy>100||!Number.isInteger(h.guests)||h.guests<0||!Number.isInteger(h.commission)||h.commission<0||h.commission>=Levels.find(l=>l.id===s.id).commissions.length))fail('趨勢紀錄');if(s.events.length>14||s.events.some(e=>!e||!Number.isInteger(e.tick)||e.tick<0||e.tick>s.tick||typeof e.text!=='string')||typeof s.lastMessage!=='string')fail('事件');\n"
+          },
+          {
+            "afterStartByte": 50346,
+            "afterEndByte": 50814,
+            "beforeText": " const API={availableTools,rideOperatingCost,rideThrill,commissionedCoaster,previewAction,currentCommission,commissionGoals,navigationProfile:Spatial.profile,SIZE,KEY,RIDES,BUILD,Levels,createScenario,applyAction,step,checkOutcome,metrics,serialize,deserialize,validate,queueInfo,testTrack,trackPreview,route,rideAt,shopAt,cell,operatingProfit,satisfaction};if(typeof module!=='undefined')module.exports=API;else root.ParkEngine=API;\n"
+          }
+        ]
+      },
+      "games/skyrail-park/levels.js": {
+        "beforeSHA256": "440dc8b92d057cef614f131764f362adeb97df5d66f900abf6aef2a80e7b1563",
+        "beforeGitBlobSHA1": "0bab47950a65197aa1df89045b7eae4f9a187aa8",
+        "afterSHA256": "9eac25ea95f07dac28d2a67cb0946af4c539473aafdd28fad18db527b14ca146",
+        "reversePatches": [
+          {
+            "afterStartByte": 0,
+            "afterEndByte": 52172,
+            "beforeText": "(function(root){const levels=[{\"id\":\"01\",\"chapter\":1,\"title\":\"紙風車・河畔開園\",\"initial\":{\"cash\":3600,\"seed\":6101,\"gate\":[2,16],\"paths\":[[2,16],[3,16],[4,16],[5,16],[6,16],[7,16],[8,16]],\"water\":[[25,0,2,32],[27,20,5,3]],\"hills\":[[28,0,4,14,1]],\"unowned\":[[28,0,4,14],[28,25,4,7]],\"arrivalEvery\":5,\"guestMix\":[0.2,0.65,0.15],\"maxGuests\":320},\"objective\":{\"deadline\":3600,\"cashFloor\":-750},\"mechanicFocus\":[\"排隊與資金回流\",\"熱浪服務\",\"逐段軌道試車\",\"預防維修與分區人流\",\"票價和客群\"],\"intendedDecision\":\"以有限預算先開兩座家庭遊具；把營業收入重新投入飲食廁所、長隊道、木架軌道與東區分流。每批委託改變客群，需觀察真正的遊客需求再擴建。\",\"distinctnessRationale\":\"河西平地有充足擴建方向，但東岸觀景地要建橋；五輪客群從低刺激家庭、炎熱午餐、刺激青年、團客高峰轉向混合評鑑。\",\"estimateMinutes\":[25,40],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"用 $3,600 開出第一片歡笑。完成五份營運委託，將真正收入投入服務、軌道與分區。不限等待時間，合格經營才會前進。\",\"commissions\":[{\"title\":\"一、第一批家庭\",\"text\":\"先開兩種家庭遊具，讓遊客真正完成搭乘。長一點的排隊道比塞在入口更有效。\",\"goals\":{\"served\":30,\"openRides\":2,\"distinctRides\":2,\"satisfaction\":68,\"operatingProfit\":450},\"grant\":750,\"mix\":[0.2,0.7,0.1],\"arrivalEvery\":5,\"weather\":\"mild\",\"budget\":[55,85],\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、盛夏補給線\",\"text\":\"家庭團開始午餐，口渴和如廁需求上升。設三類補給，調整價格，再把收入留給下一區。\",\"goals\":{\"served\":45,\"openRides\":3,\"shopSales\":65,\"toiletUses\":8,\"benches\":2,\"satisfaction\":72,\"operatingProfit\":1300},\"grant\":1250,\"mix\":[0.25,0.55,0.2],\"arrivalEvery\":4,\"weather\":\"hot\",\"budget\":[55,85],\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"三、木架上的尖叫\",\"text\":\"青年旅行團想要真正的雲霄飛車。逐段做鏈提、下降和煞車，先試車再營業。\",\"goals\":{\"served\":60,\"openRides\":4,\"safeCoasters\":1,\"coasterRiders\":20,\"trackRise\":1,\"satisfaction\":72,\"operatingProfit\":2500},\"grant\":850,\"mix\":[0.1,0.25,0.65],\"arrivalEvery\":4,\"weather\":\"mild\",\"budget\":[75,120],\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"四、週末人潮\",\"text\":\"人潮從兩個方向湧進各區。舊設備逐漸磨損；長隊道、巡修和乾淨步道能留住遊客。\",\"goals\":{\"served\":75,\"openRides\":5,\"distinctRides\":5,\"phaseRepairs\":1,\"phaseCleaned\":15,\"connectedDistricts\":2,\"satisfaction\":75,\"operatingProfit\":4200},\"grant\":1000,\"mix\":[0.3,0.35,0.35],\"arrivalEvery\":3,\"weather\":\"hot\",\"budget\":[65,105],\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"五、跨河・風車遠征\",\"text\":\"河東仍是一片空白。建橋連到東岸遊具與三類補給；獨立設計第二條跨河軌道，至少 28 段、兩層高差、舒適 70，至少完成一輪載客，並保留第一條營業。節慶時每座遊具營運費 $6、員工工資 $4 / 20 秒，票價與滿載率要一起考量。\",\"goals\":{\"openRides\":8,\"distinctRides\":7,\"safeCoasters\":2,\"riverCoasters\":1,\"riverCampus\":1,\"bridges\":2,\"scenery\":8,\"benches\":4,\"healthyRides\":7,\"satisfaction\":80},\"grant\":0,\"operatingCost\":6,\"wageCost\":4,\"mix\":[0.35,0.3,0.35],\"arrivalEvery\":3,\"weather\":\"mild\",\"budget\":[65,115],\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]}]},{\"id\":\"02\",\"chapter\":2,\"title\":\"蘆影・三島渡假園\",\"initial\":{\"cash\":3700,\"seed\":6302,\"gate\":[2,16],\"paths\":[[2,16],[3,16],[4,16],[5,16],[6,16],[7,16]],\"water\":[[10,0,2,32],[21,0,2,32]],\"hills\":[[24,0,8,5,1]],\"unowned\":[[0,0,5,5],[16,0,5,4],[28,25,4,7]],\"arrivalEvery\":4,\"guestMix\":[0.55,0.4,0.05],\"maxGuests\":320},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[24,40],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"先經營西島，再比較單橋與雙環通路；中途做雙水道軌道，最後完成東島休憩港。\",\"intendedDecision\":\"先經營西島，再比較單橋與雙環通路；中途做雙水道軌道，最後完成東島休憩港。\",\"distinctnessRationale\":\"兩道完整水道切成三島；自建軌道在第三委託，最後是船塢、鞦韆及第三個在地服務區。\",\"mechanicFocus\":[\"橋樑成本與回程迴路\",\"双水道架高軌道\",\"三島在地補給\"],\"commissions\":[{\"title\":\"一、西島迎賓\",\"text\":\"先開家庭旋轉台與觀景輪，保留橋頭及服務循環。\",\"goals\":{\"openRides\":2,\"distinctRides\":2,\"served\":24,\"satisfaction\":68,\"operatingProfit\":300},\"grant\":900,\"mix\":[0.55,0.4,0.05],\"budget\":[48,76],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、午餐渡橋\",\"text\":\"中央島配置茶杯和三類補給；第一橋先服務哪一段，由你決定。\",\"goals\":{\"openRides\":3,\"servicedSites\":2,\"benches\":3,\"satisfaction\":72},\"grant\":1350,\"mix\":[0.4,0.5,0.1],\"budget\":[48,80],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[0,11,10,15],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[12,15,9,11],\"rideTypes\":[\"teacups\"],\"maxRoute\":16}]},{\"title\":\"三、蘆葦雙灣線\",\"text\":\"建能跨過兩道水面、抬升兩層的完整飛車，完成一次實際載客。\",\"goals\":{\"commissionedCoasters\":1,\"openRides\":4,\"satisfaction\":73},\"grant\":1100,\"mix\":[0.15,0.35,0.5],\"budget\":[65,105],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"coasterSpec\":{\"minLength\":40,\"minRise\":2,\"minComfort\":75,\"minWaterCells\":8,\"stationRegion\":[13,8,7,4],\"visitRegions\":[{\"rect\":[8,5,2,6],\"minSegments\":4},{\"rect\":[23,5,3,6],\"minSegments\":4}]}},{\"title\":\"四、雙環巡島\",\"text\":\"補回程渡橋、巡修與清潔，留現金給尚未開發的東島。\",\"goals\":{\"bridges\":4,\"phaseRepairs\":1,\"phaseCleaned\":8,\"healthyRides\":4,\"satisfaction\":75,\"operatingProfit\":2400},\"grant\":1400,\"mix\":[0.4,0.4,0.2],\"budget\":[55,90],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"五、港灣的最後一站\",\"text\":\"東島開船塢、鞦韆與真正使用的當地補給；早期飛車繼續營業。\",\"goals\":{\"openRides\":6,\"distinctRides\":6,\"servicedSites\":3,\"commissionedCoasters\":1,\"bridges\":8,\"benches\":7,\"scenery\":8,\"healthyRides\":5,\"satisfaction\":78},\"grant\":0,\"mix\":[0.5,0.4,0.1],\"budget\":[50,90],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[0,11,10,15],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[12,15,9,11],\"rideTypes\":[\"teacups\"],\"maxRoute\":16},{\"rect\":[23,11,9,14],\"rideTypes\":[\"boats\",\"swing\"],\"maxRoute\":16}],\"coasterSpec\":{\"minLength\":40,\"minRise\":2,\"minComfort\":75,\"minWaterCells\":8,\"stationRegion\":[13,8,7,4],\"visitRegions\":[{\"rect\":[8,5,2,6],\"minSegments\":4},{\"rect\":[23,5,3,6],\"minSegments\":4}]},\"operatingCost\":5,\"wageCost\":3}]},{\"id\":\"03\",\"chapter\":3,\"title\":\"銅葉・老園再生\",\"initial\":{\"cash\":2100,\"seed\":6403,\"gate\":[2,16],\"paths\":[[2,11],[3,11],[4,11],[5,11],[6,11],[7,11],[8,11],[9,11],[10,11],[11,11],[12,11],[13,11],[14,11],[15,11],[16,11],[17,11],[18,11],[19,11],[20,11],[21,11],[22,11],[23,11],[24,11],[25,11],[26,11],[27,11],[28,11],[2,12],[2,13],[2,14],[2,15],[2,16],[2,17],[2,18],[3,13],[4,13],[5,13],[6,13],[7,13],[8,13],[9,13],[10,13],[11,13],[12,13],[4,9,\"queue\"],[4,10,\"queue\"],[12,9,\"queue\"],[12,10,\"queue\"],[23,9,\"queue\"],[23,10,\"queue\"]],\"water\":[[26,0,6,4],[0,24,10,3]],\"hills\":[[20,0,12,6,1]],\"unowned\":[[14,12,6,4],[11,25,7,7]],\"arrivalEvery\":4,\"guestMix\":[0.25,0.65,0.1],\"maxGuests\":320,\"assets\":[{\"kind\":\"carousel\",\"x\":4,\"y\":7,\"wear\":82,\"broken\":false,\"open\":false},{\"kind\":\"wheel\",\"x\":12,\"y\":7,\"wear\":96,\"broken\":false,\"open\":false},{\"kind\":\"tower\",\"x\":23,\"y\":7,\"wear\":100,\"broken\":true,\"open\":false},{\"kind\":\"food\",\"x\":6,\"y\":12,\"stock\":12},{\"kind\":\"drink\",\"x\":8,\"y\":12,\"stock\":18},{\"kind\":\"toilet\",\"x\":10,\"y\":12,\"stock\":40}],\"staff\":[]},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[28,48],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"接手磨損設備和稀薄庫存，決定先修、拆換或延後開放哪一區。 修復只是起點；最後保留原來的營業核心，打造北庭高架與東南折返兩條不同軌道。\",\"intendedDecision\":\"接手磨損設備和稀薄庫存，決定先修、拆換或延後開放哪一區。\",\"distinctnessRationale\":\"救援關从既有資產開局；五輪是維修、午餐周轉、南庭新客、東廳重啟、高岸老碼頭，沒有強制飛車或虛構貸款。 七份委託先搶修舊資產，再用原園收益重建北庭狹長高架與東南凹灣長線；兩條後期工程有不同速度、地形和公共路徑問題。\",\"mechanicFocus\":[\"既有設備維修或拆換\",\"起始庫存周轉\",\"步行維修優先序\",\"六種固定遊具再開幕\",\"既有設施旁的新軌道\",\"長路段動能與中途鏈提\",\"修復收入再投資\"],\"commissions\":[{\"title\":\"一、先救能開的園\",\"text\":\"維修員必須走到入口；兩次修復與兩座營業遊具建立首筆收入。\",\"goals\":{\"repairs\":2,\"openRides\":2,\"served\":20,\"healthyRides\":2,\"satisfaction\":66},\"grant\":850,\"mix\":[0.25,0.65,0.1],\"budget\":[42,65],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、庫存比招牌重要\",\"text\":\"補貨或重做舊廳商店，保留南庭所需的資金。\",\"goals\":{\"servicedSites\":1,\"shopSales\":22,\"toiletUses\":3,\"benches\":3,\"operatingProfit\":500,\"satisfaction\":70},\"grant\":1050,\"mix\":[0.3,0.6,0.1],\"budget\":[40,65],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,6,13,9],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16}]},{\"title\":\"三、南庭新生\",\"text\":\"增加茶杯、鞦韆及午餐回路，不再讓所有家庭走回舊廳補給。\",\"goals\":{\"openRides\":4,\"distinctRides\":4,\"servicedSites\":2,\"satisfaction\":73},\"grant\":1250,\"mix\":[0.2,0.65,0.15],\"budget\":[48,78],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,6,13,9],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[2,17,12,7],\"rideTypes\":[\"teacups\",\"swing\"],\"maxRoute\":16}]},{\"title\":\"四、東廳重新亮燈\",\"text\":\"東側跳塔可修復或拆換，但新舊設備都要實際健康接待客人。\",\"goals\":{\"openRides\":5,\"servicedSites\":3,\"healthyRides\":5,\"phaseRepairs\":1,\"phaseCleaned\":8,\"satisfaction\":75},\"grant\":1600,\"mix\":[0.15,0.35,0.5],\"budget\":[60,95],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,6,13,9],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[2,17,12,7],\"rideTypes\":[\"teacups\",\"swing\"],\"maxRoute\":16},{\"rect\":[20,7,12,8],\"rideTypes\":[\"tower\"],\"maxRoute\":16}],\"operatingCost\":5,\"wageCost\":3},{\"title\":\"五、老碼頭的第一航\",\"text\":\"高岸池塘建船塢、獨立排隊和近處補給；完成一次乘船，六種固定遊具一起營業。\",\"goals\":{\"openRides\":6,\"distinctRides\":6,\"servicedSites\":4,\"healthyRides\":5,\"scenery\":8,\"benches\":6,\"satisfaction\":78},\"grant\":600,\"mix\":[0.45,0.45,0.1],\"budget\":[48,82],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,6,13,9],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[2,17,12,7],\"rideTypes\":[\"teacups\",\"swing\"],\"maxRoute\":16},{\"rect\":[20,7,12,8],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[21,4,11,3],\"rideTypes\":[\"boats\"],\"maxRoute\":16}],\"operatingCost\":5,\"wageCost\":3},{\"grant\":0,\"mix\":[0.25,0.4,0.35],\"budget\":[58,95],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"operatingCost\":5,\"wageCost\":3,\"title\":\"六、舊招牌下的新軌道\",\"text\":\"北庭狹長空地夾在老遊具與高地之間。規劃至少44段、兩層高差的安全新軌道，穿越兩段北庭觀景區，讓第一班載客列車回站。既有遊具繼續提供工程收入。\",\"goals\":{\"openRides\":7,\"commissionedCoasters\":1,\"healthyRides\":6,\"satisfaction\":78},\"coasterSpec\":{\"minLength\":44,\"minRise\":2,\"minComfort\":75,\"minExcitement\":48,\"newOnly\":true,\"stationRegion\":[14,5,8,3],\"visitRegions\":[{\"rect\":[4,0,6,4],\"minSegments\":6},{\"rect\":[19,0,4,6],\"minSegments\":5}]},\"siteSpecs\":[{\"rect\":[2,6,13,9],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[2,17,12,7],\"rideTypes\":[\"teacups\",\"swing\"],\"maxRoute\":16},{\"rect\":[20,7,12,8],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[21,4,11,3],\"rideTypes\":[\"boats\"],\"maxRoute\":16}]},{\"grant\":0,\"mix\":[0.25,0.4,0.35],\"budget\":[58,95],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"operatingCost\":5,\"wageCost\":3,\"title\":\"七、工坊折返線的首航\",\"text\":\"東南工坊以折返凹灣線重新開放。第二條軌道要轉進兩個狹長工坊區；長平路會耗盡動能，途中需安排鏈提及下降。另建同區餐飲與洗手間，營業八座遊具，把完整老園交還給遊客。\",\"goals\":{\"openRides\":8,\"distinctRides\":7,\"safeCoasters\":2,\"commissionedCoasters\":1,\"servicedSites\":5,\"healthyRides\":7,\"scenery\":10,\"benches\":8,\"satisfaction\":80},\"coasterSpec\":{\"minLength\":60,\"minRise\":3,\"minExcitement\":55,\"minComfort\":75,\"newOnly\":true,\"stationRegion\":[20,29,8,3],\"visitRegions\":[{\"rect\":[20,17,3,4],\"minSegments\":5},{\"rect\":[24,20,5,6],\"minSegments\":8}]},\"siteSpecs\":[{\"rect\":[2,6,13,9],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[2,17,12,7],\"rideTypes\":[\"teacups\",\"swing\"],\"maxRoute\":16},{\"rect\":[20,7,12,8],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[21,4,11,3],\"rideTypes\":[\"boats\"],\"maxRoute\":16},{\"rect\":[20,22,12,10],\"rideTypes\":[\"coaster\"],\"maxRoute\":16}]}]},{\"id\":\"04\",\"chapter\":4,\"title\":\"燈穗・三層山城\",\"initial\":{\"cash\":4000,\"seed\":6504,\"gate\":[3,28],\"paths\":[[3,28],[4,28],[5,28],[6,28],[7,28],[8,28],[9,28],[10,28],[11,28],[12,28]],\"water\":[[0,20,8,3]],\"hills\":[[0,10,32,8,1],[0,0,32,10,3]],\"unowned\":[[0,0,7,14],[26,0,6,6],[27,24,5,8]],\"arrivalEvery\":4,\"guestMix\":[0.2,0.7,0.1],\"maxGuests\":320},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[25,42],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"從底谷到一層平台，再逐格整出兩層過渡，讓三層站台、排隊坡道和五層高點一起運作。\",\"intendedDecision\":\"從底谷到一層平台，再逐格整出兩層過渡，讓三層站台、排隊坡道和五層高點一起運作。\",\"distinctnessRationale\":\"真實兩層地形斷路；最後工程是高站台折線，而非過河第二飛車。只有四份較大的工程委託。\",\"mechanicFocus\":[\"兩層斷路整地\",\"高站台排隊\",\"山脊折線補能\",\"分層服務\"],\"commissions\":[{\"title\":\"一、山腳的第一圈\",\"text\":\"底谷先開兩座家庭遊具和補給，預留上坡路。\",\"goals\":{\"openRides\":2,\"served\":24,\"shopTypes\":3,\"satisfaction\":68,\"operatingProfit\":350},\"grant\":1000,\"mix\":[0.2,0.7,0.1],\"budget\":[48,78],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、一層觀景台\",\"text\":\"接中台地觀景輪與午餐補給，不能讓疲累客人再回山腳。\",\"goals\":{\"openRides\":3,\"servicedSites\":2,\"benches\":4,\"satisfaction\":73},\"grant\":1500,\"mix\":[0.45,0.45,0.1],\"budget\":[50,85],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[8,23,18,9],\"rideTypes\":[\"carousel\",\"teacups\",\"swing\"],\"maxRoute\":16},{\"rect\":[10,13,14,10],\"rideTypes\":[\"wheel\"],\"maxRoute\":16}]},{\"title\":\"三、峭壁變成街道\",\"text\":\"先整空地再鋪過渡步道，連高街補給；底谷仍需新鞦韆與巡修。\",\"goals\":{\"openRides\":4,\"healthyRides\":4,\"phaseRepairs\":1,\"phaseCleaned\":6,\"shopSales\":40,\"satisfaction\":75,\"operatingProfit\":1800},\"grant\":1600,\"mix\":[0.2,0.55,0.25],\"budget\":[55,90],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"四、燈穗高空迴廊\",\"text\":\"三層山脊開站，抬升兩層並穿過山脊兩端；高處服務實際使用，飛車完成首班載客。\",\"goals\":{\"openRides\":5,\"commissionedCoasters\":1,\"servicedSites\":3,\"healthyRides\":4,\"scenery\":8,\"benches\":7,\"satisfaction\":78},\"grant\":0,\"mix\":[0.15,0.3,0.55],\"budget\":[70,115],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[8,23,18,9],\"rideTypes\":[\"carousel\",\"teacups\",\"swing\"],\"maxRoute\":16},{\"rect\":[10,13,14,10],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[12,6,14,7],\"rideTypes\":[\"coaster\"],\"maxRoute\":16}],\"coasterSpec\":{\"minLength\":42,\"minRise\":2,\"minComfort\":75,\"stationRegion\":[11,7,6,3],\"visitRegions\":[{\"rect\":[23,2,3,5],\"minSegments\":5},{\"rect\":[8,2,3,7],\"minSegments\":5}]},\"operatingCost\":6,\"wageCost\":3}]},{\"id\":\"05\",\"chapter\":5,\"title\":\"蒲公英・環湖家庭日\",\"initial\":{\"cash\":3400,\"seed\":6605,\"gate\":[3,25],\"paths\":[[3,25],[4,25],[5,25],[6,25],[7,25],[8,25]],\"water\":[[10,9,13,12]],\"hills\":[[23,0,9,8,1]],\"unowned\":[[0,0,5,10],[27,0,5,8],[26,25,6,7]],\"arrivalEvery\":4,\"guestMix\":[0.3,0.68,0.02],\"maxGuests\":320},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[27,44],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"有限零用錢要支付一整天；沿湖分期做便宜餐飲、短排隊和休息點，最後接成環湖回路。 完整的家庭日還有最後的慢風環湖軌道與南岸野餐區。\",\"intendedDecision\":\"有限零用錢要支付一整天；沿湖分期做便宜餐飲、短排隊和休息點，最後接成環湖回路。\",\"distinctnessRationale\":\"大湖迫使比較西岸現金流、北岸長路和東岸回程；低家庭預算是真實限制，沒有強制飞車。 最後的52段環湖線以低興奮和高舒適約束設計，不追求刺激高差；低預算家庭與南岸步行補給持續影響價格與路線。\",\"mechanicFocus\":[\"低預算票價\",\"環湖疲勞\",\"多點補給\",\"雙船塢可達性\",\"低興奮高舒適軌道\",\"不靠陡降的動能規劃\"],\"commissions\":[{\"title\":\"一、口袋裡的一日票\",\"text\":\"旋轉台與西岸小船先營業，別讓入園費吃光家庭補給預算。\",\"goals\":{\"openRides\":2,\"served\":22,\"satisfaction\":68,\"operatingProfit\":200},\"grant\":800,\"mix\":[0.3,0.68,0.02],\"budget\":[28,42],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、西岸慢行\",\"text\":\"新觀景輪配午餐和休息，西岸真正完成玩樂與補給。\",\"goals\":{\"openRides\":3,\"servicedSites\":1,\"benches\":4,\"satisfaction\":72},\"grant\":1050,\"mix\":[0.45,0.53,0.02],\"budget\":[28,44],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,9,8,17],\"rideTypes\":[\"carousel\",\"boats\",\"wheel\"],\"maxRoute\":16}]},{\"title\":\"三、北岸野餐會\",\"text\":\"绕湖建北岸茶杯廣場和三類補給，途中也需要休息。\",\"goals\":{\"openRides\":4,\"servicedSites\":2,\"scenery\":5,\"benches\":6,\"satisfaction\":76},\"grant\":1200,\"mix\":[0.3,0.65,0.05],\"budget\":[32,48],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,9,8,17],\"rideTypes\":[\"carousel\",\"boats\",\"wheel\"],\"maxRoute\":16},{\"rect\":[14,3,9,6],\"rideTypes\":[\"teacups\"],\"maxRoute\":16}]},{\"title\":\"四、午後另一岸\",\"text\":\"東岸鞦韆和當地補給先落成，員工开始完整巡湖。\",\"goals\":{\"openRides\":5,\"servicedSites\":3,\"phaseCleaned\":8,\"phaseRepairs\":1,\"healthyRides\":4,\"satisfaction\":77},\"grant\":1350,\"mix\":[0.2,0.7,0.1],\"budget\":[32,50],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,9,8,17],\"rideTypes\":[\"carousel\",\"boats\",\"wheel\"],\"maxRoute\":16},{\"rect\":[14,3,9,6],\"rideTypes\":[\"teacups\"],\"maxRoute\":16},{\"rect\":[23,9,9,16],\"rideTypes\":[\"boats\",\"swing\"],\"maxRoute\":16}]},{\"title\":\"五、雙船塢的團聚\",\"text\":\"最後建東北船塢及南側回路；新船真實接客，六座健康遊具分散在湖兩岸。\",\"goals\":{\"openRides\":6,\"distinctRides\":5,\"servicedSites\":3,\"healthyRides\":6,\"benches\":9,\"scenery\":10,\"satisfaction\":80},\"grant\":400,\"mix\":[0.4,0.58,0.02],\"budget\":[30,48],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,9,8,17],\"rideTypes\":[\"carousel\",\"boats\",\"wheel\"],\"maxRoute\":16},{\"rect\":[14,3,9,6],\"rideTypes\":[\"teacups\"],\"maxRoute\":16},{\"rect\":[23,9,9,16],\"rideTypes\":[\"boats\"],\"maxRoute\":16}],\"operatingCost\":4,\"wageCost\":3},{\"title\":\"六、湖面上的慢風\",\"text\":\"最後規劃一條低緩的環湖軌道：至少52段、跨水20格、舒適95，興奮度不超過40。沒有俯衝可補充速度，長平路的動能要算清楚；南岸野餐站也要真正服務家庭客。\",\"goals\":{\"openRides\":7,\"distinctRides\":6,\"commissionedCoasters\":1,\"servicedSites\":4,\"healthyRides\":6,\"benches\":12,\"scenery\":12,\"satisfaction\":82},\"grant\":0,\"mix\":[0.35,0.63,0.02],\"budget\":[32,50],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"operatingCost\":4,\"wageCost\":3,\"coasterSpec\":{\"minLength\":52,\"minRise\":1,\"maxExcitement\":40,\"minComfort\":95,\"minWaterCells\":20,\"newOnly\":true,\"stationRegion\":[10,21,6,3],\"visitRegions\":[{\"rect\":[10,8,13,1],\"minSegments\":10}]},\"siteSpecs\":[{\"rect\":[2,9,8,17],\"rideTypes\":[\"carousel\",\"boats\",\"wheel\"],\"maxRoute\":16},{\"rect\":[14,3,9,6],\"rideTypes\":[\"teacups\"],\"maxRoute\":16},{\"rect\":[23,9,9,16],\"rideTypes\":[\"boats\"],\"maxRoute\":16},{\"rect\":[10,21,13,6],\"rideTypes\":[\"coaster\"],\"maxRoute\":18}]}]},{\"id\":\"06\",\"chapter\":6,\"title\":\"流星・雙試車工坊\",\"initial\":{\"cash\":4900,\"seed\":6706,\"gate\":[4,18],\"paths\":[[4,18],[5,18],[6,18],[7,18],[8,18],[9,18],[10,18]],\"water\":[[14,0,3,5]],\"hills\":[[17,3,11,5,1],[3,21,9,11,1]],\"unowned\":[[0,0,3,32],[29,0,3,32],[11,7,5,8],[12,21,7,11]],\"arrivalEvery\":4,\"guestMix\":[0.08,0.17,0.75],\"maxGuests\":320},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[28,45],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"先靠固定刺激遊具營運，再設計低台地短折線和高台地長蛇線；兩條線的速度、舒適與班次不能照抄。\",\"intendedDecision\":\"先靠固定刺激遊具營運，再設計低台地短折線和高台地長蛇線；兩條線的速度、舒適與班次不能照抄。\",\"distinctnessRationale\":\"第一飛車是左下 28 段緊折線，第二是右上 50 段凹形蛇線；中途補家庭庭園，最後驗收第二條首班車。\",\"mechanicFocus\":[\"兩種曲線動能\",\"刺激與家庭客群\",\"每班負載\",\"不規則台地\"],\"commissions\":[{\"title\":\"一、工坊先開門\",\"text\":\"跳塔與鞦韆建立刺激客群，保留兩塊完整試車地。\",\"goals\":{\"openRides\":2,\"served\":26,\"satisfaction\":68,\"operatingProfit\":350},\"grant\":1000,\"mix\":[0.08,0.17,0.75],\"budget\":[70,112],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、短線也要好坐\",\"text\":\"左下台地做兩層升降緊折線，控制入彎速度並完成載客。\",\"goals\":{\"openRides\":3,\"commissionedCoasters\":1,\"satisfaction\":73},\"grant\":1350,\"mix\":[0.08,0.22,0.7],\"budget\":[72,115],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"coasterSpec\":{\"minLength\":28,\"minRise\":2,\"minComfort\":85,\"stationRegion\":[4,27,4,4],\"visitRegions\":[{\"rect\":[3,21,5,5],\"minSegments\":4}]}},{\"title\":\"三、同行的人也要玩\",\"text\":\"陪同家人需要觀景輪、三種補給和休息，不只有刺激長隊。\",\"goals\":{\"openRides\":4,\"servicedSites\":2,\"benches\":5,\"satisfaction\":76},\"grant\":1500,\"mix\":[0.25,0.5,0.25],\"budget\":[48,78],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[3,13,9,9],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[19,21,10,11],\"rideTypes\":[\"wheel\"],\"maxRoute\":16}]},{\"title\":\"四、試車日工資單\",\"text\":\"東廊補服務，分區巡修並負擔較高營運費；留錢給長線。\",\"goals\":{\"servicedSites\":3,\"healthyRides\":4,\"phaseRepairs\":1,\"phaseCleaned\":10,\"satisfaction\":77,\"operatingProfit\":2800},\"grant\":1600,\"mix\":[0.1,0.25,0.65],\"budget\":[65,110],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[3,13,9,9],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[19,12,10,9],\"rideTypes\":[\"swing\"],\"maxRoute\":16},{\"rect\":[19,21,10,11],\"rideTypes\":[\"wheel\"],\"maxRoute\":16}],\"operatingCost\":7,\"wageCost\":4},{\"title\":\"五、長蛇線的首班車\",\"text\":\"右上凹地做三層抬升與內外回折；第二條完成一班，第一條仍安全營業。\",\"goals\":{\"openRides\":5,\"safeCoasters\":2,\"commissionedCoasters\":1,\"servicedSites\":3,\"healthyRides\":4,\"scenery\":7,\"benches\":7,\"satisfaction\":78},\"grant\":0,\"mix\":[0.08,0.22,0.7],\"budget\":[72,118],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[3,13,9,9],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[19,12,10,9],\"rideTypes\":[\"swing\"],\"maxRoute\":16},{\"rect\":[19,21,10,11],\"rideTypes\":[\"wheel\"],\"maxRoute\":16}],\"coasterSpec\":{\"minLength\":48,\"minRise\":3,\"minComfort\":80,\"stationRegion\":[20,9,6,4],\"visitRegions\":[{\"rect\":[17,2,11,2],\"minSegments\":8},{\"rect\":[17,7,7,3],\"minSegments\":10}]},\"operatingCost\":7,\"wageCost\":4}]},{\"id\":\"07\",\"chapter\":7,\"title\":\"向日葵・市集上空\",\"initial\":{\"cash\":4200,\"seed\":6807,\"gate\":[2,18],\"paths\":[[2,18],[3,18],[4,18],[5,18],[6,18],[7,18],[8,18],[9,18],[10,18]],\"water\":[[0,10,5,2]],\"hills\":[[24,0,8,9,1],[0,24,8,8,1]],\"unowned\":[[0,0,6,7],[12,0,7,7],[26,24,6,8]],\"arrivalEvery\":4,\"guestMix\":[0.2,0.7,0.1],\"maxGuests\":320},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[24,40],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"先做營業中的市集，再用分散供餐、價格和補貨應對熱浪；最後讓長折線飛車跨過仍在服務的攤位。\",\"intendedDecision\":\"先做營業中的市集，再用分散供餐、價格和補貨應對熱浪；最後讓長折線飛車跨過仍在服務的攤位。\",\"distinctnessRationale\":\"零售優先的關卡。三個營業區先於飛車；最後是沿市場上方繞行的有高度淨空長軌道，並非移植河岸營地。供應單價未被虛構成會變化的系統。\",\"mechanicFocus\":[\"餐飲庫存與單價\",\"服務點吞吐量\",\"商店上方兩層淨空\",\"補能長折線\"],\"commissions\":[{\"title\":\"一、市集先有客人\",\"text\":\"旋轉台與茶杯帶客，三類補給放在可循環的人行巷中。\",\"goals\":{\"openRides\":2,\"shopTypes\":3,\"served\":22,\"shopSales\":18,\"satisfaction\":68},\"grant\":950,\"mix\":[0.2,0.7,0.1],\"budget\":[36,55],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、午餐不是單一路口\",\"text\":\"熱浪增加需求，擴充攤位、北側輪台及備貨；別只加高價而讓客人找不到可負擔餐點。\",\"goals\":{\"openRides\":3,\"servicedSites\":1,\"shopSales\":45,\"toiletUses\":6,\"benches\":4,\"satisfaction\":72},\"grant\":1200,\"mix\":[0.3,0.65,0.05],\"budget\":[36,58],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[3,5,10,17],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16}]},{\"title\":\"三、東側晚風庭\",\"text\":\"東側鞦韆与在地補給形成另一個目的地，避免全部店門都擠在入口走道。\",\"goals\":{\"openRides\":4,\"servicedSites\":2,\"satisfaction\":75,\"operatingProfit\":1500},\"grant\":1350,\"mix\":[0.2,0.6,0.2],\"budget\":[45,72],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[3,5,10,17],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[14,14,18,10],\"rideTypes\":[\"swing\"],\"maxRoute\":16}]},{\"title\":\"四、收攤前的準備\",\"text\":\"巡修、清潔與較高工資出現。留完整市場上空和返站通道，備好工程資金。\",\"goals\":{\"healthyRides\":4,\"phaseRepairs\":1,\"phaseCleaned\":10,\"scenery\":7,\"benches\":6,\"satisfaction\":77,\"operatingProfit\":2600},\"grant\":1600,\"mix\":[0.25,0.55,0.2],\"budget\":[45,75],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"operatingCost\":6,\"wageCost\":4},{\"title\":\"五、向日葵天棚\",\"text\":\"新飛車穿過市場帶與北廊，攤位上方預留兩層淨空，適時補能並完成首班載客。\",\"goals\":{\"openRides\":5,\"commissionedCoasters\":1,\"servicedSites\":2,\"healthyRides\":4,\"scenery\":9,\"benches\":8,\"satisfaction\":79},\"grant\":0,\"mix\":[0.15,0.35,0.5],\"budget\":[65,105],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[3,5,10,17],\"rideTypes\":[\"carousel\",\"wheel\"],\"maxRoute\":16},{\"rect\":[14,14,18,10],\"rideTypes\":[\"swing\"],\"maxRoute\":16}],\"coasterSpec\":{\"minLength\":60,\"minRise\":2,\"minComfort\":80,\"stationRegion\":[5,21,4,3],\"visitRegions\":[{\"rect\":[13,19,9,1],\"minSegments\":8},{\"rect\":[3,11,21,1],\"minSegments\":15}]},\"operatingCost\":6,\"wageCost\":4}]},{\"id\":\"08\",\"chapter\":8,\"title\":\"雙岬・遠行步道\",\"initial\":{\"cash\":4400,\"seed\":6908,\"gate\":[15,28],\"paths\":[[11,28],[12,28],[13,28],[14,28],[15,28],[16,28],[17,28],[18,28],[19,28]],\"water\":[[0,13,32,4]],\"hills\":[],\"unowned\":[[11,0,8,13]],\"arrivalEvery\":4,\"guestMix\":[0.25,0.65,0.1],\"maxGuests\":320},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[27,44],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"整條水道把入口和兩座北岬分開。先開西岬，再做中央自交飛車，最後為遠東岬買第二條渡橋和真正近處服務。\",\"intendedDecision\":\"整條水道把入口和兩座北岬分開。先開西岬，再做中央自交飛車，最後為遠東岬買第二條渡橋和真正近處服務。\",\"distinctnessRationale\":\"北側中部不可用，兩座目的地無法直接橫向連接；橋位、長走路疲勞與分區員工構成主題。飛車在中段，最後工程是遠岬營運。\",\"mechanicFocus\":[\"長步行疲勞\",\"兩座遠端橋頭\",\"不同高度自交軌道\",\"遠端員工路線\"],\"commissions\":[{\"title\":\"一、從門口到西岬\",\"text\":\"入口旋轉台與西岬茶杯先開，第一條跨水橋要同時承擔遊客和員工。\",\"goals\":{\"openRides\":2,\"served\":22,\"bridges\":4,\"satisfaction\":68},\"grant\":1100,\"mix\":[0.25,0.65,0.1],\"budget\":[50,80],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、西岬能自己招待人\",\"text\":\"觀景輪與當地三類補給上線，長途客人不必為午餐再走回入口。\",\"goals\":{\"openRides\":3,\"servicedSites\":2,\"benches\":4,\"satisfaction\":73},\"grant\":1500,\"mix\":[0.45,0.45,0.1],\"budget\":[50,85],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[9,23,15,9],\"rideTypes\":[\"carousel\"],\"maxRoute\":16},{\"rect\":[0,0,11,13],\"rideTypes\":[\"wheel\",\"teacups\"],\"maxRoute\":16}]},{\"title\":\"三、兩層路線相遇\",\"text\":\"在入口腹地做有三層抬升的交織回路，以不同高度跨越自己的路線並完成載客。\",\"goals\":{\"openRides\":4,\"commissionedCoasters\":1,\"satisfaction\":75},\"grant\":1700,\"mix\":[0.1,0.35,0.55],\"budget\":[70,108],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"coasterSpec\":{\"minLength\":60,\"minRise\":3,\"minComfort\":80,\"stationRegion\":[14,19,4,3],\"visitRegions\":[{\"rect\":[20,20,2,7],\"minSegments\":6},{\"rect\":[10,22,15,1],\"minSegments\":12},{\"rect\":[11,18,14,1],\"minSegments\":11}]}},{\"title\":\"四、長途的中間站\",\"text\":\"完整步道需休息、清潔與巡修。分配員工而非只增加入園人數，準備更長的東岬行程。\",\"goals\":{\"healthyRides\":4,\"phaseRepairs\":1,\"phaseCleaned\":10,\"benches\":7,\"scenery\":7,\"satisfaction\":77,\"operatingProfit\":2400},\"grant\":1700,\"mix\":[0.3,0.5,0.2],\"budget\":[55,90],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"五、遠東岬的開幕\",\"text\":\"第二座橋接上東岬跳塔、鞦韆和真正使用的當地服務，入口與兩岬都能獨立接待客人。\",\"goals\":{\"openRides\":6,\"distinctRides\":6,\"bridges\":8,\"servicedSites\":3,\"commissionedCoasters\":1,\"healthyRides\":5,\"benches\":10,\"scenery\":10,\"satisfaction\":79},\"grant\":0,\"mix\":[0.25,0.4,0.35],\"budget\":[60,100],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[9,23,15,9],\"rideTypes\":[\"carousel\"],\"maxRoute\":16},{\"rect\":[0,0,11,13],\"rideTypes\":[\"wheel\",\"teacups\"],\"maxRoute\":16},{\"rect\":[19,0,13,13],\"rideTypes\":[\"tower\",\"swing\"],\"maxRoute\":16}],\"coasterSpec\":{\"minLength\":60,\"minRise\":3,\"minComfort\":80,\"stationRegion\":[14,19,4,3],\"visitRegions\":[{\"rect\":[20,20,2,7],\"minSegments\":6},{\"rect\":[10,22,15,1],\"minSegments\":12},{\"rect\":[11,18,14,1],\"minSegments\":11}]},\"operatingCost\":5,\"wageCost\":4}]},{\"id\":\"09\",\"chapter\":9,\"title\":\"靜芽・樹海小園\",\"initial\":{\"cash\":2700,\"seed\":7009,\"gate\":[5,14],\"paths\":[[5,14],[6,14],[7,14],[8,14],[9,14]],\"water\":[[18,24,6,8],[0,17,4,6]],\"hills\":[[7,0,21,6,1],[22,6,6,13,1],[4,24,14,8,1]],\"unowned\":[[10,6,12,18],[0,0,7,9],[28,19,4,13]],\"arrivalEvery\":4,\"guestMix\":[0.7,0.28,0.02],\"maxGuests\":320},\"objective\":{\"deadline\":4800,\"cashFloor\":-750},\"estimateMinutes\":[26,43],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"中央樹海不可開發；把小型遊具、補給和休息逐個放在四個邊緣口袋，最後讓湖角船塢也成為完整的一站。\",\"intendedDecision\":\"中央樹海不可開發；把小型遊具、補給和休息逐個放在四個邊緣口袋，最後讓湖角船塢也成為完整的一站。\",\"distinctnessRationale\":\"保留大片中央不可用地的溫和經營關。從西入口、南層台、北脊到東湖角，四個狹小服務口袋需共同維持高滿意度；沒有虛構噪音分數或強制飛車。 終章保留純營運取向：新稜線花園與兩條有實際最短路徑要求的跨湖近路，而非複製另一條雲霄飛車。\",\"mechanicFocus\":[\"不可開發樹海\",\"狹窄口袋供給\",\"平靜客群及高滿意度\",\"長路與景觀\",\"功能性步行捷徑\",\"小面積完整服務花園\"],\"commissions\":[{\"title\":\"一、西口的小小開始\",\"text\":\"一座旋轉台配緊湊補給，不能侵入中央樹海；先留住第一批平靜客人。\",\"goals\":{\"openRides\":1,\"served\":18,\"shopTypes\":3,\"satisfaction\":72,\"operatingProfit\":200},\"grant\":1000,\"mix\":[0.7,0.28,0.02],\"budget\":[42,65],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、南台地的慢輪\",\"text\":\"繞到抬高的南台地，建觀景輪與服務；休息點必須沿實際走路的位置。\",\"goals\":{\"openRides\":2,\"servicedSites\":2,\"benches\":4,\"satisfaction\":76},\"grant\":1300,\"mix\":[0.75,0.23,0.02],\"budget\":[42,68],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[4,9,6,9],\"rideTypes\":[\"carousel\"],\"maxRoute\":16},{\"rect\":[4,24,14,8],\"rideTypes\":[\"wheel\"],\"maxRoute\":16}]},{\"title\":\"三、北脊花窗\",\"text\":\"北脊是另一個獨立口袋，景觀輪與三類服務分散熱浪需求；保留繞樹海往東的路。\",\"goals\":{\"openRides\":3,\"servicedSites\":3,\"scenery\":7,\"benches\":6,\"satisfaction\":79},\"grant\":1500,\"mix\":[0.65,0.33,0.02],\"budget\":[45,72],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[4,9,6,9],\"rideTypes\":[\"carousel\"],\"maxRoute\":16},{\"rect\":[4,24,14,8],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[7,0,13,6],\"rideTypes\":[\"wheel\"],\"maxRoute\":16}]},{\"title\":\"四、東庭的茶香\",\"text\":\"東側窄台地開茶杯，讓員工走完長路並在近處供餐，不靠一間門口店服務全園。\",\"goals\":{\"openRides\":4,\"servicedSites\":4,\"phaseRepairs\":1,\"phaseCleaned\":8,\"healthyRides\":3,\"satisfaction\":80},\"grant\":1600,\"mix\":[0.5,0.45,0.05],\"budget\":[48,75],\"weather\":\"hot\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[4,9,6,9],\"rideTypes\":[\"carousel\"],\"maxRoute\":16},{\"rect\":[4,24,14,8],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[7,0,13,6],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[22,6,6,26],\"rideTypes\":[\"teacups\",\"boats\"],\"maxRoute\":16}]},{\"title\":\"五、樹海盡頭的船塢\",\"text\":\"湖角新船塢完成真實乘船。可沿北脊長路接回，也可花錢另做跨湖捷徑；四處服務保持使用。\",\"goals\":{\"openRides\":5,\"distinctRides\":4,\"servicedSites\":4,\"healthyRides\":4,\"scenery\":12,\"benches\":10,\"satisfaction\":82},\"grant\":300,\"mix\":[0.72,0.26,0.02],\"budget\":[45,75],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[4,9,6,9],\"rideTypes\":[\"carousel\"],\"maxRoute\":16},{\"rect\":[4,24,14,8],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[7,0,13,6],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[22,6,6,26],\"rideTypes\":[\"boats\"],\"maxRoute\":16}],\"operatingCost\":4,\"wageCost\":3},{\"title\":\"六、花園與兩條近路\",\"text\":\"在東北稜線做一座真正使用的家庭花園；保護林地仍不能施工。讓南岸與船塢兩組端點的步行行程都縮短至12格內，可以選雙橋或共享跨湖主幹，衡量費用、清潔和繞路疲勞。\",\"goals\":{\"openRides\":6,\"servicedSites\":5,\"healthyRides\":6,\"connectedPaths\":2,\"scenery\":14,\"benches\":12,\"satisfaction\":84},\"grant\":0,\"mix\":[0.65,0.33,0.02],\"budget\":[45,75],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"operatingCost\":5,\"wageCost\":4,\"siteSpecs\":[{\"rect\":[4,9,6,9],\"rideTypes\":[\"carousel\"],\"maxRoute\":16},{\"rect\":[4,24,14,8],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[7,0,13,6],\"rideTypes\":[\"wheel\"],\"maxRoute\":16},{\"rect\":[22,6,6,26],\"rideTypes\":[\"boats\"],\"maxRoute\":16},{\"rect\":[20,0,8,6],\"rideTypes\":[\"carousel\"],\"maxRoute\":16}],\"routeSpecs\":[{\"from\":[16,28],\"to\":[26,28],\"maxSteps\":12},{\"from\":[16,30],\"to\":[26,30],\"maxSteps\":12}]}]},{\"id\":\"10\",\"chapter\":10,\"title\":\"風輪・交織博覽會\",\"initial\":{\"cash\":3100,\"seed\":7110,\"gate\":[2,18],\"paths\":[[2,18],[3,18],[4,18],[5,18],[6,18],[7,18],[8,18],[23,18],[24,18],[25,18],[26,18],[27,18],[28,18],[29,18],[4,20],[5,20],[6,20],[7,20],[8,20],[9,20],[9,18],[9,19],[5,16,\"queue\"],[5,17,\"queue\"],[25,16,\"queue\"],[25,17,\"queue\"]],\"water\":[[0,0,8,8],[25,25,7,7]],\"hills\":[[10,9,4,15,1],[14,9,8,4,2],[20,13,4,11,1]],\"unowned\":[[0,26,7,6],[25,0,7,6]],\"arrivalEvery\":4,\"guestMix\":[0.3,0.5,0.2],\"maxGuests\":320,\"assets\":[{\"kind\":\"carousel\",\"x\":5,\"y\":14,\"wear\":65,\"open\":false},{\"kind\":\"wheel\",\"x\":25,\"y\":14,\"wear\":92,\"open\":false},{\"kind\":\"drink\",\"x\":6,\"y\":19,\"stock\":30},{\"kind\":\"food\",\"x\":8,\"y\":19,\"stock\":30}]},\"objective\":{\"deadline\":5400,\"cashFloor\":-750},\"estimateMinutes\":[30,48],\"estimateStatus\":\"unmeasured_design_estimate\",\"brief\":\"接上兩段舊展場，用第一條低環線賺錢；中期補服務和高台，再讓第二條四層長線從不同高度穿過既有軌道。\",\"intendedDecision\":\"接上兩段舊展場，用第一條低環線賺錢；中期補服務和高台，再讓第二條四層長線從不同高度穿過既有軌道。\",\"distinctnessRationale\":\"六委託整合關：既有展場、低環線、東庭、中央高台、家庭市集、交織主線。最後是陸上立體交織，不是第一關跨河營地。\",\"mechanicFocus\":[\"既有展場再連接\",\"兩條軌道不同高度交織\",\"局部整地與高台排隊\",\"多客群資本配置\"],\"commissions\":[{\"title\":\"一、把兩邊接成一園\",\"text\":\"修整旧輪台，接通展場兩段路並補廁所，先讓既有兩座遊具真正服務。\",\"goals\":{\"openRides\":2,\"repairs\":1,\"served\":22,\"shopTypes\":3,\"satisfaction\":68},\"grant\":1100,\"mix\":[0.3,0.5,0.2],\"budget\":[50,82],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"]},{\"title\":\"二、展場的低環線\",\"text\":\"南庭做兩層抬升的低環線，替博覽會建立第一個自建工程與新收入。\",\"goals\":{\"openRides\":3,\"commissionedCoasters\":1,\"satisfaction\":73},\"grant\":1300,\"mix\":[0.15,0.3,0.55],\"budget\":[68,108],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"coasterSpec\":{\"minLength\":42,\"minRise\":2,\"minComfort\":80,\"stationRegion\":[13,25,5,4],\"visitRegions\":[{\"rect\":[9,20,16,2],\"minSegments\":13}]}},{\"title\":\"三、東庭會客\",\"text\":\"東庭茶杯與三類服務補齊，舊輪台不再依赖長途補給。\",\"goals\":{\"openRides\":4,\"servicedSites\":2,\"healthyRides\":3,\"benches\":4,\"satisfaction\":75},\"grant\":1450,\"mix\":[0.3,0.55,0.15],\"budget\":[50,85],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,14,8,12],\"rideTypes\":[\"carousel\",\"swing\"],\"maxRoute\":16},{\"rect\":[24,14,8,11],\"rideTypes\":[\"wheel\",\"teacups\"],\"maxRoute\":16}]},{\"title\":\"四、高台不是裝飾\",\"text\":\"整理兩層平台入口，開跳塔与中央服務；逐格過渡讓排隊和員工真能走上去。\",\"goals\":{\"openRides\":5,\"servicedSites\":3,\"healthyRides\":4,\"phaseRepairs\":1,\"phaseCleaned\":8,\"satisfaction\":77},\"grant\":1600,\"mix\":[0.1,0.35,0.55],\"budget\":[68,110],\"weather\":\"mild\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,14,8,12],\"rideTypes\":[\"carousel\",\"swing\"],\"maxRoute\":16},{\"rect\":[10,8,14,12],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[24,14,8,11],\"rideTypes\":[\"wheel\",\"teacups\"],\"maxRoute\":16}]},{\"title\":\"五、展覽也有家庭日\",\"text\":\"加入西庭鞦韆與補給，把較低預算客群納入營運；工資與設備開銷提高，主線用地仍需空出。\",\"goals\":{\"openRides\":6,\"servicedSites\":3,\"scenery\":9,\"benches\":7,\"satisfaction\":78,\"operatingProfit\":3400},\"grant\":1800,\"mix\":[0.3,0.6,0.1],\"budget\":[38,68],\"weather\":\"hot\",\"arrivalEvery\":3,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,14,8,12],\"rideTypes\":[\"swing\"],\"maxRoute\":16},{\"rect\":[10,8,14,12],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[24,14,8,11],\"rideTypes\":[\"wheel\",\"teacups\"],\"maxRoute\":16}],\"operatingCost\":7,\"wageCost\":4},{\"title\":\"六、風輪交織首航\",\"text\":\"北站新線抬升四層，穿過東側、中央交會區和西側回程；完成首班，低環線及三展庭維持營運。\",\"goals\":{\"openRides\":7,\"safeCoasters\":2,\"commissionedCoasters\":1,\"servicedSites\":3,\"healthyRides\":6,\"scenery\":12,\"benches\":9,\"satisfaction\":80},\"grant\":0,\"mix\":[0.3,0.35,0.35],\"budget\":[60,108],\"weather\":\"mild\",\"arrivalEvery\":4,\"unlock\":[\"carousel\",\"teacups\",\"wheel\",\"swing\",\"tower\",\"boats\",\"coaster\",\"food\",\"drink\",\"toilet\",\"bench\",\"flowers\",\"path\",\"queue\",\"bridge\"],\"siteSpecs\":[{\"rect\":[2,14,8,12],\"rideTypes\":[\"carousel\",\"swing\"],\"maxRoute\":16},{\"rect\":[10,8,14,12],\"rideTypes\":[\"tower\"],\"maxRoute\":16},{\"rect\":[24,14,8,11],\"rideTypes\":[\"wheel\",\"teacups\"],\"maxRoute\":16}],\"coasterSpec\":{\"minLength\":68,\"minRise\":4,\"minComfort\":80,\"newOnly\":true,\"stationRegion\":[10,5,5,3],\"visitRegions\":[{\"rect\":[26,6,2,18],\"minSegments\":14},{\"rect\":[16,19,9,5],\"minSegments\":10},{\"rect\":[8,6,2,10],\"minSegments\":8}]},\"operatingCost\":7,\"wageCost\":4}]}];if(typeof module!=='undefined')module.exports=levels;else root.ParkLevels=levels;})(typeof globalThis!=='undefined'?globalThis:this);\n"
+          }
+        ]
+      },
+      "games/skyrail-park/levels.json": {
+        "beforeSHA256": "c73403023a585577506c751db73712ac412954c37ce5847434ff0d61374b00a3",
+        "beforeGitBlobSHA1": "6ccc82bda8d2f5c31d7d8d0fabd530b0327e0974",
+        "afterSHA256": "a28fca6b567af93493a6e1cec3ec47980755cafe4ad22dc177bab7fd86a67a9c",
+        "reversePatches": [
+          {
+            "afterStartByte": 65638,
+            "afterEndByte": 65817,
+            "beforeText": "        \"text\": \"熱浪增加需求，擴充攤位、北側輪台及備貨；別只加高價而讓客人找不到可負擔餐點。\",\n"
+          },
+          {
+            "afterStartByte": 66651,
+            "afterEndByte": 66667,
+            "beforeText": "              17\n"
+          },
+          {
+            "afterStartByte": 66709,
+            "afterEndByte": 66709,
+            "beforeText": "              \"carousel\",\n"
+          },
+          {
+            "afterStartByte": 66854,
+            "afterEndByte": 67021,
+            "beforeText": "        \"text\": \"東側鞦韆与在地補給形成另一個目的地，避免全部店門都擠在入口走道。\",\n"
+          },
+          {
+            "afterStartByte": 67066,
+            "afterEndByte": 67096,
+            "beforeText": "          \"servicedSites\": 2,\n"
+          },
+          {
+            "afterStartByte": 67776,
+            "afterEndByte": 68001,
+            "beforeText": ""
+          },
+          {
+            "afterStartByte": 68036,
+            "afterEndByte": 68052,
+            "beforeText": "              17\n"
+          },
+          {
+            "afterStartByte": 68094,
+            "afterEndByte": 68094,
+            "beforeText": "              \"carousel\",\n"
+          },
+          {
+            "afterStartByte": 68205,
+            "afterEndByte": 68223,
+            "beforeText": ""
+          },
+          {
+            "afterStartByte": 68241,
+            "afterEndByte": 68258,
+            "beforeText": "              14,\n              18,\n"
+          },
+          {
+            "afterStartByte": 69455,
+            "afterEndByte": 69667,
+            "beforeText": "        \"text\": \"新飛車穿過市場帶與北廊，攤位上方預留兩層淨空，適時補能並完成首班載客。\",\n"
+          },
+          {
+            "afterStartByte": 69749,
+            "afterEndByte": 69779,
+            "beforeText": "          \"servicedSites\": 2,\n"
+          },
+          {
+            "afterStartByte": 70501,
+            "afterEndByte": 70726,
+            "beforeText": ""
+          },
+          {
+            "afterStartByte": 70761,
+            "afterEndByte": 70777,
+            "beforeText": "              17\n"
+          },
+          {
+            "afterStartByte": 70819,
+            "afterEndByte": 70819,
+            "beforeText": "              \"carousel\",\n"
+          },
+          {
+            "afterStartByte": 70930,
+            "afterEndByte": 70948,
+            "beforeText": ""
+          },
+          {
+            "afterStartByte": 70966,
+            "afterEndByte": 70983,
+            "beforeText": "              14,\n              18,\n"
+          },
+          {
+            "afterStartByte": 71719,
+            "afterEndByte": 71937,
+            "beforeText": "          ]\n"
+          },
+          {
+            "afterStartByte": 72006,
+            "afterEndByte": 72038,
+            "beforeText": "    ]\n"
+          }
+        ]
+      },
+      "games/skyrail-park/render.js": {
+        "beforeSHA256": "5b0b600452c4319d754f892148faa979605314e269183cfdbf3d8d650ba2f326",
+        "beforeGitBlobSHA1": "32a5f7b47f70bfbe2e3044ee2044fdf084e2d4cc",
+        "afterSHA256": "bb807e749907e14d4737d90ac890976f564a9d9c973b2e8420ea45c05392f66c",
+        "reversePatches": [
+          {
+            "afterStartByte": 49847,
+            "afterEndByte": 51062,
+            "beforeText": " function projectZones(s){if(view.projects===false)return;const plans=E.Levels.find(l=>l.id===s.id).commissions,ch=Number.isInteger(view.projectIndex)&&plans[view.projectIndex]?plans[view.projectIndex]:E.currentCommission(s),zones=(ch.siteSpecs||[]).map((v,i)=>({rect:v.rect,label:'服務 '+(i+1),color:'#478f75'}));if(ch.coasterSpec?.stationRegion)zones.push({rect:ch.coasterSpec.stationRegion,label:'新站台',color:'#bc7754'});for(const [i,v]of (ch.coasterSpec?.visitRegions||[]).entries())zones.push({rect:v.rect,label:'軌道 '+(i+1),color:'#aa9050'});if(ch.goals.riverCampus)zones.push({rect:[27,0,5,32],label:'河東',color:'#478f75'});c.save();for(const z of zones){const [x,y,ww,hh]=z.rect,points=[[x,y],[x+ww,y],[x+ww,y+hh],[x,y+hh]].map(p=>xy(p[0],p[1],ground(s,Math.min(31,p[0]),Math.min(31,p[1]))+.04));c.setLineDash([5,4]);poly(points,z.color+'12',z.color+'b0',1.4);c.setLineDash([]);const p=xy(x+.8,y+.25,ground(s,x,y)+.05);label(z.label,p[0],p[1]-7,9,z.color);}for(const [i,v]of (ch.routeSpecs||[]).entries())for(const p of [v.from,v.to]){const q=xy(p[0]+.5,p[1]+.5,ground(s,...p)+.08);circle(q[0],q[1],Math.max(3,tile*.1),'#fff3b8','#ae875a',1.5);label('近路'+(i+1),q[0],q[1]-10,9,'#816749');}c.restore();}\n"
+          }
+        ]
+      },
+      "games/skyrail-park/ui.js": {
+        "beforeSHA256": "59828d78d0a94e3a1421b836ed3f87ddb49519e39888d472b568c019a9414c1c",
+        "beforeGitBlobSHA1": "550ef5e02c7fde911e66b47e4eac52b7770e8974",
+        "afterSHA256": "0cf0721cfa10ce4469a688570329d2f57ac66bcb498aef3343e57cf05bd9e19b",
+        "reversePatches": [
+          {
+            "afterStartByte": 9464,
+            "afterEndByte": 10612,
+            "beforeText": "function engineeringDetails(ch){const lines=[],cs=ch.coasterSpec;if(cs){lines.push('委託軌道：至少 '+(cs.minLength||8)+' 段，高差至少 '+(cs.minRise||0)+' 層，舒適至少 '+(cs.minComfort||45)+(cs.minExcitement?'，興奮至少 '+cs.minExcitement:'')+(cs.maxExcitement!==undefined?'，興奮不超過 '+cs.maxExcitement:'')+(cs.minWaterCells?'；至少 '+cs.minWaterCells+' 段的終點在水面上':'')+'。需通過試車、接通排隊道並營業，且目前設計至少完成一輪載客。'+(cs.newOnly?'使用本園新建的軌道。':''));lines.push(cs.stationRegion?'站台範圍：'+rectText(cs.stationRegion)+'。':'這份委託沒有指定站台區域。');for(const[i,v]of(cs.visitRegions||[]).entries())lines.push('軌道經過區 '+(i+1)+'：'+rectText(v.rect)+'，至少 '+v.minSegments+' 段。');}\n"
+          },
+          {
+            "afterStartByte": 12658,
+            "afterEndByte": 15185,
+            "beforeText": "function updatePlanning(lev){const selected=Number.isInteger(R.view.projectIndex)&&lev.commissions[R.view.projectIndex]?R.view.projectIndex:s.commission.index,signature=s.id+':'+s.commission.index;if($('planning-commission').dataset.signature!==signature){$('planning-commission').innerHTML='<option value=\"current\">目前委託</option>'+lev.commissions.map((c,i)=>'<option value=\"'+i+'\">'+(i+1)+' · '+c.title+'</option>').join('');$('planning-commission').dataset.signature=signature;}$('planning-commission').value=Number.isInteger(R.view.projectIndex)?String(selected):'current';const plan=lev.commissions[selected];$('planning-caption').textContent='地圖規劃：'+plan.title+'。選擇未來工程不會更換目前委託或扣款。';const detailSignature=s.id+':'+selected;if($('project-requirements').dataset.signature!==detailSignature){$('project-requirements').innerHTML=engineeringDetails(plan);$('project-requirements').dataset.signature=detailSignature;}$('ownership-guidance').textContent='用地圖示：綠線是已開放土地的邊界；紅色斜線是永久未開放土地，不會隨委託解鎖。藍色水面只能鋪步道橋，遊具需放陸地。'+(lev.initial.unowned?.length?'未開放範圍：'+lev.initial.unowned.map(rectText).join('；')+'。':'本園沒有未開放土地。');}\nfunction update(){if(s.commission.index!==lastCommission){lastCommission=s.commission.index;notice('新委託：'+E.currentCommission(s).title+'。'+E.currentCommission(s).text);window.ParkSound.play('commission');}const m=E.metrics(s),o=s.objective,lev=E.Levels.find(l=>l.id===s.id);$('cash').textContent=money(s.money);$('crowd').textContent=s.guests.length+' / '+s.stats.arrivals;$('happy').textContent=m.satisfaction+'%';$('profit').textContent=money(m.operatingProfit);$('clock').textContent=time(s.tick);$('level-title').textContent=s.id+' · '+lev.title;$('phase').textContent=({setup:'規劃中',running:'園區運行中',paused:'已暫停',won:'目標達成',lost:'營運結束'})[s.mode]+(s.sandbox?' · 自由經營':'')+(s.parkOpen?' · 園門開啟':' · 園門關閉')+' · 委託 '+(s.commission.index+1)+'/'+lev.commissions.length;$('pause').textContent=s.mode==='running'?'Ⅱ 暫停':'▶ 繼續';$('pause').disabled=['won','lost'].includes(s.mode);$('gate').textContent=s.parkOpen?'關閉園門':'開園迎客';$('gate').disabled=['won','lost'].includes(s.mode);$('brief').textContent=lev.brief;$('deadline').textContent='期限 '+time(o.deadline);\n"
+          },
+          {
+            "afterStartByte": 17732,
+            "afterEndByte": 18402,
+            "beforeText": " if($('future-goals').dataset.signature!==s.id+':'+s.commission.index){$('future-goals').dataset.signature=s.id+':'+s.commission.index;$('future-goals').innerHTML=lev.commissions.slice(s.commission.index+1).map(c=>'<article><h4>'+c.title+'</h4><p>'+c.text+'</p><p class=\"micro\">'+Object.entries(c.goals).filter(([key])=>key!=='trackRise').map(([key,value])=>goalLabel(key,c.goals)+' '+N(value)).join(' · ')+'</p><details><summary>工程範圍與條件</summary>'+engineeringDetails(c)+'</details></article>').join('')||'<p>這是本園最後一份委託。完成各項工程，並維持服務與現金流。</p>';}\n"
+          }
+        ]
+      },
+      "games/skyrail-park.html": {
+        "beforeSHA256": "e0dacc2e53a13adad25fc173f036c1abe3f0ce98247eb611bd59a1299659b201",
+        "beforeGitBlobSHA1": "4b5b8e43e093208d5603915956999ed7775342be",
+        "afterSHA256": "9a7b93afaeae22871af05b2df4d9f4dae80af4f6e547aa8a2c4e6eb9a098e21e",
+        "reversePatches": [
+          {
+            "afterStartByte": 15548,
+            "afterEndByte": 16149,
+            "beforeText": "<footer>雲霄歡樂園 · 原創程式與繪圖 · 10 座原創樂園 · 1×／3× 模擬、暫停規劃與完成後繼續經營 · 備份只保存這座園的遊戲資料。</footer></main><script src=\"skyrail-park/levels.js\"></script><script src=\"skyrail-park/spatial.js\"></script><script src=\"skyrail-park/engine.js\"></script><script src=\"skyrail-park/storage.js\"></script><script src=\"skyrail-park/render.js\"></script><script src=\"skyrail-park/sound.js\"></script><script src=\"skyrail-park/ui.js\"></script></body></html>\n"
+          }
+        ]
+      }
+    },
+    "entryCacheTransform": {
+      "path": "games/skyrail-park.html",
+      "onlyQueryTokensChanged": [
+        "levels.js",
+        "engine.js",
+        "render.js",
+        "ui.js"
+      ]
+    },
+    "publicTestFiles": {
+      "verification/park07-objectives/verify.cjs": "3a9e2b8b5d41a3afeed20e65cd965d042e8a4be71b3702c3ee0c1b2ffe040ed9",
+      "verification/park07-objectives/action-tapes.json": "bc170a37cdc2d2b7f1728478639eeac7e8e7891ed04a4d11e1d2b66de815b242"
+    },
+    "publicTestCommand": [
+      "node",
+      "verification/park07-objectives/verify.cjs",
+      "CURRENT_ROOT",
+      "BASELINE_ROOT"
+    ],
+    "historicalMetadataUnchanged": [
+      "classic-duo-release.json",
+      "classic-duo-baseline.json",
+      "verify-classic-duo.cjs",
+      "garden-aquarium-baseline.json"
+    ],
+    "claims": {
+      "actualBrowserPassed": false,
+      "ordinaryTwentyMinutesAccepted": false,
+      "privateSavePublished": false,
+      "sourceDurationIsHumanDuration": false
     }
   }
 }
