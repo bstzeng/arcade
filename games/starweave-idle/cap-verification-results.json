@@ -1,33 +1,19 @@
 {
-  "sha256": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
-  "seed": 8088,
-  "scenario": "Accelerated no-input run from create until safety cap, then actual sell action and normal ticks. No state edits or injected items.",
-  "cap": {
-    "simulationHours": 5.168263888888889,
-    "level": 41,
-    "frontier": 9,
-    "kills": 4175,
-    "retreats": 146,
-    "mode": "blocked",
+  "status": "passed",
+  "engineSha256": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
+  "scenario": "Synthetic fixtures verify unlimited unified bag and lossless v1 bag+basket migration; not a human play session.",
+  "unifiedBagItems": 10005,
+  "roundTripExact": true,
+  "autoSale": false,
+  "combatContinues": true,
+  "legacy": {
+    "fixture": "synthetic-generated",
     "bag": 18,
-    "basket": 2000,
-    "loggedDrops": 2018,
-    "inventory": 2020,
-    "missingDrops": 0
-  },
-  "saveRoundTrip": true,
-  "sale": {
-    "ok": true,
-    "message": "售出 2000 件，獲得 47041 金幣"
-  },
-  "exactSaleGold": true,
-  "duplicateSale": {
-    "ok": false,
-    "message": "目前無法執行這個動作"
-  },
-  "resume": {
-    "mode": "loot",
-    "newKills": 29
-  },
-  "wallExecutionMs": 599.677372
+    "basket": 2,
+    "unifiedBag": 20,
+    "equipped": 2,
+    "locks": 2,
+    "allItemFieldsPreserved": true,
+    "malformedLocksRejected": true
+  }
 }

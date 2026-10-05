@@ -1,15 +1,20 @@
 {
   "status": "passed",
-  "checks": 7,
-  "tests": [
-    "Entry uses traditional Chinese and local-only asset closure",
-    "Catalog binding has isolated slug and original cover",
-    "Production JavaScript syntax passes",
-    "Core fixtures and all ten actual-tick progression scenarios pass",
-    "Natural capacity run preserves every item and resumes after exact sale",
-    "Two genuine normal-speed 70-second engine runs match current engine",
-    "UI and storage source lifecycle regressions pass"
+  "version": 2,
+  "groups": 6,
+  "checks": [
+    "Local closure and shared v2 asset cache tokens",
+    "Same game identity and isolated persistent save key",
+    "Independent spatial, progression, whole-build comparison and migration regression",
+    "No 18 or 2000 item cap; synthetic v1 items and locks all preserved",
+    "Retained actual-time movement, southwest retreat, camp healing and retry evidence",
+    "Independent unified-bag, selection, highlight, lifecycle and persistence UI audit"
   ],
-  "engineHash": "52163ba5fe8a9d6759a172374ad1e261e1e979c69dc3ac15a6c203e4a6fb2daf",
-  "scope": "Source/static/VM checks and simulated legal actions. Real-time engine evidence is retained separately; actual browser and human playtest are not implied."
+  "engineSha256": "a7a642ad4d6098c45ed64821862aad58f25df8ac3b9eb1a5dff2cb6fad5abd4d",
+  "engineChecks": 14,
+  "spatialRuns": 6,
+  "uiChecks": 53,
+  "uiAssertions": 960,
+  "inventoryItems": 10005,
+  "scope": "Source/static/VM and legal simulation gate. Retained actual-time engine trace is separate from accelerated runs. This is not actual browser or human-play acceptance."
 }
