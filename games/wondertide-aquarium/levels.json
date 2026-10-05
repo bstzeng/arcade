@@ -1,0 +1,3858 @@
+[
+  {
+    "id": "01",
+    "chapter": 1,
+    "chapterName": "晨光育成",
+    "theme": "sunrise",
+    "title": "掌心裡的海",
+    "initial": {
+      "cash": 95,
+      "seed": 884,
+      "capacity": 5,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        }
+      ],
+      "helpers": [
+        "collector",
+        "feeder"
+      ],
+      "currents": [],
+      "shelters": [
+        {
+          "x": 750,
+          "y": 400,
+          "r": 95
+        }
+      ],
+      "waves": [],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 2,
+      "healthyFor": 9,
+      "phases": [
+        {
+          "name": "小屋循環器",
+          "cost": 29,
+          "meals": 4,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 47,
+          "meals": 7,
+          "adults": 2,
+          "kills": 0,
+          "born": 0
+        },
+        {
+          "name": "點亮「掌心裡的海」",
+          "cost": 70,
+          "meals": 12,
+          "adults": 2,
+          "kills": 0,
+          "born": 0,
+          "diets": 1
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "成長與現金流",
+      "open"
+    ],
+    "intendedDecision": "先餵小魚兩次讓牠長大，點亮三座小屋。",
+    "distinctnessRationale": "掌心裡的海：成長與現金流；2 尾起始魚、0 波訪客、0 次育幼；open 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "02",
+    "chapter": 1,
+    "chapterName": "晨光育成",
+    "theme": "sunrise",
+    "title": "綠緞的餐桌",
+    "initial": {
+      "cash": 95,
+      "seed": 1057,
+      "capacity": 5,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        }
+      ],
+      "helpers": [
+        "collector",
+        "feeder"
+      ],
+      "currents": [],
+      "shelters": [
+        {
+          "x": 250,
+          "y": 400,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 50,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 2,
+      "healthyFor": 9,
+      "phases": [
+        {
+          "name": "小屋循環器",
+          "cost": 29,
+          "meals": 4,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 47,
+          "meals": 9,
+          "adults": 2,
+          "kills": 0,
+          "born": 0
+        },
+        {
+          "name": "點亮「綠緞的餐桌」",
+          "cost": 70,
+          "meals": 14,
+          "adults": 2,
+          "kills": 1,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "雙食性與誘餌",
+      "left"
+    ],
+    "intendedDecision": "焰尾吃圓粒，綠緞吃藻片；智慧照護會替你選對餐。",
+    "distinctnessRationale": "綠緞的餐桌：雙食性與誘餌；2 尾起始魚、1 波訪客、0 次育幼；left 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "03",
+    "chapter": 1,
+    "chapterName": "晨光育成",
+    "theme": "sunrise",
+    "title": "海草躲貓貓",
+    "initial": {
+      "cash": 99,
+      "seed": 1230,
+      "capacity": 6,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "shield",
+          "x": 494,
+          "y": 387
+        }
+      ],
+      "helpers": [
+        "shield",
+        "collector"
+      ],
+      "currents": [],
+      "shelters": [
+        {
+          "x": 230,
+          "y": 410,
+          "r": 100
+        },
+        {
+          "x": 780,
+          "y": 400,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 38,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 3,
+      "healthyFor": 9,
+      "phases": [
+        {
+          "name": "小屋循環器",
+          "cost": 29,
+          "meals": 5,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 47,
+          "meals": 9,
+          "adults": 2,
+          "kills": 0,
+          "born": 0
+        },
+        {
+          "name": "點亮「海草躲貓貓」",
+          "cost": 70,
+          "meals": 15,
+          "adults": 3,
+          "kills": 1,
+          "born": 0,
+          "diets": 1
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "蓄勢預判",
+      "islands"
+    ],
+    "intendedDecision": "追潮刃衝刺前會停住蓄勢，利用草叢庇護照顧幼魚。",
+    "distinctnessRationale": "海草躲貓貓：蓄勢預判；3 尾起始魚、1 波訪客、0 次育幼；islands 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "04",
+    "chapter": 1,
+    "chapterName": "晨光育成",
+    "theme": "sunrise",
+    "title": "小小逆流",
+    "initial": {
+      "cash": 99,
+      "seed": 1403,
+      "capacity": 6,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 420,
+          "y": 85,
+          "w": 150,
+          "h": 430,
+          "vx": 0,
+          "vy": -18
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 440,
+          "r": 92
+        },
+        {
+          "x": 780,
+          "y": 420,
+          "r": 92
+        }
+      ],
+      "waves": [
+        {
+          "at": 42,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 78,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 3,
+      "healthyFor": 9,
+      "phases": [
+        {
+          "name": "小屋循環器",
+          "cost": 29,
+          "meals": 5,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 47,
+          "meals": 10,
+          "adults": 2,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「小小逆流」",
+          "cost": 70,
+          "meals": 16,
+          "adults": 3,
+          "kills": 2,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "逆流投餌",
+      "up"
+    ],
+    "intendedDecision": "中央水流會抬起飼料，靠近魚身投食最穩。",
+    "distinctnessRationale": "小小逆流：逆流投餌；3 尾起始魚、2 波訪客、0 次育幼；up 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "05",
+    "chapter": 1,
+    "chapterName": "晨光育成",
+    "theme": "sunrise",
+    "title": "第一道泡泡牆",
+    "initial": {
+      "cash": 99,
+      "seed": 1576,
+      "capacity": 6,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "shield",
+          "x": 494,
+          "y": 387
+        }
+      ],
+      "helpers": [
+        "shield",
+        "feeder"
+      ],
+      "currents": [
+        {
+          "x": 80,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": 15,
+          "vy": 0
+        },
+        {
+          "x": 580,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": -15,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 500,
+          "y": 390,
+          "r": 120
+        }
+      ],
+      "waves": [
+        {
+          "at": 36,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 74,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 3,
+      "healthyFor": 9,
+      "phases": [
+        {
+          "name": "小屋循環器",
+          "cost": 29,
+          "meals": 6,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 47,
+          "meals": 11,
+          "adults": 2,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「第一道泡泡牆」",
+          "cost": 70,
+          "meals": 18,
+          "adults": 3,
+          "kills": 2,
+          "born": 0,
+          "diets": 1
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "防守與照護切換",
+      "gate"
+    ],
+    "intendedDecision": "兩次追潮刃來襲，緊急泡泡能替餵食爭取六秒。",
+    "distinctnessRationale": "第一道泡泡牆：防守與照護切換；3 尾起始魚、2 波訪客、0 次育幼；gate 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "06",
+    "chapter": 1,
+    "chapterName": "晨光育成",
+    "theme": "sunrise",
+    "title": "晨曦展館",
+    "initial": {
+      "cash": 103,
+      "seed": 1749,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "collector",
+        "nurse"
+      ],
+      "currents": [],
+      "shelters": [
+        {
+          "x": 230,
+          "y": 410,
+          "r": 100
+        },
+        {
+          "x": 780,
+          "y": 400,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 34,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 65,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 100,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 4,
+      "healthyFor": 9,
+      "phases": [
+        {
+          "name": "小屋循環器",
+          "cost": 29,
+          "meals": 7,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 47,
+          "meals": 13,
+          "adults": 3,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「晨曦展館」",
+          "cost": 70,
+          "meals": 21,
+          "adults": 4,
+          "kills": 3,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "第一章綜合",
+      "islands"
+    ],
+    "intendedDecision": "收尾的貝甲衛只在亮眼時受傷，其他時間留給魚群。",
+    "distinctnessRationale": "晨曦展館：第一章綜合；4 尾起始魚、3 波訪客、0 次育幼；islands 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "07",
+    "chapter": 2,
+    "chapterName": "珊瑚水道",
+    "theme": "coral",
+    "title": "珊瑚雙岸",
+    "initial": {
+      "cash": 108,
+      "seed": 1922,
+      "capacity": 6,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "pearl",
+          "x": 494,
+          "y": 387
+        }
+      ],
+      "helpers": [
+        "collector",
+        "feeder"
+      ],
+      "currents": [
+        {
+          "x": 455,
+          "y": 85,
+          "w": 90,
+          "h": 440,
+          "vx": 0,
+          "vy": 16
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 430,
+          "r": 105
+        },
+        {
+          "x": 790,
+          "y": 425,
+          "r": 105
+        }
+      ],
+      "waves": [
+        {
+          "at": 32,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 66,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 3,
+      "healthyFor": 10,
+      "phases": [
+        {
+          "name": "珊瑚濾水台",
+          "cost": 34,
+          "meals": 6,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 54,
+          "meals": 11,
+          "adults": 2,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「珊瑚雙岸」",
+          "cost": 80,
+          "meals": 18,
+          "adults": 3,
+          "kills": 2,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "收益差異",
+      "split"
+    ],
+    "intendedDecision": "珍珠魚產出較大的貝幣，兩岸各有安穩的草叢。",
+    "distinctnessRationale": "珊瑚雙岸：收益差異；3 尾起始魚、2 波訪客、0 次育幼；split 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "08",
+    "chapter": 2,
+    "chapterName": "珊瑚水道",
+    "theme": "coral",
+    "title": "轉彎的午餐",
+    "initial": {
+      "cash": 112,
+      "seed": 2095,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "lantern",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 75,
+          "y": 190,
+          "w": 850,
+          "h": 95,
+          "vx": 20,
+          "vy": 0
+        },
+        {
+          "x": 75,
+          "y": 360,
+          "w": 850,
+          "h": 95,
+          "vx": -18,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 250,
+          "y": 420,
+          "r": 100
+        },
+        {
+          "x": 760,
+          "y": 410,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 35,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 64,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 94,
+          "kind": "hunter",
+          "x": 35,
+          "y": 270
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 4,
+      "healthyFor": 10,
+      "phases": [
+        {
+          "name": "珊瑚濾水台",
+          "cost": 34,
+          "meals": 7,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 54,
+          "meals": 13,
+          "adults": 3,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「轉彎的午餐」",
+          "cost": 80,
+          "meals": 21,
+          "adults": 4,
+          "kills": 3,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "三食性",
+      "cross"
+    ],
+    "intendedDecision": "三種餐點首次同缸，智慧模式能減少切換，別把活餌落在遠處。",
+    "distinctnessRationale": "轉彎的午餐：三食性；4 尾起始魚、3 波訪客、0 次育幼；cross 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "09",
+    "chapter": 2,
+    "chapterName": "珊瑚水道",
+    "theme": "coral",
+    "title": "貝甲的節拍",
+    "initial": {
+      "cash": 108,
+      "seed": 2268,
+      "capacity": 6,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "shield",
+          "x": 494,
+          "y": 387
+        }
+      ],
+      "helpers": [
+        "shield",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 80,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": 15,
+          "vy": 0
+        },
+        {
+          "x": 580,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": -15,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 500,
+          "y": 390,
+          "r": 120
+        }
+      ],
+      "waves": [
+        {
+          "at": 32,
+          "kind": "armor",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 76,
+          "kind": "armor",
+          "x": 965,
+          "y": 390
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 3,
+      "healthyFor": 10,
+      "phases": [
+        {
+          "name": "珊瑚濾水台",
+          "cost": 34,
+          "meals": 7,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 54,
+          "meals": 13,
+          "adults": 2,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「貝甲的節拍」",
+          "cost": 80,
+          "meals": 21,
+          "adults": 3,
+          "kills": 2,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "裝甲窗口",
+      "gate"
+    ],
+    "intendedDecision": "不要對閉上的甲殼亂射；亮眼時點眼睛會造成雙倍傷害。",
+    "distinctnessRationale": "貝甲的節拍：裝甲窗口；3 尾起始魚、2 波訪客、0 次育幼；gate 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "10",
+    "chapter": 2,
+    "chapterName": "珊瑚水道",
+    "theme": "coral",
+    "title": "逆潮接力",
+    "initial": {
+      "cash": 112,
+      "seed": 2441,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "pearl",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "cleaner",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 420,
+          "y": 85,
+          "w": 150,
+          "h": 430,
+          "vx": 0,
+          "vy": -18
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 440,
+          "r": 92
+        },
+        {
+          "x": 780,
+          "y": 420,
+          "r": 92
+        }
+      ],
+      "waves": [
+        {
+          "at": 31,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 63,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 99,
+          "kind": "hunter",
+          "x": 35,
+          "y": 270
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 4,
+      "healthyFor": 10,
+      "phases": [
+        {
+          "name": "珊瑚濾水台",
+          "cost": 34,
+          "meals": 7,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 54,
+          "meals": 14,
+          "adults": 3,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「逆潮接力」",
+          "cost": 80,
+          "meals": 22,
+          "adults": 4,
+          "kills": 3,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "餌食回收",
+      "up"
+    ],
+    "intendedDecision": "上升水道連接高低魚群，清水蝦能回收久留的殘餌。",
+    "distinctnessRationale": "逆潮接力：餌食回收；4 尾起始魚、3 波訪客、0 次育幼；up 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "11",
+    "chapter": 2,
+    "chapterName": "珊瑚水道",
+    "theme": "coral",
+    "title": "兩側敲門",
+    "initial": {
+      "cash": 112,
+      "seed": 2614,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "shield",
+        "nurse"
+      ],
+      "currents": [
+        {
+          "x": 455,
+          "y": 85,
+          "w": 90,
+          "h": 440,
+          "vx": 0,
+          "vy": 16
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 430,
+          "r": 105
+        },
+        {
+          "x": 790,
+          "y": 425,
+          "r": 105
+        }
+      ],
+      "waves": [
+        {
+          "at": 32,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 34,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 79,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 4,
+      "healthyFor": 10,
+      "phases": [
+        {
+          "name": "珊瑚濾水台",
+          "cost": 34,
+          "meals": 8,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 54,
+          "meals": 15,
+          "adults": 3,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「兩側敲門」",
+          "cost": 80,
+          "meals": 24,
+          "adults": 4,
+          "kills": 3,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "雙側分流",
+      "split"
+    ],
+    "intendedDecision": "先擋追潮刃，再處理追著餌走的泡棘球；不必兩邊急點。",
+    "distinctnessRationale": "兩側敲門：雙側分流；4 尾起始魚、3 波訪客、0 次育幼；split 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "12",
+    "chapter": 2,
+    "chapterName": "珊瑚水道",
+    "theme": "coral",
+    "title": "珊瑚夜航",
+    "initial": {
+      "cash": 116,
+      "seed": 2787,
+      "capacity": 8,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 75,
+          "y": 190,
+          "w": 850,
+          "h": 95,
+          "vx": 20,
+          "vy": 0
+        },
+        {
+          "x": 75,
+          "y": 360,
+          "w": 850,
+          "h": 95,
+          "vx": -18,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 250,
+          "y": 420,
+          "r": 100
+        },
+        {
+          "x": 760,
+          "y": 410,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 30,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 58,
+          "kind": "armor",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 90,
+          "kind": "hunter",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 124,
+          "kind": "lure",
+          "x": 965,
+          "y": 150
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 5,
+      "healthyFor": 10,
+      "phases": [
+        {
+          "name": "珊瑚濾水台",
+          "cost": 34,
+          "meals": 9,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 54,
+          "meals": 17,
+          "adults": 4,
+          "kills": 2,
+          "born": 0
+        },
+        {
+          "name": "點亮「珊瑚夜航」",
+          "cost": 80,
+          "meals": 27,
+          "adults": 5,
+          "kills": 4,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "第二章綜合",
+      "cross"
+    ],
+    "intendedDecision": "交叉水流與三種入侵者同場，保留一份補給到最後。",
+    "distinctnessRationale": "珊瑚夜航：第二章綜合；5 尾起始魚、4 波訪客、0 次育幼；cross 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "13",
+    "chapter": 3,
+    "chapterName": "月影警戒",
+    "theme": "moon",
+    "title": "月下巡邏",
+    "initial": {
+      "cash": 121,
+      "seed": 2960,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "nurse",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 110,
+          "w": 350,
+          "h": 300,
+          "vx": 7,
+          "vy": 10
+        },
+        {
+          "x": 600,
+          "y": 110,
+          "w": 340,
+          "h": 300,
+          "vx": -7,
+          "vy": 10
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 440,
+          "r": 100
+        },
+        {
+          "x": 790,
+          "y": 435,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 28,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 60,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 93,
+          "kind": "hunter",
+          "x": 35,
+          "y": 270
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 4,
+      "healthyFor": 11,
+      "phases": [
+        {
+          "name": "月影觀測燈",
+          "cost": 39,
+          "meals": 8,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 61,
+          "meals": 15,
+          "adults": 3,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「月下巡邏」",
+          "cost": 90,
+          "meals": 24,
+          "adults": 4,
+          "kills": 3,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "連續獵手",
+      "deep"
+    ],
+    "intendedDecision": "追潮刃連續巡弋，護住同一群魚比追敵人到邊角更有效。",
+    "distinctnessRationale": "月下巡邏：連續獵手；4 尾起始魚、3 波訪客、0 次育幼；deep 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "14",
+    "chapter": 3,
+    "chapterName": "月影警戒",
+    "theme": "moon",
+    "title": "沉睡的石門",
+    "initial": {
+      "cash": 121,
+      "seed": 3133,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "shield",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "pearl",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "shield",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 80,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": 15,
+          "vy": 0
+        },
+        {
+          "x": 580,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": -15,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 500,
+          "y": 390,
+          "r": 120
+        }
+      ],
+      "waves": [
+        {
+          "at": 30,
+          "kind": "armor",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 32,
+          "kind": "armor",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 90,
+          "kind": "lure",
+          "x": 35,
+          "y": 270
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 4,
+      "healthyFor": 11,
+      "phases": [
+        {
+          "name": "月影觀測燈",
+          "cost": 39,
+          "meals": 8,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 61,
+          "meals": 16,
+          "adults": 3,
+          "kills": 1,
+          "born": 0
+        },
+        {
+          "name": "點亮「沉睡的石門」",
+          "cost": 90,
+          "meals": 25,
+          "adults": 4,
+          "kills": 3,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "雙重裝甲",
+      "gate"
+    ],
+    "intendedDecision": "雙貝甲衛慢慢逼近，先集中擊退一隻再換邊。",
+    "distinctnessRationale": "沉睡的石門：雙重裝甲；4 尾起始魚、3 波訪客、0 次育幼；gate 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "15",
+    "chapter": 3,
+    "chapterName": "月影警戒",
+    "theme": "moon",
+    "title": "誘光的工作",
+    "initial": {
+      "cash": 121,
+      "seed": 3306,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "lantern",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "lure",
+        "collector"
+      ],
+      "currents": [],
+      "shelters": [
+        {
+          "x": 750,
+          "y": 400,
+          "r": 95
+        }
+      ],
+      "waves": [
+        {
+          "at": 26,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 52,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 81,
+          "kind": "hunter",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 111,
+          "kind": "lure",
+          "x": 965,
+          "y": 150
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 4,
+      "healthyFor": 11,
+      "phases": [
+        {
+          "name": "月影觀測燈",
+          "cost": 39,
+          "meals": 8,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 61,
+          "meals": 16,
+          "adults": 3,
+          "kills": 2,
+          "born": 0
+        },
+        {
+          "name": "點亮「誘光的工作」",
+          "cost": 90,
+          "meals": 25,
+          "adults": 4,
+          "kills": 4,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "誘餌夥伴",
+      "open"
+    ],
+    "intendedDecision": "誘光螢會把泡棘球帶到水面，魚群因此有更長的安全進食時間。",
+    "distinctnessRationale": "誘光的工作：誘餌夥伴；4 尾起始魚、4 波訪客、0 次育幼；open 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "16",
+    "chapter": 3,
+    "chapterName": "月影警戒",
+    "theme": "moon",
+    "title": "深水急診",
+    "initial": {
+      "cash": 125,
+      "seed": 3479,
+      "capacity": 8,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185,
+          "health": 55
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286,
+          "health": 60
+        },
+        {
+          "species": "shield",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "lantern",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        }
+      ],
+      "helpers": [
+        "nurse",
+        "feeder"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 110,
+          "w": 350,
+          "h": 300,
+          "vx": 7,
+          "vy": 10
+        },
+        {
+          "x": 600,
+          "y": 110,
+          "w": 340,
+          "h": 300,
+          "vx": -7,
+          "vy": 10
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 440,
+          "r": 100
+        },
+        {
+          "x": 790,
+          "y": 435,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 28,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 59,
+          "kind": "armor",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 86,
+          "kind": "hunter",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 118,
+          "kind": "lure",
+          "x": 965,
+          "y": 150
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 5,
+      "healthyFor": 11,
+      "phases": [
+        {
+          "name": "月影觀測燈",
+          "cost": 39,
+          "meals": 9,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 61,
+          "meals": 17,
+          "adults": 4,
+          "kills": 2,
+          "born": 0
+        },
+        {
+          "name": "點亮「深水急診」",
+          "cost": 90,
+          "meals": 27,
+          "adults": 5,
+          "kills": 4,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "療癒開局",
+      "deep"
+    ],
+    "intendedDecision": "有兩尾受傷魚等待照護，讓牠們先吃飽，暖燈鰩才會治療。",
+    "distinctnessRationale": "深水急診：療癒開局；5 尾起始魚、4 波訪客、0 次育幼；deep 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "17",
+    "chapter": 3,
+    "chapterName": "月影警戒",
+    "theme": "moon",
+    "title": "潮汐交班",
+    "initial": {
+      "cash": 125,
+      "seed": 3652,
+      "capacity": 8,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        }
+      ],
+      "helpers": [
+        "shield",
+        "feeder"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 200,
+          "w": 890,
+          "h": 135,
+          "vx": 20,
+          "vy": 0,
+          "period": 40
+        },
+        {
+          "x": 60,
+          "y": 350,
+          "w": 890,
+          "h": 100,
+          "vx": -15,
+          "vy": 0,
+          "period": 40
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 430,
+          "r": 115
+        },
+        {
+          "x": 730,
+          "y": 425,
+          "r": 115
+        }
+      ],
+      "waves": [
+        {
+          "at": 28,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 50,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 77,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 106,
+          "kind": "hunter",
+          "x": 965,
+          "y": 150
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 5,
+      "healthyFor": 11,
+      "phases": [
+        {
+          "name": "月影觀測燈",
+          "cost": 39,
+          "meals": 9,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 61,
+          "meals": 18,
+          "adults": 4,
+          "kills": 2,
+          "born": 0
+        },
+        {
+          "name": "點亮「潮汐交班」",
+          "cost": 90,
+          "meals": 28,
+          "adults": 5,
+          "kills": 4,
+          "born": 0,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "週期換潮",
+      "tide"
+    ],
+    "intendedDecision": "每二十秒水流反向；預警亮起時，先確認魚群飽足。",
+    "distinctnessRationale": "潮汐交班：週期換潮；5 尾起始魚、4 波訪客、0 次育幼；tide 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "18",
+    "chapter": 3,
+    "chapterName": "月影警戒",
+    "theme": "moon",
+    "title": "月影守望台",
+    "initial": {
+      "cash": 125,
+      "seed": 3825,
+      "capacity": 8,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        }
+      ],
+      "helpers": [
+        "nurse",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 110,
+          "w": 350,
+          "h": 300,
+          "vx": 7,
+          "vy": 10
+        },
+        {
+          "x": 600,
+          "y": 110,
+          "w": 340,
+          "h": 300,
+          "vx": -7,
+          "vy": 10
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 440,
+          "r": 100
+        },
+        {
+          "x": 790,
+          "y": 435,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 27,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 53,
+          "kind": "armor",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 80,
+          "kind": "lure",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 105,
+          "kind": "hunter",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 137,
+          "kind": "armor",
+          "x": 35,
+          "y": 410
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 5,
+      "healthyFor": 11,
+      "phases": [
+        {
+          "name": "月影觀測燈",
+          "cost": 39,
+          "meals": 10,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 61,
+          "meals": 19,
+          "adults": 4,
+          "kills": 2,
+          "born": 0
+        },
+        {
+          "name": "點亮「月影守望台」",
+          "cost": 90,
+          "meals": 30,
+          "adults": 5,
+          "kills": 5,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "第三章綜合",
+      "deep"
+    ],
+    "intendedDecision": "五次巡潮守住三座設施，擊退最後敵人後再把全缸照護到健康。",
+    "distinctnessRationale": "月影守望台：第三章綜合；5 尾起始魚、5 波訪客、0 次育幼；deep 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "19",
+    "chapter": 4,
+    "chapterName": "新生花園",
+    "theme": "garden",
+    "title": "第一尾新生命",
+    "initial": {
+      "cash": 130,
+      "seed": 3998,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 100,
+          "w": 880,
+          "h": 85,
+          "vx": 10,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 410,
+          "r": 135
+        },
+        {
+          "x": 735,
+          "y": 405,
+          "r": 135
+        }
+      ],
+      "waves": [
+        {
+          "at": 36,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 79,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 5,
+      "healthyFor": 12,
+      "phases": [
+        {
+          "name": "育幼避風港",
+          "cost": 44,
+          "meals": 8,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 68,
+          "meals": 16,
+          "adults": 3,
+          "kills": 1,
+          "born": 1
+        },
+        {
+          "name": "點亮「第一尾新生命」",
+          "cost": 100,
+          "meals": 25,
+          "adults": 4,
+          "kills": 2,
+          "born": 1,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "安全育幼",
+      "nursery"
+    ],
+    "intendedDecision": "開啟繁殖，兩尾同種成魚吃飽後會育幼；出生一尾即可關閉。",
+    "distinctnessRationale": "第一尾新生命：安全育幼；4 尾起始魚、2 波訪客、1 次育幼；nursery 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "20",
+    "chapter": 4,
+    "chapterName": "新生花園",
+    "theme": "garden",
+    "title": "綠緞育幼室",
+    "initial": {
+      "cash": 130,
+      "seed": 4171,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "pearl",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "nurse"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 100,
+          "w": 880,
+          "h": 85,
+          "vx": 10,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 410,
+          "r": 135
+        },
+        {
+          "x": 735,
+          "y": 405,
+          "r": 135
+        }
+      ],
+      "waves": [
+        {
+          "at": 31,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 70,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 108,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 5,
+      "healthyFor": 12,
+      "phases": [
+        {
+          "name": "育幼避風港",
+          "cost": 44,
+          "meals": 9,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 68,
+          "meals": 17,
+          "adults": 3,
+          "kills": 1,
+          "born": 1
+        },
+        {
+          "name": "點亮「綠緞育幼室」",
+          "cost": 100,
+          "meals": 27,
+          "adults": 4,
+          "kills": 3,
+          "born": 1,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "藻食繁殖",
+      "nursery"
+    ],
+    "intendedDecision": "綠緞成魚要留足飽足才能育幼，不要把所有貝幣先花在建設。",
+    "distinctnessRationale": "綠緞育幼室：藻食繁殖；4 尾起始魚、3 波訪客、1 次育幼；nursery 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "21",
+    "chapter": 4,
+    "chapterName": "新生花園",
+    "theme": "garden",
+    "title": "家的兩個出口",
+    "initial": {
+      "cash": 134,
+      "seed": 4344,
+      "capacity": 8,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        }
+      ],
+      "helpers": [
+        "shield",
+        "collector"
+      ],
+      "currents": [],
+      "shelters": [
+        {
+          "x": 230,
+          "y": 410,
+          "r": 100
+        },
+        {
+          "x": 780,
+          "y": 400,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 29,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 31,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 83,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 119,
+          "kind": "lure",
+          "x": 965,
+          "y": 150
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 6,
+      "healthyFor": 12,
+      "phases": [
+        {
+          "name": "育幼避風港",
+          "cost": 44,
+          "meals": 9,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 68,
+          "meals": 18,
+          "adults": 4,
+          "kills": 2,
+          "born": 1
+        },
+        {
+          "name": "點亮「家的兩個出口」",
+          "cost": 100,
+          "meals": 29,
+          "adults": 5,
+          "kills": 4,
+          "born": 1,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "幼魚撤護",
+      "islands"
+    ],
+    "intendedDecision": "雙出口同時來襲時按泡泡保護新生魚，穩住後再集中點擊。",
+    "distinctnessRationale": "家的兩個出口：幼魚撤護；5 尾起始魚、4 波訪客、1 次育幼；islands 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "22",
+    "chapter": 4,
+    "chapterName": "新生花園",
+    "theme": "garden",
+    "title": "雙色搖籃",
+    "initial": {
+      "cash": 130,
+      "seed": 4517,
+      "capacity": 7,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "ribbon",
+          "x": 631,
+          "y": 243
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 100,
+          "w": 880,
+          "h": 85,
+          "vx": 10,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 410,
+          "r": 135
+        },
+        {
+          "x": 735,
+          "y": 405,
+          "r": 135
+        }
+      ],
+      "waves": [
+        {
+          "at": 29,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 61,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 95,
+          "kind": "lure",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 128,
+          "kind": "armor",
+          "x": 965,
+          "y": 150
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 6,
+      "healthyFor": 12,
+      "phases": [
+        {
+          "name": "育幼避風港",
+          "cost": 44,
+          "meals": 10,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 68,
+          "meals": 19,
+          "adults": 3,
+          "kills": 2,
+          "born": 1
+        },
+        {
+          "name": "點亮「雙色搖籃」",
+          "cost": 100,
+          "meals": 30,
+          "adults": 4,
+          "kills": 4,
+          "born": 2,
+          "diets": 2
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "雙次育幼",
+      "nursery"
+    ],
+    "intendedDecision": "需要兩尾新生魚；擴編會加快產幣，也會增加補食責任。",
+    "distinctnessRationale": "雙色搖籃：雙次育幼；4 尾起始魚、4 波訪客、2 次育幼；nursery 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "23",
+    "chapter": 4,
+    "chapterName": "新生花園",
+    "theme": "garden",
+    "title": "燈籠的小夜燈",
+    "initial": {
+      "cash": 134,
+      "seed": 4690,
+      "capacity": 8,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "lantern",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        }
+      ],
+      "helpers": [
+        "lure",
+        "nurse"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 200,
+          "w": 890,
+          "h": 135,
+          "vx": 20,
+          "vy": 0,
+          "period": 40
+        },
+        {
+          "x": 60,
+          "y": 350,
+          "w": 890,
+          "h": 100,
+          "vx": -15,
+          "vy": 0,
+          "period": 40
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 430,
+          "r": 115
+        },
+        {
+          "x": 730,
+          "y": 425,
+          "r": 115
+        }
+      ],
+      "waves": [
+        {
+          "at": 28,
+          "kind": "armor",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 58,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 88,
+          "kind": "hunter",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 119,
+          "kind": "lure",
+          "x": 965,
+          "y": 150
+        }
+      ],
+      "rescueCharges": 2
+    },
+    "objective": {
+      "minFish": 6,
+      "healthyFor": 12,
+      "phases": [
+        {
+          "name": "育幼避風港",
+          "cost": 44,
+          "meals": 10,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 68,
+          "meals": 19,
+          "adults": 4,
+          "kills": 2,
+          "born": 1
+        },
+        {
+          "name": "點亮「燈籠的小夜燈」",
+          "cost": 100,
+          "meals": 30,
+          "adults": 5,
+          "kills": 4,
+          "born": 1,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "活餌育幼",
+      "tide"
+    ],
+    "intendedDecision": "燈籠成對育幼，活餌較貴但成年收益更高；誘光螢替牠們分散敵人。",
+    "distinctnessRationale": "燈籠的小夜燈：活餌育幼；5 尾起始魚、4 波訪客、1 次育幼；tide 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "24",
+    "chapter": 4,
+    "chapterName": "新生花園",
+    "theme": "garden",
+    "title": "新生花園",
+    "initial": {
+      "cash": 138,
+      "seed": 4863,
+      "capacity": 9,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "ribbon",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "lantern",
+          "x": 768,
+          "y": 344
+        },
+        {
+          "species": "shield",
+          "x": 315,
+          "y": 200
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "nurse"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 100,
+          "w": 880,
+          "h": 85,
+          "vx": 10,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 410,
+          "r": 135
+        },
+        {
+          "x": 735,
+          "y": 405,
+          "r": 135
+        }
+      ],
+      "waves": [
+        {
+          "at": 28,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 53,
+          "kind": "lure",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 79,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 109,
+          "kind": "hunter",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 142,
+          "kind": "armor",
+          "x": 35,
+          "y": 410
+        }
+      ],
+      "rescueCharges": 3
+    },
+    "objective": {
+      "minFish": 8,
+      "healthyFor": 12,
+      "phases": [
+        {
+          "name": "育幼避風港",
+          "cost": 44,
+          "meals": 11,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 68,
+          "meals": 22,
+          "adults": 5,
+          "kills": 2,
+          "born": 1
+        },
+        {
+          "name": "點亮「新生花園」",
+          "cost": 100,
+          "meals": 34,
+          "adults": 6,
+          "kills": 5,
+          "born": 2,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "第四章綜合",
+      "nursery"
+    ],
+    "intendedDecision": "三食性、兩尾新生與五波巡潮，保護和餵食都要顧，但每次都有預警。",
+    "distinctnessRationale": "新生花園：第四章綜合；6 尾起始魚、5 波訪客、2 次育幼；nursery 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "25",
+    "chapter": 5,
+    "chapterName": "深藍燈塔",
+    "theme": "abyss",
+    "title": "遠洋補給站",
+    "initial": {
+      "cash": 72,
+      "seed": 5036,
+      "capacity": 8,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        }
+      ],
+      "helpers": [
+        "cleaner",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 75,
+          "y": 190,
+          "w": 850,
+          "h": 95,
+          "vx": 20,
+          "vy": 0
+        },
+        {
+          "x": 75,
+          "y": 360,
+          "w": 850,
+          "h": 95,
+          "vx": -18,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 250,
+          "y": 420,
+          "r": 100
+        },
+        {
+          "x": 760,
+          "y": 410,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 26,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 52,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 77,
+          "kind": "lure",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 102,
+          "kind": "armor",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 132,
+          "kind": "hunter",
+          "x": 35,
+          "y": 410
+        }
+      ],
+      "rescueCharges": 3
+    },
+    "objective": {
+      "minFish": 5,
+      "healthyFor": 13,
+      "phases": [
+        {
+          "name": "深藍保育塔",
+          "cost": 49,
+          "meals": 10,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 75,
+          "meals": 20,
+          "adults": 4,
+          "kills": 2,
+          "born": 0
+        },
+        {
+          "name": "點亮「遠洋補給站」",
+          "cost": 110,
+          "meals": 31,
+          "adults": 5,
+          "kills": 5,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "低資金調度",
+      "cross"
+    ],
+    "intendedDecision": "開局貝幣偏少，先長大產幣；補給箱能挽救一次錯誤採購。",
+    "distinctnessRationale": "遠洋補給站：低資金調度；5 尾起始魚、5 波訪客、0 次育幼；cross 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "26",
+    "chapter": 5,
+    "chapterName": "深藍燈塔",
+    "theme": "abyss",
+    "title": "深藍雙門",
+    "initial": {
+      "cash": 147,
+      "seed": 5209,
+      "capacity": 9,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "lantern",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "shield",
+          "x": 768,
+          "y": 344
+        },
+        {
+          "species": "pearl",
+          "x": 315,
+          "y": 200
+        }
+      ],
+      "helpers": [
+        "shield",
+        "nurse"
+      ],
+      "currents": [
+        {
+          "x": 455,
+          "y": 85,
+          "w": 90,
+          "h": 440,
+          "vx": 0,
+          "vy": 16
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 430,
+          "r": 105
+        },
+        {
+          "x": 790,
+          "y": 425,
+          "r": 105
+        }
+      ],
+      "waves": [
+        {
+          "at": 26,
+          "kind": "armor",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 28,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 72,
+          "kind": "lure",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 100,
+          "kind": "armor",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 130,
+          "kind": "hunter",
+          "x": 35,
+          "y": 410
+        }
+      ],
+      "rescueCharges": 3
+    },
+    "objective": {
+      "minFish": 6,
+      "healthyFor": 13,
+      "phases": [
+        {
+          "name": "深藍保育塔",
+          "cost": 49,
+          "meals": 11,
+          "adults": 2
+        },
+        {
+          "name": "建立生態廊道",
+          "cost": 75,
+          "meals": 22,
+          "adults": 5,
+          "kills": 2,
+          "born": 0
+        },
+        {
+          "name": "點亮「深藍雙門」",
+          "cost": 110,
+          "meals": 34,
+          "adults": 6,
+          "kills": 5,
+          "born": 0,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "混合優先順序",
+      "split"
+    ],
+    "intendedDecision": "快慢兩種敵人夾擊；貝甲衛走得慢，先處理正在蓄勢的追潮刃。",
+    "distinctnessRationale": "深藍雙門：混合優先順序；6 尾起始魚、5 波訪客、0 次育幼；split 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "27",
+    "chapter": 5,
+    "chapterName": "深藍燈塔",
+    "theme": "abyss",
+    "title": "翻潮之夜",
+    "initial": {
+      "cash": 147,
+      "seed": 5382,
+      "capacity": 9,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ribbon",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "lantern",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "shield",
+          "x": 768,
+          "y": 344
+        },
+        {
+          "species": "pearl",
+          "x": 315,
+          "y": 200
+        }
+      ],
+      "helpers": [
+        "lure",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 200,
+          "w": 890,
+          "h": 135,
+          "vx": 20,
+          "vy": 0,
+          "period": 40
+        },
+        {
+          "x": 60,
+          "y": 350,
+          "w": 890,
+          "h": 100,
+          "vx": -15,
+          "vy": 0,
+          "period": 40
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 430,
+          "r": 115
+        },
+        {
+          "x": 730,
+          "y": 425,
+          "r": 115
+        }
+      ],
+      "waves": [
+        {
+          "at": 25,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 48,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 74,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 99,
+          "kind": "lure",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 126,
+          "kind": "hunter",
+          "x": 35,
+          "y": 410
+        },
+        {
+          "at": 152,
+          "kind": "armor",
+          "x": 965,
+          "y": 300
+        }
+      ],
+      "rescueCharges": 3
+    },
+    "objective": {
+      "minFish": 7,
+      "healthyFor": 13,
+      "phases": [
+        {
+          "name": "深藍保育塔",
+          "cost": 49,
+          "meals": 12,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 75,
+          "meals": 23,
+          "adults": 5,
+          "kills": 3,
+          "born": 1
+        },
+        {
+          "name": "點亮「翻潮之夜」",
+          "cost": 110,
+          "meals": 36,
+          "adults": 6,
+          "kills": 6,
+          "born": 1,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "反向潮流育幼",
+      "tide"
+    ],
+    "intendedDecision": "換潮時食物漂向另一側，誘餌夥伴與智慧投食能降低多工負担。",
+    "distinctnessRationale": "翻潮之夜：反向潮流育幼；6 尾起始魚、6 波訪客、1 次育幼；tide 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "28",
+    "chapter": 5,
+    "chapterName": "深藍燈塔",
+    "theme": "abyss",
+    "title": "雙子守護燈",
+    "initial": {
+      "cash": 147,
+      "seed": 5555,
+      "capacity": 9,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "lantern",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "shield",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "pearl",
+          "x": 768,
+          "y": 344
+        },
+        {
+          "species": "pearl",
+          "x": 315,
+          "y": 200
+        }
+      ],
+      "helpers": [
+        "shield",
+        "feeder"
+      ],
+      "currents": [
+        {
+          "x": 80,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": 15,
+          "vy": 0
+        },
+        {
+          "x": 580,
+          "y": 210,
+          "w": 340,
+          "h": 100,
+          "vx": -15,
+          "vy": 0
+        }
+      ],
+      "shelters": [
+        {
+          "x": 500,
+          "y": 390,
+          "r": 120
+        }
+      ],
+      "waves": [
+        {
+          "at": 25,
+          "kind": "hunter",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 27,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 73,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 75,
+          "kind": "armor",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 126,
+          "kind": "lure",
+          "x": 35,
+          "y": 410
+        },
+        {
+          "at": 154,
+          "kind": "hunter",
+          "x": 965,
+          "y": 300
+        }
+      ],
+      "rescueCharges": 3
+    },
+    "objective": {
+      "minFish": 7,
+      "healthyFor": 13,
+      "phases": [
+        {
+          "name": "深藍保育塔",
+          "cost": 49,
+          "meals": 12,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 75,
+          "meals": 23,
+          "adults": 5,
+          "kills": 3,
+          "born": 1
+        },
+        {
+          "name": "點亮「雙子守護燈」",
+          "cost": 110,
+          "meals": 36,
+          "adults": 6,
+          "kills": 6,
+          "born": 1,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "成對波次",
+      "gate"
+    ],
+    "intendedDecision": "雙波之間有喘息空間，把泡泡留給衝刺，將收入分給營養與建設。",
+    "distinctnessRationale": "雙子守護燈：成對波次；6 尾起始魚、6 波訪客、1 次育幼；gate 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "29",
+    "chapter": 5,
+    "chapterName": "深藍燈塔",
+    "theme": "abyss",
+    "title": "星海回聲",
+    "initial": {
+      "cash": 151,
+      "seed": 5728,
+      "capacity": 10,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "ribbon",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "lantern",
+          "x": 768,
+          "y": 344
+        },
+        {
+          "species": "shield",
+          "x": 315,
+          "y": 200
+        },
+        {
+          "species": "pearl",
+          "x": 452,
+          "y": 301
+        }
+      ],
+      "helpers": [
+        "nurse",
+        "collector"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 110,
+          "w": 350,
+          "h": 300,
+          "vx": 7,
+          "vy": 10
+        },
+        {
+          "x": 600,
+          "y": 110,
+          "w": 340,
+          "h": 300,
+          "vx": -7,
+          "vy": 10
+        }
+      ],
+      "shelters": [
+        {
+          "x": 220,
+          "y": 440,
+          "r": 100
+        },
+        {
+          "x": 790,
+          "y": 435,
+          "r": 100
+        }
+      ],
+      "waves": [
+        {
+          "at": 25,
+          "kind": "armor",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 50,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 74,
+          "kind": "lure",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 100,
+          "kind": "hunter",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 128,
+          "kind": "armor",
+          "x": 35,
+          "y": 410
+        },
+        {
+          "at": 155,
+          "kind": "lure",
+          "x": 965,
+          "y": 300
+        }
+      ],
+      "rescueCharges": 3
+    },
+    "objective": {
+      "minFish": 9,
+      "healthyFor": 13,
+      "phases": [
+        {
+          "name": "深藍保育塔",
+          "cost": 49,
+          "meals": 13,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 75,
+          "meals": 25,
+          "adults": 6,
+          "kills": 3,
+          "born": 1
+        },
+        {
+          "name": "點亮「星海回聲」",
+          "cost": 110,
+          "meals": 39,
+          "adults": 7,
+          "kills": 6,
+          "born": 2,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "大群落節奏",
+      "deep"
+    ],
+    "intendedDecision": "魚群多但照護窗口充足；育幼達標後關閉繁殖，避免把自己忙壞。",
+    "distinctnessRationale": "星海回聲：大群落節奏；7 尾起始魚、6 波訪客、2 次育幼；deep 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  },
+  {
+    "id": "30",
+    "chapter": 5,
+    "chapterName": "深藍燈塔",
+    "theme": "abyss",
+    "title": "奇潮生命展館",
+    "initial": {
+      "cash": 151,
+      "seed": 5901,
+      "capacity": 10,
+      "fish": [
+        {
+          "species": "ember",
+          "x": 220,
+          "y": 185
+        },
+        {
+          "species": "ember",
+          "x": 357,
+          "y": 286
+        },
+        {
+          "species": "ribbon",
+          "x": 494,
+          "y": 387
+        },
+        {
+          "species": "ribbon",
+          "x": 631,
+          "y": 243
+        },
+        {
+          "species": "lantern",
+          "x": 768,
+          "y": 344
+        },
+        {
+          "species": "shield",
+          "x": 315,
+          "y": 200
+        },
+        {
+          "species": "pearl",
+          "x": 452,
+          "y": 301
+        }
+      ],
+      "helpers": [
+        "feeder",
+        "nurse"
+      ],
+      "currents": [
+        {
+          "x": 60,
+          "y": 200,
+          "w": 890,
+          "h": 135,
+          "vx": 20,
+          "vy": 0,
+          "period": 40
+        },
+        {
+          "x": 60,
+          "y": 350,
+          "w": 890,
+          "h": 100,
+          "vx": -15,
+          "vy": 0,
+          "period": 40
+        }
+      ],
+      "shelters": [
+        {
+          "x": 260,
+          "y": 430,
+          "r": 115
+        },
+        {
+          "x": 730,
+          "y": 425,
+          "r": 115
+        }
+      ],
+      "waves": [
+        {
+          "at": 25,
+          "kind": "lure",
+          "x": 35,
+          "y": 190
+        },
+        {
+          "at": 48,
+          "kind": "hunter",
+          "x": 965,
+          "y": 390
+        },
+        {
+          "at": 72,
+          "kind": "armor",
+          "x": 35,
+          "y": 270
+        },
+        {
+          "at": 99,
+          "kind": "hunter",
+          "x": 965,
+          "y": 150
+        },
+        {
+          "at": 126,
+          "kind": "armor",
+          "x": 35,
+          "y": 410
+        },
+        {
+          "at": 154,
+          "kind": "lure",
+          "x": 965,
+          "y": 300
+        },
+        {
+          "at": 184,
+          "kind": "hunter",
+          "x": 35,
+          "y": 230
+        }
+      ],
+      "rescueCharges": 3
+    },
+    "objective": {
+      "minFish": 9,
+      "healthyFor": 13,
+      "phases": [
+        {
+          "name": "深藍保育塔",
+          "cost": 49,
+          "meals": 14,
+          "adults": 2
+        },
+        {
+          "name": "建立育幼記錄",
+          "cost": 75,
+          "meals": 27,
+          "adults": 6,
+          "kills": 3,
+          "born": 1
+        },
+        {
+          "name": "點亮「奇潮生命展館」",
+          "cost": 110,
+          "meals": 42,
+          "adults": 7,
+          "kills": 7,
+          "born": 2,
+          "diets": 3
+        }
+      ]
+    },
+    "mechanicFocus": [
+      "終章協奏",
+      "tide"
+    ],
+    "intendedDecision": "完整展館需要三食性、兩尾新生與七次防守。三份救援補給讓失誤仍有回復空間。",
+    "distinctnessRationale": "奇潮生命展館：終章協奏；7 尾起始魚、7 波訪客、2 次育幼；tide 棲地。",
+    "estimatedMinutes": [
+      3,
+      6
+    ],
+    "estimateStatus": "design_estimate_not_human_timed",
+    "campaign": "wondertide-30-v2"
+  }
+]
